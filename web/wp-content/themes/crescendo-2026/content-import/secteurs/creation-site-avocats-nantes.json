@@ -144,7 +144,7 @@
         "text": "Développement WordPress sur mesure avec administration simplifiée."
       }
     ],
-    "secteur-case-project-url": "/realisations/gide/",
+    "secteur-case-project-url": "/realisations/cma-associes/",
     "secteur-pricing-title": "Combien coûte un site internet pour avocat à Nantes ?",
     "secteur-pricing-price": "350€",
     "secteur-pricing-price-suffix": "/mois",
@@ -216,23 +216,23 @@
       },
       {
         "name": "Saint-Herblain",
-        "url": "/creation-site-web-saint-herblain/"
+        "url": "/agence-web-saint-herblain/"
       },
       {
         "name": "Rezé",
-        "url": "/creation-site-web-reze/"
+        "url": "/agence-web-reze/"
       },
       {
         "name": "Orvault",
-        "url": "/creation-site-web-orvault/"
+        "url": "/agence-web-orvault/"
       },
       {
         "name": "Saint-Nazaire",
-        "url": "/creation-site-web-saint-nazaire/"
+        "url": "/agence-web-saint-nazaire/"
       },
       {
         "name": "Carquefou",
-        "url": "/creation-site-web-carquefou/"
+        "url": "/agence-web-carquefou/"
       }
     ],
     "secteur-area-see-all": {
@@ -280,7 +280,7 @@
     "secteur-related-sectors": [
       {
         "title": "Expert-comptable",
-        "url": "/creation-site-expert-comptable-nantes/"
+        "url": "/secteurs/creation-site-avocat-nantes/"
       },
       {
         "title": "Immobilier",
@@ -288,11 +288,11 @@
       },
       {
         "title": "Consultant",
-        "url": "/creation-site-consultant-nantes/"
+        "url": "/secteurs/creation-site-avocat-nantes/"
       },
       {
         "title": "Cabinet de conseil",
-        "url": "/creation-site-cabinet-conseil-nantes/"
+        "url": "/secteurs/creation-site-avocat-nantes/"
       },
       {
         "title": "PME",
@@ -300,7 +300,7 @@
       },
       {
         "title": "Profession libérale",
-        "url": "/creation-site-profession-liberale-nantes/"
+        "url": "/secteurs/creation-site-avocat-nantes/"
       }
     ],
     "secteur-final-cta-title": "Votre expertise mérite un site à la hauteur de votre cabinet",

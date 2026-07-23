@@ -377,7 +377,7 @@ SECTORS = [
             {"text": "Navigation claire et performances optimisées"},
             {"text": "Administration simplifiée pour équipes non techniques"},
         ],
-        "case_url": "/realisations/gide/",
+        "case_url": "/realisations/cma-associes/",
         "pricing_title": "Combien coûte un site web pour association à Nantes ?",
         "faq_title": "FAQ site web association",
         "faqs": [

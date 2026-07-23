@@ -79,7 +79,7 @@ PAGES = [
             "service-projects-title": "Des sites livrés pour des secteurs exigeants.",
             "service-projects": [
                 {"title": "Maison Jaden", "category": "Construction", "tags": "WordPress · CRM · SEO", "url": "/realisations/maison-jaden/"},
-                {"title": "Gide", "category": "Cabinet d'avocats", "tags": "WordPress · Multilingue", "url": "/realisations/gide/"},
+                {"title": "Gide", "category": "Cabinet d'avocats", "tags": "WordPress · Multilingue", "url": "/realisations/cma-associes/"},
                 {"title": "Padam Immo", "category": "Immobilier", "tags": "WordPress · SEO local", "url": "/realisations/padam-immo/"},
             ],
             "service-method-eyebrow": "Notre méthode",
@@ -230,7 +230,7 @@ PAGES = [
             "service-hero-title": "Refonte de site WordPress à Nantes",
             "service-hero-intro": "Votre site WordPress est lent, daté ou non responsive ? Nous refondons votre plateforme sans sacrifier votre référencement : audit technique, conservation des URLs performantes, design sur mesure et migration sécurisée vers un WordPress moderne.",
             "service-hero-cta-primary": {"title": "Demander un audit gratuit", "url": "#contact", "target": ""},
-            "service-hero-cta-secondary": {"title": "Voir une refonte réalisée", "url": "/realisations/gide/", "target": ""},
+            "service-hero-cta-secondary": {"title": "Voir une refonte réalisée", "url": "/realisations/cma-associes/", "target": ""},
             "service-hero-note": "Audit et recommandations sous 48h",
             "service-benefits": [
                 {"title": "SEO préservé", "text": "Redirections 301, conservation des pages indexées, audit des positions."},
@@ -280,7 +280,7 @@ PAGES = [
             "service-projects-eyebrow": "Refontes livrées",
             "service-projects-title": "Des sites modernisés sans rupture SEO.",
             "service-projects": [
-                {"title": "Gide", "category": "Cabinet international", "tags": "Refonte · Multilingue · API", "url": "/realisations/gide/"},
+                {"title": "Gide", "category": "Cabinet international", "tags": "Refonte · Multilingue · API", "url": "/realisations/cma-associes/"},
                 {"title": "Padam Immo", "category": "Immobilier", "tags": "Refonte · SEO local", "url": "/realisations/padam-immo/"},
                 {"title": "Maison Jaden", "category": "Construction", "tags": "WordPress · CRM", "url": "/realisations/maison-jaden/"},
             ],

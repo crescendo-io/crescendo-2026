@@ -24,39 +24,39 @@ return array(
     'home-services-title' => 'Des solutions web sur mesure pour développer votre activité',
     'home-services-link' => array(
         'title' => 'Voir tous nos services',
-        'url' => '#',
+        'url' => '/services/',
         'target' => '',
     ),
     'home-services-items' => array(
         array(
             'title' => 'Création de site internet',
             'text' => 'Site WordPress sur mesure, optimisé SEO et pensé pour convertir vos visiteurs en clients.',
-            'url' => '#',
+            'url' => '/services/creation-site-web-nantes/',
         ),
         array(
             'title' => 'CRM sur mesure',
             'text' => 'Connectez votre site à un CRM adapté à votre métier. Fini Excel, fini les leads perdus.',
-            'url' => '#',
+            'url' => '/services/crm-sur-mesure-nantes/',
         ),
         array(
             'title' => 'Location de site internet',
             'text' => 'Site professionnel dès 350€/mois : création, hébergement, maintenance. Zéro frais de création.',
-            'url' => '#tarifs',
+            'url' => '/services/location-site-internet/',
         ),
         array(
             'title' => 'Refonte WordPress',
             'text' => 'Modernisez votre site sans perdre votre référencement. Audit, migration et optimisation SEO.',
-            'url' => '#',
+            'url' => '/services/refonte-site-wordpress/',
         ),
         array(
             'title' => 'Site e-commerce WooCommerce',
             'text' => 'Boutique en ligne performante avec paiement sécurisé, gestion des stocks et SEO produits.',
-            'url' => '#',
+            'url' => '/services/creation-site-ecommerce-nantes/',
         ),
         array(
             'title' => 'Maintenance WordPress',
             'text' => 'Mises à jour, sauvegardes, sécurité et support réactif pour un site toujours opérationnel.',
-            'url' => '#',
+            'url' => '/services/maintenance-wordpress/',
         ),
     ),
     'home-why-eyebrow' => 'Pourquoi Crescendo à Nantes ?',
@@ -122,7 +122,7 @@ return array(
     ),
     'home-crm-cta' => array(
         'title' => 'Découvrir le CRM',
-        'url' => '#',
+        'url' => '/services/crm-sur-mesure-nantes/',
         'target' => '',
     ),
     'home-testimonials-eyebrow' => 'Nos clients parlent de nous',

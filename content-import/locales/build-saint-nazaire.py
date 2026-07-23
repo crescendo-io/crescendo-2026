@@ -53,7 +53,7 @@ SECTION_STRATEGIE = """
 <p>Le référencement local repose sur trois piliers : un site techniquement sain (vitesse, HTTPS, structure sémantique), des contenus géolocalisés pertinents (pages par zone d'intervention, mentions de l'agglo), et une fiche Google Business Profile cohérente avec votre site. Nous intégrons le balisage schema.org LocalBusiness et Service pour aider les moteurs à comprendre votre zone et vos prestations.</p>
 <p>Pour les entreprises qui visent au-delà du bassin nazairien — clients à Nantes, La Roche-sur-Yon ou Paris — nous complétons le SEO local par une stratégie de contenu métier. Notre équipe SEO intervient via la page <a href="/services/agence-seo-nantes/">agence SEO Nantes</a>, avec des actions adaptées aux PME industrielles et aux artisans.</p>
 <h3>Preuves et crédibilité (EEAT)</h3>
-<p>Google valorise l'expérience, l'expertise, l'autorité et la confiance. Pour une PME de Saint-Nazaire, cela se traduit par : études de cas détaillées (<a href="/realisations/maison-jaden/">Maison Jaden</a>, <a href="/realisations/gide/">Gide</a>, <a href="/realisations/padam-immo/">Padam Immo</a>), avis clients vérifiables, pages auteur ou équipe, certifications et partenariats locaux mentionnés explicitement.</p>
+<p>Google valorise l'expérience, l'expertise, l'autorité et la confiance. Pour une PME de Saint-Nazaire, cela se traduit par : études de cas détaillées (<a href="/realisations/maison-jaden/">Maison Jaden</a>, <a href="/realisations/cma-associes/">Gide</a>, <a href="/realisations/padam-immo/">Padam Immo</a>), avis clients vérifiables, pages auteur ou équipe, certifications et partenariats locaux mentionnés explicitement.</p>
 <p>Nous refusons le contenu générique du type « leader de la communication digitale ». Chaque page que nous rédigeons répond à une question précise que se pose votre prospect — délai de mise en ligne, budget, maintenance, compatibilité mobile — avec des chiffres et des exemples concrets. Le projet <a href="/realisations/bag-x-pro/">Bag X Pro</a> illustre par exemple comment un site vitrine B2B bien structuré peut soutenir une croissance commerciale en Loire-Atlantique.</p>
 <h3>Maillage interne et conversion</h3>
 <p>Les liens entre vos pages de services, vos études de cas et vos pages locales renforcent la compréhension globale de votre offre par Google et orientent le visiteur vers la prise de contact. Nous construisons ce maillage dès la conception, sans sur-optimisation ni ancres artificielles.</p>
@@ -310,7 +310,7 @@ DATA = {
                     "Refonte complète du site d'un cabinet professionnel. Architecture claire, performances "
                     "optimisées, administration simplifiée pour une équipe non technique."
                 ),
-                "url": "/realisations/gide/",
+                "url": "/realisations/cma-associes/",
             },
             {
                 "title": "Padam Immo",

@@ -25,7 +25,7 @@
     },
     "service-hero-cta-secondary": {
       "title": "Voir une refonte réalisée",
-      "url": "/realisations/gide/",
+      "url": "/realisations/cma-associes/",
       "target": ""
     },
     "service-hero-note": "Audit et recommandations sous 48h",
@@ -157,7 +157,7 @@
         "title": "Gide",
         "category": "Cabinet international",
         "tags": "Refonte · Multilingue · API",
-        "url": "/realisations/gide/"
+        "url": "/realisations/cma-associes/"
       },
       {
         "title": "Padam Immo",

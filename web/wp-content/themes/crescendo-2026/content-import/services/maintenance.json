@@ -142,12 +142,12 @@
       {
         "title": "Site e-commerce",
         "text": "Limitez les interruptions de vente, les erreurs de paiement et les incompatibilités techniques.",
-        "url": "/creation-site-ecommerce/"
+        "url": "/services/creation-site-ecommerce-nantes/"
       },
       {
         "title": "Site métier",
         "text": "Maintenez les connexions avec vos CRM, API, formulaires et outils internes.",
-        "url": "/crm-sur-mesure/"
+        "url": "/services/crm-sur-mesure-nantes/"
       }
     ],
     "service-projects-eyebrow": "Sites accompagnés",
@@ -169,7 +169,7 @@
         "title": "Gide",
         "category": "Cabinet d'avocats",
         "tags": "WordPress · Multilingue · Support",
-        "url": "/realisations/gide/"
+        "url": "/realisations/cma-associes/"
       }
     ],
     "service-method-eyebrow": "Notre méthode",
