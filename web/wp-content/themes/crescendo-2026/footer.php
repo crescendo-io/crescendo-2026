@@ -3,17 +3,7 @@ $description = get_field('params-footer-description', 'option') ?: 'Agence web �
 $phone = get_field('params-footer-phone', 'option');
 $email = get_field('params-footer-email', 'option');
 $address = get_field('params-footer-address', 'option') ?: 'Nantes, Loire-Atlantique (44)';
-
-$footerServices = array(
-    'Création de site internet', 'CRM sur mesure', 'Location 350€/mois',
-    'Refonte WordPress', 'Site e-commerce', 'Maintenance',
-);
-$footerSectors = array(
-    'Artisan', 'Avocat', 'Immobilier', 'Restaurant', 'Coach', 'B2B',
-);
-$footerCities = array(
-    'Saint-Herblain', 'Rezé', 'Orvault', 'Carquefou', 'Bouguenais',
-);
+$footerColumns = crescendo_get_footer_nav_columns();
 ?>
 <footer class="site-footer" role="contentinfo" data-module="footer" data-context="@visible true">
     <div class="container site-footer__top">
@@ -22,32 +12,19 @@ $footerCities = array(
             <p><?php echo esc_html($description); ?></p>
         </div>
 
-        <div class="site-footer__col">
-            <h3>Services</h3>
-            <ul>
-                <?php foreach ($footerServices as $item) : ?>
-                    <li><a href="#"><?php echo esc_html($item); ?></a></li>
-                <?php endforeach; ?>
-            </ul>
-        </div>
-
-        <div class="site-footer__col">
-            <h3>Secteurs</h3>
-            <ul>
-                <?php foreach ($footerSectors as $item) : ?>
-                    <li><a href="#"><?php echo esc_html($item); ?></a></li>
-                <?php endforeach; ?>
-            </ul>
-        </div>
-
-        <div class="site-footer__col">
-            <h3>Villes</h3>
-            <ul>
-                <?php foreach ($footerCities as $item) : ?>
-                    <li><a href="#"><?php echo esc_html($item); ?></a></li>
-                <?php endforeach; ?>
-            </ul>
-        </div>
+        <?php foreach ($footerColumns as $column) : ?>
+            <div class="site-footer__col">
+                <h3><?php echo esc_html($column['title']); ?></h3>
+                <ul>
+                    <?php foreach ($column['items'] as $item) : ?>
+                        <li><a href="<?php echo esc_url($item['url']); ?>"><?php echo esc_html($item['label']); ?></a></li>
+                    <?php endforeach; ?>
+                    <?php if ($column['title'] === 'Secteurs') : ?>
+                        <li><a href="<?php echo esc_url(crescendo_nav_url('plan-du-site')); ?>#sitemap-secteurs">Tous les secteurs →</a></li>
+                    <?php endif; ?>
+                </ul>
+            </div>
+        <?php endforeach; ?>
 
         <div class="site-footer__col">
             <h3>Contact</h3>
@@ -55,6 +32,7 @@ $footerCities = array(
                 <?php if ($phone) : ?><li><a href="tel:<?php echo esc_attr(preg_replace('/\s+/', '', $phone)); ?>"><?php echo esc_html($phone); ?></a></li><?php endif; ?>
                 <?php if ($email) : ?><li><a href="mailto:<?php echo esc_attr($email); ?>"><?php echo esc_html($email); ?></a></li><?php endif; ?>
                 <li><?php echo esc_html($address); ?></li>
+                <li><a href="<?php echo esc_url(crescendo_nav_url('contact')); ?>">Nous contacter →</a></li>
             </ul>
         </div>
     </div>
@@ -63,9 +41,9 @@ $footerCities = array(
         <div class="container site-footer__bottom-inner">
             <p>© <?php echo esc_html(date('Y')); ?> Crescendo Studio — Tous droits réservés</p>
             <ul class="site-footer__legal">
-                <li><a href="<?php echo esc_url(home_url('/mentions-legales/')); ?>">Mentions légales</a></li>
-                <li><a href="<?php echo esc_url(home_url('/politique-de-confidentialite/')); ?>">Politique de confidentialité</a></li>
-                <li><a href="#">Plan du site</a></li>
+                <li><a href="<?php echo esc_url(crescendo_nav_url('mentions-legales')); ?>">Mentions légales</a></li>
+                <li><a href="<?php echo esc_url(crescendo_nav_url('politique-de-confidentialite')); ?>">Politique de confidentialité</a></li>
+                <li><a href="<?php echo esc_url(crescendo_nav_url('plan-du-site')); ?>">Plan du site</a></li>
             </ul>
         </div>
     </div>

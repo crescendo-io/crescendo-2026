@@ -7,6 +7,7 @@ from pathlib import Path
 
 OUT = Path(__file__).resolve().parent
 BASE = "https://crescendo-studio.io"
+SERVICE_PREFIX = "/services"
 
 PAGES = [
     {
@@ -20,7 +21,7 @@ PAGES = [
             "meta_title": "Agence web Nantes — WordPress sur mesure dès 350€/mois | Crescendo",
             "meta_description": "Agence web à Nantes : création, refonte et location de sites WordPress sur mesure. SEO intégré, maquette gratuite 48h. TPE, PME et professions libérales.",
             "focus_keyword": "agence web nantes",
-            "canonical": f"{BASE}/agence-web-nantes/",
+            "canonical": f"{BASE}/services/agence-web-nantes/",
         },
         "fields": {
             "service-hero-eyebrow": "Agence web · Nantes",
@@ -69,10 +70,10 @@ PAGES = [
             "service-audience-eyebrow": "Nos clients à Nantes",
             "service-audience-title": "Une agence adaptée à chaque profil d'entreprise.",
             "service-audience-cards": [
-                {"title": "Artisans & BTP", "text": "Sites vitrine orientés devis et SEO local.", "url": "/creation-site-artisan-nantes/"},
-                {"title": "Professions libérales", "text": "Image premium, prise de RDV, conformité déontologique.", "url": "/creation-site-avocat-nantes/"},
-                {"title": "PME & industrie", "text": "Sites B2B, catalogues, connexion CRM.", "url": "/creation-site-web-nantes/"},
-                {"title": "Commerces & restauration", "text": "Carte, réservation, visibilité locale.", "url": "/creation-site-restaurant-nantes/"},
+                {"title": "Artisans & BTP", "text": "Sites vitrine orientés devis et SEO local.", "url": "/secteurs/creation-site-artisan-nantes/"},
+                {"title": "Professions libérales", "text": "Image premium, prise de RDV, conformité déontologique.", "url": "/secteurs/creation-site-avocat-nantes/"},
+                {"title": "PME & industrie", "text": "Sites B2B, catalogues, connexion CRM.", "url": "/services/creation-site-web-nantes/"},
+                {"title": "Commerces & restauration", "text": "Carte, réservation, visibilité locale.", "url": "/secteurs/creation-site-restaurant-nantes/"},
             ],
             "service-projects-eyebrow": "Réalisations nantaises",
             "service-projects-title": "Des sites livrés pour des secteurs exigeants.",
@@ -121,14 +122,14 @@ PAGES = [
             "meta_title": "Création site internet Nantes — WordPress sur mesure | Crescendo",
             "meta_description": "Création de site internet à Nantes pour TPE et PME : WordPress sur mesure, SEO local, design premium. Maquette gratuite 48h. Location dès 350€/mois.",
             "focus_keyword": "création site internet nantes",
-            "canonical": f"{BASE}/creation-site-web-nantes/",
+            "canonical": f"{BASE}/services/creation-site-web-nantes/",
         },
         "fields": {
             "service-hero-eyebrow": "Création site web · Nantes",
             "service-hero-title": "Création de site internet à Nantes",
             "service-hero-intro": "Vous lancez une activité ou modernisez votre présence en ligne ? Nous créons des sites internet WordPress sur mesure pour les entreprises nantaises : design premium, parcours orienté conversion, SEO local intégré — en location dès 350 €/mois ou en achat clé en main.",
             "service-hero-cta-primary": {"title": "Demander ma maquette gratuite", "url": "#contact", "target": ""},
-            "service-hero-cta-secondary": {"title": "Comparer location et achat", "url": "/location-site-internet/", "target": ""},
+            "service-hero-cta-secondary": {"title": "Comparer location et achat", "url": "/services/location-site-internet/", "target": ""},
             "service-hero-note": "Site vitrine livré en 4 à 6 semaines",
             "service-benefits": [
                 {"title": "Site orienté business", "text": "Chaque page sert un objectif : crédibilité, leads, prise de RDV ou vente."},
@@ -155,7 +156,7 @@ PAGES = [
             "service-compare-eyebrow": "Location vs achat",
             "service-compare-title": "Comment financer la création de votre site à Nantes ?",
             "service-compare-text": "La location lisse votre trésorerie. L'achat convient si vous disposez d'un budget initial et d'une équipe marketing interne.",
-            "service-compare-cta": {"title": "Choisir la location 350€/mois", "url": "/location-site-internet/", "target": ""},
+            "service-compare-cta": {"title": "Choisir la location 350€/mois", "url": "/services/location-site-internet/", "target": ""},
             "service-compare-col1-label": "Location 350€/mois",
             "service-compare-col2-label": "Achat sur mesure",
             "service-compare-table": [
@@ -170,10 +171,10 @@ PAGES = [
             "service-audience-eyebrow": "Types de sites",
             "service-audience-title": "Quel site internet pour votre activité ?",
             "service-audience-cards": [
-                {"title": "Site vitrine", "text": "Présentation services, réalisations, équipe.", "url": "/creation-site-vitrine-nantes/"},
-                {"title": "Site WordPress", "text": "Plateforme évolutive, blog, multilingue.", "url": "/creation-site-wordpress/"},
-                {"title": "Site e-commerce", "text": "Vente en ligne WooCommerce sur mesure.", "url": "/creation-site-ecommerce-nantes/"},
-                {"title": "Refonte", "text": "Moderniser un site existant sans perdre le SEO.", "url": "/refonte-site-wordpress/"},
+                {"title": "Site vitrine", "text": "Présentation services, réalisations, équipe.", "url": "/services/creation-site-vitrine-nantes/"},
+                {"title": "Site WordPress", "text": "Plateforme évolutive, blog, multilingue.", "url": "/services/creation-site-wordpress/"},
+                {"title": "Site e-commerce", "text": "Vente en ligne WooCommerce sur mesure.", "url": "/services/creation-site-ecommerce-nantes/"},
+                {"title": "Refonte", "text": "Moderniser un site existant sans perdre le SEO.", "url": "/services/refonte-site-wordpress/"},
             ],
             "service-projects-eyebrow": "Exemples de créations",
             "service-projects-title": "Des sites internet livrés à Nantes et en Loire-Atlantique.",
@@ -222,7 +223,7 @@ PAGES = [
             "meta_title": "Refonte site WordPress Nantes — Sans perdre votre SEO | Crescendo",
             "meta_description": "Refonte de site WordPress à Nantes : design moderne, performances, SEO préservé. Audit gratuit, migration sécurisée, maquette 48h. Agence WordPress locale.",
             "focus_keyword": "refonte site wordpress nantes",
-            "canonical": f"{BASE}/refonte-site-wordpress/",
+            "canonical": f"{BASE}/services/refonte-site-wordpress/",
         },
         "fields": {
             "service-hero-eyebrow": "Refonte WordPress · Nantes",
@@ -271,10 +272,10 @@ PAGES = [
             "service-audience-eyebrow": "Situations fréquentes",
             "service-audience-title": "Quand refondre son site WordPress ?",
             "service-audience-cards": [
-                {"title": "Site non responsive", "text": "Conçu avant le mobile — pénalisé par Google.", "url": "/refonte-site-wordpress/"},
-                {"title": "Chute de trafic SEO", "text": "Positions perdues, contenu obsolète.", "url": "/agence-seo-nantes/"},
-                {"title": "Changement de marque", "text": "Fusion, repositionnement, nouvelle identité.", "url": "/creation-site-wordpress/"},
-                {"title": "Site lent ou piraté", "text": "Plugins obsolètes, failles de sécurité.", "url": "/maintenance-wordpress/"},
+                {"title": "Site non responsive", "text": "Conçu avant le mobile — pénalisé par Google.", "url": "/services/refonte-site-wordpress/"},
+                {"title": "Chute de trafic SEO", "text": "Positions perdues, contenu obsolète.", "url": "/services/agence-seo-nantes/"},
+                {"title": "Changement de marque", "text": "Fusion, repositionnement, nouvelle identité.", "url": "/services/creation-site-wordpress/"},
+                {"title": "Site lent ou piraté", "text": "Plugins obsolètes, failles de sécurité.", "url": "/services/maintenance-wordpress/"},
             ],
             "service-projects-eyebrow": "Refontes livrées",
             "service-projects-title": "Des sites modernisés sans rupture SEO.",
@@ -323,7 +324,7 @@ PAGES = [
             "meta_title": "Création site e-commerce Nantes — WooCommerce sur mesure | Crescendo",
             "meta_description": "Création de site e-commerce à Nantes : WooCommerce sur mesure, paiement sécurisé, SEO produits, design premium. Boutique en ligne performante. Devis gratuit.",
             "focus_keyword": "création site e-commerce nantes",
-            "canonical": f"{BASE}/creation-site-ecommerce-nantes/",
+            "canonical": f"{BASE}/services/creation-site-ecommerce-nantes/",
         },
         "fields": {
             "service-hero-eyebrow": "E-commerce · Nantes",
@@ -372,10 +373,10 @@ PAGES = [
             "service-audience-eyebrow": "Profils e-commerce",
             "service-audience-title": "Quelle boutique pour votre activité ?",
             "service-audience-cards": [
-                {"title": "Marque D2C", "text": "Vente directe au consommateur, storytelling de marque.", "url": "/creation-site-ecommerce-nantes/"},
-                {"title": "Artisan créateur", "text": "Catalogue limité, mise en valeur produit.", "url": "/creation-site-artisan-nantes/"},
-                {"title": "B2B / grossiste", "text": "Tarifs dégressifs, commandes récurrentes.", "url": "/creation-site-web-nantes/"},
-                {"title": "Click & collect", "text": "Commerçant nantais, retrait en magasin.", "url": "/creation-site-restaurant-nantes/"},
+                {"title": "Marque D2C", "text": "Vente directe au consommateur, storytelling de marque.", "url": "/services/creation-site-ecommerce-nantes/"},
+                {"title": "Artisan créateur", "text": "Catalogue limité, mise en valeur produit.", "url": "/secteurs/creation-site-artisan-nantes/"},
+                {"title": "B2B / grossiste", "text": "Tarifs dégressifs, commandes récurrentes.", "url": "/services/creation-site-web-nantes/"},
+                {"title": "Click & collect", "text": "Commerçant nantais, retrait en magasin.", "url": "/secteurs/creation-site-restaurant-nantes/"},
             ],
             "service-projects-eyebrow": "Projets e-commerce",
             "service-projects-title": "Des boutiques conçues pour vendre.",
@@ -424,14 +425,14 @@ PAGES = [
             "meta_title": "Création site vitrine Nantes — WordPress dès 350€/mois | Crescendo",
             "meta_description": "Création de site vitrine à Nantes pour artisans, PME et indépendants : WordPress sur mesure, SEO local, formulaire de devis. Maquette gratuite 48h. Location sans frais de création.",
             "focus_keyword": "création site vitrine nantes",
-            "canonical": f"{BASE}/creation-site-vitrine-nantes/",
+            "canonical": f"{BASE}/services/creation-site-vitrine-nantes/",
         },
         "fields": {
             "service-hero-eyebrow": "Site vitrine · Nantes",
             "service-hero-title": "Création de site vitrine à Nantes",
             "service-hero-intro": "Un site vitrine professionnel est votre meilleur commercial 24h/24. Nous créons des sites WordPress sur mesure pour présenter votre activité, rassurer vos prospects et générer des contacts — artisans, PME, professions libérales et commerçants nantais.",
             "service-hero-cta-primary": {"title": "Demander ma maquette gratuite", "url": "#contact", "target": ""},
-            "service-hero-cta-secondary": {"title": "Location dès 350€/mois", "url": "/location-site-internet/", "target": ""},
+            "service-hero-cta-secondary": {"title": "Location dès 350€/mois", "url": "/services/location-site-internet/", "target": ""},
             "service-hero-note": "Maquette gratuite en 48h",
             "service-benefits": [
                 {"title": "Orienté conversion", "text": "Chaque page pousse à l'action : devis, appel, prise de RDV."},
@@ -458,7 +459,7 @@ PAGES = [
             "service-compare-eyebrow": "Vitrine sur mesure vs Wix",
             "service-compare-title": "Pourquoi un site vitrine WordPress plutôt que Wix ?",
             "service-compare-text": "Wix semble rapide, mais limite le SEO, la vitesse et l'évolutivité. Un vitrine WordPress sur mesure est un actif durable pour votre entreprise.",
-            "service-compare-cta": {"title": "Comparer avec la location", "url": "/location-site-internet/", "target": ""},
+            "service-compare-cta": {"title": "Comparer avec la location", "url": "/services/location-site-internet/", "target": ""},
             "service-compare-col1-label": "WordPress sur mesure",
             "service-compare-col2-label": "Constructeur Wix / Outil DIY",
             "service-compare-table": [
@@ -473,10 +474,10 @@ PAGES = [
             "service-audience-eyebrow": "Pour qui ?",
             "service-audience-title": "Le site vitrine s'adapte à votre métier.",
             "service-audience-cards": [
-                {"title": "Artisan", "text": "Devis en ligne, galerie chantiers, SEO local.", "url": "/creation-site-artisan-nantes/"},
-                {"title": "Avocat / expert", "text": "Crédibilité, spécialités, prise de RDV.", "url": "/creation-site-avocat-nantes/"},
-                {"title": "Commerçant", "text": "Horaires, produits, click & collect.", "url": "/creation-site-restaurant-nantes/"},
-                {"title": "PME industrielle", "text": "Catalogue B2B, études de cas, recrutement.", "url": "/creation-site-web-nantes/"},
+                {"title": "Artisan", "text": "Devis en ligne, galerie chantiers, SEO local.", "url": "/secteurs/creation-site-artisan-nantes/"},
+                {"title": "Avocat / expert", "text": "Crédibilité, spécialités, prise de RDV.", "url": "/secteurs/creation-site-avocat-nantes/"},
+                {"title": "Commerçant", "text": "Horaires, produits, click & collect.", "url": "/secteurs/creation-site-restaurant-nantes/"},
+                {"title": "PME industrielle", "text": "Catalogue B2B, études de cas, recrutement.", "url": "/services/creation-site-web-nantes/"},
             ],
             "service-projects-eyebrow": "Sites vitrine livrés",
             "service-projects-title": "Des vitrines qui génèrent des contacts.",
@@ -518,10 +519,16 @@ PAGES = [
 
 
 def build_page(spec: dict) -> dict:
+    page = {**spec["page"], "status": "publish", "parent": "services"}
+    canonical = spec["seo"].get("canonical")
+    if canonical and canonical.startswith(f"{BASE}/") and "/services/" not in canonical:
+        slug = page["slug"]
+        canonical = f"{BASE}/services/{slug}/"
+
     return {
         "version": "1.0",
-        "page": {**spec["page"], "status": "publish"},
-        "seo": {**spec["seo"], "noindex": False},
+        "page": page,
+        "seo": {**spec["seo"], "canonical": canonical, "noindex": False},
         "fields": spec["fields"],
     }
 

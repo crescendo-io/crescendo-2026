@@ -1,0 +1,305 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création de site web pour entreprises BTP à Nantes",
+    "slug": "creation-site-btp-nantes",
+    "status": "publish",
+    "menu_order": 31,
+    "parent": "secteurs"
+  },
+  "seo": {
+    "meta_title": "Site web BTP Nantes — Devis en ligne & SEO local | Crescendo",
+    "meta_description": "Création de site internet BTP à Nantes : gros œuvre, rénovation, travaux publics. Devis en ligne, galerie chantiers, SEO local. Maquette 48h. Location 350€/mois.",
+    "focus_keyword": "site web btp nantes",
+    "canonical": "https://crescendo-studio.io/secteurs/creation-site-btp-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "secteur-hero-eyebrow": "BTP · Gros œuvre · Second œuvre · Nantes",
+    "secteur-hero-title": "Site web pour entreprise BTP à Nantes",
+    "secteur-hero-intro": "Entreprise de gros œuvre, rénovation, travaux publics ou second œuvre à Nantes ? Votre site doit générer des demandes de devis qualifiées, valoriser vos chantiers et rassurer les maîtres d'ouvrage — avec un référencement local solide sur la métropole nantaise.",
+    "secteur-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-hero-cta-secondary": {
+      "title": "Voir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+    "secteur-hero-note": "Maquette gratuite en 48h",
+    "secteur-benefits": [
+      {
+        "title": "Devis en ligne",
+        "text": "Formulaire chantier avec type de travaux, budget et délai souhaité."
+      },
+      {
+        "title": "Galerie chantiers",
+        "text": "Photos avant/après pour prouver votre savoir-faire sur le terrain."
+      },
+      {
+        "title": "SEO local BTP",
+        "text": "Visible sur « entreprise BTP Nantes », « rénovation Nantes »."
+      },
+      {
+        "title": "Location 350€/mois",
+        "text": "Site pro sans immobiliser 8 000 € de trésorerie."
+      }
+    ],
+    "secteur-pain-title": "Pourquoi les entreprises BTP perdent des chantiers en ligne",
+    "secteur-pain-items": [
+      {
+        "title": "Site vitrine statique",
+        "text": "Pas de formulaire devis — le prospect appelle un concurrent plus réactif."
+      },
+      {
+        "title": "Chantiers invisibles",
+        "text": "Vos réalisations ne sont pas valorisées en ligne."
+      },
+      {
+        "title": "Référencement faible",
+        "text": "Invisible sur les requêtes locales pourtant très qualifiées."
+      },
+      {
+        "title": "Image datée",
+        "text": "Site de 2016 qui ne reflète plus la taille ni la qualité de votre entreprise."
+      }
+    ],
+    "secteur-solution-title": "Un site BTP orienté génération de chantiers",
+    "secteur-solution-text": "Nous créons des sites WordPress pour les entreprises BTP nantaises : pages par corps de métier, certifications (RGE, Qualibat), zone d'intervention, galerie chantiers et tunnel devis optimisé mobile.",
+    "secteur-solution-price": "350€/mois",
+    "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
+    "secteur-solution-usps": [
+      {
+        "title": "Maquette 48h",
+        "text": "Direction créative gratuite avant engagement."
+      },
+      {
+        "title": "WordPress sur mesure",
+        "text": "Design premium adapté à votre secteur."
+      },
+      {
+        "title": "SEO local intégré",
+        "text": "Visible sur Google dès la mise en ligne."
+      }
+    ],
+    "secteur-features-title": "Ce que votre site BTP doit inclure",
+    "secteur-features-items": [
+      {
+        "title": "Formulaire devis chantier",
+        "text": "Type de travaux, surface, localisation, urgence."
+      },
+      {
+        "title": "Galerie réalisations",
+        "text": "Chantiers classés par typologie : neuf, rénovation, extension."
+      },
+      {
+        "title": "Certifications & labels",
+        "text": "RGE, Qualibat, assurances décennales visibles."
+      },
+      {
+        "title": "Pages corps de métier",
+        "text": "Gros œuvre, couverture, terrassement, rénovation."
+      },
+      {
+        "title": "Zone d'intervention",
+        "text": "SEO local Nantes + 12 communes métropole."
+      },
+      {
+        "title": "Click-to-call mobile",
+        "text": "Bouton appel direct pour les urgences chantier."
+      }
+    ],
+    "secteur-case-title": "Exemple de réalisation BTP / construction",
+    "secteur-case-project-title": "Maison Jaden",
+    "secteur-case-project-tags": "WordPress · Devis · CRM · SEO local",
+    "secteur-case-project-points": [
+      {
+        "text": "Site constructeur maisons avec tunnel de demande de devis"
+      },
+      {
+        "text": "Pages géolocalisées sur la métropole nantaise"
+      },
+      {
+        "text": "Leads connectés au CRM pour le suivi commercial"
+      }
+    ],
+    "secteur-case-project-url": "/realisations/maison-jaden/",
+    "secteur-pricing-title": "Combien coûte un site web BTP à Nantes ?",
+    "secteur-pricing-price": "350€",
+    "secteur-pricing-price-suffix": "/mois",
+    "secteur-pricing-cta": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-pricing-col1-label": "Location 350€/mois",
+    "secteur-pricing-col2-label": "Achat classique",
+    "secteur-pricing-features": [
+      {
+        "text": "Création sur mesure incluse"
+      },
+      {
+        "text": "Hébergement premium"
+      },
+      {
+        "text": "Maintenance & mises à jour"
+      },
+      {
+        "text": "SEO local de base"
+      },
+      {
+        "text": "Formulaire de contact"
+      },
+      {
+        "text": "Support réactif"
+      }
+    ],
+    "secteur-pricing-table": [
+      {
+        "label": "Investissement initial",
+        "col1": "0€",
+        "col2": "3 000 – 8 000€"
+      },
+      {
+        "label": "Mensualité",
+        "col1": "350€",
+        "col2": "150–250€"
+      },
+      {
+        "label": "Création incluse",
+        "col1": "✓",
+        "col2": "✓"
+      },
+      {
+        "label": "Maintenance & sécurité",
+        "col1": "Incluse",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Évolutions",
+        "col1": "Incluses",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Total sur 5 ans",
+        "col1": "~21 000€",
+        "col2": "~25 000€+"
+      }
+    ],
+    "secteur-area-title": "Site web BTP à Nantes et métropole",
+    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
+    "secteur-area-cities": [
+      {
+        "name": "Nantes",
+        "url": "/services/agence-web-nantes/"
+      },
+      {
+        "name": "Saint-Herblain",
+        "url": "/agence-web-saint-herblain/"
+      },
+      {
+        "name": "Rezé",
+        "url": "/agence-web-reze/"
+      },
+      {
+        "name": "Orvault",
+        "url": "/agence-web-orvault/"
+      },
+      {
+        "name": "Carquefou",
+        "url": "/agence-web-carquefou/"
+      },
+      {
+        "name": "Saint-Nazaire",
+        "url": "/agence-web-saint-nazaire/"
+      }
+    ],
+    "secteur-area-see-all": {
+      "title": "Voir toutes nos zones",
+      "url": "/services/agence-web-nantes/",
+      "target": ""
+    },
+    "secteur-faq-eyebrow": "Questions fréquentes",
+    "secteur-faq-title": "FAQ site web entreprise BTP",
+    "secteur-faq-items": [
+      {
+        "question": "Combien coûte un site BTP à Nantes ?",
+        "answer": "350 €/mois en location tout inclus, ou 4 000 à 9 000 € en achat selon volume de pages et intégrations CRM."
+      },
+      {
+        "question": "Puis-je afficher mes certifications RGE ?",
+        "answer": "Oui. Section dédiée avec logos, numéros et liens de vérification."
+      },
+      {
+        "question": "Le site génère-t-il des demandes de devis ?",
+        "answer": "Oui. Formulaire optimisé mobile avec champs métier pour qualifier les prospects."
+      },
+      {
+        "question": "Gérez-vous la galerie chantiers ?",
+        "answer": "Oui. Ajout simple de photos avant/après par vos équipes après formation."
+      },
+      {
+        "question": "Quel délai de livraison ?",
+        "answer": "5 à 8 semaines selon le volume de contenus. Maquette gratuite sous 48 h."
+      },
+      {
+        "question": "Intervenez-vous sur toute la Loire-Atlantique ?",
+        "answer": "Oui. Pages SEO par ville pour étendre votre visibilité locale."
+      }
+    ],
+    "secteur-related-title": "Autres secteurs que nous accompagnons",
+    "secteur-related-sectors": [
+      {
+        "title": "Artisan",
+        "url": "/secteurs/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "Plombier",
+        "url": "/secteurs/creation-site-plombier-nantes/"
+      },
+      {
+        "title": "Électricien",
+        "url": "/secteurs/creation-site-electricien-nantes/"
+      },
+      {
+        "title": "BTP",
+        "url": "/secteurs/creation-site-btp-nantes/"
+      },
+      {
+        "title": "Avocat",
+        "url": "/secteurs/creation-site-avocat-nantes/"
+      },
+      {
+        "title": "Restaurant",
+        "url": "/secteurs/creation-site-restaurant-nantes/"
+      }
+    ],
+    "secteur-final-cta-title": "Développez vos chantiers avec un site BTP performant",
+    "secteur-final-cta-text": "Maquette gratuite sous 48 h pour valider la direction avant lancement.",
+    "secteur-final-cta-points": [
+      {
+        "text": "Maquette personnalisée sous 48h"
+      },
+      {
+        "text": "Formule location sans investissement initial"
+      },
+      {
+        "text": "Accompagnement local à Nantes"
+      }
+    ],
+    "secteur-final-form-job-label": "Votre activité BTP",
+    "secteur-final-reassurance": [
+      {
+        "text": "Sans engagement"
+      },
+      {
+        "text": "Réponse sous 24h"
+      },
+      {
+        "text": "Agence nantaise"
+      }
+    ]
+  }
+}

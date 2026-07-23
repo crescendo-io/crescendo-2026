@@ -1,0 +1,32 @@
+{
+    "key": "group_679a10sitemap1",
+    "title": "Page Plan du site — Contenu",
+    "fields": [
+        { "key": "field_679a10tabseo01", "label": "SEO", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a10seotitle", "label": "Meta title", "name": "sitemap-seo-meta-title", "type": "text" },
+        { "key": "field_679a10seodesc", "label": "Meta description", "name": "sitemap-seo-meta-description", "type": "textarea", "rows": 3 },
+        { "key": "field_679a10seokey", "label": "Mot-clé principal", "name": "sitemap-seo-focus-keyword", "type": "text" },
+        { "key": "field_679a10seocanon", "label": "URL canonique", "name": "sitemap-seo-canonical", "type": "url" },
+        { "key": "field_679a10seonoindex", "label": "Noindex", "name": "sitemap-seo-noindex", "type": "true_false", "ui": 1 },
+
+        { "key": "field_679a10tabhero", "label": "Hero", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a10herotitle", "label": "Titre H1", "name": "sitemap-hero-title", "type": "text" },
+        { "key": "field_679a10herointro", "label": "Intro", "name": "sitemap-hero-intro", "type": "textarea", "rows": 3 }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-sitemap.php"
+            }
+        ]
+    ],
+    "menu_order": 10,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "modified": 1784756400
+}

@@ -64,7 +64,7 @@ function crescendo_service_breadcrumb($post_id = null) {
         ),
         array(
             'label' => 'Services',
-            'url' => home_url('/#services'),
+            'url' => home_url('/services/'),
         ),
         array(
             'label' => get_the_title($post_id),

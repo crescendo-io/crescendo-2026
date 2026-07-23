@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Plan du site",
+    "slug": "plan-du-site",
+    "template": "sitemap",
+    "status": "publish",
+    "menu_order": 97,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Plan du site · Crescendo Studio — Agence web Nantes",
+    "meta_description": "Plan du site Crescendo Studio : accès à toutes nos pages services, secteurs, villes, réalisations et informations légales. Agence web WordPress à Nantes.",
+    "focus_keyword": "plan du site crescendo studio",
+    "canonical": "https://crescendo-studio.io/plan-du-site/",
+    "noindex": false
+  },
+  "fields": {
+    "sitemap-hero-title": "Plan du site",
+    "sitemap-hero-intro": "Retrouvez l'ensemble des pages du site Crescendo Studio : services, secteurs d'activité, agence web par ville, réalisations et pages légales."
+  }
+}

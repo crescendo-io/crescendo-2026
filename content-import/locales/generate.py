@@ -19,7 +19,7 @@ CITIES = {
         "keyword": "agence web saint-herblain",
         "menu_order": 30,
         "nearby": [
-            ("Nantes", "/agence-web-nantes/"),
+            ("Nantes", "/services/agence-web-nantes/"),
             ("Orvault", "/agence-web-orvault/"),
             ("Rezé", "/agence-web-reze/"),
             ("Carquefou", "/agence-web-carquefou/"),
@@ -51,7 +51,7 @@ CITIES = {
         "keyword": "agence web rezé",
         "menu_order": 31,
         "nearby": [
-            ("Nantes", "/agence-web-nantes/"),
+            ("Nantes", "/services/agence-web-nantes/"),
             ("Bouguenais", "/agence-web-bouguenais/"),
             ("Saint-Sébastien-sur-Loire", "/agence-web-saint-sebastien-sur-loire/"),
             ("Saint-Herblain", "/agence-web-saint-herblain/"),
@@ -83,7 +83,7 @@ CITIES = {
         "keyword": "agence web orvault",
         "menu_order": 32,
         "nearby": [
-            ("Nantes", "/agence-web-nantes/"),
+            ("Nantes", "/services/agence-web-nantes/"),
             ("Saint-Herblain", "/agence-web-saint-herblain/"),
             ("Carquefou", "/agence-web-carquefou/"),
             ("Rezé", "/agence-web-reze/"),
@@ -115,7 +115,7 @@ CITIES = {
         "keyword": "agence web carquefou",
         "menu_order": 33,
         "nearby": [
-            ("Nantes", "/agence-web-nantes/"),
+            ("Nantes", "/services/agence-web-nantes/"),
             ("Saint-Herblain", "/agence-web-saint-herblain/"),
             ("Orvault", "/agence-web-orvault/"),
             ("Rezé", "/agence-web-reze/"),
@@ -149,7 +149,7 @@ CITIES = {
         "nearby": [
             ("Rezé", "/agence-web-reze/"),
             ("Saint-Sébastien-sur-Loire", "/agence-web-saint-sebastien-sur-loire/"),
-            ("Nantes", "/agence-web-nantes/"),
+            ("Nantes", "/services/agence-web-nantes/"),
             ("Saint-Herblain", "/agence-web-saint-herblain/"),
             ("Orvault", "/agence-web-orvault/"),
             ("Carquefou", "/agence-web-carquefou/"),
@@ -179,7 +179,7 @@ CITIES = {
         "keyword": "agence web saint-sébastien",
         "menu_order": 35,
         "nearby": [
-            ("Nantes", "/agence-web-nantes/"),
+            ("Nantes", "/services/agence-web-nantes/"),
             ("Rezé", "/agence-web-reze/"),
             ("Bouguenais", "/agence-web-bouguenais/"),
             ("Saint-Herblain", "/agence-web-saint-herblain/"),
@@ -206,12 +206,12 @@ CITIES = {
 }
 
 SHARED_SECTORS = [
-    ("Artisan", "/creation-site-artisan-nantes/"),
-    ("Avocat", "/creation-site-avocat-nantes/"),
-    ("Restaurant", "/creation-site-restaurant-nantes/"),
-    ("Immobilier", "/creation-site-immobilier-nantes/"),
-    ("Startup", "/creation-site-startup-nantes/"),
-    ("PME", "/creation-site-web-nantes/"),
+    ("Artisan", "/secteurs/creation-site-artisan-nantes/"),
+    ("Avocat", "/secteurs/creation-site-avocat-nantes/"),
+    ("Restaurant", "/secteurs/creation-site-restaurant-nantes/"),
+    ("Immobilier", "/secteurs/creation-site-immobilier-nantes/"),
+    ("Startup", "/secteurs/creation-site-startup-nantes/"),
+    ("PME", "/services/creation-site-web-nantes/"),
 ]
 
 PRICING_TABLE = [
@@ -310,7 +310,7 @@ def build_city(city_key: str, cfg: dict) -> dict:
             "local-area-title": f"Agence web {city} et communes voisines",
             "local-area-text": f"Nous accompagnons les entreprises de {city} et des communes limitrophes de la métropole nantaise.",
             "local-area-cities": [{"name": name, "url": url} for name, url in cfg["nearby"] if name != city],
-            "local-area-see-all": {"title": "Voir toutes nos zones", "url": "/creation-site-web-nantes/", "target": ""},
+            "local-area-see-all": {"title": "Voir toutes nos zones", "url": "/services/creation-site-web-nantes/", "target": ""},
             "local-faq-eyebrow": "Questions fréquentes",
             "local-faq-title": f"Tout savoir sur la création de site à {city}",
             "local-faq-items": [{"question": q, "answer": a} for q, a in cfg["faqs"]],

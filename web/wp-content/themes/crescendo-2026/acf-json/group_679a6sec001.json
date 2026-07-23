@@ -1,0 +1,73 @@
+{
+    "key": "group_679a6sec001",
+    "title": "Page Secteurs (hub) — Contenu",
+    "fields": [
+        { "key": "field_679a6sectabseo", "label": "SEO", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6secseotit", "label": "Meta title", "name": "secteurs-seo-meta-title", "type": "text" },
+        { "key": "field_679a6secseodesc", "label": "Meta description", "name": "secteurs-seo-meta-description", "type": "textarea", "rows": 3 },
+        { "key": "field_679a6secseokey", "label": "Mot-clé principal", "name": "secteurs-seo-focus-keyword", "type": "text" },
+        { "key": "field_679a6secseocan", "label": "URL canonique", "name": "secteurs-seo-canonical", "type": "url" },
+        { "key": "field_679a6secseonoix", "label": "Noindex", "name": "secteurs-seo-noindex", "type": "true_false", "ui": 1 },
+
+        { "key": "field_679a6sectabhero", "label": "Hero", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6sechero001", "label": "Sur-titre", "name": "secteurs-hero-eyebrow", "type": "text" },
+        { "key": "field_679a6sechero002", "label": "Titre H1", "name": "secteurs-hero-title", "type": "text" },
+        { "key": "field_679a6sechero003", "label": "Intro", "name": "secteurs-hero-intro", "type": "textarea", "rows": 4 },
+        { "key": "field_679a6sechero004", "label": "CTA principal", "name": "secteurs-hero-cta-primary", "type": "link" },
+
+        { "key": "field_679a6sectabintro", "label": "Intro", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6secintro01", "label": "Texte", "name": "secteurs-intro-text", "type": "textarea", "rows": 4 },
+        {
+            "key": "field_679a6secintro02",
+            "label": "Chiffres clés",
+            "name": "secteurs-intro-stats",
+            "type": "repeater",
+            "layout": "table",
+            "max": 4,
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a6secintro03", "label": "Valeur", "name": "value", "type": "text" },
+                { "key": "field_679a6secintro04", "label": "Label", "name": "label", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a6sectablist", "label": "Liste", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6seclist001", "label": "Sur-titre", "name": "secteurs-list-eyebrow", "type": "text" },
+        { "key": "field_679a6seclist002", "label": "Titre H2", "name": "secteurs-list-title", "type": "text" },
+        {
+            "key": "field_679a6seclist003",
+            "label": "Cartes secteurs",
+            "name": "secteurs-cards",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter un secteur",
+            "sub_fields": [
+                { "key": "field_679a6seccard001", "label": "Sur-titre", "name": "eyebrow", "type": "text" },
+                { "key": "field_679a6seccard002", "label": "Titre", "name": "title", "type": "text", "required": 1 },
+                { "key": "field_679a6seccard003", "label": "Texte", "name": "text", "type": "textarea", "rows": 3 },
+                { "key": "field_679a6seccard004", "label": "URL", "name": "url", "type": "url", "required": 1 }
+            ]
+        },
+
+        { "key": "field_679a6sectabcta", "label": "CTA final", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6seccta001", "label": "Titre", "name": "secteurs-cta-title", "type": "text" },
+        { "key": "field_679a6seccta002", "label": "Texte", "name": "secteurs-cta-text", "type": "textarea", "rows": 2 },
+        { "key": "field_679a6seccta003", "label": "Bouton", "name": "secteurs-cta-button", "type": "link" }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-secteurs.php"
+            }
+        ]
+    ],
+    "menu_order": 8,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "modified": 1784747200
+}

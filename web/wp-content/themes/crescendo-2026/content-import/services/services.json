@@ -1,0 +1,117 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Services",
+    "slug": "services",
+    "status": "publish",
+    "menu_order": 4,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Services web Nantes · Création, SEO, CRM | Crescendo Studio",
+    "meta_description": "Découvrez nos services web à Nantes : création de site WordPress sur mesure, refonte, SEO, maintenance, location dès 350€/mois et CRM connecté. Maquette gratuite 48h.",
+    "focus_keyword": "services agence web nantes",
+    "canonical": "https://crescendo-studio.io/services/",
+    "noindex": false
+  },
+  "fields": {
+    "services-hero-eyebrow": "Agence web · Nantes",
+    "services-hero-title": "Nos services web à Nantes",
+    "services-hero-intro": "Création de site internet, refonte WordPress, SEO local, maintenance et CRM sur mesure : Crescendo Studio accompagne les TPE, PME et professions libérales de Loire-Atlantique avec des solutions WordPress premium, orientées conversion et référencement.",
+    "services-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    },
+    "services-intro-text": "Chaque service est pensé pour répondre à un besoin business concret : lancer votre présence en ligne, moderniser un site existant, capter des leads locaux ou connecter votre site à un CRM. Toutes nos offres incluent un accompagnement de proximité à Nantes et une approche SEO dès la conception.",
+    "services-intro-stats": [
+      {
+        "value": "350€/mois",
+        "label": "Location tout inclus"
+      },
+      {
+        "value": "48h",
+        "label": "Maquette gratuite"
+      },
+      {
+        "value": "100%",
+        "label": "WordPress sur mesure"
+      },
+      {
+        "value": "10",
+        "label": "Services disponibles"
+      }
+    ],
+    "services-list-eyebrow": "Nos expertises",
+    "services-list-title": "Tous nos services web pour votre entreprise",
+    "services-cards": [
+      {
+        "eyebrow": "Agence web · Nantes",
+        "title": "Agence web à Nantes",
+        "text": "Création, refonte et location de sites WordPress sur mesure pour TPE, PME et professions libérales.",
+        "url": "/services/agence-web-nantes/"
+      },
+      {
+        "eyebrow": "Création site web · Nantes",
+        "title": "Création de site internet",
+        "text": "Site WordPress sur mesure, SEO local intégré, design premium — location dès 350 €/mois ou achat clé en main.",
+        "url": "/services/creation-site-web-nantes/"
+      },
+      {
+        "eyebrow": "Site vitrine · Nantes",
+        "title": "Création de site vitrine",
+        "text": "Site vitrine orienté conversion pour artisans, PME et indépendants : devis, SEO local, maquette gratuite 48h.",
+        "url": "/services/creation-site-vitrine-nantes/"
+      },
+      {
+        "eyebrow": "E-commerce · Nantes",
+        "title": "Création de site e-commerce",
+        "text": "Boutique WooCommerce sur mesure : catalogue, paiement sécurisé, tunnel d'achat et SEO produits.",
+        "url": "/services/creation-site-ecommerce-nantes/"
+      },
+      {
+        "eyebrow": "WordPress · Sur mesure",
+        "title": "Création site WordPress",
+        "text": "Plateforme WordPress évolutive, blog, multilingue et administration simplifiée pour votre équipe.",
+        "url": "/services/creation-site-wordpress/"
+      },
+      {
+        "eyebrow": "Refonte WordPress · Nantes",
+        "title": "Refonte site WordPress",
+        "text": "Modernisez votre site sans perdre votre SEO : audit, redirections 301, design sur mesure.",
+        "url": "/services/refonte-site-wordpress/"
+      },
+      {
+        "eyebrow": "Location · Sans frais de création",
+        "title": "Location de site internet",
+        "text": "Site professionnel dès 350 €/mois tout inclus : création, hébergement, maintenance et SEO de base.",
+        "url": "/services/location-site-internet/"
+      },
+      {
+        "eyebrow": "CRM · Sur mesure",
+        "title": "CRM sur mesure Nantes",
+        "text": "CRM connecté à votre site pour qualifier les leads, automatiser le suivi et ne plus perdre de prospects.",
+        "url": "/services/crm-sur-mesure-nantes/"
+      },
+      {
+        "eyebrow": "SEO · Nantes",
+        "title": "Agence SEO Nantes",
+        "text": "Référencement local et national : audit, optimisation technique, contenu et suivi des positions Google.",
+        "url": "/services/agence-seo-nantes/"
+      },
+      {
+        "eyebrow": "Maintenance · WordPress",
+        "title": "Maintenance WordPress",
+        "text": "Mises à jour, sauvegardes, sécurité et support réactif pour garder votre site performant et protégé.",
+        "url": "/services/maintenance-wordpress/"
+      }
+    ],
+    "services-cta-title": "Vous ne savez pas par où commencer ?",
+    "services-cta-text": "Parlons de votre projet. Nous vous orientons vers le service adapté et vous proposons une maquette gratuite en 48h.",
+    "services-cta-button": {
+      "title": "Prendre contact",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

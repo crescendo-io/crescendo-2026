@@ -219,7 +219,7 @@
     "local-area-cities": [
       {
         "name": "Nantes",
-        "url": "/agence-web-nantes/"
+        "url": "/services/agence-web-nantes/"
       },
       {
         "name": "Saint-Herblain",
@@ -244,7 +244,7 @@
     ],
     "local-area-see-all": {
       "title": "Voir toutes nos zones",
-      "url": "/creation-site-web-nantes/",
+      "url": "/services/creation-site-web-nantes/",
       "target": ""
     },
     "local-faq-eyebrow": "Questions fréquentes",
@@ -267,27 +267,27 @@
     "local-related-sectors": [
       {
         "title": "Artisan",
-        "url": "/creation-site-artisan-nantes/"
+        "url": "/secteurs/creation-site-artisan-nantes/"
       },
       {
         "title": "Avocat",
-        "url": "/creation-site-avocat-nantes/"
+        "url": "/secteurs/creation-site-avocat-nantes/"
       },
       {
         "title": "Restaurant",
-        "url": "/creation-site-restaurant-nantes/"
+        "url": "/secteurs/creation-site-restaurant-nantes/"
       },
       {
         "title": "Immobilier",
-        "url": "/creation-site-immobilier-nantes/"
+        "url": "/secteurs/creation-site-immobilier-nantes/"
       },
       {
         "title": "Startup",
-        "url": "/creation-site-startup-nantes/"
+        "url": "/secteurs/creation-site-startup-nantes/"
       },
       {
         "title": "PME",
-        "url": "/creation-site-web-nantes/"
+        "url": "/services/creation-site-web-nantes/"
       }
     ],
     "local-final-cta-title": "Prêt à lancer votre projet web à Carquefou ?",

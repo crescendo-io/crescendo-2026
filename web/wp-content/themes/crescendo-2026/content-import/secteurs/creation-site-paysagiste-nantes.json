@@ -1,0 +1,305 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création de site web pour paysagistes à Nantes",
+    "slug": "creation-site-paysagiste-nantes",
+    "status": "publish",
+    "menu_order": 32,
+    "parent": "secteurs"
+  },
+  "seo": {
+    "meta_title": "Site web paysagiste Nantes — Devis jardin & SEO | Crescendo",
+    "meta_description": "Création de site internet paysagiste à Nantes : création jardin, entretien, arrosage. Galerie, devis en ligne, SEO local. Maquette 48h. Location 350€/mois.",
+    "focus_keyword": "site web paysagiste nantes",
+    "canonical": "https://crescendo-studio.io/secteurs/creation-site-paysagiste-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "secteur-hero-eyebrow": "Paysagiste · Jardin · Espaces verts · Nantes",
+    "secteur-hero-title": "Site web pour paysagiste à Nantes",
+    "secteur-hero-intro": "Paysagiste, créateur de jardins ou entreprise d'entretien d'espaces verts à Nantes ? Votre site doit séduire par vos réalisations, faciliter les demandes de devis et vous positionner sur Google quand un particulier ou une copropriété cherche un professionnel local.",
+    "secteur-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-hero-cta-secondary": {
+      "title": "Voir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+    "secteur-hero-note": "Maquette gratuite en 48h",
+    "secteur-benefits": [
+      {
+        "title": "Portfolio jardins",
+        "text": "Galeries avant/après pour inspirer et rassurer."
+      },
+      {
+        "title": "Devis en ligne",
+        "text": "Surface, type de projet, fréquence d'entretien."
+      },
+      {
+        "title": "SEO local",
+        "text": "« Paysagiste Nantes », « entretien jardin Rezé »."
+      },
+      {
+        "title": "Saisonnalité",
+        "text": "Pages offres printemps, taille, arrosage automatique."
+      }
+    ],
+    "secteur-pain-title": "Pourquoi les paysagistes manquent de visibilité en ligne",
+    "secteur-pain-items": [
+      {
+        "title": "Bouche-à-oreille seul",
+        "text": "Impossible de scaler sans présence Google locale."
+      },
+      {
+        "title": "Photos perdues sur Instagram",
+        "text": "Pas de site = pas de conversion SEO sur vos réalisations."
+      },
+      {
+        "title": "Pas de devis structuré",
+        "text": "Allers-retours email qui font fuir les prospects pressés."
+      },
+      {
+        "title": "Site générique",
+        "text": "Template Wix qui ne met pas en valeur la qualité de vos aménagements."
+      }
+    ],
+    "secteur-solution-title": "Un site paysagiste qui vend vos créations végétales",
+    "secteur-solution-text": "Nous concevons des sites WordPress pour paysagistes nantais : galeries filtrables, pages services (création, entretien, éclairage, arrosage), témoignages clients et formulaire devis géolocalisé.",
+    "secteur-solution-price": "350€/mois",
+    "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
+    "secteur-solution-usps": [
+      {
+        "title": "Maquette 48h",
+        "text": "Direction créative gratuite avant engagement."
+      },
+      {
+        "title": "WordPress sur mesure",
+        "text": "Design premium adapté à votre secteur."
+      },
+      {
+        "title": "SEO local intégré",
+        "text": "Visible sur Google dès la mise en ligne."
+      }
+    ],
+    "secteur-features-title": "Ce que votre site paysagiste doit inclure",
+    "secteur-features-items": [
+      {
+        "title": "Galerie projets",
+        "text": "Filtres : jardin contemporain, potager, terrasse, copropriété."
+      },
+      {
+        "title": "Pages services",
+        "text": "Création, entretien, élagage, arrosage automatique."
+      },
+      {
+        "title": "Devis jardin",
+        "text": "Surface, type de sol, budget, fréquence souhaitée."
+      },
+      {
+        "title": "Zone d'intervention",
+        "text": "Carte et pages SEO par commune."
+      },
+      {
+        "title": "Avis clients",
+        "text": "Social proof Google et témoignages intégrés."
+      },
+      {
+        "title": "Blog conseils",
+        "text": "Entretien saisonnier pour attirer du trafic organique."
+      }
+    ],
+    "secteur-case-title": "Exemple de réalisation aménagement extérieur",
+    "secteur-case-project-title": "Maison Jaden",
+    "secteur-case-project-tags": "WordPress · Vitrine · SEO local",
+    "secteur-case-project-points": [
+      {
+        "text": "Site vitrine premium avec valorisation des réalisations"
+      },
+      {
+        "text": "Parcours devis optimisé pour la conversion mobile"
+      },
+      {
+        "text": "Référencement local sur la métropole nantaise"
+      }
+    ],
+    "secteur-case-project-url": "/realisations/maison-jaden/",
+    "secteur-pricing-title": "Combien coûte un site web paysagiste à Nantes ?",
+    "secteur-pricing-price": "350€",
+    "secteur-pricing-price-suffix": "/mois",
+    "secteur-pricing-cta": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-pricing-col1-label": "Location 350€/mois",
+    "secteur-pricing-col2-label": "Achat classique",
+    "secteur-pricing-features": [
+      {
+        "text": "Création sur mesure incluse"
+      },
+      {
+        "text": "Hébergement premium"
+      },
+      {
+        "text": "Maintenance & mises à jour"
+      },
+      {
+        "text": "SEO local de base"
+      },
+      {
+        "text": "Formulaire de contact"
+      },
+      {
+        "text": "Support réactif"
+      }
+    ],
+    "secteur-pricing-table": [
+      {
+        "label": "Investissement initial",
+        "col1": "0€",
+        "col2": "3 000 – 8 000€"
+      },
+      {
+        "label": "Mensualité",
+        "col1": "350€",
+        "col2": "150–250€"
+      },
+      {
+        "label": "Création incluse",
+        "col1": "✓",
+        "col2": "✓"
+      },
+      {
+        "label": "Maintenance & sécurité",
+        "col1": "Incluse",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Évolutions",
+        "col1": "Incluses",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Total sur 5 ans",
+        "col1": "~21 000€",
+        "col2": "~25 000€+"
+      }
+    ],
+    "secteur-area-title": "Site web paysagiste à Nantes et métropole",
+    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
+    "secteur-area-cities": [
+      {
+        "name": "Nantes",
+        "url": "/services/agence-web-nantes/"
+      },
+      {
+        "name": "Saint-Herblain",
+        "url": "/agence-web-saint-herblain/"
+      },
+      {
+        "name": "Rezé",
+        "url": "/agence-web-reze/"
+      },
+      {
+        "name": "Orvault",
+        "url": "/agence-web-orvault/"
+      },
+      {
+        "name": "Carquefou",
+        "url": "/agence-web-carquefou/"
+      },
+      {
+        "name": "Saint-Nazaire",
+        "url": "/agence-web-saint-nazaire/"
+      }
+    ],
+    "secteur-area-see-all": {
+      "title": "Voir toutes nos zones",
+      "url": "/services/agence-web-nantes/",
+      "target": ""
+    },
+    "secteur-faq-eyebrow": "Questions fréquentes",
+    "secteur-faq-title": "FAQ site web paysagiste",
+    "secteur-faq-items": [
+      {
+        "question": "Combien coûte un site paysagiste à Nantes ?",
+        "answer": "350 €/mois en location, ou 3 000 à 6 000 € en achat selon galerie et nombre de pages services."
+      },
+      {
+        "question": "Puis-je ajouter mes photos de jardins ?",
+        "answer": "Oui. Interface simple pour publier vos réalisations par catégorie."
+      },
+      {
+        "question": "Le site sera-t-il visible sur Google ?",
+        "answer": "Oui. SEO local + contenu par service et par ville d'intervention."
+      },
+      {
+        "question": "Proposez-vous un blog conseils jardin ?",
+        "answer": "Oui. Structure blog incluse pour publier des guides saisonniers."
+      },
+      {
+        "question": "Quel délai de livraison ?",
+        "answer": "4 à 6 semaines. Maquette gratuite sous 48 h."
+      },
+      {
+        "question": "Ciblez-vous aussi les copropriétés ?",
+        "answer": "Oui. Pages et contenus dédiés aux contrats d'entretien collectifs."
+      }
+    ],
+    "secteur-related-title": "Autres secteurs que nous accompagnons",
+    "secteur-related-sectors": [
+      {
+        "title": "Artisan",
+        "url": "/secteurs/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "Plombier",
+        "url": "/secteurs/creation-site-plombier-nantes/"
+      },
+      {
+        "title": "Électricien",
+        "url": "/secteurs/creation-site-electricien-nantes/"
+      },
+      {
+        "title": "BTP",
+        "url": "/secteurs/creation-site-btp-nantes/"
+      },
+      {
+        "title": "Avocat",
+        "url": "/secteurs/creation-site-avocat-nantes/"
+      },
+      {
+        "title": "Restaurant",
+        "url": "/secteurs/creation-site-restaurant-nantes/"
+      }
+    ],
+    "secteur-final-cta-title": "Faites fleurir votre activité paysagiste en ligne",
+    "secteur-final-cta-text": "Maquette gratuite sous 48 h pour visualiser votre future vitrine.",
+    "secteur-final-cta-points": [
+      {
+        "text": "Maquette personnalisée sous 48h"
+      },
+      {
+        "text": "Formule location sans investissement initial"
+      },
+      {
+        "text": "Accompagnement local à Nantes"
+      }
+    ],
+    "secteur-final-form-job-label": "Votre activité paysagiste",
+    "secteur-final-reassurance": [
+      {
+        "text": "Sans engagement"
+      },
+      {
+        "text": "Réponse sous 24h"
+      },
+      {
+        "text": "Agence nantaise"
+      }
+    ]
+  }
+}

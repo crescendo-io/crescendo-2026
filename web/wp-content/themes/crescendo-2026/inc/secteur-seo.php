@@ -54,7 +54,7 @@ function crescendo_secteur_breadcrumb($post_id = null) {
     $post_id = $post_id ?: get_the_ID();
     $items = array(
         array('label' => 'Accueil', 'url' => home_url('/')),
-        array('label' => 'Secteurs', 'url' => home_url('/creation-site-web-nantes/')),
+        array('label' => 'Secteurs', 'url' => home_url('/secteurs/')),
         array('label' => get_the_title($post_id), 'url' => get_permalink($post_id)),
     );
 

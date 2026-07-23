@@ -1,0 +1,159 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Secteurs",
+    "slug": "secteurs",
+    "status": "publish",
+    "menu_order": 5,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Secteurs d'activité · Sites web Nantes | Crescendo Studio",
+    "meta_description": "Création de sites web par secteur à Nantes : artisan, avocat, immobilier, restaurant, BTP, industrie, coach… WordPress sur mesure dès 350€/mois.",
+    "focus_keyword": "site web par secteur nantes",
+    "canonical": "https://crescendo-studio.io/secteurs/",
+    "noindex": false
+  },
+  "fields": {
+    "secteurs-hero-eyebrow": "Secteurs d'activité · Nantes",
+    "secteurs-hero-title": "Sites web par secteur à Nantes",
+    "secteurs-hero-intro": "Artisan, avocat, immobilier, restaurant, startup, BTP, industrie… Nous créons des sites WordPress sur mesure adaptés à votre métier et à votre zone de prospection en Loire-Atlantique.",
+    "secteurs-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    },
+    "secteurs-intro-text": "Chaque secteur a ses codes, ses contraintes légales et ses parcours de conversion. Nos pages métier sont pensées pour répondre aux attentes de vos prospects : crédibilité, SEO local, formulaire de devis ou prise de RDV.",
+    "secteurs-intro-stats": [
+      {
+        "value": "17",
+        "label": "Secteurs couverts"
+      },
+      {
+        "value": "350€/mois",
+        "label": "Location tout inclus"
+      },
+      {
+        "value": "48h",
+        "label": "Maquette gratuite"
+      },
+      {
+        "value": "100%",
+        "label": "WordPress sur mesure"
+      }
+    ],
+    "secteurs-list-eyebrow": "Par métier",
+    "secteurs-list-title": "Tous les secteurs que nous accompagnons",
+    "secteurs-cards": [
+      {
+        "eyebrow": "Architecte · BET · Nantes",
+        "title": "Site web pour architecte à Nantes",
+        "text": "Architecte DPLG, bureau d'études ou paysagiste à Nantes ? Votre site est votre portfolio permanent : projets réalisés, démarche créative, équipe et formulaire d…",
+        "url": "/secteurs/creation-site-architecte-nantes/"
+      },
+      {
+        "eyebrow": "Artisan · Nantes",
+        "title": "Site web pour artisan à Nantes",
+        "text": "Vous êtes plombier, électricien, menuisier ou artisan du bâtiment à Nantes ? Nous créons des sites WordPress sur mesure qui génèrent des demandes de devis local…",
+        "url": "/secteurs/creation-site-artisan-nantes/"
+      },
+      {
+        "eyebrow": "Association · ONG · Nantes",
+        "title": "Site web pour association à Nantes",
+        "text": "Association culturelle, sportive, humanitaire ou ONG à Nantes ? Votre site mobilise adhérents, bénévoles et donateurs : actualités, agenda, adhésion en ligne et…",
+        "url": "/secteurs/creation-site-association-nantes/"
+      },
+      {
+        "eyebrow": "Avocat · Cabinet juridique · Nantes",
+        "title": "Création de site web pour avocat à Nantes",
+        "text": "Vous êtes avocat indépendant, associé ou responsable d'un cabinet à Nantes ? Nous concevons des sites WordPress sur mesure qui valorisent vos domaines d'interve…",
+        "url": "/secteurs/creation-site-avocat-nantes/"
+      },
+      {
+        "eyebrow": "B2B · PME · Industrie · Nantes",
+        "title": "Site web B2B et PME à Nantes",
+        "text": "Votre PME ou entreprise industrielle à Nantes a besoin d'un site qui génère des leads qualifiés, pas d'une vitrine statique. Nous créons des sites WordPress B2B…",
+        "url": "/secteurs/creation-site-b2b-nantes/"
+      },
+      {
+        "eyebrow": "BTP · Gros œuvre · Second œuvre · Nantes",
+        "title": "Site web pour entreprise BTP à Nantes",
+        "text": "Entreprise de gros œuvre, rénovation, travaux publics ou second œuvre à Nantes ? Votre site doit générer des demandes de devis qualifiées, valoriser vos chantie…",
+        "url": "/secteurs/creation-site-btp-nantes/"
+      },
+      {
+        "eyebrow": "RH · Recrutement · Conseil · Nantes",
+        "title": "Site web pour cabinet RH et recrutement à Nantes",
+        "text": "Cabinet de recrutement, conseil RH ou chasseur de têtes à Nantes ? Votre site doit crédibiliser votre expertise, présenter vos métiers couverts et convertir ent…",
+        "url": "/secteurs/creation-site-cabinet-rh-nantes/"
+      },
+      {
+        "eyebrow": "Coach · Consultant · Nantes",
+        "title": "Site web pour coach et consultant à Nantes",
+        "text": "Coach sportif, coach de vie, consultant RH ou formateur indépendant à Nantes ? Votre site doit convertir les visiteurs en clients : prise de RDV en ligne, témoi…",
+        "url": "/secteurs/creation-site-coach-nantes/"
+      },
+      {
+        "eyebrow": "Salon de coiffure · Nantes",
+        "title": "Création de site web pour coiffeur à Nantes",
+        "text": "Vous êtes coiffeur indépendant, barbier ou gérant d'un salon de coiffure à Nantes ? Nous concevons des sites WordPress premium qui augmentent votre visibilité s…",
+        "url": "/secteurs/creation-site-coiffeur-nantes/"
+      },
+      {
+        "eyebrow": "Électricien · Dépannage · Nantes",
+        "title": "Site web pour électricien à Nantes",
+        "text": "Électricien, artisan électricien ou entreprise de dépannage électrique à Nantes ? Votre site doit convertir les urgences et les projets de rénovation : numéro v…",
+        "url": "/secteurs/creation-site-electricien-nantes/"
+      },
+      {
+        "eyebrow": "Immobilier · Nantes",
+        "title": "Création de site web immobilier à Nantes",
+        "text": "Vous dirigez une agence immobilière, un réseau de mandataires ou un cabinet de gestion locative à Nantes ? Nous créons des sites WordPress sur mesure qui valori…",
+        "url": "/secteurs/creation-site-immobilier-nantes/"
+      },
+      {
+        "eyebrow": "Industrie · Manufacturing · Nantes",
+        "title": "Site web pour entreprise industrielle à Nantes",
+        "text": "PME industrielle, sous-traitant ou fabricant en Loire-Atlantique ? Votre site doit générer des demandes de devis qualifiées, présenter vos capacités de producti…",
+        "url": "/secteurs/creation-site-industrie-nantes/"
+      },
+      {
+        "eyebrow": "Paysagiste · Jardin · Espaces verts · Nantes",
+        "title": "Site web pour paysagiste à Nantes",
+        "text": "Paysagiste, créateur de jardins ou entreprise d'entretien d'espaces verts à Nantes ? Votre site doit séduire par vos réalisations, faciliter les demandes de dev…",
+        "url": "/secteurs/creation-site-paysagiste-nantes/"
+      },
+      {
+        "eyebrow": "Plombier · Chauffagiste · Nantes",
+        "title": "Site web pour plombier à Nantes",
+        "text": "Plombier, chauffagiste ou artisan sanitaire à Nantes ? Votre site doit capter les fuites urgentes et les projets de rénovation salle de bain : visible sur Googl…",
+        "url": "/secteurs/creation-site-plombier-nantes/"
+      },
+      {
+        "eyebrow": "Restaurant · Nantes",
+        "title": "Création de site web pour restaurant à Nantes",
+        "text": "Vous dirigez un restaurant, une brasserie, un bar ou un établissement gastronomique à Nantes ? Nous créons des sites WordPress sur mesure qui donnent envie de r…",
+        "url": "/secteurs/creation-site-restaurant-nantes/"
+      },
+      {
+        "eyebrow": "Startup · Scale-up · Nantes",
+        "title": "Site web pour startup à Nantes",
+        "text": "Vous lancez ou scalez une startup à Nantes — Île de Nantes, Atlanpole, French Tech ? Nous créons des sites WordPress sur mesure qui crédibilisent votre produit,…",
+        "url": "/secteurs/creation-site-startup-nantes/"
+      },
+      {
+        "eyebrow": "Thérapeute · Santé · Bien-être · Nantes",
+        "title": "Site web pour thérapeute et praticien à Nantes",
+        "text": "Psychologue, ostéopathe, sophrologue, naturopathe ou praticien bien-être à Nantes ? Votre site doit inspirer confiance, respecter la confidentialité et facilite…",
+        "url": "/secteurs/creation-site-therapeute-nantes/"
+      }
+    ],
+    "secteurs-cta-title": "Votre secteur n'est pas listé ?",
+    "secteurs-cta-text": "Nous adaptons nos sites à toute activité B2B ou B2C. Contactez-nous pour un devis personnalisé et une maquette gratuite en 48h.",
+    "secteurs-cta-button": {
+      "title": "Parler de mon projet",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

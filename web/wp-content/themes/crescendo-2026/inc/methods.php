@@ -106,6 +106,48 @@ function crescendo_get_content_import_dir($subdir = '') {
     return $bases[0] . $subdir;
 }
 
+function crescendo_find_content_import_file($subdir, $filename) {
+    $subdir = trim($subdir, '/') . '/';
+    $filename = ltrim($filename, '/');
+    $dir = crescendo_get_content_import_dir($subdir);
+    $preferred = $dir . $filename;
+
+    if (file_exists($preferred)) {
+        return $preferred;
+    }
+
+    static $bases = null;
+
+    if ($bases === null) {
+        $bases = array();
+        $candidates = array(
+            dirname(ABSPATH) . '/content-import',
+            get_template_directory() . '/content-import',
+            dirname(get_template_directory(), 4) . '/content-import',
+            dirname(get_template_directory(), 5) . '/content-import',
+        );
+
+        foreach ($candidates as $candidate) {
+            $resolved = realpath($candidate);
+            if ($resolved && is_dir($resolved)) {
+                $path = trailingslashit($resolved);
+                if (!in_array($path, $bases, true)) {
+                    $bases[] = $path;
+                }
+            }
+        }
+    }
+
+    foreach ($bases as $base) {
+        $candidate = $base . $subdir . $filename;
+        if (file_exists($candidate)) {
+            return $candidate;
+        }
+    }
+
+    return $preferred;
+}
+
 function lsdGetTemplatePart($folder = '', $slug, $name, $args = '') {
     if (is_plugin_active('lsd-debug-template-part/index.php')) {
         if (LSD_DEBUG === true) {

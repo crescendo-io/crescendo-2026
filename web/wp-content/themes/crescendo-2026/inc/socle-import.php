@@ -11,16 +11,34 @@ function crescendo_socle_get_template(array $data) {
         return 'template-legal.php';
     }
 
+    if ($template === 'sitemap') {
+        return 'template-sitemap.php';
+    }
+
     $slug = sanitize_title($data['page']['slug'] ?? '');
     if ($slug === 'a-propos') {
         return 'template-about.php';
+    }
+
+    if ($slug === 'plan-du-site') {
+        return 'template-sitemap.php';
     }
 
     return 'template-legal.php';
 }
 
 function crescendo_socle_get_field_prefix(array $data) {
-    return crescendo_socle_get_template($data) === 'template-about.php' ? 'about-' : 'legal-';
+    $template = crescendo_socle_get_template($data);
+
+    if ($template === 'template-about.php') {
+        return 'about-';
+    }
+
+    if ($template === 'template-sitemap.php') {
+        return 'sitemap-';
+    }
+
+    return 'legal-';
 }
 
 function crescendo_import_socle_from_array(array $data) {

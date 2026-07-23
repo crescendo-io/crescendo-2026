@@ -1,0 +1,73 @@
+{
+    "key": "group_679a6svc001",
+    "title": "Page Services (hub) — Contenu",
+    "fields": [
+        { "key": "field_679a6svctabseo", "label": "SEO", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6svcseotit", "label": "Meta title", "name": "services-seo-meta-title", "type": "text" },
+        { "key": "field_679a6svcseodesc", "label": "Meta description", "name": "services-seo-meta-description", "type": "textarea", "rows": 3 },
+        { "key": "field_679a6svcseokey", "label": "Mot-clé principal", "name": "services-seo-focus-keyword", "type": "text" },
+        { "key": "field_679a6svcseocan", "label": "URL canonique", "name": "services-seo-canonical", "type": "url" },
+        { "key": "field_679a6svcseonoix", "label": "Noindex", "name": "services-seo-noindex", "type": "true_false", "ui": 1 },
+
+        { "key": "field_679a6svctabhero", "label": "Hero", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6svchero001", "label": "Sur-titre", "name": "services-hero-eyebrow", "type": "text" },
+        { "key": "field_679a6svchero002", "label": "Titre H1", "name": "services-hero-title", "type": "text" },
+        { "key": "field_679a6svchero003", "label": "Intro", "name": "services-hero-intro", "type": "textarea", "rows": 4 },
+        { "key": "field_679a6svchero004", "label": "CTA principal", "name": "services-hero-cta-primary", "type": "link" },
+
+        { "key": "field_679a6svctabintro", "label": "Intro", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6svcintro01", "label": "Texte", "name": "services-intro-text", "type": "textarea", "rows": 4 },
+        {
+            "key": "field_679a6svcintro02",
+            "label": "Chiffres clés",
+            "name": "services-intro-stats",
+            "type": "repeater",
+            "layout": "table",
+            "max": 4,
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a6svcintro03", "label": "Valeur", "name": "value", "type": "text" },
+                { "key": "field_679a6svcintro04", "label": "Label", "name": "label", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a6svctablist", "label": "Liste", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6svclist001", "label": "Sur-titre", "name": "services-list-eyebrow", "type": "text" },
+        { "key": "field_679a6svclist002", "label": "Titre H2", "name": "services-list-title", "type": "text" },
+        {
+            "key": "field_679a6svclist003",
+            "label": "Cartes services",
+            "name": "services-cards",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter un service",
+            "sub_fields": [
+                { "key": "field_679a6svccard001", "label": "Sur-titre", "name": "eyebrow", "type": "text" },
+                { "key": "field_679a6svccard002", "label": "Titre", "name": "title", "type": "text", "required": 1 },
+                { "key": "field_679a6svccard003", "label": "Texte", "name": "text", "type": "textarea", "rows": 3 },
+                { "key": "field_679a6svccard004", "label": "URL", "name": "url", "type": "url", "required": 1 }
+            ]
+        },
+
+        { "key": "field_679a6svctabcta", "label": "CTA final", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6svccta001", "label": "Titre", "name": "services-cta-title", "type": "text" },
+        { "key": "field_679a6svccta002", "label": "Texte", "name": "services-cta-text", "type": "textarea", "rows": 2 },
+        { "key": "field_679a6svccta003", "label": "Bouton", "name": "services-cta-button", "type": "link" }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-services.php"
+            }
+        ]
+    ],
+    "menu_order": 7,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "modified": 1784747100
+}

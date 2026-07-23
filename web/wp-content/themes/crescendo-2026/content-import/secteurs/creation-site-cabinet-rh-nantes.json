@@ -1,0 +1,305 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création de site web pour cabinets RH à Nantes",
+    "slug": "creation-site-cabinet-rh-nantes",
+    "status": "publish",
+    "menu_order": 36,
+    "parent": "secteurs"
+  },
+  "seo": {
+    "meta_title": "Site web cabinet RH Nantes — Recrutement & SEO | Crescendo",
+    "meta_description": "Création de site internet cabinet RH à Nantes : recrutement, coaching, audit social. Vitrine premium, offres d'emploi, SEO local. Maquette 48h.",
+    "focus_keyword": "site web cabinet rh nantes",
+    "canonical": "https://crescendo-studio.io/secteurs/creation-site-cabinet-rh-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "secteur-hero-eyebrow": "RH · Recrutement · Conseil · Nantes",
+    "secteur-hero-title": "Site web pour cabinet RH et recrutement à Nantes",
+    "secteur-hero-intro": "Cabinet de recrutement, conseil RH ou chasseur de têtes à Nantes ? Votre site doit crédibiliser votre expertise, présenter vos métiers couverts et convertir entreprises comme candidats — avec une image professionnelle à la hauteur de vos clients grands comptes.",
+    "secteur-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-hero-cta-secondary": {
+      "title": "Voir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+    "secteur-hero-note": "Maquette gratuite en 48h",
+    "secteur-benefits": [
+      {
+        "title": "Image premium",
+        "text": "Design institutionnel qui rassure DRH et candidats."
+      },
+      {
+        "title": "Offres d'emploi",
+        "text": "Publication et SEO des postes ouverts."
+      },
+      {
+        "title": "Double cible",
+        "text": "Parcours entreprises et candidats clairement séparés."
+      },
+      {
+        "title": "SEO RH local",
+        "text": "« Cabinet recrutement Nantes », « chasseur de têtes »."
+      }
+    ],
+    "secteur-pain-title": "Pourquoi les cabinets RH manquent de leads en ligne",
+    "secteur-pain-items": [
+      {
+        "title": "Site LinkedIn suffisant ?",
+        "text": "Les DRH comparent plusieurs cabinets — vous devez avoir un site."
+      },
+      {
+        "title": "Pas d'offres en ligne",
+        "text": "Candidats et Google ne trouvent pas vos postes ouverts."
+      },
+      {
+        "title": "Image générique",
+        "text": "Template qui ne différencie pas votre expertise sectorielle."
+      },
+      {
+        "title": "Contenu faible",
+        "text": "Pas de pages métier — invisible sur les requêtes niche."
+      }
+    ],
+    "secteur-solution-title": "Un site cabinet RH orienté crédibilité et conversion",
+    "secteur-solution-text": "Nous créons des sites WordPress pour cabinets RH nantais : pages expertise (IT, industrie, cadres dirigeants), témoignages clients, offres d'emploi, blog RH et formulaires candidature/spécificaton de poste.",
+    "secteur-solution-price": "350€/mois",
+    "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
+    "secteur-solution-usps": [
+      {
+        "title": "Maquette 48h",
+        "text": "Direction créative gratuite avant engagement."
+      },
+      {
+        "title": "WordPress sur mesure",
+        "text": "Design premium adapté à votre secteur."
+      },
+      {
+        "title": "SEO local intégré",
+        "text": "Visible sur Google dès la mise en ligne."
+      }
+    ],
+    "secteur-features-title": "Ce que votre site cabinet RH doit inclure",
+    "secteur-features-items": [
+      {
+        "title": "Pages expertise",
+        "text": "Par secteur : IT, industrie, finance, santé."
+      },
+      {
+        "title": "Offres d'emploi",
+        "text": "Liste des postes, candidature en ligne, SEO job."
+      },
+      {
+        "title": "Espace entreprises",
+        "text": "Services recrutement, assessment, RPO."
+      },
+      {
+        "title": "Espace candidats",
+        "text": "Dépôt CV, alertes emploi, conseils carrière."
+      },
+      {
+        "title": "Équipe & méthode",
+        "text": "Consultants, process, garanties de suivi."
+      },
+      {
+        "title": "Blog RH",
+        "text": "Tendances marché de l'emploi nantais."
+      }
+    ],
+    "secteur-case-title": "Exemple de réalisation conseil / formation",
+    "secteur-case-project-title": "Be Focus",
+    "secteur-case-project-tags": "WordPress · Inscriptions · CRM",
+    "secteur-case-project-points": [
+      {
+        "text": "Plateforme avec parcours candidat/inscription optimisé"
+      },
+      {
+        "text": "Design premium orienté conversion"
+      },
+      {
+        "text": "Connexion CRM pour le suivi des contacts"
+      }
+    ],
+    "secteur-case-project-url": "/realisations/be-focus/",
+    "secteur-pricing-title": "Combien coûte un site web cabinet RH à Nantes ?",
+    "secteur-pricing-price": "350€",
+    "secteur-pricing-price-suffix": "/mois",
+    "secteur-pricing-cta": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-pricing-col1-label": "Location 350€/mois",
+    "secteur-pricing-col2-label": "Achat classique",
+    "secteur-pricing-features": [
+      {
+        "text": "Création sur mesure incluse"
+      },
+      {
+        "text": "Hébergement premium"
+      },
+      {
+        "text": "Maintenance & mises à jour"
+      },
+      {
+        "text": "SEO local de base"
+      },
+      {
+        "text": "Formulaire de contact"
+      },
+      {
+        "text": "Support réactif"
+      }
+    ],
+    "secteur-pricing-table": [
+      {
+        "label": "Investissement initial",
+        "col1": "0€",
+        "col2": "3 000 – 8 000€"
+      },
+      {
+        "label": "Mensualité",
+        "col1": "350€",
+        "col2": "150–250€"
+      },
+      {
+        "label": "Création incluse",
+        "col1": "✓",
+        "col2": "✓"
+      },
+      {
+        "label": "Maintenance & sécurité",
+        "col1": "Incluse",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Évolutions",
+        "col1": "Incluses",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Total sur 5 ans",
+        "col1": "~21 000€",
+        "col2": "~25 000€+"
+      }
+    ],
+    "secteur-area-title": "Site web cabinet RH à Nantes et métropole",
+    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
+    "secteur-area-cities": [
+      {
+        "name": "Nantes",
+        "url": "/services/agence-web-nantes/"
+      },
+      {
+        "name": "Saint-Herblain",
+        "url": "/agence-web-saint-herblain/"
+      },
+      {
+        "name": "Rezé",
+        "url": "/agence-web-reze/"
+      },
+      {
+        "name": "Orvault",
+        "url": "/agence-web-orvault/"
+      },
+      {
+        "name": "Carquefou",
+        "url": "/agence-web-carquefou/"
+      },
+      {
+        "name": "Saint-Nazaire",
+        "url": "/agence-web-saint-nazaire/"
+      }
+    ],
+    "secteur-area-see-all": {
+      "title": "Voir toutes nos zones",
+      "url": "/services/agence-web-nantes/",
+      "target": ""
+    },
+    "secteur-faq-eyebrow": "Questions fréquentes",
+    "secteur-faq-title": "FAQ site web cabinet RH",
+    "secteur-faq-items": [
+      {
+        "question": "Combien coûte un site cabinet RH à Nantes ?",
+        "answer": "350 €/mois en location, ou 4 000 à 8 000 € en achat selon offres d'emploi et intégrations ATS."
+      },
+      {
+        "question": "Peut-on publier des offres d'emploi ?",
+        "answer": "Oui. Module offres avec SEO par poste ou intégration votre ATS."
+      },
+      {
+        "question": "Le site cible entreprises et candidats ?",
+        "answer": "Oui. Double parcours avec CTAs distincts dès l'accueil."
+      },
+      {
+        "question": "Intégration LinkedIn ou Indeed possible ?",
+        "answer": "Oui selon vos outils — nous étudions la faisabilité technique."
+      },
+      {
+        "question": "Quel délai de livraison ?",
+        "answer": "6 à 8 semaines. Maquette gratuite sous 48 h."
+      },
+      {
+        "question": "Proposez-vous la rédaction de contenus RH ?",
+        "answer": "Oui. Pages expertise et articles blog optimisés SEO sur devis."
+      }
+    ],
+    "secteur-related-title": "Autres secteurs que nous accompagnons",
+    "secteur-related-sectors": [
+      {
+        "title": "Artisan",
+        "url": "/secteurs/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "Plombier",
+        "url": "/secteurs/creation-site-plombier-nantes/"
+      },
+      {
+        "title": "Électricien",
+        "url": "/secteurs/creation-site-electricien-nantes/"
+      },
+      {
+        "title": "BTP",
+        "url": "/secteurs/creation-site-btp-nantes/"
+      },
+      {
+        "title": "Avocat",
+        "url": "/secteurs/creation-site-avocat-nantes/"
+      },
+      {
+        "title": "Restaurant",
+        "url": "/secteurs/creation-site-restaurant-nantes/"
+      }
+    ],
+    "secteur-final-cta-title": "Renforcez la visibilité de votre cabinet RH à Nantes",
+    "secteur-final-cta-text": "Maquette gratuite sous 48 h pour définir votre image institutionnelle.",
+    "secteur-final-cta-points": [
+      {
+        "text": "Maquette personnalisée sous 48h"
+      },
+      {
+        "text": "Formule location sans investissement initial"
+      },
+      {
+        "text": "Accompagnement local à Nantes"
+      }
+    ],
+    "secteur-final-form-job-label": "Votre cabinet RH",
+    "secteur-final-reassurance": [
+      {
+        "text": "Sans engagement"
+      },
+      {
+        "text": "Réponse sous 24h"
+      },
+      {
+        "text": "Agence nantaise"
+      }
+    ]
+  }
+}

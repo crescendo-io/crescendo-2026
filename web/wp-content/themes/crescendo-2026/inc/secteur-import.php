@@ -6,7 +6,8 @@ function crescendo_import_secteur_from_array(array $data) {
     }
 
     $slug = sanitize_title($data['page']['slug']);
-    $existing = get_page_by_path($slug, OBJECT, 'page');
+    $parent_slug = sanitize_title($data['page']['parent'] ?? 'secteurs');
+    $existing = crescendo_find_import_page_by_slug($slug, $parent_slug);
 
     $pageArgs = array(
         'post_title' => sanitize_text_field($data['page']['title']),
@@ -17,6 +18,11 @@ function crescendo_import_secteur_from_array(array $data) {
         'menu_order' => (int) ($data['page']['menu_order'] ?? 0),
         'page_template' => 'template-secteur.php',
     );
+
+    $parent_id = crescendo_get_import_parent_id($parent_slug);
+    if ($parent_id) {
+        $pageArgs['post_parent'] = $parent_id;
+    }
 
     if ($existing) {
         $pageArgs['ID'] = $existing->ID;
@@ -78,7 +84,8 @@ function crescendo_list_secteur_import_files() {
 
     $files = glob($dir . '*.json') ?: array();
     $files = array_filter($files, function ($file) {
-        return basename($file) !== '_schema.json';
+        $name = basename($file);
+        return $name !== '_schema.json' && $name !== 'secteurs.json';
     });
 
     sort($files);
@@ -150,6 +157,7 @@ function crescendo_render_secteur_import_page() {
     <div class="wrap">
         <h1>Import pages Secteur (JSON)</h1>
         <p>Dossier : <code><?php echo esc_html(crescendo_get_secteur_import_dir()); ?></code></p>
+        <p><strong>Important :</strong> importez d'abord le hub via <a href="<?php echo esc_url(admin_url('tools.php?page=crescendo-secteurs-hub-import')); ?>">Import Secteurs Hub JSON</a>, puis les pages secteur individuelles.</p>
         <?php foreach ($messages as $message) : ?>
             <div class="notice notice-<?php echo esc_attr($message['type']); ?> is-dismissible"><p><?php echo wp_kses_post($message['text']); ?></p></div>
         <?php endforeach; ?>

@@ -12,13 +12,38 @@ function crescendo_normalize_import_link($link) {
     );
 }
 
+function crescendo_find_import_page_by_slug($slug, $parent_slug = '') {
+    $slug = sanitize_title($slug);
+
+    if ($parent_slug) {
+        $path = sanitize_title($parent_slug) . '/' . $slug;
+        $page = get_page_by_path($path, OBJECT, 'page');
+        if ($page) {
+            return $page;
+        }
+    }
+
+    return get_page_by_path($slug, OBJECT, 'page');
+}
+
+function crescendo_get_import_parent_id($parent_slug) {
+    if (empty($parent_slug)) {
+        return 0;
+    }
+
+    $parent = get_page_by_path(sanitize_title($parent_slug), OBJECT, 'page');
+
+    return $parent ? (int) $parent->ID : 0;
+}
+
 function crescendo_import_service_from_array(array $data) {
     if (empty($data['page']['title']) || empty($data['page']['slug'])) {
         return new WP_Error('missing_page', 'Le JSON doit contenir page.title et page.slug.');
     }
 
     $slug = sanitize_title($data['page']['slug']);
-    $existing = get_page_by_path($slug, OBJECT, 'page');
+    $parent_slug = sanitize_title($data['page']['parent'] ?? 'services');
+    $existing = crescendo_find_import_page_by_slug($slug, $parent_slug);
 
     $pageArgs = array(
         'post_title' => sanitize_text_field($data['page']['title']),
@@ -30,11 +55,9 @@ function crescendo_import_service_from_array(array $data) {
         'page_template' => 'template-service.php',
     );
 
-    if (!empty($data['page']['parent'])) {
-        $parent = get_page_by_path(sanitize_title($data['page']['parent']), OBJECT, 'page');
-        if ($parent) {
-            $pageArgs['post_parent'] = $parent->ID;
-        }
+    $parent_id = crescendo_get_import_parent_id($parent_slug);
+    if ($parent_id) {
+        $pageArgs['post_parent'] = $parent_id;
     }
 
     if ($existing) {
@@ -99,7 +122,8 @@ function crescendo_list_service_import_files() {
 
     $files = glob($dir . '*.json') ?: array();
     $files = array_filter($files, function ($file) {
-        return basename($file) !== '_schema.json';
+        $name = basename($file);
+        return $name !== '_schema.json' && $name !== 'services.json';
     });
 
     sort($files);
@@ -187,6 +211,7 @@ function crescendo_render_service_import_page() {
     <div class="wrap">
         <h1>Import pages Service (JSON)</h1>
         <p>Importez des pages money depuis des fichiers JSON. Dossier : <code><?php echo esc_html(crescendo_get_service_import_dir()); ?></code></p>
+        <p><strong>Important :</strong> importez d'abord le hub via <a href="<?php echo esc_url(admin_url('tools.php?page=crescendo-services-hub-import')); ?>">Import Services Hub JSON</a>, puis les pages service individuelles.</p>
 
         <?php foreach ($messages as $message) : ?>
             <div class="notice notice-<?php echo esc_attr($message['type']); ?> is-dismissible"><p><?php echo wp_kses_post($message['text']); ?></p></div>

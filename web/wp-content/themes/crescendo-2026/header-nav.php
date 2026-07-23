@@ -8,21 +8,7 @@ if (empty($headerCta) || empty($headerCta['url'])) {
     );
 }
 
-$fallbackLinks = array(
-    array('label' => 'Services', 'url' => '#', 'children' => array(
-        array('label' => 'Création de site internet', 'url' => '#'),
-        array('label' => 'CRM sur mesure', 'url' => '#'),
-        array('label' => 'Location de site internet', 'url' => '#tarifs'),
-        array('label' => 'Refonte WordPress', 'url' => '#'),
-        array('label' => 'Site e-commerce', 'url' => '#'),
-        array('label' => 'Maintenance WordPress', 'url' => '#'),
-    )),
-    array('label' => 'CRM sur mesure', 'url' => '#'),
-    array('label' => 'Réalisations', 'url' => home_url('/realisations/')),
-    array('label' => 'Blog', 'url' => '#'),
-    array('label' => 'À propos', 'url' => home_url('/a-propos/')),
-    array('label' => 'Contact', 'url' => home_url('/contact/')),
-);
+$fallbackLinks = crescendo_get_header_nav_links();
 ?>
 <header class="site-header" role="banner">
     <div class="site-header__inner container">

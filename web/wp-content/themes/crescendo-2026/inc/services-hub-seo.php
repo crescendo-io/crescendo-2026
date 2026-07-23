@@ -1,0 +1,196 @@
+<?php
+
+function crescendo_is_services_hub_page($post_id = null) {
+    $post_id = $post_id ?: get_queried_object_id();
+    return get_page_template_slug($post_id) === 'template-services.php';
+}
+
+function crescendo_services_hub($field, $post_id = null) {
+    $post_id = $post_id ?: get_the_ID();
+    $value = get_field($field, $post_id);
+
+    if (is_array($value) && empty($value)) {
+        return null;
+    }
+
+    if ($value !== null && $value !== false && $value !== '') {
+        return $value;
+    }
+
+    return null;
+}
+
+function crescendo_get_services_hub_seo($post_id = null) {
+    $post_id = $post_id ?: get_the_ID();
+
+    $metaTitle = crescendo_services_hub('services-seo-meta-title', $post_id);
+    $metaDescription = crescendo_services_hub('services-seo-meta-description', $post_id);
+    $focusKeyword = crescendo_services_hub('services-seo-focus-keyword', $post_id);
+    $canonical = crescendo_services_hub('services-seo-canonical', $post_id);
+    $noindex = (bool) crescendo_services_hub('services-seo-noindex', $post_id);
+
+    if (!$metaTitle) {
+        $metaTitle = get_the_title($post_id) . ' | ' . get_bloginfo('name');
+    }
+
+    if (!$metaDescription) {
+        $metaDescription = wp_trim_words(strip_tags(crescendo_services_hub('services-hero-intro', $post_id) ?: ''), 28, '…');
+    }
+
+    if (!$canonical) {
+        $canonical = get_permalink($post_id);
+    }
+
+    return array(
+        'meta_title' => $metaTitle,
+        'meta_description' => $metaDescription,
+        'focus_keyword' => $focusKeyword,
+        'canonical' => $canonical,
+        'noindex' => $noindex,
+    );
+}
+
+function crescendo_services_hub_breadcrumb($post_id = null) {
+    $post_id = $post_id ?: get_the_ID();
+
+    return apply_filters('crescendo_services_hub_breadcrumb', array(
+        array('label' => 'Accueil', 'url' => home_url('/')),
+        array('label' => get_the_title($post_id), 'url' => get_permalink($post_id)),
+    ), $post_id);
+}
+
+function crescendo_get_services_hub_children($post_id = null) {
+    $post_id = $post_id ?: get_the_ID();
+
+    return get_pages(array(
+        'parent' => $post_id,
+        'sort_column' => 'menu_order',
+        'sort_order' => 'ASC',
+        'post_status' => 'publish',
+    ));
+}
+
+function crescendo_get_services_hub_cards($post_id = null) {
+    $post_id = $post_id ?: get_the_ID();
+    $cards = crescendo_services_hub('services-cards', $post_id);
+
+    if (!empty($cards)) {
+        return array_values(array_filter(array_map(function ($card) {
+            if (empty($card['title']) || empty($card['url'])) {
+                return null;
+            }
+
+            return array(
+                'eyebrow' => $card['eyebrow'] ?? '',
+                'title' => $card['title'],
+                'text' => $card['text'] ?? '',
+                'url' => $card['url'],
+            );
+        }, $cards)));
+    }
+
+    $children = crescendo_get_services_hub_children($post_id);
+    if (!empty($children)) {
+        $cards = array();
+
+        foreach ($children as $child) {
+            $intro = get_field('service-hero-intro', $child->ID);
+            $cards[] = array(
+                'eyebrow' => get_field('service-hero-eyebrow', $child->ID) ?: '',
+                'title' => get_the_title($child),
+                'text' => $intro ? wp_trim_words($intro, 28, '…') : '',
+                'url' => get_permalink($child),
+            );
+        }
+
+        return $cards;
+    }
+
+    foreach (crescendo_get_site_nav_sections() as $section) {
+        if ($section['id'] !== 'services' || empty($section['items'])) {
+            continue;
+        }
+
+        $cards = array();
+        foreach ($section['items'] as $item) {
+            $cards[] = array(
+                'eyebrow' => '',
+                'title' => $item['label'],
+                'text' => '',
+                'url' => $item['url'],
+            );
+        }
+
+        return $cards;
+    }
+
+    return array();
+}
+
+function crescendo_output_services_hub_schema($post_id = null) {
+    $post_id = $post_id ?: get_the_ID();
+    $seo = crescendo_get_services_hub_seo($post_id);
+    $children = crescendo_get_services_hub_cards($post_id);
+
+    $items = array();
+    foreach ($children as $index => $child) {
+        $items[] = array(
+            '@type' => 'ListItem',
+            'position' => $index + 1,
+            'name' => $child['title'],
+            'url' => $child['url'],
+        );
+    }
+
+    $schema = array(
+        '@context' => 'https://schema.org',
+        '@type' => 'CollectionPage',
+        'name' => crescendo_services_hub('services-hero-title', $post_id) ?: get_the_title($post_id),
+        'description' => $seo['meta_description'],
+        'url' => $seo['canonical'],
+    );
+
+    if (!empty($items)) {
+        $schema['mainEntity'] = array(
+            '@type' => 'ItemList',
+            'itemListElement' => $items,
+        );
+    }
+
+    echo '<script type="application/ld+json">' . wp_json_encode($schema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . '</script>' . "\n";
+}
+
+function crescendo_services_hub_head_meta() {
+    if (!is_page() || !crescendo_is_services_hub_page()) {
+        return;
+    }
+
+    $seo = crescendo_get_services_hub_seo();
+
+    echo '<meta name="description" content="' . esc_attr($seo['meta_description']) . '">' . "\n";
+
+    if (!empty($seo['focus_keyword'])) {
+        echo '<meta name="keywords" content="' . esc_attr($seo['focus_keyword']) . '">' . "\n";
+    }
+
+    echo '<link rel="canonical" href="' . esc_url($seo['canonical']) . '">' . "\n";
+
+    if ($seo['noindex']) {
+        echo '<meta name="robots" content="noindex, nofollow">' . "\n";
+    }
+
+    echo '<meta property="og:title" content="' . esc_attr($seo['meta_title']) . '">' . "\n";
+    echo '<meta property="og:description" content="' . esc_attr($seo['meta_description']) . '">' . "\n";
+    echo '<meta property="og:url" content="' . esc_url($seo['canonical']) . '">' . "\n";
+    echo '<meta property="og:type" content="website">' . "\n";
+}
+add_action('wp_head', 'crescendo_services_hub_head_meta', 1);
+
+function crescendo_filter_services_hub_document_title($title) {
+    if (is_admin() || !is_page() || !crescendo_is_services_hub_page()) {
+        return $title;
+    }
+
+    return crescendo_get_services_hub_seo()['meta_title'];
+}
+add_filter('pre_get_document_title', 'crescendo_filter_services_hub_document_title', 20);

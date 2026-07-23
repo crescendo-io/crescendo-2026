@@ -1,0 +1,305 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création de site web pour l'industrie à Nantes",
+    "slug": "creation-site-industrie-nantes",
+    "status": "publish",
+    "menu_order": 35,
+    "parent": "secteurs"
+  },
+  "seo": {
+    "meta_title": "Site web industrie Nantes — Catalogue B2B & SEO | Crescendo",
+    "meta_description": "Création de site internet pour industrie à Nantes : catalogue produits, devis B2B, certifications ISO. WordPress sur mesure. Maquette 48h. Location 350€/mois.",
+    "focus_keyword": "site web industrie nantes",
+    "canonical": "https://crescendo-studio.io/secteurs/creation-site-industrie-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "secteur-hero-eyebrow": "Industrie · Manufacturing · Nantes",
+    "secteur-hero-title": "Site web pour entreprise industrielle à Nantes",
+    "secteur-hero-intro": "PME industrielle, sous-traitant ou fabricant en Loire-Atlantique ? Votre site doit générer des demandes de devis qualifiées, présenter vos capacités de production et rassurer vos clients B2B avec certifications, références et fiches techniques.",
+    "secteur-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-hero-cta-secondary": {
+      "title": "Voir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+    "secteur-hero-note": "Maquette gratuite en 48h",
+    "secteur-benefits": [
+      {
+        "title": "Catalogue B2B",
+        "text": "Fiches produits, PDF techniques, filtres par gamme."
+      },
+      {
+        "title": "Devis qualifiés",
+        "text": "Volume, matière, délai — leads filtrés pour vos commerciaux."
+      },
+      {
+        "title": "Crédibilité industrielle",
+        "text": "ISO, capacités machines, références grands comptes."
+      },
+      {
+        "title": "SEO métier",
+        "text": "Visible sur vos requêtes techniques + géolocalisées."
+      }
+    ],
+    "secteur-pain-title": "Pourquoi les industriels nantais sont invisibles en ligne",
+    "secteur-pain-items": [
+      {
+        "title": "Site brochure PDF",
+        "text": "Les acheteurs comparent en ligne avant de vous contacter."
+      },
+      {
+        "title": "Pas de catalogue à jour",
+        "text": "Fiches produits obsolètes ou absentes du web."
+      },
+      {
+        "title": "Leads non qualifiés",
+        "text": "Formulaire générique sans champs métier."
+      },
+      {
+        "title": "Concurrence export",
+        "text": "Concurrents étrangers mieux référencés sur vos niches."
+      }
+    ],
+    "secteur-solution-title": "Un site industrie orienté acquisition B2B",
+    "secteur-solution-text": "Nous développons des sites WordPress pour l'industrie nantaise : catalogue produits, pages capacités (usinage, injection, assemblage), certifications, études de cas et connexion CRM pour le suivi commercial.",
+    "secteur-solution-price": "350€/mois",
+    "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
+    "secteur-solution-usps": [
+      {
+        "title": "Maquette 48h",
+        "text": "Direction créative gratuite avant engagement."
+      },
+      {
+        "title": "WordPress sur mesure",
+        "text": "Design premium adapté à votre secteur."
+      },
+      {
+        "title": "SEO local intégré",
+        "text": "Visible sur Google dès la mise en ligne."
+      }
+    ],
+    "secteur-features-title": "Ce que votre site industriel doit inclure",
+    "secteur-features-items": [
+      {
+        "title": "Catalogue produits",
+        "text": "Fiches techniques, filtres, téléchargements PDF."
+      },
+      {
+        "title": "Capacités industrielles",
+        "text": "Parc machines, tolérances, matières traitées."
+      },
+      {
+        "title": "Certifications",
+        "text": "ISO 9001, ISO 14001, IATF — visibles et vérifiables."
+      },
+      {
+        "title": "Études de cas",
+        "text": "Projets clients avec résultats chiffrés."
+      },
+      {
+        "title": "Devis B2B",
+        "text": "Formulaire avec volume, délai, secteur d'application."
+      },
+      {
+        "title": "Multilingue FR/EN",
+        "text": "Export et clients internationaux."
+      }
+    ],
+    "secteur-case-title": "Exemple de réalisation industrielle B2B",
+    "secteur-case-project-title": "Bag X Pro",
+    "secteur-case-project-tags": "WordPress · Catalogue · Devis B2B",
+    "secteur-case-project-points": [
+      {
+        "text": "Site B2B avec catalogue produits et demandes de devis"
+      },
+      {
+        "text": "SEO national et local sur le secteur industriel"
+      },
+      {
+        "text": "Design premium orienté conversion professionnelle"
+      }
+    ],
+    "secteur-case-project-url": "/realisations/bag-x-pro/",
+    "secteur-pricing-title": "Combien coûte un site web industriel à Nantes ?",
+    "secteur-pricing-price": "350€",
+    "secteur-pricing-price-suffix": "/mois",
+    "secteur-pricing-cta": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-pricing-col1-label": "Location 350€/mois",
+    "secteur-pricing-col2-label": "Achat classique",
+    "secteur-pricing-features": [
+      {
+        "text": "Création sur mesure incluse"
+      },
+      {
+        "text": "Hébergement premium"
+      },
+      {
+        "text": "Maintenance & mises à jour"
+      },
+      {
+        "text": "SEO local de base"
+      },
+      {
+        "text": "Formulaire de contact"
+      },
+      {
+        "text": "Support réactif"
+      }
+    ],
+    "secteur-pricing-table": [
+      {
+        "label": "Investissement initial",
+        "col1": "0€",
+        "col2": "3 000 – 8 000€"
+      },
+      {
+        "label": "Mensualité",
+        "col1": "350€",
+        "col2": "150–250€"
+      },
+      {
+        "label": "Création incluse",
+        "col1": "✓",
+        "col2": "✓"
+      },
+      {
+        "label": "Maintenance & sécurité",
+        "col1": "Incluse",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Évolutions",
+        "col1": "Incluses",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Total sur 5 ans",
+        "col1": "~21 000€",
+        "col2": "~25 000€+"
+      }
+    ],
+    "secteur-area-title": "Site web industrie à Nantes et Loire-Atlantique",
+    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
+    "secteur-area-cities": [
+      {
+        "name": "Nantes",
+        "url": "/services/agence-web-nantes/"
+      },
+      {
+        "name": "Saint-Herblain",
+        "url": "/agence-web-saint-herblain/"
+      },
+      {
+        "name": "Rezé",
+        "url": "/agence-web-reze/"
+      },
+      {
+        "name": "Orvault",
+        "url": "/agence-web-orvault/"
+      },
+      {
+        "name": "Carquefou",
+        "url": "/agence-web-carquefou/"
+      },
+      {
+        "name": "Saint-Nazaire",
+        "url": "/agence-web-saint-nazaire/"
+      }
+    ],
+    "secteur-area-see-all": {
+      "title": "Voir toutes nos zones",
+      "url": "/services/agence-web-nantes/",
+      "target": ""
+    },
+    "secteur-faq-eyebrow": "Questions fréquentes",
+    "secteur-faq-title": "FAQ site web industrie",
+    "secteur-faq-items": [
+      {
+        "question": "Combien coûte un site industrie à Nantes ?",
+        "answer": "350 €/mois en location, ou 5 000 à 12 000 € en achat selon catalogue, langues et intégrations."
+      },
+      {
+        "question": "Peut-on connecter le site au CRM ?",
+        "answer": "Oui. HubSpot, Pipedrive ou CRM sur mesure — voir notre offre dédiée."
+      },
+      {
+        "question": "Gérez-vous les fiches produits ?",
+        "answer": "Oui. Import CSV, filtres, recherche et PDF téléchargeables."
+      },
+      {
+        "question": "Le site sera-t-il multilingue ?",
+        "answer": "Oui. FR/EN natif pour l'export industriel."
+      },
+      {
+        "question": "Quel délai pour un catalogue complet ?",
+        "answer": "8 à 12 semaines selon le volume de fiches produits."
+      },
+      {
+        "question": "Proposez-vous des pages SEO par secteur ?",
+        "answer": "Oui. Automotive, aéronautique, agroalimentaire, naval — selon votre cible."
+      }
+    ],
+    "secteur-related-title": "Autres secteurs que nous accompagnons",
+    "secteur-related-sectors": [
+      {
+        "title": "Artisan",
+        "url": "/secteurs/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "Plombier",
+        "url": "/secteurs/creation-site-plombier-nantes/"
+      },
+      {
+        "title": "Électricien",
+        "url": "/secteurs/creation-site-electricien-nantes/"
+      },
+      {
+        "title": "BTP",
+        "url": "/secteurs/creation-site-btp-nantes/"
+      },
+      {
+        "title": "Avocat",
+        "url": "/secteurs/creation-site-avocat-nantes/"
+      },
+      {
+        "title": "Restaurant",
+        "url": "/secteurs/creation-site-restaurant-nantes/"
+      }
+    ],
+    "secteur-final-cta-title": "Générez des leads industriels qualifiés en ligne",
+    "secteur-final-cta-text": "Audit gratuit et maquette sous 48 h pour cadrer votre projet B2B.",
+    "secteur-final-cta-points": [
+      {
+        "text": "Maquette personnalisée sous 48h"
+      },
+      {
+        "text": "Formule location sans investissement initial"
+      },
+      {
+        "text": "Accompagnement local à Nantes"
+      }
+    ],
+    "secteur-final-form-job-label": "Votre secteur industriel",
+    "secteur-final-reassurance": [
+      {
+        "text": "Sans engagement"
+      },
+      {
+        "text": "Réponse sous 24h"
+      },
+      {
+        "text": "Agence nantaise"
+      }
+    ]
+  }
+}

@@ -14,6 +14,7 @@
   "pages": [
     "a-propos.json",
     "mentions-legales.json",
-    "politique-de-confidentialite.json"
+    "politique-de-confidentialite.json",
+    "plan-du-site.json"
   ]
 }
