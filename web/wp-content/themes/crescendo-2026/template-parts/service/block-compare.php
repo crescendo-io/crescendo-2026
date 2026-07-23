@@ -14,22 +14,6 @@ if (!$title && empty($table)) {
 ?>
 <section class="service-compare" id="tarifs">
     <div class="container service-compare__inner">
-        <div class="service-compare__content">
-            <?php if ($eyebrow) : ?>
-                <p class="service-eyebrow"><?php echo esc_html($eyebrow); ?></p>
-            <?php endif; ?>
-
-            <?php if ($title) : ?>
-                <h2 class="service-section__title"><?php echo esc_html($title); ?></h2>
-            <?php endif; ?>
-
-            <?php if ($text) : ?>
-                <p class="service-section__text"><?php echo esc_html($text); ?></p>
-            <?php endif; ?>
-
-            <?php echo crescendo_link($cta, 'btn btn--outline'); ?>
-        </div>
-
         <?php if (!empty($table)) : ?>
             <div class="service-compare__table-wrap">
                 <table class="service-compare__table">
@@ -55,5 +39,21 @@ if (!$title && empty($table)) {
                 <?php endif; ?>
             </div>
         <?php endif; ?>
+
+        <div class="service-compare__content">
+            <?php if ($eyebrow) : ?>
+                <p class="service-eyebrow"><?php echo esc_html($eyebrow); ?></p>
+            <?php endif; ?>
+
+            <?php if ($title) : ?>
+                <h2 class="service-section__title"><?php echo esc_html($title); ?></h2>
+            <?php endif; ?>
+
+            <?php if ($text) : ?>
+                <p class="service-section__text"><?php echo esc_html($text); ?></p>
+            <?php endif; ?>
+
+            <?php echo crescendo_link($cta, 'btn btn--outline'); ?>
+        </div>
     </div>
 </section>

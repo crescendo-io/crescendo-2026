@@ -15,8 +15,12 @@ if (empty($links)) {
                     continue;
                 } ?>
                 <li>
-                    <a href="<?php echo esc_url($item['link']['url']); ?>"<?php echo !empty($item['link']['target']) ? ' target="_blank" rel="noopener noreferrer"' : ''; ?>>
-                        <?php echo esc_html($item['link']['title'] ?? $item['link']['url']); ?> →
+                    <a
+                        class="service-related__tag"
+                        href="<?php echo esc_url($item['link']['url']); ?>"
+                        <?php echo !empty($item['link']['target']) ? ' target="_blank" rel="noopener noreferrer"' : ''; ?>
+                    >
+                        <?php echo esc_html($item['link']['title'] ?? $item['link']['url']); ?>
                     </a>
                 </li>
             <?php endforeach; ?>

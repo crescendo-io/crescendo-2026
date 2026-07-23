@@ -13,7 +13,13 @@ $fallbackLinks = crescendo_get_header_nav_links();
 <header class="site-header" role="banner">
     <div class="site-header__inner container">
         <a href="<?php echo esc_url(home_url('/')); ?>" class="site-logo" aria-label="<?php bloginfo('name'); ?> — Accueil">
-            crescendo
+            <img
+                src="<?php echo esc_url(THEME_URL . 'assets/images/logo.png'); ?>"
+                alt="<?php echo esc_attr(get_bloginfo('name')); ?>"
+                width="186"
+                height="27"
+                decoding="async"
+            >
         </a>
 
         <button class="site-header__toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>

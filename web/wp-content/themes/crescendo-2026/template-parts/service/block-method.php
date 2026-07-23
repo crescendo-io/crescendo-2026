@@ -1,5 +1,5 @@
 <?php
-$eyebrow = crescendo_service('service-method-eyebrow');
+$eyebrow = crescendo_service('service-method-eyebrow') ?: 'Notre méthode';
 $title = crescendo_service('service-method-title');
 $steps = crescendo_service('service-method-steps');
 
@@ -7,11 +7,9 @@ if (!$title && empty($steps)) {
     return;
 }
 ?>
-<section class="service-method service-section--alt">
+<section class="service-method">
     <div class="container">
-        <?php if ($eyebrow) : ?>
-            <p class="service-eyebrow service-eyebrow--center"><?php echo esc_html($eyebrow); ?></p>
-        <?php endif; ?>
+        <p class="service-eyebrow service-eyebrow--center"><?php echo esc_html($eyebrow); ?></p>
 
         <?php if ($title) : ?>
             <h2 class="service-section__title service-section__title--center"><?php echo esc_html($title); ?></h2>

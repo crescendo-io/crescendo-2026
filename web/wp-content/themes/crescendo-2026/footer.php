@@ -8,7 +8,15 @@ $footerColumns = crescendo_get_footer_nav_columns();
 <footer class="site-footer" role="contentinfo" data-module="footer" data-context="@visible true">
     <div class="container site-footer__top">
         <div class="site-footer__brand">
-            <a href="<?php echo esc_url(home_url('/')); ?>" class="site-logo site-logo--footer">crescendo</a>
+            <a href="<?php echo esc_url(home_url('/')); ?>" class="site-logo site-logo--footer" aria-label="<?php bloginfo('name'); ?> — Accueil">
+                <img
+                    src="<?php echo esc_url(THEME_URL . 'assets/images/logo.png'); ?>"
+                    alt="<?php echo esc_attr(get_bloginfo('name')); ?>"
+                    width="186"
+                    height="27"
+                    decoding="async"
+                >
+            </a>
             <p><?php echo esc_html($description); ?></p>
         </div>
 

@@ -36,16 +36,24 @@
 }
 
 .site-logo {
-    font-size: 2.2rem;
-    font-weight: 700;
-    letter-spacing: -0.03em;
+    display: inline-flex;
+    align-items: center;
     text-decoration: none;
-    text-transform: lowercase;
     color: var(--color-black);
 
+    img {
+        display: block;
+        width: auto;
+        height: 2.8rem;
+    }
+
     &--footer {
-        display: inline-block;
+        display: inline-flex;
         margin-bottom: 1.2rem;
+
+        img {
+            height: 3.2rem;
+        }
     }
 }
 

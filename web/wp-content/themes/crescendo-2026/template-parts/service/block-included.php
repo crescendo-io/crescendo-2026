@@ -2,12 +2,10 @@
 $eyebrow = crescendo_service('service-included-eyebrow');
 $title = crescendo_service('service-included-title');
 $text = crescendo_service('service-included-text');
-$price = crescendo_service('service-included-price');
-$priceSuffix = crescendo_service('service-included-price-suffix') ?: '/mois';
 $cta = crescendo_service('service-included-cta');
 $features = crescendo_service('service-included-features');
 
-if (!$title && !$price && empty($features)) {
+if (!$title && empty($features) && !$cta) {
     return;
 }
 ?>
@@ -26,23 +24,22 @@ if (!$title && !$price && empty($features)) {
                 <p class="service-section__text"><?php echo esc_html($text); ?></p>
             <?php endif; ?>
 
-            <?php if ($price) : ?>
-                <div class="service-included__price-box">
-                    <span class="service-included__price"><?php echo esc_html($price); ?></span>
-                    <span class="service-included__suffix"><?php echo esc_html($priceSuffix); ?></span>
+            <?php if ($cta) : ?>
+                <div class="service-included__actions">
+                    <?php echo crescendo_link($cta, 'btn btn--primary'); ?>
                 </div>
             <?php endif; ?>
-
-            <?php echo crescendo_link($cta, 'btn btn--primary'); ?>
         </div>
 
         <?php if (!empty($features)) : ?>
-            <ul class="service-included__features">
-                <?php foreach ($features as $feature) : ?>
-                    <?php $line = is_array($feature) ? ($feature['text'] ?? '') : $feature; ?>
-                    <?php if ($line) : ?><li><?php echo esc_html($line); ?></li><?php endif; ?>
-                <?php endforeach; ?>
-            </ul>
+            <div class="service-included__panel">
+                <ul class="service-included__features">
+                    <?php foreach ($features as $feature) : ?>
+                        <?php $line = is_array($feature) ? ($feature['text'] ?? '') : $feature; ?>
+                        <?php if ($line) : ?><li><?php echo esc_html($line); ?></li><?php endif; ?>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
         <?php endif; ?>
     </div>
 </section>
