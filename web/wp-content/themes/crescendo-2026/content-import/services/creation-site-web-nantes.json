@@ -8,7 +8,7 @@
     "parent": "services"
   },
   "seo": {
-    "meta_title": "Création site internet Nantes — WordPress sur mesure | Crescendo",
+    "meta_title": "Création site internet Nantes — Sur mesure | Crescendo",
     "meta_description": "Création de site internet à Nantes pour TPE et PME : WordPress sur mesure, SEO local, design premium. Maquette gratuite 48h. Location dès 350€/mois.",
     "focus_keyword": "création site internet nantes",
     "canonical": "https://crescendo-studio.io/services/creation-site-web-nantes/",
@@ -17,7 +17,7 @@
   "fields": {
     "service-hero-eyebrow": "Création site web · Nantes",
     "service-hero-title": "Création de site internet à Nantes",
-    "service-hero-intro": "Vous lancez une activité ou modernisez votre présence en ligne ? Nous créons des sites internet WordPress sur mesure pour les entreprises nantaises : design premium, parcours orienté conversion, SEO local intégré — en location dès 350 €/mois ou en achat clé en main.",
+    "service-hero-intro": "Vous lancez une activité ou refondez un site existant à Nantes ? Nous créons des sites internet WordPress sur mesure : cadrage stratégique, design premium, SEO local intégré — en location dès 350 €/mois ou en achat clé en main.",
     "service-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -126,8 +126,8 @@
       }
     ],
     "service-compare-note": "Les deux formules incluent WordPress sur mesure — pas de template générique",
-    "service-audience-eyebrow": "Types de sites",
-    "service-audience-title": "Quel site internet pour votre activité ?",
+    "service-audience-eyebrow": "Types de projets",
+    "service-audience-title": "Quel site internet créer pour votre activité à Nantes ?",
     "service-audience-cards": [
       {
         "title": "Site vitrine",
@@ -242,6 +242,37 @@
       },
       {
         "text": "SEO local intégré"
+      }
+    ],
+    "service-related-title": "Pages complémentaires",
+    "service-related-links": [
+      {
+        "link": {
+          "title": "Notre agence web à Nantes",
+          "url": "/services/agence-web-nantes/",
+          "target": ""
+        }
+      },
+      {
+        "link": {
+          "title": "Site vitrine pour TPE et artisans",
+          "url": "/services/creation-site-vitrine-nantes/",
+          "target": ""
+        }
+      },
+      {
+        "link": {
+          "title": "Développement WordPress technique",
+          "url": "/services/creation-site-wordpress/",
+          "target": ""
+        }
+      },
+      {
+        "link": {
+          "title": "Location site internet 350€/mois",
+          "url": "/services/location-site-internet/",
+          "target": ""
+        }
       }
     ]
   }

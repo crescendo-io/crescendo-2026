@@ -8,8 +8,8 @@
     "parent": "services"
   },
   "seo": {
-    "meta_title": "Création site vitrine Nantes — WordPress dès 350€/mois | Crescendo",
-    "meta_description": "Création de site vitrine à Nantes pour artisans, PME et indépendants : WordPress sur mesure, SEO local, formulaire de devis. Maquette gratuite 48h. Location sans frais de création.",
+    "meta_title": "Site vitrine Nantes — WordPress dès 350€/mois | Crescendo",
+    "meta_description": "Site vitrine à Nantes pour artisans et PME : WordPress sur mesure, SEO local, formulaire de devis. Maquette gratuite 48h. Location dès 350€/mois.",
     "focus_keyword": "création site vitrine nantes",
     "canonical": "https://crescendo-studio.io/services/creation-site-vitrine-nantes/",
     "noindex": false
@@ -17,7 +17,7 @@
   "fields": {
     "service-hero-eyebrow": "Site vitrine · Nantes",
     "service-hero-title": "Création de site vitrine à Nantes",
-    "service-hero-intro": "Un site vitrine professionnel est votre meilleur commercial 24h/24. Nous créons des sites WordPress sur mesure pour présenter votre activité, rassurer vos prospects et générer des contacts — artisans, PME, professions libérales et commerçants nantais.",
+    "service-hero-intro": "Un site vitrine est votre vitrine commerciale 24h/24 pour artisans, commerçants et TPE nantaises. Présentez vos services, rassurez vos prospects et générez des demandes de devis — sans la complexité d'un site e-commerce.",
     "service-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -126,8 +126,8 @@
       }
     ],
     "service-compare-note": "Un vitrine sur mesure se rentabilise dès les premiers clients générés",
-    "service-audience-eyebrow": "Pour qui ?",
-    "service-audience-title": "Le site vitrine s'adapte à votre métier.",
+    "service-audience-eyebrow": "Profils clients",
+    "service-audience-title": "Pour qui est fait un site vitrine à Nantes ?",
     "service-audience-cards": [
       {
         "title": "Artisan",
@@ -242,6 +242,37 @@
       },
       {
         "text": "SEO local intégré"
+      }
+    ],
+    "service-related-title": "Pages complémentaires",
+    "service-related-links": [
+      {
+        "link": {
+          "title": "Création site internet Nantes",
+          "url": "/services/creation-site-web-nantes/",
+          "target": ""
+        }
+      },
+      {
+        "link": {
+          "title": "Agence web Nantes",
+          "url": "/services/agence-web-nantes/",
+          "target": ""
+        }
+      },
+      {
+        "link": {
+          "title": "Sites artisans et BTP",
+          "url": "/secteurs/creation-site-artisan-nantes/",
+          "target": ""
+        }
+      },
+      {
+        "link": {
+          "title": "Location dès 350€/mois",
+          "url": "/services/location-site-internet/",
+          "target": ""
+        }
       }
     ]
   }

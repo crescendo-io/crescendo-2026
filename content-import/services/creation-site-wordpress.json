@@ -9,7 +9,7 @@
   },
   "seo": {
     "meta_title": "Création site WordPress sur mesure à Nantes | Crescendo",
-    "meta_description": "Création de site WordPress sur mesure à Nantes : design personnalisé, développement performant, SEO, sécurité et administration simplifiée. Maquette gratuite en 48h.",
+    "meta_description": "Site WordPress sur mesure à Nantes : design personnalisé, performances, SEO et admin simplifiée. Maquette gratuite 48h. Location dès 350€/mois.",
     "focus_keyword": "création site WordPress",
     "canonical": "https://crescendo-studio.io/services/creation-site-wordpress/",
     "noindex": false
@@ -17,7 +17,7 @@
   "fields": {
     "service-hero-eyebrow": "Création site WordPress",
     "service-hero-title": "Création de site WordPress sur mesure",
-    "service-hero-intro": "Nous concevons des sites WordPress rapides, évolutifs et entièrement personnalisés pour transformer votre présence en ligne en véritable outil commercial. Design, développement, SEO et accompagnement réunis dans un projet pensé pour votre activité.",
+    "service-hero-intro": "Vous avez choisi WordPress et cherchez une expertise technique sans compromis ? Nous développons des thèmes sur mesure, optimisons les Core Web Vitals et construisons une architecture évolutive — blocks, API, multilingue, WooCommerce.",
     "service-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -126,8 +126,8 @@
       }
     ],
     "service-compare-note": "Un site plus rapide, plus clair et réellement adapté à votre entreprise",
-    "service-audience-eyebrow": "Pour quels projets ?",
-    "service-audience-title": "WordPress s'adapte à votre activité.",
+    "service-audience-eyebrow": "Expertise WordPress",
+    "service-audience-title": "Pour quels besoins techniques choisir WordPress sur mesure ?",
     "service-audience-cards": [
       {
         "title": "Site vitrine",
@@ -242,6 +242,38 @@
       },
       {
         "text": "Agence WordPress à Nantes"
+      }
+    ],
+    "meta_title": "Création site WordPress sur mesure | Crescendo",
+    "service-related-title": "Pages complémentaires",
+    "service-related-links": [
+      {
+        "link": {
+          "title": "Création site internet Nantes",
+          "url": "/services/creation-site-web-nantes/",
+          "target": ""
+        }
+      },
+      {
+        "link": {
+          "title": "Agence web Nantes",
+          "url": "/services/agence-web-nantes/",
+          "target": ""
+        }
+      },
+      {
+        "link": {
+          "title": "Refonte WordPress sans perte SEO",
+          "url": "/services/refonte-site-wordpress/",
+          "target": ""
+        }
+      },
+      {
+        "link": {
+          "title": "Maintenance WordPress",
+          "url": "/services/maintenance-wordpress/",
+          "target": ""
+        }
       }
     ]
   }

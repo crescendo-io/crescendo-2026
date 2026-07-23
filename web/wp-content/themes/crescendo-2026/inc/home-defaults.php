@@ -1,9 +1,9 @@
 <?php
 
 return array(
-    'home-hero-eyebrow' => 'Agence web à Nantes',
-    'home-hero-title' => 'Agence web à Nantes — sites WordPress & CRM sur mesure',
-    'home-hero-text' => 'Location dès 350€/mois sans investissement initial · Maquette gratuite en 48h · SEO intégré · Zéro frais de création.',
+    'home-hero-eyebrow' => 'Crescendo Studio · Nantes',
+    'home-hero-title' => 'Votre agence web WordPress & CRM à Nantes',
+    'home-hero-text' => 'Crescendo Studio accompagne TPE, PME et professions libérales en Loire-Atlantique : sites sur mesure, SEO local intégré et CRM connecté. Location dès 350€/mois · Maquette gratuite 48h.',
     'home-hero-cta-primary' => array(
         'title' => 'Demander ma maquette gratuite',
         'url' => '#contact',

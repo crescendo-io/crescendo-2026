@@ -15,12 +15,17 @@ while (have_posts()) :
     <main id="main" class="main service-page" data-module="servicePage">
         <?php lsdGetTemplatePart('service', 'block', 'hero'); ?>
         <?php lsdGetTemplatePart('service', 'block', 'benefits'); ?>
+        <?php lsdGetTemplatePart('service', 'block', 'problem'); ?>
+        <?php lsdGetTemplatePart('service', 'block', 'solution'); ?>
         <?php lsdGetTemplatePart('service', 'block', 'included'); ?>
         <?php lsdGetTemplatePart('service', 'block', 'compare'); ?>
         <?php lsdGetTemplatePart('service', 'block', 'audience'); ?>
         <?php lsdGetTemplatePart('service', 'block', 'projects'); ?>
         <?php lsdGetTemplatePart('service', 'block', 'method'); ?>
+        <?php lsdGetTemplatePart('service', 'block', 'pricing'); ?>
+        <?php lsdGetTemplatePart('service', 'block', 'area'); ?>
         <?php lsdGetTemplatePart('service', 'block', 'faq'); ?>
+        <?php lsdGetTemplatePart('service', 'block', 'related'); ?>
         <?php lsdGetTemplatePart('service', 'block', 'final-cta'); ?>
     </main>
     <?php

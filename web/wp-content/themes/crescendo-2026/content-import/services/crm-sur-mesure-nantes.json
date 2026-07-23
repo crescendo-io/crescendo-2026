@@ -17,7 +17,7 @@
   "fields": {
     "service-hero-eyebrow": "Nouveau pilier Crescendo",
     "service-hero-title": "CRM sur mesure à Nantes",
-    "service-hero-intro": "Votre site web génère des leads — mais arrivent-ils vraiment dans votre pipeline commercial ? Crescendo Studio conçoit des CRM sur mesure connectés nativement à votre site WordPress. Fini Excel, fini les demandes perdues dans une boîte mail. Nous adaptons HubSpot, Pipedrive ou développons une solution 100% custom selon votre métier. Basés à Nantes, nous accompagnons les PME de Loire-Atlantique de l'audit à la formation de vos équipes.",
+    "service-hero-intro": "Votre site web génère des leads — mais arrivent-ils vraiment dans votre pipeline commercial ? Crescendo Studio conçoit des CRM sur mesure connectés nativement à votre site WordPress. Fini Excel, fini les demandes perdues dans une boîte mail. Nous adaptons HubSpot, Pipedrive ou développons une solution 100 % custom selon votre métier. Basés à Nantes, nous accompagnons les PME de Loire-Atlantique de l'audit à la formation de vos équipes.",
     "service-hero-cta-primary": {
       "title": "Demander un audit CRM gratuit",
       "url": "#contact",
@@ -28,8 +28,8 @@
       "url": "#realisations",
       "target": ""
     },
-    "service-problem-title": "Les problèmes que rencontrent les PME",
-    "service-problem-content": "<p>Sans CRM adapté, les leads de votre site finissent dans une boîte mail partagée, un fichier Excel ou pire — oubliés. Vos commerciaux perdent du temps à chercher l'information au lieu de conclure.</p>",
+    "service-problem-title": "Pourquoi vos leads web ne se transforment pas en clients",
+    "service-problem-content": "<p>La plupart des PME nantaises investissent dans un site qui génère des contacts… puis les laissent s'éparpiller. Sans CRM adapté, le commercial ne sait pas qui relancer, le dirigeant pilote au feeling et les opportunités chaudes refroidissent en quelques jours.</p><p>Excel, post-its, boîte mail partagée ou CRM surdimensionné mal paramétré : le symptôme est le même — vous perdez du chiffre d'affaires sans le voir.</p>",
     "service-problem-points": [
       {
         "text": "Leads du site web non traités ou traités en retard"
@@ -38,30 +38,36 @@
         "text": "Excel ou post-its pour le suivi commercial"
       },
       {
-        "text": "HubSpot ou Pipedrive mal configurés, trop complexes"
+        "text": "HubSpot ou Pipedrive mal configurés, trop complexes pour l'équipe"
       },
       {
-        "text": "Site web et CRM déconnectés — double saisie"
+        "text": "Site web et CRM déconnectés — double saisie et erreurs"
+      },
+      {
+        "text": "Aucune visibilité sur le taux de conversion par canal"
+      },
+      {
+        "text": "Relances oubliées faute d'automatisation simple"
       }
     ],
-    "service-solution-title": "Notre solution : CRM connecté à votre site",
-    "service-solution-content": "<p>Nous cartographions votre process commercial, puis nous connectons votre site WordPress à un CRM adapté : HubSpot, Pipedrive ou une solution développée sur mesure. Chaque formulaire, devis ou prise de RDV alimente automatiquement votre pipeline.</p>",
+    "service-solution-title": "Notre solution : un CRM connecté à votre site WordPress",
+    "service-solution-content": "<p>Nous cartographions d'abord votre process commercial réel — pas celui théorique d'un logiciel générique. Ensuite, nous connectons votre site WordPress à un CRM adapté : HubSpot, Pipedrive ou une solution développée sur mesure.</p><p>Résultat : chaque demande de devis, inscription ou prise de rendez-vous crée automatiquement une fiche, assigne le bon commercial et déclenche les relances prévues. Vous gardez la main sur votre pipeline sans devenir administrateur système.</p>",
     "service-solution-usps": [
       {
         "title": "Connexion native site ↔ CRM",
-        "text": "Zéro ressaisie manuelle des leads."
+        "text": "Formulaires, WooCommerce, Calendly, webhooks — zéro ressaisie."
       },
       {
-        "title": "Adapté à votre métier",
-        "text": "Champs, statuts et workflows sur mesure."
+        "title": "Workflows métier",
+        "text": "Statuts, champs et automatisations calibrés sur votre activité."
       },
       {
-        "title": "HubSpot, Pipedrive ou custom",
-        "text": "On part de vos outils existants ou on construit."
+        "title": "Reporting actionnable",
+        "text": "Taux de conversion, délais de traitement, sources de leads."
       },
       {
-        "title": "Formation incluse",
-        "text": "Vos équipes autonomes dès la livraison."
+        "title": "Évolutif",
+        "text": "Ajout de modules, intégrations ERP ou comptabilité en phase 2."
       }
     ],
     "service-method-title": "Notre méthode CRM en 5 étapes",
@@ -135,27 +141,39 @@
     "service-faq-items": [
       {
         "question": "C'est quoi un CRM sur mesure ?",
-        "answer": "Un outil de gestion de la relation client adapté à votre métier et connecté à votre site, contrairement à un logiciel générique mal configuré."
+        "answer": "Un outil de gestion de la relation client adapté à votre métier et connecté à votre site, contrairement à un logiciel générique mal configuré où 80 % des fonctionnalités restent inutilisées."
       },
       {
         "question": "Peut-on connecter HubSpot ou Pipedrive existant ?",
-        "answer": "Oui. Nous intégrons vos outils actuels et optimisons les connexions avec votre site WordPress."
+        "answer": "Oui. Nous auditons votre configuration actuelle, corrigeons les champs inutiles et optimisons les connexions avec votre site WordPress et vos outils email."
       },
       {
         "question": "Combien de temps pour le mettre en place ?",
-        "answer": "Entre 4 et 12 semaines selon la complexité du process et le nombre d'intégrations."
+        "answer": "Entre 4 et 12 semaines selon la complexité du process, le nombre d'intégrations et le volume de données à migrer depuis Excel ou un ancien CRM."
       },
       {
         "question": "Le CRM est-il inclus dans la location 350€/mois ?",
-        "answer": "Le site web peut l'être. Le CRM sur mesure est un projet distinct, chiffré après audit."
+        "answer": "Le site web peut l'être. Le CRM sur mesure est un projet distinct, chiffré après audit gratuit — nous vous indiquons clairement le ROI attendu."
       },
       {
         "question": "Intervenez-vous uniquement à Nantes ?",
-        "answer": "Nous sommes basés à Nantes et intervenons sur toute la Loire-Atlantique."
+        "answer": "Nous sommes basés à Nantes et intervenons sur toute la Loire-Atlantique. L'audit initial et la formation peuvent se faire en visio."
+      },
+      {
+        "question": "Que se passe-t-il si mon équipe n'adopte pas l'outil ?",
+        "answer": "Nous concevons des interfaces simplifiées et formons vos utilisateurs sur leurs cas réels. L'objectif : zéro ressaisie et un pipeline visible en un coup d'œil."
+      },
+      {
+        "question": "Pouvez-vous migrer nos données Excel ?",
+        "answer": "Oui. Nous importons contacts, historiques et statuts en nettoyant les doublons pour repartir sur une base saine."
+      },
+      {
+        "question": "Le CRM communique-t-il avec notre site e-commerce ?",
+        "answer": "Oui. WooCommerce, formulaires de devis, inscriptions événement : chaque action web alimente le CRM avec les bonnes informations métier."
       }
     ],
     "service-area-title": "CRM sur mesure à Nantes et en Loire-Atlantique",
-    "service-area-text": "Accompagnement local pour les PME nantaises — proximité, réactivité et compréhension de votre marché.",
+    "service-area-text": "Accompagnement local pour les PME nantaises — proximité, réactivité et compréhension de votre marché. Nous intervenons sur Nantes, Saint-Herblain, Rezé, Carquefou et l'ensemble de la métropole.",
     "service-area-cities": [
       {
         "name": "Nantes",
@@ -207,6 +225,158 @@
       "title": "Demander mon audit CRM",
       "url": "#contact",
       "target": ""
-    }
+    },
+    "service-benefits": [
+      {
+        "title": "Leads captés automatiquement",
+        "text": "Chaque formulaire, devis ou prise de RDV alimente votre CRM sans ressaisie manuelle."
+      },
+      {
+        "title": "Pipeline lisible",
+        "text": "Statuts, relances et priorités adaptés à votre cycle de vente — pas un outil générique mal configuré."
+      },
+      {
+        "title": "HubSpot, Pipedrive ou custom",
+        "text": "Nous partons de vos outils existants ou construisons une solution sur mesure."
+      },
+      {
+        "title": "Formation incluse",
+        "text": "Vos commerciaux et assistants maîtrisent l'outil dès la livraison."
+      }
+    ],
+    "service-included-eyebrow": "Projet CRM clé en main",
+    "service-included-title": "Ce que comprend un projet CRM avec Crescendo",
+    "service-included-text": "De l'audit de votre process à la formation de vos équipes : cartographie, paramétrage, développement des connexions API, tests et documentation.",
+    "service-included-price": "Audit",
+    "service-included-price-suffix": "gratuit",
+    "service-included-cta": {
+      "title": "Demander mon audit CRM",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-included-features": [
+      {
+        "text": "Audit process commercial et outils existants"
+      },
+      {
+        "text": "Cartographie lead → client sur mesure"
+      },
+      {
+        "text": "Paramétrage HubSpot, Pipedrive ou CRM custom"
+      },
+      {
+        "text": "Connexion native avec votre site WordPress"
+      },
+      {
+        "text": "Automatisations de relance et notifications"
+      },
+      {
+        "text": "Formation équipe commerciale et admin"
+      },
+      {
+        "text": "Documentation et support post-livraison"
+      }
+    ],
+    "service-compare-eyebrow": "HubSpot vs Pipedrive vs custom",
+    "service-compare-title": "Quelle solution CRM pour votre PME à Nantes ?",
+    "service-compare-text": "Le bon outil dépend de votre taille d'équipe, de votre cycle de vente et de vos intégrations existantes. Nous vous orientons sans parti pris.",
+    "service-compare-cta": {
+      "title": "Comparer lors de l'audit gratuit",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-compare-col1-label": "SaaS (HubSpot / Pipedrive)",
+    "service-compare-col2-label": "CRM sur mesure",
+    "service-compare-table": [
+      {
+        "label": "Investissement initial",
+        "col1": "Abonnement mensuel",
+        "col2": "Développement sur devis"
+      },
+      {
+        "label": "Personnalisation",
+        "col1": "Limitée aux modules",
+        "col2": "100 % adaptée au métier"
+      },
+      {
+        "label": "Connexion site WordPress",
+        "col1": "Via intégrations",
+        "col2": "Native, sur mesure"
+      },
+      {
+        "label": "Complexité équipe",
+        "col1": "Formation nécessaire",
+        "col2": "Interface simplifiée"
+      },
+      {
+        "label": "Idéal pour",
+        "col1": "PME en croissance",
+        "col2": "Process atypique ou métier niche"
+      }
+    ],
+    "service-compare-note": "Dans les deux cas, nous garantissons la connexion site ↔ CRM et la formation de vos équipes.",
+    "service-audience-eyebrow": "Cas d'usage métier",
+    "service-audience-title": "Pour quels métiers un CRM connecté au site est indispensable ?",
+    "service-audience-cards": [
+      {
+        "title": "BTP & artisans",
+        "text": "Devis chantier captés sur le site, relance automatique, suivi par statut (devis envoyé, signé, en cours).",
+        "url": "/secteurs/creation-site-btp-nantes/"
+      },
+      {
+        "title": "Formation & coaching",
+        "text": "Inscriptions web synchronisées, nurturing email, suivi des sessions et renouvellements.",
+        "url": "/realisations/be-focus/"
+      },
+      {
+        "title": "Agences immobilières",
+        "text": "Demandes d'estimation et visites qualifiées, assignation par secteur géographique.",
+        "url": "/secteurs/creation-site-immobilier-nantes/"
+      },
+      {
+        "title": "Industrie B2B",
+        "text": "Leads catalogue produit, scoring, intégration ERP ou export comptable.",
+        "url": "/secteurs/creation-site-industrie-nantes/"
+      },
+      {
+        "title": "Cabinets & professions libérales",
+        "text": "Prise de RDV en ligne, dossiers clients, rappels et historique centralisé.",
+        "url": "/secteurs/creation-site-avocat-nantes/"
+      },
+      {
+        "title": "E-commerce B2B",
+        "text": "Commandes WooCommerce, relance paniers abandonnés, segmentation clients pro.",
+        "url": "/services/creation-site-ecommerce-nantes/"
+      }
+    ],
+    "service-pricing-col1-label": "Projet standard",
+    "service-pricing-col2-label": "Projet avancé",
+    "service-pricing-table": [
+      {
+        "label": "Durée moyenne",
+        "col1": "4–6 semaines",
+        "col2": "8–12 semaines"
+      },
+      {
+        "label": "Connexions API",
+        "col1": "Site + 1 outil",
+        "col2": "Multi-sources (ERP, mail, compta)"
+      },
+      {
+        "label": "Automatisations",
+        "col1": "Relances & notifications",
+        "col2": "Scoring, workflows multi-étapes"
+      },
+      {
+        "label": "Formation",
+        "col1": "2 sessions",
+        "col2": "Formation + documentation avancée"
+      },
+      {
+        "label": "Support post-livraison",
+        "col1": "30 jours",
+        "col2": "90 jours + évolutions"
+      }
+    ]
   }
 }

@@ -159,6 +159,12 @@ function crescendo_print_seo_head_meta(array $seo, $og_type = 'website', $post_i
     echo '<meta property="og:site_name" content="' . esc_attr(crescendo_brand_name()) . '">' . "\n";
     echo '<meta property="og:locale" content="fr_FR">' . "\n";
     echo '<meta property="og:image" content="' . esc_url($ogImage) . '">' . "\n";
+
+    if ($ogImage === crescendo_default_og_image()) {
+        echo '<meta property="og:image:width" content="1200">' . "\n";
+        echo '<meta property="og:image:height" content="630">' . "\n";
+        echo '<meta property="og:image:type" content="image/jpeg">' . "\n";
+    }
     echo '<meta name="twitter:card" content="summary_large_image">' . "\n";
     echo '<meta name="twitter:title" content="' . esc_attr($title) . '">' . "\n";
     if ($description !== '') {
@@ -273,8 +279,8 @@ function crescendo_maybe_fix_seo_structure() {
     $front_id = (int) get_option('page_on_front');
     if ($front_id && function_exists('update_field')) {
         $currentHero = get_field('home-hero-title', $front_id);
-        if (!$currentHero || $currentHero === 'Sites WordPress sur mesure & CRM sur mesure') {
-            update_field('home-hero-title', 'Agence web à Nantes — sites WordPress & CRM sur mesure', $front_id);
+        if (!$currentHero || $currentHero === 'Sites WordPress sur mesure & CRM sur mesure' || $currentHero === 'Agence web à Nantes — sites WordPress & CRM sur mesure') {
+            update_field('home-hero-title', 'Votre agence web WordPress & CRM à Nantes', $front_id);
         }
     }
 
@@ -331,11 +337,13 @@ function crescendo_fallback_head_meta() {
         $description = 'Crescendo Studio, agence web à Nantes : création de sites WordPress sur mesure, SEO local, CRM et location dès 350€/mois.';
     }
 
-    crescendo_print_seo_head_meta(array(
+    $fallbackSeo = array(
         'meta_title' => wp_get_document_title(),
         'meta_description' => $description,
         'canonical' => is_singular() ? get_permalink() : home_url('/'),
-        'noindex' => is_404(),
-    ), 'website', get_queried_object_id());
+        'noindex' => is_404() || (function_exists('crescendo_is_seo_noise_query') && crescendo_is_seo_noise_query()),
+    );
+
+    crescendo_print_seo_head_meta(apply_filters('crescendo_fallback_seo', $fallbackSeo), 'website', get_queried_object_id());
 }
 add_action('wp_head', 'crescendo_fallback_head_meta', 2);

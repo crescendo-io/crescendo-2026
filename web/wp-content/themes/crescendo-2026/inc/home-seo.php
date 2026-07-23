@@ -1,8 +1,8 @@
 <?php
 
 function crescendo_get_home_seo() {
-    $metaTitle = 'Agence web Nantes — Sites WordPress & CRM sur mesure | Crescendo Studio';
-    $metaDescription = 'Crescendo Studio, agence web à Nantes : sites WordPress sur mesure, CRM connecté et location dès 350€/mois. Maquette gratuite en 48h.';
+    $metaTitle = 'Agence web Nantes — WordPress & CRM | Crescendo';
+    $metaDescription = 'Crescendo Studio, agence web à Nantes : sites WordPress sur mesure, CRM connecté et location dès 350€/mois. Maquette gratuite en 48h, sans engagement.';
 
     $acfTitle = function_exists('crescendo_home') ? crescendo_home('home-seo-meta-title') : null;
     $acfDescription = function_exists('crescendo_home') ? crescendo_home('home-seo-meta-description') : null;
