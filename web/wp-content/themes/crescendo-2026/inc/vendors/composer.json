@@ -1,0 +1,8 @@
+{
+    "require-dev": {
+        "symfony/var-dumper": "^5.4"
+    },
+    "require": {
+        "timber/timber": "^1.22"
+    }
+}

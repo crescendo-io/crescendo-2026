@@ -1,0 +1,25 @@
+stages:
+  - check
+  - deploy
+
+before_script:
+  - eval $(ssh-agent -s)
+  - ssh-add <(echo "$SSH_KEY")
+
+variables:
+  SONAR_HOST_URL: "https://sonarqube.lonsdale.bearstech.com"
+
+sonarqube-check:
+  stage: check
+  script:
+    - git clone https://github.com/SonarSource/sonar-scanning-examples.git
+    - docker run --rm -e SONAR_USER_HOME=/data/.sonarcache -e SONAR_HOST_URL=${SONAR_HOST_URL} -e SONAR_TOKEN=${SONAR_TOKEN} -v ${PWD}:/data -w /data sonarsource/sonar-scanner-cli:latest sonar-scanner -Dsonar.qualitygate.wait=false -Dsonar.projectKey=${CI_PROJECT_PATH//\//:} -Dsonar.projectName=${CI_PROJECT_PATH//\//:} -Dsonar.sources=web/wp-content/themes
+  only:
+      - preprod
+
+deploy_preprod:
+  stage: deploy
+  script:
+    - ssh -o StrictHostKeyChecking=no "$PP_SSH_USER"@"$PP_SSH_SERVER" "cd "$PP_DOCROOT" && git checkout preprod && git pull origin preprod && exit"
+  only:
+    - preprod

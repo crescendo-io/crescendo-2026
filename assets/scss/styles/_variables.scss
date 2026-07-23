@@ -1,0 +1,43 @@
+:root {
+    --font-fontName: 'font-filename', sans-serif;
+
+    //
+    // Container / Grid
+    --grid-offset: 15px;
+    
+    //
+    // Colors
+    --color-white: #fff;
+    --color-black: #000;
+}
+
+//
+// breakpoint mobile first
+$breakpoint-sm-up: "(min-width: 576px)";
+$breakpoint-md-up: "(min-width: 768px)";
+$breakpoint-lg-up: "(min-width: 992px)";
+$breakpoint-xl-up: "(min-width: 1200px)";
+$breakpoint-wd-up: "(min-width: 1400px)";
+$breakpoint-xwd-up: "(min-width: 1680px)";
+
+//
+// breakpoint desktop first
+$breakpoint-sm-down: "(max-width: 575px)";
+$breakpoint-md-down: "(max-width: 767px)";
+$breakpoint-lg-down: "(max-width: 991px)";
+$breakpoint-xl-down: "(max-width: 1199px)";
+$breakpoint-wd-down: "(max-width: 1399px)";
+
+// use @media #{$breakpoint-md-up} {
+
+@media #{$breakpoint-sm-up} {
+    :root {
+        --grid-offset: 15px;
+    }
+}
+
+@media #{$breakpoint-md-up} {
+    :root {
+        --grid-offset: 30px;
+    }
+}

@@ -1,0 +1,15 @@
+html {
+    @media #{$breakpoint-md-up} {
+        font-size: 1vw;
+    }
+}
+
+body {
+    font-family: var(--font-fontName);
+    font-size: 1.4rem;
+    color: var(--color-white);
+}
+
+a {
+    color: var(--color-black);
+}
