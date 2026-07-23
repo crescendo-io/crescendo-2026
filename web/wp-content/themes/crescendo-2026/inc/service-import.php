@@ -71,6 +71,8 @@ function crescendo_import_service_from_array(array $data) {
         return $post_id;
     }
 
+    update_post_meta($post_id, '_wp_page_template', 'template-service.php');
+
     if (!empty($data['seo']) && is_array($data['seo'])) {
         foreach ($data['seo'] as $key => $value) {
             $field = 'service-seo-' . str_replace('_', '-', sanitize_key($key));

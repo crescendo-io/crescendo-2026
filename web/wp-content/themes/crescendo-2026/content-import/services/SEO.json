@@ -4,13 +4,14 @@
     "title": "Agence SEO à Nantes",
     "slug": "agence-seo-nantes",
     "status": "publish",
-    "menu_order": 12
+    "menu_order": 12,
+    "parent": "services"
   },
   "seo": {
     "meta_title": "Agence SEO à Nantes — Référencement naturel | Crescendo",
     "meta_description": "Agence SEO à Nantes : audit, stratégie de mots-clés, optimisation technique, contenus et netlinking pour améliorer votre visibilité sur Google.",
     "focus_keyword": "agence SEO Nantes",
-    "canonical": "https://crescendo-studio.io/services/services/agence-seo-nantes/",
+    "canonical": "https://crescendo-studio.io/services/agence-seo-nantes/",
     "noindex": false
   },
   "fields": {

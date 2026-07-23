@@ -26,20 +26,17 @@ function crescendo_get_about_seo($post_id = null) {
     $metaTitle = crescendo_about('about-seo-meta-title', $post_id);
     $metaDescription = crescendo_about('about-seo-meta-description', $post_id);
     $focusKeyword = crescendo_about('about-seo-focus-keyword', $post_id);
-    $canonical = crescendo_about('about-seo-canonical', $post_id);
     $noindex = (bool) crescendo_about('about-seo-noindex', $post_id);
 
     if (!$metaTitle) {
-        $metaTitle = get_the_title($post_id) . ' | ' . get_bloginfo('name');
+        $metaTitle = get_the_title($post_id) . ' | ' . crescendo_brand_name();
     }
 
     if (!$metaDescription) {
         $metaDescription = wp_trim_words(strip_tags(crescendo_about('about-hero-intro', $post_id) ?: ''), 28, '…');
     }
 
-    if (!$canonical) {
-        $canonical = get_permalink($post_id);
-    }
+    $canonical = get_permalink($post_id);
 
     return array(
         'meta_title' => $metaTitle,
@@ -83,7 +80,7 @@ function crescendo_output_about_schema($post_id = null) {
         ),
     );
 
-    echo '<script type="application/ld+json">' . wp_json_encode($schema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . '</script>' . "\n";
+    crescendo_print_json_ld($schema);
 }
 
 function crescendo_about_head_meta() {
@@ -91,24 +88,7 @@ function crescendo_about_head_meta() {
         return;
     }
 
-    $seo = crescendo_get_about_seo();
-
-    echo '<meta name="description" content="' . esc_attr($seo['meta_description']) . '">' . "\n";
-
-    if (!empty($seo['focus_keyword'])) {
-        echo '<meta name="keywords" content="' . esc_attr($seo['focus_keyword']) . '">' . "\n";
-    }
-
-    echo '<link rel="canonical" href="' . esc_url($seo['canonical']) . '">' . "\n";
-
-    if ($seo['noindex']) {
-        echo '<meta name="robots" content="noindex, nofollow">' . "\n";
-    }
-
-    echo '<meta property="og:title" content="' . esc_attr($seo['meta_title']) . '">' . "\n";
-    echo '<meta property="og:description" content="' . esc_attr($seo['meta_description']) . '">' . "\n";
-    echo '<meta property="og:url" content="' . esc_url($seo['canonical']) . '">' . "\n";
-    echo '<meta property="og:type" content="website">' . "\n";
+    crescendo_print_seo_head_meta(crescendo_get_about_seo(), 'website', get_the_ID());
 }
 add_action('wp_head', 'crescendo_about_head_meta', 1);
 

@@ -35,6 +35,8 @@ function crescendo_import_secteur_from_array(array $data) {
         return $post_id;
     }
 
+    update_post_meta($post_id, '_wp_page_template', 'template-secteur.php');
+
     if (!empty($data['seo']) && is_array($data['seo'])) {
         foreach ($data['seo'] as $key => $value) {
             $field = 'secteur-seo-' . str_replace('_', '-', sanitize_key($key));

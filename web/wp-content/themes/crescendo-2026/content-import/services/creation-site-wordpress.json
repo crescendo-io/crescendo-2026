@@ -4,13 +4,14 @@
     "title": "Création de site WordPress sur mesure",
     "slug": "creation-site-wordpress",
     "status": "publish",
-    "menu_order": 11
+    "menu_order": 11,
+    "parent": "services"
   },
   "seo": {
     "meta_title": "Création site WordPress sur mesure à Nantes | Crescendo",
     "meta_description": "Création de site WordPress sur mesure à Nantes : design personnalisé, développement performant, SEO, sécurité et administration simplifiée. Maquette gratuite en 48h.",
     "focus_keyword": "création site WordPress",
-    "canonical": "https://crescendo-studio.io/services/services/creation-site-wordpress/",
+    "canonical": "https://crescendo-studio.io/services/creation-site-wordpress/",
     "noindex": false
   },
   "fields": {

@@ -71,6 +71,8 @@ function crescendo_import_socle_from_array(array $data) {
         return $post_id;
     }
 
+    update_post_meta($post_id, '_wp_page_template', crescendo_socle_get_template($data));
+
     if (!empty($data['seo']) && is_array($data['seo'])) {
         foreach ($data['seo'] as $key => $value) {
             $field = $prefix . 'seo-' . str_replace('_', '-', sanitize_key($key));

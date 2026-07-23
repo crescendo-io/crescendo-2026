@@ -2,7 +2,7 @@
 
 return array(
     'home-hero-eyebrow' => 'Agence web à Nantes',
-    'home-hero-title' => 'Sites WordPress sur mesure & CRM sur mesure',
+    'home-hero-title' => 'Agence web à Nantes — sites WordPress & CRM sur mesure',
     'home-hero-text' => 'Location dès 350€/mois sans investissement initial · Maquette gratuite en 48h · SEO intégré · Zéro frais de création.',
     'home-hero-cta-primary' => array(
         'title' => 'Demander ma maquette gratuite',

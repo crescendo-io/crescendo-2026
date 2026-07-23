@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
-"""Set service pages parent + update internal service URLs across content-import."""
+"""Set service pages parent + update internal service URLs across content-import.
+
+Idempotent: never produces /services/services/ paths.
+"""
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -35,28 +39,14 @@ SERVICE_FILES = [
     "maintenance.json",
 ]
 
-URL_REPLACEMENTS = [
-    (f"{BASE}/agence-web-nantes/", f"{BASE}/services/agence-web-nantes/"),
-    (f"{BASE}/creation-site-web-nantes/", f"{BASE}/services/creation-site-web-nantes/"),
-    (f"{BASE}/creation-site-vitrine-nantes/", f"{BASE}/services/creation-site-vitrine-nantes/"),
-    (f"{BASE}/creation-site-ecommerce-nantes/", f"{BASE}/services/creation-site-ecommerce-nantes/"),
-    (f"{BASE}/creation-site-wordpress/", f"{BASE}/services/creation-site-wordpress/"),
-    (f"{BASE}/refonte-site-wordpress/", f"{BASE}/services/refonte-site-wordpress/"),
-    (f"{BASE}/location-site-internet/", f"{BASE}/services/location-site-internet/"),
-    (f"{BASE}/crm-sur-mesure-nantes/", f"{BASE}/services/crm-sur-mesure-nantes/"),
-    (f"{BASE}/agence-seo-nantes/", f"{BASE}/services/agence-seo-nantes/"),
-    (f"{BASE}/maintenance-wordpress/", f"{BASE}/services/maintenance-wordpress/"),
-    ("/agence-web-nantes/", "/services/agence-web-nantes/"),
-    ("/creation-site-web-nantes/", "/services/creation-site-web-nantes/"),
-    ("/creation-site-vitrine-nantes/", "/services/creation-site-vitrine-nantes/"),
-    ("/creation-site-ecommerce-nantes/", "/services/creation-site-ecommerce-nantes/"),
-    ("/creation-site-wordpress/", "/services/creation-site-wordpress/"),
-    ("/refonte-site-wordpress/", "/services/refonte-site-wordpress/"),
-    ("/location-site-internet/", "/services/location-site-internet/"),
-    ("/crm-sur-mesure-nantes/", "/services/crm-sur-mesure-nantes/"),
-    ("/agence-seo-nantes/", "/services/agence-seo-nantes/"),
-    ("/maintenance-wordpress/", "/services/maintenance-wordpress/"),
-]
+
+def ensure_services_prefix(path: str) -> str:
+    """Turn /slug/ into /services/slug/ without double-prefixing."""
+    return re.sub(
+        r"(?<!/services)/(?:" + "|".join(re.escape(s) for s in SERVICE_SLUGS) + r")/",
+        lambda m: "/services/" + m.group(0).lstrip("/"),
+        path,
+    )
 
 
 def update_service_json(path: Path) -> None:
@@ -75,8 +65,22 @@ def replace_urls_in_file(path: Path) -> bool:
     text = path.read_text(encoding="utf-8")
     original = text
 
-    for old, new in URL_REPLACEMENTS:
-        text = text.replace(old, new)
+    # Fix any already-broken doubles first.
+    text = text.replace("/services/services/", "/services/")
+
+    for slug in SERVICE_SLUGS:
+        # Absolute prod URLs at root → under /services/
+        text = re.sub(
+            rf"{re.escape(BASE)}/(?!services/){re.escape(slug)}/",
+            f"{BASE}/services/{slug}/",
+            text,
+        )
+        # Relative root paths → under /services/ (not already prefixed)
+        text = re.sub(
+            rf"(?<!/services)/{re.escape(slug)}/",
+            f"/services/{slug}/",
+            text,
+        )
 
     if text != original:
         path.write_text(text, encoding="utf-8")
@@ -98,6 +102,8 @@ def main() -> None:
         if path.suffix not in {".json", ".py", ".php"}:
             continue
         if path.name == "migrate-service-urls.py":
+            continue
+        if "vendor" in path.parts or "node_modules" in path.parts:
             continue
         if replace_urls_in_file(path):
             updated_files += 1

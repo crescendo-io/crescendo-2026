@@ -4,13 +4,14 @@
     "title": "CRM sur mesure à Nantes",
     "slug": "crm-sur-mesure-nantes",
     "status": "publish",
-    "menu_order": 11
+    "menu_order": 11,
+    "parent": "services"
   },
   "seo": {
     "meta_title": "CRM sur mesure Nantes — Connecté à votre site | Crescendo",
     "meta_description": "CRM sur mesure à Nantes connecté à votre site WordPress. HubSpot, Pipedrive ou solution custom. Leads captés et suivis sans Excel. Audit gratuit.",
     "focus_keyword": "crm sur mesure nantes",
-    "canonical": "https://crescendo-studio.io/services/services/crm-sur-mesure-nantes/",
+    "canonical": "https://crescendo-studio.io/services/crm-sur-mesure-nantes/",
     "noindex": false
   },
   "fields": {
@@ -30,42 +31,100 @@
     "service-problem-title": "Les problèmes que rencontrent les PME",
     "service-problem-content": "<p>Sans CRM adapté, les leads de votre site finissent dans une boîte mail partagée, un fichier Excel ou pire — oubliés. Vos commerciaux perdent du temps à chercher l'information au lieu de conclure.</p>",
     "service-problem-points": [
-      { "text": "Leads du site web non traités ou traités en retard" },
-      { "text": "Excel ou post-its pour le suivi commercial" },
-      { "text": "HubSpot ou Pipedrive mal configurés, trop complexes" },
-      { "text": "Site web et CRM déconnectés — double saisie" }
+      {
+        "text": "Leads du site web non traités ou traités en retard"
+      },
+      {
+        "text": "Excel ou post-its pour le suivi commercial"
+      },
+      {
+        "text": "HubSpot ou Pipedrive mal configurés, trop complexes"
+      },
+      {
+        "text": "Site web et CRM déconnectés — double saisie"
+      }
     ],
     "service-solution-title": "Notre solution : CRM connecté à votre site",
     "service-solution-content": "<p>Nous cartographions votre process commercial, puis nous connectons votre site WordPress à un CRM adapté : HubSpot, Pipedrive ou une solution développée sur mesure. Chaque formulaire, devis ou prise de RDV alimente automatiquement votre pipeline.</p>",
     "service-solution-usps": [
-      { "title": "Connexion native site ↔ CRM", "text": "Zéro ressaisie manuelle des leads." },
-      { "title": "Adapté à votre métier", "text": "Champs, statuts et workflows sur mesure." },
-      { "title": "HubSpot, Pipedrive ou custom", "text": "On part de vos outils existants ou on construit." },
-      { "title": "Formation incluse", "text": "Vos équipes autonomes dès la livraison." }
+      {
+        "title": "Connexion native site ↔ CRM",
+        "text": "Zéro ressaisie manuelle des leads."
+      },
+      {
+        "title": "Adapté à votre métier",
+        "text": "Champs, statuts et workflows sur mesure."
+      },
+      {
+        "title": "HubSpot, Pipedrive ou custom",
+        "text": "On part de vos outils existants ou on construit."
+      },
+      {
+        "title": "Formation incluse",
+        "text": "Vos équipes autonomes dès la livraison."
+      }
     ],
     "service-method-title": "Notre méthode CRM en 5 étapes",
     "service-method-steps": [
-      { "title": "Audit", "text": "Analyse de votre process et outils actuels." },
-      { "title": "Cartographie", "text": "Définition du parcours lead → client." },
-      { "title": "Développement", "text": "CRM + connexions API et formulaires." },
-      { "title": "Connexion site", "text": "Intégration WordPress native." },
-      { "title": "Formation", "text": "Prise en main par vos équipes." }
+      {
+        "title": "Audit",
+        "text": "Analyse de votre process et outils actuels."
+      },
+      {
+        "title": "Cartographie",
+        "text": "Définition du parcours lead → client."
+      },
+      {
+        "title": "Développement",
+        "text": "CRM + connexions API et formulaires."
+      },
+      {
+        "title": "Connexion site",
+        "text": "Intégration WordPress native."
+      },
+      {
+        "title": "Formation",
+        "text": "Prise en main par vos équipes."
+      }
     ],
     "service-projects-title": "Réalisations CRM",
     "service-projects": [
-      { "title": "Maison Jaden", "category": "Constructeur — leads chantiers", "url": "/realisations/maison-jaden/", "has_crm": true },
-      { "title": "Be Focus", "category": "Formation — inscriptions", "url": "/realisations/be-focus/", "has_crm": true },
-      { "title": "Atelier Gambetta", "category": "Branding — Pipedrive", "url": "/realisations/atelier-gambetta/", "has_crm": true }
+      {
+        "title": "Maison Jaden",
+        "category": "Constructeur — leads chantiers",
+        "url": "/realisations/maison-jaden/",
+        "has_crm": true
+      },
+      {
+        "title": "Be Focus",
+        "category": "Formation — inscriptions",
+        "url": "/realisations/be-focus/",
+        "has_crm": true
+      },
+      {
+        "title": "Atelier Gambetta",
+        "category": "Branding — Pipedrive",
+        "url": "/realisations/atelier-gambetta/",
+        "has_crm": true
+      }
     ],
     "service-pricing-title": "Tarifs CRM sur mesure",
     "service-pricing-intro": "Chaque projet CRM est unique. Nous établissons un devis après audit gratuit de votre process.",
     "service-pricing-highlight-price": "Sur devis",
     "service-pricing-highlight-label": "Audit gratuit",
     "service-pricing-features": [
-      { "text": "Audit process commercial offert" },
-      { "text": "Connexion site WordPress incluse" },
-      { "text": "Formation équipe" },
-      { "text": "Support et évolutions" }
+      {
+        "text": "Audit process commercial offert"
+      },
+      {
+        "text": "Connexion site WordPress incluse"
+      },
+      {
+        "text": "Formation équipe"
+      },
+      {
+        "text": "Support et évolutions"
+      }
     ],
     "service-pricing-cta": {
       "title": "Demander un audit CRM",
@@ -98,16 +157,49 @@
     "service-area-title": "CRM sur mesure à Nantes et en Loire-Atlantique",
     "service-area-text": "Accompagnement local pour les PME nantaises — proximité, réactivité et compréhension de votre marché.",
     "service-area-cities": [
-      { "name": "Nantes", "url": "/services/agence-web-nantes/" },
-      { "name": "Saint-Herblain", "url": "/agence-web-saint-herblain/" },
-      { "name": "Rezé", "url": "/agence-web-reze/" }
+      {
+        "name": "Nantes",
+        "url": "/services/agence-web-nantes/"
+      },
+      {
+        "name": "Saint-Herblain",
+        "url": "/agence-web-saint-herblain/"
+      },
+      {
+        "name": "Rezé",
+        "url": "/agence-web-reze/"
+      }
     ],
     "service-related-title": "À découvrir aussi",
     "service-related-links": [
-      { "link": { "title": "Location site internet 350€/mois", "url": "/services/location-site-internet/", "target": "" } },
-      { "link": { "title": "Création site WordPress Nantes", "url": "/creation-site-wordpress-nantes/", "target": "" } },
-      { "link": { "title": "Site web B2B Nantes", "url": "/secteurs/creation-site-b2b-nantes/", "target": "" } },
-      { "link": { "title": "HubSpot, Pipedrive ou CRM sur mesure ?", "url": "/blog/hubspot-pipedrive-ou-crm-sur-mesure/", "target": "" } }
+      {
+        "link": {
+          "title": "Location site internet 350€/mois",
+          "url": "/services/location-site-internet/",
+          "target": ""
+        }
+      },
+      {
+        "link": {
+          "title": "Création site WordPress Nantes",
+          "url": "/creation-site-wordpress-nantes/",
+          "target": ""
+        }
+      },
+      {
+        "link": {
+          "title": "Site web B2B Nantes",
+          "url": "/secteurs/creation-site-b2b-nantes/",
+          "target": ""
+        }
+      },
+      {
+        "link": {
+          "title": "HubSpot, Pipedrive ou CRM sur mesure ?",
+          "url": "/blog/hubspot-pipedrive-ou-crm-sur-mesure/",
+          "target": ""
+        }
+      }
     ],
     "service-cta-title": "Audit CRM gratuit sous 48h",
     "service-cta-text": "Expliquez-nous votre process — nous vous répondons avec une recommandation claire.",

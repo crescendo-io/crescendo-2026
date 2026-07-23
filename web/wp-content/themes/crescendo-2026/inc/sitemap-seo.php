@@ -26,20 +26,17 @@ function crescendo_get_sitemap_seo($post_id = null) {
     $metaTitle = crescendo_sitemap('sitemap-seo-meta-title', $post_id);
     $metaDescription = crescendo_sitemap('sitemap-seo-meta-description', $post_id);
     $focusKeyword = crescendo_sitemap('sitemap-seo-focus-keyword', $post_id);
-    $canonical = crescendo_sitemap('sitemap-seo-canonical', $post_id);
     $noindex = (bool) crescendo_sitemap('sitemap-seo-noindex', $post_id);
 
     if (!$metaTitle) {
-        $metaTitle = get_the_title($post_id) . ' | ' . get_bloginfo('name');
+        $metaTitle = get_the_title($post_id) . ' | ' . crescendo_brand_name();
     }
 
     if (!$metaDescription) {
         $metaDescription = wp_trim_words(strip_tags(crescendo_sitemap('sitemap-hero-intro', $post_id) ?: ''), 28, '…');
     }
 
-    if (!$canonical) {
-        $canonical = get_permalink($post_id);
-    }
+    $canonical = get_permalink($post_id);
 
     return array(
         'meta_title' => $metaTitle,
@@ -72,7 +69,7 @@ function crescendo_output_sitemap_schema($post_id = null) {
                 '@type' => 'ListItem',
                 'position' => $position++,
                 'name' => $section['label'],
-                'url' => $section['url'],
+                'url' => crescendo_absolute_url($section['url']),
             );
         }
 
@@ -82,7 +79,7 @@ function crescendo_output_sitemap_schema($post_id = null) {
                     '@type' => 'ListItem',
                     'position' => $position++,
                     'name' => $item['label'],
-                    'url' => $item['url'],
+                    'url' => crescendo_absolute_url($item['url']),
                 );
             }
         }
@@ -100,7 +97,7 @@ function crescendo_output_sitemap_schema($post_id = null) {
         ),
     );
 
-    echo '<script type="application/ld+json">' . wp_json_encode($schema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . '</script>' . "\n";
+    crescendo_print_json_ld($schema);
 }
 
 function crescendo_sitemap_head_meta() {
@@ -108,24 +105,7 @@ function crescendo_sitemap_head_meta() {
         return;
     }
 
-    $seo = crescendo_get_sitemap_seo();
-
-    echo '<meta name="description" content="' . esc_attr($seo['meta_description']) . '">' . "\n";
-
-    if (!empty($seo['focus_keyword'])) {
-        echo '<meta name="keywords" content="' . esc_attr($seo['focus_keyword']) . '">' . "\n";
-    }
-
-    echo '<link rel="canonical" href="' . esc_url($seo['canonical']) . '">' . "\n";
-
-    if ($seo['noindex']) {
-        echo '<meta name="robots" content="noindex, nofollow">' . "\n";
-    }
-
-    echo '<meta property="og:title" content="' . esc_attr($seo['meta_title']) . '">' . "\n";
-    echo '<meta property="og:description" content="' . esc_attr($seo['meta_description']) . '">' . "\n";
-    echo '<meta property="og:url" content="' . esc_url($seo['canonical']) . '">' . "\n";
-    echo '<meta property="og:type" content="website">' . "\n";
+    crescendo_print_seo_head_meta(crescendo_get_sitemap_seo(), 'website', get_the_ID());
 }
 add_action('wp_head', 'crescendo_sitemap_head_meta', 1);
 

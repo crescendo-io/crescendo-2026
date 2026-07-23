@@ -4,13 +4,14 @@
     "title": "Location de site internet professionnel",
     "slug": "location-site-internet",
     "status": "publish",
-    "menu_order": 10
+    "menu_order": 10,
+    "parent": "services"
   },
   "seo": {
     "meta_title": "Location site internet dès 350€/mois | Crescendo Studio",
     "meta_description": "Louez votre site web professionnel dès 350€/mois sans frais de création. Création, hébergement, maintenance et SEO inclus. Maquette gratuite en 48h à Nantes.",
     "focus_keyword": "location site internet",
-    "canonical": "https://crescendo-studio.io/services/services/location-site-internet/",
+    "canonical": "https://crescendo-studio.io/services/location-site-internet/",
     "noindex": false
   },
   "fields": {
@@ -29,10 +30,22 @@
     },
     "service-hero-note": "Maquette gratuite en 48h",
     "service-benefits": [
-      { "title": "Zéro investissement initial", "text": "Aucun budget de création à immobiliser. Votre site est opérationnel sans frais de setup." },
-      { "title": "Tout inclus", "text": "Création, hébergement, maintenance et mises à jour dans un seul abonnement mensuel." },
-      { "title": "SEO intégré dès le départ", "text": "Structure, performance et balisage pensés pour Google dès la conception." },
-      { "title": "Accompagnement local", "text": "Agence nantaise réactive, disponible et proche de vos enjeux business." }
+      {
+        "title": "Zéro investissement initial",
+        "text": "Aucun budget de création à immobiliser. Votre site est opérationnel sans frais de setup."
+      },
+      {
+        "title": "Tout inclus",
+        "text": "Création, hébergement, maintenance et mises à jour dans un seul abonnement mensuel."
+      },
+      {
+        "title": "SEO intégré dès le départ",
+        "text": "Structure, performance et balisage pensés pour Google dès la conception."
+      },
+      {
+        "title": "Accompagnement local",
+        "text": "Agence nantaise réactive, disponible et proche de vos enjeux business."
+      }
     ],
     "service-included-eyebrow": "Offre location",
     "service-included-title": "Ce qui est inclus dans les 350€/mois",
@@ -45,14 +58,30 @@
       "target": ""
     },
     "service-included-features": [
-      { "text": "Création du site sur mesure (WordPress)" },
-      { "text": "Design UX/UI personnalisé" },
-      { "text": "Hébergement premium" },
-      { "text": "Maintenance & mises à jour" },
-      { "text": "Sauvegardes quotidiennes" },
-      { "text": "Optimisation SEO de base" },
-      { "text": "Support réactif" },
-      { "text": "Évolutions mineures incluses" }
+      {
+        "text": "Création du site sur mesure (WordPress)"
+      },
+      {
+        "text": "Design UX/UI personnalisé"
+      },
+      {
+        "text": "Hébergement premium"
+      },
+      {
+        "text": "Maintenance & mises à jour"
+      },
+      {
+        "text": "Sauvegardes quotidiennes"
+      },
+      {
+        "text": "Optimisation SEO de base"
+      },
+      {
+        "text": "Support réactif"
+      },
+      {
+        "text": "Évolutions mineures incluses"
+      }
     ],
     "service-compare-eyebrow": "Location vs achat",
     "service-compare-title": "Location ou achat ? Comparez sur 5 ans.",
@@ -65,37 +94,107 @@
     "service-compare-col1-label": "Location 350€/mois",
     "service-compare-col2-label": "Achat classique",
     "service-compare-table": [
-      { "label": "Investissement initial", "col1": "0€", "col2": "3 000 – 8 000€" },
-      { "label": "Mensualité", "col1": "350€", "col2": "150–250€" },
-      { "label": "Création incluse", "col1": "✓", "col2": "✓" },
-      { "label": "Évolutions", "col1": "Incluses", "col2": "Sur devis" },
-      { "label": "Maintenance & sécurité", "col1": "Incluse", "col2": "Sur devis" },
-      { "label": "Total sur 5 ans", "col1": "~21 000€", "col2": "~25 000€+" }
+      {
+        "label": "Investissement initial",
+        "col1": "0€",
+        "col2": "3 000 – 8 000€"
+      },
+      {
+        "label": "Mensualité",
+        "col1": "350€",
+        "col2": "150–250€"
+      },
+      {
+        "label": "Création incluse",
+        "col1": "✓",
+        "col2": "✓"
+      },
+      {
+        "label": "Évolutions",
+        "col1": "Incluses",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Maintenance & sécurité",
+        "col1": "Incluse",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Total sur 5 ans",
+        "col1": "~21 000€",
+        "col2": "~25 000€+"
+      }
     ],
     "service-compare-note": "Budget maîtrisé, zéro surprise",
     "service-audience-eyebrow": "Pour qui ?",
     "service-audience-title": "Une solution adaptée à votre activité.",
     "service-audience-cards": [
-      { "title": "Artisan", "text": "Site vitrine optimisé pour générer des demandes de devis locales.", "url": "/secteurs/creation-site-artisan-nantes/" },
-      { "title": "PME", "text": "Présence professionnelle sans immobiliser un budget de création.", "url": "/services/creation-site-web-nantes/" },
-      { "title": "Profession libérale", "text": "Image premium et référencement local pour votre cabinet.", "url": "/secteurs/creation-site-avocat-nantes/" },
-      { "title": "Startup", "text": "Lancez vite avec un site évolutif et un budget maîtrisé.", "url": "/secteurs/creation-site-startup-nantes/" }
+      {
+        "title": "Artisan",
+        "text": "Site vitrine optimisé pour générer des demandes de devis locales.",
+        "url": "/secteurs/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "PME",
+        "text": "Présence professionnelle sans immobiliser un budget de création.",
+        "url": "/services/creation-site-web-nantes/"
+      },
+      {
+        "title": "Profession libérale",
+        "text": "Image premium et référencement local pour votre cabinet.",
+        "url": "/secteurs/creation-site-avocat-nantes/"
+      },
+      {
+        "title": "Startup",
+        "text": "Lancez vite avec un site évolutif et un budget maîtrisé.",
+        "url": "/secteurs/creation-site-startup-nantes/"
+      }
     ],
     "service-projects-eyebrow": "Réalisations liées",
     "service-projects-title": "Des sites livrés en location ou en création.",
     "service-projects": [
-      { "title": "Maison Jaden", "category": "Constructeur", "tags": "WordPress · CRM", "url": "/realisations/maison-jaden/" },
-      { "title": "Be Focus", "category": "Formation", "tags": "WordPress · Booking", "url": "/realisations/be-focus/" },
-      { "title": "Padam Immo", "category": "Immobilier", "tags": "WordPress · SEO local", "url": "/realisations/padam-immo/" }
+      {
+        "title": "Maison Jaden",
+        "category": "Constructeur",
+        "tags": "WordPress · CRM",
+        "url": "/realisations/maison-jaden/"
+      },
+      {
+        "title": "Be Focus",
+        "category": "Formation",
+        "tags": "WordPress · Booking",
+        "url": "/realisations/be-focus/"
+      },
+      {
+        "title": "Padam Immo",
+        "category": "Immobilier",
+        "tags": "WordPress · SEO local",
+        "url": "/realisations/padam-immo/"
+      }
     ],
     "service-method-eyebrow": "Notre méthode",
     "service-method-title": "Un accompagnement simple et efficace.",
     "service-method-steps": [
-      { "title": "Maquette 48h", "text": "Direction créative gratuite pour valider le projet." },
-      { "title": "Validation", "text": "Ajustements et validation du contenu et du design." },
-      { "title": "Développement", "text": "Intégration WordPress sur mesure, optimisée SEO." },
-      { "title": "Mise en ligne", "text": "Lancement, tests et indexation Google." },
-      { "title": "Suivi mensuel", "text": "Maintenance, évolutions et optimisation continue." }
+      {
+        "title": "Maquette 48h",
+        "text": "Direction créative gratuite pour valider le projet."
+      },
+      {
+        "title": "Validation",
+        "text": "Ajustements et validation du contenu et du design."
+      },
+      {
+        "title": "Développement",
+        "text": "Intégration WordPress sur mesure, optimisée SEO."
+      },
+      {
+        "title": "Mise en ligne",
+        "text": "Lancement, tests et indexation Google."
+      },
+      {
+        "title": "Suivi mensuel",
+        "text": "Maintenance, évolutions et optimisation continue."
+      }
     ],
     "service-faq-eyebrow": "Questions fréquentes",
     "service-faq-title": "Tout savoir sur la location de site internet.",
@@ -127,9 +226,15 @@
     ],
     "service-final-cta-title": "Prêt à lancer votre site dès 350€/mois ?",
     "service-final-reassurance": [
-      { "text": "Sans engagement" },
-      { "text": "Réponse sous 24h" },
-      { "text": "Maquette gratuite en 48h" }
+      {
+        "text": "Sans engagement"
+      },
+      {
+        "text": "Réponse sous 24h"
+      },
+      {
+        "text": "Maquette gratuite en 48h"
+      }
     ]
   }
 }

@@ -26,20 +26,17 @@ function crescendo_get_local_seo($post_id = null) {
     $metaTitle = crescendo_local('local-seo-meta-title', $post_id);
     $metaDescription = crescendo_local('local-seo-meta-description', $post_id);
     $focusKeyword = crescendo_local('local-seo-focus-keyword', $post_id);
-    $canonical = crescendo_local('local-seo-canonical', $post_id);
     $noindex = (bool) crescendo_local('local-seo-noindex', $post_id);
 
     if (!$metaTitle) {
-        $metaTitle = get_the_title($post_id) . ' | ' . get_bloginfo('name');
+        $metaTitle = get_the_title($post_id) . ' | ' . crescendo_brand_name();
     }
 
     if (!$metaDescription) {
         $metaDescription = wp_trim_words(strip_tags(crescendo_local('local-hero-intro', $post_id) ?: ''), 28, '…');
     }
 
-    if (!$canonical) {
-        $canonical = get_permalink($post_id);
-    }
+    $canonical = get_permalink($post_id);
 
     return array(
         'meta_title' => $metaTitle,
@@ -72,9 +69,9 @@ function crescendo_output_local_schema($post_id = null) {
         array(
             '@context' => 'https://schema.org',
             '@type' => 'Organization',
-            'name' => get_bloginfo('name'),
+            'name' => crescendo_brand_name(),
             'url' => home_url('/'),
-            'logo' => THEME_URL . 'assets/images/logo.png',
+            'logo' => crescendo_default_og_image(),
             'areaServed' => array(
                 array('@type' => 'City', 'name' => $cityName),
                 array('@type' => 'AdministrativeArea', 'name' => 'Loire-Atlantique'),
@@ -83,7 +80,7 @@ function crescendo_output_local_schema($post_id = null) {
         array(
             '@context' => 'https://schema.org',
             '@type' => 'LocalBusiness',
-            'name' => get_bloginfo('name'),
+            'name' => crescendo_brand_name(),
             'description' => $seo['meta_description'],
             'url' => home_url('/'),
             'priceRange' => '€€',
@@ -102,7 +99,7 @@ function crescendo_output_local_schema($post_id = null) {
             'description' => $seo['meta_description'],
             'provider' => array(
                 '@type' => 'LocalBusiness',
-                'name' => get_bloginfo('name'),
+                'name' => crescendo_brand_name(),
                 'url' => home_url('/'),
             ),
             'areaServed' => array('@type' => 'City', 'name' => $cityName),
@@ -149,7 +146,7 @@ function crescendo_output_local_schema($post_id = null) {
     }
 
     foreach ($schemas as $schema) {
-        echo '<script type="application/ld+json">' . wp_json_encode($schema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . '</script>' . "\n";
+        crescendo_print_json_ld($schema);
     }
 }
 
@@ -158,24 +155,7 @@ function crescendo_local_head_meta() {
         return;
     }
 
-    $seo = crescendo_get_local_seo();
-
-    echo '<meta name="description" content="' . esc_attr($seo['meta_description']) . '">' . "\n";
-
-    if (!empty($seo['focus_keyword'])) {
-        echo '<meta name="keywords" content="' . esc_attr($seo['focus_keyword']) . '">' . "\n";
-    }
-
-    echo '<link rel="canonical" href="' . esc_url($seo['canonical']) . '">' . "\n";
-
-    if ($seo['noindex']) {
-        echo '<meta name="robots" content="noindex, nofollow">' . "\n";
-    }
-
-    echo '<meta property="og:title" content="' . esc_attr($seo['meta_title']) . '">' . "\n";
-    echo '<meta property="og:description" content="' . esc_attr($seo['meta_description']) . '">' . "\n";
-    echo '<meta property="og:url" content="' . esc_url($seo['canonical']) . '">' . "\n";
-    echo '<meta property="og:type" content="website">' . "\n";
+    crescendo_print_seo_head_meta(crescendo_get_local_seo(), 'website', get_the_ID());
 }
 add_action('wp_head', 'crescendo_local_head_meta', 1);
 
