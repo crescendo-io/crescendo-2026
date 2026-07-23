@@ -32,6 +32,25 @@ add_filter('script_loader_src', 'remove_version_scripts_styles', 9999);
 // YOAST remove version number
 add_filter('wpseo_hide_version', '__return_true');
 
+function crescendo_allow_json_upload($mimes) {
+    if (current_user_can('manage_options')) {
+        $mimes['json'] = 'application/json';
+    }
+
+    return $mimes;
+}
+add_filter('upload_mimes', 'crescendo_allow_json_upload');
+
+function crescendo_fix_json_filetype($data, $file, $filename, $mimes) {
+    if (strtolower(pathinfo($filename, PATHINFO_EXTENSION)) === 'json') {
+        $data['ext'] = 'json';
+        $data['type'] = 'application/json';
+    }
+
+    return $data;
+}
+add_filter('wp_check_filetype_and_ext', 'crescendo_fix_json_filetype', 10, 4);
+
 add_action('wp_head',function() { ob_start(function($o) {
     return preg_replace('/^\n?<!--.*?[Y]oast.*?-->\n?$/mi','',$o);
 }); },~PHP_INT_MAX);

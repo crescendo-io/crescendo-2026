@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Mentions légales",
+    "slug": "mentions-legales",
+    "template": "legal",
+    "status": "publish",
+    "menu_order": 95,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Mentions légales | Crescendo Studio",
+    "meta_description": "Mentions légales du site Crescendo Studio : éditeur, hébergeur, propriété intellectuelle et conditions d'utilisation.",
+    "focus_keyword": "mentions légales crescendo studio",
+    "canonical": "https://crescendo-studio.io/mentions-legales/",
+    "noindex": false
+  },
+  "fields": {
+    "legal-hero-title": "Mentions légales",
+    "legal-hero-intro": "Conformément aux dispositions des articles 6-III et 19 de la Loi n° 2004-575 du 21 juin 2004 pour la Confiance dans l'économie numérique (LCEN), les présentes mentions légales sont portées à la connaissance des utilisateurs du site crescendo-studio.io.",
+    "legal-updated-at": "17 juillet 2026",
+
+    "legal-sections": [
+      {
+        "title": "1. Éditeur du site",
+        "content": "<p><strong>Raison sociale :</strong> Crescendo Studio<br><strong>Forme juridique :</strong> [SAS / SARL — à compléter]<br><strong>Capital social :</strong> [Montant — à compléter]<br><strong>Siège social :</strong> Nantes, Loire-Atlantique (44), France<br><strong>SIRET :</strong> [Numéro SIRET — à compléter]<br><strong>RCS :</strong> [Ville d'immatriculation — à compléter]<br><strong>Numéro de TVA intracommunautaire :</strong> [Numéro TVA — à compléter]<br><strong>Téléphone :</strong> 02 40 00 00 00<br><strong>Email :</strong> contact@crescendo-studio.io</p>"
+      },
+      {
+        "title": "2. Directeur de la publication",
+        "content": "<p>Le directeur de la publication du site est [Nom, prénom du dirigeant — à compléter], en qualité de [Président / Gérant — à compléter] de Crescendo Studio.</p><p>Contact : contact@crescendo-studio.io</p>"
+      },
+      {
+        "title": "3. Hébergement",
+        "content": "<p>Le site est hébergé par :<br><strong>[Nom de l'hébergeur — à compléter]</strong><br>[Adresse de l'hébergeur — à compléter]<br>Téléphone : [Numéro — à compléter]</p>"
+      },
+      {
+        "title": "4. Propriété intellectuelle",
+        "content": "<p>L'ensemble du contenu présent sur ce site (textes, images, graphismes, logo, icônes, sons, logiciels, etc.) est protégé par les lois en vigueur sur la propriété intellectuelle et appartient à Crescendo Studio ou à ses partenaires.</p><p>Toute reproduction, représentation, modification, publication ou adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite sans autorisation écrite préalable de Crescendo Studio.</p>"
+      },
+      {
+        "title": "5. Données personnelles",
+        "content": "<p>Les informations recueillies via les formulaires de contact sont destinées à Crescendo Studio pour répondre à vos demandes et vous recontacter dans le cadre de votre projet.</p><p>Pour en savoir plus sur le traitement de vos données, consultez notre <a href=\"/politique-de-confidentialite/\">politique de confidentialité</a>.</p>"
+      },
+      {
+        "title": "6. Cookies",
+        "content": "<p>Le site peut utiliser des cookies et traceurs à des fins de mesure d'audience et d'amélioration de l'expérience utilisateur. Vous pouvez paramétrer votre navigateur pour refuser les cookies ou être informé de leur dépôt.</p><p>Le détail des cookies utilisés et de leurs finalités est décrit dans notre <a href=\"/politique-de-confidentialite/\">politique de confidentialité</a>.</p>"
+      },
+      {
+        "title": "7. Limitation de responsabilité",
+        "content": "<p>Crescendo Studio s'efforce d'assurer l'exactitude et la mise à jour des informations diffusées sur ce site. Toutefois, Crescendo Studio ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à disposition.</p><p>En conséquence, Crescendo Studio décline toute responsabilité pour toute imprécision, inexactitude ou omission portant sur des informations disponibles sur le site, ainsi que pour tous dommages résultant d'une intrusion frauduleuse d'un tiers.</p>"
+      },
+      {
+        "title": "8. Liens hypertextes",
+        "content": "<p>Le site peut contenir des liens vers d'autres sites. Crescendo Studio n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu ou aux éventuels dommages résultant de leur consultation.</p>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+    "key": "group_679a7about01",
+    "title": "Page À propos — Contenu",
+    "fields": [
+        { "key": "field_679a7tabseo001", "label": "SEO", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a7seotitle1", "label": "Meta title", "name": "about-seo-meta-title", "type": "text" },
+        { "key": "field_679a7seodesc01", "label": "Meta description", "name": "about-seo-meta-description", "type": "textarea", "rows": 3 },
+        { "key": "field_679a7seokey001", "label": "Mot-clé principal", "name": "about-seo-focus-keyword", "type": "text" },
+        { "key": "field_679a7seocanon1", "label": "URL canonique", "name": "about-seo-canonical", "type": "url" },
+        { "key": "field_679a7seonoindex", "label": "Noindex", "name": "about-seo-noindex", "type": "true_false", "ui": 1 },
+
+        { "key": "field_679a7tabhero01", "label": "Hero", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a7hero001", "label": "Sur-titre", "name": "about-hero-eyebrow", "type": "text" },
+        { "key": "field_679a7hero002", "label": "Titre H1", "name": "about-hero-title", "type": "text" },
+        { "key": "field_679a7hero003", "label": "Intro", "name": "about-hero-intro", "type": "textarea", "rows": 4 },
+
+        { "key": "field_679a7tabstory1", "label": "Histoire", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a7story001", "label": "Titre H2", "name": "about-story-title", "type": "text" },
+        { "key": "field_679a7story002", "label": "Texte", "name": "about-story-text", "type": "wysiwyg", "tabs": "visual", "toolbar": "basic", "media_upload": 0 },
+        {
+            "key": "field_679a7story003",
+            "label": "Chiffres clés",
+            "name": "about-story-stats",
+            "type": "repeater",
+            "layout": "table",
+            "max": 4,
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a7story004", "label": "Valeur", "name": "value", "type": "text" },
+                { "key": "field_679a7story005", "label": "Label", "name": "label", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a7tabval001", "label": "Valeurs", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a7val001", "label": "Sur-titre", "name": "about-values-eyebrow", "type": "text" },
+        { "key": "field_679a7val002", "label": "Titre H2", "name": "about-values-title", "type": "text" },
+        {
+            "key": "field_679a7val003",
+            "label": "Valeurs",
+            "name": "about-values-items",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a7val004", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a7val005", "label": "Texte", "name": "text", "type": "textarea", "rows": 3 }
+            ]
+        },
+
+        { "key": "field_679a7tabexp001", "label": "Expertise", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a7exp001", "label": "Sur-titre", "name": "about-expertise-eyebrow", "type": "text" },
+        { "key": "field_679a7exp002", "label": "Titre H2", "name": "about-expertise-title", "type": "text" },
+        { "key": "field_679a7exp003", "label": "Texte", "name": "about-expertise-text", "type": "textarea", "rows": 3 },
+        {
+            "key": "field_679a7exp004",
+            "label": "Points forts",
+            "name": "about-expertise-items",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a7exp005", "label": "Texte", "name": "text", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a7tabcta001", "label": "CTA final", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a7cta001", "label": "Titre", "name": "about-cta-title", "type": "text" },
+        { "key": "field_679a7cta002", "label": "Texte", "name": "about-cta-text", "type": "textarea", "rows": 2 },
+        { "key": "field_679a7cta003", "label": "Bouton", "name": "about-cta-button", "type": "link" }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-about.php"
+            }
+        ]
+    ],
+    "menu_order": 7,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "modified": 1784749200
+}

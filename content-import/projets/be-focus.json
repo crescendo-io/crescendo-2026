@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Be Focus",
+    "slug": "be-focus",
+    "parent": "realisations",
+    "status": "publish",
+    "menu_order": 20,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Refonte Be Focus · Étude de cas | Crescendo Studio",
+    "meta_description": "Refonte du site Be Focus : catalogue de formations, parcours d'inscription simplifié et prise de rendez-vous intégrée pour convertir les visiteurs en parti…",
+    "focus_keyword": "refonte site be focus formation",
+    "canonical": "https://crescendo-studio.io/realisations/be-focus/",
+    "noindex": false
+  },
+  "fields": {
+    "project-hero-eyebrow": "Étude de cas · Refonte",
+    "project-hero-title": "Refonte du site Be Focus",
+    "project-hero-intro": "Refonte du site Be Focus : catalogue de formations, parcours d'inscription simplifié et prise de rendez-vous intégrée pour convertir les visiteurs en participants.",
+    "project-client-name": "Be Focus",
+    "project-client-url": "https://www.befocus.fr/",
+    "project-sector": "Formation professionnelle",
+    "project-year": "2024",
+    "project-tags": "Refonte · WordPress · Réservation · Paiement",
+    "project-tech-tags": "WordPress · WooCommerce · Calendly",
+    "project-has-crm": true,
+    "project-gallery-title": "Aperçu du site refondu",
+    "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
+    "project-gallery-slots": 4,
+    "project-gallery": [],
+    "project-challenge-title": "Le contexte",
+    "project-challenge-text": "<p>Be Focus proposait des formations professionnelles via un site vieillissant, peu lisible sur mobile et sans tunnel d'inscription optimisé. Les prospects abandonnaient avant de s'inscrire.</p>",
+    "project-solution-title": "Notre approche",
+    "project-solution-text": "<p>Refonte complète avec architecture de contenu repensée, fiches formation SEO, système de réservation et paiement en ligne. Design épuré orienté conversion.</p>",
+    "project-results-title": "Résultats",
+    "project-results": [
+      {
+        "value": "+55%",
+        "label": "Inscriptions en ligne"
+      },
+      {
+        "value": "Top 3",
+        "label": "Google sur requêtes clés"
+      },
+      {
+        "value": "48h",
+        "label": "Mise en ligne sessions"
+      },
+      {
+        "value": "CRM",
+        "label": "Suivi automatisé"
+      }
+    ],
+    "project-cta-title": "Un projet de refonte similaire ?",
+    "project-cta-text": "Parlons de votre site. Nous vous proposons une maquette gratuite en 48h pour valider la direction avant de démarrer.",
+    "project-cta-button": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

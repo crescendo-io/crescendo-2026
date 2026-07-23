@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Maison Jaden",
+    "slug": "maison-jaden",
+    "parent": "realisations",
+    "status": "publish",
+    "menu_order": 40,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Refonte Maison Jaden · Étude de cas | Crescendo Studio",
+    "meta_description": "Refonte du site Maison Jaden : génération de leads pour un constructeur de maisons individuelles, avec tunnel de devis et CRM connecté pour le suivi commer…",
+    "focus_keyword": "refonte site maison jaden",
+    "canonical": "https://crescendo-studio.io/realisations/maison-jaden/",
+    "noindex": false
+  },
+  "fields": {
+    "project-hero-eyebrow": "Étude de cas · Refonte",
+    "project-hero-title": "Refonte du site Maison Jaden",
+    "project-hero-intro": "Refonte du site Maison Jaden : génération de leads pour un constructeur de maisons individuelles, avec tunnel de devis et CRM connecté pour le suivi commercial.",
+    "project-client-name": "Maison Jaden",
+    "project-client-url": "https://maison-jaden.com/",
+    "project-sector": "Construction de maisons",
+    "project-year": "2024",
+    "project-tags": "Refonte · WordPress · CRM · SEO local",
+    "project-tech-tags": "WordPress · CRM sur mesure · SEO local",
+    "project-has-crm": true,
+    "project-gallery-title": "Aperçu du site refondu",
+    "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
+    "project-gallery-slots": 4,
+    "project-gallery": [],
+    "project-challenge-title": "Le contexte",
+    "project-challenge-text": "<p>Maison Jaden voulait un site capable de générer des demandes de devis qualifiées sur la métropole nantaise, tout en centralisant le suivi des prospects dans un CRM dédié.</p>",
+    "project-solution-title": "Notre approche",
+    "project-solution-text": "<p>Site vitrine orienté conversion avec pages géolocalisées, simulateur de demande de devis, intégration CRM native et contenu SEO local (Nantes, Saint-Herblain, Rezé…).</p>",
+    "project-results-title": "Résultats",
+    "project-results": [
+      {
+        "value": "+60%",
+        "label": "Leads mensuels"
+      },
+      {
+        "value": "CRM",
+        "label": "Suivi automatisé"
+      },
+      {
+        "value": "Top 5",
+        "label": "SEO local Nantes"
+      },
+      {
+        "value": "4 sem.",
+        "label": "Délai de livraison"
+      }
+    ],
+    "project-cta-title": "Un projet de refonte similaire ?",
+    "project-cta-text": "Parlons de votre site. Nous vous proposons une maquette gratuite en 48h pour valider la direction avant de démarrer.",
+    "project-cta-button": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

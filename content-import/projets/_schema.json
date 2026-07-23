@@ -1,0 +1,12 @@
+{
+  "$schema": "Crescendo Fiche Projet Import v1",
+  "description": "Import JSON pour les fiches projet sous /realisations/{slug}/. Galerie 16:9 via project-gallery + project-gallery-slots.",
+  "required": ["page.title", "page.slug", "page.parent"],
+  "import": {
+    "admin": "Outils → Import Projet JSON",
+    "cli": "wp crescendo import-project content-import/projets/maison-jaden.json",
+    "cli_all": "wp crescendo import-project --all=1",
+    "directory": "content-import/projets/",
+    "generator": "python3 content-import/projets/build-projets.py"
+  }
+}

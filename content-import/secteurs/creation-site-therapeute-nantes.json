@@ -1,0 +1,304 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création de site web pour thérapeutes à Nantes",
+    "slug": "creation-site-therapeute-nantes",
+    "status": "publish",
+    "menu_order": 29
+  },
+  "seo": {
+    "meta_title": "Site web thérapeute Nantes — RDV en ligne | Crescendo",
+    "meta_description": "Création de site internet pour thérapeute à Nantes : psychologue, ostéopathe, sophrologue. RDV en ligne, confidentialité, SEO local. Maquette 48h.",
+    "focus_keyword": "site web thérapeute nantes",
+    "canonical": "https://crescendo-studio.io/creation-site-therapeute-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "secteur-hero-eyebrow": "Thérapeute · Santé · Bien-être · Nantes",
+    "secteur-hero-title": "Site web pour thérapeute et praticien à Nantes",
+    "secteur-hero-intro": "Psychologue, ostéopathe, sophrologue, naturopathe ou praticien bien-être à Nantes ? Votre site doit inspirer confiance, respecter la confidentialité et faciliter la prise de rendez-vous — sans jargon technique ni image clinique froide.",
+    "secteur-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-hero-cta-secondary": {
+      "title": "Voir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+    "secteur-hero-note": "Maquette gratuite en 48h",
+    "secteur-benefits": [
+      {
+        "title": "Confiance & discrétion",
+        "text": "Design apaisant, conforme RGPD, pas de tracking invasif."
+      },
+      {
+        "title": "RDV en ligne",
+        "text": "Réduction des appels manqués et des créneaux vides."
+      },
+      {
+        "title": "SEO local",
+        "text": "Visible sur « ostéopathe Nantes », « psychologue Rezé »."
+      },
+      {
+        "title": "Contenu pédagogique",
+        "text": "Pages par approche thérapeutique pour rassurer avant la consultation."
+      }
+    ],
+    "secteur-pain-title": "Les blocages des praticiens sur le web",
+    "secteur-pain-items": [
+      {
+        "title": "Annuaire Doctolib seul",
+        "text": "Dépendance à une plateforme — pas de contrôle sur votre image."
+      },
+      {
+        "title": "Site froid ou daté",
+        "text": "Ne reflète pas votre approche humaine et bienveillante."
+      },
+      {
+        "title": "Confidentialité mal gérée",
+        "text": "Formulaires non sécurisés, cookies non conformes RGPD."
+      },
+      {
+        "title": "Invisible hors Doctolib",
+        "text": "Pas de trafic Google sur vos spécialités."
+      }
+    ],
+    "secteur-solution-title": "Un site thérapeute rassurant et professionnel",
+    "secteur-solution-text": "Nous créons des sites WordPress pour praticiens nantais : présentation de votre approche, tarifs, prise de RDV, FAQ patient et pages SEO par spécialité et quartier.",
+    "secteur-solution-price": "350€/mois",
+    "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
+    "secteur-solution-usps": [
+      {
+        "title": "Maquette 48h",
+        "text": "Direction créative gratuite avant engagement."
+      },
+      {
+        "title": "WordPress sur mesure",
+        "text": "Design premium adapté à votre secteur."
+      },
+      {
+        "title": "SEO local intégré",
+        "text": "Visible sur Google dès la mise en ligne."
+      }
+    ],
+    "secteur-features-title": "Ce que votre site thérapeute doit inclure",
+    "secteur-features-items": [
+      {
+        "title": "Présentation du praticien",
+        "text": "Parcours, diplômes, approche, photo professionnelle."
+      },
+      {
+        "title": "Prise de RDV",
+        "text": "Doctolib embed, Cal.com ou système natif."
+      },
+      {
+        "title": "Pages spécialités",
+        "text": "Anxiété, stress, douleurs chroniques — SEO par motif."
+      },
+      {
+        "title": "Tarifs & remboursement",
+        "text": "Transparence sur honoraires et mutuelles."
+      },
+      {
+        "title": "FAQ patients",
+        "text": "Déroulement séance, durée, première consultation."
+      },
+      {
+        "title": "Conformité RGPD",
+        "text": "Politique confidentialité, consentement cookies, HTTPS."
+      }
+    ],
+    "secteur-case-title": "Exemple dans l'univers bien-être / artisanat",
+    "secteur-case-project-title": "Ludovic Géhéniaux",
+    "secteur-case-project-tags": "WordPress · Réservation · SEO",
+    "secteur-case-project-points": [
+      {
+        "text": "Site avec système de réservation intégré"
+      },
+      {
+        "text": "Design premium orienté confiance client"
+      },
+      {
+        "text": "Référencement local sur Nantes"
+      }
+    ],
+    "secteur-case-project-url": "/realisations/ludovic-geheniaux/",
+    "secteur-pricing-title": "Combien coûte un site web pour thérapeute à Nantes ?",
+    "secteur-pricing-price": "350€",
+    "secteur-pricing-price-suffix": "/mois",
+    "secteur-pricing-cta": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-pricing-col1-label": "Location 350€/mois",
+    "secteur-pricing-col2-label": "Achat classique",
+    "secteur-pricing-features": [
+      {
+        "text": "Création sur mesure incluse"
+      },
+      {
+        "text": "Hébergement premium"
+      },
+      {
+        "text": "Maintenance & mises à jour"
+      },
+      {
+        "text": "SEO local de base"
+      },
+      {
+        "text": "Formulaire de contact"
+      },
+      {
+        "text": "Support réactif"
+      }
+    ],
+    "secteur-pricing-table": [
+      {
+        "label": "Investissement initial",
+        "col1": "0€",
+        "col2": "3 000 – 8 000€"
+      },
+      {
+        "label": "Mensualité",
+        "col1": "350€",
+        "col2": "150–250€"
+      },
+      {
+        "label": "Création incluse",
+        "col1": "✓",
+        "col2": "✓"
+      },
+      {
+        "label": "Maintenance & sécurité",
+        "col1": "Incluse",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Évolutions",
+        "col1": "Incluses",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Total sur 5 ans",
+        "col1": "~21 000€",
+        "col2": "~25 000€+"
+      }
+    ],
+    "secteur-area-title": "Site web thérapeute à Nantes et métropole",
+    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
+    "secteur-area-cities": [
+      {
+        "name": "Nantes",
+        "url": "/agence-web-nantes/"
+      },
+      {
+        "name": "Saint-Herblain",
+        "url": "/agence-web-saint-herblain/"
+      },
+      {
+        "name": "Rezé",
+        "url": "/agence-web-reze/"
+      },
+      {
+        "name": "Orvault",
+        "url": "/agence-web-orvault/"
+      },
+      {
+        "name": "Carquefou",
+        "url": "/agence-web-carquefou/"
+      },
+      {
+        "name": "Saint-Nazaire",
+        "url": "/agence-web-saint-nazaire/"
+      }
+    ],
+    "secteur-area-see-all": {
+      "title": "Voir toutes nos zones",
+      "url": "/agence-web-nantes/",
+      "target": ""
+    },
+    "secteur-faq-eyebrow": "Questions fréquentes",
+    "secteur-faq-title": "FAQ site web thérapeute",
+    "secteur-faq-items": [
+      {
+        "question": "Combien coûte un site thérapeute à Nantes ?",
+        "answer": "350 €/mois en location, ou 3 000 à 5 000 € en achat selon RDV en ligne et nombre de pages spécialité."
+      },
+      {
+        "question": "Puis-je garder Doctolib ?",
+        "answer": "Oui. Nous intégrons Doctolib sur votre site tout en développant votre SEO propre."
+      },
+      {
+        "question": "Le site est-il conforme RGPD ?",
+        "answer": "Oui. HTTPS, politique de confidentialité, gestion cookies et formulaires sécurisés."
+      },
+      {
+        "question": "Mon site sera-t-il visible sur Google ?",
+        "answer": "Oui. SEO local + pages par spécialité et zone géographique."
+      },
+      {
+        "question": "Puis-je rédiger mes contenus moi-même ?",
+        "answer": "Oui. Formation incluse. Nous pouvons aussi rédiger des textes optimisés SEO."
+      },
+      {
+        "question": "Quel délai de livraison ?",
+        "answer": "4 à 6 semaines. Maquette gratuite sous 48 h."
+      }
+    ],
+    "secteur-related-title": "Autres secteurs que nous accompagnons",
+    "secteur-related-sectors": [
+      {
+        "title": "Artisan",
+        "url": "/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "Avocat",
+        "url": "/creation-site-avocat-nantes/"
+      },
+      {
+        "title": "Restaurant",
+        "url": "/creation-site-restaurant-nantes/"
+      },
+      {
+        "title": "Immobilier",
+        "url": "/creation-site-immobilier-nantes/"
+      },
+      {
+        "title": "Startup",
+        "url": "/creation-site-startup-nantes/"
+      },
+      {
+        "title": "B2B / PME",
+        "url": "/creation-site-b2b-nantes/"
+      }
+    ],
+    "secteur-final-cta-title": "Développez votre patientèle avec un site professionnel",
+    "secteur-final-cta-text": "Maquette gratuite sous 48 h — design apaisant adapté à votre pratique.",
+    "secteur-final-cta-points": [
+      {
+        "text": "Maquette personnalisée sous 48h"
+      },
+      {
+        "text": "Formule location sans investissement initial"
+      },
+      {
+        "text": "Accompagnement local à Nantes"
+      }
+    ],
+    "secteur-final-form-job-label": "Votre spécialité",
+    "secteur-final-reassurance": [
+      {
+        "text": "Sans engagement"
+      },
+      {
+        "text": "Réponse sous 24h"
+      },
+      {
+        "text": "Agence nantaise"
+      }
+    ]
+  }
+}

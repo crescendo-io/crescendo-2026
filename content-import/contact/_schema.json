@@ -1,0 +1,10 @@
+{
+  "$schema": "Crescendo Contact Page Import v1",
+  "description": "Format d'import JSON pour la page Contact (template Page Contact).",
+  "required": ["page.title", "page.slug"],
+  "import": {
+    "admin": "Outils → Import Contact JSON",
+    "cli": "wp crescendo import-contact content-import/contact/contact.json",
+    "directory": "content-import/contact/"
+  }
+}

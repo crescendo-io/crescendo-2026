@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Car Design France",
+    "slug": "car-design",
+    "parent": "realisations",
+    "status": "publish",
+    "menu_order": 80,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Refonte Car Design France · Étude de cas | Crescendo Studio",
+    "meta_description": "Refonte du site Car Design France : vitrine premium pour un acteur du design automobile, avec portfolio visuel et pages services orientées conversion.",
+    "focus_keyword": "refonte site car design france",
+    "canonical": "https://crescendo-studio.io/realisations/car-design/",
+    "noindex": false
+  },
+  "fields": {
+    "project-hero-eyebrow": "Étude de cas · Refonte",
+    "project-hero-title": "Refonte du site Car Design France",
+    "project-hero-intro": "Refonte du site Car Design France : vitrine premium pour un acteur du design automobile, avec portfolio visuel et pages services orientées conversion.",
+    "project-client-name": "Car Design France",
+    "project-client-url": "http://cardesignfrance.com/",
+    "project-sector": "Automobile & design",
+    "project-year": "2023",
+    "project-tags": "Refonte · WordPress · Portfolio · Vitrine",
+    "project-tech-tags": "WordPress · Galerie · SEO",
+    "project-has-crm": false,
+    "project-gallery-title": "Aperçu du site refondu",
+    "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
+    "project-gallery-slots": 4,
+    "project-gallery": [],
+    "project-challenge-title": "Le contexte",
+    "project-challenge-text": "<p>Car Design France avait besoin d'un site capable de valoriser ses réalisations dans l'univers automobile, avec une navigation visuelle forte et une présentation claire des services.</p>",
+    "project-solution-title": "Notre approche",
+    "project-solution-text": "<p>Refonte WordPress sur mesure avec galerie haute qualité, pages services dédiées, design premium sombre et SEO ciblant les requêtes design automobile en France.</p>",
+    "project-results-title": "Résultats",
+    "project-results": [
+      {
+        "value": "Premium",
+        "label": "Identité visuelle"
+      },
+      {
+        "value": "Portfolio",
+        "label": "Galerie optimisée"
+      },
+      {
+        "value": "SEO",
+        "label": "Visibilité métier"
+      },
+      {
+        "value": "Mobile",
+        "label": "Responsive"
+      }
+    ],
+    "project-cta-title": "Un projet de refonte similaire ?",
+    "project-cta-text": "Parlons de votre site. Nous vous proposons une maquette gratuite en 48h pour valider la direction avant de démarrer.",
+    "project-cta-button": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

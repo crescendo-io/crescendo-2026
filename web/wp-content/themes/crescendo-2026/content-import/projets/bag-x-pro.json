@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Bag X Pro",
+    "slug": "bag-x-pro",
+    "parent": "realisations",
+    "status": "publish",
+    "menu_order": 30,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Refonte Bag X Pro · Étude de cas | Crescendo Studio",
+    "meta_description": "Refonte du site Bag X Pro : catalogue produits technique, demandes de devis qualifiées et structure SEO pour capter les requêtes métier B2B en Loire-Atlant…",
+    "focus_keyword": "refonte site bag x pro",
+    "canonical": "https://crescendo-studio.io/realisations/bag-x-pro/",
+    "noindex": false
+  },
+  "fields": {
+    "project-hero-eyebrow": "Étude de cas · Refonte",
+    "project-hero-title": "Refonte du site Bag X Pro",
+    "project-hero-intro": "Refonte du site Bag X Pro : catalogue produits technique, demandes de devis qualifiées et structure SEO pour capter les requêtes métier B2B en Loire-Atlantique.",
+    "project-client-name": "Bag X Pro",
+    "project-client-url": "https://bag-x-pro.com/",
+    "project-sector": "Industrie B2B",
+    "project-year": "2023",
+    "project-tags": "Refonte · Catalogue · Devis en ligne · SEO",
+    "project-tech-tags": "WordPress · ACF · Formulaires avancés",
+    "project-has-crm": false,
+    "project-gallery-title": "Aperçu du site refondu",
+    "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
+    "project-gallery-slots": 4,
+    "project-gallery": [],
+    "project-challenge-title": "Le contexte",
+    "project-challenge-text": "<p>Bag X Pro, acteur industriel B2B, avait un site peu adapté à son catalogue technique. Les visiteurs ne trouvaient pas les références produits et les demandes de devis restaient non qualifiées.</p>",
+    "project-solution-title": "Notre approche",
+    "project-solution-text": "<p>Nous avons structuré un catalogue filtrable, des fiches produit optimisées SEO et un formulaire de devis intelligent qui oriente le prospect vers le bon interlocuteur.</p>",
+    "project-results-title": "Résultats",
+    "project-results": [
+      {
+        "value": "+30%",
+        "label": "Devis qualifiés / mois"
+      },
+      {
+        "value": "x2",
+        "label": "Trafic organique"
+      },
+      {
+        "value": "B2B",
+        "label": "Parcours adapté"
+      },
+      {
+        "value": "SEO",
+        "label": "Requêtes métier"
+      }
+    ],
+    "project-cta-title": "Un projet de refonte similaire ?",
+    "project-cta-text": "Parlons de votre site. Nous vous proposons une maquette gratuite en 48h pour valider la direction avant de démarrer.",
+    "project-cta-button": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

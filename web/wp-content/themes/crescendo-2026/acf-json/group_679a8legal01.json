@@ -1,0 +1,47 @@
+{
+    "key": "group_679a8legal01",
+    "title": "Page Légale — Contenu",
+    "fields": [
+        { "key": "field_679a8tabseo001", "label": "SEO", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a8seotitle1", "label": "Meta title", "name": "legal-seo-meta-title", "type": "text" },
+        { "key": "field_679a8seodesc01", "label": "Meta description", "name": "legal-seo-meta-description", "type": "textarea", "rows": 3 },
+        { "key": "field_679a8seokey001", "label": "Mot-clé principal", "name": "legal-seo-focus-keyword", "type": "text" },
+        { "key": "field_679a8seocanon1", "label": "URL canonique", "name": "legal-seo-canonical", "type": "url" },
+        { "key": "field_679a8seonoindex", "label": "Noindex", "name": "legal-seo-noindex", "type": "true_false", "ui": 1 },
+
+        { "key": "field_679a8tabhero01", "label": "Hero", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a8hero001", "label": "Titre H1", "name": "legal-hero-title", "type": "text" },
+        { "key": "field_679a8hero002", "label": "Intro", "name": "legal-hero-intro", "type": "textarea", "rows": 3 },
+        { "key": "field_679a8hero003", "label": "Date de mise à jour", "name": "legal-updated-at", "type": "text" },
+
+        { "key": "field_679a8tabsec001", "label": "Sections", "name": "", "type": "tab", "placement": "top" },
+        {
+            "key": "field_679a8sec001",
+            "label": "Sections",
+            "name": "legal-sections",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter une section",
+            "sub_fields": [
+                { "key": "field_679a8sec002", "label": "Titre H2", "name": "title", "type": "text" },
+                { "key": "field_679a8sec003", "label": "Contenu", "name": "content", "type": "wysiwyg", "tabs": "visual", "toolbar": "basic", "media_upload": 0 }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-legal.php"
+            }
+        ]
+    ],
+    "menu_order": 8,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "modified": 1784749200
+}

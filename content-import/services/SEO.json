@@ -1,0 +1,247 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Agence SEO à Nantes",
+    "slug": "agence-seo-nantes",
+    "status": "publish",
+    "menu_order": 12
+  },
+  "seo": {
+    "meta_title": "Agence SEO à Nantes — Référencement naturel | Crescendo",
+    "meta_description": "Agence SEO à Nantes : audit, stratégie de mots-clés, optimisation technique, contenus et netlinking pour améliorer votre visibilité sur Google.",
+    "focus_keyword": "agence SEO Nantes",
+    "canonical": "https://crescendo-studio.io/agence-seo-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "service-hero-eyebrow": "Agence SEO à Nantes",
+    "service-hero-title": "Développez votre visibilité grâce au référencement naturel",
+    "service-hero-intro": "Nous construisons des stratégies SEO sur mesure pour améliorer votre positionnement sur Google, attirer un trafic qualifié et générer durablement plus de demandes commerciales.",
+    "service-hero-cta-primary": {
+      "title": "Demander mon audit SEO",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-hero-cta-secondary": {
+      "title": "Découvrir notre méthode",
+      "url": "#methode",
+      "target": ""
+    },
+    "service-hero-note": "Premier diagnostic SEO offert",
+    "service-benefits": [
+      {
+        "title": "Plus de visibilité",
+        "text": "Positionnez votre entreprise sur les recherches réellement utilisées par vos prospects."
+      },
+      {
+        "title": "Un trafic plus qualifié",
+        "text": "Attirez des visiteurs qui recherchent activement vos services, vos produits ou votre expertise."
+      },
+      {
+        "title": "Une acquisition durable",
+        "text": "Développez une source de trafic pérenne qui ne dépend pas uniquement de la publicité payante."
+      },
+      {
+        "title": "Une stratégie mesurable",
+        "text": "Suivez vos positions, votre trafic, vos conversions et les opportunités de croissance."
+      }
+    ],
+    "service-included-eyebrow": "Accompagnement SEO",
+    "service-included-title": "Ce qui est inclus dans notre accompagnement SEO",
+    "service-included-text": "Une stratégie complète qui associe analyse technique, optimisation éditoriale, référencement local et suivi des performances pour améliorer durablement votre présence sur Google.",
+    "service-included-price": "Sur devis",
+    "service-included-price-suffix": "",
+    "service-included-cta": {
+      "title": "Obtenir une stratégie SEO",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-included-features": [
+      {
+        "text": "Audit SEO technique complet"
+      },
+      {
+        "text": "Recherche de mots-clés stratégiques"
+      },
+      {
+        "text": "Analyse de la concurrence"
+      },
+      {
+        "text": "Optimisation des pages existantes"
+      },
+      {
+        "text": "Création de contenus SEO"
+      },
+      {
+        "text": "Stratégie de maillage interne"
+      },
+      {
+        "text": "Optimisation du référencement local"
+      },
+      {
+        "text": "Suivi des positions et des conversions"
+      }
+    ],
+    "service-compare-eyebrow": "SEO vs publicité",
+    "service-compare-title": "Référencement naturel ou publicité payante ?",
+    "service-compare-text": "Le SEO construit une visibilité durable et renforce votre autorité sur le long terme. La publicité génère des résultats immédiats, mais le trafic s'arrête dès que vous cessez d'investir.",
+    "service-compare-cta": {
+      "title": "Développer mon référencement",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-compare-col1-label": "Référencement naturel",
+    "service-compare-col2-label": "Publicité payante",
+    "service-compare-table": [
+      {
+        "label": "Durée des résultats",
+        "col1": "Long terme",
+        "col2": "Tant que le budget est actif"
+      },
+      {
+        "label": "Coût par clic",
+        "col1": "Aucun coût direct",
+        "col2": "Variable selon la concurrence"
+      },
+      {
+        "label": "Délai des premiers résultats",
+        "col1": "Progressif",
+        "col2": "Immédiat"
+      },
+      {
+        "label": "Crédibilité",
+        "col1": "Forte",
+        "col2": "Annonce sponsorisée"
+      },
+      {
+        "label": "Rentabilité",
+        "col1": "Croissante dans le temps",
+        "col2": "Dépend du budget investi"
+      },
+      {
+        "label": "Pérennité du trafic",
+        "col1": "Durable",
+        "col2": "Trafic interrompu à l'arrêt"
+      }
+    ],
+    "service-compare-note": "Une stratégie d'acquisition conçue pour durer",
+    "service-audience-eyebrow": "Pour qui ?",
+    "service-audience-title": "Une stratégie SEO adaptée à votre marché.",
+    "service-audience-cards": [
+      {
+        "title": "TPE & artisans",
+        "text": "Développez votre visibilité locale et générez davantage de demandes de devis.",
+        "url": "/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "PME",
+        "text": "Positionnez vos services sur des requêtes stratégiques et développez votre acquisition organique.",
+        "url": "/creation-site-web-nantes/"
+      },
+      {
+        "title": "E-commerce",
+        "text": "Augmentez la visibilité de vos catégories et produits pour générer plus de ventes.",
+        "url": "/creation-site-ecommerce/"
+      },
+      {
+        "title": "Professions libérales",
+        "text": "Renforcez votre expertise et votre présence sur les recherches locales ou spécialisées.",
+        "url": "/creation-site-avocat-nantes/"
+      }
+    ],
+    "service-projects-eyebrow": "Réalisations SEO",
+    "service-projects-title": "Des stratégies pensées pour améliorer la visibilité et les conversions.",
+    "service-projects": [
+      {
+        "title": "Maison Jaden",
+        "category": "Construction",
+        "tags": "SEO local · WordPress · Génération de leads",
+        "url": "/realisations/maison-jaden/"
+      },
+      {
+        "title": "Bag X Pro",
+        "category": "Industrie",
+        "tags": "SEO technique · Catalogue · Contenus",
+        "url": "/realisations/bag-x-pro/"
+      },
+      {
+        "title": "Padam Immo",
+        "category": "Immobilier",
+        "tags": "SEO local · Immobilier · Acquisition",
+        "url": "/realisations/padam-immo/"
+      }
+    ],
+    "service-method-eyebrow": "Notre méthode SEO",
+    "service-method-title": "Une stratégie structurée autour de vos objectifs business.",
+    "service-method-steps": [
+      {
+        "title": "Audit",
+        "text": "Analyse technique, éditoriale, sémantique et concurrentielle de votre site."
+      },
+      {
+        "title": "Stratégie",
+        "text": "Sélection des mots-clés, priorisation des opportunités et définition de la feuille de route."
+      },
+      {
+        "title": "Optimisation",
+        "text": "Correction des blocages techniques, amélioration des pages et structuration du maillage interne."
+      },
+      {
+        "title": "Contenus",
+        "text": "Création ou réécriture de pages conçues pour répondre aux intentions de recherche."
+      },
+      {
+        "title": "Suivi",
+        "text": "Analyse des positions, du trafic, des conversions et ajustement continu de la stratégie."
+      }
+    ],
+    "service-faq-eyebrow": "Questions fréquentes",
+    "service-faq-title": "Tout savoir sur le référencement naturel.",
+    "service-faq-items": [
+      {
+        "question": "Qu'est-ce que le référencement naturel ?",
+        "answer": "Le référencement naturel, ou SEO, regroupe les actions permettant d'améliorer la visibilité d'un site dans les résultats non sponsorisés de Google. Il repose principalement sur la qualité technique du site, la pertinence des contenus et l'autorité du domaine."
+      },
+      {
+        "question": "Combien de temps faut-il pour obtenir des résultats en SEO ?",
+        "answer": "Les premiers progrès peuvent apparaître en quelques semaines, mais une stratégie SEO produit généralement des résultats significatifs sur plusieurs mois. Le délai dépend de votre marché, de la concurrence, de l'ancienneté du site et de son état technique."
+      },
+      {
+        "question": "Combien coûte une prestation SEO ?",
+        "answer": "Le budget dépend de la taille du site, de la concurrence, du volume de contenus à produire et des objectifs commerciaux. Après un premier diagnostic, nous définissons une feuille de route et un accompagnement adaptés à vos priorités."
+      },
+      {
+        "question": "Pouvez-vous travailler sur un site déjà existant ?",
+        "answer": "Oui. Nous pouvons auditer et optimiser un site WordPress existant, corriger ses problèmes techniques, améliorer ses contenus et mettre en place une stratégie de croissance sans nécessairement refaire tout le site."
+      },
+      {
+        "question": "Le SEO local est-il utile pour une entreprise à Nantes ?",
+        "answer": "Oui. Le SEO local permet de positionner votre entreprise sur des recherches géolocalisées comme « agence SEO Nantes », « artisan Nantes » ou « avocat Nantes ». Il s'appuie notamment sur les pages locales, la fiche Google Business Profile et la cohérence des informations de l'entreprise."
+      },
+      {
+        "question": "Rédigez-vous les contenus SEO ?",
+        "answer": "Oui. Nous pouvons rédiger ou réécrire vos pages de services, pages locales, articles de blog, catégories et autres contenus stratégiques en respectant votre ton, votre expertise et les intentions de recherche."
+      },
+      {
+        "question": "Pouvez-vous garantir une première position sur Google ?",
+        "answer": "Non. Aucun prestataire sérieux ne peut garantir une position précise, car les résultats dépendent de nombreux facteurs et des algorithmes de Google. Nous nous engageons en revanche sur une méthode, des actions concrètes et un suivi transparent."
+      },
+      {
+        "question": "Comment mesurez-vous les performances SEO ?",
+        "answer": "Nous suivons notamment les positions sur les mots-clés, le trafic organique, les pages qui progressent, les impressions, les clics et les conversions générées. Les indicateurs sont choisis selon vos objectifs commerciaux."
+      }
+    ],
+    "service-final-cta-title": "Prêt à gagner des positions sur Google ?",
+    "service-final-reassurance": [
+      {
+        "text": "Premier diagnostic SEO offert"
+      },
+      {
+        "text": "Stratégie sur mesure"
+      },
+      {
+        "text": "Agence SEO à Nantes"
+      }
+    ]
+  }
+}

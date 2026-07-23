@@ -1,0 +1,247 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Refonte de site WordPress à Nantes",
+    "slug": "refonte-site-wordpress",
+    "menu_order": 12,
+    "status": "publish"
+  },
+  "seo": {
+    "meta_title": "Refonte site WordPress Nantes — Sans perdre votre SEO | Crescendo",
+    "meta_description": "Refonte de site WordPress à Nantes : design moderne, performances, SEO préservé. Audit gratuit, migration sécurisée, maquette 48h. Agence WordPress locale.",
+    "focus_keyword": "refonte site wordpress nantes",
+    "canonical": "https://crescendo-studio.io/refonte-site-wordpress/",
+    "noindex": false
+  },
+  "fields": {
+    "service-hero-eyebrow": "Refonte WordPress · Nantes",
+    "service-hero-title": "Refonte de site WordPress à Nantes",
+    "service-hero-intro": "Votre site WordPress est lent, daté ou non responsive ? Nous refondons votre plateforme sans sacrifier votre référencement : audit technique, conservation des URLs performantes, design sur mesure et migration sécurisée vers un WordPress moderne.",
+    "service-hero-cta-primary": {
+      "title": "Demander un audit gratuit",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-hero-cta-secondary": {
+      "title": "Voir une refonte réalisée",
+      "url": "/realisations/gide/",
+      "target": ""
+    },
+    "service-hero-note": "Audit et recommandations sous 48h",
+    "service-benefits": [
+      {
+        "title": "SEO préservé",
+        "text": "Redirections 301, conservation des pages indexées, audit des positions."
+      },
+      {
+        "title": "Performances x2",
+        "text": "Code allégé, Core Web Vitals optimisés, temps de chargement réduit."
+      },
+      {
+        "title": "Design actuel",
+        "text": "Image de marque modernisée, parcours utilisateur repensé."
+      },
+      {
+        "title": "Admin simplifiée",
+        "text": "Interface claire pour que vos équipes gèrent le contenu sans friction."
+      }
+    ],
+    "service-included-eyebrow": "Refonte complète",
+    "service-included-title": "Ce que comprend une refonte WordPress",
+    "service-included-text": "Nous ne posons pas un thème par-dessus l'ancien site : nous reconstruisons proprement en capitalisant sur ce qui fonctionne déjà.",
+    "service-included-price": "Sur devis",
+    "service-included-price-suffix": "",
+    "service-included-cta": {
+      "title": "Obtenir mon audit",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-included-features": [
+      {
+        "text": "Audit technique, SEO et UX"
+      },
+      {
+        "text": "Inventaire des contenus et URLs"
+      },
+      {
+        "text": "Nouveau design UX/UI sur mesure"
+      },
+      {
+        "text": "Développement WordPress propre"
+      },
+      {
+        "text": "Plan de redirections 301"
+      },
+      {
+        "text": "Migration des contenus et médias"
+      },
+      {
+        "text": "Tests multi-navigateurs et mobile"
+      },
+      {
+        "text": "Formation et documentation"
+      }
+    ],
+    "service-compare-eyebrow": "Refonte vs patch",
+    "service-compare-title": "Refondre ou rafistoler : que choisir ?",
+    "service-compare-text": "Empiler des plugins et des correctifs sur un site vieillissant coûte plus cher à moyen terme qu'une refonte structurée — surtout si votre SEO en souffre.",
+    "service-compare-cta": {
+      "title": "Planifier ma refonte",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-compare-col1-label": "Refonte sur mesure",
+    "service-compare-col2-label": "Correctifs ponctuels",
+    "service-compare-table": [
+      {
+        "label": "Performances",
+        "col1": "Optimisées dès le départ",
+        "col2": "Dégradation continue"
+      },
+      {
+        "label": "SEO",
+        "col1": "Migré proprement",
+        "col2": "Risque de casse"
+      },
+      {
+        "label": "Design",
+        "col1": "Cohérent et moderne",
+        "col2": "Patchwork visuel"
+      },
+      {
+        "label": "Sécurité",
+        "col1": "Code à jour",
+        "col2": "Failles accumulées"
+      },
+      {
+        "label": "Coût sur 3 ans",
+        "col1": "Maîtrisé",
+        "col2": "Souvent supérieur"
+      },
+      {
+        "label": "Évolutivité",
+        "col1": "✓",
+        "col2": "Limitée"
+      }
+    ],
+    "service-compare-note": "Une refonte bien menée améliore SEO et conversion simultanément",
+    "service-audience-eyebrow": "Situations fréquentes",
+    "service-audience-title": "Quand refondre son site WordPress ?",
+    "service-audience-cards": [
+      {
+        "title": "Site non responsive",
+        "text": "Conçu avant le mobile — pénalisé par Google.",
+        "url": "/refonte-site-wordpress/"
+      },
+      {
+        "title": "Chute de trafic SEO",
+        "text": "Positions perdues, contenu obsolète.",
+        "url": "/agence-seo-nantes/"
+      },
+      {
+        "title": "Changement de marque",
+        "text": "Fusion, repositionnement, nouvelle identité.",
+        "url": "/creation-site-wordpress/"
+      },
+      {
+        "title": "Site lent ou piraté",
+        "text": "Plugins obsolètes, failles de sécurité.",
+        "url": "/maintenance-wordpress/"
+      }
+    ],
+    "service-projects-eyebrow": "Refontes livrées",
+    "service-projects-title": "Des sites modernisés sans rupture SEO.",
+    "service-projects": [
+      {
+        "title": "Gide",
+        "category": "Cabinet international",
+        "tags": "Refonte · Multilingue · API",
+        "url": "/realisations/gide/"
+      },
+      {
+        "title": "Padam Immo",
+        "category": "Immobilier",
+        "tags": "Refonte · SEO local",
+        "url": "/realisations/padam-immo/"
+      },
+      {
+        "title": "Maison Jaden",
+        "category": "Construction",
+        "tags": "WordPress · CRM",
+        "url": "/realisations/maison-jaden/"
+      }
+    ],
+    "service-method-eyebrow": "Méthode refonte",
+    "service-method-title": "5 étapes pour refondre sans perdre vos acquis.",
+    "service-method-steps": [
+      {
+        "title": "Audit",
+        "text": "Analyse SEO, technique, contenus et parcours utilisateur."
+      },
+      {
+        "title": "Stratégie",
+        "text": "Arbitrage conserver / fusionner / supprimer les pages."
+      },
+      {
+        "title": "Design & contenu",
+        "text": "Maquette, réécriture SEO, validation métier."
+      },
+      {
+        "title": "Développement",
+        "text": "Nouveau WordPress, redirections, tests de charge."
+      },
+      {
+        "title": "Bascule",
+        "text": "Mise en production planifiée, monitoring post-lancement."
+      }
+    ],
+    "service-faq-eyebrow": "FAQ refonte",
+    "service-faq-title": "Questions sur la refonte WordPress à Nantes.",
+    "service-faq-items": [
+      {
+        "question": "Vais-je perdre mon référencement Google ?",
+        "answer": "Non si la refonte est bien menée. Nous cartographions vos URLs, mettons en place des redirections 301 et surveillons Search Console après la bascule."
+      },
+      {
+        "question": "Combien coûte une refonte de site WordPress ?",
+        "answer": "Entre 4 000 et 12 000 € selon le volume de pages, les langues, les intégrations et le niveau de personnalisation. Devis après audit."
+      },
+      {
+        "question": "Quelle durée pour une refonte complète ?",
+        "answer": "8 à 14 semaines en moyenne : audit (1 sem), design (2–3 sem), développement (3–5 sem), recette et bascule (1–2 sem)."
+      },
+      {
+        "question": "Mon site actuel est-il WordPress obligatoirement ?",
+        "answer": "Non. Nous migrons aussi depuis d'autres CMS (Wix, Joomla, HTML statique) vers WordPress sur mesure."
+      },
+      {
+        "question": "Puis-je garder mes contenus existants ?",
+        "answer": "Oui. Nous migrons textes, images et structure. Les contenus faibles sont réécrits pour le SEO."
+      },
+      {
+        "question": "Travaillez-vous sur des sites e-commerce ?",
+        "answer": "Oui, refonte WooCommerce incluse : produits, catégories, historique de commandes selon faisabilité."
+      },
+      {
+        "question": "Assurez-vous la maintenance après refonte ?",
+        "answer": "Oui, via contrat maintenance ou formule location 350 €/mois."
+      },
+      {
+        "question": "Proposez-vous un audit avant de refondre ?",
+        "answer": "Oui, audit gratuit avec recommandations chiffrées sous 48 h après premier échange."
+      }
+    ],
+    "service-final-cta-title": "Modernisez votre site WordPress sans repartir de zéro",
+    "service-final-reassurance": [
+      {
+        "text": "Audit gratuit"
+      },
+      {
+        "text": "SEO préservé"
+      },
+      {
+        "text": "Agence WordPress Nantes"
+      }
+    ]
+  }
+}

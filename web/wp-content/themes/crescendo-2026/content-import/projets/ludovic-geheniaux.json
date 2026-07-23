@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Ludovic Géhéniaux",
+    "slug": "ludovic-geheniaux",
+    "parent": "realisations",
+    "status": "publish",
+    "menu_order": 50,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Refonte Ludovic Géhéniaux · Étude de cas | Crescendo Studio",
+    "meta_description": "Refonte du site de Ludovic Géhéniaux, coloriste à Nantes : vitrine premium, galerie de réalisations et prise de rendez-vous en ligne pour développer la cli…",
+    "focus_keyword": "refonte site ludovic geheniaux",
+    "canonical": "https://crescendo-studio.io/realisations/ludovic-geheniaux/",
+    "noindex": false
+  },
+  "fields": {
+    "project-hero-eyebrow": "Étude de cas · Refonte",
+    "project-hero-title": "Refonte du site Ludovic Géhéniaux",
+    "project-hero-intro": "Refonte du site de Ludovic Géhéniaux, coloriste à Nantes : vitrine premium, galerie de réalisations et prise de rendez-vous en ligne pour développer la clientèle locale.",
+    "project-client-name": "Ludovic Géhéniaux",
+    "project-client-url": "https://ludovicgeheniaux.com/",
+    "project-sector": "Artisan coloriste",
+    "project-year": "2023",
+    "project-tags": "Refonte · Vitrine · Réservation · SEO local",
+    "project-tech-tags": "WordPress · Booking · Galerie",
+    "project-has-crm": false,
+    "project-gallery-title": "Aperçu du site refondu",
+    "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
+    "project-gallery-slots": 4,
+    "project-gallery": [],
+    "project-challenge-title": "Le contexte",
+    "project-challenge-text": "<p>Artisan coloriste reconnu, Ludovic Géhéniaux avait besoin d'un site vitrine élégant reflétant son savoir-faire, avec une galerie de colorations et un système de réservation simple.</p>",
+    "project-solution-title": "Notre approche",
+    "project-solution-text": "<p>Design sur mesure mettant en avant les réalisations, pages services structurées, formulaire de rendez-vous et référencement local sur Nantes et sa métropole.</p>",
+    "project-results-title": "Résultats",
+    "project-results": [
+      {
+        "value": "+45%",
+        "label": "Prises de RDV en ligne"
+      },
+      {
+        "value": "Top 3",
+        "label": "Coloriste Nantes"
+      },
+      {
+        "value": "Mobile",
+        "label": "First design"
+      },
+      {
+        "value": "Galerie",
+        "label": "Portfolio intégré"
+      }
+    ],
+    "project-cta-title": "Un projet de refonte similaire ?",
+    "project-cta-text": "Parlons de votre site. Nous vous proposons une maquette gratuite en 48h pour valider la direction avant de démarrer.",
+    "project-cta-button": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

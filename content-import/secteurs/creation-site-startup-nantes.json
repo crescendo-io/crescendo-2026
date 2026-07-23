@@ -1,0 +1,304 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création de site web pour startups à Nantes",
+    "slug": "creation-site-startup-nantes",
+    "status": "publish",
+    "menu_order": 25
+  },
+  "seo": {
+    "meta_title": "Site web startup Nantes — WordPress sur mesure | Crescendo",
+    "meta_description": "Création de site internet pour startup à Nantes : landing page, pitch investisseurs, recrutement, SEO. WordPress évolutif. Maquette gratuite 48h. Location dès 350€/mois.",
+    "focus_keyword": "site web startup nantes",
+    "canonical": "https://crescendo-studio.io/creation-site-startup-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "secteur-hero-eyebrow": "Startup · Scale-up · Nantes",
+    "secteur-hero-title": "Site web pour startup à Nantes",
+    "secteur-hero-intro": "Vous lancez ou scalez une startup à Nantes — Île de Nantes, Atlanpole, French Tech ? Nous créons des sites WordPress sur mesure qui crédibilisent votre produit, convainquent investisseurs et candidats, sans brûler votre trésorerie : location dès 350 €/mois.",
+    "secteur-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-hero-cta-secondary": {
+      "title": "Voir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+    "secteur-hero-note": "Maquette gratuite en 48h",
+    "secteur-benefits": [
+      {
+        "title": "Time-to-market",
+        "text": "Site MVP livré en 3 à 4 semaines pour valider votre marché."
+      },
+      {
+        "title": "Budget maîtrisé",
+        "text": "Location sans frais de création — trésorerie préservée pour le produit."
+      },
+      {
+        "title": "Évolutif",
+        "text": "Ajoutez pages produit, blog, espace recrutement sans refonte."
+      },
+      {
+        "title": "SEO dès J1",
+        "text": "Structure pensée pour ranker sur votre marché et votre géographie."
+      }
+    ],
+    "secteur-pain-title": "Pourquoi les startups nantaises échouent en ligne",
+    "secteur-pain-items": [
+      {
+        "title": "Site Wix ou template générique",
+        "text": "Image amateur face aux investisseurs et premiers clients enterprise."
+      },
+      {
+        "title": "Pas de page produit claire",
+        "text": "Le visiteur ne comprend pas votre value prop en 5 secondes."
+      },
+      {
+        "title": "Invisible sur Google",
+        "text": "Concurrents bien référencés captent les recherches « startup + Nantes » ou métier."
+      },
+      {
+        "title": "Dette technique future",
+        "text": "Un MVP mal construit coûte plus cher à refondre qu'un WordPress propre dès le départ."
+      }
+    ],
+    "secteur-solution-title": "Un site startup pensé pour convaincre et évoluer",
+    "secteur-solution-text": "Nous concevons des sites WordPress modulaires pour les startups nantaises : homepage pitch, pages produit, social proof, espace recrutement et connexion CRM — le tout administrable par votre équipe marketing.",
+    "secteur-solution-price": "350€/mois",
+    "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
+    "secteur-solution-usps": [
+      {
+        "title": "Maquette 48h",
+        "text": "Direction créative gratuite avant engagement."
+      },
+      {
+        "title": "WordPress sur mesure",
+        "text": "Design premium adapté à votre secteur."
+      },
+      {
+        "title": "SEO local intégré",
+        "text": "Visible sur Google dès la mise en ligne."
+      }
+    ],
+    "secteur-features-title": "Ce que votre site startup doit inclure",
+    "secteur-features-items": [
+      {
+        "title": "Homepage pitch",
+        "text": "Proposition de valeur claire, CTA primaire, preuves sociales."
+      },
+      {
+        "title": "Pages produit",
+        "text": "Fonctionnalités, cas d'usage, comparatif, FAQ technique."
+      },
+      {
+        "title": "Espace recrutement",
+        "text": "Offres d'emploi, culture, candidature spontanée."
+      },
+      {
+        "title": "Blog / ressources",
+        "text": "SEO longue traîne et autorité sectorielle."
+      },
+      {
+        "title": "Connexion CRM",
+        "text": "Leads formulaire → HubSpot, Pipedrive ou custom."
+      },
+      {
+        "title": "Analytics & tracking",
+        "text": "GA4, événements conversion, heatmaps si besoin."
+      }
+    ],
+    "secteur-case-title": "Exemple de réalisation tech / formation",
+    "secteur-case-project-title": "Be Focus",
+    "secteur-case-project-tags": "WordPress · Booking · CRM",
+    "secteur-case-project-points": [
+      {
+        "text": "Plateforme de formation pour comédiens avec réservation en ligne"
+      },
+      {
+        "text": "Parcours conversion optimisé mobile-first"
+      },
+      {
+        "text": "Connexion CRM pour le suivi des inscriptions"
+      }
+    ],
+    "secteur-case-project-url": "/realisations/be-focus/",
+    "secteur-pricing-title": "Combien coûte un site web pour startup à Nantes ?",
+    "secteur-pricing-price": "350€",
+    "secteur-pricing-price-suffix": "/mois",
+    "secteur-pricing-cta": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-pricing-col1-label": "Location 350€/mois",
+    "secteur-pricing-col2-label": "Achat classique",
+    "secteur-pricing-features": [
+      {
+        "text": "Création sur mesure incluse"
+      },
+      {
+        "text": "Hébergement premium"
+      },
+      {
+        "text": "Maintenance & mises à jour"
+      },
+      {
+        "text": "SEO local de base"
+      },
+      {
+        "text": "Formulaire de contact"
+      },
+      {
+        "text": "Support réactif"
+      }
+    ],
+    "secteur-pricing-table": [
+      {
+        "label": "Investissement initial",
+        "col1": "0€",
+        "col2": "3 000 – 8 000€"
+      },
+      {
+        "label": "Mensualité",
+        "col1": "350€",
+        "col2": "150–250€"
+      },
+      {
+        "label": "Création incluse",
+        "col1": "✓",
+        "col2": "✓"
+      },
+      {
+        "label": "Maintenance & sécurité",
+        "col1": "Incluse",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Évolutions",
+        "col1": "Incluses",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Total sur 5 ans",
+        "col1": "~21 000€",
+        "col2": "~25 000€+"
+      }
+    ],
+    "secteur-area-title": "Site web startup à Nantes et métropole",
+    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
+    "secteur-area-cities": [
+      {
+        "name": "Nantes",
+        "url": "/agence-web-nantes/"
+      },
+      {
+        "name": "Saint-Herblain",
+        "url": "/agence-web-saint-herblain/"
+      },
+      {
+        "name": "Rezé",
+        "url": "/agence-web-reze/"
+      },
+      {
+        "name": "Orvault",
+        "url": "/agence-web-orvault/"
+      },
+      {
+        "name": "Carquefou",
+        "url": "/agence-web-carquefou/"
+      },
+      {
+        "name": "Saint-Nazaire",
+        "url": "/agence-web-saint-nazaire/"
+      }
+    ],
+    "secteur-area-see-all": {
+      "title": "Voir toutes nos zones",
+      "url": "/agence-web-nantes/",
+      "target": ""
+    },
+    "secteur-faq-eyebrow": "Questions fréquentes",
+    "secteur-faq-title": "Tout savoir sur la création de site pour startup",
+    "secteur-faq-items": [
+      {
+        "question": "Combien coûte un site startup à Nantes ?",
+        "answer": "350 €/mois en location tout inclus, ou 4 000 à 10 000 € en achat selon le nombre de pages et intégrations (CRM, multilingue, espace client)."
+      },
+      {
+        "question": "Quel délai pour un site MVP ?",
+        "answer": "3 à 4 semaines pour une landing + pages produit. Maquette gratuite sous 48 h."
+      },
+      {
+        "question": "Peut-on connecter HubSpot ou Pipedrive ?",
+        "answer": "Oui. Nous intégrons votre stack existante ou développons une connexion sur mesure."
+      },
+      {
+        "question": "La location convient-elle aux startups ?",
+        "answer": "Oui. Zéro investissement initial, évolutions incluses — idéal avant une levée de fonds."
+      },
+      {
+        "question": "Travaillez-vous avec les incubateurs nantais ?",
+        "answer": "Oui. Atlanpole, French Tech Nantes, Station B — nous connaissons les contraintes time-to-market des jeunes entreprises."
+      },
+      {
+        "question": "Le site sera-t-il multilingue ?",
+        "answer": "Oui si nécessaire. WordPress gère FR/EN nativement pour les startups visant l'export."
+      }
+    ],
+    "secteur-related-title": "Autres secteurs que nous accompagnons",
+    "secteur-related-sectors": [
+      {
+        "title": "Artisan",
+        "url": "/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "Avocat",
+        "url": "/creation-site-avocat-nantes/"
+      },
+      {
+        "title": "Restaurant",
+        "url": "/creation-site-restaurant-nantes/"
+      },
+      {
+        "title": "Immobilier",
+        "url": "/creation-site-immobilier-nantes/"
+      },
+      {
+        "title": "B2B / PME",
+        "url": "/creation-site-b2b-nantes/"
+      },
+      {
+        "title": "Coiffeur",
+        "url": "/creation-site-coiffeur-nantes/"
+      }
+    ],
+    "secteur-final-cta-title": "Lancez votre présence web startup à Nantes",
+    "secteur-final-cta-text": "Maquette gratuite sous 48 h pour valider la direction avant développement.",
+    "secteur-final-cta-points": [
+      {
+        "text": "Maquette personnalisée sous 48h"
+      },
+      {
+        "text": "Formule location sans investissement initial"
+      },
+      {
+        "text": "Accompagnement local à Nantes"
+      }
+    ],
+    "secteur-final-form-job-label": "Votre startup",
+    "secteur-final-reassurance": [
+      {
+        "text": "Sans engagement"
+      },
+      {
+        "text": "Réponse sous 24h"
+      },
+      {
+        "text": "Agence nantaise"
+      }
+    ]
+  }
+}

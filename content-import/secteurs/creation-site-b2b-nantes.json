@@ -1,0 +1,304 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création de site web B2B et PME à Nantes",
+    "slug": "creation-site-b2b-nantes",
+    "status": "publish",
+    "menu_order": 26
+  },
+  "seo": {
+    "meta_title": "Site web B2B Nantes — PME & industrie sur mesure | Crescendo",
+    "meta_description": "Création de site internet B2B à Nantes pour PME et industrie : catalogue, devis en ligne, CRM, SEO local. WordPress sur mesure. Maquette 48h. Location 350€/mois.",
+    "focus_keyword": "site web b2b nantes",
+    "canonical": "https://crescendo-studio.io/creation-site-b2b-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "secteur-hero-eyebrow": "B2B · PME · Industrie · Nantes",
+    "secteur-hero-title": "Site web B2B et PME à Nantes",
+    "secteur-hero-intro": "Votre PME ou entreprise industrielle à Nantes a besoin d'un site qui génère des leads qualifiés, pas d'une vitrine statique. Nous créons des sites WordPress B2B : catalogues produits, formulaires de devis, études de cas et connexion CRM.",
+    "secteur-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-hero-cta-secondary": {
+      "title": "Voir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+    "secteur-hero-note": "Maquette gratuite en 48h",
+    "secteur-benefits": [
+      {
+        "title": "Leads qualifiés",
+        "text": "Formulaires devis avec champs métier pour filtrer les prospects."
+      },
+      {
+        "title": "Crédibilité B2B",
+        "text": "Études de cas, certifications, références clients visibles."
+      },
+      {
+        "title": "Catalogue en ligne",
+        "text": "Fiches produits, fiches techniques PDF, comparatifs."
+      },
+      {
+        "title": "CRM connecté",
+        "text": "Chaque demande alimente votre pipeline commercial."
+      }
+    ],
+    "secteur-pain-title": "Les erreurs des PME nantaises sur le web",
+    "secteur-pain-items": [
+      {
+        "title": "Site brochure PDF",
+        "text": "Un PDF téléchargeable ne convertit pas — ni ne rank sur Google."
+      },
+      {
+        "title": "Pas de suivi des leads",
+        "text": "Demandes perdues dans une boîte mail partagée."
+      },
+      {
+        "title": "Image datée",
+        "text": "Site de 2015 qui ne reflète plus votre capacité industrielle."
+      },
+      {
+        "title": "Invisible sur les requêtes métier",
+        "text": "Vos concurrents apparaissent sur « fournisseur X Nantes », pas vous."
+      }
+    ],
+    "secteur-solution-title": "Un site B2B orienté génération de leads",
+    "secteur-solution-text": "Crescendo Studio conçoit des sites WordPress pour les PME nantaises : pages par gamme produit, téléchargements techniques, témoignages clients et tunnel de conversion vers devis ou RDV commercial.",
+    "secteur-solution-price": "350€/mois",
+    "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
+    "secteur-solution-usps": [
+      {
+        "title": "Maquette 48h",
+        "text": "Direction créative gratuite avant engagement."
+      },
+      {
+        "title": "WordPress sur mesure",
+        "text": "Design premium adapté à votre secteur."
+      },
+      {
+        "title": "SEO local intégré",
+        "text": "Visible sur Google dès la mise en ligne."
+      }
+    ],
+    "secteur-features-title": "Ce que votre site B2B doit inclure",
+    "secteur-features-items": [
+      {
+        "title": "Catalogue produits",
+        "text": "Fiches détaillées, filtres, téléchargements PDF."
+      },
+      {
+        "title": "Formulaire devis B2B",
+        "text": "Volume, délai, secteur — qualification automatique."
+      },
+      {
+        "title": "Études de cas",
+        "text": "Projets clients avec résultats chiffrés."
+      },
+      {
+        "title": "Pages secteurs",
+        "text": "SEO par vertical (industrie, BTP, logistique…)."
+      },
+      {
+        "title": "Espace recrutement",
+        "text": "Attractivité employeur pour PME en croissance."
+      },
+      {
+        "title": "Multilingue",
+        "text": "Export FR/EN pour clients internationaux."
+      }
+    ],
+    "secteur-case-title": "Exemple de réalisation B2B",
+    "secteur-case-project-title": "Bag X Pro",
+    "secteur-case-project-tags": "WordPress · Catalogue · Devis",
+    "secteur-case-project-points": [
+      {
+        "text": "Site vitrine B2B avec catalogue produits et demande de devis"
+      },
+      {
+        "text": "SEO local et national sur le secteur industriel"
+      },
+      {
+        "text": "Design premium orienté conversion professionnelle"
+      }
+    ],
+    "secteur-case-project-url": "/realisations/bag-x-pro/",
+    "secteur-pricing-title": "Combien coûte un site web B2B à Nantes ?",
+    "secteur-pricing-price": "350€",
+    "secteur-pricing-price-suffix": "/mois",
+    "secteur-pricing-cta": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-pricing-col1-label": "Location 350€/mois",
+    "secteur-pricing-col2-label": "Achat classique",
+    "secteur-pricing-features": [
+      {
+        "text": "Création sur mesure incluse"
+      },
+      {
+        "text": "Hébergement premium"
+      },
+      {
+        "text": "Maintenance & mises à jour"
+      },
+      {
+        "text": "SEO local de base"
+      },
+      {
+        "text": "Formulaire de contact"
+      },
+      {
+        "text": "Support réactif"
+      }
+    ],
+    "secteur-pricing-table": [
+      {
+        "label": "Investissement initial",
+        "col1": "0€",
+        "col2": "3 000 – 8 000€"
+      },
+      {
+        "label": "Mensualité",
+        "col1": "350€",
+        "col2": "150–250€"
+      },
+      {
+        "label": "Création incluse",
+        "col1": "✓",
+        "col2": "✓"
+      },
+      {
+        "label": "Maintenance & sécurité",
+        "col1": "Incluse",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Évolutions",
+        "col1": "Incluses",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Total sur 5 ans",
+        "col1": "~21 000€",
+        "col2": "~25 000€+"
+      }
+    ],
+    "secteur-area-title": "Site web B2B à Nantes et Loire-Atlantique",
+    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
+    "secteur-area-cities": [
+      {
+        "name": "Nantes",
+        "url": "/agence-web-nantes/"
+      },
+      {
+        "name": "Saint-Herblain",
+        "url": "/agence-web-saint-herblain/"
+      },
+      {
+        "name": "Rezé",
+        "url": "/agence-web-reze/"
+      },
+      {
+        "name": "Orvault",
+        "url": "/agence-web-orvault/"
+      },
+      {
+        "name": "Carquefou",
+        "url": "/agence-web-carquefou/"
+      },
+      {
+        "name": "Saint-Nazaire",
+        "url": "/agence-web-saint-nazaire/"
+      }
+    ],
+    "secteur-area-see-all": {
+      "title": "Voir toutes nos zones",
+      "url": "/agence-web-nantes/",
+      "target": ""
+    },
+    "secteur-faq-eyebrow": "Questions fréquentes",
+    "secteur-faq-title": "FAQ site web B2B et PME",
+    "secteur-faq-items": [
+      {
+        "question": "Combien coûte un site B2B à Nantes ?",
+        "answer": "350 €/mois en location, ou 5 000 à 12 000 € en achat selon catalogue, langues et intégrations CRM/ERP."
+      },
+      {
+        "question": "Peut-on connecter le site à notre ERP ?",
+        "answer": "Oui. Nous développons des connecteurs API selon faisabilité technique."
+      },
+      {
+        "question": "Gérez-vous les fiches produits ?",
+        "answer": "Oui. Import CSV, administration simplifiée, filtres et recherche."
+      },
+      {
+        "question": "Le site sera-t-il référencé sur Google ?",
+        "answer": "Oui. SEO technique + pages par produit, secteur et zone géographique."
+      },
+      {
+        "question": "Proposez-vous la connexion CRM ?",
+        "answer": "Oui. Voir notre offre CRM sur mesure — HubSpot, Pipedrive ou custom."
+      },
+      {
+        "question": "Quel délai pour une PME industrielle ?",
+        "answer": "6 à 10 semaines selon le volume de contenus et fiches produits."
+      }
+    ],
+    "secteur-related-title": "Autres secteurs que nous accompagnons",
+    "secteur-related-sectors": [
+      {
+        "title": "Artisan",
+        "url": "/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "Avocat",
+        "url": "/creation-site-avocat-nantes/"
+      },
+      {
+        "title": "Restaurant",
+        "url": "/creation-site-restaurant-nantes/"
+      },
+      {
+        "title": "Immobilier",
+        "url": "/creation-site-immobilier-nantes/"
+      },
+      {
+        "title": "Startup",
+        "url": "/creation-site-startup-nantes/"
+      },
+      {
+        "title": "Coiffeur",
+        "url": "/creation-site-coiffeur-nantes/"
+      }
+    ],
+    "secteur-final-cta-title": "Générez plus de leads B2B avec votre site",
+    "secteur-final-cta-text": "Audit gratuit de votre présence en ligne et maquette sous 48 h.",
+    "secteur-final-cta-points": [
+      {
+        "text": "Maquette personnalisée sous 48h"
+      },
+      {
+        "text": "Formule location sans investissement initial"
+      },
+      {
+        "text": "Accompagnement local à Nantes"
+      }
+    ],
+    "secteur-final-form-job-label": "Votre activité B2B",
+    "secteur-final-reassurance": [
+      {
+        "text": "Sans engagement"
+      },
+      {
+        "text": "Réponse sous 24h"
+      },
+      {
+        "text": "Agence nantaise"
+      }
+    ]
+  }
+}

@@ -1,67 +1,77 @@
 <?php
+$description = get_field('params-footer-description', 'option') ?: 'Agence web à Nantes spécialisée WordPress sur mesure, CRM et location de site dès 350€/mois.';
+$phone = get_field('params-footer-phone', 'option');
+$email = get_field('params-footer-email', 'option');
+$address = get_field('params-footer-address', 'option') ?: 'Nantes, Loire-Atlantique (44)';
 
+$footerServices = array(
+    'Création de site internet', 'CRM sur mesure', 'Location 350€/mois',
+    'Refonte WordPress', 'Site e-commerce', 'Maintenance',
+);
+$footerSectors = array(
+    'Artisan', 'Avocat', 'Immobilier', 'Restaurant', 'Coach', 'B2B',
+);
+$footerCities = array(
+    'Saint-Herblain', 'Rezé', 'Orvault', 'Carquefou', 'Bouguenais',
+);
 ?>
-                    <footer class="main-footer" role="contentinfo" data-module="footer" data-context="@visible true">
-                        <?php
-                        /*
-                            wp_nav_menu(array(
-                                'theme_location' => 'menu-footer',
-                                'menu_id'        => 'menu-footer',
-                                'menu_class'     => 'menu-footer',
-                                'container'       => 'div',
-                                'container_class' => '',
-                                'container_id'    => '',
-                                'echo'            => true,
-                                'fallback_cb'     => 'wp_page_menu',
-                                'before'          => '',
-                                'after'           => '',
-                                'link_before'     => '',
-                                'link_after'      => '',
-                                'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-                                'item_spacing'    => 'preserve',
-                                'depth'           => 0,
-                                'walker'          => '',
-                            ));
-                        */
-                        ?>
-
-                        <ul id="menu-footer" class="menu-footer">
-                            <li class="menu-item current-menu-item">
-                                <a href="#">Element 1</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#">Element 2</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#">Element 3</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#">Element 4</a>
-                            </li>
-                        </ul>
-                    </footer>
-                    
-                    <?php
-                        // $ga_id = get_field('params_id_google_analytics', 'option');
-                        // if($ga_id && ENV_PROD):
-                    ?>
-                    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=<?php // echo $ga_id; ?>"></script>
-                    <script>
-                        if (getCookie('hasConsent') == 'true') {
-                            window.dataLayer = window.dataLayer || [];
-                            function gtag() {
-                                dataLayer.push(arguments);
-                            }
-
-                            gtag('js', new Date());
-                            gtag('config', '<?php // echo $ga_id; ?>');
-                        }
-                    </script> -->
-                    <?php // endif; ?>
-
-                    <?php wp_footer(); ?>
-                </div>
-            </div>
+<footer class="site-footer" role="contentinfo" data-module="footer" data-context="@visible true">
+    <div class="container site-footer__top">
+        <div class="site-footer__brand">
+            <a href="<?php echo esc_url(home_url('/')); ?>" class="site-logo site-logo--footer">crescendo</a>
+            <p><?php echo esc_html($description); ?></p>
         </div>
-    </body>
+
+        <div class="site-footer__col">
+            <h3>Services</h3>
+            <ul>
+                <?php foreach ($footerServices as $item) : ?>
+                    <li><a href="#"><?php echo esc_html($item); ?></a></li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+
+        <div class="site-footer__col">
+            <h3>Secteurs</h3>
+            <ul>
+                <?php foreach ($footerSectors as $item) : ?>
+                    <li><a href="#"><?php echo esc_html($item); ?></a></li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+
+        <div class="site-footer__col">
+            <h3>Villes</h3>
+            <ul>
+                <?php foreach ($footerCities as $item) : ?>
+                    <li><a href="#"><?php echo esc_html($item); ?></a></li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+
+        <div class="site-footer__col">
+            <h3>Contact</h3>
+            <ul class="site-footer__contact">
+                <?php if ($phone) : ?><li><a href="tel:<?php echo esc_attr(preg_replace('/\s+/', '', $phone)); ?>"><?php echo esc_html($phone); ?></a></li><?php endif; ?>
+                <?php if ($email) : ?><li><a href="mailto:<?php echo esc_attr($email); ?>"><?php echo esc_html($email); ?></a></li><?php endif; ?>
+                <li><?php echo esc_html($address); ?></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="site-footer__bottom">
+        <div class="container site-footer__bottom-inner">
+            <p>© <?php echo esc_html(date('Y')); ?> Crescendo Studio — Tous droits réservés</p>
+            <ul class="site-footer__legal">
+                <li><a href="<?php echo esc_url(home_url('/mentions-legales/')); ?>">Mentions légales</a></li>
+                <li><a href="<?php echo esc_url(home_url('/politique-de-confidentialite/')); ?>">Politique de confidentialité</a></li>
+                <li><a href="#">Plan du site</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<?php wp_footer(); ?>
+</div>
+</body>
 </html>

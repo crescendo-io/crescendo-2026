@@ -1,0 +1,247 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création de site vitrine à Nantes",
+    "slug": "creation-site-vitrine-nantes",
+    "menu_order": 14,
+    "status": "publish"
+  },
+  "seo": {
+    "meta_title": "Création site vitrine Nantes — WordPress dès 350€/mois | Crescendo",
+    "meta_description": "Création de site vitrine à Nantes pour artisans, PME et indépendants : WordPress sur mesure, SEO local, formulaire de devis. Maquette gratuite 48h. Location sans frais de création.",
+    "focus_keyword": "création site vitrine nantes",
+    "canonical": "https://crescendo-studio.io/creation-site-vitrine-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "service-hero-eyebrow": "Site vitrine · Nantes",
+    "service-hero-title": "Création de site vitrine à Nantes",
+    "service-hero-intro": "Un site vitrine professionnel est votre meilleur commercial 24h/24. Nous créons des sites WordPress sur mesure pour présenter votre activité, rassurer vos prospects et générer des contacts — artisans, PME, professions libérales et commerçants nantais.",
+    "service-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-hero-cta-secondary": {
+      "title": "Location dès 350€/mois",
+      "url": "/location-site-internet/",
+      "target": ""
+    },
+    "service-hero-note": "Maquette gratuite en 48h",
+    "service-benefits": [
+      {
+        "title": "Orienté conversion",
+        "text": "Chaque page pousse à l'action : devis, appel, prise de RDV."
+      },
+      {
+        "title": "SEO local intégré",
+        "text": "Visible sur « votre métier + Nantes » dès la mise en ligne."
+      },
+      {
+        "title": "Design premium",
+        "text": "Image professionnelle qui reflète la qualité de votre travail."
+      },
+      {
+        "title": "Administration simple",
+        "text": "Modifiez textes et images sans compétence technique."
+      }
+    ],
+    "service-included-eyebrow": "Site vitrine complet",
+    "service-included-title": "Ce que contient votre site vitrine",
+    "service-included-text": "5 à 15 pages structurées pour convertir : accueil, services, réalisations, à propos, contact et pages SEO locales.",
+    "service-included-price": "350€",
+    "service-included-price-suffix": "/mois en location",
+    "service-included-cta": {
+      "title": "Lancer mon site vitrine",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-included-features": [
+      {
+        "text": "5 à 15 pages sur mesure"
+      },
+      {
+        "text": "Design UX/UI personnalisé"
+      },
+      {
+        "text": "Formulaire de contact ou devis"
+      },
+      {
+        "text": "Galerie réalisations / portfolio"
+      },
+      {
+        "text": "Page zone d'intervention (SEO local)"
+      },
+      {
+        "text": "Optimisation mobile et vitesse"
+      },
+      {
+        "text": "Balisage schema.org LocalBusiness"
+      },
+      {
+        "text": "Formation et support inclus"
+      }
+    ],
+    "service-compare-eyebrow": "Vitrine sur mesure vs Wix",
+    "service-compare-title": "Pourquoi un site vitrine WordPress plutôt que Wix ?",
+    "service-compare-text": "Wix semble rapide, mais limite le SEO, la vitesse et l'évolutivité. Un vitrine WordPress sur mesure est un actif durable pour votre entreprise.",
+    "service-compare-cta": {
+      "title": "Comparer avec la location",
+      "url": "/location-site-internet/",
+      "target": ""
+    },
+    "service-compare-col1-label": "WordPress sur mesure",
+    "service-compare-col2-label": "Constructeur Wix / Outil DIY",
+    "service-compare-table": [
+      {
+        "label": "SEO local",
+        "col1": "Structure optimisée",
+        "col2": "Limité"
+      },
+      {
+        "label": "Vitesse de chargement",
+        "col1": "Code léger",
+        "col2": "Scripts lourds"
+      },
+      {
+        "label": "Design unique",
+        "col1": "✓",
+        "col2": "Template partagé"
+      },
+      {
+        "label": "Évolutivité (blog, e-commerce)",
+        "col1": "✓",
+        "col2": "Migration difficile"
+      },
+      {
+        "label": "Propriété",
+        "col1": "Vous",
+        "col2": "Plateforme"
+      },
+      {
+        "label": "Coût sur 3 ans",
+        "col1": "Maîtrisé",
+        "col2": "Abonnement cumulé"
+      }
+    ],
+    "service-compare-note": "Un vitrine sur mesure se rentabilise dès les premiers clients générés",
+    "service-audience-eyebrow": "Pour qui ?",
+    "service-audience-title": "Le site vitrine s'adapte à votre métier.",
+    "service-audience-cards": [
+      {
+        "title": "Artisan",
+        "text": "Devis en ligne, galerie chantiers, SEO local.",
+        "url": "/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "Avocat / expert",
+        "text": "Crédibilité, spécialités, prise de RDV.",
+        "url": "/creation-site-avocat-nantes/"
+      },
+      {
+        "title": "Commerçant",
+        "text": "Horaires, produits, click & collect.",
+        "url": "/creation-site-restaurant-nantes/"
+      },
+      {
+        "title": "PME industrielle",
+        "text": "Catalogue B2B, études de cas, recrutement.",
+        "url": "/creation-site-web-nantes/"
+      }
+    ],
+    "service-projects-eyebrow": "Sites vitrine livrés",
+    "service-projects-title": "Des vitrines qui génèrent des contacts.",
+    "service-projects": [
+      {
+        "title": "Ludovic Géhéniaux",
+        "category": "Artisan coloriste",
+        "tags": "Vitrine · Booking",
+        "url": "/realisations/ludovic-geheniaux/"
+      },
+      {
+        "title": "Maison Jaden",
+        "category": "Constructeur",
+        "tags": "Vitrine · Devis · CRM",
+        "url": "/realisations/maison-jaden/"
+      },
+      {
+        "title": "Padam Immo",
+        "category": "Immobilier",
+        "tags": "Vitrine · SEO local",
+        "url": "/realisations/padam-immo/"
+      }
+    ],
+    "service-method-eyebrow": "Notre méthode",
+    "service-method-title": "Votre site vitrine en 5 étapes.",
+    "service-method-steps": [
+      {
+        "title": "Brief",
+        "text": "Objectifs, cibles, concurrents et mots-clés locaux."
+      },
+      {
+        "title": "Maquette 48h",
+        "text": "Prototype visuel gratuit pour valider la direction."
+      },
+      {
+        "title": "Contenus",
+        "text": "Rédaction SEO ou reprise de vos textes existants."
+      },
+      {
+        "title": "Développement",
+        "text": "Intégration WordPress, formulaires, tracking."
+      },
+      {
+        "title": "Lancement",
+        "text": "Mise en ligne, indexation Google, formation."
+      }
+    ],
+    "service-faq-eyebrow": "FAQ site vitrine",
+    "service-faq-title": "Questions sur la création de site vitrine à Nantes.",
+    "service-faq-items": [
+      {
+        "question": "Qu'est-ce qu'un site vitrine ?",
+        "answer": "Un site qui présente votre activité, vos services et vos réalisations pour générer des contacts — sans vente en ligne directe."
+      },
+      {
+        "question": "Combien de pages faut-il ?",
+        "answer": "Entre 5 et 15 selon votre activité : accueil, services, réalisations, à propos, contact, plus des pages SEO locales par zone ou spécialité."
+      },
+      {
+        "question": "Combien coûte un site vitrine à Nantes ?",
+        "answer": "350 €/mois en location tout inclus, ou 3 000 à 6 000 € en achat selon le nombre de pages et le niveau de design."
+      },
+      {
+        "question": "Puis-je ajouter un blog plus tard ?",
+        "answer": "Oui. WordPress est conçu pour évoluer : blog, e-commerce, espace client — sans refonte complète."
+      },
+      {
+        "question": "Mon site sera-t-il adapté mobile ?",
+        "answer": "Oui. Design mobile first : navigation, formulaires et boutons d'appel optimisés pour smartphone."
+      },
+      {
+        "question": "Comment générer des leads avec un vitrine ?",
+        "answer": "Formulaire de devis visible, numéro click-to-call, preuves sociales (avis, réalisations) et SEO local pour capter les recherches « métier + Nantes »."
+      },
+      {
+        "question": "Quelle différence avec un site e-commerce ?",
+        "answer": "Le vitrine vise la prise de contact. L'e-commerce intègre un catalogue, un panier et un paiement en ligne."
+      },
+      {
+        "question": "Proposez-vous la location pour un vitrine ?",
+        "answer": "Oui, 350 €/mois sans frais de création : idéal pour démarrer sans investissement initial."
+      }
+    ],
+    "service-final-cta-title": "Créez votre site vitrine professionnel à Nantes",
+    "service-final-reassurance": [
+      {
+        "text": "Maquette gratuite en 48h"
+      },
+      {
+        "text": "Location dès 350€/mois"
+      },
+      {
+        "text": "SEO local intégré"
+      }
+    ]
+  }
+}

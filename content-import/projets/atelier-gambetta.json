@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Atelier Gambetta",
+    "slug": "atelier-gambetta",
+    "parent": "realisations",
+    "status": "publish",
+    "menu_order": 10,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Refonte Atelier Gambetta · Étude de cas | Crescendo Studio",
+    "meta_description": "Refonte du site portfolio de l'Atelier Gambetta : mise en valeur des réalisations branding, parcours devis simplifié et connexion CRM pour qualifier les de…",
+    "focus_keyword": "refonte site atelier gambetta",
+    "canonical": "https://crescendo-studio.io/realisations/atelier-gambetta/",
+    "noindex": false
+  },
+  "fields": {
+    "project-hero-eyebrow": "Étude de cas · Refonte",
+    "project-hero-title": "Refonte du site Atelier Gambetta",
+    "project-hero-intro": "Refonte du site portfolio de l'Atelier Gambetta : mise en valeur des réalisations branding, parcours devis simplifié et connexion CRM pour qualifier les demandes entrantes.",
+    "project-client-name": "Atelier Gambetta",
+    "project-client-url": "https://www.ateliergambetta.com/",
+    "project-sector": "Branding & design",
+    "project-year": "2024",
+    "project-tags": "Refonte · WordPress · Portfolio · CRM",
+    "project-tech-tags": "WordPress · ACF · Pipedrive",
+    "project-has-crm": true,
+    "project-gallery-title": "Aperçu du site refondu",
+    "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
+    "project-gallery-slots": 4,
+    "project-gallery": [],
+    "project-challenge-title": "Le contexte",
+    "project-challenge-text": "<p>L'Atelier Gambetta avait besoin d'un site à la hauteur de ses créations : portfolio visuel impactant, navigation fluide entre les projets et un système de capture de leads plus fiable que les échanges email dispersés.</p><p>Le site existant ne reflétait plus le positionnement premium du studio et ne permettait pas de suivre efficacement les prospects.</p>",
+    "project-solution-title": "Notre approche",
+    "project-solution-text": "<p>Nous avons conçu une refonte WordPress sur mesure avec une grille portfolio optimisée, des pages projet structurées et un formulaire de devis connecté à Pipedrive.</p><p>Performance, SEO et expérience mobile ont été priorisés pour soutenir la notoriété de l'agence auprès de ses clients B2B.</p>",
+    "project-results-title": "Résultats",
+    "project-results": [
+      {
+        "value": "+40%",
+        "label": "Demandes de devis qualifiées"
+      },
+      {
+        "value": "< 2s",
+        "label": "Temps de chargement"
+      },
+      {
+        "value": "100%",
+        "label": "Sur mobile"
+      },
+      {
+        "value": "CRM",
+        "label": "Leads synchronisés"
+      }
+    ],
+    "project-cta-title": "Un projet de refonte similaire ?",
+    "project-cta-text": "Parlons de votre site. Nous vous proposons une maquette gratuite en 48h pour valider la direction avant de démarrer.",
+    "project-cta-button": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

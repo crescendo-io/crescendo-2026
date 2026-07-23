@@ -1,0 +1,319 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Agence web à Rezé",
+    "slug": "agence-web-reze",
+    "status": "publish",
+    "menu_order": 31
+  },
+  "seo": {
+    "meta_title": "Agence web Rezé — Site sur mesure dès 350€/mois | Crescendo",
+    "meta_description": "Agence web à Rezé : création de site WordPress sur mesure, SEO local, maintenance incluse. Maquette gratuite en 48h. Location dès 350€/mois.",
+    "focus_keyword": "agence web rezé",
+    "canonical": "https://crescendo-studio.io/agence-web-reze/",
+    "noindex": false
+  },
+  "fields": {
+    "local-city-name": "Rezé",
+    "local-hero-eyebrow": "Agence web · Rezé",
+    "local-hero-title": "Agence web à Rezé",
+    "local-hero-intro": "Vous cherchez une agence web à Rezé ? Crescendo Studio crée des sites WordPress sur mesure pour les TPE, PME et indépendants de la métropole nantaise — location dès 350€/mois sans frais de création.",
+    "local-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "local-hero-cta-secondary": {
+      "title": "Voir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+    "local-hero-note": "Maquette gratuite en 48h",
+    "local-benefits": [
+      {
+        "title": "Agence nantaise",
+        "text": "Basés à Nantes, nous intervenons régulièrement à Rezé."
+      },
+      {
+        "title": "SEO local",
+        "text": "Visible sur « agence web Rezé » et requêtes associées."
+      },
+      {
+        "title": "Site dès 350€/mois",
+        "text": "Location tout inclus, zéro frais de création."
+      },
+      {
+        "title": "WordPress sur mesure",
+        "text": "Design premium, rapide et évolutif."
+      }
+    ],
+    "local-sections": [
+      {
+        "title": "Accompagner les entreprises de Rezé",
+        "text": "<p>Rezé compte près de 43 000 habitants, de Pont-Rousseau à Trentemoult. Crescendo Studio crée des sites WordPress optimisés pour « agence web Rezé » et les variantes géolocalisées.</p>"
+      },
+      {
+        "title": "Un tissu PME et artisanal qui a besoin de visibilité",
+        "text": "<p>Artisans, restaurants de Trentemoult, cabinets médicaux, PME industrielles : notre location à <strong>350€/mois</strong> est adaptée aux TPE réziennes.</p>"
+      },
+      {
+        "title": "SEO local Rezé : capter la clientèle de la rive sud",
+        "text": "<p>Nous construisons des pages dédiées pour « plombier Rezé », « restaurant Trentemoult » et les requêtes sud Loire.</p>"
+      }
+    ],
+    "local-facts-title": "Rezé en bref",
+    "local-facts": [
+      {
+        "text": "Près de 43 000 habitants, 3e commune de la métropole"
+      },
+      {
+        "text": "Quartier de Trentemoult face à l'Île de Nantes"
+      },
+      {
+        "text": "Tramway ligne 3 et accès rapide au centre nantais"
+      },
+      {
+        "text": "Zones d'activité Blordière et périphérique sud"
+      }
+    ],
+    "local-pain-title": "Pourquoi les entreprises de Rezé perdent des clients en ligne",
+    "local-pain-items": [
+      {
+        "title": "Invisible sur Google",
+        "text": "Vos concurrents nantais apparaissent avant vous sur « agence web Rezé » et les requêtes locales."
+      },
+      {
+        "title": "Site obsolète ou absent",
+        "text": "Une fiche Facebook ou un site daté ne convertit pas les prospects qui comparent en ligne."
+      },
+      {
+        "title": "Pas de SEO local",
+        "text": "Sans pages géolocalisées et fiche Google optimisée, vous n'existez pas pour les habitants de Rezé."
+      },
+      {
+        "title": "Budget bloqué",
+        "text": "3 000 à 8 000€ d'investissement initial : difficile à justifier pour une TPE locale."
+      }
+    ],
+    "local-solution-title": "Un site web professionnel pour votre entreprise à Rezé",
+    "local-solution-text": "Crescendo Studio conçoit des sites WordPress sur mesure pour les entreprises de Rezé et de la métropole nantaise. Design premium, SEO local intégré, maintenance incluse en location.",
+    "local-solution-price": "350€/mois",
+    "local-solution-price-label": "Location tout inclus · zéro frais de création",
+    "local-solution-usps": [
+      {
+        "title": "Maquette 48h",
+        "text": "Direction créative gratuite avant engagement."
+      },
+      {
+        "title": "SEO local",
+        "text": "Pages et balisage optimisés pour Rezé et environs."
+      },
+      {
+        "title": "Accompagnement de proximité",
+        "text": "Agence nantaise réactive, rendez-vous sur place ou visio."
+      }
+    ],
+    "local-features-title": "Ce que votre site professionnel doit inclure",
+    "local-features-items": [
+      {
+        "title": "Design sur mesure",
+        "text": "Image premium adaptée à votre secteur et votre clientèle locale."
+      },
+      {
+        "title": "SEO local intégré",
+        "text": "Structure, contenu et schema.org pour Rezé."
+      },
+      {
+        "title": "Formulaire de contact",
+        "text": "Capture des demandes avec notification email."
+      },
+      {
+        "title": "Mobile first",
+        "text": "80 % des recherches locales se font sur smartphone."
+      },
+      {
+        "title": "Performance & sécurité",
+        "text": "Site rapide, HTTPS, sauvegardes incluses en location."
+      },
+      {
+        "title": "Évolutions incluses",
+        "text": "Maintenance et mises à jour dans l'abonnement mensuel."
+      }
+    ],
+    "local-case-title": "Exemple de réalisation en Loire-Atlantique",
+    "local-case-project-title": "Maison Jaden",
+    "local-case-project-tags": "WordPress · Devis · SEO local",
+    "local-case-project-points": [
+      {
+        "text": "Site vitrine pour constructeur de maisons à Nantes"
+      },
+      {
+        "text": "Formulaire de devis connecté au CRM"
+      },
+      {
+        "text": "Référencement local sur 12 communes"
+      }
+    ],
+    "local-case-project-url": "/realisations/maison-jaden/",
+    "local-pricing-title": "Combien coûte un site web à Rezé ?",
+    "local-pricing-price": "350€",
+    "local-pricing-price-suffix": "/mois",
+    "local-pricing-cta": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "local-pricing-col1-label": "Location 350€/mois",
+    "local-pricing-col2-label": "Achat classique",
+    "local-pricing-features": [
+      {
+        "text": "Création sur mesure incluse"
+      },
+      {
+        "text": "Hébergement premium"
+      },
+      {
+        "text": "Maintenance & mises à jour"
+      },
+      {
+        "text": "SEO local de base"
+      },
+      {
+        "text": "Support réactif"
+      }
+    ],
+    "local-pricing-table": [
+      {
+        "label": "Investissement initial",
+        "col1": "0€",
+        "col2": "3 000 – 8 000€"
+      },
+      {
+        "label": "Mensualité",
+        "col1": "350€",
+        "col2": "150–250€"
+      },
+      {
+        "label": "Création incluse",
+        "col1": "✓",
+        "col2": "✓"
+      },
+      {
+        "label": "Maintenance & sécurité",
+        "col1": "Incluse",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Évolutions",
+        "col1": "Incluses",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Total sur 5 ans",
+        "col1": "~21 000€",
+        "col2": "~25 000€+"
+      }
+    ],
+    "local-area-title": "Agence web Rezé et communes voisines",
+    "local-area-text": "Nous accompagnons les entreprises de Rezé et des communes limitrophes de la métropole nantaise.",
+    "local-area-cities": [
+      {
+        "name": "Nantes",
+        "url": "/agence-web-nantes/"
+      },
+      {
+        "name": "Bouguenais",
+        "url": "/agence-web-bouguenais/"
+      },
+      {
+        "name": "Saint-Sébastien-sur-Loire",
+        "url": "/agence-web-saint-sebastien-sur-loire/"
+      },
+      {
+        "name": "Saint-Herblain",
+        "url": "/agence-web-saint-herblain/"
+      },
+      {
+        "name": "Orvault",
+        "url": "/agence-web-orvault/"
+      },
+      {
+        "name": "Carquefou",
+        "url": "/agence-web-carquefou/"
+      }
+    ],
+    "local-area-see-all": {
+      "title": "Voir toutes nos zones",
+      "url": "/creation-site-web-nantes/",
+      "target": ""
+    },
+    "local-faq-eyebrow": "Questions fréquentes",
+    "local-faq-title": "Tout savoir sur la création de site à Rezé",
+    "local-faq-items": [
+      {
+        "question": "Ciblez-vous aussi les recherches liées à Trentemoult ?",
+        "answer": "Oui. Pages spécifiques pour Trentemoult en plus de Rezé si votre activité y est implantée."
+      },
+      {
+        "question": "Puis-je toucher des clients à Nantes depuis Rezé ?",
+        "answer": "Oui. Un site bien référencé vous positionne sur Rezé ET sur Nantes sud."
+      },
+      {
+        "question": "Combien coûte un site internet pour une TPE à Rezé ?",
+        "answer": "350€/mois en location tout inclus, sans frais de création."
+      }
+    ],
+    "local-related-title": "Nos solutions par secteur d'activité",
+    "local-related-sectors": [
+      {
+        "title": "Artisan",
+        "url": "/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "Avocat",
+        "url": "/creation-site-avocat-nantes/"
+      },
+      {
+        "title": "Restaurant",
+        "url": "/creation-site-restaurant-nantes/"
+      },
+      {
+        "title": "Immobilier",
+        "url": "/creation-site-immobilier-nantes/"
+      },
+      {
+        "title": "Startup",
+        "url": "/creation-site-startup-nantes/"
+      },
+      {
+        "title": "PME",
+        "url": "/creation-site-web-nantes/"
+      }
+    ],
+    "local-final-cta-title": "Prêt à lancer votre projet web à Rezé ?",
+    "local-final-cta-text": "Recevez une maquette gratuite sous 48h. Sans engagement.",
+    "local-final-cta-points": [
+      {
+        "text": "Maquette personnalisée sous 48h"
+      },
+      {
+        "text": "Formule location sans investissement initial"
+      },
+      {
+        "text": "Accompagnement local à Rezé"
+      }
+    ],
+    "local-final-form-job-label": "Votre activité",
+    "local-final-reassurance": [
+      {
+        "text": "Sans engagement"
+      },
+      {
+        "text": "Réponse sous 24h"
+      },
+      {
+        "text": "Agence nantaise"
+      }
+    ]
+  }
+}

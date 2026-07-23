@@ -1,0 +1,247 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création de site WordPress sur mesure",
+    "slug": "creation-site-wordpress",
+    "status": "publish",
+    "menu_order": 11
+  },
+  "seo": {
+    "meta_title": "Création site WordPress sur mesure à Nantes | Crescendo",
+    "meta_description": "Création de site WordPress sur mesure à Nantes : design personnalisé, développement performant, SEO, sécurité et administration simplifiée. Maquette gratuite en 48h.",
+    "focus_keyword": "création site WordPress",
+    "canonical": "https://crescendo-studio.io/creation-site-wordpress/",
+    "noindex": false
+  },
+  "fields": {
+    "service-hero-eyebrow": "Création site WordPress",
+    "service-hero-title": "Création de site WordPress sur mesure",
+    "service-hero-intro": "Nous concevons des sites WordPress rapides, évolutifs et entièrement personnalisés pour transformer votre présence en ligne en véritable outil commercial. Design, développement, SEO et accompagnement réunis dans un projet pensé pour votre activité.",
+    "service-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-hero-cta-secondary": {
+      "title": "Découvrir notre méthode",
+      "url": "#methode",
+      "target": ""
+    },
+    "service-hero-note": "Première maquette personnalisée sous 48h",
+    "service-benefits": [
+      {
+        "title": "WordPress sans template générique",
+        "text": "Votre site est conçu autour de votre identité, de vos contenus et de vos objectifs commerciaux."
+      },
+      {
+        "title": "Administration simplifiée",
+        "text": "Modifiez facilement vos pages, textes, images, offres et actualités depuis une interface claire."
+      },
+      {
+        "title": "SEO natif",
+        "text": "Structure, performances, balisage et maillage interne sont pensés pour Google dès la conception."
+      },
+      {
+        "title": "Site évolutif",
+        "text": "Ajoutez de nouvelles pages, fonctionnalités ou connexions métier sans reconstruire tout le projet."
+      }
+    ],
+    "service-included-eyebrow": "Site WordPress sur mesure",
+    "service-included-title": "Ce qui est inclus dans votre projet WordPress",
+    "service-included-text": "Une prestation complète pour créer un site professionnel, performant et administrable, sans dépendre d'un thème préfabriqué ou d'un empilement de plugins.",
+    "service-included-price": "Sur devis",
+    "service-included-price-suffix": "",
+    "service-included-cta": {
+      "title": "Obtenir une estimation",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-included-features": [
+      {
+        "text": "Conception UX/UI personnalisée"
+      },
+      {
+        "text": "Développement WordPress sur mesure"
+      },
+      {
+        "text": "Interface d'administration simplifiée"
+      },
+      {
+        "text": "Optimisation des performances"
+      },
+      {
+        "text": "Structure SEO complète"
+      },
+      {
+        "text": "Compatibilité mobile et tablette"
+      },
+      {
+        "text": "Sécurisation et sauvegardes"
+      },
+      {
+        "text": "Formation à la prise en main"
+      }
+    ],
+    "service-compare-eyebrow": "Sur mesure vs template",
+    "service-compare-title": "Pourquoi choisir un site WordPress sur mesure ?",
+    "service-compare-text": "Un thème préconçu permet de démarrer rapidement, mais impose souvent des limites en matière de design, de performances, de référencement et d'évolutivité. Le sur-mesure construit uniquement ce dont votre entreprise a besoin.",
+    "service-compare-cta": {
+      "title": "Créer mon site sur mesure",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-compare-col1-label": "WordPress sur mesure",
+    "service-compare-col2-label": "Thème préconçu",
+    "service-compare-table": [
+      {
+        "label": "Design",
+        "col1": "100 % personnalisé",
+        "col2": "Limité par le thème"
+      },
+      {
+        "label": "Performances",
+        "col1": "Code optimisé",
+        "col2": "Fonctions inutiles chargées"
+      },
+      {
+        "label": "Référencement naturel",
+        "col1": "Structure SEO dédiée",
+        "col2": "Optimisation variable"
+      },
+      {
+        "label": "Administration",
+        "col1": "Adaptée à vos contenus",
+        "col2": "Interface souvent complexe"
+      },
+      {
+        "label": "Évolutivité",
+        "col1": "Fonctionnalités extensibles",
+        "col2": "Dépendance au thème"
+      },
+      {
+        "label": "Identité de marque",
+        "col1": "Unique",
+        "col2": "Design déjà utilisé ailleurs"
+      }
+    ],
+    "service-compare-note": "Un site plus rapide, plus clair et réellement adapté à votre entreprise",
+    "service-audience-eyebrow": "Pour quels projets ?",
+    "service-audience-title": "WordPress s'adapte à votre activité.",
+    "service-audience-cards": [
+      {
+        "title": "Site vitrine",
+        "text": "Présentez votre entreprise, vos services et vos réalisations avec un parcours orienté conversion.",
+        "url": "/creation-site-web-nantes/"
+      },
+      {
+        "title": "Site institutionnel",
+        "text": "Structurez un volume important de contenus, d'expertises, d'équipes ou de publications.",
+        "url": "/creation-site-wordpress/"
+      },
+      {
+        "title": "Site métier",
+        "text": "Connectez votre site à un CRM, une API, un extranet ou un outil interne.",
+        "url": "/crm-sur-mesure/"
+      },
+      {
+        "title": "Site multilingue",
+        "text": "Déployez une présence internationale avec une gestion claire de plusieurs langues.",
+        "url": "/creation-site-wordpress/"
+      }
+    ],
+    "service-projects-eyebrow": "Réalisations WordPress",
+    "service-projects-title": "Des plateformes conçues pour des besoins très différents.",
+    "service-projects": [
+      {
+        "title": "Maison Jaden",
+        "category": "Construction",
+        "tags": "WordPress · CRM · SEO local",
+        "url": "/realisations/maison-jaden/"
+      },
+      {
+        "title": "Gide",
+        "category": "Cabinet d'avocats",
+        "tags": "WordPress · Multilingue · API",
+        "url": "/realisations/gide/"
+      },
+      {
+        "title": "Bag X Pro",
+        "category": "Industrie",
+        "tags": "WordPress · Catalogue · SEO",
+        "url": "/realisations/bag-x-pro/"
+      }
+    ],
+    "service-method-eyebrow": "Notre méthode",
+    "service-method-title": "Un projet WordPress cadré de la maquette à la mise en ligne.",
+    "service-method-steps": [
+      {
+        "title": "Cadrage",
+        "text": "Analyse de vos objectifs, utilisateurs, contenus, fonctionnalités et enjeux SEO."
+      },
+      {
+        "title": "UX/UI design",
+        "text": "Création d'une interface personnalisée fidèle à votre marque et orientée conversion."
+      },
+      {
+        "title": "Développement",
+        "text": "Intégration WordPress sur mesure avec des composants réutilisables et une administration claire."
+      },
+      {
+        "title": "Recette & mise en ligne",
+        "text": "Tests fonctionnels, responsive, performances, redirections SEO et déploiement."
+      },
+      {
+        "title": "Maintenance",
+        "text": "Mises à jour, sécurité, sauvegardes, support et évolutions après le lancement."
+      }
+    ],
+    "service-faq-eyebrow": "Questions fréquentes",
+    "service-faq-title": "Tout savoir sur la création d'un site WordPress.",
+    "service-faq-items": [
+      {
+        "question": "Pourquoi choisir WordPress pour créer un site professionnel ?",
+        "answer": "WordPress permet de créer un site entièrement personnalisé tout en conservant une administration simple. Il s'adapte aussi bien à un site vitrine qu'à une plateforme institutionnelle, multilingue ou connectée à des outils métier."
+      },
+      {
+        "question": "Utilisez-vous des thèmes WordPress préconçus ?",
+        "answer": "Non. Nous privilégions un développement sur mesure afin de créer uniquement les composants nécessaires à votre projet. Cela améliore la cohérence graphique, les performances, la sécurité et la facilité d'administration."
+      },
+      {
+        "question": "Pourrai-je modifier moi-même mon site WordPress ?",
+        "answer": "Oui. L'administration est conçue en fonction de vos contenus. Vous pourrez modifier les textes, images, pages, actualités, réalisations ou offres sans toucher au code."
+      },
+      {
+        "question": "Le site WordPress sera-t-il optimisé pour le référencement ?",
+        "answer": "Oui. Nous travaillons la structure des pages, les balises, les performances, le responsive, le maillage interne, les données structurées et les redirections nécessaires dès la phase de conception."
+      },
+      {
+        "question": "Peut-on connecter WordPress à un CRM ou une API ?",
+        "answer": "Oui. WordPress peut être relié à un CRM, un ERP, une solution de réservation, un outil de recrutement, une base de données ou une API métier selon les besoins du projet."
+      },
+      {
+        "question": "Combien coûte la création d'un site WordPress sur mesure ?",
+        "answer": "Le budget dépend du nombre de gabarits, des fonctionnalités, des connexions externes, des langues et du niveau de personnalisation. Après un premier échange, nous vous remettons un chiffrage détaillé adapté au périmètre réel."
+      },
+      {
+        "question": "Combien de temps faut-il pour créer un site WordPress ?",
+        "answer": "Un site vitrine sur mesure nécessite généralement entre 4 et 8 semaines. Les plateformes plus complexes, multilingues ou connectées à des outils métier peuvent demander plusieurs mois."
+      },
+      {
+        "question": "Assurez-vous la maintenance après la mise en ligne ?",
+        "answer": "Oui. Nous pouvons prendre en charge les mises à jour WordPress, la sécurité, les sauvegardes, la surveillance, le support et les évolutions fonctionnelles."
+      }
+    ],
+    "service-final-cta-title": "Prêt à créer un site WordPress vraiment adapté à votre entreprise ?",
+    "service-final-reassurance": [
+      {
+        "text": "Maquette gratuite en 48h"
+      },
+      {
+        "text": "Développement 100 % sur mesure"
+      },
+      {
+        "text": "Agence WordPress à Nantes"
+      }
+    ]
+  }
+}

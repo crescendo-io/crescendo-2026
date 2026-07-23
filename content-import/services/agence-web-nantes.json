@@ -1,0 +1,247 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Agence web à Nantes",
+    "slug": "agence-web-nantes",
+    "menu_order": 5,
+    "status": "publish"
+  },
+  "seo": {
+    "meta_title": "Agence web Nantes — WordPress sur mesure dès 350€/mois | Crescendo",
+    "meta_description": "Agence web à Nantes : création, refonte et location de sites WordPress sur mesure. SEO intégré, maquette gratuite 48h. TPE, PME et professions libérales.",
+    "focus_keyword": "agence web nantes",
+    "canonical": "https://crescendo-studio.io/agence-web-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "service-hero-eyebrow": "Agence web · Nantes",
+    "service-hero-title": "Agence web à Nantes",
+    "service-hero-intro": "Crescendo Studio est une agence web nantaise spécialisée WordPress sur mesure. Nous accompagnons les TPE, PME et professions libérales de Loire-Atlantique — création, refonte, SEO et location dès 350 €/mois, sans template générique ni surprise budgétaire.",
+    "service-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-hero-cta-secondary": {
+      "title": "Voir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+    "service-hero-note": "Maquette gratuite en 48h · Agence locale",
+    "service-benefits": [
+      {
+        "title": "WordPress 100 % sur mesure",
+        "text": "Design, développement et SEO pensés pour votre activité — pas de thème préfabriqué."
+      },
+      {
+        "title": "Location sans investissement",
+        "text": "Site professionnel dès 350 €/mois, création et maintenance incluses."
+      },
+      {
+        "title": "SEO intégré dès le départ",
+        "text": "Structure, performances et contenu calibrés pour Google dès la conception."
+      },
+      {
+        "title": "Accompagnement de proximité",
+        "text": "Rendez-vous à Nantes, visio ou sur votre site — réactivité garantie."
+      }
+    ],
+    "service-included-eyebrow": "Notre accompagnement",
+    "service-included-title": "Ce que couvre une collaboration avec Crescendo",
+    "service-included-text": "De la stratégie digitale à la mise en ligne, nous pilotons l'ensemble du projet : UX/UI, développement WordPress, référencement, formation et maintenance.",
+    "service-included-price": "350€",
+    "service-included-price-suffix": "/mois en location",
+    "service-included-cta": {
+      "title": "Parler de mon projet",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-included-features": [
+      {
+        "text": "Audit et cadrage stratégique"
+      },
+      {
+        "text": "Maquette gratuite sous 48 h"
+      },
+      {
+        "text": "Développement WordPress sur mesure"
+      },
+      {
+        "text": "Optimisation SEO technique et éditoriale"
+      },
+      {
+        "text": "Hébergement premium et sauvegardes"
+      },
+      {
+        "text": "Maintenance, sécurité et évolutions"
+      },
+      {
+        "text": "Formation à l'administration du site"
+      },
+      {
+        "text": "Support réactif par l'équipe nantaise"
+      }
+    ],
+    "service-compare-eyebrow": "Agence vs freelance vs DIY",
+    "service-compare-title": "Pourquoi travailler avec une agence web à Nantes ?",
+    "service-compare-text": "Un freelance isolé ou un constructeur type Wix ne couvre pas toujours le design, le développement, le SEO et la maintenance. Une agence structurée sécurise la qualité et la durabilité de votre investissement.",
+    "service-compare-cta": {
+      "title": "Demander un premier échange",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-compare-col1-label": "Agence Crescendo",
+    "service-compare-col2-label": "Freelance / DIY",
+    "service-compare-table": [
+      {
+        "label": "Design sur mesure",
+        "col1": "✓",
+        "col2": "Variable"
+      },
+      {
+        "label": "SEO dès la conception",
+        "col1": "✓",
+        "col2": "Rarement"
+      },
+      {
+        "label": "Maintenance incluse",
+        "col1": "✓ (location)",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Évolutivité WordPress",
+        "col1": "✓",
+        "col2": "Limitée (DIY)"
+      },
+      {
+        "label": "Interlocuteur unique",
+        "col1": "✓",
+        "col2": "Multi-prestataires"
+      },
+      {
+        "label": "Délai moyen vitrine",
+        "col1": "4–6 semaines",
+        "col2": "Imprévisible"
+      }
+    ],
+    "service-compare-note": "Un partenaire unique pour créer, référencer et faire évoluer votre site",
+    "service-audience-eyebrow": "Nos clients à Nantes",
+    "service-audience-title": "Une agence adaptée à chaque profil d'entreprise.",
+    "service-audience-cards": [
+      {
+        "title": "Artisans & BTP",
+        "text": "Sites vitrine orientés devis et SEO local.",
+        "url": "/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "Professions libérales",
+        "text": "Image premium, prise de RDV, conformité déontologique.",
+        "url": "/creation-site-avocat-nantes/"
+      },
+      {
+        "title": "PME & industrie",
+        "text": "Sites B2B, catalogues, connexion CRM.",
+        "url": "/creation-site-web-nantes/"
+      },
+      {
+        "title": "Commerces & restauration",
+        "text": "Carte, réservation, visibilité locale.",
+        "url": "/creation-site-restaurant-nantes/"
+      }
+    ],
+    "service-projects-eyebrow": "Réalisations nantaises",
+    "service-projects-title": "Des sites livrés pour des secteurs exigeants.",
+    "service-projects": [
+      {
+        "title": "Maison Jaden",
+        "category": "Construction",
+        "tags": "WordPress · CRM · SEO",
+        "url": "/realisations/maison-jaden/"
+      },
+      {
+        "title": "Gide",
+        "category": "Cabinet d'avocats",
+        "tags": "WordPress · Multilingue",
+        "url": "/realisations/gide/"
+      },
+      {
+        "title": "Padam Immo",
+        "category": "Immobilier",
+        "tags": "WordPress · SEO local",
+        "url": "/realisations/padam-immo/"
+      }
+    ],
+    "service-method-eyebrow": "Notre méthode",
+    "service-method-title": "Un projet web cadré, de la maquette au suivi mensuel.",
+    "service-method-steps": [
+      {
+        "title": "Échange & cadrage",
+        "text": "Compréhension de vos objectifs, cibles et contraintes budgétaires."
+      },
+      {
+        "title": "Maquette 48h",
+        "text": "Direction créative gratuite pour valider le design avant développement."
+      },
+      {
+        "title": "Développement",
+        "text": "Intégration WordPress sur mesure, optimisée SEO et mobile."
+      },
+      {
+        "title": "Recette & lancement",
+        "text": "Tests, indexation Google, formation à l'administration."
+      },
+      {
+        "title": "Suivi continu",
+        "text": "Maintenance, évolutions et optimisation des performances."
+      }
+    ],
+    "service-faq-eyebrow": "Questions fréquentes",
+    "service-faq-title": "Tout savoir sur notre agence web à Nantes.",
+    "service-faq-items": [
+      {
+        "question": "Pourquoi choisir une agence web locale à Nantes ?",
+        "answer": "La proximité facilite les ateliers contenu, les rendez-vous de cadrage et la compréhension de votre marché nantais. Nous intervenons aussi en visio sur toute la Loire-Atlantique."
+      },
+      {
+        "question": "Proposez-vous la location de site internet ?",
+        "answer": "Oui, dès 350 €/mois tout inclus : création, hébergement, maintenance et SEO de base. Idéal pour lisser le budget sans frais de setup."
+      },
+      {
+        "question": "Quelle est la différence avec un freelance ?",
+        "answer": "Nous réunissons design, développement, SEO et maintenance dans une équipe structurée. Vous avez un interlocuteur unique et une continuité de service garantie."
+      },
+      {
+        "question": "Combien coûte un site web à Nantes ?",
+        "answer": "En location : 350 €/mois sans frais de création. En achat sur mesure : de 3 000 à 8 000 € selon le périmètre (pages, fonctionnalités, multilingue)."
+      },
+      {
+        "question": "Quels délais pour la mise en ligne ?",
+        "answer": "4 à 6 semaines pour un site vitrine après validation de la maquette. Les projets plus complexes (e-commerce, CRM) demandent 8 à 12 semaines."
+      },
+      {
+        "question": "Intervenez-vous hors de Nantes ?",
+        "answer": "Oui, sur toute la Loire-Atlantique : Saint-Nazaire, Saint-Herblain, Rezé, Carquefou et au-delà."
+      },
+      {
+        "question": "Travaillez-vous au forfait ou en régie ?",
+        "answer": "Nos projets web sont au forfait ou en abonnement mensuel (location). Le CRM sur mesure est chiffré après audit."
+      },
+      {
+        "question": "Puis-je voir des exemples de sites réalisés ?",
+        "answer": "Oui, consultez notre portfolio : constructeurs, cabinets, immobilier, formation. Chaque projet est WordPress sur mesure."
+      }
+    ],
+    "service-final-cta-title": "Prêt à travailler avec une agence web nantaise exigeante ?",
+    "service-final-reassurance": [
+      {
+        "text": "Maquette gratuite en 48h"
+      },
+      {
+        "text": "WordPress 100 % sur mesure"
+      },
+      {
+        "text": "Agence basée à Nantes"
+      }
+    ]
+  }
+}

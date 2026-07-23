@@ -1,0 +1,247 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Maintenance WordPress à Nantes",
+    "slug": "maintenance-wordpress",
+    "status": "publish",
+    "menu_order": 13
+  },
+  "seo": {
+    "meta_title": "Maintenance WordPress à Nantes — Support & sécurité | Crescendo",
+    "meta_description": "Maintenance WordPress à Nantes : mises à jour, sécurité, sauvegardes, surveillance, corrections et support technique pour garder votre site performant.",
+    "focus_keyword": "maintenance WordPress",
+    "canonical": "https://crescendo-studio.io/maintenance-wordpress/",
+    "noindex": false
+  },
+  "fields": {
+    "service-hero-eyebrow": "Maintenance WordPress",
+    "service-hero-title": "Une maintenance WordPress fiable, réactive et sans mauvaise surprise",
+    "service-hero-intro": "Nous assurons la maintenance, la sécurité et le suivi technique de votre site WordPress pour prévenir les incidents, corriger rapidement les problèmes et garantir sa disponibilité au quotidien.",
+    "service-hero-cta-primary": {
+      "title": "Demander un diagnostic gratuit",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-hero-cta-secondary": {
+      "title": "Voir ce qui est inclus",
+      "url": "#inclus",
+      "target": ""
+    },
+    "service-hero-note": "Premier diagnostic technique offert",
+    "service-benefits": [
+      {
+        "title": "Site toujours à jour",
+        "text": "WordPress, les extensions et les composants techniques sont maintenus dans des versions stables et compatibles."
+      },
+      {
+        "title": "Sécurité renforcée",
+        "text": "Surveillance, sauvegardes et mesures préventives réduisent les risques de piratage ou d'indisponibilité."
+      },
+      {
+        "title": "Support réactif",
+        "text": "Vous disposez d'un interlocuteur technique capable d'intervenir rapidement en cas de problème."
+      },
+      {
+        "title": "Performances suivies",
+        "text": "Nous surveillons la disponibilité, les erreurs et les ralentissements susceptibles de pénaliser vos visiteurs."
+      }
+    ],
+    "service-included-eyebrow": "Contrat de maintenance",
+    "service-included-title": "Ce qui est inclus dans notre maintenance WordPress",
+    "service-included-text": "Un accompagnement technique complet pour maintenir votre site sécurisé, disponible et performant, sans mobiliser vos équipes internes.",
+    "service-included-price": "Sur devis",
+    "service-included-price-suffix": "",
+    "service-included-cta": {
+      "title": "Recevoir une proposition",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-included-features": [
+      {
+        "text": "Mises à jour WordPress contrôlées"
+      },
+      {
+        "text": "Mises à jour des extensions et du thème"
+      },
+      {
+        "text": "Sauvegardes régulières externalisées"
+      },
+      {
+        "text": "Surveillance de la disponibilité"
+      },
+      {
+        "text": "Contrôles de sécurité"
+      },
+      {
+        "text": "Corrections des anomalies techniques"
+      },
+      {
+        "text": "Support et assistance"
+      },
+      {
+        "text": "Rapport de maintenance"
+      }
+    ],
+    "service-compare-eyebrow": "Prévention vs urgence",
+    "service-compare-title": "Pourquoi maintenir votre site avant qu'un incident survienne ?",
+    "service-compare-text": "Une maintenance régulière permet de prévenir les failles, les incompatibilités et les interruptions de service. Une intervention en urgence intervient souvent après une perte de données, une baisse de trafic ou une indisponibilité prolongée.",
+    "service-compare-cta": {
+      "title": "Sécuriser mon site WordPress",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-compare-col1-label": "Maintenance préventive",
+    "service-compare-col2-label": "Intervention en urgence",
+    "service-compare-table": [
+      {
+        "label": "Mises à jour",
+        "col1": "Planifiées et testées",
+        "col2": "Réalisées sous pression"
+      },
+      {
+        "label": "Sauvegardes",
+        "col1": "Disponibles régulièrement",
+        "col2": "Parfois absentes ou obsolètes"
+      },
+      {
+        "label": "Sécurité",
+        "col1": "Surveillance continue",
+        "col2": "Action après compromission"
+      },
+      {
+        "label": "Disponibilité",
+        "col1": "Incidents limités",
+        "col2": "Risque d'interruption prolongée"
+      },
+      {
+        "label": "Budget",
+        "col1": "Prévisible",
+        "col2": "Coût imprévisible"
+      },
+      {
+        "label": "Délai d'intervention",
+        "col1": "Prioritaire selon contrat",
+        "col2": "Selon les disponibilités"
+      }
+    ],
+    "service-compare-note": "Prévenir coûte généralement moins cher que réparer",
+    "service-audience-eyebrow": "Pour quels sites ?",
+    "service-audience-title": "Une maintenance adaptée à votre environnement WordPress.",
+    "service-audience-cards": [
+      {
+        "title": "Site vitrine",
+        "text": "Gardez votre site d'entreprise disponible, sécurisé et compatible avec les navigateurs récents.",
+        "url": "/creation-site-wordpress/"
+      },
+      {
+        "title": "Site institutionnel",
+        "text": "Assurez la stabilité d'une plateforme riche en contenus, utilisateurs et fonctionnalités.",
+        "url": "/creation-site-wordpress/"
+      },
+      {
+        "title": "Site e-commerce",
+        "text": "Limitez les interruptions de vente, les erreurs de paiement et les incompatibilités techniques.",
+        "url": "/creation-site-ecommerce/"
+      },
+      {
+        "title": "Site métier",
+        "text": "Maintenez les connexions avec vos CRM, API, formulaires et outils internes.",
+        "url": "/crm-sur-mesure/"
+      }
+    ],
+    "service-projects-eyebrow": "Sites accompagnés",
+    "service-projects-title": "Des environnements WordPress suivis dans la durée.",
+    "service-projects": [
+      {
+        "title": "Maison Jaden",
+        "category": "Construction",
+        "tags": "WordPress · Maintenance · CRM",
+        "url": "/realisations/maison-jaden/"
+      },
+      {
+        "title": "Bag X Pro",
+        "category": "Industrie",
+        "tags": "WordPress · Maintenance · SEO",
+        "url": "/realisations/bag-x-pro/"
+      },
+      {
+        "title": "Gide",
+        "category": "Cabinet d'avocats",
+        "tags": "WordPress · Multilingue · Support",
+        "url": "/realisations/gide/"
+      }
+    ],
+    "service-method-eyebrow": "Notre méthode",
+    "service-method-title": "Une prise en charge structurée de votre maintenance WordPress.",
+    "service-method-steps": [
+      {
+        "title": "Audit initial",
+        "text": "Analyse de WordPress, des extensions, du thème, de l'hébergement, des sauvegardes et des risques existants."
+      },
+      {
+        "title": "Sécurisation",
+        "text": "Correction des vulnérabilités prioritaires et mise en place des protections nécessaires."
+      },
+      {
+        "title": "Mise à niveau",
+        "text": "Mises à jour contrôlées, tests de compatibilité et correction des éventuelles anomalies."
+      },
+      {
+        "title": "Surveillance",
+        "text": "Suivi de la disponibilité, des erreurs, des sauvegardes et des événements de sécurité."
+      },
+      {
+        "title": "Amélioration continue",
+        "text": "Corrections, conseils techniques et évolutions mineures selon les besoins identifiés."
+      }
+    ],
+    "service-faq-eyebrow": "Questions fréquentes",
+    "service-faq-title": "Tout savoir sur la maintenance WordPress.",
+    "service-faq-items": [
+      {
+        "question": "Pourquoi souscrire à un contrat de maintenance WordPress ?",
+        "answer": "Un contrat de maintenance permet de garder WordPress, ses extensions et son environnement technique à jour. Il réduit les risques de piratage, d'incompatibilité, de perte de données et d'interruption du site."
+      },
+      {
+        "question": "Que comprend la maintenance d'un site WordPress ?",
+        "answer": "La prestation peut inclure les mises à jour, les sauvegardes, la surveillance de la disponibilité, les contrôles de sécurité, les corrections techniques, le support et un suivi régulier de l'état du site."
+      },
+      {
+        "question": "Pouvez-vous reprendre la maintenance d'un site créé par une autre agence ?",
+        "answer": "Oui. Nous commençons par réaliser un audit technique afin d'identifier la qualité du code, les extensions utilisées, les éventuelles failles et les conditions nécessaires à une reprise de maintenance."
+      },
+      {
+        "question": "Les mises à jour WordPress peuvent-elles casser le site ?",
+        "answer": "Une mise à jour peut provoquer une incompatibilité entre WordPress, une extension ou un développement spécifique. C'est pourquoi nous réalisons des sauvegardes et des contrôles avant et après chaque intervention importante."
+      },
+      {
+        "question": "Que se passe-t-il si mon site est piraté ?",
+        "answer": "Nous analysons l'incident, isolons la source de la compromission, nettoyons les fichiers ou données infectés, restaurons une sauvegarde saine si nécessaire et renforçons la sécurité pour limiter les risques de récidive."
+      },
+      {
+        "question": "Faites-vous des sauvegardes du site et de la base de données ?",
+        "answer": "Oui. Les sauvegardes peuvent inclure les fichiers WordPress et la base de données. Leur fréquence et leur durée de conservation sont adaptées à la criticité du site et à la fréquence de mise à jour de ses contenus."
+      },
+      {
+        "question": "Quel est le délai d'intervention en cas de problème ?",
+        "answer": "Le délai dépend du niveau de criticité et de la formule choisie. Les incidents bloquants sont traités en priorité selon les engagements définis dans le contrat de maintenance."
+      },
+      {
+        "question": "La maintenance inclut-elle les modifications de contenu ?",
+        "answer": "Les corrections techniques sont couvertes selon le périmètre du contrat. Des évolutions mineures ou modifications de contenu peuvent également être incluses ou traitées dans une enveloppe de temps dédiée."
+      }
+    ],
+    "service-final-cta-title": "Votre site WordPress mérite un suivi technique fiable.",
+    "service-final-reassurance": [
+      {
+        "text": "Diagnostic technique offert"
+      },
+      {
+        "text": "Support réactif"
+      },
+      {
+        "text": "Agence WordPress à Nantes"
+      }
+    ]
+  }
+}

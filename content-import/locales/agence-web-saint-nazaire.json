@@ -1,0 +1,421 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Agence web à Saint-Nazaire",
+    "slug": "agence-web-saint-nazaire",
+    "status": "publish",
+    "menu_order": 36
+  },
+  "seo": {
+    "meta_title": "Agence web Saint-Nazaire — Site WordPress sur mesure dès 350€/mois | Crescendo",
+    "meta_description": "Agence web à Saint-Nazaire : création site WordPress sur mesure, SEO local, maintenance incluse. PME industrielles, BTP, artisans. Maquette gratuite 48h. Location dès 350€/mois.",
+    "focus_keyword": "agence web saint-nazaire",
+    "canonical": "https://crescendo-studio.io/agence-web-saint-nazaire/",
+    "noindex": false
+  },
+  "fields": {
+    "local-city-name": "Saint-Nazaire",
+    "local-show-toc": true,
+    "local-toc-title": "Sommaire",
+    "local-hero-eyebrow": "Agence web · Saint-Nazaire",
+    "local-hero-title": "Agence web à Saint-Nazaire",
+    "local-hero-intro": "Vous recherchez une agence web à Saint-Nazaire capable de créer ou refondre votre site internet sans jargon ni surprise budgétaire ? Crescendo Studio conçoit des sites WordPress sur mesure pour les PME industrielles, les sous-traitants des Chantiers de l'Atlantique, les entreprises du BTP, les artisans et les professions libérales du bassin nazairien — location dès 350 €/mois, maquette gratuite sous 48 h, intervention depuis Nantes à 60 km.",
+    "local-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "local-hero-cta-secondary": {
+      "title": "Voir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+    "local-hero-note": "Maquette gratuite en 48h · Sans engagement",
+    "local-benefits": [
+      {
+        "title": "Expertise industrie & BTP",
+        "text": "Sites adaptés aux PME, sous-traitants et artisans du bassin nazairien."
+      },
+      {
+        "title": "SEO local Saint-Nazaire",
+        "text": "Structure, contenu et schema.org pour capter la demande locale et métier."
+      },
+      {
+        "title": "350 €/mois tout inclus",
+        "text": "Location sans frais de création : hébergement, maintenance, évolutions."
+      },
+      {
+        "title": "Agence à 60 km",
+        "text": "Basés à Nantes, rendez-vous sur place à Saint-Nazaire ou en visio."
+      }
+    ],
+    "local-sections": [
+      {
+        "title": "Pourquoi choisir une agence web à Saint-Nazaire",
+        "anchor": "pourquoi-agence",
+        "text": "<p>Saint-Nazaire concentre un tissu économique que l'on ne retrouve nulle part ailleurs en Loire-Atlantique : construction navale, aéronautique, énergies marines et logistique portuaire coexistent dans un même bassin d'emploi. Les Chantiers de l'Atlantique, la filière Airbus à Montoir-de-Bretagne, les sous-traitants mécano-soudure de Trignac et les entreprises du BTP qui alimentent les chantiers industriels et éoliens en mer partagent un même besoin : être trouvables en ligne par leurs donneurs d'ordre, leurs clients professionnels et leurs futurs collaborateurs.</p>\n<h3>Un bassin industriel, pas une extension de Nantes</h3>\n<p>À 60 km de Nantes via la RD934 ou l'A811, Saint-Nazaire Agglomération regroupe plus de 120 000 habitants répartis entre Saint-Nazaire, Montoir-de-Bretagne, Trignac, Pornichet, Donges ou encore La Chapelle-des-Marais. Cette distance n'est pas anodine : une PME nazairienne qui cherche une <strong>agence web Saint-Nazaire</strong> attend un interlocuteur qui comprenne ses cycles industriels, ses appels d'offres et sa clientèle B2B — pas un discours générique calqué sur la métropole nantaise.</p>\n<p>Les artisans du bâtiment, les cabinets de conseil en QSE, les sociétés de maintenance industrielle ou les PME logistiques du port n'ont pas les mêmes priorités qu'un commerce de centre-ville nantais. Leur site doit rassurer sur la capacité technique, la réactivité et la couverture géographique du Pays de Retz et du littoral.</p>\n<h3>Pourquoi externaliser la création de site internet à Saint-Nazaire</h3>\n<p>Internaliser un projet web (recrutement, hébergement, sécurité, mises à jour) mobilise du temps que la plupart des dirigeants nazairiens n'ont pas. Confier la <strong>création site internet Saint-Nazaire</strong> à une agence spécialisée WordPress permet de concentrer les efforts sur le fond métier : contenus, preuves de savoir-faire, études de cas sur vos chantiers ou vos interventions.</p>\n<p>Crescendo Studio intervient depuis Nantes sur l'ensemble du département. Nous connaissons les zones d'activité de Trignac, les contraintes de recrutement dans l'industrie nazairienne et les enjeux de visibilité des sous-traitants qui dépendent de grands donneurs d'ordre. Chaque recommandation est justifiée par un objectif mesurable : génération de leads, crédibilité auprès d'un appel d'offres, ou <strong>référencement local Saint-Nazaire</strong> sur des requêtes métier précises.</p>\n<p>Les zones d'activité de Trignac (PARCOTINE, ZAC de Brais) et de Montoir-de-Bretagne concentrent des centaines de PME de 10 à 150 salariés qui vivent essentiellement de contrats industriels. Leur site web doit parler le langage de leurs clients : délais, certifications, références chantier, moyens humains et matériels. Un site générique avec trois photos stock ne convaincra ni un acheteur des Chantiers de l'Atlantique, ni un maître d'œuvre BTP qui compare trois devis en ligne un dimanche soir.</p>\n<p>Notre approche repose sur une <a href=\"/creation-site-web-nantes/\">création de site web en Loire-Atlantique</a> adaptée aux PME industrielles et aux artisans, avec une maquette gratuite sous 48 h pour valider la direction avant tout engagement.</p>"
+      },
+      {
+        "title": "WordPress sur mesure pour les entreprises nazairiennes",
+        "anchor": "wordpress",
+        "text": "<p>WordPress propulse aujourd'hui plus de 40 % du web mondial, mais la distinction essentielle pour une entreprise de Saint-Nazaire réside entre un thème générique et un développement sur mesure. Un site vitrine pour un bureau d'études techniques n'a pas la même architecture qu'un site de recrutement pour une société de soudure offshore — pourtant, les deux peuvent s'appuyer sur WordPress si le socle est correctement conçu.</p>\n<h3>Création site WordPress Saint-Nazaire : sur mesure vs template</h3>\n<p>La <strong>création site WordPress Saint-Nazaire</strong> que nous proposons repose sur un thème enfant développé spécifiquement pour votre projet : pas de page builder lourd, pas d'empilement de plugins superflus. Résultat : un site rapide, sécurisé et évolutif, administrable par vos équipes sans compétences techniques avancées.</p>\n<p>En tant que <strong>développeur WordPress Saint-Nazaire</strong> (intervention depuis Nantes, à une heure de route), nous intégrons vos contenus métier — certifications ISO, références Chantiers de l'Atlantique ou éolien en mer, zones d'intervention sur l'agglo — dans une structure pensée pour le SEO dès la conception.</p>\n<h3>Cas d'usage concrets dans le bassin nazairien</h3>\n<p><strong>Création site vitrine Saint-Nazaire</strong> pour un artisan ou une PME de services : présentation claire des prestations, formulaire de devis, galerie de réalisations sur chantier. <strong>Création site PME Saint-Nazaire</strong> pour un sous-traitant industriel : pages par compétence (tuyauterie, chaudronnerie, contrôle non destructif), téléchargement de plaquettes techniques, espace recrutement.</p>\n<p>La <strong>refonte site internet Saint-Nazaire</strong> intervient lorsque votre site actuel — souvent daté de dix ans, non responsive, absent des résultats Google — ne reflète plus votre niveau d'exigence industrielle. Nous auditons l'existant, conservons ce qui fonctionne (URLs indexées, contenus performants) et reconstruisons le reste. Voir notre page dédiée à la <a href=\"/refonte-site-wordpress/\">refonte WordPress</a>.</p>\n<p>La performance technique compte autant que le design : un site lent fait fuir les visiteurs mobiles — or 70 % des recherches B2B locales se font depuis un smartphone, y compris dans les zones industrielles où les décideurs consultent entre deux réunions. Nous visons un temps de chargement inférieur à 2 secondes, un score Core Web Vitals vert et une architecture qui supporte l'ajout futur de pages (recrutement, actualités chantier, nouvelles certifications).</p>\n<p>Pour approfondir la stack technique et les livrables inclus, consultez notre offre de <a href=\"/creation-site-wordpress/\">création site WordPress sur mesure</a>.</p>"
+      },
+      {
+        "title": "Location ou achat d'un site internet à Saint-Nazaire",
+        "anchor": "location-achat",
+        "text": "<p>Le choix entre l'achat et la location d'un site web est une décision financière avant tout. Dans un bassin où les PME industrielles gèrent des cycles de trésorerie liés aux commandes de grands comptes, l'investissement initial de 3 000 à 8 000 € pour un site sur mesure peut bloquer un projet pourtant indispensable.</p>\n<h3>La location à 350 €/mois : zéro frais de création</h3>\n<p>Notre formule de <a href=\"/location-site-internet/\">location de site internet</a> inclut la conception, l'hébergement premium, la maintenance, les mises à jour de sécurité et un socle de SEO local. À <strong>350 €/mois</strong>, une entreprise de Trignac ou de Montoir-de-Bretagne lance son projet sans immobiliser de capital — un argument concret pour les dirigeants qui comparent plusieurs devis d'<strong>agence web Saint-Nazaire</strong>.</p>\n<p>Sur cinq ans, la location représente environ 21 000 € tout inclus. L'achat classique — création + hébergement + maintenance + refontes partielles — dépasse souvent 25 000 € sans garantie de performance. Nous détaillons cette comparaison dans le tableau tarifaire ci-dessous.</p>\n<h3>Quand privilégier l'achat</h3>\n<p>L'achat reste pertinent si vous disposez déjà d'une équipe marketing interne, si vous souhaitez une propriété totale du code source, ou si votre site intègre des développements spécifiques (extranet client, connecteurs ERP). Dans ce cas, nous chiffrons un projet sur mesure avec livraison clé en main et contrat de <a href=\"/maintenance-wordpress/\">maintenance WordPress</a> en option.</p>\n<h3>Transparence et sortie de contrat</h3>\n<p>La location n'est pas un piège : les contenus vous appartiennent, et nous prévoyons des conditions de sortie claires si vous souhaitez récupérer le site. L'objectif est de vous accompagner sur la durée, pas de vous enfermer. Pour les entreprises nazairiennes en phase de croissance — embauche, nouvelle certification, ouverture d'un second site à Donges — la formule location permet d'ajouter des pages sans renégocier un devis à chaque évolution.</p>"
+      },
+      {
+        "title": "Stratégie digitale et référencement local à Saint-Nazaire",
+        "anchor": "strategie-digitale",
+        "text": "<p>Avoir un site en ligne ne suffit pas : sans stratégie de visibilité, vous restez invisible face aux concurrents nantais ou vendéens qui investissent dans le <strong>référencement local Saint-Nazaire</strong>. Google distingue les requêtes « agence web Saint-Nazaire » (intention de recherche d'un prestataire) des requêtes métier (« entreprise soudure Trignac », « maintenance industrielle port Saint-Nazaire ») — votre site doit répondre aux deux selon votre activité.</p>\n<h3>SEO local : au-delà de la fiche Google</h3>\n<p>Le référencement local repose sur trois piliers : un site techniquement sain (vitesse, HTTPS, structure sémantique), des contenus géolocalisés pertinents (pages par zone d'intervention, mentions de l'agglo), et une fiche Google Business Profile cohérente avec votre site. Nous intégrons le balisage schema.org LocalBusiness et Service pour aider les moteurs à comprendre votre zone et vos prestations.</p>\n<p>Pour les entreprises qui visent au-delà du bassin nazairien — clients à Nantes, La Roche-sur-Yon ou Paris — nous complétons le SEO local par une stratégie de contenu métier. Notre équipe SEO intervient via la page <a href=\"/agence-seo-nantes/\">agence SEO Nantes</a>, avec des actions adaptées aux PME industrielles et aux artisans.</p>\n<h3>Preuves et crédibilité (EEAT)</h3>\n<p>Google valorise l'expérience, l'expertise, l'autorité et la confiance. Pour une PME de Saint-Nazaire, cela se traduit par : études de cas détaillées (<a href=\"/realisations/maison-jaden/\">Maison Jaden</a>, <a href=\"/realisations/gide/\">Gide</a>, <a href=\"/realisations/padam-immo/\">Padam Immo</a>), avis clients vérifiables, pages auteur ou équipe, certifications et partenariats locaux mentionnés explicitement.</p>\n<p>Nous refusons le contenu générique du type « leader de la communication digitale ». Chaque page que nous rédigeons répond à une question précise que se pose votre prospect — délai de mise en ligne, budget, maintenance, compatibilité mobile — avec des chiffres et des exemples concrets. Le projet <a href=\"/realisations/bag-x-pro/\">Bag X Pro</a> illustre par exemple comment un site vitrine B2B bien structuré peut soutenir une croissance commerciale en Loire-Atlantique.</p>\n<h3>Maillage interne et conversion</h3>\n<p>Les liens entre vos pages de services, vos études de cas et vos pages locales renforcent la compréhension globale de votre offre par Google et orientent le visiteur vers la prise de contact. Nous construisons ce maillage dès la conception, sans sur-optimisation ni ancres artificielles.</p>"
+      }
+    ],
+    "local-facts-title": "Saint-Nazaire : le bassin économique en bref",
+    "local-facts": [
+      {
+        "text": "1er port de commerce en Loire-Atlantique, 2e port français pour le vrac solide"
+      },
+      {
+        "text": "Chantiers de l'Atlantique : construction de paquebots et navires militaires"
+      },
+      {
+        "text": "Filière éolien en mer : sous-traitance mécano-soudure à Trignac et Montoir-de-Bretagne"
+      },
+      {
+        "text": "Airbus Helicopters à Montoir-de-Bretagne, pôle aéronautique majeur"
+      },
+      {
+        "text": "Saint-Nazaire Agglomération : 15 communes, 120 000+ habitants"
+      },
+      {
+        "text": "60 km de Nantes via RD934 / A811 — bassin d'emploi autonome"
+      }
+    ],
+    "local-pain-title": "Les enjeux digitaux des entreprises de Saint-Nazaire",
+    "local-pain-items": [
+      {
+        "title": "Invisibilité face aux donneurs d'ordre",
+        "text": "Les grands industriels (Chantiers de l'Atlantique, éolien en mer, Airbus) consultent Google avant de short-lister leurs sous-traitants. Sans site professionnel indexé sur « sous-traitance industrielle Saint-Nazaire » ou des requêtes métier précises, vous n'entretenez pas dans leur panel — même avec des certifications et des références solides."
+      },
+      {
+        "title": "Site daté qui freine le recrutement",
+        "text": "Dans un bassin où la tension sur les profils soudure, électricité industrielle ou QSE est permanente, un site non responsive, lent ou absent des résultats mobiles décourage les candidats. Vos concurrents de Trignac ou Montoir-de-Bretagne avec un site moderne captent les candidatures que vous ratez."
+      },
+      {
+        "title": "Absence de SEO local structuré",
+        "text": "Une fiche Google seule ne suffit pas pour une PME B2B. Sans pages géolocalisées, balisage schema.org et contenus métier, vous perdez des recherches « création site internet Saint-Nazaire », « entreprise BTP Saint-Nazaire » ou « maintenance industrielle port » au profit d'agences nantaises mieux positionnées."
+      },
+      {
+        "title": "Budget initial bloquant",
+        "text": "Devis à 5 000 ou 8 000 € pour un site vitrine : difficile à valider en conseil d'administration quand la trésorerie est mobilisée sur des avances de chantier. Résultat : le projet web est repoussé indéfiniment, alors que chaque mois sans visibilité coûte des opportunités commerciales concrètes."
+      }
+    ],
+    "local-solution-title": "Crescendo Studio : votre partenaire web à Saint-Nazaire",
+    "local-solution-text": "Crescendo Studio accompagne les entreprises de Saint-Nazaire et de l'agglo dans la création, la refonte et la maintenance de sites WordPress sur mesure. Nous ne vendons pas de templates  génériques : chaque projet est pensé pour votre secteur (industrie, BTP, services, artisanat), vos objectifs (leads, crédibilité, recrutement) et votre budget. Design premium, performances mesurées, SEO local intégré dès la conception — avec une maquette gratuite sous 48 h pour valider la direction créative avant tout engagement.",
+    "local-solution-price": "350€/mois",
+    "local-solution-price-label": "Location tout inclus · zéro frais de création",
+    "local-solution-usps": [
+      {
+        "title": "Maquette gratuite 48 h",
+        "text": "Direction créative personnalisée avant signature — vous voyez le rendu avant de vous engager."
+      },
+      {
+        "title": "WordPress sur mesure",
+        "text": "Pas de page builder lourd : code propre, rapide, évolutif et administrable par vos équipes."
+      },
+      {
+        "title": "Connaissance du bassin nazairien",
+        "text": "Intervention depuis Nantes, rendez-vous sur site à Saint-Nazaire, Trignac ou Montoir-de-Bretagne."
+      }
+    ],
+    "local-features-title": "Nos services web pour les entreprises de Saint-Nazaire",
+    "local-features-items": [
+      {
+        "title": "Création site WordPress sur mesure",
+        "text": "Site vitrine ou corporate développé spécifiquement pour votre activité. → /creation-site-wordpress/",
+        "url": "/creation-site-wordpress/"
+      },
+      {
+        "title": "Location de site internet",
+        "text": "Formule 350 €/mois : création, hébergement, maintenance et SEO local inclus. → /location-site-internet/",
+        "url": "/location-site-internet/"
+      },
+      {
+        "title": "Refonte site internet",
+        "text": "Modernisation de votre site existant en conservant le SEO acquis. → /refonte-site-wordpress/",
+        "url": "/refonte-site-wordpress/"
+      },
+      {
+        "title": "Maintenance WordPress",
+        "text": "Mises à jour, sauvegardes, sécurité et support réactif. → /maintenance-wordpress/",
+        "url": "/maintenance-wordpress/"
+      },
+      {
+        "title": "Référencement SEO local",
+        "text": "Stratégie de visibilité Google pour Saint-Nazaire et la Loire-Atlantique. → /agence-seo-nantes/",
+        "url": "/agence-seo-nantes/"
+      },
+      {
+        "title": "Création site PME & vitrine",
+        "text": "Sites professionnels pour TPE, PME et artisans du Pays de Retz. → /creation-site-web-nantes/",
+        "url": "/creation-site-web-nantes/"
+      }
+    ],
+    "local-method-eyebrow": "Notre méthode",
+    "local-method-title": "Comment se déroule votre projet web à Saint-Nazaire",
+    "local-method-steps": [
+      {
+        "title": "Échange et cadrage (J0)",
+        "text": "Appel ou rendez-vous à Saint-Nazaire pour comprendre votre activité, vos cibles (donneurs d'ordre, clients finaux, candidats), vos contraintes budgétaires et vos objectifs mesurables. Nous identifions les pages prioritaires et les mots-clés pertinents pour votre secteur dans le bassin nazairien."
+      },
+      {
+        "title": "Maquette gratuite (48 h)",
+        "text": "Sous 48 heures ouvrées, nous vous présentons une direction créative personnalisée : structure de page d'accueil, palette, typographie et hiérarchie de contenu. Vous validez ou ajustez avant tout engagement financier."
+      },
+      {
+        "title": "Conception et rédaction (2–3 semaines)",
+        "text": "Design des maquettes complètes, intégration WordPress sur mesure, rédaction ou reprise de vos contenus. Nous intégrons vos références locales (zones d'intervention Trignac, Montoir, Donges), certifications et études de cas."
+      },
+      {
+        "title": "Recette et mise en ligne (1 semaine)",
+        "text": "Tests multi-navigateurs, vérification mobile, contrôle des formulaires et des balises SEO. Formation à l'administration WordPress. Mise en ligne sur hébergement premium avec certificat SSL."
+      },
+      {
+        "title": "Suivi et évolutions (mensuel)",
+        "text": "En formule location : maintenance, mises à jour de sécurité, support réactif et évolutions de contenu incluses. Rapport de positionnement SEO local trimestriel. En formule achat : contrat de maintenance optionnel via notre page dédiée."
+      }
+    ],
+    "local-projects-eyebrow": "Réalisations",
+    "local-projects-title": "Projets web pour des entreprises en Loire-Atlantique",
+    "local-projects": [
+      {
+        "title": "Maison Jaden",
+        "tags": "WordPress · Constructeur · SEO local",
+        "text": "Site vitrine pour un constructeur de maisons individuelles à Nantes et en Loire-Atlantique. Formulaire de devis connecté au CRM, référencement local sur 12 communes, design premium orienté conversion.",
+        "url": "/realisations/maison-jaden/"
+      },
+      {
+        "title": "Gide",
+        "tags": "WordPress · Cabinet · Sur mesure",
+        "text": "Refonte complète du site d'un cabinet professionnel. Architecture claire, performances optimisées, administration simplifiée pour une équipe non technique.",
+        "url": "/realisations/gide/"
+      },
+      {
+        "title": "Padam Immo",
+        "tags": "WordPress · Immobilier · Vitrine",
+        "text": "Site vitrine pour une agence immobilière locale. Mise en valeur des biens, filtres de recherche, formulaire de contact optimisé et SEO local pour capter les acquéreurs de secteur.",
+        "url": "/realisations/padam-immo/"
+      }
+    ],
+    "local-case-title": "Étude de cas : Maison Jaden",
+    "local-case-project-title": "Maison Jaden",
+    "local-case-project-tags": "WordPress · Devis en ligne · SEO multi-villes",
+    "local-case-project-points": [
+      {
+        "text": "Site vitrine sur mesure pour un constructeur de maisons en Loire-Atlantique"
+      },
+      {
+        "text": "Formulaire de devis connecté au CRM avec notification instantanée"
+      },
+      {
+        "text": "Référencement local structuré sur 12 communes de la métropole nantaise"
+      },
+      {
+        "text": "Temps de chargement inférieur à 2 secondes sur mobile"
+      }
+    ],
+    "local-case-project-url": "/realisations/maison-jaden/",
+    "local-pricing-title": "Combien coûte un site web à Saint-Nazaire ?",
+    "local-pricing-price": "350€",
+    "local-pricing-price-suffix": "/mois",
+    "local-pricing-cta": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "local-pricing-col1-label": "Location 350€/mois",
+    "local-pricing-col2-label": "Achat classique",
+    "local-pricing-features": [
+      {
+        "text": "Création sur mesure incluse"
+      },
+      {
+        "text": "Hébergement premium"
+      },
+      {
+        "text": "Maintenance & mises à jour"
+      },
+      {
+        "text": "SEO local de base"
+      },
+      {
+        "text": "Support réactif"
+      }
+    ],
+    "local-pricing-table": [
+      {
+        "label": "Investissement initial",
+        "col1": "0€",
+        "col2": "3 000 – 8 000€"
+      },
+      {
+        "label": "Mensualité",
+        "col1": "350€",
+        "col2": "150–250€"
+      },
+      {
+        "label": "Création incluse",
+        "col1": "✓",
+        "col2": "✓"
+      },
+      {
+        "label": "Maintenance & sécurité",
+        "col1": "Incluse",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Évolutions",
+        "col1": "Incluses",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Total sur 5 ans",
+        "col1": "~21 000€",
+        "col2": "~25 000€+"
+      }
+    ],
+    "local-area-title": "Agence web Saint-Nazaire et communes de l'agglo",
+    "local-area-text": "Crescendo Studio accompagne les entreprises de Saint-Nazaire, de Saint-Nazaire Agglomération et de l'ensemble de la Loire-Atlantique. Que vous soyez implanté à Trignac, Montoir-de-Bretagne, Donges, Pornichet ou en centre-ville nazairien, nous adaptons votre site à votre zone d'intervention réelle — sans contenu générique copié-collé depuis une page Nantes.",
+    "local-area-cities": [
+      {
+        "name": "Nantes",
+        "url": "/creation-site-web-nantes/"
+      },
+      {
+        "name": "Trignac",
+        "url": "/creation-site-web-nantes/"
+      },
+      {
+        "name": "Montoir-de-Bretagne",
+        "url": "/creation-site-web-nantes/"
+      },
+      {
+        "name": "Pornichet",
+        "url": "/creation-site-web-nantes/"
+      },
+      {
+        "name": "Donges",
+        "url": "/creation-site-web-nantes/"
+      },
+      {
+        "name": "Saint-Joachim",
+        "url": "/creation-site-web-nantes/"
+      }
+    ],
+    "local-area-see-all": {
+      "title": "Voir toutes nos zones d'intervention",
+      "url": "/creation-site-web-nantes/",
+      "target": ""
+    },
+    "local-faq-eyebrow": "Questions fréquentes",
+    "local-faq-title": "Création de site internet à Saint-Nazaire : vos questions",
+    "local-faq-items": [
+      {
+        "question": "Intervenez-vous physiquement à Saint-Nazaire ?",
+        "answer": "Oui. Nous sommes basés à Nantes, à environ 60 km de Saint-Nazaire via la RD934 ou l'A811. Nous nous déplaçons régulièrement pour les rendez-vous de lancement, les points d'étape et les formations à l'administration WordPress — à Saint-Nazaire, Trignac, Montoir-de-Bretagne ou ailleurs dans l'agglo. Le suivi courant (validations, corrections, support) se fait efficacement en visio ou par email, ce qui évite des déplacements inutiles à chaque micro-ajustement."
+      },
+      {
+        "question": "Quel budget prévoir pour un site vitrine à Saint-Nazaire ?",
+        "answer": "Notre formule de location démarre à 350 €/mois tout inclus : création sur mesure, hébergement premium, maintenance, mises à jour de sécurité et socle de SEO local. Zéro frais de création initial. Sur cinq ans, cela représente environ 21 000 € contre 25 000 € et plus pour un achat classique (création 3 000–8 000 € + hébergement + maintenance + refontes). L'achat reste possible si vous souhaitez la propriété totale du code ; nous chiffrons sur devis après la maquette gratuite."
+      },
+      {
+        "question": "Votre agence connaît-elle le tissu économique nazairien ?",
+        "answer": "Nous accompagnons des PME industrielles, des artisans du BTP et des sociétés de services en Loire-Atlantique depuis plusieurs années. Nous comprenons les spécificités du bassin de Saint-Nazaire : cycles de commandes liés aux Chantiers de l'Atlantique et à l'éolien en mer, recrutement tendu sur les profils techniques, importance des certifications (ISO, Qualité, sécurité) dans les appels d'offres. Votre site reflétera ces exigences, pas un template générique de commerce de proximité."
+      },
+      {
+        "question": "Combien de temps pour mettre en ligne un site WordPress à Saint-Nazaire ?",
+        "answer": "Comptez 4 à 6 semaines entre la validation de la maquette et la mise en ligne, selon le volume de pages et la disponibilité de vos contenus (textes, photos, logos). La maquette gratuite est livrée sous 48 h ouvrées. Si vous disposez déjà de contenus structurés (plaquette PDF, ancien site), le délai peut être raccourci. Nous établissons un planning précis dès le cadrage initial."
+      },
+      {
+        "question": "Proposez-vous la refonte d'un site existant ?",
+        "answer": "Oui. La refonte site internet Saint-Nazaire est l'une de nos prestations les plus demandées par les PME dont le site date de plus de cinq ans. Nous auditons l'existant (SEO, performances, contenus), conservons les URLs qui génèrent du trafic, et reconstruisons sur une base WordPress moderne. Voir notre page dédiée : /refonte-site-wordpress/"
+      },
+      {
+        "question": "Le SEO local Saint-Nazaire est-il inclus dans la formule ?",
+        "answer": "Un socle de référencement local est inclus dans toutes nos formules : structure sémantique, balisage schema.org LocalBusiness, optimisation des balises title et meta, pages géolocalisées et recommandations pour votre fiche Google Business Profile. Pour une stratégie SEO avancée (contenu éditorial, netlinking, suivi de positions), nous proposons un accompagnement complémentaire via notre pôle SEO : /agence-seo-nantes/"
+      },
+      {
+        "question": "Puis-je administrer mon site moi-même après la livraison ?",
+        "answer": "C'est un prérequis de notre méthode. Nous concevons une interface d'administration WordPress simplifiée : modification de textes, ajout de photos, publication d'actualités ou de nouvelles références chantier. Une session de formation est incluse à la livraison. En formule location, nous restons disponibles pour les évolutions structurelles (nouvelles pages, sections, fonctionnalités)."
+      },
+      {
+        "question": "La location est-elle un engagement long terme ?",
+        "answer": "Le contrat de location est conclu pour une durée minimale de 24 mois, ce qui couvre l'amortissement de la création initiale. Au-delà, vous pouvez résilier avec un préavis de trois mois. Les contenus (textes, images) vous appartiennent. En cas de sortie, nous proposons une reprise du site en achat ou une exportation des contenus selon vos besoins."
+      },
+      {
+        "question": "Travaillez-vous avec des sous-traitants des Chantiers de l'Atlantique ?",
+        "answer": "Oui. Nous avons l'habitude de structurer des sites pour des PME industrielles B2B : pages par compétence (soudure, tuyauterie, montage, contrôle), mise en avant des certifications ISO et Qualité, téléchargement de plaquettes techniques PDF, espace recrutement avec offres d'emploi. L'objectif est de rassurer un donneur d'ordre en 30 secondes : capacité technique, références chantier, zone d'intervention (Trignac, Montoir, bassin nazairien, éolien en mer) et moyens de contact clairs. Le projet Bag X Pro (/realisations/bag-x-pro/) illustre cette approche pour une entreprise B2B en Loire-Atlantique."
+      },
+      {
+        "question": "Comment démarrer mon projet avec Crescendo Studio ?",
+        "answer": "Remplissez le formulaire en bas de page ou demandez votre maquette gratuite via le bouton « Demander ma maquette gratuite ». Nous vous recontactons sous 24 h ouvrées pour un échange de 20 à 30 minutes : votre activité, vos objectifs, votre budget, vos contraintes de délai. Sous 48 h, vous recevez une direction créative personnalisée montrant le rendu réel de votre future page d'accueil — pas un moodboard abstrait. Aucun engagement jusqu'à validation de la maquette et du devis. Si le projet ne correspond pas à vos attentes, vous repartez sans frais."
+      }
+    ],
+    "local-related-title": "Nos solutions par secteur d'activité",
+    "local-related-sectors": [
+      {
+        "title": "Artisan",
+        "url": "/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "Avocat",
+        "url": "/creation-site-avocat-nantes/"
+      },
+      {
+        "title": "Restaurant",
+        "url": "/creation-site-restaurant-nantes/"
+      },
+      {
+        "title": "Immobilier",
+        "url": "/creation-site-immobilier-nantes/"
+      },
+      {
+        "title": "Startup",
+        "url": "/creation-site-startup-nantes/"
+      },
+      {
+        "title": "PME",
+        "url": "/creation-site-web-nantes/"
+      }
+    ],
+    "local-final-cta-title": "Lancez votre projet web à Saint-Nazaire",
+    "local-final-cta-text": "Recevez une maquette gratuite et personnalisée sous 48 h. Sans engagement, sans frais cachés. Que vous soyez sous-traitant industriel à Trignac, PME du BTP à Montoir-de-Bretagne ou artisan en centre-ville nazairien, nous construisons un site WordPress qui convertit vos visiteurs en prospects qualifiés.",
+    "local-final-cta-points": [
+      {
+        "text": "Maquette personnalisée sous 48 h"
+      },
+      {
+        "text": "Formule location 350 €/mois sans frais de création"
+      },
+      {
+        "text": "Rendez-vous sur place à Saint-Nazaire ou visio"
+      },
+      {
+        "text": "WordPress sur mesure, SEO local intégré"
+      }
+    ],
+    "local-final-form-job-label": "Votre activité",
+    "local-final-reassurance": [
+      {
+        "text": "Sans engagement"
+      },
+      {
+        "text": "Réponse sous 24 h"
+      },
+      {
+        "text": "Agence nantaise · 60 km de Saint-Nazaire"
+      }
+    ]
+  }
+}

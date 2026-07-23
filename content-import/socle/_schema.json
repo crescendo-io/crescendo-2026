@@ -1,0 +1,19 @@
+{
+  "$schema": "Crescendo Socle Page Import v1",
+  "description": "Import JSON pour les pages socle : À propos (template about), Mentions légales et Politique de confidentialité (template legal).",
+  "required": ["page.title", "page.slug"],
+  "page_templates": {
+    "about": "template-about.php — champs about-*",
+    "legal": "template-legal.php — champs legal-*"
+  },
+  "import": {
+    "admin": "Outils → Import Socle JSON",
+    "cli": "wp crescendo import-socle content-import/socle/a-propos.json",
+    "directory": "content-import/socle/"
+  },
+  "pages": [
+    "a-propos.json",
+    "mentions-legales.json",
+    "politique-de-confidentialite.json"
+  ]
+}

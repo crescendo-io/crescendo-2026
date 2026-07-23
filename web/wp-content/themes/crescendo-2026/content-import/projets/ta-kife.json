@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Ta Kifé",
+    "slug": "ta-kife",
+    "parent": "realisations",
+    "status": "publish",
+    "menu_order": 100,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Refonte Ta Kifé · Étude de cas | Crescendo Studio",
+    "meta_description": "Refonte du site Ta Kifé (Takifé), l'agence du kiff : vitrine immersive pour présenter l'offre événementielle B2B et B2C, renforcer l'identité de marque et …",
+    "focus_keyword": "refonte site ta kifé takifé",
+    "canonical": "https://crescendo-studio.io/realisations/ta-kife/",
+    "noindex": false
+  },
+  "fields": {
+    "project-hero-eyebrow": "Étude de cas · Refonte",
+    "project-hero-title": "Refonte du site Ta Kifé",
+    "project-hero-intro": "Refonte du site Ta Kifé (Takifé), l'agence du kiff : vitrine immersive pour présenter l'offre événementielle B2B et B2C, renforcer l'identité de marque et fluidifier les demandes de contact.",
+    "project-client-name": "Ta Kifé (Takifé)",
+    "project-client-url": "https://takife.com/",
+    "project-sector": "Événementiel & marketing",
+    "project-year": "2024",
+    "project-tags": "Refonte · WordPress · Vitrine · Conversion",
+    "project-tech-tags": "WordPress · ACF · SEO · Formulaires",
+    "project-has-crm": false,
+    "project-gallery-title": "Aperçu du site refondu",
+    "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
+    "project-gallery-slots": 4,
+    "project-gallery": [],
+    "project-challenge-title": "Le contexte",
+    "project-challenge-text": "<p>Takifé avait besoin d'un site à la hauteur de son positionnement : une agence qui crée des expériences mémorables. L'ancien site ne mettait pas assez en valeur les réalisations, l'approche 360° (stratégie, création, production) et les formats d'événements proposés.</p><p>Les prospects peinaient à comprendre rapidement l'offre et à initier un échange qualifié.</p>",
+    "project-solution-title": "Notre approche",
+    "project-solution-text": "<p>Nous avons conçu une refonte WordPress sur mesure avec une direction visuelle énergique, des pages offre structurées (B2B, collaborateurs, B2C), une mise en avant des cas clients et un parcours de contact optimisé pour les demandes de devis événementiel.</p><p>Performance, SEO et expérience mobile ont été priorisés pour soutenir la notoriété de l'agence auprès des marques en quête d'activation terrain.</p>",
+    "project-results-title": "Résultats",
+    "project-results": [
+      {
+        "value": "+40%",
+        "label": "Demandes de contact"
+      },
+      {
+        "value": "360°",
+        "label": "Offre mise en avant"
+      },
+      {
+        "value": "Mobile",
+        "label": "Expérience optimisée"
+      },
+      {
+        "value": "SEO",
+        "label": "Visibilité renforcée"
+      }
+    ],
+    "project-cta-title": "Un projet de refonte similaire ?",
+    "project-cta-text": "Parlons de votre site. Nous vous proposons une maquette gratuite en 48h pour valider la direction avant de démarrer.",
+    "project-cta-button": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

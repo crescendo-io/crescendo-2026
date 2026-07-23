@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Contact",
+    "slug": "contact",
+    "status": "publish",
+    "menu_order": 90,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Contact agence web Nantes · Devis gratuit | Crescendo Studio",
+    "meta_description": "Contactez Crescendo Studio, agence web à Nantes. Maquette gratuite en 48h, devis transparent, location dès 350€/mois. Réponse sous 24h ouvrées.",
+    "focus_keyword": "contact agence web nantes",
+    "canonical": "https://crescendo-studio.io/contact/",
+    "noindex": false
+  },
+  "fields": {
+    "contact-hero-eyebrow": "Agence web à Nantes",
+    "contact-hero-title": "Contactez Crescendo Studio",
+    "contact-hero-intro": "Vous avez un projet de site internet, une refonte WordPress ou un CRM sur mesure ? Décrivez-nous votre besoin : nous revenons vers vous sous 24h ouvrées avec une première orientation et, si le projet correspond, une maquette gratuite sous 48h.",
+    "contact-hero-note": "Maquette gratuite en 48h · Sans engagement · Réponse sous 24h",
+
+    "contact-info-phone": "02 40 00 00 00",
+    "contact-info-email": "contact@crescendo-studio.io",
+    "contact-info-address": "Nantes, Loire-Atlantique (44)",
+    "contact-info-hours": "Lundi – vendredi, 9h – 18h",
+    "contact-info-zone": "Nantes et toute la métropole : Saint-Herblain, Rezé, Orvault, Carquefou, Bouguenais, Saint-Sébastien-sur-Loire. Interventions également à Saint-Nazaire et en Loire-Atlantique.",
+
+    "contact-faq-items": [
+      {
+        "question": "Comment se déroule le premier échange ?",
+        "answer": "Vous remplissez le formulaire ou nous appelez. Nous planifions un échange de 20 à 30 minutes pour comprendre vos objectifs, votre cible et votre budget. Ensuite, nous vous proposons une orientation claire : location, achat, refonte ou CRM."
+      },
+      {
+        "question": "La maquette gratuite engage-t-elle à quelque chose ?",
+        "answer": "Non. La maquette personnalisée livrée sous 48h vous permet de valider la direction créative avant tout engagement. Vous décidez ensuite si vous souhaitez avancer avec nous."
+      },
+      {
+        "question": "Quels types de projets prenez-vous en charge ?",
+        "answer": "Sites vitrine WordPress, e-commerce WooCommerce, refontes, maintenance, SEO local et CRM sur mesure connectés à votre site. Nous accompagnons des TPE, PME, artisans, professions libérales et associations à Nantes et en Loire-Atlantique."
+      },
+      {
+        "question": "Proposez-vous des rendez-vous en visio ou sur place ?",
+        "answer": "Oui. Nous pouvons échanger en visioconférence ou vous recevoir à Nantes selon votre préférence. Pour les clients en métropole nantaise, un rendez-vous sur site est possible en phase de cadrage."
+      },
+      {
+        "question": "Quel est le délai moyen pour lancer un site ?",
+        "answer": "Après validation de la maquette, un site vitrine professionnel est généralement livré en 4 à 6 semaines. Les projets e-commerce ou CRM peuvent demander 8 à 12 semaines selon la complexité."
+      }
+    ],
+
+    "contact-form-title": "Discutons de votre projet",
+    "contact-form-intro": "Décrivez votre besoin en quelques lignes. Nous vous répondons rapidement avec une proposition adaptée à votre budget et vos objectifs."
+  }
+}

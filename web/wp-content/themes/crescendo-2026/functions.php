@@ -19,6 +19,21 @@ require_once (__DIR__ . '/inc/datatypes.php');
 require_once (__DIR__ . '/inc/configuration.php');
 require_once (__DIR__ . '/inc/configuration_security.php');
 require_once (__DIR__ . '/inc/methods.php');
+require_once (__DIR__ . '/inc/service-seo.php');
+require_once (__DIR__ . '/inc/service-import.php');
+require_once (__DIR__ . '/inc/secteur-seo.php');
+require_once (__DIR__ . '/inc/secteur-import.php');
+require_once (__DIR__ . '/inc/local-seo.php');
+require_once (__DIR__ . '/inc/local-import.php');
+require_once (__DIR__ . '/inc/contact-seo.php');
+require_once (__DIR__ . '/inc/contact-import.php');
+require_once (__DIR__ . '/inc/realisations-seo.php');
+require_once (__DIR__ . '/inc/realisations-import.php');
+require_once (__DIR__ . '/inc/about-seo.php');
+require_once (__DIR__ . '/inc/legal-seo.php');
+require_once (__DIR__ . '/inc/socle-import.php');
+require_once (__DIR__ . '/inc/project-seo.php');
+require_once (__DIR__ . '/inc/project-import.php');
 require_once (__DIR__ . '/inc/ajax-methods.php');
 
 require_once (__DIR__ . '/inc/vendors/vendor/autoload.php');
@@ -36,7 +51,13 @@ function scripts_site(){
     if (!is_admin() || !is_user_logged_in()) {
 
          // Style
-        wp_enqueue_style('style_principal', get_template_directory_uri() . '/assets/css/app.css', array(), filemtime(get_template_directory() . '/assets/css/app.css'));
+        wp_enqueue_style(
+            'google-fonts-poppins',
+            'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap',
+            array(),
+            null
+        );
+        wp_enqueue_style('style_principal', get_template_directory_uri() . '/assets/css/app.css', array('google-fonts-poppins'), filemtime(get_template_directory() . '/assets/css/app.css'));
 
         // Script
         wp_enqueue_script('script-js', get_template_directory_uri() . '/assets/js/app.js', array(), filemtime(get_template_directory() . '/assets/js/app.js'), true);

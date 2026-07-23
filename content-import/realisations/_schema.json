@@ -1,0 +1,10 @@
+{
+  "$schema": "Crescendo Réalisations Page Import v1",
+  "description": "Format d'import JSON pour la page Réalisations (template Page Réalisations).",
+  "required": ["page.title", "page.slug"],
+  "import": {
+    "admin": "Outils → Import Réalisations JSON",
+    "cli": "wp crescendo import-realisations content-import/realisations/realisations.json",
+    "directory": "content-import/realisations/"
+  }
+}

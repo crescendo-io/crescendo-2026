@@ -1,0 +1,52 @@
+{
+  "$schema": "Crescendo Secteur Page Import v1",
+  "description": "Format d'import JSON pour les pages secteur/métier (template Page Secteur SEO). Les clés dans fields correspondent aux champs ACF secteur-*.",
+  "required": ["page.title", "page.slug"],
+  "structure": {
+    "version": "1.0",
+    "page": {
+      "title": "Titre WordPress de la page",
+      "slug": "slug-url-sans-slash",
+      "status": "publish | draft",
+      "menu_order": 0,
+      "content": "Contenu WP optionnel (laisser vide)"
+    },
+    "seo": {
+      "meta_title": "55-60 car. · Requête | Crescendo Studio",
+      "meta_description": "140-160 car.",
+      "focus_keyword": "mot-clé principal",
+      "canonical": "https://crescendo-studio.io/slug/",
+      "noindex": false
+    },
+    "fields": {
+      "secteur-hero-*": "Voir creation-site-artisan-nantes.json pour exemple complet"
+    }
+  },
+  "seo_checklist": [
+    "1 seul H1 = secteur-hero-title (requête cible + ville)",
+    "Intro 120+ mots dans secteur-hero-intro",
+    "H2 structurés : problèmes, solution, fonctionnalités, cas client, tarifs, zone, FAQ",
+    "Minimum 3 liens internes via secteur-related-sectors et secteur-area-cities",
+    "5-8 questions FAQ pour schema FAQPage",
+    "Meta title et description uniques par secteur"
+  ],
+  "import": {
+    "admin": "Outils → Import Secteur JSON",
+    "cli": "wp crescendo import-secteur content-import/secteurs/creation-site-artisan-nantes.json",
+    "directory": "content-import/secteurs/",
+    "generator": "python3 content-import/secteurs/build-secteurs.py"
+  },
+  "secteur_pages": [
+    "creation-site-artisan-nantes.json",
+    "creation-site-avocats-nantes.json",
+    "creation-site-immo-nantes.json",
+    "creation-site-restaurants-nantes copy.json",
+    "creation-site-coiffeur-nantes.json",
+    "creation-site-startup-nantes.json",
+    "creation-site-b2b-nantes.json",
+    "creation-site-coach-nantes.json",
+    "creation-site-architecte-nantes.json",
+    "creation-site-therapeute-nantes.json",
+    "creation-site-association-nantes.json"
+  ]
+}

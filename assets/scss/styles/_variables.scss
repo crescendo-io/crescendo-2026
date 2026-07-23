@@ -1,43 +1,44 @@
 :root {
-    --font-fontName: 'font-filename', sans-serif;
+    --font-fontName: 'Poppins', sans-serif;
 
-    //
-    // Container / Grid
-    --grid-offset: 15px;
-    
-    //
-    // Colors
-    --color-white: #fff;
-    --color-black: #000;
+    --container-max: 124rem;
+    --grid-offset: 2rem;
+
+    --color-white: #ffffff;
+    --color-black: #111111;
+    --color-text: #1a1a1a;
+    --color-muted: #666666;
+    --color-border: #e6e6e6;
+    --color-surface: #f7f7f5;
+    --color-yellow: #f5e642;
+    --color-yellow-dark: #e8d92f;
+
+    --radius-sm: 0.4rem;
+    --radius-md: 0.8rem;
+    --radius-lg: 1.6rem;
+
+    --shadow-sm: 0 0.4rem 2rem rgba(0, 0, 0, 0.06);
 }
 
-//
-// breakpoint mobile first
 $breakpoint-sm-up: "(min-width: 576px)";
 $breakpoint-md-up: "(min-width: 768px)";
 $breakpoint-lg-up: "(min-width: 992px)";
 $breakpoint-xl-up: "(min-width: 1200px)";
 $breakpoint-wd-up: "(min-width: 1400px)";
-$breakpoint-xwd-up: "(min-width: 1680px)";
 
-//
-// breakpoint desktop first
 $breakpoint-sm-down: "(max-width: 575px)";
 $breakpoint-md-down: "(max-width: 767px)";
 $breakpoint-lg-down: "(max-width: 991px)";
 $breakpoint-xl-down: "(max-width: 1199px)";
-$breakpoint-wd-down: "(max-width: 1399px)";
-
-// use @media #{$breakpoint-md-up} {
-
-@media #{$breakpoint-sm-up} {
-    :root {
-        --grid-offset: 15px;
-    }
-}
 
 @media #{$breakpoint-md-up} {
     :root {
-        --grid-offset: 30px;
+        --grid-offset: 3rem;
+    }
+}
+
+@media #{$breakpoint-xl-up} {
+    :root {
+        --grid-offset: 4rem;
     }
 }

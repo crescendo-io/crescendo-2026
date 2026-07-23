@@ -1,0 +1,168 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création de site web pour coiffeurs à Nantes",
+    "slug": "creation-site-coiffeur-nantes",
+    "status": "publish",
+    "menu_order": 20
+  },
+  "seo": {
+    "meta_title": "Création de site web pour coiffeur à Nantes | Salon de coiffure dès 350€/mois",
+    "meta_description": "Attirez plus de clients dans votre salon grâce à un site web sur mesure. Réservation en ligne, SEO local, avis Google et WordPress premium dès 350€/mois. Maquette gratuite en 48h.",
+    "focus_keyword": "site web coiffeur nantes",
+    "canonical": "https://crescendo-studio.io/creation-site-coiffeur-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "secteur-hero-eyebrow": "Salon de coiffure · Nantes",
+
+    "secteur-hero-title": "Création de site web pour coiffeur à Nantes",
+
+    "secteur-hero-intro": "Vous êtes coiffeur indépendant, barbier ou gérant d'un salon de coiffure à Nantes ? Nous concevons des sites WordPress premium qui augmentent votre visibilité sur Google, mettent en valeur votre savoir-faire et remplissent votre agenda grâce à la réservation en ligne. Le tout sans investissement initial grâce à notre formule de location à partir de 350€/mois.",
+
+    "secteur-hero-cta-primary": {
+      "title": "Recevoir ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+
+    "secteur-hero-cta-secondary": {
+      "title": "Découvrir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+
+    "secteur-hero-note": "Maquette personnalisée offerte sous 48h",
+
+    "secteur-benefits": [
+      {
+        "title": "Réservation 24h/24",
+        "text": "Connectez votre site à Planity, Kiute, Booksy ou tout autre logiciel de réservation."
+      },
+      {
+        "title": "Plus visible sur Google",
+        "text": "Positionnez votre salon sur les recherches « coiffeur Nantes », « balayage Nantes » ou « barbier Nantes »."
+      },
+      {
+        "title": "Valorisez votre travail",
+        "text": "Présentez vos coupes, colorations, balayages et transformations dans une galerie premium."
+      },
+      {
+        "title": "Location sans apport",
+        "text": "Profitez d'un site haut de gamme sans avancer plusieurs milliers d'euros."
+      }
+    ],
+
+    "secteur-pain-title": "Pourquoi de nombreux salons de coiffure passent à côté de nouveaux clients",
+
+    "secteur-pain-items": [
+      {
+        "title": "Instagram ne suffit plus",
+        "text": "Vos réalisations sont visibles sur les réseaux sociaux, mais elles disparaissent rapidement et ne vous rendent pas visible sur Google."
+      },
+      {
+        "title": "Impossible de réserver facilement",
+        "text": "Si vos visiteurs doivent appeler ou envoyer un message, une partie abandonne avant de prendre rendez-vous."
+      },
+      {
+        "title": "Vos concurrents sont devant vous",
+        "text": "Lorsque quelqu'un recherche « salon de coiffure Nantes » ou « coiffeur près de moi », ce sont souvent vos concurrents qui apparaissent."
+      },
+      {
+        "title": "Votre image ne reflète pas votre salon",
+        "text": "Un site ancien ou inexistant peut donner une impression peu professionnelle alors que votre salon offre une prestation haut de gamme."
+      }
+    ],
+
+    "secteur-solution-title": "Un site internet pensé pour développer votre salon",
+
+    "secteur-solution-text": "Chez Crescendo Studio, nous créons des sites dédiés aux salons de coiffure. Chaque page est pensée pour rassurer vos visiteurs, valoriser votre expertise et transformer les internautes en rendez-vous. Votre site devient un véritable outil commercial qui travaille pour vous, même lorsque votre salon est fermé.",
+
+    "secteur-solution-price": "350€/mois",
+
+    "secteur-solution-price-label": "Création, hébergement, maintenance et accompagnement inclus",
+
+    "secteur-solution-usps": [
+      {
+        "title": "Design premium",
+        "text": "Une identité visuelle élégante qui reflète l'univers de votre salon."
+      },
+      {
+        "title": "Référencement local",
+        "text": "Optimisé pour attirer les clients situés à Nantes et dans les communes voisines."
+      },
+      {
+        "title": "Évolutif",
+        "text": "Ajoutez facilement de nouvelles prestations, une nouvelle équipe ou de nouveaux services."
+      }
+    ],
+
+    "secteur-features-title": "Les fonctionnalités indispensables pour un salon de coiffure",
+
+    "secteur-features-items": [
+      {
+        "title": "Réservation en ligne",
+        "text": "Connexion avec Planity, Kiute, Booksy ou Calendly afin de permettre la prise de rendez-vous 24h/24."
+      },
+      {
+        "title": "Galerie avant / après",
+        "text": "Valorisez vos balayages, colorations, ombrés, coupes homme, coiffures mariage et transformations."
+      },
+      {
+        "title": "Présentation de l'équipe",
+        "text": "Mettez en avant chaque coiffeur, ses spécialités et son expérience."
+      },
+      {
+        "title": "Prestations & tarifs",
+        "text": "Présentez clairement vos forfaits, soins, techniques et services."
+      },
+      {
+        "title": "Avis Google synchronisés",
+        "text": "Renforcez la confiance avec vos derniers avis directement affichés sur votre site."
+      },
+      {
+        "title": "Instagram intégré",
+        "text": "Diffusez automatiquement vos dernières publications et montrez votre activité."
+      },
+      {
+        "title": "Google Maps",
+        "text": "Permettez à vos futurs clients de trouver facilement votre salon."
+      },
+      {
+        "title": "Version mobile premium",
+        "text": "Plus de 80 % des recherches d'un salon se font depuis un smartphone."
+      },
+      {
+        "title": "SEO local",
+        "text": "Pages optimisées pour les recherches liées à Nantes, Saint-Herblain, Rezé, Vertou et les alentours."
+      },
+      {
+        "title": "Performances",
+        "text": "Temps de chargement rapide, hébergement premium, sécurité, sauvegardes et maintenance inclus."
+      }
+    ],
+
+    "secteur-case-title": "Un site pensé pour transformer les visiteurs en clients",
+
+    "secteur-case-project-title": "Maison Jaden",
+
+    "secteur-case-project-tags": "UX · WordPress · SEO",
+
+    "secteur-case-project-points": [
+      {
+        "text": "Interface premium conçue pour inspirer confiance dès les premières secondes."
+      },
+      {
+        "text": "Parcours utilisateur optimisé afin d'augmenter les demandes de contact."
+      },
+      {
+        "text": "Performances Google PageSpeed élevées pour favoriser le référencement."
+      },
+      {
+        "text": "Architecture SEO locale pensée dès la conception du projet."
+      }
+    ],
+
+    "secteur-case-project-url": "/realisations/maison-jaden/"
+  }
+}

@@ -9,10 +9,18 @@
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (function (homePage) {
-  console.log('homePage', homePage);
+  var navToggle = document.querySelector('[data-nav-toggle]');
+  var nav = document.getElementById('site-nav');
+
+  if (navToggle && nav) {
+    navToggle.addEventListener('click', function () {
+      var isOpen = nav.classList.toggle('is-open');
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+  }
 });
 
 /***/ })
 
 }]);
-//# sourceMappingURL=5825aa8b2a904caf8b7d.js.map
+//# sourceMappingURL=bdd197853d750c6717ac.js.map

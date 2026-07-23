@@ -1,0 +1,51 @@
+{
+  "$schema": "Crescendo Local Page Import v1",
+  "description": "Format d'import JSON pour les pages locales / villes métropole (template Page Local SEO). Les clés dans fields correspondent aux champs ACF local-*.",
+  "required": ["page.title", "page.slug"],
+  "structure": {
+    "version": "1.0",
+    "page": {
+      "title": "Agence web à Saint-Herblain",
+      "slug": "agence-web-saint-herblain",
+      "status": "publish | draft",
+      "menu_order": 30,
+      "content": ""
+    },
+    "seo": {
+      "meta_title": "Agence web {ville} | Crescendo Studio",
+      "meta_description": "140-160 car.",
+      "focus_keyword": "agence web {ville}",
+      "canonical": "https://crescendo-studio.io/agence-web-{ville}/",
+      "noindex": false
+    },
+    "fields": {
+      "local-city-name": "Nom ville pour schema.org",
+      "local-hero-*": "Voir agence-web-saint-herblain.json",
+      "local-sections": "Repeater title + text (HTML)",
+      "local-facts": "Repeater faits locaux",
+      "local-area-cities": "Communes voisines (maillage horizontal)"
+    }
+  },
+  "planned_slugs": [
+    "agence-web-saint-herblain",
+    "agence-web-reze",
+    "agence-web-orvault",
+    "agence-web-carquefou",
+    "agence-web-bouguenais",
+    "agence-web-saint-sebastien-sur-loire",
+    "agence-web-saint-nazaire"
+  ],
+  "premium_pages": {
+    "agence-web-saint-nazaire": {
+      "generator": "python3 content-import/locales/build-saint-nazaire.py",
+      "word_count": "~3900",
+      "note": "Page pilier SEO Pays de Retz — sommaire, 4 sections éditoriales, 10 FAQ, schema enrichi"
+    }
+  },
+  "import": {
+    "admin": "Outils → Import Local JSON",
+    "cli": "wp crescendo import-local content-import/locales/agence-web-saint-herblain.json",
+    "directory": "content-import/locales/",
+    "generator": "python3 content-import/locales/generate.py"
+  }
+}

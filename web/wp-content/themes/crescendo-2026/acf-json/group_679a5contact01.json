@@ -1,0 +1,60 @@
+{
+    "key": "group_679a5contact01",
+    "title": "Page Contact — Contenu",
+    "fields": [
+        { "key": "field_679a5tabseo001", "label": "SEO", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a5seotitle1", "label": "Meta title", "name": "contact-seo-meta-title", "type": "text" },
+        { "key": "field_679a5seodesc01", "label": "Meta description", "name": "contact-seo-meta-description", "type": "textarea", "rows": 3 },
+        { "key": "field_679a5seokey001", "label": "Mot-clé principal", "name": "contact-seo-focus-keyword", "type": "text" },
+        { "key": "field_679a5seocanon1", "label": "URL canonique", "name": "contact-seo-canonical", "type": "url" },
+        { "key": "field_679a5seonoindex", "label": "Noindex", "name": "contact-seo-noindex", "type": "true_false", "ui": 1 },
+
+        { "key": "field_679a5tabhero01", "label": "Hero", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a5hero001", "label": "Sur-titre", "name": "contact-hero-eyebrow", "type": "text" },
+        { "key": "field_679a5hero002", "label": "Titre H1", "name": "contact-hero-title", "type": "text" },
+        { "key": "field_679a5hero003", "label": "Intro", "name": "contact-hero-intro", "type": "textarea", "rows": 4 },
+        { "key": "field_679a5hero004", "label": "Note sous intro", "name": "contact-hero-note", "type": "text" },
+
+        { "key": "field_679a5tabinfo01", "label": "Coordonnées", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a5info001", "label": "Téléphone", "name": "contact-info-phone", "type": "text" },
+        { "key": "field_679a5info002", "label": "Email", "name": "contact-info-email", "type": "email" },
+        { "key": "field_679a5info003", "label": "Adresse", "name": "contact-info-address", "type": "text" },
+        { "key": "field_679a5info004", "label": "Disponibilité", "name": "contact-info-hours", "type": "text" },
+        { "key": "field_679a5info005", "label": "Zone d'intervention", "name": "contact-info-zone", "type": "textarea", "rows": 2 },
+
+        { "key": "field_679a5tabfaq001", "label": "FAQ", "name": "", "type": "tab", "placement": "top" },
+        {
+            "key": "field_679a5faq001",
+            "label": "Questions",
+            "name": "contact-faq-items",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a5faq002", "label": "Question", "name": "question", "type": "text" },
+                { "key": "field_679a5faq003", "label": "Réponse", "name": "answer", "type": "textarea", "rows": 3 }
+            ]
+        },
+
+        { "key": "field_679a5tabform01", "label": "Formulaire", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a5form001", "label": "Titre formulaire", "name": "contact-form-title", "type": "text" },
+        { "key": "field_679a5form002", "label": "Intro formulaire", "name": "contact-form-intro", "type": "textarea", "rows": 2 },
+        { "key": "field_679a5form003", "label": "Shortcode formulaire", "name": "contact-form-shortcode", "type": "text" }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-contact.php"
+            }
+        ]
+    ],
+    "menu_order": 5,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "modified": 1784746800
+}

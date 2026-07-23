@@ -1,0 +1,87 @@
+{
+    "key": "group_679a9project01",
+    "title": "Fiche Projet — Contenu",
+    "fields": [
+        { "key": "field_679a9tabseo001", "label": "SEO", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a9seotitle1", "label": "Meta title", "name": "project-seo-meta-title", "type": "text" },
+        { "key": "field_679a9seodesc01", "label": "Meta description", "name": "project-seo-meta-description", "type": "textarea", "rows": 3 },
+        { "key": "field_679a9seokey001", "label": "Mot-clé principal", "name": "project-seo-focus-keyword", "type": "text" },
+        { "key": "field_679a9seocanon1", "label": "URL canonique", "name": "project-seo-canonical", "type": "url" },
+        { "key": "field_679a9seonoindex", "label": "Noindex", "name": "project-seo-noindex", "type": "true_false", "ui": 1 },
+
+        { "key": "field_679a9tabhero01", "label": "Hero", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a9hero001", "label": "Sur-titre", "name": "project-hero-eyebrow", "type": "text", "default_value": "Étude de cas" },
+        { "key": "field_679a9hero002", "label": "Titre H1", "name": "project-hero-title", "type": "text" },
+        { "key": "field_679a9hero003", "label": "Intro", "name": "project-hero-intro", "type": "textarea", "rows": 4 },
+
+        { "key": "field_679a9tabmeta01", "label": "Métadonnées", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a9meta001", "label": "Nom client", "name": "project-client-name", "type": "text" },
+        { "key": "field_679a9meta002", "label": "URL site client", "name": "project-client-url", "type": "url" },
+        { "key": "field_679a9meta003", "label": "Secteur", "name": "project-sector", "type": "text" },
+        { "key": "field_679a9meta004", "label": "Année", "name": "project-year", "type": "text" },
+        { "key": "field_679a9meta005", "label": "Prestations", "name": "project-tags", "type": "text" },
+        { "key": "field_679a9meta006", "label": "Technologies", "name": "project-tech-tags", "type": "text" },
+        { "key": "field_679a9meta007", "label": "CRM intégré", "name": "project-has-crm", "type": "true_false", "ui": 1 },
+
+        { "key": "field_679a9tabgal001", "label": "Galerie 16:9", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a9gal001", "label": "Titre galerie", "name": "project-gallery-title", "type": "text", "default_value": "Aperçu du site" },
+        { "key": "field_679a9gal002", "label": "Intro galerie", "name": "project-gallery-intro", "type": "textarea", "rows": 2 },
+        { "key": "field_679a9gal003", "label": "Emplacements vides (16:9)", "name": "project-gallery-slots", "type": "number", "min": 0, "max": 12, "default_value": 4, "instructions": "Nombre de cadres 16:9 affichés tant que les captures ne sont pas uploadées." },
+        {
+            "key": "field_679a9gal004",
+            "label": "Captures d'écran",
+            "name": "project-gallery",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter une capture 16:9",
+            "sub_fields": [
+                { "key": "field_679a9gal005", "label": "Image", "name": "image", "type": "image", "return_format": "array", "preview_size": "medium", "instructions": "Format recommandé : 1920×1080 (16:9)" },
+                { "key": "field_679a9gal006", "label": "Légende", "name": "caption", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a9tabcont01", "label": "Contenu", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a9cont001", "label": "Titre — Contexte", "name": "project-challenge-title", "type": "text", "default_value": "Le contexte" },
+        { "key": "field_679a9cont002", "label": "Texte — Contexte", "name": "project-challenge-text", "type": "wysiwyg", "tabs": "visual", "toolbar": "basic", "media_upload": 0 },
+        { "key": "field_679a9cont003", "label": "Titre — Solution", "name": "project-solution-title", "type": "text", "default_value": "Notre approche" },
+        { "key": "field_679a9cont004", "label": "Texte — Solution", "name": "project-solution-text", "type": "wysiwyg", "tabs": "visual", "toolbar": "basic", "media_upload": 0 },
+
+        { "key": "field_679a9tabres001", "label": "Résultats", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a9res001", "label": "Titre section", "name": "project-results-title", "type": "text", "default_value": "Résultats" },
+        {
+            "key": "field_679a9res002",
+            "label": "Indicateurs",
+            "name": "project-results",
+            "type": "repeater",
+            "layout": "table",
+            "max": 4,
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a9res003", "label": "Valeur", "name": "value", "type": "text" },
+                { "key": "field_679a9res004", "label": "Label", "name": "label", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a9tabcta001", "label": "CTA", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a9cta001", "label": "Titre", "name": "project-cta-title", "type": "text" },
+        { "key": "field_679a9cta002", "label": "Texte", "name": "project-cta-text", "type": "textarea", "rows": 2 },
+        { "key": "field_679a9cta003", "label": "Bouton", "name": "project-cta-button", "type": "link" },
+        { "key": "field_679a9cta004", "label": "Lien retour", "name": "project-back-link", "type": "link" }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-project.php"
+            }
+        ]
+    ],
+    "menu_order": 9,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "modified": 1784752800
+}

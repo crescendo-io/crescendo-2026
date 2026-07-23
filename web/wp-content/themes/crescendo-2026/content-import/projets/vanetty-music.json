@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Vanetty Music",
+    "slug": "vanetty-music",
+    "parent": "realisations",
+    "status": "publish",
+    "menu_order": 60,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Refonte Vanetty Music · Étude de cas | Crescendo Studio",
+    "meta_description": "Refonte du site Vanetty Music : vitrine artistique, mise en avant des prestations DJ/musique et parcours de contact optimisé pour les demandes d'événements…",
+    "focus_keyword": "refonte site vanetty music",
+    "canonical": "https://crescendo-studio.io/realisations/vanetty-music/",
+    "noindex": false
+  },
+  "fields": {
+    "project-hero-eyebrow": "Étude de cas · Refonte",
+    "project-hero-title": "Refonte du site Vanetty Music",
+    "project-hero-intro": "Refonte du site Vanetty Music : vitrine artistique, mise en avant des prestations DJ/musique et parcours de contact optimisé pour les demandes d'événements.",
+    "project-client-name": "Vanetty Music",
+    "project-client-url": "https://vanettymusic.com/",
+    "project-sector": "Musique & événementiel",
+    "project-year": "2024",
+    "project-tags": "Refonte · WordPress · Vitrine · Booking",
+    "project-tech-tags": "WordPress · Audio · Formulaires",
+    "project-has-crm": false,
+    "project-gallery-title": "Aperçu du site refondu",
+    "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
+    "project-gallery-slots": 4,
+    "project-gallery": [],
+    "project-challenge-title": "Le contexte",
+    "project-challenge-text": "<p>Vanetty Music avait besoin d'un site immersif capable de présenter son univers musical, ses prestations événementielles et de faciliter les demandes de booking.</p>",
+    "project-solution-title": "Notre approche",
+    "project-solution-text": "<p>Refonte WordPress avec identité visuelle forte, intégration média, pages prestations claires et formulaire de demande d'événement structuré pour qualifier les leads.</p>",
+    "project-results-title": "Résultats",
+    "project-results": [
+      {
+        "value": "+35%",
+        "label": "Demandes booking"
+      },
+      {
+        "value": "Immersif",
+        "label": "Expérience media"
+      },
+      {
+        "value": "Mobile",
+        "label": "Optimisé"
+      },
+      {
+        "value": "SEO",
+        "label": "Visibilité locale"
+      }
+    ],
+    "project-cta-title": "Un projet de refonte similaire ?",
+    "project-cta-text": "Parlons de votre site. Nous vous proposons une maquette gratuite en 48h pour valider la direction avant de démarrer.",
+    "project-cta-button": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création de site web pour associations à Nantes",
+    "slug": "creation-site-association-nantes",
+    "status": "publish",
+    "menu_order": 30
+  },
+  "seo": {
+    "meta_title": "Site web association Nantes — Adhésions & événements | Crescendo",
+    "meta_description": "Création de site internet pour association à Nantes : adhésions en ligne, événements, appel aux dons, bénévolat. WordPress accessible. Maquette 48h.",
+    "focus_keyword": "site web association nantes",
+    "canonical": "https://crescendo-studio.io/creation-site-association-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "secteur-hero-eyebrow": "Association · ONG · Nantes",
+    "secteur-hero-title": "Site web pour association à Nantes",
+    "secteur-hero-intro": "Association culturelle, sportive, humanitaire ou ONG à Nantes ? Votre site mobilise adhérents, bénévoles et donateurs : actualités, agenda, adhésion en ligne et transparence sur vos actions.",
+    "secteur-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-hero-cta-secondary": {
+      "title": "Voir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+    "secteur-hero-note": "Maquette gratuite en 48h",
+    "secteur-benefits": [
+      {
+        "title": "Adhésion en ligne",
+        "text": "Cotisation et renouvellement automatisés via Stripe ou HelloAsso."
+      },
+      {
+        "title": "Agenda événements",
+        "text": "Calendrier public, inscriptions, rappels."
+      },
+      {
+        "title": "Appel aux dons",
+        "text": "Pages campagne avec suivi objectif et reçu fiscal si applicable."
+      },
+      {
+        "title": "Budget maîtrisé",
+        "text": "Location 350 €/mois — pas de gros investissement initial pour une asso."
+      }
+    ],
+    "secteur-pain-title": "Pourquoi les associations peinent en ligne",
+    "secteur-pain-items": [
+      {
+        "title": "Facebook remplace le site",
+        "text": "Algorithmes changeants — vos membres ne voient plus vos posts."
+      },
+      {
+        "title": "Site non mis à jour",
+        "text": "Agenda vide, actualités de 2022 — image d'abandon."
+      },
+      {
+        "title": "Adhésion manuelle",
+        "text": "Chèques et Excel — charge admin énorme pour les bénévoles."
+      },
+      {
+        "title": "Pas de visibilité Google",
+        "text": "Invisible sur « association sportive Nantes » ou votre cause."
+      }
+    ],
+    "secteur-solution-title": "Un site association vivant et mobilisateur",
+    "secteur-solution-text": "Nous créons des sites WordPress pour associations nantaises : gestion d'événements, adhésions, appels aux dons, galerie photos et espace bénévoles — administrables par des non-techniciens.",
+    "secteur-solution-price": "350€/mois",
+    "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
+    "secteur-solution-usps": [
+      {
+        "title": "Maquette 48h",
+        "text": "Direction créative gratuite avant engagement."
+      },
+      {
+        "title": "WordPress sur mesure",
+        "text": "Design premium adapté à votre secteur."
+      },
+      {
+        "title": "SEO local intégré",
+        "text": "Visible sur Google dès la mise en ligne."
+      }
+    ],
+    "secteur-features-title": "Ce que votre site association doit inclure",
+    "secteur-features-items": [
+      {
+        "title": "Adhésion en ligne",
+        "text": "Formulaire, paiement CB, carte adhérent PDF."
+      },
+      {
+        "title": "Agenda & inscriptions",
+        "text": "Événements, ateliers, compétitions sportives."
+      },
+      {
+        "title": "Appel aux dons",
+        "text": "Campagnes ponctuelles avec barre de progression."
+      },
+      {
+        "title": "Actualités & blog",
+        "text": "Vie de l'asso, comptes-rendus, portraits bénévoles."
+      },
+      {
+        "title": "Galerie médias",
+        "text": "Photos et vidéos des actions sur le terrain."
+      },
+      {
+        "title": "Accessibilité",
+        "text": "Site lisible pour tous, conforme bonnes pratiques a11y."
+      }
+    ],
+    "secteur-case-title": "Sites associatifs et institutionnels",
+    "secteur-case-project-title": "Gide",
+    "secteur-case-project-tags": "WordPress · Institutionnel · Multilingue",
+    "secteur-case-project-points": [
+      {
+        "text": "Site institutionnel avec volume de contenus structuré"
+      },
+      {
+        "text": "Navigation claire et performances optimisées"
+      },
+      {
+        "text": "Administration simplifiée pour équipes non techniques"
+      }
+    ],
+    "secteur-case-project-url": "/realisations/gide/",
+    "secteur-pricing-title": "Combien coûte un site web pour association à Nantes ?",
+    "secteur-pricing-price": "350€",
+    "secteur-pricing-price-suffix": "/mois",
+    "secteur-pricing-cta": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-pricing-col1-label": "Location 350€/mois",
+    "secteur-pricing-col2-label": "Achat classique",
+    "secteur-pricing-features": [
+      {
+        "text": "Création sur mesure incluse"
+      },
+      {
+        "text": "Hébergement premium"
+      },
+      {
+        "text": "Maintenance & mises à jour"
+      },
+      {
+        "text": "SEO local de base"
+      },
+      {
+        "text": "Formulaire de contact"
+      },
+      {
+        "text": "Support réactif"
+      }
+    ],
+    "secteur-pricing-table": [
+      {
+        "label": "Investissement initial",
+        "col1": "0€",
+        "col2": "3 000 – 8 000€"
+      },
+      {
+        "label": "Mensualité",
+        "col1": "350€",
+        "col2": "150–250€"
+      },
+      {
+        "label": "Création incluse",
+        "col1": "✓",
+        "col2": "✓"
+      },
+      {
+        "label": "Maintenance & sécurité",
+        "col1": "Incluse",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Évolutions",
+        "col1": "Incluses",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Total sur 5 ans",
+        "col1": "~21 000€",
+        "col2": "~25 000€+"
+      }
+    ],
+    "secteur-area-title": "Site web association à Nantes et métropole",
+    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
+    "secteur-area-cities": [
+      {
+        "name": "Nantes",
+        "url": "/agence-web-nantes/"
+      },
+      {
+        "name": "Saint-Herblain",
+        "url": "/agence-web-saint-herblain/"
+      },
+      {
+        "name": "Rezé",
+        "url": "/agence-web-reze/"
+      },
+      {
+        "name": "Orvault",
+        "url": "/agence-web-orvault/"
+      },
+      {
+        "name": "Carquefou",
+        "url": "/agence-web-carquefou/"
+      },
+      {
+        "name": "Saint-Nazaire",
+        "url": "/agence-web-saint-nazaire/"
+      }
+    ],
+    "secteur-area-see-all": {
+      "title": "Voir toutes nos zones",
+      "url": "/agence-web-nantes/",
+      "target": ""
+    },
+    "secteur-faq-eyebrow": "Questions fréquentes",
+    "secteur-faq-title": "FAQ site web association",
+    "secteur-faq-items": [
+      {
+        "question": "Combien coûte un site association à Nantes ?",
+        "answer": "350 €/mois en location — idéal pour les budgets associatifs. Achat : 3 000 à 6 000 € selon fonctionnalités."
+      },
+      {
+        "question": "Proposez-vous des tarifs associatifs ?",
+        "answer": "La location à 350 €/mois sans frais de création est déjà adaptée aux budgets associatifs."
+      },
+      {
+        "question": "Peut-on gérer le site sans compétence technique ?",
+        "answer": "Oui. Formation incluse — vos bénévoles publient actualités et événements facilement."
+      },
+      {
+        "question": "Intégrez-vous HelloAsso ou Stripe ?",
+        "answer": "Oui. Adhésions, dons et événements payants selon vos outils existants."
+      },
+      {
+        "question": "Le site est-il accessible (handicap) ?",
+        "answer": "Oui. Nous appliquons les bonnes pratiques d'accessibilité web (contraste, navigation clavier)."
+      },
+      {
+        "question": "Quel délai ?",
+        "answer": "4 à 8 semaines selon le volume de contenus à migrer."
+      }
+    ],
+    "secteur-related-title": "Autres secteurs que nous accompagnons",
+    "secteur-related-sectors": [
+      {
+        "title": "Artisan",
+        "url": "/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "Avocat",
+        "url": "/creation-site-avocat-nantes/"
+      },
+      {
+        "title": "Restaurant",
+        "url": "/creation-site-restaurant-nantes/"
+      },
+      {
+        "title": "Immobilier",
+        "url": "/creation-site-immobilier-nantes/"
+      },
+      {
+        "title": "Startup",
+        "url": "/creation-site-startup-nantes/"
+      },
+      {
+        "title": "B2B / PME",
+        "url": "/creation-site-b2b-nantes/"
+      }
+    ],
+    "secteur-final-cta-title": "Donnez de la visibilité à votre association à Nantes",
+    "secteur-final-cta-text": "Maquette gratuite sous 48 h pour structurer votre présence en ligne.",
+    "secteur-final-cta-points": [
+      {
+        "text": "Maquette personnalisée sous 48h"
+      },
+      {
+        "text": "Formule location sans investissement initial"
+      },
+      {
+        "text": "Accompagnement local à Nantes"
+      }
+    ],
+    "secteur-final-form-job-label": "Votre association",
+    "secteur-final-reassurance": [
+      {
+        "text": "Sans engagement"
+      },
+      {
+        "text": "Réponse sous 24h"
+      },
+      {
+        "text": "Agence nantaise"
+      }
+    ]
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création de site web pour avocats à Nantes",
+    "slug": "creation-site-avocat-nantes",
+    "status": "publish",
+    "menu_order": 21
+  },
+  "seo": {
+    "meta_title": "Création de site web pour avocat à Nantes | Crescendo",
+    "meta_description": "Création de site internet pour avocat et cabinet à Nantes : design sur mesure, présentation des expertises, SEO local et prise de rendez-vous. Maquette gratuite en 48h.",
+    "focus_keyword": "site web avocat nantes",
+    "canonical": "https://crescendo-studio.io/creation-site-avocat-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "secteur-hero-eyebrow": "Avocat · Cabinet juridique · Nantes",
+    "secteur-hero-title": "Création de site web pour avocat à Nantes",
+    "secteur-hero-intro": "Vous êtes avocat indépendant, associé ou responsable d'un cabinet à Nantes ? Nous concevons des sites WordPress sur mesure qui valorisent vos domaines d'intervention, renforcent la confiance de vos futurs clients et améliorent votre visibilité sur Google. Une présence digitale sobre, crédible et conforme à l'image de votre cabinet, dès 350€/mois.",
+    "secteur-hero-cta-primary": {
+      "title": "Recevoir ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-hero-cta-secondary": {
+      "title": "Découvrir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+    "secteur-hero-note": "Première direction créative offerte sous 48h",
+    "secteur-benefits": [
+      {
+        "title": "Image de confiance",
+        "text": "Un design sobre et professionnel qui rassure vos futurs clients dès leur première visite."
+      },
+      {
+        "title": "Expertises valorisées",
+        "text": "Des pages dédiées à chaque domaine du droit pour rendre votre offre claire et compréhensible."
+      },
+      {
+        "title": "Visibilité locale",
+        "text": "Un site optimisé pour les recherches comme « avocat Nantes », « avocat droit du travail Nantes » ou « cabinet juridique Nantes »."
+      },
+      {
+        "title": "Contact simplifié",
+        "text": "Formulaire confidentiel, appel direct et prise de rendez-vous accessibles facilement sur mobile."
+      }
+    ],
+    "secteur-pain-title": "Pourquoi le site de nombreux cabinets ne génère pas de prises de contact",
+    "secteur-pain-items": [
+      {
+        "title": "Un discours trop technique",
+        "text": "Vos visiteurs ne maîtrisent pas toujours le vocabulaire juridique. S'ils ne comprennent pas rapidement comment vous pouvez les aider, ils quittent le site."
+      },
+      {
+        "title": "Des expertises mal présentées",
+        "text": "Une simple liste de matières juridiques ne suffit pas à rassurer une personne confrontée à une situation urgente ou complexe."
+      },
+      {
+        "title": "Une visibilité limitée sur Google",
+        "text": "Sans pages dédiées à vos domaines d'intervention, votre cabinet reste invisible sur les recherches juridiques précises."
+      },
+      {
+        "title": "Une image qui manque de crédibilité",
+        "text": "Un site ancien, lent ou peu lisible peut créer un doute avant même le premier échange avec votre cabinet."
+      }
+    ],
+    "secteur-solution-title": "Un site internet à la hauteur de votre cabinet d'avocats",
+    "secteur-solution-text": "Nous créons une plateforme claire et structurée qui présente votre cabinet, vos avocats et vos domaines d'intervention sans jargon inutile. Chaque page répond à une problématique juridique précise et guide naturellement le visiteur vers une prise de contact, tout en respectant la sobriété et la déontologie attendues dans votre profession.",
+    "secteur-solution-price": "350€/mois",
+    "secteur-solution-price-label": "Création, hébergement, maintenance et accompagnement inclus",
+    "secteur-solution-usps": [
+      {
+        "title": "Design institutionnel",
+        "text": "Une direction artistique élégante qui traduit le sérieux et le positionnement de votre cabinet."
+      },
+      {
+        "title": "Contenu structuré",
+        "text": "Une architecture claire autour de vos avocats, expertises, actualités et modalités de contact."
+      },
+      {
+        "title": "SEO juridique local",
+        "text": "Des pages pensées pour les requêtes liées à vos spécialités et à votre implantation géographique."
+      }
+    ],
+    "secteur-features-title": "Les éléments indispensables d'un site pour avocat",
+    "secteur-features-items": [
+      {
+        "title": "Pages par domaine d'intervention",
+        "text": "Droit du travail, droit des affaires, droit de la famille, droit immobilier ou droit pénal : chaque expertise bénéficie d'une page dédiée."
+      },
+      {
+        "title": "Présentation des avocats",
+        "text": "Parcours, diplômes, barreau, langues parlées et domaines de compétence sont présentés de manière claire."
+      },
+      {
+        "title": "Formulaire de contact confidentiel",
+        "text": "Un parcours sécurisé permettant au visiteur d'exposer brièvement sa situation avant un premier échange."
+      },
+      {
+        "title": "Prise de rendez-vous",
+        "text": "Connexion à votre agenda ou à votre outil de réservation pour faciliter l'organisation des consultations."
+      },
+      {
+        "title": "Actualités juridiques",
+        "text": "Publiez des analyses, décisions commentées et informations pratiques pour démontrer votre expertise."
+      },
+      {
+        "title": "Honoraires et modalités",
+        "text": "Présentez le fonctionnement des honoraires, les conventions et le déroulement d'un premier rendez-vous."
+      },
+      {
+        "title": "Version multilingue",
+        "text": "Présentez votre cabinet en anglais ou dans d'autres langues pour accompagner une clientèle internationale."
+      },
+      {
+        "title": "Accès rapide sur mobile",
+        "text": "Téléphone, itinéraire, formulaire et prise de rendez-vous restent accessibles en quelques secondes."
+      },
+      {
+        "title": "Conformité et sécurité",
+        "text": "Mentions légales, politique de confidentialité, HTTPS, sauvegardes et mises à jour sont intégrés."
+      },
+      {
+        "title": "Référencement naturel",
+        "text": "Structure technique, balisage et contenus optimisés pour vos principales requêtes juridiques."
+      }
+    ],
+    "secteur-case-title": "Une approche digitale adaptée aux métiers de conseil",
+    "secteur-case-project-title": "Gide Loyrette Nouel",
+    "secteur-case-project-tags": "WordPress · Multilingue · Contenus experts",
+    "secteur-case-project-points": [
+      {
+        "text": "Architecture éditoriale conçue pour organiser un volume important de contenus et d'expertises."
+      },
+      {
+        "text": "Gestion multilingue adaptée à un cabinet intervenant auprès d'une clientèle internationale."
+      },
+      {
+        "text": "Présentation structurée des équipes, bureaux, pratiques et publications."
+      },
+      {
+        "text": "Développement WordPress sur mesure avec administration simplifiée."
+      }
+    ],
+    "secteur-case-project-url": "/realisations/gide/",
+    "secteur-pricing-title": "Combien coûte un site internet pour avocat à Nantes ?",
+    "secteur-pricing-price": "350€",
+    "secteur-pricing-price-suffix": "/mois",
+    "secteur-pricing-cta": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-pricing-col1-label": "Location 350€/mois",
+    "secteur-pricing-col2-label": "Achat classique",
+    "secteur-pricing-features": [
+      {
+        "text": "Création graphique sur mesure"
+      },
+      {
+        "text": "Pages d'expertises juridiques"
+      },
+      {
+        "text": "Hébergement sécurisé"
+      },
+      {
+        "text": "Maintenance WordPress"
+      },
+      {
+        "text": "Référencement local de base"
+      },
+      {
+        "text": "Support et évolutions"
+      }
+    ],
+    "secteur-pricing-table": [
+      {
+        "label": "Investissement initial",
+        "col1": "0€",
+        "col2": "4 000 – 12 000€"
+      },
+      {
+        "label": "Mensualité",
+        "col1": "350€",
+        "col2": "150–300€"
+      },
+      {
+        "label": "Design sur mesure",
+        "col1": "Inclus",
+        "col2": "Selon l'offre"
+      },
+      {
+        "label": "Maintenance & sécurité",
+        "col1": "Incluses",
+        "col2": "En supplément"
+      },
+      {
+        "label": "Évolutions éditoriales",
+        "col1": "Incluses",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Total estimé sur 5 ans",
+        "col1": "~21 000€",
+        "col2": "~25 000 à 35 000€"
+      }
+    ],
+    "secteur-area-title": "Création de site pour avocat à Nantes et en Loire-Atlantique",
+    "secteur-area-text": "Crescendo Studio accompagne les avocats indépendants et cabinets implantés à Nantes et dans sa métropole. Votre site peut cibler votre zone géographique ainsi que les recherches liées à chaque domaine juridique traité.",
+    "secteur-area-cities": [
+      {
+        "name": "Nantes",
+        "url": "/creation-site-web-nantes/"
+      },
+      {
+        "name": "Saint-Herblain",
+        "url": "/creation-site-web-saint-herblain/"
+      },
+      {
+        "name": "Rezé",
+        "url": "/creation-site-web-reze/"
+      },
+      {
+        "name": "Orvault",
+        "url": "/creation-site-web-orvault/"
+      },
+      {
+        "name": "Saint-Nazaire",
+        "url": "/creation-site-web-saint-nazaire/"
+      },
+      {
+        "name": "Carquefou",
+        "url": "/creation-site-web-carquefou/"
+      }
+    ],
+    "secteur-area-see-all": {
+      "title": "Découvrir nos zones d'intervention",
+      "url": "/creation-site-web-nantes/",
+      "target": ""
+    },
+    "secteur-faq-eyebrow": "Questions fréquentes",
+    "secteur-faq-title": "Tout savoir avant de créer le site de votre cabinet",
+    "secteur-faq-items": [
+      {
+        "question": "Combien coûte la création d'un site pour avocat à Nantes ?",
+        "answer": "Notre formule en location démarre à 350€/mois, sans frais de création. Elle inclut le design sur mesure, le développement WordPress, l'hébergement, la maintenance et l'accompagnement. En achat classique, un site de cabinet d'avocats représente généralement un investissement initial de 4 000 à 12 000€ selon le nombre d'expertises, de langues et de fonctionnalités."
+      },
+      {
+        "question": "Comment rendre le site de mon cabinet visible sur Google ?",
+        "answer": "Le référencement repose sur une architecture précise : une page par domaine d'intervention, des contenus répondant aux questions des justiciables, un balisage technique optimisé et une stratégie locale autour de Nantes. Une page générique listant toutes vos expertises est rarement suffisante."
+      },
+      {
+        "question": "Peut-on créer une page pour chaque spécialité juridique ?",
+        "answer": "Oui. C'est même recommandé. Nous pouvons créer des pages dédiées au droit du travail, au droit des sociétés, au droit de la famille, au droit immobilier, au droit pénal ou à toute autre expertise réellement exercée par votre cabinet."
+      },
+      {
+        "question": "Le site peut-il présenter plusieurs avocats et associés ?",
+        "answer": "Oui. Chaque membre du cabinet peut disposer d'une fiche avec sa photographie, son parcours, ses domaines d'intervention, ses langues de travail, ses publications et ses coordonnées professionnelles."
+      },
+      {
+        "question": "Peut-on intégrer une prise de rendez-vous en ligne ?",
+        "answer": "Oui. Nous pouvons connecter votre site à un agenda existant ou intégrer un module de prise de rendez-vous pour les consultations physiques, téléphoniques ou en visioconférence."
+      },
+      {
+        "question": "Puis-je publier des articles et actualités juridiques ?",
+        "answer": "Oui. WordPress vous permet de publier facilement des analyses, des actualités législatives, des commentaires de jurisprudence ou des réponses aux questions fréquentes de vos clients. Ces contenus peuvent également renforcer votre référencement naturel."
+      },
+      {
+        "question": "Un cabinet d'avocats peut-il communiquer librement sur son site ?",
+        "answer": "Le contenu doit rester conforme aux règles déontologiques applicables à la profession, notamment en matière de dignité, de délicatesse, de modération et de loyauté. Nous privilégions une communication informative, factuelle et centrée sur les compétences réelles du cabinet."
+      },
+      {
+        "question": "Combien de temps faut-il pour mettre le site en ligne ?",
+        "answer": "La création complète prend généralement entre 4 et 8 semaines selon le nombre de pages, d'avocats, d'expertises et de langues. Une première maquette personnalisée est présentée gratuitement sous 48h afin de valider la direction graphique."
+      }
+    ],
+    "secteur-related-title": "Autres professions et secteurs accompagnés",
+    "secteur-related-sectors": [
+      {
+        "title": "Expert-comptable",
+        "url": "/creation-site-expert-comptable-nantes/"
+      },
+      {
+        "title": "Immobilier",
+        "url": "/creation-site-immobilier-nantes/"
+      },
+      {
+        "title": "Consultant",
+        "url": "/creation-site-consultant-nantes/"
+      },
+      {
+        "title": "Cabinet de conseil",
+        "url": "/creation-site-cabinet-conseil-nantes/"
+      },
+      {
+        "title": "PME",
+        "url": "/creation-site-web-nantes/"
+      },
+      {
+        "title": "Profession libérale",
+        "url": "/creation-site-profession-liberale-nantes/"
+      }
+    ],
+    "secteur-final-cta-title": "Votre expertise mérite un site à la hauteur de votre cabinet",
+    "secteur-final-cta-text": "Recevez sous 48h une proposition de maquette personnalisée pour présenter votre cabinet, vos avocats et vos domaines d'intervention. Sans engagement.",
+    "secteur-final-cta-points": [
+      {
+        "text": "Design sobre et crédible adapté au secteur juridique"
+      },
+      {
+        "text": "Architecture SEO autour de vos expertises"
+      },
+      {
+        "text": "Accompagnement par une agence web nantaise"
+      }
+    ],
+    "secteur-final-form-job-label": "Votre domaine d'intervention principal",
+    "secteur-final-reassurance": [
+      {
+        "text": "Maquette sans engagement"
+      },
+      {
+        "text": "Échange confidentiel"
+      },
+      {
+        "text": "Agence basée près de Nantes"
+      }
+    ]
+  }
+}

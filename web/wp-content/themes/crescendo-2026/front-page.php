@@ -2,21 +2,18 @@
 get_header();
 get_header('nav');
 ?>
-    <main id="main" class="main" data-module="homePage" data-context="@visible true">
-        <?php
-        if (have_posts()) :
-            while (have_posts()) :
-                the_post();
-                get_template_part('template-parts/content', 'post');
-            endwhile;
-        endif;
-        ?>
-        <br>
-        <a href="" class="rgpd-link">Manage cookies</a>
-    </main>
+<main id="main" class="main home-page" data-module="homePage" data-context="@visible true">
+    <?php lsdGetTemplatePart('home', 'block', 'hero'); ?>
+    <?php lsdGetTemplatePart('home', 'block', 'trust'); ?>
+    <?php lsdGetTemplatePart('home', 'block', 'services'); ?>
+    <?php lsdGetTemplatePart('home', 'block', 'why'); ?>
+    <?php lsdGetTemplatePart('home', 'block', 'method'); ?>
+    <?php lsdGetTemplatePart('home', 'block', 'pricing'); ?>
+    <?php lsdGetTemplatePart('home', 'block', 'crm'); ?>
+    <?php lsdGetTemplatePart('home', 'block', 'testimonials'); ?>
+    <?php lsdGetTemplatePart('home', 'block', 'cta'); ?>
+    <?php lsdGetTemplatePart('home', 'block', 'faq-contact'); ?>
+</main>
 <?php
-    get_template_part('template-parts/general/block', 'rgpd');
-?>
-
-<?php
+get_template_part('template-parts/general/block', 'rgpd');
 get_footer();

@@ -1,0 +1,247 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création de site e-commerce à Nantes",
+    "slug": "creation-site-ecommerce-nantes",
+    "menu_order": 13,
+    "status": "publish"
+  },
+  "seo": {
+    "meta_title": "Création site e-commerce Nantes — WooCommerce sur mesure | Crescendo",
+    "meta_description": "Création de site e-commerce à Nantes : WooCommerce sur mesure, paiement sécurisé, SEO produits, design premium. Boutique en ligne performante. Devis gratuit.",
+    "focus_keyword": "création site e-commerce nantes",
+    "canonical": "https://crescendo-studio.io/creation-site-ecommerce-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "service-hero-eyebrow": "E-commerce · Nantes",
+    "service-hero-title": "Création de site e-commerce à Nantes",
+    "service-hero-intro": "Vendez en ligne avec une boutique WooCommerce sur mesure : catalogue produits, tunnel d'achat optimisé, paiement sécurisé et SEO produits intégré. Nous créons des sites e-commerce performants pour les marques et commerçants nantais — sans Shopify ni template générique.",
+    "service-hero-cta-primary": {
+      "title": "Demander un devis e-commerce",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-hero-cta-secondary": {
+      "title": "Voir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+    "service-hero-note": "Boutique livrée en 8 à 12 semaines",
+    "service-benefits": [
+      {
+        "title": "WooCommerce sur mesure",
+        "text": "Design boutique aligné sur votre marque — pas de thème Shopify limité."
+      },
+      {
+        "title": "Tunnel de conversion",
+        "text": "Panier, checkout et relances optimisés pour réduire l'abandon."
+      },
+      {
+        "title": "SEO produits",
+        "text": "Fiches produits, catégories et schema.org Product intégrés."
+      },
+      {
+        "title": "Propriété totale",
+        "text": "WordPress + WooCommerce : vous possédez votre boutique et vos données."
+      }
+    ],
+    "service-included-eyebrow": "Boutique clé en main",
+    "service-included-title": "Ce qui est inclus dans votre site e-commerce",
+    "service-included-text": "De la stratégie catalogue au paiement en ligne, nous couvrons l'ensemble du projet e-commerce B2C ou B2B.",
+    "service-included-price": "Sur devis",
+    "service-included-price-suffix": "",
+    "service-included-cta": {
+      "title": "Estimer mon projet",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-included-features": [
+      {
+        "text": "Design UX/UI boutique sur mesure"
+      },
+      {
+        "text": "Catalogue produits et variations"
+      },
+      {
+        "text": "Paiement CB (Stripe, PayPal, etc.)"
+      },
+      {
+        "text": "Gestion stocks et commandes"
+      },
+      {
+        "text": "Livraison et zones tarifaires"
+      },
+      {
+        "text": "SEO fiches produits et catégories"
+      },
+      {
+        "text": "Emails transactionnels brandés"
+      },
+      {
+        "text": "Formation gestion boutique"
+      }
+    ],
+    "service-compare-eyebrow": "WooCommerce vs Shopify",
+    "service-compare-title": "Pourquoi choisir WooCommerce sur mesure ?",
+    "service-compare-text": "Shopify facture des abonnements et des commissions. WooCommerce sur WordPress vous donne le contrôle total, sans commission par vente.",
+    "service-compare-cta": {
+      "title": "Discuter de mon projet",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-compare-col1-label": "WooCommerce sur mesure",
+    "service-compare-col2-label": "Shopify / SaaS",
+    "service-compare-table": [
+      {
+        "label": "Commission par vente",
+        "col1": "0%",
+        "col2": "0,5–2%"
+      },
+      {
+        "label": "Design",
+        "col1": "100 % personnalisé",
+        "col2": "Thème limité"
+      },
+      {
+        "label": "SEO",
+        "col1": "Contrôle total",
+        "col2": "Contraint"
+      },
+      {
+        "label": "Propriété des données",
+        "col1": "Vous",
+        "col2": "Plateforme"
+      },
+      {
+        "label": "Coût mensuel plateforme",
+        "col1": "Hébergement seul",
+        "col2": "29–299€+"
+      },
+      {
+        "label": "Évolutivité",
+        "col1": "Illimitée (WordPress)",
+        "col2": "Apps payantes"
+      }
+    ],
+    "service-compare-note": "Idéal pour les marques qui veulent posséder leur canal de vente",
+    "service-audience-eyebrow": "Profils e-commerce",
+    "service-audience-title": "Quelle boutique pour votre activité ?",
+    "service-audience-cards": [
+      {
+        "title": "Marque D2C",
+        "text": "Vente directe au consommateur, storytelling de marque.",
+        "url": "/creation-site-ecommerce-nantes/"
+      },
+      {
+        "title": "Artisan créateur",
+        "text": "Catalogue limité, mise en valeur produit.",
+        "url": "/creation-site-artisan-nantes/"
+      },
+      {
+        "title": "B2B / grossiste",
+        "text": "Tarifs dégressifs, commandes récurrentes.",
+        "url": "/creation-site-web-nantes/"
+      },
+      {
+        "title": "Click & collect",
+        "text": "Commerçant nantais, retrait en magasin.",
+        "url": "/creation-site-restaurant-nantes/"
+      }
+    ],
+    "service-projects-eyebrow": "Projets e-commerce",
+    "service-projects-title": "Des boutiques conçues pour vendre.",
+    "service-projects": [
+      {
+        "title": "Bag X Pro",
+        "category": "Industrie B2B",
+        "tags": "Catalogue · Devis en ligne",
+        "url": "/realisations/bag-x-pro/"
+      },
+      {
+        "title": "Be Focus",
+        "category": "Formation",
+        "tags": "Réservation · Paiement",
+        "url": "/realisations/be-focus/"
+      },
+      {
+        "title": "Maison Jaden",
+        "category": "Lead gen B2C",
+        "tags": "WordPress · CRM",
+        "url": "/realisations/maison-jaden/"
+      }
+    ],
+    "service-method-eyebrow": "Méthode e-commerce",
+    "service-method-title": "Lancer votre boutique en 5 phases.",
+    "service-method-steps": [
+      {
+        "title": "Cadrage catalogue",
+        "text": "Produits, catégories, modes de livraison et paiement."
+      },
+      {
+        "title": "Design boutique",
+        "text": "Maquette fiches produit, listing, panier et checkout."
+      },
+      {
+        "title": "Intégration WooCommerce",
+        "text": "Catalogue, stocks, taxes, moyens de paiement."
+      },
+      {
+        "title": "Tests commandes",
+        "text": "Parcours complet, emails, remboursements test."
+      },
+      {
+        "title": "Lancement & SEO",
+        "text": "Indexation produits, Google Merchant Center si besoin."
+      }
+    ],
+    "service-faq-eyebrow": "FAQ e-commerce",
+    "service-faq-title": "Questions sur la création de site e-commerce à Nantes.",
+    "service-faq-items": [
+      {
+        "question": "Combien coûte un site e-commerce à Nantes ?",
+        "answer": "Entre 5 000 et 15 000 € selon le nombre de produits, les variations, les langues et les intégrations (ERP, CRM). Devis personnalisé après cadrage."
+      },
+      {
+        "question": "WooCommerce ou Shopify : que recommandez-vous ?",
+        "answer": "WooCommerce si vous voulez la propriété, zéro commission et un design unique. Shopify si vous voulez démarrer en 48 h avec un budget template."
+      },
+      {
+        "question": "Quels moyens de paiement sont intégrables ?",
+        "answer": "Stripe, PayPal, Alma (paiement fractionné), virement — selon vos besoins et votre secteur."
+      },
+      {
+        "question": "Gérez-vous la logistique et les transporteurs ?",
+        "answer": "Nous configurons les zones, tarifs et connecteurs (Colissimo, Mondial Relay, etc.). L'expédition reste de votre côté."
+      },
+      {
+        "question": "Mon site e-commerce sera-t-il référencé sur Google ?",
+        "answer": "Oui. SEO technique, fiches produits optimisées, schema.org Product et maillage interne catégories."
+      },
+      {
+        "question": "Puis-je vendre en B2B avec tarifs dégressifs ?",
+        "answer": "Oui. WooCommerce B2B : comptes clients, tarifs par rôle, commandes sans paiement immédiat."
+      },
+      {
+        "question": "Quel délai pour ouvrir ma boutique ?",
+        "answer": "8 à 12 semaines pour un catalogue standard. Projets complexes : 12 à 16 semaines."
+      },
+      {
+        "question": "Assurez-vous la maintenance de la boutique ?",
+        "answer": "Oui. Mises à jour WooCommerce, sécurité, sauvegardes et support via contrat maintenance."
+      }
+    ],
+    "service-final-cta-title": "Lancez votre boutique en ligne à Nantes",
+    "service-final-reassurance": [
+      {
+        "text": "WooCommerce sur mesure"
+      },
+      {
+        "text": "0% commission plateforme"
+      },
+      {
+        "text": "Devis personnalisé"
+      }
+    ]
+  }
+}

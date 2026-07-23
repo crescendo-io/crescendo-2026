@@ -1,0 +1,76 @@
+{
+    "key": "group_679a6real001",
+    "title": "Page Réalisations — Contenu",
+    "fields": [
+        { "key": "field_679a6tabseo001", "label": "SEO", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6seotitle1", "label": "Meta title", "name": "realisations-seo-meta-title", "type": "text" },
+        { "key": "field_679a6seodesc01", "label": "Meta description", "name": "realisations-seo-meta-description", "type": "textarea", "rows": 3 },
+        { "key": "field_679a6seokey001", "label": "Mot-clé principal", "name": "realisations-seo-focus-keyword", "type": "text" },
+        { "key": "field_679a6seocanon1", "label": "URL canonique", "name": "realisations-seo-canonical", "type": "url" },
+        { "key": "field_679a6seonoindex", "label": "Noindex", "name": "realisations-seo-noindex", "type": "true_false", "ui": 1 },
+
+        { "key": "field_679a6tabhero01", "label": "Hero", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6hero001", "label": "Sur-titre", "name": "realisations-hero-eyebrow", "type": "text" },
+        { "key": "field_679a6hero002", "label": "Titre H1", "name": "realisations-hero-title", "type": "text" },
+        { "key": "field_679a6hero003", "label": "Intro", "name": "realisations-hero-intro", "type": "textarea", "rows": 4 },
+        { "key": "field_679a6hero004", "label": "CTA principal", "name": "realisations-hero-cta-primary", "type": "link" },
+
+        { "key": "field_679a6tabintro1", "label": "Intro", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6intro001", "label": "Texte", "name": "realisations-intro-text", "type": "textarea", "rows": 4 },
+        {
+            "key": "field_679a6intro002",
+            "label": "Chiffres clés",
+            "name": "realisations-intro-stats",
+            "type": "repeater",
+            "layout": "table",
+            "max": 4,
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a6intro003", "label": "Valeur", "name": "value", "type": "text" },
+                { "key": "field_679a6intro004", "label": "Label", "name": "label", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a6tabproj01", "label": "Projets", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6proj001", "label": "Sur-titre", "name": "realisations-projects-eyebrow", "type": "text" },
+        { "key": "field_679a6proj002", "label": "Titre H2", "name": "realisations-projects-title", "type": "text" },
+        {
+            "key": "field_679a6proj003",
+            "label": "Projets",
+            "name": "realisations-projects",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a6proj004", "label": "Image", "name": "image", "type": "image", "return_format": "array", "preview_size": "medium" },
+                { "key": "field_679a6proj005", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a6proj006", "label": "Catégorie", "name": "category", "type": "text" },
+                { "key": "field_679a6proj007", "label": "Tags", "name": "tags", "type": "text" },
+                { "key": "field_679a6proj008", "label": "Texte", "name": "text", "type": "textarea", "rows": 3 },
+                { "key": "field_679a6proj009", "label": "URL", "name": "url", "type": "url" },
+                { "key": "field_679a6proj010", "label": "CRM intégré", "name": "has_crm", "type": "true_false", "ui": 1 }
+            ]
+        },
+
+        { "key": "field_679a6tabcta001", "label": "CTA final", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6cta001", "label": "Titre", "name": "realisations-cta-title", "type": "text" },
+        { "key": "field_679a6cta002", "label": "Texte", "name": "realisations-cta-text", "type": "textarea", "rows": 2 },
+        { "key": "field_679a6cta003", "label": "Bouton", "name": "realisations-cta-button", "type": "link" }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-realisations.php"
+            }
+        ]
+    ],
+    "menu_order": 6,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "modified": 1784746800
+}

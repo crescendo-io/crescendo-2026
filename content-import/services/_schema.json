@@ -1,0 +1,52 @@
+{
+  "$schema": "Crescendo Service Page Import v1",
+  "description": "Format d'import JSON pour les pages money (template Page Service SEO). Les clés dans fields correspondent aux champs ACF service-*.",
+  "required": ["page.title", "page.slug"],
+  "structure": {
+    "version": "1.0",
+    "page": {
+      "title": "Titre WordPress de la page",
+      "slug": "slug-url-sans-slash",
+      "status": "publish | draft",
+      "parent": "slug-parent-optionnel",
+      "menu_order": 0,
+      "content": "Contenu WP optionnel (laisser vide)"
+    },
+    "seo": {
+      "meta_title": "55-60 car. · Requête | Crescendo Studio",
+      "meta_description": "140-160 car.",
+      "focus_keyword": "mot-clé principal",
+      "canonical": "https://crescendo-studio.io/slug/",
+      "noindex": false
+    },
+    "fields": {
+      "service-hero-*": "Voir location-site-internet.json pour exemple complet"
+    }
+  },
+  "seo_checklist": [
+    "1 seul H1 = service-hero-title (requête cible)",
+    "Intro 120+ mots dans service-hero-intro",
+    "H2 structurés : problème, solution, méthode, réalisations, tarifs, FAQ, zone",
+    "Minimum 3 liens internes via service-related-links",
+    "5-8 questions FAQ pour schema FAQPage",
+    "Meta title et description uniques"
+  ],
+  "import": {
+    "admin": "Outils → Import Service JSON",
+    "cli": "wp crescendo import-service content-import/services/location-site-internet.json",
+    "directory": "content-import/services/",
+    "generator_money": "python3 content-import/services/build-money-pages.py"
+  },
+  "money_pages": [
+    "agence-web-nantes.json",
+    "creation-site-web-nantes.json",
+    "location-site-internet.json",
+    "creation-site-wordpress.json",
+    "refonte-site-wordpress.json",
+    "creation-site-ecommerce-nantes.json",
+    "creation-site-vitrine-nantes.json",
+    "maintenance.json",
+    "crm-sur-mesure-nantes.json",
+    "SEO.json"
+  ]
+}

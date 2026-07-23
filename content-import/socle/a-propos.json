@@ -1,0 +1,74 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "À propos",
+    "slug": "a-propos",
+    "template": "about",
+    "status": "publish",
+    "menu_order": 85,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "À propos · Agence web WordPress à Nantes | Crescendo Studio",
+    "meta_description": "Découvrez Crescendo Studio : agence web nantaise spécialisée en WordPress sur mesure, CRM et location de site dès 350€/mois. Transparence, expertise locale, résultats concrets.",
+    "focus_keyword": "agence web nantes crescendo",
+    "canonical": "https://crescendo-studio.io/a-propos/",
+    "noindex": false
+  },
+  "fields": {
+    "about-hero-eyebrow": "Qui sommes-nous ?",
+    "about-hero-title": "Crescendo Studio, agence web à Nantes",
+    "about-hero-intro": "Nous concevons des sites WordPress sur mesure, des CRM connectés et des parcours digitaux pensés pour générer des leads qualifiés. Basés à Nantes, nous accompagnons les TPE, PME et professions libérales en Loire-Atlantique avec une approche directe : stratégie, design, développement et suivi.",
+
+    "about-story-title": "Une agence locale, ancrée dans la réalité de nos clients",
+    "about-story-text": "<p>Crescendo Studio est née d'un constat simple : trop d'entreprises investissent dans un site générique qui ne convertit pas, n'est pas maintenu et ne s'intègre pas à leur process commercial.</p><p>Notre réponse : du sur-mesure WordPress, un SEO intégré dès la conception, des tarifs transparents (location dès 350€/mois sans frais de création) et, quand le projet l'exige, un CRM connecté au site pour ne plus perdre de prospects.</p><p>Nous travaillons en proximité avec nos clients — artisans, cabinets, PME industrielles, organismes de formation, agences immobilières — sur Nantes, la métropole et la Loire-Atlantique. Chaque projet est piloté par une équipe réactive, avec une maquette gratuite sous 48h pour valider la direction avant de démarrer.</p>",
+    "about-story-stats": [
+      { "value": "2018", "label": "Année de création" },
+      { "value": "9+", "label": "Projets livrés" },
+      { "value": "48h", "label": "Maquette gratuite" },
+      { "value": "100%", "label": "WordPress sur mesure" }
+    ],
+
+    "about-values-eyebrow": "Nos engagements",
+    "about-values-title": "Ce qui guide chaque projet",
+    "about-values-items": [
+      {
+        "title": "Transparence tarifaire",
+        "text": "Pas de devis opaques ni de mauvaises surprises. Location tout inclus ou achat : vous savez ce que vous payez et ce que vous obtenez."
+      },
+      {
+        "title": "Sur-mesure, pas de template",
+        "text": "Chaque site est conçu pour votre métier, votre cible et vos objectifs business. Nous refusons les solutions copiées-collées."
+      },
+      {
+        "title": "SEO dès le départ",
+        "text": "Structure, contenu, performance et maillage interne sont pensés pour Google dès la phase de conception — pas en option après coup."
+      },
+      {
+        "title": "Accompagnement de A à Z",
+        "text": "Stratégie, maquette, développement, mise en ligne, formation et maintenance : nous restons à vos côtés après le lancement."
+      }
+    ],
+
+    "about-expertise-eyebrow": "Notre expertise",
+    "about-expertise-title": "WordPress, CRM et croissance digitale",
+    "about-expertise-text": "Notre cœur de métier : des sites performants qui servent votre activité. Nous maîtrisons l'écosystème WordPress, WooCommerce, les intégrations CRM (HubSpot, Pipedrive, solutions sur mesure) et le référencement local pour les entreprises nantaises.",
+    "about-expertise-items": [
+      { "text": "Sites vitrine et institutionnels WordPress sur mesure" },
+      { "text": "E-commerce WooCommerce avec tunnel d'achat optimisé" },
+      { "text": "Refontes sans perte de référencement" },
+      { "text": "CRM sur mesure connecté au site web" },
+      { "text": "Location de site tout inclus dès 350€/mois" },
+      { "text": "SEO local Nantes et Loire-Atlantique" },
+      { "text": "Maintenance, sécurité et évolutions continues" }
+    ],
+
+    "about-cta-title": "Envie de travailler avec nous ?",
+    "about-cta-text": "Parlons de votre projet. Nous vous proposons une maquette gratuite en 48h pour valider la direction créative avant tout engagement.",
+    "about-cta-button": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

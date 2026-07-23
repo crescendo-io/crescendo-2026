@@ -1,0 +1,293 @@
+{
+    "key": "group_679a4local01",
+    "title": "Page Local — Contenu SEO",
+    "fields": [
+        { "key": "field_679a4tabseo001", "label": "SEO", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a4seotitle1", "label": "Meta title", "name": "local-seo-meta-title", "type": "text" },
+        { "key": "field_679a4seodesc01", "label": "Meta description", "name": "local-seo-meta-description", "type": "textarea", "rows": 3 },
+        { "key": "field_679a4seokey001", "label": "Mot-clé principal", "name": "local-seo-focus-keyword", "type": "text" },
+        { "key": "field_679a4seocanon1", "label": "URL canonique", "name": "local-seo-canonical", "type": "url" },
+        { "key": "field_679a4seonoindex", "label": "Noindex", "name": "local-seo-noindex", "type": "true_false", "ui": 1 },
+        { "key": "field_679a4cityname1", "label": "Nom de la ville (schema)", "name": "local-city-name", "type": "text" },
+        { "key": "field_679a4showtoc01", "label": "Afficher le sommaire", "name": "local-show-toc", "type": "true_false", "ui": 1, "default_value": 1 },
+        { "key": "field_679a4toctitle1", "label": "Titre sommaire", "name": "local-toc-title", "type": "text", "default_value": "Sommaire" },
+
+        { "key": "field_679a4tabhero01", "label": "Hero", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a4hero001", "label": "Sur-titre", "name": "local-hero-eyebrow", "type": "text" },
+        { "key": "field_679a4hero002", "label": "Titre H1", "name": "local-hero-title", "type": "text" },
+        { "key": "field_679a4hero003", "label": "Intro", "name": "local-hero-intro", "type": "textarea", "rows": 4 },
+        { "key": "field_679a4hero004", "label": "CTA principal", "name": "local-hero-cta-primary", "type": "link" },
+        { "key": "field_679a4hero005", "label": "CTA secondaire", "name": "local-hero-cta-secondary", "type": "link" },
+        { "key": "field_679a4hero006", "label": "Image", "name": "local-hero-image", "type": "image", "return_format": "array", "preview_size": "medium" },
+        { "key": "field_679a4hero007", "label": "Note sous CTA", "name": "local-hero-note", "type": "text" },
+        {
+            "key": "field_679a4hero008",
+            "label": "4 bénéfices (barre basse)",
+            "name": "local-benefits",
+            "type": "repeater",
+            "layout": "table",
+            "max": 4,
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a4hero009", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a4hero010", "label": "Texte", "name": "text", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a4tabsect01", "label": "Contenu local", "name": "", "type": "tab", "placement": "top" },
+        {
+            "key": "field_679a4sect001",
+            "label": "Sections éditoriales",
+            "name": "local-sections",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter une section",
+            "sub_fields": [
+                { "key": "field_679a4sect002", "label": "Titre H2", "name": "title", "type": "text" },
+                { "key": "field_679a4sect004", "label": "Ancre (slug)", "name": "anchor", "type": "text" },
+                { "key": "field_679a4sect003", "label": "Texte", "name": "text", "type": "wysiwyg", "tabs": "visual", "toolbar": "basic", "media_upload": 0 }
+            ]
+        },
+        { "key": "field_679a4facts001", "label": "Titre encart faits locaux", "name": "local-facts-title", "type": "text", "default_value": "Le saviez-vous ?" },
+        {
+            "key": "field_679a4facts002",
+            "label": "Faits locaux",
+            "name": "local-facts",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a4facts003", "label": "Texte", "name": "text", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a4tabpain01", "label": "Problèmes", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a4pain001", "label": "Titre H2", "name": "local-pain-title", "type": "text" },
+        {
+            "key": "field_679a4pain002",
+            "label": "Cartes (4 max)",
+            "name": "local-pain-items",
+            "type": "repeater",
+            "layout": "block",
+            "max": 4,
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a4pain003", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a4pain004", "label": "Texte", "name": "text", "type": "textarea", "rows": 3 }
+            ]
+        },
+
+        { "key": "field_679a4tabsol001", "label": "Solution", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a4sol001", "label": "Titre H2", "name": "local-solution-title", "type": "text" },
+        { "key": "field_679a4sol002", "label": "Texte", "name": "local-solution-text", "type": "textarea", "rows": 4 },
+        { "key": "field_679a4sol003", "label": "Prix highlight", "name": "local-solution-price", "type": "text" },
+        { "key": "field_679a4sol004", "label": "Label prix", "name": "local-solution-price-label", "type": "text" },
+        {
+            "key": "field_679a4sol005",
+            "label": "USP (3 max)",
+            "name": "local-solution-usps",
+            "type": "repeater",
+            "layout": "block",
+            "max": 3,
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a4sol006", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a4sol007", "label": "Texte", "name": "text", "type": "textarea", "rows": 2 }
+            ]
+        },
+
+        { "key": "field_679a4tabfeat01", "label": "Fonctionnalités", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a4feat001", "label": "Titre H2", "name": "local-features-title", "type": "text" },
+        {
+            "key": "field_679a4feat002",
+            "label": "Items (6 max)",
+            "name": "local-features-items",
+            "type": "repeater",
+            "layout": "block",
+            "max": 6,
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a4feat003", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a4feat004", "label": "Texte", "name": "text", "type": "textarea", "rows": 2 }
+            ]
+        },
+
+        { "key": "field_679a4tabmeth01", "label": "Méthode", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a4meth001", "label": "Sur-titre", "name": "local-method-eyebrow", "type": "text" },
+        { "key": "field_679a4meth002", "label": "Titre H2", "name": "local-method-title", "type": "text" },
+        {
+            "key": "field_679a4meth003",
+            "label": "Étapes",
+            "name": "local-method-steps",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a4meth004", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a4meth005", "label": "Texte", "name": "text", "type": "textarea", "rows": 3 }
+            ]
+        },
+
+        { "key": "field_679a4tabproj01", "label": "Réalisations", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a4proj001", "label": "Sur-titre", "name": "local-projects-eyebrow", "type": "text" },
+        { "key": "field_679a4proj002", "label": "Titre H2", "name": "local-projects-title", "type": "text" },
+        {
+            "key": "field_679a4proj003",
+            "label": "Projets",
+            "name": "local-projects",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a4proj004", "label": "Image", "name": "image", "type": "image", "return_format": "array", "preview_size": "medium" },
+                { "key": "field_679a4proj005", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a4proj006", "label": "Tags", "name": "tags", "type": "text" },
+                { "key": "field_679a4proj007", "label": "Texte", "name": "text", "type": "textarea", "rows": 3 },
+                { "key": "field_679a4proj008", "label": "URL", "name": "url", "type": "url" }
+            ]
+        },
+
+        { "key": "field_679a4tabcase01", "label": "Étude de cas", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a4case001", "label": "Titre section", "name": "local-case-title", "type": "text" },
+        { "key": "field_679a4case002", "label": "Nom projet", "name": "local-case-project-title", "type": "text" },
+        { "key": "field_679a4case003", "label": "Tags", "name": "local-case-project-tags", "type": "text" },
+        {
+            "key": "field_679a4case004",
+            "label": "Points clés",
+            "name": "local-case-project-points",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a4case005", "label": "Texte", "name": "text", "type": "text" }
+            ]
+        },
+        { "key": "field_679a4case006", "label": "URL projet", "name": "local-case-project-url", "type": "url" },
+        { "key": "field_679a4case007", "label": "Image", "name": "local-case-project-image", "type": "image", "return_format": "array", "preview_size": "medium" },
+
+        { "key": "field_679a4tabprice1", "label": "Tarifs", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a4price001", "label": "Titre H2", "name": "local-pricing-title", "type": "text" },
+        { "key": "field_679a4price002", "label": "Prix", "name": "local-pricing-price", "type": "text" },
+        { "key": "field_679a4price003", "label": "Suffixe prix", "name": "local-pricing-price-suffix", "type": "text", "default_value": "/mois" },
+        { "key": "field_679a4price004", "label": "CTA", "name": "local-pricing-cta", "type": "link" },
+        { "key": "field_679a4price005", "label": "Label colonne 1", "name": "local-pricing-col1-label", "type": "text" },
+        { "key": "field_679a4price006", "label": "Label colonne 2", "name": "local-pricing-col2-label", "type": "text" },
+        {
+            "key": "field_679a4price007",
+            "label": "Liste incluse",
+            "name": "local-pricing-features",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a4price008", "label": "Texte", "name": "text", "type": "text" }
+            ]
+        },
+        {
+            "key": "field_679a4price009",
+            "label": "Tableau comparatif",
+            "name": "local-pricing-table",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter une ligne",
+            "sub_fields": [
+                { "key": "field_679a4price010", "label": "Critère", "name": "label", "type": "text" },
+                { "key": "field_679a4price011", "label": "Colonne 1", "name": "col1", "type": "text" },
+                { "key": "field_679a4price012", "label": "Colonne 2", "name": "col2", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a4tabarea01", "label": "Zone locale", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a4area001", "label": "Titre H2", "name": "local-area-title", "type": "text" },
+        { "key": "field_679a4area002", "label": "Texte", "name": "local-area-text", "type": "textarea", "rows": 3 },
+        {
+            "key": "field_679a4area003",
+            "label": "Villes",
+            "name": "local-area-cities",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a4area004", "label": "Nom", "name": "name", "type": "text" },
+                { "key": "field_679a4area005", "label": "URL", "name": "url", "type": "url" }
+            ]
+        },
+        { "key": "field_679a4area006", "label": "Lien voir tout", "name": "local-area-see-all", "type": "link" },
+
+        { "key": "field_679a4tabfaq001", "label": "FAQ", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a4faq001", "label": "Sur-titre", "name": "local-faq-eyebrow", "type": "text" },
+        { "key": "field_679a4faq002", "label": "Titre H2", "name": "local-faq-title", "type": "text" },
+        {
+            "key": "field_679a4faq003",
+            "label": "Questions",
+            "name": "local-faq-items",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a4faq004", "label": "Question", "name": "question", "type": "text" },
+                { "key": "field_679a4faq005", "label": "Réponse", "name": "answer", "type": "textarea", "rows": 3 }
+            ]
+        },
+
+        { "key": "field_679a4tabrel001", "label": "Secteurs liés", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a4rel001", "label": "Titre H2", "name": "local-related-title", "type": "text" },
+        {
+            "key": "field_679a4rel002",
+            "label": "Cartes (6 max)",
+            "name": "local-related-sectors",
+            "type": "repeater",
+            "layout": "block",
+            "max": 6,
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a4rel003", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a4rel004", "label": "URL", "name": "url", "type": "url" }
+            ]
+        },
+
+        { "key": "field_679a4tabcta001", "label": "CTA final", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a4cta001", "label": "Titre", "name": "local-final-cta-title", "type": "text" },
+        { "key": "field_679a4cta002", "label": "Texte", "name": "local-final-cta-text", "type": "textarea", "rows": 3 },
+        {
+            "key": "field_679a4cta003",
+            "label": "Points",
+            "name": "local-final-cta-points",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a4cta004", "label": "Texte", "name": "text", "type": "text" }
+            ]
+        },
+        { "key": "field_679a4cta005", "label": "Shortcode formulaire", "name": "local-contact-form-shortcode", "type": "text" },
+        { "key": "field_679a4cta006", "label": "Label select métier", "name": "local-final-form-job-label", "type": "text", "default_value": "Métier" },
+        {
+            "key": "field_679a4cta007",
+            "label": "Réassurance",
+            "name": "local-final-reassurance",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a4cta008", "label": "Texte", "name": "text", "type": "text" }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-local.php"
+            }
+        ]
+    ],
+    "menu_order": 3,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "modified": 1784746800
+}

@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Padam Immo",
+    "slug": "padam-immo",
+    "parent": "realisations",
+    "status": "publish",
+    "menu_order": 90,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Refonte Padam Immo · Étude de cas | Crescendo Studio",
+    "meta_description": "Refonte du site Padam Immo : vitrine immobilière premium avec mise en avant des biens, pages quartier SEO et design renforçant la crédibilité de l'agence.",
+    "focus_keyword": "refonte site padam immo",
+    "canonical": "https://crescendo-studio.io/realisations/padam-immo/",
+    "noindex": false
+  },
+  "fields": {
+    "project-hero-eyebrow": "Étude de cas · Refonte",
+    "project-hero-title": "Refonte du site Padam Immo",
+    "project-hero-intro": "Refonte du site Padam Immo : vitrine immobilière premium avec mise en avant des biens, pages quartier SEO et design renforçant la crédibilité de l'agence.",
+    "project-client-name": "Padam Immo",
+    "project-client-url": "https://www.padamimmo.fr/",
+    "project-sector": "Immobilier",
+    "project-year": "2024",
+    "project-tags": "Refonte · WordPress · SEO local · Vitrine premium",
+    "project-tech-tags": "WordPress · SEO local · Cartes",
+    "project-has-crm": false,
+    "project-gallery-title": "Aperçu du site refondu",
+    "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
+    "project-gallery-slots": 4,
+    "project-gallery": [],
+    "project-challenge-title": "Le contexte",
+    "project-challenge-text": "<p>Padam Immo voulait un site à l'image de son positionnement haut de gamme, capable de mettre en valeur les biens, de ranker sur les requêtes locales et de générer des contacts qualifiés.</p>",
+    "project-solution-title": "Notre approche",
+    "project-solution-text": "<p>Refonte WordPress avec fiches biens optimisées, pages quartier géolocalisées, design premium et parcours de contact simplifié pour les acquéreurs et vendeurs.</p>",
+    "project-results-title": "Résultats",
+    "project-results": [
+      {
+        "value": "+50%",
+        "label": "Contacts vendeurs"
+      },
+      {
+        "value": "Top 5",
+        "label": "SEO local agence"
+      },
+      {
+        "value": "Premium",
+        "label": "Design haut de gamme"
+      },
+      {
+        "value": "Quartiers",
+        "label": "Pages geo SEO"
+      }
+    ],
+    "project-cta-title": "Un projet de refonte similaire ?",
+    "project-cta-text": "Parlons de votre site. Nous vous proposons une maquette gratuite en 48h pour valider la direction avant de démarrer.",
+    "project-cta-button": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

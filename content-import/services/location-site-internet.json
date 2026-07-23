@@ -1,0 +1,135 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Location de site internet professionnel",
+    "slug": "location-site-internet",
+    "status": "publish",
+    "menu_order": 10
+  },
+  "seo": {
+    "meta_title": "Location site internet dès 350€/mois | Crescendo Studio",
+    "meta_description": "Louez votre site web professionnel dès 350€/mois sans frais de création. Création, hébergement, maintenance et SEO inclus. Maquette gratuite en 48h à Nantes.",
+    "focus_keyword": "location site internet",
+    "canonical": "https://crescendo-studio.io/location-site-internet/",
+    "noindex": false
+  },
+  "fields": {
+    "service-hero-eyebrow": "Location site internet",
+    "service-hero-title": "Location de site internet professionnel",
+    "service-hero-intro": "Site WordPress sur mesure dès 350€/mois — création, hébergement, maintenance et SEO inclus. Zéro frais de création.",
+    "service-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-hero-cta-secondary": {
+      "title": "Voir ce qui est inclus",
+      "url": "#inclus",
+      "target": ""
+    },
+    "service-hero-note": "Maquette gratuite en 48h",
+    "service-benefits": [
+      { "title": "Zéro investissement initial", "text": "Aucun budget de création à immobiliser. Votre site est opérationnel sans frais de setup." },
+      { "title": "Tout inclus", "text": "Création, hébergement, maintenance et mises à jour dans un seul abonnement mensuel." },
+      { "title": "SEO intégré dès le départ", "text": "Structure, performance et balisage pensés pour Google dès la conception." },
+      { "title": "Accompagnement local", "text": "Agence nantaise réactive, disponible et proche de vos enjeux business." }
+    ],
+    "service-included-eyebrow": "Offre location",
+    "service-included-title": "Ce qui est inclus dans les 350€/mois",
+    "service-included-text": "Une formule clé en main pour les TPE, PME et professions libérales qui veulent un site professionnel sans surprise budgétaire.",
+    "service-included-price": "350€",
+    "service-included-price-suffix": "/mois",
+    "service-included-cta": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-included-features": [
+      { "text": "Création du site sur mesure (WordPress)" },
+      { "text": "Design UX/UI personnalisé" },
+      { "text": "Hébergement premium" },
+      { "text": "Maintenance & mises à jour" },
+      { "text": "Sauvegardes quotidiennes" },
+      { "text": "Optimisation SEO de base" },
+      { "text": "Support réactif" },
+      { "text": "Évolutions mineures incluses" }
+    ],
+    "service-compare-eyebrow": "Location vs achat",
+    "service-compare-title": "Location ou achat ? Comparez sur 5 ans.",
+    "service-compare-text": "La location lisse votre budget et externalise la maintenance. L'achat demande un investissement initial plus élevé.",
+    "service-compare-cta": {
+      "title": "Choisir la location",
+      "url": "#contact",
+      "target": ""
+    },
+    "service-compare-col1-label": "Location 350€/mois",
+    "service-compare-col2-label": "Achat classique",
+    "service-compare-table": [
+      { "label": "Investissement initial", "col1": "0€", "col2": "3 000 – 8 000€" },
+      { "label": "Mensualité", "col1": "350€", "col2": "150–250€" },
+      { "label": "Création incluse", "col1": "✓", "col2": "✓" },
+      { "label": "Évolutions", "col1": "Incluses", "col2": "Sur devis" },
+      { "label": "Maintenance & sécurité", "col1": "Incluse", "col2": "Sur devis" },
+      { "label": "Total sur 5 ans", "col1": "~21 000€", "col2": "~25 000€+" }
+    ],
+    "service-compare-note": "Budget maîtrisé, zéro surprise",
+    "service-audience-eyebrow": "Pour qui ?",
+    "service-audience-title": "Une solution adaptée à votre activité.",
+    "service-audience-cards": [
+      { "title": "Artisan", "text": "Site vitrine optimisé pour générer des demandes de devis locales.", "url": "/creation-site-artisan-nantes/" },
+      { "title": "PME", "text": "Présence professionnelle sans immobiliser un budget de création.", "url": "/creation-site-web-nantes/" },
+      { "title": "Profession libérale", "text": "Image premium et référencement local pour votre cabinet.", "url": "/creation-site-avocat-nantes/" },
+      { "title": "Startup", "text": "Lancez vite avec un site évolutif et un budget maîtrisé.", "url": "/creation-site-startup-nantes/" }
+    ],
+    "service-projects-eyebrow": "Réalisations liées",
+    "service-projects-title": "Des sites livrés en location ou en création.",
+    "service-projects": [
+      { "title": "Maison Jaden", "category": "Constructeur", "tags": "WordPress · CRM", "url": "/realisations/maison-jaden/" },
+      { "title": "Be Focus", "category": "Formation", "tags": "WordPress · Booking", "url": "/realisations/be-focus/" },
+      { "title": "Padam Immo", "category": "Immobilier", "tags": "WordPress · SEO local", "url": "/realisations/padam-immo/" }
+    ],
+    "service-method-eyebrow": "Notre méthode",
+    "service-method-title": "Un accompagnement simple et efficace.",
+    "service-method-steps": [
+      { "title": "Maquette 48h", "text": "Direction créative gratuite pour valider le projet." },
+      { "title": "Validation", "text": "Ajustements et validation du contenu et du design." },
+      { "title": "Développement", "text": "Intégration WordPress sur mesure, optimisée SEO." },
+      { "title": "Mise en ligne", "text": "Lancement, tests et indexation Google." },
+      { "title": "Suivi mensuel", "text": "Maintenance, évolutions et optimisation continue." }
+    ],
+    "service-faq-eyebrow": "Questions fréquentes",
+    "service-faq-title": "Tout savoir sur la location de site internet.",
+    "service-faq-items": [
+      {
+        "question": "Que comprend exactement les 350€/mois ?",
+        "answer": "Création sur mesure, hébergement, maintenance, mises à jour, sauvegardes, SEO de base et support. Aucun frais de création."
+      },
+      {
+        "question": "Y a-t-il des frais de création ?",
+        "answer": "Non. La création du site est incluse dans la location. Vous payez uniquement l'abonnement mensuel."
+      },
+      {
+        "question": "Puis-je récupérer mon site si j'arrête ?",
+        "answer": "Oui, les modalités de réversibilité sont définies contractuellement, avec possibilité de rachat."
+      },
+      {
+        "question": "Quelle est la durée d'engagement ?",
+        "answer": "Nous proposons une formule flexible. Les conditions exactes sont précisées dans votre contrat."
+      },
+      {
+        "question": "Combien de temps pour la mise en ligne ?",
+        "answer": "Comptez 4 à 6 semaines après validation de la maquette pour un site vitrine professionnel."
+      },
+      {
+        "question": "Location ou achat : que choisir ?",
+        "answer": "La location convient si vous voulez lisser votre budget. L'achat si vous avez un budget initial confortable."
+      }
+    ],
+    "service-final-cta-title": "Prêt à lancer votre site dès 350€/mois ?",
+    "service-final-reassurance": [
+      { "text": "Sans engagement" },
+      { "text": "Réponse sous 24h" },
+      { "text": "Maquette gratuite en 48h" }
+    ]
+  }
+}

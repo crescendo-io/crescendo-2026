@@ -1,0 +1,307 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création de site web pour restaurants à Nantes",
+    "slug": "creation-site-restaurant-nantes",
+    "status": "publish",
+    "menu_order": 23
+  },
+  "seo": {
+    "meta_title": "Site web restaurant Nantes — Réservation dès 350€/mois | Crescendo",
+    "meta_description": "Création de site internet pour restaurant à Nantes : menu en ligne, réservation, SEO local, avis clients et design sur mesure. Maquette gratuite en 48h.",
+    "focus_keyword": "site web restaurant nantes",
+    "canonical": "https://crescendo-studio.io/creation-site-restaurant-nantes/",
+    "noindex": false
+  },
+  "fields": {
+    "secteur-hero-eyebrow": "Restaurant · Nantes",
+    "secteur-hero-title": "Création de site web pour restaurant à Nantes",
+    "secteur-hero-intro": "Vous dirigez un restaurant, une brasserie, un bar ou un établissement gastronomique à Nantes ? Nous créons des sites WordPress sur mesure qui donnent envie de réserver, valorisent votre cuisine et améliorent votre visibilité sur Google. Une solution complète dès 350€/mois, sans frais de création.",
+    "secteur-hero-cta-primary": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-hero-cta-secondary": {
+      "title": "Voir nos réalisations",
+      "url": "/realisations/",
+      "target": ""
+    },
+    "secteur-hero-note": "Maquette personnalisée sous 48h",
+    "secteur-benefits": [
+      {
+        "title": "Plus de réservations",
+        "text": "Permettez à vos clients de réserver une table directement depuis votre site."
+      },
+      {
+        "title": "Menu toujours à jour",
+        "text": "Présentez votre carte, vos formules, vos vins et vos menus de saison."
+      },
+      {
+        "title": "SEO local",
+        "text": "Soyez visible sur les recherches comme « restaurant Nantes » ou « restaurant gastronomique Nantes »."
+      },
+      {
+        "title": "Sans investissement initial",
+        "text": "Site sur mesure, hébergement et maintenance inclus dès 350€/mois."
+      }
+    ],
+    "secteur-pain-title": "Pourquoi de nombreux restaurants perdent des réservations en ligne",
+    "secteur-pain-items": [
+      {
+        "title": "Une dépendance aux plateformes",
+        "text": "Google, TheFork, Tripadvisor et les réseaux sociaux vous apportent de la visibilité, mais vous ne maîtrisez ni votre image ni la relation avec vos clients."
+      },
+      {
+        "title": "Une carte difficile à consulter",
+        "text": "Un menu en PDF illisible sur mobile décourage les visiteurs qui veulent rapidement connaître vos plats et vos tarifs."
+      },
+      {
+        "title": "Une réservation trop compliquée",
+        "text": "Si le client doit appeler pendant le service ou attendre une réponse sur Instagram, il peut choisir un autre établissement."
+      },
+      {
+        "title": "Un site qui ne donne pas faim",
+        "text": "Des photos peu valorisées, un design daté ou un site lent peuvent nuire à l'image de votre cuisine."
+      }
+    ],
+    "secteur-solution-title": "Un site internet conçu pour remplir votre salle",
+    "secteur-solution-text": "Chez Crescendo Studio, nous concevons chaque site de restaurant comme une expérience à part entière. L'univers graphique, les photographies, la carte, les horaires et la réservation sont organisés pour donner envie de découvrir votre établissement et faciliter le passage à l'action.",
+    "secteur-solution-price": "350€/mois",
+    "secteur-solution-price-label": "Création, hébergement, maintenance et accompagnement inclus",
+    "secteur-solution-usps": [
+      {
+        "title": "Design immersif",
+        "text": "Une direction artistique fidèle à l'ambiance, au positionnement et à la cuisine de votre établissement."
+      },
+      {
+        "title": "Réservation intégrée",
+        "text": "Connexion à Zenchef, TheFork, Guestonline ou à votre solution habituelle."
+      },
+      {
+        "title": "Référencement local",
+        "text": "Des pages et contenus optimisés pour attirer une clientèle à Nantes et dans les environs."
+      }
+    ],
+    "secteur-features-title": "Les fonctionnalités indispensables pour un site de restaurant",
+    "secteur-features-items": [
+      {
+        "title": "Réservation en ligne",
+        "text": "Intégrez Zenchef, TheFork, Guestonline ou un formulaire de réservation personnalisé."
+      },
+      {
+        "title": "Carte et menus",
+        "text": "Présentez vos entrées, plats, desserts, menus dégustation, formules et options végétariennes."
+      },
+      {
+        "title": "Galerie immersive",
+        "text": "Valorisez vos assiettes, votre salle, votre terrasse, votre équipe et votre univers."
+      },
+      {
+        "title": "Horaires actualisés",
+        "text": "Affichez clairement vos services, jours de fermeture et horaires exceptionnels."
+      },
+      {
+        "title": "Avis clients intégrés",
+        "text": "Mettez en avant vos avis Google, Tripadvisor ou autres retours clients."
+      },
+      {
+        "title": "Accès et itinéraire",
+        "text": "Adresse, stationnement, transports et carte Google Maps accessibles en quelques secondes."
+      }
+    ],
+    "secteur-case-title": "Exemple de réalisation pour une marque exigeante",
+    "secteur-case-project-title": "Projet restauration sur mesure",
+    "secteur-case-project-tags": "WordPress · Réservation · SEO local",
+    "secteur-case-project-points": [
+      {
+        "text": "Direction artistique conçue pour traduire l'identité et l'ambiance de l'établissement"
+      },
+      {
+        "text": "Présentation claire de la carte, des menus et des informations pratiques"
+      },
+      {
+        "text": "Parcours mobile optimisé pour faciliter la réservation en quelques clics"
+      },
+      {
+        "text": "Référencement local travaillé autour de Nantes et des recherches culinaires ciblées"
+      }
+    ],
+    "secteur-case-project-url": "/realisations/",
+    "secteur-pricing-title": "Combien coûte un site internet pour restaurant à Nantes ?",
+    "secteur-pricing-price": "350€",
+    "secteur-pricing-price-suffix": "/mois",
+    "secteur-pricing-cta": {
+      "title": "Demander ma maquette gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "secteur-pricing-col1-label": "Location 350€/mois",
+    "secteur-pricing-col2-label": "Achat classique",
+    "secteur-pricing-features": [
+      {
+        "text": "Création graphique sur mesure"
+      },
+      {
+        "text": "Menu et carte administrables"
+      },
+      {
+        "text": "Réservation en ligne"
+      },
+      {
+        "text": "Hébergement premium"
+      },
+      {
+        "text": "Maintenance & mises à jour"
+      },
+      {
+        "text": "SEO local de base"
+      }
+    ],
+    "secteur-pricing-table": [
+      {
+        "label": "Investissement initial",
+        "col1": "0€",
+        "col2": "3 000 – 10 000€"
+      },
+      {
+        "label": "Mensualité",
+        "col1": "350€",
+        "col2": "150–300€"
+      },
+      {
+        "label": "Design sur mesure",
+        "col1": "Inclus",
+        "col2": "Selon l'offre"
+      },
+      {
+        "label": "Maintenance & sécurité",
+        "col1": "Incluses",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Mises à jour des contenus",
+        "col1": "Incluses",
+        "col2": "Sur devis"
+      },
+      {
+        "label": "Total sur 5 ans",
+        "col1": "~21 000€",
+        "col2": "~22 000 à 30 000€"
+      }
+    ],
+    "secteur-area-title": "Création de site pour restaurant à Nantes et en Loire-Atlantique",
+    "secteur-area-text": "Nous accompagnons les restaurants, brasseries, bars, cafés et établissements gastronomiques de Nantes et des communes voisines. Chaque site est optimisé pour votre zone de chalandise et les recherches culinaires correspondant à votre positionnement.",
+    "secteur-area-cities": [
+      {
+        "name": "Nantes",
+        "url": "/creation-site-web-nantes/"
+      },
+      {
+        "name": "Saint-Herblain",
+        "url": "/creation-site-web-saint-herblain/"
+      },
+      {
+        "name": "Rezé",
+        "url": "/creation-site-web-reze/"
+      },
+      {
+        "name": "Orvault",
+        "url": "/creation-site-web-orvault/"
+      },
+      {
+        "name": "Vertou",
+        "url": "/creation-site-web-vertou/"
+      },
+      {
+        "name": "Carquefou",
+        "url": "/creation-site-web-carquefou/"
+      }
+    ],
+    "secteur-area-see-all": {
+      "title": "Voir toutes nos zones",
+      "url": "/creation-site-web-nantes/",
+      "target": ""
+    },
+    "secteur-faq-eyebrow": "Questions fréquentes",
+    "secteur-faq-title": "Tout savoir sur la création d'un site pour restaurant",
+    "secteur-faq-items": [
+      {
+        "question": "Combien coûte un site internet pour restaurant à Nantes ?",
+        "answer": "Notre formule en location démarre à 350€/mois sans frais de création. Elle inclut le design sur mesure, le développement WordPress, l'hébergement, la maintenance et l'accompagnement. En achat classique, comptez généralement entre 3 000 et 10 000€ selon les fonctionnalités et le niveau de personnalisation."
+      },
+      {
+        "question": "Peut-on intégrer un système de réservation en ligne ?",
+        "answer": "Oui. Nous pouvons connecter votre site à Zenchef, TheFork, Guestonline ou à une autre solution de réservation. Il est également possible d'intégrer un formulaire personnalisé selon votre fonctionnement."
+      },
+      {
+        "question": "Puis-je modifier facilement la carte et les menus ?",
+        "answer": "Oui. Votre carte peut être administrable depuis WordPress afin de modifier les plats, prix, formules et menus de saison sans dépendre d'un développeur."
+      },
+      {
+        "question": "Comment apparaître sur Google pour une recherche de restaurant à Nantes ?",
+        "answer": "Nous optimisons votre site autour de requêtes précises comme « restaurant Nantes », « restaurant italien Nantes », « brunch Nantes » ou « restaurant gastronomique Nantes ». Le référencement repose sur la structure du site, les contenus, la fiche Google Business et la cohérence des informations locales."
+      },
+      {
+        "question": "Peut-on intégrer les avis Google et Tripadvisor ?",
+        "answer": "Oui. Vos avis peuvent être affichés sur votre site afin de rassurer les visiteurs et de valoriser la réputation de votre établissement."
+      },
+      {
+        "question": "Le site sera-t-il adapté aux smartphones ?",
+        "answer": "Oui. Le parcours mobile est prioritaire, car de nombreux clients recherchent un restaurant, consultent le menu et réservent directement depuis leur téléphone."
+      }
+    ],
+    "secteur-related-title": "Autres secteurs que nous accompagnons",
+    "secteur-related-sectors": [
+      {
+        "title": "Hôtel",
+        "url": "/creation-site-hotel-nantes/"
+      },
+      {
+        "title": "Bar",
+        "url": "/creation-site-bar-nantes/"
+      },
+      {
+        "title": "Traiteur",
+        "url": "/creation-site-traiteur-nantes/"
+      },
+      {
+        "title": "Commerce",
+        "url": "/creation-site-commerce-nantes/"
+      },
+      {
+        "title": "E-commerce",
+        "url": "/creation-site-ecommerce-nantes/"
+      },
+      {
+        "title": "PME",
+        "url": "/creation-site-web-nantes/"
+      }
+    ],
+    "secteur-final-cta-title": "Prêt à donner envie de réserver dans votre restaurant ?",
+    "secteur-final-cta-text": "Recevez une maquette gratuite sous 48h, conçue pour valoriser votre cuisine, votre établissement et faciliter la réservation en ligne.",
+    "secteur-final-cta-points": [
+      {
+        "text": "Maquette personnalisée selon l'univers de votre restaurant"
+      },
+      {
+        "text": "Réservation en ligne et carte administrable"
+      },
+      {
+        "text": "Accompagnement local par une agence nantaise"
+      }
+    ],
+    "secteur-final-form-job-label": "Votre type d'établissement",
+    "secteur-final-reassurance": [
+      {
+        "text": "Sans engagement"
+      },
+      {
+        "text": "Réponse sous 24h"
+      },
+      {
+        "text": "Agence nantaise"
+      }
+    ]
+  }
+}

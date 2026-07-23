@@ -1,0 +1,137 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Réalisations",
+    "slug": "realisations",
+    "status": "publish",
+    "menu_order": 80,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Réalisations web Nantes · Sites WordPress sur mesure | Crescendo",
+    "meta_description": "Découvrez nos réalisations : sites WordPress sur mesure, CRM intégrés et refontes pour artisans, PME, avocats et e-commerce à Nantes et en Loire-Atlantique.",
+    "focus_keyword": "réalisations agence web nantes",
+    "canonical": "https://crescendo-studio.io/realisations/",
+    "noindex": false
+  },
+  "fields": {
+    "realisations-hero-eyebrow": "Portfolio",
+    "realisations-hero-title": "Nos réalisations web à Nantes",
+    "realisations-hero-intro": "Sites vitrine, e-commerce, refontes WordPress et CRM sur mesure : découvrez une sélection de projets livrés pour des TPE, PME et professions libérales en Loire-Atlantique. Chaque site est conçu pour convertir, ranker et évoluer avec l'activité de nos clients.",
+    "realisations-hero-cta-primary": {
+      "title": "Lancer mon projet",
+      "url": "/contact/",
+      "target": ""
+    },
+    "realisations-intro-text": "Chez Crescendo Studio, nous ne livrons pas de templates génériques. Chaque projet part d'une stratégie claire : objectifs business, parcours utilisateur, SEO local et performance. Voici quelques références représentatives de notre savoir-faire WordPress à Nantes.",
+    "realisations-intro-stats": [
+      {
+        "value": "9+",
+        "label": "Projets livrés"
+      },
+      {
+        "value": "48h",
+        "label": "Maquette gratuite"
+      },
+      {
+        "value": "350€/mois",
+        "label": "Location tout inclus"
+      },
+      {
+        "value": "100%",
+        "label": "WordPress sur mesure"
+      }
+    ],
+    "realisations-projects-eyebrow": "Portfolio",
+    "realisations-projects-title": "Sites web & CRM livrés pour nos clients",
+    "realisations-projects": [
+      {
+        "title": "Atelier Gambetta",
+        "category": "Branding & design",
+        "tags": "WordPress · CRM · Portfolio",
+        "text": "Site portfolio connecté à un CRM pour suivre les demandes de devis et qualifier les prospects entrants depuis le site.",
+        "url": "/realisations/atelier-gambetta/",
+        "has_crm": true
+      },
+      {
+        "title": "Be Focus",
+        "category": "Formation professionnelle",
+        "tags": "WordPress · Réservation · Paiement",
+        "text": "Plateforme de formation avec prise de rendez-vous, catalogue de sessions et parcours d'inscription simplifié.",
+        "url": "/realisations/be-focus/",
+        "has_crm": true
+      },
+      {
+        "title": "Bag X Pro",
+        "category": "Industrie B2B",
+        "tags": "Catalogue produits · Devis · SEO",
+        "text": "Site B2B avec catalogue technique, demandes de devis qualifiées et structure SEO pensée pour capter des requêtes métier.",
+        "url": "/realisations/bag-x-pro/",
+        "has_crm": false
+      },
+      {
+        "title": "Maison Jaden",
+        "category": "Construction de maisons",
+        "tags": "WordPress · CRM · SEO local · Devis en ligne",
+        "text": "Site vitrine orienté génération de leads avec formulaires CRM, pages secteur géolocalisées et tunnel de devis optimisé.",
+        "url": "/realisations/maison-jaden/",
+        "has_crm": true
+      },
+      {
+        "title": "Ludovic Géhéniaux",
+        "category": "Artisan coloriste",
+        "tags": "Vitrine · Réservation · SEO local",
+        "text": "Site vitrine pour un artisan coloriste avec prise de rendez-vous, galerie de réalisations et référencement local.",
+        "url": "/realisations/ludovic-geheniaux/",
+        "has_crm": false
+      },
+      {
+        "title": "Vanetty Music",
+        "category": "Musique & événementiel",
+        "tags": "WordPress · Vitrine · Booking",
+        "text": "Site vitrine artistique avec présentation des prestations musicales et parcours de demande d'événement optimisé.",
+        "url": "/realisations/vanetty-music/",
+        "has_crm": false
+      },
+      {
+        "title": "CM&A Associés",
+        "category": "Cabinet d'avocats",
+        "tags": "WordPress · Vitrine · Expertise",
+        "text": "Site institutionnel pour un cabinet d'avocats avec pages d'expertise, présentation des associés et formulaire qualifiant.",
+        "url": "/realisations/cma-associes/",
+        "has_crm": false
+      },
+      {
+        "title": "Car Design France",
+        "category": "Automobile & design",
+        "tags": "WordPress · Portfolio · Vitrine",
+        "text": "Site vitrine premium pour le design automobile avec portfolio visuel et pages services structurées.",
+        "url": "/realisations/car-design/",
+        "has_crm": false
+      },
+      {
+        "title": "Padam Immo",
+        "category": "Immobilier",
+        "tags": "WordPress · SEO local · Vitrine premium",
+        "text": "Site vitrine immobilier avec mise en avant des biens, pages quartier optimisées SEO et design premium.",
+        "url": "/realisations/padam-immo/",
+        "has_crm": false
+      },
+      {
+        "title": "Ta Kifé",
+        "category": "Événementiel & marketing",
+        "tags": "WordPress · Vitrine · Événementiel",
+        "text": "Refonte vitrine pour une agence événementielle : identité forte, offres B2B/B2C structurées et parcours de contact optimisé.",
+        "url": "/realisations/ta-kife/",
+        "has_crm": false
+      }
+    ],
+    "realisations-cta-title": "Un projet similaire au vôtre ?",
+    "realisations-cta-text": "Parlons de vos objectifs. Nous vous proposons une maquette gratuite en 48h pour valider la direction avant de démarrer.",
+    "realisations-cta-button": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

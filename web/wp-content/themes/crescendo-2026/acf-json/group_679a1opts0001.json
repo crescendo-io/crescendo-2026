@@ -1,0 +1,55 @@
+{
+    "key": "group_679a1opts0001",
+    "title": "Options - Header & Footer",
+    "fields": [
+        {
+            "key": "field_679a1opt00001",
+            "label": "CTA Header",
+            "name": "params-header-cta",
+            "type": "link"
+        },
+        {
+            "key": "field_679a1opt00002",
+            "label": "Description footer",
+            "name": "params-footer-description",
+            "type": "textarea",
+            "rows": 3,
+            "default_value": "Agence web à Nantes spécialisée WordPress sur mesure, CRM et location de site dès 350€/mois."
+        },
+        {
+            "key": "field_679a1opt00003",
+            "label": "Téléphone",
+            "name": "params-footer-phone",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1opt00004",
+            "label": "Email",
+            "name": "params-footer-email",
+            "type": "email"
+        },
+        {
+            "key": "field_679a1opt00005",
+            "label": "Adresse",
+            "name": "params-footer-address",
+            "type": "text",
+            "default_value": "Nantes, Loire-Atlantique (44)"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-parametres"
+            }
+        ]
+    ],
+    "menu_order": 10,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "modified": 1784736000
+}

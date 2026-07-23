@@ -1,0 +1,552 @@
+{
+    "key": "group_679a1home0001",
+    "title": "Accueil - Page d'accueil",
+    "fields": [
+        {
+            "key": "field_679a1tab00001",
+            "label": "Hero",
+            "name": "",
+            "type": "tab",
+            "placement": "top"
+        },
+        {
+            "key": "field_679a1hero0001",
+            "label": "Sur-titre",
+            "name": "home-hero-eyebrow",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1hero0002",
+            "label": "Titre (H1)",
+            "name": "home-hero-title",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1hero0003",
+            "label": "Texte",
+            "name": "home-hero-text",
+            "type": "textarea",
+            "rows": 3
+        },
+        {
+            "key": "field_679a1hero0004",
+            "label": "CTA principal",
+            "name": "home-hero-cta-primary",
+            "type": "link"
+        },
+        {
+            "key": "field_679a1hero0005",
+            "label": "CTA secondaire",
+            "name": "home-hero-cta-secondary",
+            "type": "link"
+        },
+        {
+            "key": "field_679a1hero0006",
+            "label": "Statistiques",
+            "name": "home-hero-stats",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter une stat",
+            "sub_fields": [
+                {
+                    "key": "field_679a1hero0007",
+                    "label": "Valeur",
+                    "name": "value",
+                    "type": "text"
+                },
+                {
+                    "key": "field_679a1hero0008",
+                    "label": "Label",
+                    "name": "label",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "key": "field_679a1hero0009",
+            "label": "Image hero",
+            "name": "home-hero-image",
+            "type": "image",
+            "return_format": "array",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_679a1tab00002",
+            "label": "Confiance",
+            "name": "",
+            "type": "tab",
+            "placement": "top"
+        },
+        {
+            "key": "field_679a1trust0001",
+            "label": "Label",
+            "name": "home-trust-label",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1trust0002",
+            "label": "Logos",
+            "name": "home-trust-logos",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter un logo",
+            "sub_fields": [
+                {
+                    "key": "field_679a1trust0003",
+                    "label": "Logo",
+                    "name": "logo",
+                    "type": "image",
+                    "return_format": "array",
+                    "preview_size": "thumbnail"
+                },
+                {
+                    "key": "field_679a1trust0004",
+                    "label": "Lien",
+                    "name": "link",
+                    "type": "url"
+                }
+            ]
+        },
+        {
+            "key": "field_679a1tab00003",
+            "label": "Services",
+            "name": "",
+            "type": "tab",
+            "placement": "top"
+        },
+        {
+            "key": "field_679a1serv0001",
+            "label": "Sur-titre",
+            "name": "home-services-eyebrow",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1serv0002",
+            "label": "Titre",
+            "name": "home-services-title",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1serv0003",
+            "label": "Lien tous les services",
+            "name": "home-services-link",
+            "type": "link"
+        },
+        {
+            "key": "field_679a1serv0004",
+            "label": "Services",
+            "name": "home-services-items",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter un service",
+            "sub_fields": [
+                {
+                    "key": "field_679a1serv0005",
+                    "label": "Titre",
+                    "name": "title",
+                    "type": "text"
+                },
+                {
+                    "key": "field_679a1serv0006",
+                    "label": "Texte",
+                    "name": "text",
+                    "type": "textarea",
+                    "rows": 3
+                },
+                {
+                    "key": "field_679a1serv0007",
+                    "label": "URL",
+                    "name": "url",
+                    "type": "url"
+                }
+            ]
+        },
+        {
+            "key": "field_679a1tab00004",
+            "label": "Pourquoi nous",
+            "name": "",
+            "type": "tab",
+            "placement": "top"
+        },
+        {
+            "key": "field_679a1why0001",
+            "label": "Titre",
+            "name": "home-why-eyebrow",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1why0002",
+            "label": "Points forts",
+            "name": "home-why-items",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter un point",
+            "sub_fields": [
+                {
+                    "key": "field_679a1why0003",
+                    "label": "Texte",
+                    "name": "text",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "key": "field_679a1why0004",
+            "label": "Réalisations",
+            "name": "home-why-projects",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter une réalisation",
+            "sub_fields": [
+                {
+                    "key": "field_679a1why0005",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
+                    "return_format": "array",
+                    "preview_size": "medium"
+                },
+                {
+                    "key": "field_679a1why0006",
+                    "label": "Titre",
+                    "name": "title",
+                    "type": "text"
+                },
+                {
+                    "key": "field_679a1why0007",
+                    "label": "Catégorie",
+                    "name": "category",
+                    "type": "text"
+                },
+                {
+                    "key": "field_679a1why0008",
+                    "label": "URL",
+                    "name": "url",
+                    "type": "url"
+                },
+                {
+                    "key": "field_679a1why0009",
+                    "label": "Badge CRM",
+                    "name": "has_crm",
+                    "type": "true_false",
+                    "ui": 1
+                }
+            ]
+        },
+        {
+            "key": "field_679a1tab00005",
+            "label": "Méthode",
+            "name": "",
+            "type": "tab",
+            "placement": "top"
+        },
+        {
+            "key": "field_679a1meth0001",
+            "label": "Sur-titre",
+            "name": "home-method-eyebrow",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1meth0002",
+            "label": "Titre",
+            "name": "home-method-title",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1meth0003",
+            "label": "Étapes",
+            "name": "home-method-steps",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter une étape",
+            "sub_fields": [
+                {
+                    "key": "field_679a1meth0004",
+                    "label": "Titre",
+                    "name": "title",
+                    "type": "text"
+                },
+                {
+                    "key": "field_679a1meth0005",
+                    "label": "Texte",
+                    "name": "text",
+                    "type": "textarea",
+                    "rows": 2
+                }
+            ]
+        },
+        {
+            "key": "field_679a1tab00006",
+            "label": "Tarifs",
+            "name": "",
+            "type": "tab",
+            "placement": "top"
+        },
+        {
+            "key": "field_679a1price0001",
+            "label": "Sur-titre",
+            "name": "home-pricing-eyebrow",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1price0002",
+            "label": "Titre",
+            "name": "home-pricing-title",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1price0003",
+            "label": "Prix location",
+            "name": "home-pricing-location-price",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1price0004",
+            "label": "Avantages location",
+            "name": "home-pricing-location-features",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter un avantage",
+            "sub_fields": [
+                {
+                    "key": "field_679a1price0005",
+                    "label": "Texte",
+                    "name": "text",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "key": "field_679a1price0006",
+            "label": "CTA location",
+            "name": "home-pricing-location-cta",
+            "type": "link"
+        },
+        {
+            "key": "field_679a1price0007",
+            "label": "Tableau comparatif",
+            "name": "home-pricing-table",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter une ligne",
+            "sub_fields": [
+                {
+                    "key": "field_679a1price0008",
+                    "label": "Critère",
+                    "name": "label",
+                    "type": "text"
+                },
+                {
+                    "key": "field_679a1price0009",
+                    "label": "Location",
+                    "name": "location",
+                    "type": "text"
+                },
+                {
+                    "key": "field_679a1price0010",
+                    "label": "Achat",
+                    "name": "achat",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "key": "field_679a1tab00007",
+            "label": "CRM",
+            "name": "",
+            "type": "tab",
+            "placement": "top"
+        },
+        {
+            "key": "field_679a1crm0001",
+            "label": "Sur-titre",
+            "name": "home-crm-eyebrow",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1crm0002",
+            "label": "Titre",
+            "name": "home-crm-title",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1crm0003",
+            "label": "Sous-titre",
+            "name": "home-crm-subtitle",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1crm0004",
+            "label": "Texte",
+            "name": "home-crm-text",
+            "type": "textarea",
+            "rows": 3
+        },
+        {
+            "key": "field_679a1crm0005",
+            "label": "Liste",
+            "name": "home-crm-list",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter un point",
+            "sub_fields": [
+                {
+                    "key": "field_679a1crm0006",
+                    "label": "Texte",
+                    "name": "text",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "key": "field_679a1crm0007",
+            "label": "CTA",
+            "name": "home-crm-cta",
+            "type": "link"
+        },
+        {
+            "key": "field_679a1crm0008",
+            "label": "Image",
+            "name": "home-crm-image",
+            "type": "image",
+            "return_format": "array",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_679a1tab00008",
+            "label": "Témoignages",
+            "name": "",
+            "type": "tab",
+            "placement": "top"
+        },
+        {
+            "key": "field_679a1test0001",
+            "label": "Sur-titre",
+            "name": "home-testimonials-eyebrow",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1test0002",
+            "label": "Témoignages",
+            "name": "home-testimonials-items",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter un témoignage",
+            "sub_fields": [
+                {
+                    "key": "field_679a1test0003",
+                    "label": "Citation",
+                    "name": "quote",
+                    "type": "textarea",
+                    "rows": 3
+                },
+                {
+                    "key": "field_679a1test0004",
+                    "label": "Nom",
+                    "name": "name",
+                    "type": "text"
+                },
+                {
+                    "key": "field_679a1test0005",
+                    "label": "Entreprise",
+                    "name": "company",
+                    "type": "text"
+                },
+                {
+                    "key": "field_679a1test0006",
+                    "label": "Photo",
+                    "name": "photo",
+                    "type": "image",
+                    "return_format": "array",
+                    "preview_size": "thumbnail"
+                },
+                {
+                    "key": "field_679a1test0007",
+                    "label": "Note (sur 5)",
+                    "name": "rating",
+                    "type": "number",
+                    "min": 1,
+                    "max": 5,
+                    "step": 1
+                }
+            ]
+        },
+        {
+            "key": "field_679a1tab00009",
+            "label": "CTA & Contact",
+            "name": "",
+            "type": "tab",
+            "placement": "top"
+        },
+        {
+            "key": "field_679a1cta0001",
+            "label": "Titre CTA",
+            "name": "home-cta-title",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1cta0002",
+            "label": "Texte CTA",
+            "name": "home-cta-text",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1cta0003",
+            "label": "Bouton CTA",
+            "name": "home-cta-button",
+            "type": "link"
+        },
+        {
+            "key": "field_679a1faq0001",
+            "label": "FAQ",
+            "name": "home-faq-items",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter une question",
+            "sub_fields": [
+                {
+                    "key": "field_679a1faq0002",
+                    "label": "Question",
+                    "name": "question",
+                    "type": "text"
+                },
+                {
+                    "key": "field_679a1faq0003",
+                    "label": "Réponse",
+                    "name": "answer",
+                    "type": "textarea",
+                    "rows": 3
+                }
+            ]
+        },
+        {
+            "key": "field_679a1cont0001",
+            "label": "Titre formulaire",
+            "name": "home-contact-title",
+            "type": "text"
+        },
+        {
+            "key": "field_679a1cont0002",
+            "label": "Shortcode formulaire",
+            "name": "home-contact-form-shortcode",
+            "type": "text",
+            "instructions": "Shortcode Contact Form 7 ou WPForms. Laissez vide pour afficher le formulaire HTML par défaut."
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "modified": 1784736000
+}

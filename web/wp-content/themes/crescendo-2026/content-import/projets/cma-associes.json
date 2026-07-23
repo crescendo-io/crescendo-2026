@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "CM&A Associés",
+    "slug": "cma-associes",
+    "parent": "realisations",
+    "status": "publish",
+    "menu_order": 70,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Refonte CM&A Associés · Étude de cas | Crescendo Studio",
+    "meta_description": "Refonte du site CM&A Associés : site institutionnel pour un cabinet d'avocats avec pages d'expertise, présentation des associés et formulaire de contact qu…",
+    "focus_keyword": "refonte site cm&a avocats",
+    "canonical": "https://crescendo-studio.io/realisations/cma-associes/",
+    "noindex": false
+  },
+  "fields": {
+    "project-hero-eyebrow": "Étude de cas · Refonte",
+    "project-hero-title": "Refonte du site CM&A Associés",
+    "project-hero-intro": "Refonte du site CM&A Associés : site institutionnel pour un cabinet d'avocats avec pages d'expertise, présentation des associés et formulaire de contact qualifiant.",
+    "project-client-name": "CM&A Associés",
+    "project-client-url": "https://www.cm-associes.com/",
+    "project-sector": "Cabinet d'avocats",
+    "project-year": "2023",
+    "project-tags": "Refonte · WordPress · Vitrine institutionnelle",
+    "project-tech-tags": "WordPress · ACF · SEO",
+    "project-has-crm": false,
+    "project-gallery-title": "Aperçu du site refondu",
+    "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
+    "project-gallery-slots": 4,
+    "project-gallery": [],
+    "project-challenge-title": "Le contexte",
+    "project-challenge-text": "<p>Le cabinet CM&A Associés souhaitait moderniser son site pour renforcer sa crédibilité, clarifier ses domaines d'expertise et améliorer la qualification des demandes entrantes.</p>",
+    "project-solution-title": "Notre approche",
+    "project-solution-text": "<p>Architecture de contenu repensée, design sobre et professionnel, pages expertise SEO et formulaire de contact avec champs qualifiants (domaine, urgence, description).</p>",
+    "project-results-title": "Résultats",
+    "project-results": [
+      {
+        "value": "+25%",
+        "label": "Contacts qualifiés"
+      },
+      {
+        "value": "E-E-A-T",
+        "label": "Crédibilité renforcée"
+      },
+      {
+        "value": "Expertise",
+        "label": "Pages structurées"
+      },
+      {
+        "value": "RGPD",
+        "label": "Conformité intégrée"
+      }
+    ],
+    "project-cta-title": "Un projet de refonte similaire ?",
+    "project-cta-text": "Parlons de votre site. Nous vous proposons une maquette gratuite en 48h pour valider la direction avant de démarrer.",
+    "project-cta-button": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

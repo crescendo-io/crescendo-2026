@@ -1,0 +1,176 @@
+{
+    "key": "group_679a2service01",
+    "title": "Page Service — Contenu SEO",
+    "fields": [
+        { "key": "field_679a2tabseo001", "label": "SEO", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a2seotitle1", "label": "Meta title", "name": "service-seo-meta-title", "type": "text" },
+        { "key": "field_679a2seodesc01", "label": "Meta description", "name": "service-seo-meta-description", "type": "textarea", "rows": 3 },
+        { "key": "field_679a2seokey001", "label": "Mot-clé principal", "name": "service-seo-focus-keyword", "type": "text" },
+        { "key": "field_679a2seocanon1", "label": "URL canonique", "name": "service-seo-canonical", "type": "url" },
+        { "key": "field_679a2seonoindex", "label": "Noindex", "name": "service-seo-noindex", "type": "true_false", "ui": 1 },
+
+        { "key": "field_679a2tabhero01", "label": "Hero", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a2hero001", "label": "Sur-titre", "name": "service-hero-eyebrow", "type": "text" },
+        { "key": "field_679a2hero002", "label": "Titre H1", "name": "service-hero-title", "type": "text" },
+        { "key": "field_679a2hero003", "label": "Intro", "name": "service-hero-intro", "type": "textarea", "rows": 3 },
+        { "key": "field_679a2hero004", "label": "CTA principal", "name": "service-hero-cta-primary", "type": "link" },
+        { "key": "field_679a2hero005", "label": "CTA secondaire", "name": "service-hero-cta-secondary", "type": "link" },
+        { "key": "field_679a2hero006", "label": "Image", "name": "service-hero-image", "type": "image", "return_format": "array", "preview_size": "medium" },
+        { "key": "field_679a2hero007", "label": "Note sous CTA", "name": "service-hero-note", "type": "text" },
+
+        { "key": "field_679a2tabben001", "label": "Réassurance", "name": "", "type": "tab", "placement": "top" },
+        {
+            "key": "field_679a2ben001",
+            "label": "4 bénéfices",
+            "name": "service-benefits",
+            "type": "repeater",
+            "layout": "table",
+            "max": 4,
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a2ben002", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a2ben003", "label": "Texte", "name": "text", "type": "textarea", "rows": 2 }
+            ]
+        },
+
+        { "key": "field_679a2tabinc001", "label": "Offre incluse", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a2inc001", "label": "Sur-titre", "name": "service-included-eyebrow", "type": "text" },
+        { "key": "field_679a2inc002", "label": "Titre H2", "name": "service-included-title", "type": "text" },
+        { "key": "field_679a2inc003", "label": "Texte", "name": "service-included-text", "type": "textarea", "rows": 3 },
+        { "key": "field_679a2inc004", "label": "Prix", "name": "service-included-price", "type": "text" },
+        { "key": "field_679a2inc005", "label": "Suffixe prix", "name": "service-included-price-suffix", "type": "text", "default_value": "/mois" },
+        { "key": "field_679a2inc006", "label": "CTA", "name": "service-included-cta", "type": "link" },
+        {
+            "key": "field_679a2inc007",
+            "label": "Liste incluse",
+            "name": "service-included-features",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a2inc008", "label": "Texte", "name": "text", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a2tabcmp001", "label": "Comparatif", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a2cmp001", "label": "Sur-titre", "name": "service-compare-eyebrow", "type": "text" },
+        { "key": "field_679a2cmp002", "label": "Titre H2", "name": "service-compare-title", "type": "text" },
+        { "key": "field_679a2cmp003", "label": "Texte", "name": "service-compare-text", "type": "textarea", "rows": 3 },
+        { "key": "field_679a2cmp004", "label": "CTA", "name": "service-compare-cta", "type": "link" },
+        { "key": "field_679a2cmp005", "label": "Label colonne 1", "name": "service-compare-col1-label", "type": "text" },
+        { "key": "field_679a2cmp006", "label": "Label colonne 2", "name": "service-compare-col2-label", "type": "text" },
+        { "key": "field_679a2cmp007", "label": "Note sous tableau", "name": "service-compare-note", "type": "text" },
+        {
+            "key": "field_679a2cmp008",
+            "label": "Tableau",
+            "name": "service-compare-table",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter une ligne",
+            "sub_fields": [
+                { "key": "field_679a2cmp009", "label": "Critère", "name": "label", "type": "text" },
+                { "key": "field_679a2cmp010", "label": "Colonne 1", "name": "col1", "type": "text" },
+                { "key": "field_679a2cmp011", "label": "Colonne 2", "name": "col2", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a2tabaud001", "label": "Pour qui", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a2aud001", "label": "Sur-titre", "name": "service-audience-eyebrow", "type": "text" },
+        { "key": "field_679a2aud002", "label": "Titre H2", "name": "service-audience-title", "type": "text" },
+        {
+            "key": "field_679a2aud003",
+            "label": "Cartes",
+            "name": "service-audience-cards",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a2aud004", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a2aud005", "label": "Texte", "name": "text", "type": "textarea", "rows": 2 },
+                { "key": "field_679a2aud006", "label": "URL", "name": "url", "type": "url" }
+            ]
+        },
+
+        { "key": "field_679a2tabproj01", "label": "Réalisations", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a2proj001", "label": "Sur-titre", "name": "service-projects-eyebrow", "type": "text" },
+        { "key": "field_679a2proj002", "label": "Titre H2", "name": "service-projects-title", "type": "text" },
+        {
+            "key": "field_679a2proj003",
+            "label": "Projets",
+            "name": "service-projects",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a2proj004", "label": "Image", "name": "image", "type": "image", "return_format": "array", "preview_size": "medium" },
+                { "key": "field_679a2proj005", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a2proj006", "label": "Catégorie", "name": "category", "type": "text" },
+                { "key": "field_679a2proj007", "label": "Tags", "name": "tags", "type": "text" },
+                { "key": "field_679a2proj008", "label": "URL", "name": "url", "type": "url" }
+            ]
+        },
+
+        { "key": "field_679a2tabmeth01", "label": "Méthode", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a2meth001", "label": "Sur-titre", "name": "service-method-eyebrow", "type": "text" },
+        { "key": "field_679a2meth002", "label": "Titre H2", "name": "service-method-title", "type": "text" },
+        {
+            "key": "field_679a2meth003",
+            "label": "Étapes",
+            "name": "service-method-steps",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a2meth004", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a2meth005", "label": "Texte", "name": "text", "type": "textarea", "rows": 2 }
+            ]
+        },
+
+        { "key": "field_679a2tabfaq001", "label": "FAQ", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a2faq001", "label": "Sur-titre", "name": "service-faq-eyebrow", "type": "text" },
+        { "key": "field_679a2faq002", "label": "Titre H2", "name": "service-faq-title", "type": "text" },
+        {
+            "key": "field_679a2faq003",
+            "label": "Questions",
+            "name": "service-faq-items",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a2faq004", "label": "Question", "name": "question", "type": "text" },
+                { "key": "field_679a2faq005", "label": "Réponse", "name": "answer", "type": "textarea", "rows": 3 }
+            ]
+        },
+
+        { "key": "field_679a2tabcta001", "label": "CTA final", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a2cta001", "label": "Titre", "name": "service-final-cta-title", "type": "text" },
+        { "key": "field_679a2cta002", "label": "Shortcode formulaire", "name": "service-contact-form-shortcode", "type": "text" },
+        {
+            "key": "field_679a2cta003",
+            "label": "Réassurance",
+            "name": "service-final-reassurance",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a2cta004", "label": "Texte", "name": "text", "type": "text" }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-service.php"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "modified": 1784743200
+}
