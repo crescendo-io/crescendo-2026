@@ -247,7 +247,6 @@
 .home-project-card {
     position: relative;
     overflow: hidden;
-    aspect-ratio: 4 / 3;
     border-radius: var(--radius-sm);
     text-decoration: none;
     color: var(--color-white);
@@ -275,6 +274,7 @@
         flex-direction: column;
         justify-content: flex-end;
         gap: 0.4rem;
+        z-index: 30;
         padding: 1.2rem;
         background: linear-gradient(to top, rgba(0, 0, 0, 0.72), transparent);
 
