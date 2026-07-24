@@ -26,6 +26,16 @@ var map = {
 		9,
 		"assets_js_modules_bugReport_js"
 	],
+	"./modules/contactForm": [
+		"./assets/js/modules/contactForm.js",
+		9,
+		"assets_js_modules_contactForm_js"
+	],
+	"./modules/contactForm.js": [
+		"./assets/js/modules/contactForm.js",
+		9,
+		"assets_js_modules_contactForm_js"
+	],
 	"./modules/footer": [
 		"./assets/js/modules/footer.js",
 		9,
@@ -12466,6 +12476,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		__webpack_require__.u = function(chunkId) {
 /******/ 			// return url for filenames not based on template
 /******/ 			if (chunkId === "assets_js_modules_bugReport_js") return "./js/chunks/27db24ac9e2b8b3b4c4b.js";
+/******/ 			if (chunkId === "assets_js_modules_contactForm_js") return "./js/chunks/cb09d3421735de8f5afb.js";
 /******/ 			if (chunkId === "assets_js_modules_footer_js") return "./js/chunks/28dbd15a8f6a0d713a0e.js";
 /******/ 			if (chunkId === "assets_js_modules_homePage_js") return "./js/chunks/bdd197853d750c6717ac.js";
 /******/ 			if (chunkId === "assets_js_modules_localPage_js") return "./js/chunks/6cfe5dfb0473aa49d98a.js";

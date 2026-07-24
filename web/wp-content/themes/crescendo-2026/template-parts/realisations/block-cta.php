@@ -15,6 +15,6 @@ if (!$title) {
             <p class="realisations-cta__text"><?php echo esc_html($text); ?></p>
         <?php endif; ?>
 
-        <?php echo crescendo_link($button, 'btn btn--primary'); ?>
+        <?php echo crescendo_link($button, 'btn btn--dark'); ?>
     </div>
 </section>

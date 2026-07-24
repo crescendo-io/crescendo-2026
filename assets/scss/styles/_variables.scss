@@ -20,6 +20,12 @@
     --shadow-sm: 0 0.4rem 2rem rgba(0, 0, 0, 0.06);
 }
 
+@mixin page-halo-background {
+    background:
+        radial-gradient(ellipse 90% 70% at 0% 0%, rgb(245 230 66 / 22%), transparent 58%),
+        linear-gradient(180deg, var(--color-white) 0%, var(--color-surface) 100%);
+}
+
 $breakpoint-sm-up: "(min-width: 576px)";
 $breakpoint-md-up: "(min-width: 768px)";
 $breakpoint-lg-up: "(min-width: 992px)";

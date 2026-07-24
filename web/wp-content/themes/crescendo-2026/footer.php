@@ -57,6 +57,8 @@ $footerColumns = crescendo_get_footer_nav_columns();
     </div>
 </footer>
 
+<?php crescendo_render_contact_form_modal(); ?>
+
 <?php wp_footer(); ?>
 </div>
 </body>

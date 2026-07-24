@@ -569,6 +569,11 @@
     &__inner {
         display: grid;
         gap: 4rem;
+        align-items: start;
+    }
+
+    .crescendo-contact-form-shell {
+        max-width: none;
     }
 }
 

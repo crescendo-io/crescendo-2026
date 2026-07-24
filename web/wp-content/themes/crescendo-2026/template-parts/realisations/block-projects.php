@@ -43,7 +43,7 @@ if (!$title && empty($projects)) {
                             <?php endif; ?>
 
                             <?php if (!empty($project['title'])) : ?>
-                                <h3><?php echo esc_html($project['title']); ?></h3>
+                                <h3 class="realisations-projects__title"><?php echo esc_html($project['title']); ?></h3>
                             <?php endif; ?>
 
                             <?php if (!empty($project['tags'])) : ?>

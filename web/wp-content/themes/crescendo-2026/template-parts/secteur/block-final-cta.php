@@ -4,7 +4,6 @@ $text = crescendo_secteur('secteur-final-cta-text');
 $points = crescendo_secteur('secteur-final-cta-points');
 $reassurance = crescendo_secteur('secteur-final-reassurance');
 $formShortcode = crescendo_secteur('secteur-contact-form-shortcode');
-$jobLabel = crescendo_secteur('secteur-final-form-job-label') ?: 'Métier';
 if (!$title) {
     return;
 }
@@ -24,23 +23,16 @@ if (!$title) {
             <?php endif; ?>
         </div>
         <div class="secteur-final-cta__form-wrap">
-            <?php if ($formShortcode) : ?>
-                <?php echo do_shortcode($formShortcode); ?>
-            <?php else : ?>
-                <form class="service-final-cta__form secteur-final-cta__form" action="<?php echo esc_url(home_url('/')); ?>" method="post">
-                    <input type="text" name="nom" placeholder="Nom" required>
-                    <input type="email" name="email" placeholder="Email" required>
-                    <input type="tel" name="telephone" placeholder="Téléphone">
-                    <select name="metier">
-                        <option value=""><?php echo esc_html($jobLabel); ?></option>
-                        <option value="artisan">Artisan</option>
-                        <option value="pme">PME</option>
-                        <option value="liberal">Profession libérale</option>
-                        <option value="startup">Startup</option>
-                    </select>
-                    <button type="submit" class="btn btn--dark">Demander ma maquette gratuite</button>
-                </form>
-            <?php endif; ?>
+            <?php
+            crescendo_render_contact_form(array(
+                'form_shortcode' => $formShortcode,
+                'variant' => 'compact',
+                'source' => get_the_title(),
+                'projet_default' => 'site',
+                'submit_label' => 'Demander ma maquette gratuite',
+                'wrapper_class' => 'service-final-cta__form secteur-final-cta__form',
+            ));
+            ?>
         </div>
         <?php if (!empty($reassurance)) : ?>
             <ul class="service-final-cta__reassurance secteur-final-cta__reassurance">

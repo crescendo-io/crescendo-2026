@@ -110,6 +110,12 @@ define('DISALLOW_FILE_EDIT', false);
 
 define( 'AUTOMATIC_UPDATER_DISABLED', false );
 
+/** Mailjet — expéditeur des emails transactionnels */
+define('MAILJET_API_KEY', getenv('MAILJET_API_KEY') ?: '456ba360d83bb9ec9e665743728ebd34');
+define('MAILJET_API_SECRET', getenv('MAILJET_API_SECRET') ?: '6e18ab8a5a34801fe3ef527ecc7541f5');
+define('MAILJET_SENDER_EMAIL', getenv('MAILJET_SENDER_EMAIL') ?: 'b.vidal@crescendo-studio.io');
+define('MAILJET_SENDER_NAME', getenv('MAILJET_SENDER_NAME') ?: 'Crescendo Studio');
+
 if (ENV_PROD || ENV_PREPROD_LONSDALE) {
     define('DISALLOW_FILE_MODS', true);
 }
