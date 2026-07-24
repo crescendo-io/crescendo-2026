@@ -104,6 +104,16 @@ var map = {
 		9,
 		"assets_js_modules_servicePage_js"
 	],
+	"./modules/siteHeader": [
+		"./assets/js/modules/siteHeader.js",
+		9,
+		"assets_js_modules_siteHeader_js"
+	],
+	"./modules/siteHeader.js": [
+		"./assets/js/modules/siteHeader.js",
+		9,
+		"assets_js_modules_siteHeader_js"
+	],
 	"./polyfill/arrayFind": [
 		"./assets/js/polyfill/arrayFind.js",
 		7
@@ -12478,11 +12488,12 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			if (chunkId === "assets_js_modules_bugReport_js") return "./js/chunks/27db24ac9e2b8b3b4c4b.js";
 /******/ 			if (chunkId === "assets_js_modules_contactForm_js") return "./js/chunks/cb09d3421735de8f5afb.js";
 /******/ 			if (chunkId === "assets_js_modules_footer_js") return "./js/chunks/28dbd15a8f6a0d713a0e.js";
-/******/ 			if (chunkId === "assets_js_modules_homePage_js") return "./js/chunks/bdd197853d750c6717ac.js";
+/******/ 			if (chunkId === "assets_js_modules_homePage_js") return "./js/chunks/0efe0525d2f45cec6c00.js";
 /******/ 			if (chunkId === "assets_js_modules_localPage_js") return "./js/chunks/6cfe5dfb0473aa49d98a.js";
 /******/ 			if (chunkId === "assets_js_modules_module_js") return "./js/chunks/18ecbba337d9de4377c2.js";
 /******/ 			if (chunkId === "assets_js_modules_secteurPage_js") return "./js/chunks/6752bb2e80920fbeb06b.js";
 /******/ 			if (chunkId === "assets_js_modules_servicePage_js") return "./js/chunks/9a3090348f16b53bf11e.js";
+/******/ 			if (chunkId === "assets_js_modules_siteHeader_js") return "./js/chunks/dd31e7292c8bd293773b.js";
 /******/ 			if (chunkId === "assets_js_vendors_cookies-eu-banner_js") return "./js/chunks/42f16acfb177cd97a69e.js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;

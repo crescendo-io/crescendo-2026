@@ -67,6 +67,13 @@ function scripts_site(){
 
         // Script
         wp_enqueue_script('script-js', get_template_directory_uri() . '/assets/js/app.js', array(), filemtime(get_template_directory() . '/assets/js/app.js'), true);
+        wp_enqueue_script(
+            'crescendo-site-header',
+            get_template_directory_uri() . '/assets/js/site-header.js',
+            array(),
+            filemtime(get_template_directory() . '/assets/js/site-header.js'),
+            true
+        );
         wp_enqueue_style(
             'crescendo-contact-form',
             get_template_directory_uri() . '/assets/css/contact-form.css',

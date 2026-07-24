@@ -110,6 +110,50 @@
     }
 }
 
+@media #{$breakpoint-md-down} {
+    .project-hero__visual {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        overflow: visible;
+        aspect-ratio: auto;
+        border-radius: 0;
+        background: transparent;
+
+        > .media-loader,
+        > img,
+        > .project-hero__visual-placeholder {
+            overflow: hidden;
+            border-radius: var(--radius-lg);
+            aspect-ratio: 16 / 9;
+        }
+
+        > .media-loader {
+            position: relative;
+            inset: auto;
+            height: auto;
+        }
+    }
+
+    .project-hero__visual-overlay {
+        position: static;
+        padding: 0;
+        background: none;
+    }
+
+    .project-hero__tags li {
+        border: 1px solid rgb(17 17 17 / 10%);
+        background: var(--color-yellow);
+        color: var(--color-black);
+        backdrop-filter: none;
+    }
+
+    .project-hero__tag-label {
+        opacity: 1;
+        color: var(--color-muted);
+    }
+}
+
 .project-meta {
     padding: 0 0 3rem;
 
