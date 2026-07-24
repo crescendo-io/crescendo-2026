@@ -4,6 +4,36 @@
  * Purge blog noise from index and WordPress XML sitemaps.
  */
 
+/**
+ * WordPress désactive wp-sitemap.xml quand « Décourager les moteurs de recherche »
+ * est actif (blog_public = 0). On garde le sitemap XML pour les audits SEO,
+ * sans modifier le noindex page par page déjà géré ailleurs en préproduction.
+ */
+function crescendo_enable_xml_sitemaps($enabled) {
+    return true;
+}
+add_filter('wp_sitemaps_enabled', 'crescendo_enable_xml_sitemaps');
+
+function crescendo_add_sitemap_to_robots($output, $is_public) {
+    if (!function_exists('wp_sitemaps_get_server')) {
+        return $output;
+    }
+
+    $sitemaps = wp_sitemaps_get_server();
+    if (!$sitemaps || !isset($sitemaps->index)) {
+        return $output;
+    }
+
+    $sitemap_url = $sitemaps->index->get_index_url();
+
+    if ($sitemap_url && strpos($output, $sitemap_url) === false) {
+        $output .= "\nSitemap: " . esc_url($sitemap_url) . "\n";
+    }
+
+    return $output;
+}
+add_filter('robots_txt', 'crescendo_add_sitemap_to_robots', 10, 2);
+
 function crescendo_is_seo_noise_query() {
     return is_category()
         || is_tag()
