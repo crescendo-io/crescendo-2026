@@ -5,7 +5,6 @@ $title = crescendo_secteur('secteur-hero-title') ?: get_the_title();
 $intro = crescendo_secteur('secteur-hero-intro');
 $ctaPrimary = crescendo_secteur('secteur-hero-cta-primary');
 $ctaSecondary = crescendo_secteur('secteur-hero-cta-secondary');
-$image = crescendo_secteur('secteur-hero-image');
 $note = crescendo_secteur('secteur-hero-note');
 $benefits = crescendo_secteur('secteur-benefits');
 ?>
@@ -38,20 +37,6 @@ $benefits = crescendo_secteur('secteur-benefits');
                 </div>
                 <?php if ($note) : ?>
                     <p class="service-hero__note"><span class="service-hero__note-icon" aria-hidden="true">⏱</span><?php echo esc_html($note); ?></p>
-                <?php endif; ?>
-            </div>
-            <div class="secteur-hero__visual">
-                <?php if (!empty($image['url']) || !empty($image['ID']) || !empty($image['id'])) : ?>
-                    <?php
-                    echo crescendo_image($image, 'crescendo-content', array(
-                        'alt' => $image['alt'] ?: $title,
-                        'sizes' => '(min-width: 768px) 45vw, 100vw',
-                        'loading' => 'eager',
-                        'fetchpriority' => 'high',
-                    ));
-                    ?>
-                <?php else : ?>
-                    <div class="secteur-hero__placeholder"></div>
                 <?php endif; ?>
             </div>
         </div>

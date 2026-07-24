@@ -15,7 +15,6 @@
         { "key": "field_679a3hero003", "label": "Intro", "name": "secteur-hero-intro", "type": "textarea", "rows": 4 },
         { "key": "field_679a3hero004", "label": "CTA principal", "name": "secteur-hero-cta-primary", "type": "link" },
         { "key": "field_679a3hero005", "label": "CTA secondaire", "name": "secteur-hero-cta-secondary", "type": "link" },
-        { "key": "field_679a3hero006", "label": "Image", "name": "secteur-hero-image", "type": "image", "return_format": "array", "preview_size": "medium" },
         { "key": "field_679a3hero007", "label": "Note sous CTA", "name": "secteur-hero-note", "type": "text" },
         {
             "key": "field_679a3hero008",

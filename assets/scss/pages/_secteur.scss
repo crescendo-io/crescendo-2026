@@ -101,20 +101,6 @@
         margin-bottom: 2rem;
     }
 
-    &__visual {
-        img,
-        .secteur-hero__placeholder {
-            width: 100%;
-            border-radius: var(--radius-lg);
-            box-shadow: var(--shadow-sm);
-        }
-    }
-
-    &__placeholder {
-        min-height: 34rem;
-        background: radial-gradient(circle at 30% 30%, rgba(245, 230, 66, 0.35), transparent 55%), linear-gradient(135deg, #ececec, #fafafa);
-    }
-
     &__benefits {
         display: grid;
         gap: 2rem;
@@ -299,33 +285,6 @@
         margin-top: 3rem;
     }
 
-    &__visual {
-        img,
-        .media-loader,
-        .media-loader__img,
-        .secteur-case__placeholder {
-            width: 100%;
-            border-radius: var(--radius-md);
-            box-shadow: var(--shadow-sm);
-        }
-
-        .media-loader {
-            display: block;
-            max-width: none;
-            overflow: hidden;
-        }
-
-        .media-loader__img {
-            display: block;
-            height: auto;
-        }
-    }
-
-    &__placeholder {
-        min-height: 28rem;
-        background: linear-gradient(135deg, #ececec, #fafafa);
-    }
-
     h3 {
         margin: 0 0 1rem;
         font-size: 2.4rem;
@@ -490,10 +449,6 @@
 }
 
 @media #{$breakpoint-md-up} {
-    .secteur-hero__inner {
-        grid-template-columns: 1.05fr 0.95fr;
-    }
-
     .secteur-hero__benefits {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -512,10 +467,6 @@
 
     .secteur-features__grid {
         grid-template-columns: repeat(3, 1fr);
-    }
-
-    .secteur-case__inner {
-        grid-template-columns: 1.1fr 0.9fr;
     }
 
     .secteur-pricing__layout {

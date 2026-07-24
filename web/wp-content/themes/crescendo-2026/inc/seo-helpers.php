@@ -42,7 +42,6 @@ function crescendo_get_og_image($post_id = null) {
     if ($post_id) {
         $heroFields = array(
             'service-hero-image',
-            'secteur-hero-image',
             'local-hero-image',
             'project-hero-image',
             'home-hero-image',

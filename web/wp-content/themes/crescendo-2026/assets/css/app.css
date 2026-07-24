@@ -3243,16 +3243,6 @@ img {
     gap: 1.2rem;
     margin-bottom: 2rem;
 }
-.secteur-hero__visual img,
-.secteur-hero__visual .secteur-hero__placeholder {
-    width: 100%;
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-sm);
-}
-.secteur-hero__placeholder {
-    min-height: 34rem;
-    background: radial-gradient(circle at 30% 30%, rgba(245, 230, 66, 0.35), transparent 55%), linear-gradient(135deg, #ececec, #fafafa);
-}
 .secteur-hero__benefits {
     display: grid;
     gap: 2rem;
@@ -3412,27 +3402,6 @@ img {
     align-items: center;
     margin-top: 3rem;
 }
-.secteur-case__visual img,
-.secteur-case__visual .media-loader,
-.secteur-case__visual .media-loader__img,
-.secteur-case__visual .secteur-case__placeholder {
-    width: 100%;
-    border-radius: var(--radius-md);
-    box-shadow: var(--shadow-sm);
-}
-.secteur-case__visual .media-loader {
-    display: block;
-    max-width: none;
-    overflow: hidden;
-}
-.secteur-case__visual .media-loader__img {
-    display: block;
-    height: auto;
-}
-.secteur-case__placeholder {
-    min-height: 28rem;
-    background: linear-gradient(135deg, #ececec, #fafafa);
-}
 .secteur-case h3 {
     margin: 0 0 1rem;
     font-size: 2.4rem;
@@ -3575,10 +3544,6 @@ img {
 }
 
 @media (min-width: 768px) {
-    .secteur-hero__inner {
-        grid-template-columns: 1.05fr 0.95fr;
-    }
-
     .secteur-hero__benefits {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -3597,10 +3562,6 @@ img {
 
     .secteur-features__grid {
         grid-template-columns: repeat(3, 1fr);
-    }
-
-    .secteur-case__inner {
-        grid-template-columns: 1.1fr 0.9fr;
     }
 
     .secteur-pricing__layout {

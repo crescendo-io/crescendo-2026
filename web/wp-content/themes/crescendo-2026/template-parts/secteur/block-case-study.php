@@ -5,7 +5,6 @@ $projectTitle = $caseProject['title'] ?? '';
 $projectTags = $caseProject['tags'] ?? '';
 $projectPoints = $caseProject['points'] ?? array();
 $projectUrl = $caseProject['url'] ?? '';
-$projectImage = $caseProject['image'] ?? null;
 if (!$title && !$projectTitle) {
     return;
 }
@@ -14,19 +13,6 @@ if (!$title && !$projectTitle) {
     <div class="container">
         <?php if ($title) : ?><h2 class="service-section__title"><?php echo esc_html($title); ?></h2><?php endif; ?>
         <div class="secteur-case__inner">
-            <div class="secteur-case__visual">
-                <?php if (!empty($projectImage['url']) || !empty($projectImage['ID']) || !empty($projectImage['id'])) : ?>
-                    <?php
-                    echo crescendo_image($projectImage, 'crescendo-content', array(
-                        'alt' => $projectTitle,
-                        'sizes' => '(min-width: 768px) 50vw, 100vw',
-                        'loading' => 'lazy',
-                    ));
-                    ?>
-                <?php else : ?>
-                    <div class="secteur-case__placeholder"></div>
-                <?php endif; ?>
-            </div>
             <div class="secteur-case__content">
                 <?php if ($projectTitle) : ?><h3><?php echo esc_html($projectTitle); ?></h3><?php endif; ?>
                 <?php if ($projectTags) : ?><p class="secteur-case__tags"><?php echo esc_html($projectTags); ?></p><?php endif; ?>
