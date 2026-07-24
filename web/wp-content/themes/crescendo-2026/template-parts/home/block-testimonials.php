@@ -5,7 +5,7 @@ $items = crescendo_home('home-testimonials-items');
 <section class="home-testimonials">
     <div class="container">
         <?php if ($eyebrow) : ?>
-            <p class="home-eyebrow home-eyebrow--center"><?php echo esc_html($eyebrow); ?></p>
+            <h2 class="home-section-head__title home-section-head__title--center"><?php echo esc_html($eyebrow); ?></h2>
         <?php endif; ?>
 
         <?php if (!empty($items)) : ?>
@@ -19,8 +19,15 @@ $items = crescendo_home('home-testimonials-items');
                         </div>
                         <p class="home-testimonial__quote">« <?php echo esc_html($item['quote'] ?? ''); ?> »</p>
                         <footer class="home-testimonial__author">
-                            <?php if (!empty($item['photo']['url'])) : ?>
-                                <img src="<?php echo esc_url($item['photo']['url']); ?>" alt="" class="home-testimonial__photo">
+                            <?php if (!empty($item['photo']['url']) || !empty($item['photo']['ID']) || !empty($item['photo']['id'])) : ?>
+                                <?php
+                                echo crescendo_image($item['photo'], 'crescendo-avatar', array(
+                                    'alt' => '',
+                                    'class' => 'home-testimonial__photo',
+                                    'sizes' => '48px',
+                                    'loading' => 'lazy',
+                                ));
+                                ?>
                             <?php else : ?>
                                 <span class="home-testimonial__avatar" aria-hidden="true"><?php echo esc_html(mb_substr($item['name'] ?? 'C', 0, 1)); ?></span>
                             <?php endif; ?>

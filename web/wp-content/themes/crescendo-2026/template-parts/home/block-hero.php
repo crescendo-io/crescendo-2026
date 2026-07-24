@@ -8,7 +8,7 @@ $stats = crescendo_home('home-hero-stats');
 $image = crescendo_home('home-hero-image');
 ?>
 <section class="home-hero">
-    <div class="home-hero__inner container">
+    <div class="home-hero__inner">
         <div class="home-hero__content">
             <?php if ($eyebrow) : ?>
                 <p class="home-eyebrow"><?php echo esc_html($eyebrow); ?></p>
@@ -38,8 +38,15 @@ $image = crescendo_home('home-hero-image');
         </div>
 
         <div class="home-hero__visual">
-            <?php if (!empty($image['url'])) : ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt'] ?: $title); ?>" width="<?php echo esc_attr($image['width'] ?? ''); ?>" height="<?php echo esc_attr($image['height'] ?? ''); ?>">
+            <?php if (!empty($image['url']) || !empty($image['ID']) || !empty($image['id'])) : ?>
+                <?php
+                echo crescendo_image($image, 'crescendo-hero', array(
+                    'alt' => $image['alt'] ?: $title,
+                    'sizes' => '(min-width: 768px) 50vw, 100vw',
+                    'loading' => 'eager',
+                    'fetchpriority' => 'high',
+                ));
+                ?>
             <?php else : ?>
                 <div class="home-hero__placeholder" aria-hidden="true">
                     <span>Image hero — laptop & CRM</span>

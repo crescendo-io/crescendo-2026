@@ -3,12 +3,19 @@
 }
 
 .home-hero {
-    padding: 6rem 0 4rem;
+    padding: 0;
 
     &__inner {
         display: grid;
-        gap: 4rem;
-        align-items: center;
+        gap: 0;
+        align-items: stretch;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 6rem var(--grid-offset) 4rem;
     }
 
     &__title {
@@ -58,11 +65,24 @@
         }
     }
 
+    &__visual {
+        position: relative;
+        min-height: 32rem;
+    }
+
     &__visual img,
     &__placeholder {
         width: 100%;
-        border-radius: var(--radius-lg);
-        box-shadow: var(--shadow-sm);
+        height: 100%;
+        max-width: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    &__visual img {
+        position: absolute;
+        inset: 0;
+        object-fit: cover;
     }
 
     &__placeholder {
@@ -88,6 +108,7 @@
 
     &__label {
         margin: 0;
+        flex-shrink: 0;
         font-size: 1.2rem;
         font-weight: 600;
         letter-spacing: 0.12em;
@@ -100,6 +121,9 @@
         flex-wrap: wrap;
         gap: 1.6rem 2.4rem;
         align-items: center;
+        justify-content: space-between;
+        min-width: 0;
+        max-width: 100%;
     }
 
     &__logo img {
@@ -404,6 +428,7 @@
     &__title {
         margin: 0 0 0.8rem;
         font-size: clamp(2.4rem, 3vw, 3.6rem);
+        font-weight: 700;
     }
 
     &__subtitle {
@@ -523,6 +548,7 @@
     &__title {
         margin: 0 0 0.8rem;
         font-size: clamp(2.4rem, 3vw, 3.4rem);
+        font-weight: 700;
     }
 
     &__text {
@@ -621,7 +647,27 @@
 }
 
 @media #{$breakpoint-md-up} {
-    .home-hero__inner,
+    .home-hero__inner {
+        grid-template-columns: 1fr 1fr;
+        min-height: min(72rem, calc(100vh - 8rem));
+    }
+
+    .home-hero__content {
+        padding-block: 6rem;
+        padding-left: max(var(--grid-offset), calc((100vw - var(--container-max)) / 2));
+        padding-right: 4rem;
+    }
+
+    .home-hero__visual {
+        min-height: 100%;
+    }
+
+    .home-hero__placeholder {
+        position: absolute;
+        inset: 0;
+        min-height: 0;
+    }
+
     .home-crm__inner {
         grid-template-columns: 1fr 1fr;
     }
@@ -629,6 +675,16 @@
     .home-trust__inner {
         flex-direction: row;
         align-items: center;
+        justify-content: space-between;
+        gap: 3.2rem;
+    }
+
+    .home-trust__logos {
+        flex: 1;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 1.6rem;
+        min-width: 0;
     }
 
     .home-services__grid {

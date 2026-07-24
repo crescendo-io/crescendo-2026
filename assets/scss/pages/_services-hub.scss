@@ -181,8 +181,8 @@
         gap: 1.6rem;
         padding: 3.2rem;
         border-radius: var(--radius-lg);
-        background: var(--color-primary);
-        color: var(--color-white);
+        background: var(--color-yellow);
+        color: var(--color-black);
         text-align: center;
     }
 
@@ -190,6 +190,7 @@
         margin: 0;
         font-size: clamp(2.4rem, 4vw, 3.6rem);
         line-height: 1.2;
+        font-weight: 700;
     }
 
     &__text {
@@ -197,7 +198,7 @@
         max-width: 56rem;
         font-size: 1.8rem;
         line-height: 1.6;
-        opacity: 0.92;
+        opacity: 0.85;
     }
 
     &__actions {

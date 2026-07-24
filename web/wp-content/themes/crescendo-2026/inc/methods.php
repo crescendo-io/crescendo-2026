@@ -46,17 +46,107 @@ function crescendo_home($field, $default = null) {
     return $defaults[$field] ?? (is_array($defaults[$field] ?? null) ? array() : '');
 }
 
+function crescendo_resolve_link_url($url) {
+    if (!is_string($url) || $url === '') {
+        return $url;
+    }
+
+    $map = array(
+        '#contact' => '/contact/',
+        '#tarifs' => '/services/location-site-internet/',
+        '/#contact' => '/contact/',
+        '/#tarifs' => '/services/location-site-internet/',
+    );
+
+    $normalized = trim($url);
+    if (isset($map[$normalized])) {
+        return home_url($map[$normalized]);
+    }
+
+    return $url;
+}
+
 function crescendo_link($link, $class = '') {
     if (empty($link) || empty($link['url'])) {
         return '';
     }
 
     $title = esc_html($link['title'] ?? '');
-    $url = esc_url($link['url']);
+    $url = esc_url(crescendo_resolve_link_url($link['url']));
     $target = !empty($link['target']) ? ' target="' . esc_attr($link['target']) . '" rel="noopener noreferrer"' : '';
     $classAttr = $class ? ' class="' . esc_attr($class) . '"' : '';
 
     return '<a href="' . $url . '"' . $classAttr . $target . '>' . $title . '</a>';
+}
+
+/**
+ * Render an ACF/attachment image with responsive srcset/sizes.
+ *
+ * @param array|int $image ACF image array or attachment ID.
+ * @param string    $size  Registered image size for the default src.
+ * @param array     $attr  Extra attributes (class, sizes, loading, alt…).
+ * @return string
+ */
+function crescendo_image($image, $size = 'large', $attr = array()) {
+    $id = 0;
+    $fallbackUrl = '';
+    $fallbackAlt = '';
+    $fallbackW = '';
+    $fallbackH = '';
+
+    if (is_numeric($image)) {
+        $id = (int) $image;
+    } elseif (is_array($image)) {
+        $id = (int) ($image['ID'] ?? $image['id'] ?? 0);
+        $fallbackUrl = (string) ($image['url'] ?? '');
+        $fallbackAlt = (string) ($image['alt'] ?? '');
+        $fallbackW = $image['width'] ?? '';
+        $fallbackH = $image['height'] ?? '';
+    }
+
+    if ($id > 0) {
+        if (!isset($attr['alt']) && $fallbackAlt !== '') {
+            $attr['alt'] = $fallbackAlt;
+        }
+        if (!isset($attr['decoding'])) {
+            $attr['decoding'] = 'async';
+        }
+
+        $html = wp_get_attachment_image($id, $size, false, $attr);
+        if ($html) {
+            return $html;
+        }
+    }
+
+    if ($fallbackUrl === '') {
+        return '';
+    }
+
+    $attrs = array(
+        'src' => $fallbackUrl,
+        'alt' => $attr['alt'] ?? $fallbackAlt,
+        'decoding' => $attr['decoding'] ?? 'async',
+    );
+
+    foreach (array('class', 'loading', 'fetchpriority', 'sizes') as $key) {
+        if (!empty($attr[$key])) {
+            $attrs[$key] = $attr[$key];
+        }
+    }
+
+    if ($fallbackW !== '' && $fallbackW !== null) {
+        $attrs['width'] = $fallbackW;
+    }
+    if ($fallbackH !== '' && $fallbackH !== null) {
+        $attrs['height'] = $fallbackH;
+    }
+
+    $html = '<img';
+    foreach ($attrs as $key => $value) {
+        $html .= ' ' . esc_attr($key) . '="' . esc_attr((string) $value) . '"';
+    }
+
+    return $html . '>';
 }
 
 function crescendo_get_content_import_dir($subdir = '') {

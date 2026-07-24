@@ -2,7 +2,37 @@
 $eyebrow = crescendo_project('project-hero-eyebrow');
 $title = crescendo_project('project-hero-title') ?: get_the_title();
 $intro = crescendo_project('project-hero-intro');
+$clientUrl = crescendo_project('project-client-url');
+$image = crescendo_project('project-hero-image');
+$client = crescendo_project('project-client-name');
+$sector = crescendo_project('project-sector');
+$year = crescendo_project('project-year');
+$tags = crescendo_project('project-tags');
+$tech = crescendo_project('project-tech-tags');
+$hasCrm = crescendo_project('project-has-crm');
 $items = crescendo_project_breadcrumb();
+
+$visualTags = array();
+if ($client) {
+    $visualTags[] = array('label' => 'Client', 'value' => $client);
+}
+if ($sector) {
+    $visualTags[] = array('label' => 'Secteur', 'value' => $sector);
+}
+if ($year) {
+    $visualTags[] = array('label' => 'Année', 'value' => $year);
+}
+if ($tags) {
+    $visualTags[] = array('label' => 'Prestations', 'value' => $tags);
+}
+if ($tech) {
+    $visualTags[] = array('label' => 'Technologies', 'value' => $tech);
+}
+if ($hasCrm) {
+    $visualTags[] = array('label' => 'CRM', 'value' => 'Intégré');
+}
+
+$hasVisual = !empty($image['url']) || !empty($visualTags);
 ?>
 <section class="project-hero">
     <div class="container">
@@ -30,6 +60,42 @@ $items = crescendo_project_breadcrumb();
 
         <?php if ($intro) : ?>
             <p class="project-hero__intro"><?php echo esc_html($intro); ?></p>
+        <?php endif; ?>
+
+        <?php if ($clientUrl) : ?>
+            <div class="project-hero__actions">
+                <a href="<?php echo esc_url($clientUrl); ?>" class="btn btn--outline" target="_blank" rel="noopener noreferrer">Visiter le site →</a>
+            </div>
+        <?php endif; ?>
+
+        <?php if ($hasVisual) : ?>
+            <figure class="project-hero__visual">
+                <?php if (!empty($image['url'])) : ?>
+                    <img
+                        src="<?php echo esc_url($image['url']); ?>"
+                        alt="<?php echo esc_attr($image['alt'] ?: $title); ?>"
+                        width="<?php echo esc_attr($image['width'] ?? '1920'); ?>"
+                        height="<?php echo esc_attr($image['height'] ?? '1080'); ?>"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                <?php else : ?>
+                    <div class="project-hero__visual-placeholder" aria-hidden="true"></div>
+                <?php endif; ?>
+
+                <div class="project-hero__visual-overlay">
+                    <?php if (!empty($visualTags)) : ?>
+                        <ul class="project-hero__tags">
+                            <?php foreach ($visualTags as $tag) : ?>
+                                <li>
+                                    <span class="project-hero__tag-label"><?php echo esc_html($tag['label']); ?></span>
+                                    <strong class="project-hero__tag-value"><?php echo esc_html($tag['value']); ?></strong>
+                                </li>
+                            <?php endforeach; ?>
+                        </ul>
+                    <?php endif; ?>
+                </div>
+            </figure>
         <?php endif; ?>
     </div>
 </section>

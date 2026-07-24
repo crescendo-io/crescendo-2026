@@ -13,6 +13,15 @@
         { "key": "field_679a9hero001", "label": "Sur-titre", "name": "project-hero-eyebrow", "type": "text", "default_value": "Étude de cas" },
         { "key": "field_679a9hero002", "label": "Titre H1", "name": "project-hero-title", "type": "text" },
         { "key": "field_679a9hero003", "label": "Intro", "name": "project-hero-intro", "type": "textarea", "rows": 4 },
+        {
+            "key": "field_679a9hero004",
+            "label": "Visuel sous CTA",
+            "name": "project-hero-image",
+            "type": "image",
+            "return_format": "array",
+            "preview_size": "medium",
+            "instructions": "Image pleine largeur sous le CTA. Format recommandé : 1920×1080 (16:9)."
+        },
 
         { "key": "field_679a9tabmeta01", "label": "Métadonnées", "name": "", "type": "tab", "placement": "top" },
         { "key": "field_679a9meta001", "label": "Nom client", "name": "project-client-name", "type": "text" },
@@ -83,5 +92,5 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "active": true,
-    "modified": 1784752800
+    "modified": 1784847600
 }

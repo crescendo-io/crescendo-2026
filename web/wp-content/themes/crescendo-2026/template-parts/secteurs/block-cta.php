@@ -20,7 +20,7 @@ if (!$title && !$text && empty($button['url'])) {
 
             <?php if (!empty($button['url'])) : ?>
                 <div class="secteurs-cta__actions">
-                    <?php echo crescendo_link($button, 'btn btn--primary'); ?>
+                    <?php echo crescendo_link($button, 'btn btn--dark'); ?>
                 </div>
             <?php endif; ?>
         </div>

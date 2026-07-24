@@ -23,23 +23,25 @@ $items = crescendo_contact_breadcrumb();
             </nav>
         <?php endif; ?>
 
-        <div class="contact-hero__inner">
-            <?php if ($eyebrow) : ?>
-                <p class="service-eyebrow"><?php echo esc_html($eyebrow); ?></p>
-            <?php endif; ?>
+        <?php if ($eyebrow) : ?>
+            <p class="service-eyebrow"><?php echo esc_html($eyebrow); ?></p>
+        <?php endif; ?>
 
+        <div class="contact-hero__layout">
             <h1 class="contact-hero__title"><?php echo esc_html($title); ?></h1>
 
-            <?php if ($intro) : ?>
-                <p class="contact-hero__intro"><?php echo esc_html($intro); ?></p>
-            <?php endif; ?>
+            <div class="contact-hero__content">
+                <?php if ($intro) : ?>
+                    <p class="contact-hero__intro"><?php echo esc_html($intro); ?></p>
+                <?php endif; ?>
 
-            <?php if ($note) : ?>
-                <p class="contact-hero__note">
-                    <span class="contact-hero__note-icon" aria-hidden="true">⏱</span>
-                    <?php echo esc_html($note); ?>
-                </p>
-            <?php endif; ?>
+                <?php if ($note) : ?>
+                    <p class="contact-hero__note">
+                        <span class="contact-hero__note-icon" aria-hidden="true">⏱</span>
+                        <?php echo esc_html($note); ?>
+                    </p>
+                <?php endif; ?>
+            </div>
         </div>
     </div>
 </section>

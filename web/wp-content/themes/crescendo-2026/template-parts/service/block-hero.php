@@ -52,8 +52,15 @@ $items = crescendo_service_breadcrumb();
             </div>
 
             <div class="service-hero__visual">
-                <?php if (!empty($image['url'])) : ?>
-                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt'] ?: $title); ?>">
+                <?php if (!empty($image['url']) || !empty($image['ID']) || !empty($image['id'])) : ?>
+                    <?php
+                    echo crescendo_image($image, 'crescendo-content', array(
+                        'alt' => $image['alt'] ?: $title,
+                        'sizes' => '(min-width: 768px) 45vw, 100vw',
+                        'loading' => 'eager',
+                        'fetchpriority' => 'high',
+                    ));
+                    ?>
                 <?php else : ?>
                     <div class="service-hero__placeholder" aria-hidden="true"></div>
                 <?php endif; ?>

@@ -34,8 +34,14 @@ $image = crescendo_home('home-crm-image');
         </div>
 
         <div class="home-crm__visual">
-            <?php if (!empty($image['url'])) : ?>
-                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt'] ?: $title); ?>">
+            <?php if (!empty($image['url']) || !empty($image['ID']) || !empty($image['id'])) : ?>
+                <?php
+                echo crescendo_image($image, 'crescendo-content', array(
+                    'alt' => $image['alt'] ?: $title,
+                    'sizes' => '(min-width: 768px) 50vw, 100vw',
+                    'loading' => 'lazy',
+                ));
+                ?>
             <?php else : ?>
                 <div class="home-crm__placeholder" aria-hidden="true">
                     <span>Dashboard CRM</span>

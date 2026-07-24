@@ -11,16 +11,23 @@ $logos = crescendo_home('home-trust-logos');
         <div class="home-trust__logos">
             <?php if (!empty($logos)) : ?>
                 <?php foreach ($logos as $item) : ?>
-                    <?php if (empty($item['logo']['url'])) {
+                    <?php if (empty($item['logo']['url']) && empty($item['logo']['ID']) && empty($item['logo']['id'])) {
                         continue;
                     } ?>
+                    <?php
+                    $logoHtml = crescendo_image($item['logo'], 'crescendo-logo', array(
+                        'alt' => $item['logo']['alt'] ?? '',
+                        'sizes' => '120px',
+                        'loading' => 'lazy',
+                    ));
+                    ?>
                     <?php if (!empty($item['link'])) : ?>
                         <a href="<?php echo esc_url($item['link']); ?>" class="home-trust__logo">
-                            <img src="<?php echo esc_url($item['logo']['url']); ?>" alt="<?php echo esc_attr($item['logo']['alt'] ?: ''); ?>">
+                            <?php echo $logoHtml; ?>
                         </a>
                     <?php else : ?>
                         <div class="home-trust__logo">
-                            <img src="<?php echo esc_url($item['logo']['url']); ?>" alt="<?php echo esc_attr($item['logo']['alt'] ?: ''); ?>">
+                            <?php echo $logoHtml; ?>
                         </div>
                     <?php endif; ?>
                 <?php endforeach; ?>

@@ -47,8 +47,15 @@ $projectUrlMap = array(
                     }
                     ?>
                     <a class="home-project-card" href="<?php echo esc_url($url); ?>">
-                        <?php if (!empty($project['image']['url'])) : ?>
-                            <img src="<?php echo esc_url($project['image']['url']); ?>" alt="<?php echo esc_attr($projectTitle); ?>" class="home-project-card__image">
+                        <?php if (!empty($project['image']['url']) || !empty($project['image']['ID']) || !empty($project['image']['id'])) : ?>
+                            <?php
+                            echo crescendo_image($project['image'], 'crescendo-card', array(
+                                'alt' => $projectTitle,
+                                'class' => 'home-project-card__image',
+                                'sizes' => '(min-width: 992px) 33vw, (min-width: 768px) 50vw, 100vw',
+                                'loading' => 'lazy',
+                            ));
+                            ?>
                         <?php else : ?>
                             <div class="home-project-card__placeholder" aria-hidden="true"></div>
                         <?php endif; ?>

@@ -22,8 +22,11 @@ function theme_setup() {
 
     show_admin_bar(false);
 
-    add_image_size('thumbnail_example', 600, 800, array('center', 'center'));
-
+    add_image_size('crescendo-hero', 1400, 0, false);
+    add_image_size('crescendo-content', 960, 0, false);
+    add_image_size('crescendo-card', 640, 0, false);
+    add_image_size('crescendo-avatar', 96, 96, true);
+    add_image_size('crescendo-logo', 240, 0, false);
 }
 
 // function remove_default_post_type_menu_bar($wp_admin_bar) {

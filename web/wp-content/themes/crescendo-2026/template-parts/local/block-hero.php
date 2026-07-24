@@ -41,8 +41,15 @@ $benefits = crescendo_local('local-benefits');
                 <?php endif; ?>
             </div>
             <div class="secteur-hero__visual">
-                <?php if (!empty($image['url'])) : ?>
-                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt'] ?: $title); ?>">
+                <?php if (!empty($image['url']) || !empty($image['ID']) || !empty($image['id'])) : ?>
+                    <?php
+                    echo crescendo_image($image, 'crescendo-content', array(
+                        'alt' => $image['alt'] ?: $title,
+                        'sizes' => '(min-width: 768px) 45vw, 100vw',
+                        'loading' => 'eager',
+                        'fetchpriority' => 'high',
+                    ));
+                    ?>
                 <?php else : ?>
                     <div class="secteur-hero__placeholder"></div>
                 <?php endif; ?>

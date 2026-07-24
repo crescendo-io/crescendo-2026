@@ -6,12 +6,12 @@ return array(
     'home-hero-text' => 'Crescendo Studio accompagne TPE, PME et professions libérales en Loire-Atlantique : sites sur mesure, SEO local intégré et CRM connecté. Location dès 350€/mois · Maquette gratuite 48h.',
     'home-hero-cta-primary' => array(
         'title' => 'Demander ma maquette gratuite',
-        'url' => '#contact',
+        'url' => '/contact/',
         'target' => '',
     ),
     'home-hero-cta-secondary' => array(
         'title' => 'Découvrir la location dès 350€/mois',
-        'url' => '#tarifs',
+        'url' => '/services/location-site-internet/',
         'target' => '',
     ),
     'home-hero-stats' => array(
@@ -100,7 +100,7 @@ return array(
     ),
     'home-pricing-location-cta' => array(
         'title' => 'Choisir la location',
-        'url' => '#contact',
+        'url' => '/contact/',
         'target' => '',
     ),
     'home-pricing-table' => array(
@@ -150,7 +150,7 @@ return array(
     'home-cta-text' => 'Demandez votre maquette gratuite en 48h.',
     'home-cta-button' => array(
         'title' => 'Demander ma maquette gratuite',
-        'url' => '#contact',
+        'url' => '/contact/',
         'target' => '',
     ),
     'home-faq-items' => array(
