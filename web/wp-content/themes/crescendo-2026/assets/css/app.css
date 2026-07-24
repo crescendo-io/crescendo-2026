@@ -3402,6 +3402,26 @@ img {
     align-items: center;
     margin-top: 3rem;
 }
+@media (min-width: 768px) {
+    .secteur-case__inner--with-visual {
+        grid-template-columns: 1.1fr 0.9fr;
+    }
+}
+.secteur-case__visual img,
+.secteur-case__visual .media-loader,
+.secteur-case__visual .media-loader__img {
+    display: block;
+    width: 100%;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+}
+.secteur-case__visual .media-loader {
+    max-width: none;
+    overflow: hidden;
+}
+.secteur-case__visual .media-loader__img {
+    height: auto;
+}
 .secteur-case h3 {
     margin: 0 0 1rem;
     font-size: 2.4rem;

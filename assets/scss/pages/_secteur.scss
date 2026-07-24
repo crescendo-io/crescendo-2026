@@ -283,6 +283,32 @@
         gap: 4rem;
         align-items: center;
         margin-top: 3rem;
+
+        &--with-visual {
+            @media #{$breakpoint-md-up} {
+                grid-template-columns: 1.1fr 0.9fr;
+            }
+        }
+    }
+
+    &__visual {
+        img,
+        .media-loader,
+        .media-loader__img {
+            display: block;
+            width: 100%;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .media-loader {
+            max-width: none;
+            overflow: hidden;
+        }
+
+        .media-loader__img {
+            height: auto;
+        }
     }
 
     h3 {

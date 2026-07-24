@@ -64,6 +64,12 @@ function crescendo_resolve_project_page_id($reference) {
     return $cache[$cache_key] = null;
 }
 
+function crescendo_project_image_has_source($image) {
+    return is_array($image) && (
+        !empty($image['url']) || !empty($image['ID']) || !empty($image['id'])
+    );
+}
+
 function crescendo_get_project_card($post_id) {
     $post_id = (int) $post_id;
     if (!$post_id || !crescendo_is_project_page($post_id)) {
@@ -143,6 +149,7 @@ function crescendo_resolve_case_study_project($prefix, $getter) {
     }
 
     return array(
+        'project_id' => null,
         'title' => $fields['title'],
         'tags' => $fields['tags'],
         'url' => $fields['url'],
