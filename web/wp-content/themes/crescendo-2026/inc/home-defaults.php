@@ -17,7 +17,7 @@ return array(
     'home-hero-stats' => array(
         array('value' => '350€/mois', 'label' => 'Tout inclus'),
         array('value' => '48h', 'label' => 'Maquette gratuite'),
-        array('value' => '9+', 'label' => 'Projets réalisés'),
+        array('value' => '80+', 'label' => 'Projets réalisés'),
     ),
     'home-trust-label' => 'Ils nous font confiance',
     'home-services-eyebrow' => 'Nos services',
