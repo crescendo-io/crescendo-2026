@@ -24,22 +24,29 @@ function crescendo_get_home_seo() {
 
 function crescendo_output_home_schema() {
     $seo = crescendo_get_home_seo();
+    $homeUrl = crescendo_normalize_canonical(home_url('/'));
+    $orgId = untrailingslashit($homeUrl) . '#organization';
+    $businessId = untrailingslashit($homeUrl) . '#localbusiness';
+    $websiteId = untrailingslashit($homeUrl) . '#website';
     $phone = crescendo_public_phone();
     $email = get_field('params-footer-email', 'option') ?: 'contact@crescendo-studio.io';
+    $address = array(
+        '@type' => 'PostalAddress',
+        'addressLocality' => 'Nantes',
+        'addressRegion' => 'Pays de la Loire',
+        'addressCountry' => 'FR',
+    );
 
     $organization = array(
-        '@context' => 'https://schema.org',
         '@type' => 'Organization',
+        '@id' => $orgId,
         'name' => crescendo_brand_name(),
-        'url' => home_url('/'),
+        'url' => $homeUrl,
         'logo' => crescendo_default_og_image(),
+        'description' => $seo['meta_description'],
         'email' => $email,
-        'address' => array(
-            '@type' => 'PostalAddress',
-            'addressLocality' => 'Nantes',
-            'addressRegion' => 'Pays de la Loire',
-            'addressCountry' => 'FR',
-        ),
+        'address' => $address,
+        'knowsAbout' => crescendo_get_organization_knows_about(),
         'areaServed' => array(
             array('@type' => 'City', 'name' => 'Nantes'),
             array('@type' => 'AdministrativeArea', 'name' => 'Loire-Atlantique'),
@@ -50,21 +57,22 @@ function crescendo_output_home_schema() {
         $organization['telephone'] = $phone;
     }
 
+    $sameAs = crescendo_get_organization_same_as();
+    if (!empty($sameAs)) {
+        $organization['sameAs'] = $sameAs;
+    }
+
     $localBusiness = array(
-        '@context' => 'https://schema.org',
         '@type' => 'LocalBusiness',
+        '@id' => $businessId,
         'name' => crescendo_brand_name(),
         'description' => $seo['meta_description'],
-        'url' => home_url('/'),
+        'url' => $homeUrl,
         'image' => crescendo_get_og_image(),
         'priceRange' => '€€',
         'email' => $email,
-        'address' => array(
-            '@type' => 'PostalAddress',
-            'addressLocality' => 'Nantes',
-            'addressRegion' => 'Pays de la Loire',
-            'addressCountry' => 'FR',
-        ),
+        'address' => $address,
+        'parentOrganization' => array('@id' => $orgId),
         'areaServed' => array(
             '@type' => 'City',
             'name' => 'Nantes',
@@ -76,22 +84,30 @@ function crescendo_output_home_schema() {
     }
 
     $website = array(
-        '@context' => 'https://schema.org',
         '@type' => 'WebSite',
+        '@id' => $websiteId,
         'name' => crescendo_brand_name(),
-        'url' => home_url('/'),
+        'url' => $homeUrl,
         'description' => $seo['meta_description'],
-        'publisher' => array(
-            '@type' => 'Organization',
-            'name' => crescendo_brand_name(),
-            'url' => home_url('/'),
-        ),
+        'publisher' => array('@id' => $orgId),
         'inLanguage' => 'fr-FR',
     );
 
-    crescendo_print_json_ld($organization);
-    crescendo_print_json_ld($localBusiness);
-    crescendo_print_json_ld($website);
+    $graph = array(
+        '@context' => 'https://schema.org',
+        '@graph' => array(
+            $organization,
+            $localBusiness,
+            $website,
+        ),
+    );
+
+    $faqSchema = crescendo_build_faq_page_schema(crescendo_get_home_faq_items(), $homeUrl);
+    if ($faqSchema) {
+        $graph['@graph'][] = $faqSchema;
+    }
+
+    crescendo_print_json_ld($graph);
 }
 
 function crescendo_home_head_meta() {

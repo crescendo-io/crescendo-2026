@@ -128,6 +128,83 @@ function crescendo_print_json_ld($schema) {
 }
 
 /**
+ * Topics d'expertise pour Organization.knowsAbout (GEO / entité de marque).
+ *
+ * @return string[]
+ */
+function crescendo_get_organization_knows_about() {
+    return apply_filters('crescendo_organization_knows_about', array(
+        'Développement WordPress',
+        'Création de sites web sur mesure',
+        'Référencement naturel (SEO)',
+        'CRM sur mesure',
+        'E-commerce WooCommerce',
+        'Maintenance WordPress',
+        'Agence web Nantes',
+    ));
+}
+
+/**
+ * Profils sociaux vérifiés (sameAs). Ne pas inventer d'URL — filtre ou ACF futur.
+ *
+ * @return string[]
+ */
+function crescendo_get_organization_same_as() {
+    $urls = apply_filters('crescendo_organization_same_as', array());
+
+    return array_values(array_filter(array_map('esc_url_raw', (array) $urls)));
+}
+
+/**
+ * @param array<int, array{question?: string, answer?: string}> $items
+ */
+function crescendo_build_faq_page_schema(array $items, $page_url = null) {
+    $entities = array();
+
+    foreach ($items as $item) {
+        if (empty($item['question']) || empty($item['answer'])) {
+            continue;
+        }
+
+        $entities[] = array(
+            '@type' => 'Question',
+            'name' => $item['question'],
+            'acceptedAnswer' => array(
+                '@type' => 'Answer',
+                'text' => $item['answer'],
+            ),
+        );
+    }
+
+    if (empty($entities)) {
+        return null;
+    }
+
+    $schema = array(
+        '@type' => 'FAQPage',
+        'mainEntity' => $entities,
+    );
+
+    if ($page_url) {
+        $page_url = crescendo_normalize_canonical($page_url);
+        $schema['@id'] = untrailingslashit($page_url) . '#faq';
+        $schema['url'] = $page_url;
+    }
+
+    return $schema;
+}
+
+function crescendo_get_home_faq_items() {
+    if (!function_exists('crescendo_home')) {
+        return array();
+    }
+
+    $items = crescendo_home('home-faq-items');
+
+    return is_array($items) ? $items : array();
+}
+
+/**
  * Emit description, canonical, robots, Open Graph (+ image). No meta keywords.
  *
  * @param array  $seo     Keys: meta_title, meta_description, canonical, noindex
