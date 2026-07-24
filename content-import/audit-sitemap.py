@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://crescendo-studio.io"
 
 SERVICES = {
-    "agence-web-nantes","creation-site-web-nantes","creation-site-vitrine-nantes",
+    "creation-site-web-nantes","creation-site-vitrine-nantes",
     "creation-site-ecommerce-nantes","creation-site-wordpress","refonte-site-wordpress",
     "location-site-internet","crm-sur-mesure-nantes","agence-seo-nantes","maintenance-wordpress",
 }
