@@ -21,12 +21,14 @@ if (empty($gallery) && $slots <= 0) {
             <?php if (!empty($gallery)) : ?>
                 <?php foreach ($gallery as $item) : ?>
                     <figure class="project-gallery__item">
-                        <?php if (!empty($item['image']['url'])) : ?>
-                            <img
-                                src="<?php echo esc_url($item['image']['url']); ?>"
-                                alt="<?php echo esc_attr($item['caption'] ?? ($item['image']['alt'] ?? '')); ?>"
-                                loading="lazy"
-                            >
+                        <?php if (!empty($item['image']['url']) || !empty($item['image']['ID']) || !empty($item['image']['id'])) : ?>
+                            <?php
+                            echo crescendo_image($item['image'], 'crescendo-content', array(
+                                'alt' => $item['caption'] ?? ($item['image']['alt'] ?? ''),
+                                'sizes' => '(min-width: 768px) 50vw, 100vw',
+                                'loading' => 'lazy',
+                            ));
+                            ?>
                         <?php else : ?>
                             <div class="project-gallery__placeholder" aria-hidden="true"></div>
                         <?php endif; ?>

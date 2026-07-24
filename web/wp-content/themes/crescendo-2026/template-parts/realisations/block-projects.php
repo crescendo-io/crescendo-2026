@@ -20,8 +20,15 @@ if (!$title && empty($projects)) {
                     $tag = $url ? 'a' : 'article';
                     ?>
                     <<?php echo $tag; ?> class="realisations-projects__card"<?php echo $url ? ' href="' . esc_url($url) . '"' : ''; ?>>
-                        <?php if (!empty($project['image']['url'])) : ?>
-                            <img src="<?php echo esc_url($project['image']['url']); ?>" alt="<?php echo esc_attr($project['title'] ?? ''); ?>" class="realisations-projects__image">
+                        <?php if (!empty($project['image']['url']) || !empty($project['image']['ID']) || !empty($project['image']['id'])) : ?>
+                            <?php
+                            echo crescendo_image($project['image'], 'crescendo-card', array(
+                                'alt' => $project['title'] ?? '',
+                                'class' => 'realisations-projects__image',
+                                'sizes' => '(min-width: 992px) 33vw, (min-width: 768px) 50vw, 100vw',
+                                'loading' => 'lazy',
+                            ));
+                            ?>
                         <?php else : ?>
                             <div class="realisations-projects__placeholder" aria-hidden="true"></div>
                         <?php endif; ?>

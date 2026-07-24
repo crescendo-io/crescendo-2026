@@ -70,15 +70,14 @@ $hasVisual = !empty($image['url']) || !empty($visualTags);
 
         <?php if ($hasVisual) : ?>
             <figure class="project-hero__visual">
-                <?php if (!empty($image['url'])) : ?>
-                    <img
-                        src="<?php echo esc_url($image['url']); ?>"
-                        alt="<?php echo esc_attr($image['alt'] ?: $title); ?>"
-                        width="<?php echo esc_attr($image['width'] ?? '1920'); ?>"
-                        height="<?php echo esc_attr($image['height'] ?? '1080'); ?>"
-                        loading="lazy"
-                        decoding="async"
-                    >
+                <?php if (!empty($image['url']) || !empty($image['ID']) || !empty($image['id'])) : ?>
+                    <?php
+                    echo crescendo_image($image, 'crescendo-hero', array(
+                        'alt' => $image['alt'] ?: $title,
+                        'sizes' => '(min-width: 1240px) 1240px, 100vw',
+                        'loading' => 'lazy',
+                    ));
+                    ?>
                 <?php else : ?>
                     <div class="project-hero__visual-placeholder" aria-hidden="true"></div>
                 <?php endif; ?>

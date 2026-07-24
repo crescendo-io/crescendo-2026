@@ -14,9 +14,15 @@ if (!$title && empty($projects)) {
             <div class="local-projects__grid">
                 <?php foreach ($projects as $project) : ?>
                     <article class="local-projects__card">
-                        <?php if (!empty($project['image']['url'])) : ?>
+                        <?php if (!empty($project['image']['url']) || !empty($project['image']['ID']) || !empty($project['image']['id'])) : ?>
                             <a href="<?php echo esc_url($project['url'] ?? '#'); ?>" class="local-projects__image">
-                                <img src="<?php echo esc_url($project['image']['url']); ?>" alt="<?php echo esc_attr($project['title'] ?? ''); ?>">
+                                <?php
+                                echo crescendo_image($project['image'], 'crescendo-card', array(
+                                    'alt' => $project['title'] ?? '',
+                                    'sizes' => '(min-width: 768px) 33vw, 100vw',
+                                    'loading' => 'lazy',
+                                ));
+                                ?>
                             </a>
                         <?php endif; ?>
                         <?php if (!empty($project['tags'])) : ?>

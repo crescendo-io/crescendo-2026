@@ -301,10 +301,23 @@
 
     &__visual {
         img,
+        .media-loader,
+        .media-loader__img,
         .secteur-case__placeholder {
             width: 100%;
             border-radius: var(--radius-md);
             box-shadow: var(--shadow-sm);
+        }
+
+        .media-loader {
+            display: block;
+            max-width: none;
+            overflow: hidden;
+        }
+
+        .media-loader__img {
+            display: block;
+            height: auto;
         }
     }
 

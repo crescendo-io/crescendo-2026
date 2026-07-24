@@ -104,17 +104,23 @@ function crescendo_image($image, $size = 'large', $attr = array()) {
         $fallbackH = $image['height'] ?? '';
     }
 
+    if (!isset($attr['decoding'])) {
+        $attr['decoding'] = 'async';
+    }
+    if (!isset($attr['loading'])) {
+        $attr['loading'] = 'lazy';
+    }
+
+    $attr['class'] = trim(($attr['class'] ?? '') . ' media-loader__img');
+
     if ($id > 0) {
         if (!isset($attr['alt']) && $fallbackAlt !== '') {
             $attr['alt'] = $fallbackAlt;
         }
-        if (!isset($attr['decoding'])) {
-            $attr['decoding'] = 'async';
-        }
 
         $html = wp_get_attachment_image($id, $size, false, $attr);
         if ($html) {
-            return $html;
+            return crescendo_wrap_media_loader($html);
         }
     }
 
@@ -125,10 +131,12 @@ function crescendo_image($image, $size = 'large', $attr = array()) {
     $attrs = array(
         'src' => $fallbackUrl,
         'alt' => $attr['alt'] ?? $fallbackAlt,
-        'decoding' => $attr['decoding'] ?? 'async',
+        'decoding' => $attr['decoding'],
+        'loading' => $attr['loading'],
+        'class' => $attr['class'],
     );
 
-    foreach (array('class', 'loading', 'fetchpriority', 'sizes') as $key) {
+    foreach (array('fetchpriority', 'sizes') as $key) {
         if (!empty($attr[$key])) {
             $attrs[$key] = $attr[$key];
         }
@@ -145,8 +153,17 @@ function crescendo_image($image, $size = 'large', $attr = array()) {
     foreach ($attrs as $key => $value) {
         $html .= ' ' . esc_attr($key) . '="' . esc_attr((string) $value) . '"';
     }
+    $html .= '>';
 
-    return $html . '>';
+    return crescendo_wrap_media_loader($html);
+}
+
+function crescendo_wrap_media_loader($html) {
+    if ($html === '') {
+        return '';
+    }
+
+    return '<span class="media-loader" data-media-loader>' . $html . '</span>';
 }
 
 function crescendo_get_content_import_dir($subdir = '') {

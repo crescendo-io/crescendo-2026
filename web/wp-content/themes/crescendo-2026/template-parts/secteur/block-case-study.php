@@ -14,8 +14,14 @@ if (!$title && !$projectTitle) {
         <?php if ($title) : ?><h2 class="service-section__title"><?php echo esc_html($title); ?></h2><?php endif; ?>
         <div class="secteur-case__inner">
             <div class="secteur-case__visual">
-                <?php if (!empty($projectImage['url'])) : ?>
-                    <img src="<?php echo esc_url($projectImage['url']); ?>" alt="<?php echo esc_attr($projectTitle); ?>">
+                <?php if (!empty($projectImage['url']) || !empty($projectImage['ID']) || !empty($projectImage['id'])) : ?>
+                    <?php
+                    echo crescendo_image($projectImage, 'crescendo-content', array(
+                        'alt' => $projectTitle,
+                        'sizes' => '(min-width: 768px) 50vw, 100vw',
+                        'loading' => 'lazy',
+                    ));
+                    ?>
                 <?php else : ?>
                     <div class="secteur-case__placeholder"></div>
                 <?php endif; ?>

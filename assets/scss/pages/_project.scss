@@ -48,9 +48,17 @@
         border-radius: var(--radius-lg);
         aspect-ratio: 16 / 9;
         background: linear-gradient(135deg, #2a2a2a, #555);
+
+        > .media-loader {
+            position: absolute;
+            inset: 0;
+            max-width: none;
+            height: 100%;
+        }
     }
 
     &__visual img,
+    &__visual .media-loader__img,
     &__visual-placeholder {
         display: block;
         width: 100%;
@@ -176,11 +184,21 @@
         background: var(--color-white);
 
         img,
+        .media-loader,
+        .media-loader__img,
         .project-gallery__placeholder {
             display: block;
             width: 100%;
             aspect-ratio: 16 / 9;
             object-fit: cover;
+        }
+
+        .media-loader {
+            max-width: none;
+        }
+
+        .media-loader__img {
+            height: 100%;
         }
 
         figcaption {

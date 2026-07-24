@@ -27,8 +27,15 @@ if (!$title && empty($projects)) {
                     <?php else : ?>
                         <div class="service-project-row">
                     <?php endif; ?>
-                        <?php if (!empty($project['image']['url'])) : ?>
-                            <img src="<?php echo esc_url($project['image']['url']); ?>" alt="<?php echo esc_attr($project['title'] ?? ''); ?>" class="service-project-row__image">
+                        <?php if (!empty($project['image']['url']) || !empty($project['image']['ID']) || !empty($project['image']['id'])) : ?>
+                            <?php
+                            echo crescendo_image($project['image'], 'crescendo-card', array(
+                                'alt' => $project['title'] ?? '',
+                                'class' => 'service-project-row__image',
+                                'sizes' => '(min-width: 768px) 40vw, 100vw',
+                                'loading' => 'lazy',
+                            ));
+                            ?>
                         <?php else : ?>
                             <div class="service-project-row__placeholder"></div>
                         <?php endif; ?>
