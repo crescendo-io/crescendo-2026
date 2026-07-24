@@ -75,7 +75,8 @@ $hasVisual = !empty($image['url']) || !empty($visualTags);
                     echo crescendo_image($image, 'crescendo-hero', array(
                         'alt' => $image['alt'] ?: $title,
                         'sizes' => '(min-width: 1240px) 1240px, 100vw',
-                        'loading' => 'lazy',
+                        'loading' => 'eager',
+                        'fetchpriority' => 'high',
                     ));
                     ?>
                 <?php else : ?>
