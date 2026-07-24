@@ -182,7 +182,7 @@ add_action('wp_head', 'crescendo_disable_wp_canonical', 0);
  * One-shot: reparent money pages under hubs + import plan du site if missing.
  */
 function crescendo_maybe_fix_seo_structure() {
-    if (get_option('crescendo_seo_structure_fixed_v2')) {
+    if (get_option('crescendo_seo_structure_fixed_v3')) {
         return;
     }
 
@@ -245,6 +245,53 @@ function crescendo_maybe_fix_seo_structure() {
         }
     }
 
+    // Ensure critical secteur pages exist (audit: architecte status 0 / missing).
+    if (function_exists('crescendo_import_secteur_from_json_file') && function_exists('crescendo_find_content_import_file')) {
+        $architecte = function_exists('crescendo_find_import_page_by_slug')
+            ? crescendo_find_import_page_by_slug('creation-site-architecte-nantes', 'secteurs')
+            : get_page_by_path('secteurs/creation-site-architecte-nantes', OBJECT, 'page');
+        if (!$architecte) {
+            $file = crescendo_find_content_import_file('secteurs', 'creation-site-architecte-nantes.json');
+            if ($file) {
+                crescendo_import_secteur_from_json_file($file);
+            }
+        }
+    }
+
+    // Fix dead /realisations/gide/ links still stored in the hub ACF.
+    $realisations = get_page_by_path('realisations', OBJECT, 'page');
+    if ($realisations && function_exists('get_field') && function_exists('update_field')) {
+        $projects = get_field('realisations-projects', $realisations->ID);
+        if (is_array($projects)) {
+            $changed = false;
+            foreach ($projects as &$project) {
+                if (!is_array($project)) {
+                    continue;
+                }
+                $url = (string) ($project['url'] ?? '');
+                if (strpos($url, '/realisations/gide') !== false) {
+                    $project['url'] = '/realisations/cma-associes/';
+                    $changed = true;
+                }
+                if (($project['title'] ?? '') === 'Gide') {
+                    $project['title'] = 'CM&A Associés';
+                    $changed = true;
+                }
+            }
+            unset($project);
+            if ($changed) {
+                update_field('realisations-projects', $projects, $realisations->ID);
+            }
+        }
+    }
+
+    // Refresh project meta descriptions from JSON (remove truncated … leftovers).
+    if (function_exists('crescendo_import_project_from_json_file') && function_exists('crescendo_list_project_import_files')) {
+        foreach (crescendo_list_project_import_files() as $project_file) {
+            crescendo_import_project_from_json_file($project_file);
+        }
+    }
+
     if (!get_page_by_path('plan-du-site', OBJECT, 'page')) {
         $imported = false;
         if (function_exists('crescendo_import_socle_from_json_file') && function_exists('crescendo_find_content_import_file')) {
@@ -298,7 +345,8 @@ function crescendo_maybe_fix_seo_structure() {
     }
 
     flush_rewrite_rules(false);
-    update_option('crescendo_seo_structure_fixed_v2', 1, false);
+    update_option('crescendo_seo_structure_fixed_v3', 1, false);
+    delete_option('crescendo_seo_structure_fixed_v2');
     delete_option('crescendo_seo_structure_fixed_v1');
 }
 add_action('init', 'crescendo_maybe_fix_seo_structure', 30);
@@ -347,3 +395,15 @@ function crescendo_fallback_head_meta() {
     crescendo_print_seo_head_meta(apply_filters('crescendo_fallback_seo', $fallbackSeo), 'website', get_queried_object_id());
 }
 add_action('wp_head', 'crescendo_fallback_head_meta', 2);
+
+/**
+ * Clean 404 document title (avoid bare theme/site name leftovers).
+ */
+function crescendo_filter_404_document_title($title) {
+    if (!is_404()) {
+        return $title;
+    }
+
+    return 'Page non trouvée | ' . crescendo_brand_name();
+}
+add_filter('pre_get_document_title', 'crescendo_filter_404_document_title', 30);

@@ -255,7 +255,7 @@ def build_project(p, order):
         },
         "seo": {
             "meta_title": f"Refonte {p['title']} · Étude de cas | Crescendo Studio",
-            "meta_description": p["intro"][:155] + ("…" if len(p["intro"]) > 155 else ""),
+            "meta_description": (lambda s: (s if len(s)<=155 else s[:155].rsplit(" ",1)[0].rstrip(" ,;:") + "."))(p["intro"]),
             "focus_keyword": p["focus"],
             "canonical": f"{BASE}/{p['slug']}/",
             "noindex": False,

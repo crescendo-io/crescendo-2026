@@ -79,7 +79,7 @@ PAGES = [
             "service-projects-title": "Des sites livrés pour des secteurs exigeants.",
             "service-projects": [
                 {"title": "Maison Jaden", "category": "Construction", "tags": "WordPress · CRM · SEO", "url": "/realisations/maison-jaden/"},
-                {"title": "Gide", "category": "Cabinet d'avocats", "tags": "WordPress · Multilingue", "url": "/realisations/cma-associes/"},
+                {"title": "CM&A Associés", "category": "Cabinet d'avocats", "tags": "WordPress · Multilingue", "url": "/realisations/cma-associes/"},
                 {"title": "Padam Immo", "category": "Immobilier", "tags": "WordPress · SEO local", "url": "/realisations/padam-immo/"},
             ],
             "service-method-eyebrow": "Notre méthode",
@@ -280,7 +280,7 @@ PAGES = [
             "service-projects-eyebrow": "Refontes livrées",
             "service-projects-title": "Des sites modernisés sans rupture SEO.",
             "service-projects": [
-                {"title": "Gide", "category": "Cabinet international", "tags": "Refonte · Multilingue · API", "url": "/realisations/cma-associes/"},
+                {"title": "CM&A Associés", "category": "Cabinet international", "tags": "Refonte · Multilingue · API", "url": "/realisations/cma-associes/"},
                 {"title": "Padam Immo", "category": "Immobilier", "tags": "Refonte · SEO local", "url": "/realisations/padam-immo/"},
                 {"title": "Maison Jaden", "category": "Construction", "tags": "WordPress · CRM", "url": "/realisations/maison-jaden/"},
             ],

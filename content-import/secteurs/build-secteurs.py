@@ -370,7 +370,7 @@ SECTORS = [
             {"title": "Accessibilité", "text": "Site lisible pour tous, conforme bonnes pratiques a11y."},
         ],
         "case_title": "Sites associatifs et institutionnels",
-        "case_project": "Gide",
+        "case_project": "CM&A Associés",
         "case_tags": "WordPress · Institutionnel · Multilingue",
         "case_points": [
             {"text": "Site institutionnel avec volume de contenus structuré"},
