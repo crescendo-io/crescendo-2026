@@ -5,15 +5,7 @@ define('HOME_URL', get_home_url());
 
 define('AJAX_URL', admin_url('admin-ajax.php'));
 
-if (ENV_PROD) {
-    define('GTAG_KEY', get_field('params_ga_code', 'option'));
-} else {
-    define('GTAG_KEY', 'AIzaSyCvSv4RSBSEL6zCfuA6XIsMMcQA0cxgBno');
-}
 
-if(!ENV_LOCAL){
-    define('ACF_LITE' , true);
-}
 
 require_once (__DIR__ . '/inc/datatypes.php');
 require_once (__DIR__ . '/inc/configuration.php');
@@ -90,7 +82,6 @@ function scripts_site(){
             'wp_theme_url' => THEME_URL,
             'wp_home_url' => HOME_URL,
             'exampleNonce' => wp_create_nonce('exampleNonce'),
-            'gtag_key' =>  GTAG_KEY,
             // 'bug_report_id' =>  get_field('params-bugreport-id', 'options')
         );
         wp_localize_script('script-js', 'ParamsData', $dataToBePassed);

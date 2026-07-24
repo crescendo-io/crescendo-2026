@@ -19,7 +19,7 @@ CITIES = {
         "keyword": "agence web saint-herblain",
         "menu_order": 30,
         "nearby": [
-            ("Nantes", "/services/agence-web-nantes/"),
+            ("Nantes", "/"),
             ("Orvault", "/agence-web-orvault/"),
             ("Rezé", "/agence-web-reze/"),
             ("Carquefou", "/agence-web-carquefou/"),
@@ -51,7 +51,7 @@ CITIES = {
         "keyword": "agence web rezé",
         "menu_order": 31,
         "nearby": [
-            ("Nantes", "/services/agence-web-nantes/"),
+            ("Nantes", "/"),
             ("Bouguenais", "/agence-web-bouguenais/"),
             ("Saint-Sébastien-sur-Loire", "/agence-web-saint-sebastien-sur-loire/"),
             ("Saint-Herblain", "/agence-web-saint-herblain/"),
@@ -83,7 +83,7 @@ CITIES = {
         "keyword": "agence web orvault",
         "menu_order": 32,
         "nearby": [
-            ("Nantes", "/services/agence-web-nantes/"),
+            ("Nantes", "/"),
             ("Saint-Herblain", "/agence-web-saint-herblain/"),
             ("Carquefou", "/agence-web-carquefou/"),
             ("Rezé", "/agence-web-reze/"),
@@ -115,7 +115,7 @@ CITIES = {
         "keyword": "agence web carquefou",
         "menu_order": 33,
         "nearby": [
-            ("Nantes", "/services/agence-web-nantes/"),
+            ("Nantes", "/"),
             ("Saint-Herblain", "/agence-web-saint-herblain/"),
             ("Orvault", "/agence-web-orvault/"),
             ("Rezé", "/agence-web-reze/"),
@@ -149,7 +149,7 @@ CITIES = {
         "nearby": [
             ("Rezé", "/agence-web-reze/"),
             ("Saint-Sébastien-sur-Loire", "/agence-web-saint-sebastien-sur-loire/"),
-            ("Nantes", "/services/agence-web-nantes/"),
+            ("Nantes", "/"),
             ("Saint-Herblain", "/agence-web-saint-herblain/"),
             ("Orvault", "/agence-web-orvault/"),
             ("Carquefou", "/agence-web-carquefou/"),
@@ -179,7 +179,7 @@ CITIES = {
         "keyword": "agence web saint-sébastien",
         "menu_order": 35,
         "nearby": [
-            ("Nantes", "/services/agence-web-nantes/"),
+            ("Nantes", "/"),
             ("Rezé", "/agence-web-reze/"),
             ("Bouguenais", "/agence-web-bouguenais/"),
             ("Saint-Herblain", "/agence-web-saint-herblain/"),

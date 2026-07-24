@@ -56,6 +56,10 @@ function crescendo_legacy_redirect_map() {
         $map['/' . $slug . '/'] = '/secteurs/' . $slug . '/';
     }
 
+    // Fusion SEO : l'intention « agence web Nantes » est portée par l'accueil.
+    $map['/agence-web-nantes/'] = '/';
+    $map['/services/agence-web-nantes/'] = '/';
+
     // Historic filename / slug aliases.
     $map['/creation-site-immo-nantes/'] = '/secteurs/creation-site-immobilier-nantes/';
     $map['/creation-site-avocats-nantes/'] = '/secteurs/creation-site-avocat-nantes/';

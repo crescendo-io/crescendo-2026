@@ -27,7 +27,7 @@ PRICING_FEATURES = [
 ]
 
 AREA_CITIES = [
-    {"name": "Nantes", "url": "/services/agence-web-nantes/"},
+    {"name": "Nantes", "url": "/"},
     {"name": "Saint-Herblain", "url": "/agence-web-saint-herblain/"},
     {"name": "Rezé", "url": "/agence-web-reze/"},
     {"name": "Orvault", "url": "/agence-web-orvault/"},
@@ -822,7 +822,7 @@ def build_sector(s: dict) -> dict:
             "secteur-area-title": s["area_title"],
             "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
             "secteur-area-cities": AREA_CITIES,
-            "secteur-area-see-all": {"title": "Voir toutes nos zones", "url": "/services/agence-web-nantes/", "target": ""},
+            "secteur-area-see-all": {"title": "Voir toutes nos zones", "url": "/", "target": ""},
             "secteur-faq-eyebrow": "Questions fréquentes",
             "secteur-faq-title": s["faq_title"],
             "secteur-faq-items": s["faqs"],

@@ -193,7 +193,7 @@
     "secteur-area-cities": [
       {
         "name": "Nantes",
-        "url": "/services/agence-web-nantes/"
+        "url": "/"
       },
       {
         "name": "Saint-Herblain",
@@ -218,7 +218,7 @@
     ],
     "secteur-area-see-all": {
       "title": "Voir toutes nos zones",
-      "url": "/services/agence-web-nantes/",
+      "url": "/",
       "target": ""
     },
     "secteur-faq-eyebrow": "Questions fréquentes",

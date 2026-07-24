@@ -81,3 +81,26 @@ function crescendo_noise_fallback_noindex($seo) {
     return $seo;
 }
 add_filter('crescendo_fallback_seo', 'crescendo_noise_fallback_noindex');
+
+function crescendo_exclude_fused_pages_from_sitemap($query_args, $post_type) {
+    if ($post_type !== 'page') {
+        return $query_args;
+    }
+
+    $exclude_ids = array();
+    $fused = get_page_by_path('services/agence-web-nantes', OBJECT, 'page');
+
+    if ($fused) {
+        $exclude_ids[] = (int) $fused->ID;
+    }
+
+    if (empty($exclude_ids)) {
+        return $query_args;
+    }
+
+    $existing = isset($query_args['post__not_in']) ? (array) $query_args['post__not_in'] : array();
+    $query_args['post__not_in'] = array_values(array_unique(array_merge($existing, $exclude_ids)));
+
+    return $query_args;
+}
+add_filter('wp_sitemaps_posts_query_args', 'crescendo_exclude_fused_pages_from_sitemap', 10, 2);

@@ -1,9 +1,9 @@
 <?php
 
 return array(
-    'home-hero-eyebrow' => 'Crescendo Studio · Nantes',
-    'home-hero-title' => 'Votre agence web WordPress & CRM à Nantes',
-    'home-hero-text' => 'Crescendo Studio accompagne TPE, PME et professions libérales en Loire-Atlantique : sites sur mesure, SEO local intégré et CRM connecté. Location dès 350€/mois · Maquette gratuite 48h.',
+    'home-hero-eyebrow' => 'Agence web · Nantes',
+    'home-hero-title' => 'Agence web à Nantes — WordPress & CRM sur mesure',
+    'home-hero-text' => 'Crescendo Studio réunit stratégie, design UX/UI, développement WordPress, SEO et maintenance pour les TPE, PME et professions libérales nantaises. Location dès 350€/mois · Maquette gratuite 48h · Zéro frais de création.',
     'home-hero-cta-primary' => array(
         'title' => 'Demander ma maquette gratuite',
         'url' => '/contact/',
@@ -171,8 +171,16 @@ return array(
             'answer' => 'Oui, nous développons des CRM sur mesure connectés à votre site WordPress, ou intégrons HubSpot et Pipedrive selon vos besoins.',
         ),
         array(
+            'question' => 'Pourquoi choisir une agence web locale à Nantes ?',
+            'answer' => 'La proximité facilite les ateliers contenu et le cadrage de votre projet. Nous intervenons aussi en visio sur toute la Loire-Atlantique.',
+        ),
+        array(
+            'question' => 'Quelle est la différence avec un freelance ?',
+            'answer' => 'Nous réunissons design, développement, SEO et maintenance dans une équipe structurée — un interlocuteur unique et une continuité de service garantie.',
+        ),
+        array(
             'question' => 'Intervenez-vous uniquement à Nantes ?',
-            'answer' => 'Nous sommes basés à Nantes et intervenons sur toute la Loire-Atlantique : Saint-Herblain, Rezé, Orvault, Carquefou et environs.',
+            'answer' => 'Nous sommes basés à Nantes et intervenons sur toute la Loire-Atlantique : Saint-Herblain, Rezé, Orvault, Carquefou, Saint-Nazaire et environs.',
         ),
     ),
     'home-contact-title' => 'Discutons de votre projet',

@@ -8,8 +8,11 @@ if ($showToc === false || $showToc === '0' || $showToc === 0) {
     return;
 }
 
+$cityName = crescendo_local('local-city-name') ?: 'Nantes';
+$enjeuxLabel = sprintf('Enjeux digitaux à %s', $cityName);
+
 $blocks = array(
-    array('id' => 'enjeux-digitaux', 'label' => 'Enjeux digitaux à Saint-Nazaire'),
+    array('id' => 'enjeux-digitaux', 'label' => $enjeuxLabel),
     array('id' => 'nos-services', 'label' => 'Nos services web'),
     array('id' => 'notre-methode', 'label' => 'Notre méthode'),
     array('id' => 'tarifs', 'label' => 'Tarifs et formules'),

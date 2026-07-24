@@ -326,8 +326,8 @@ function crescendo_maybe_fix_seo_structure() {
     $front_id = (int) get_option('page_on_front');
     if ($front_id && function_exists('update_field')) {
         $currentHero = get_field('home-hero-title', $front_id);
-        if (!$currentHero || $currentHero === 'Sites WordPress sur mesure & CRM sur mesure' || $currentHero === 'Agence web à Nantes — sites WordPress & CRM sur mesure') {
-            update_field('home-hero-title', 'Votre agence web WordPress & CRM à Nantes', $front_id);
+        if (!$currentHero || $currentHero === 'Sites WordPress sur mesure & CRM sur mesure' || $currentHero === 'Agence web à Nantes — sites WordPress & CRM sur mesure' || $currentHero === 'Votre agence web WordPress & CRM à Nantes') {
+            update_field('home-hero-title', 'Agence web à Nantes — WordPress & CRM sur mesure', $front_id);
         }
     }
 

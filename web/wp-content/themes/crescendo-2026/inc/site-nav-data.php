@@ -55,7 +55,6 @@ function crescendo_nav_secteur_url($slug) {
 
 function crescendo_get_site_nav_sections() {
     $services = array(
-        array('label' => 'Agence web Nantes', 'url' => crescendo_nav_service_url('agence-web-nantes')),
         array('label' => 'Création de site internet', 'url' => crescendo_nav_service_url('creation-site-web-nantes')),
         array('label' => 'Site vitrine Nantes', 'url' => crescendo_nav_service_url('creation-site-vitrine-nantes')),
         array('label' => 'Site e-commerce Nantes', 'url' => crescendo_nav_service_url('creation-site-ecommerce-nantes')),
@@ -88,7 +87,7 @@ function crescendo_get_site_nav_sections() {
     );
 
     $locales = array(
-        array('label' => 'Agence web Nantes', 'url' => crescendo_nav_service_url('agence-web-nantes')),
+        array('label' => 'Agence web Nantes', 'url' => home_url('/')),
         array('label' => 'Agence web Saint-Herblain', 'url' => crescendo_nav_url('agence-web-saint-herblain')),
         array('label' => 'Agence web Rezé', 'url' => crescendo_nav_url('agence-web-reze')),
         array('label' => 'Agence web Orvault', 'url' => crescendo_nav_url('agence-web-orvault')),
@@ -139,7 +138,7 @@ function crescendo_get_site_nav_sections() {
         array(
             'id' => 'locales',
             'label' => 'Nantes & région',
-            'url' => crescendo_nav_service_url('agence-web-nantes'),
+            'url' => home_url('/'),
             'items' => $locales,
         ),
         array(
@@ -168,7 +167,7 @@ function crescendo_get_header_nav_links() {
     $links = array();
 
     foreach ($sections as $section) {
-        if (in_array($section['id'], array('legal', 'agency'), true)) {
+        if (in_array($section['id'], array('legal', 'agency', 'locales'), true)) {
             continue;
         }
 

@@ -11,8 +11,8 @@
     "meta_title": "Agence web Nantes — WordPress dès 350€/mois | Crescendo",
     "meta_description": "Agence web à Nantes : création, refonte et location de sites WordPress sur mesure. SEO intégré, maquette gratuite 48h. TPE, PME et professions libérales.",
     "focus_keyword": "agence web nantes",
-    "canonical": "https://crescendo-studio.io/services/agence-web-nantes/",
-    "noindex": false
+    "canonical": "https://crescendo-studio.io/",
+    "noindex": true
   },
   "fields": {
     "service-hero-eyebrow": "Agence web · Nantes",
