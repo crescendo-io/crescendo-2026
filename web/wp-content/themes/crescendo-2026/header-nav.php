@@ -43,12 +43,33 @@ $fallbackLinks = crescendo_get_header_nav_links();
             <?php else : ?>
                 <ul class="site-nav__list">
                     <?php foreach ($fallbackLinks as $link) : ?>
-                        <li class="site-nav__item<?php echo !empty($link['children']) ? ' site-nav__item--has-children' : ''; ?>">
-                            <a href="<?php echo esc_url($link['url']); ?>"><?php echo esc_html($link['label']); ?></a>
+                        <?php
+                        $isActive = crescendo_nav_link_is_active($link);
+                        $itemClass = 'site-nav__item';
+                        if (!empty($link['children'])) {
+                            $itemClass .= ' site-nav__item--has-children';
+                        }
+                        if ($isActive) {
+                            $itemClass .= ' is-active';
+                        }
+                        ?>
+                        <li class="<?php echo esc_attr($itemClass); ?>">
+                            <a
+                                href="<?php echo esc_url($link['url']); ?>"
+                                class="<?php echo $isActive ? 'is-active' : ''; ?>"
+                                <?php echo $isActive ? 'aria-current="page"' : ''; ?>
+                            ><?php echo esc_html($link['label']); ?></a>
                             <?php if (!empty($link['children'])) : ?>
                                 <ul class="site-nav__submenu">
                                     <?php foreach ($link['children'] as $child) : ?>
-                                        <li><a href="<?php echo esc_url($child['url']); ?>"><?php echo esc_html($child['label']); ?></a></li>
+                                        <?php $childActive = !empty($child['url']) && crescendo_nav_is_current($child['url']); ?>
+                                        <li class="<?php echo $childActive ? 'is-active' : ''; ?>">
+                                            <a
+                                                href="<?php echo esc_url($child['url']); ?>"
+                                                class="<?php echo $childActive ? 'is-active' : ''; ?>"
+                                                <?php echo $childActive ? 'aria-current="page"' : ''; ?>
+                                            ><?php echo esc_html($child['label']); ?></a>
+                                        </li>
                                     <?php endforeach; ?>
                                 </ul>
                             <?php endif; ?>

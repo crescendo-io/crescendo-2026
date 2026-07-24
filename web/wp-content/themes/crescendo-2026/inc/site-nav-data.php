@@ -4,6 +4,47 @@ function crescendo_nav_url($path) {
     return home_url('/' . ltrim($path, '/') . '/');
 }
 
+function crescendo_nav_normalize_path($url) {
+    $path = wp_parse_url((string) $url, PHP_URL_PATH);
+    if (!is_string($path) || $path === '' || $path === '/') {
+        return '/';
+    }
+
+    return untrailingslashit($path);
+}
+
+function crescendo_nav_is_current($url) {
+    $linkPath = crescendo_nav_normalize_path($url);
+    if ($linkPath === '/') {
+        return is_front_page();
+    }
+
+    $currentPath = crescendo_nav_normalize_path(home_url(add_query_arg(array())));
+    if ($currentPath === $linkPath) {
+        return true;
+    }
+
+    return str_starts_with($currentPath . '/', $linkPath . '/');
+}
+
+function crescendo_nav_link_is_active(array $link) {
+    if (!empty($link['url']) && crescendo_nav_is_current($link['url'])) {
+        return true;
+    }
+
+    if (empty($link['children']) || !is_array($link['children'])) {
+        return false;
+    }
+
+    foreach ($link['children'] as $child) {
+        if (!empty($child['url']) && crescendo_nav_is_current($child['url'])) {
+            return true;
+        }
+    }
+
+    return false;
+}
+
 function crescendo_nav_service_url($slug) {
     return crescendo_nav_url('services/' . ltrim($slug, '/'));
 }

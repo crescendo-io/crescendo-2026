@@ -468,14 +468,20 @@ a img.aligncenter {
 }
 
 .btn {
+    --btn-ink: var(--color-black);
+    --felt-radius: 255px 28px 225px 28px / 28px 225px 28px 255px;
+    --felt-shadow-x: 0.18rem;
+    --felt-shadow-y: 0.22rem;
+    --felt-border: 0.28rem;
+    position: relative;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 0.8rem;
     min-height: 4.8rem;
     padding: 1.2rem 2.4rem;
-    border: 0.2rem solid transparent;
-    border-radius: 999px;
+    border: var(--felt-border) solid var(--btn-ink);
+    border-radius: var(--felt-radius);
     font-family: var(--font-fontName);
     font-size: 1.3rem;
     font-weight: 600;
@@ -484,7 +490,8 @@ a img.aligncenter {
     text-transform: uppercase;
     letter-spacing: 0.04em;
     cursor: pointer;
-    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    box-shadow: var(--felt-shadow-x) var(--felt-shadow-y) 0 rgba(17, 17, 17, 0.18);
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 .btn::after {
     content: "→";
@@ -493,10 +500,18 @@ a img.aligncenter {
     content: "↓";
 }
 .btn:hover {
-    transform: translateY(-1px);
+    transform: translateY(-2px) rotate(-0.4deg);
+    box-shadow: calc(var(--felt-shadow-x) + 0.04rem) calc(var(--felt-shadow-y) + 0.08rem) 0 rgba(17, 17, 17, 0.22);
+}
+.btn:active {
+    transform: translateY(0) rotate(0.2deg);
+    box-shadow: 0.1rem 0.12rem 0 rgba(17, 17, 17, 0.16);
 }
 
 .btn--primary {
+    --felt-radius: 240px 35px 210px 22px / 30px 220px 40px 245px;
+    --felt-shadow-x: 0.14rem;
+    --felt-shadow-y: 0.26rem;
     background: var(--color-yellow);
     color: var(--color-black);
 }
@@ -505,30 +520,274 @@ a img.aligncenter {
     color: var(--color-black);
 }
 
-.btn--outline {
-    background: transparent;
-    border-color: var(--color-black);
-    color: var(--color-black);
-}
-
+.btn--outline,
 .btn--outline-dark {
+    --felt-radius: 220px 18px 245px 32px / 40px 235px 20px 215px;
+    --felt-shadow-x: 0.22rem;
+    --felt-shadow-y: 0.16rem;
+    --felt-border: 0.26rem;
     background: transparent;
-    border-color: var(--color-black);
+    border-color: var(--btn-ink);
     color: var(--color-black);
 }
 
 .btn--dark {
+    --felt-radius: 250px 22px 230px 40px / 25px 245px 35px 220px;
+    --felt-shadow-x: 0.2rem;
+    --felt-shadow-y: 0.25rem;
     background: var(--color-black);
     color: var(--color-white);
+    border-color: var(--color-black);
+    box-shadow: var(--felt-shadow-x) var(--felt-shadow-y) 0 var(--color-yellow);
 }
 .btn--dark:hover {
     color: var(--color-white);
+    box-shadow: calc(var(--felt-shadow-x) + 0.06rem) calc(var(--felt-shadow-y) + 0.07rem) 0 var(--color-yellow);
+}
+.btn--dark:active {
+    box-shadow: 0.12rem 0.14rem 0 var(--color-yellow);
 }
 
 .btn--sm {
+    --felt-radius: 230px 20px 215px 28px / 22px 220px 18px 235px;
+    --felt-border: 0.24rem;
     min-height: 4rem;
     padding: 0.8rem 1.6rem;
     font-size: 1.1rem;
+}
+
+.home-hero__actions .btn:nth-child(2),
+.service-hero__actions .btn:nth-child(2),
+.secteur-hero__actions .btn:nth-child(2) {
+    --felt-radius: 235px 42px 215px 18px / 28px 210px 45px 240px;
+}
+
+.home-hero__actions .btn:nth-child(3),
+.service-hero__actions .btn:nth-child(3),
+.secteur-hero__actions .btn:nth-child(3) {
+    --felt-radius: 210px 25px 250px 30px / 35px 240px 22px 225px;
+}
+
+.home-service-card__icon,
+.home-method__number,
+.service-method__number,
+.service-benefits__icon,
+.service-audience__icon,
+.secteur-hero__benefit-icon,
+.secteur-pain__icon,
+.secteur-solution__usp > span,
+.secteur-related__icon,
+.services-list__index,
+.secteurs-list__index {
+    --felt-radius: 62% 42% 58% 48% / 48% 58% 42% 62%;
+    --felt-shadow-x: 0.12rem;
+    --felt-shadow-y: 0.14rem;
+    --felt-border: 0.22rem;
+    --felt-rotate: -1.2deg;
+    border: var(--felt-border) solid var(--color-black);
+    border-radius: var(--felt-radius);
+    box-shadow: var(--felt-shadow-x) var(--felt-shadow-y) 0 rgba(17, 17, 17, 0.2);
+    transform: rotate(var(--felt-rotate));
+}
+
+.home-service-card__icon {
+    --felt-radius: 68% 40% 55% 48% / 45% 58% 42% 65%;
+    --felt-rotate: -1.5deg;
+}
+
+.home-method__number {
+    --felt-radius: 48% 60% 42% 58% / 55% 40% 62% 45%;
+    --felt-rotate: 1.8deg;
+    --felt-border: 0.2rem;
+}
+
+.service-method__number {
+    --felt-radius: 55% 45% 62% 40% / 42% 60% 48% 58%;
+    --felt-rotate: -0.8deg;
+}
+
+.service-benefits__icon {
+    --felt-radius: 40% 62% 50% 55% / 58% 42% 65% 45%;
+    --felt-rotate: 2.2deg;
+    --felt-shadow-x: 0.16rem;
+}
+
+.service-audience__icon {
+    --felt-radius: 58% 48% 45% 60% / 50% 55% 40% 52%;
+    --felt-rotate: -2deg;
+}
+
+.secteur-hero__benefit-icon {
+    --felt-radius: 45% 58% 52% 42% / 60% 45% 55% 48%;
+    --felt-rotate: 1.1deg;
+}
+
+.secteur-pain__icon {
+    --felt-radius: 65% 38% 48% 55% / 42% 62% 45% 58%;
+    --felt-rotate: -1.6deg;
+    --felt-border: 0.24rem;
+}
+
+.secteur-solution__usp > span {
+    --felt-radius: 42% 55% 60% 48% / 55% 48% 42% 60%;
+    --felt-rotate: 0.9deg;
+}
+
+.secteur-related__icon {
+    --felt-radius: 50% 65% 40% 52% / 48% 40% 60% 55%;
+    --felt-rotate: -2.4deg;
+}
+
+.services-list__index {
+    --felt-radius: 60% 45% 50% 58% / 42% 58% 50% 45%;
+    --felt-rotate: 1.4deg;
+}
+
+.secteurs-list__index {
+    --felt-radius: 38% 60% 55% 45% / 62% 48% 40% 55%;
+    --felt-rotate: -0.6deg;
+}
+
+.home-services__grid .home-service-card:nth-child(8n+1) .home-service-card__icon,
+.home-method__steps .home-method__step:nth-child(8n+1) .home-method__number,
+.service-method__steps .service-method__step:nth-child(8n+1) .service-method__number,
+.service-benefits__grid > *:nth-child(8n+1) .service-benefits__icon,
+.service-audience__grid .service-audience__card:nth-child(8n+1) .service-audience__icon,
+.secteur-hero__benefits > *:nth-child(8n+1) .secteur-hero__benefit-icon,
+.secteur-pain__grid > *:nth-child(8n+1) .secteur-pain__icon,
+.secteur-solution__usps .secteur-solution__usp:nth-child(8n+1) > span,
+.secteur-related__grid .secteur-related__card:nth-child(8n+1) .secteur-related__icon,
+.services-list__grid .services-list__card:nth-child(8n+1) .services-list__index,
+.secteurs-list__grid .secteurs-list__card:nth-child(8n+1) .secteurs-list__index {
+    --felt-radius: 70% 38% 52% 50%/48% 55% 40% 62%;
+    --felt-rotate: -2.2deg;
+    --felt-border: 0.2rem;
+}
+
+.home-services__grid .home-service-card:nth-child(8n+2) .home-service-card__icon,
+.home-method__steps .home-method__step:nth-child(8n+2) .home-method__number,
+.service-method__steps .service-method__step:nth-child(8n+2) .service-method__number,
+.service-benefits__grid > *:nth-child(8n+2) .service-benefits__icon,
+.service-audience__grid .service-audience__card:nth-child(8n+2) .service-audience__icon,
+.secteur-hero__benefits > *:nth-child(8n+2) .secteur-hero__benefit-icon,
+.secteur-pain__grid > *:nth-child(8n+2) .secteur-pain__icon,
+.secteur-solution__usps .secteur-solution__usp:nth-child(8n+2) > span,
+.secteur-related__grid .secteur-related__card:nth-child(8n+2) .secteur-related__icon,
+.services-list__grid .services-list__card:nth-child(8n+2) .services-list__index,
+.secteurs-list__grid .secteurs-list__card:nth-child(8n+2) .secteurs-list__index {
+    --felt-radius: 40% 65% 48% 55%/58% 42% 62% 45%;
+    --felt-rotate: 1.6deg;
+    --felt-border: 0.24rem;
+}
+
+.home-services__grid .home-service-card:nth-child(8n+3) .home-service-card__icon,
+.home-method__steps .home-method__step:nth-child(8n+3) .home-method__number,
+.service-method__steps .service-method__step:nth-child(8n+3) .service-method__number,
+.service-benefits__grid > *:nth-child(8n+3) .service-benefits__icon,
+.service-audience__grid .service-audience__card:nth-child(8n+3) .service-audience__icon,
+.secteur-hero__benefits > *:nth-child(8n+3) .secteur-hero__benefit-icon,
+.secteur-pain__grid > *:nth-child(8n+3) .secteur-pain__icon,
+.secteur-solution__usps .secteur-solution__usp:nth-child(8n+3) > span,
+.secteur-related__grid .secteur-related__card:nth-child(8n+3) .secteur-related__icon,
+.services-list__grid .services-list__card:nth-child(8n+3) .services-list__index,
+.secteurs-list__grid .secteurs-list__card:nth-child(8n+3) .secteurs-list__index {
+    --felt-radius: 55% 48% 62% 40%/45% 60% 48% 55%;
+    --felt-rotate: -0.9deg;
+    --felt-border: 0.22rem;
+}
+
+.home-services__grid .home-service-card:nth-child(8n+4) .home-service-card__icon,
+.home-method__steps .home-method__step:nth-child(8n+4) .home-method__number,
+.service-method__steps .service-method__step:nth-child(8n+4) .service-method__number,
+.service-benefits__grid > *:nth-child(8n+4) .service-benefits__icon,
+.service-audience__grid .service-audience__card:nth-child(8n+4) .service-audience__icon,
+.secteur-hero__benefits > *:nth-child(8n+4) .secteur-hero__benefit-icon,
+.secteur-pain__grid > *:nth-child(8n+4) .secteur-pain__icon,
+.secteur-solution__usps .secteur-solution__usp:nth-child(8n+4) > span,
+.secteur-related__grid .secteur-related__card:nth-child(8n+4) .secteur-related__icon,
+.services-list__grid .services-list__card:nth-child(8n+4) .services-list__index,
+.secteurs-list__grid .secteurs-list__card:nth-child(8n+4) .secteurs-list__index {
+    --felt-radius: 48% 55% 42% 65%/60% 40% 55% 48%;
+    --felt-rotate: 2.4deg;
+    --felt-border: 0.26rem;
+}
+
+.home-services__grid .home-service-card:nth-child(8n+5) .home-service-card__icon,
+.home-method__steps .home-method__step:nth-child(8n+5) .home-method__number,
+.service-method__steps .service-method__step:nth-child(8n+5) .service-method__number,
+.service-benefits__grid > *:nth-child(8n+5) .service-benefits__icon,
+.service-audience__grid .service-audience__card:nth-child(8n+5) .service-audience__icon,
+.secteur-hero__benefits > *:nth-child(8n+5) .secteur-hero__benefit-icon,
+.secteur-pain__grid > *:nth-child(8n+5) .secteur-pain__icon,
+.secteur-solution__usps .secteur-solution__usp:nth-child(8n+5) > span,
+.secteur-related__grid .secteur-related__card:nth-child(8n+5) .secteur-related__icon,
+.services-list__grid .services-list__card:nth-child(8n+5) .services-list__index,
+.secteurs-list__grid .secteurs-list__card:nth-child(8n+5) .secteurs-list__index {
+    --felt-radius: 62% 42% 50% 58%/40% 62% 45% 55%;
+    --felt-rotate: -1.8deg;
+    --felt-border: 0.2rem;
+}
+
+.home-services__grid .home-service-card:nth-child(8n+6) .home-service-card__icon,
+.home-method__steps .home-method__step:nth-child(8n+6) .home-method__number,
+.service-method__steps .service-method__step:nth-child(8n+6) .service-method__number,
+.service-benefits__grid > *:nth-child(8n+6) .service-benefits__icon,
+.service-audience__grid .service-audience__card:nth-child(8n+6) .service-audience__icon,
+.secteur-hero__benefits > *:nth-child(8n+6) .secteur-hero__benefit-icon,
+.secteur-pain__grid > *:nth-child(8n+6) .secteur-pain__icon,
+.secteur-solution__usps .secteur-solution__usp:nth-child(8n+6) > span,
+.secteur-related__grid .secteur-related__card:nth-child(8n+6) .secteur-related__icon,
+.services-list__grid .services-list__card:nth-child(8n+6) .services-list__index,
+.secteurs-list__grid .secteurs-list__card:nth-child(8n+6) .secteurs-list__index {
+    --felt-radius: 45% 58% 55% 42%/55% 45% 60% 40%;
+    --felt-rotate: 0.7deg;
+    --felt-border: 0.23rem;
+}
+
+.home-services__grid .home-service-card:nth-child(8n+7) .home-service-card__icon,
+.home-method__steps .home-method__step:nth-child(8n+7) .home-method__number,
+.service-method__steps .service-method__step:nth-child(8n+7) .service-method__number,
+.service-benefits__grid > *:nth-child(8n+7) .service-benefits__icon,
+.service-audience__grid .service-audience__card:nth-child(8n+7) .service-audience__icon,
+.secteur-hero__benefits > *:nth-child(8n+7) .secteur-hero__benefit-icon,
+.secteur-pain__grid > *:nth-child(8n+7) .secteur-pain__icon,
+.secteur-solution__usps .secteur-solution__usp:nth-child(8n+7) > span,
+.secteur-related__grid .secteur-related__card:nth-child(8n+7) .secteur-related__icon,
+.services-list__grid .services-list__card:nth-child(8n+7) .services-list__index,
+.secteurs-list__grid .secteurs-list__card:nth-child(8n+7) .secteurs-list__index {
+    --felt-radius: 58% 40% 45% 62%/42% 58% 50% 55%;
+    --felt-rotate: -2.8deg;
+    --felt-border: 0.21rem;
+}
+
+.home-services__grid .home-service-card:nth-child(8n+8) .home-service-card__icon,
+.home-method__steps .home-method__step:nth-child(8n+8) .home-method__number,
+.service-method__steps .service-method__step:nth-child(8n+8) .service-method__number,
+.service-benefits__grid > *:nth-child(8n+8) .service-benefits__icon,
+.service-audience__grid .service-audience__card:nth-child(8n+8) .service-audience__icon,
+.secteur-hero__benefits > *:nth-child(8n+8) .secteur-hero__benefit-icon,
+.secteur-pain__grid > *:nth-child(8n+8) .secteur-pain__icon,
+.secteur-solution__usps .secteur-solution__usp:nth-child(8n+8) > span,
+.secteur-related__grid .secteur-related__card:nth-child(8n+8) .secteur-related__icon,
+.services-list__grid .services-list__card:nth-child(8n+8) .services-list__index,
+.secteurs-list__grid .secteurs-list__card:nth-child(8n+8) .secteurs-list__index {
+    --felt-radius: 42% 60% 58% 48%/62% 45% 40% 55%;
+    --felt-rotate: 1.2deg;
+    --felt-border: 0.25rem;
+}
+
+.services-cta__inner,
+.secteurs-cta__inner {
+    border: 0.3rem solid var(--color-black);
+    box-shadow: 0.22rem 0.28rem 0 rgba(17, 17, 17, 0.18);
+}
+
+.services-cta__inner {
+    border-radius: 48px 28px 52px 22px/32px 50px 26px 44px;
+}
+
+.secteurs-cta__inner {
+    border-radius: 36px 50px 24px 46px/44px 28px 48px 30px;
 }
 
 body {
@@ -896,9 +1155,84 @@ img {
     list-style: none;
 }
 .site-nav__list a {
+    position: relative;
+    z-index: 0;
     font-size: 1.4rem;
     font-weight: 500;
     text-decoration: none;
+    transition: color 0.2s ease;
+}
+.site-nav__list a::after {
+    content: "";
+    position: absolute;
+    left: -4%;
+    right: -4%;
+    bottom: 0.05rem;
+    z-index: -1;
+    height: 0.55rem;
+    background: var(--color-yellow);
+    border-radius: 255px 12px 220px 18px/40% 80% 30% 70%;
+    transform: rotate(-1.8deg) scaleX(0);
+    transform-origin: left center;
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.22s ease, opacity 0.22s ease;
+}
+.site-nav__list a:hover {
+    color: var(--color-black);
+}
+.site-nav__list a:hover::after {
+    transform: rotate(-1.8deg) scaleX(1);
+    opacity: 1;
+}
+.site-nav__list a.is-active, .site-nav__list a[aria-current=page] {
+    font-weight: 700;
+}
+.site-nav__list a.is-active::after, .site-nav__list a[aria-current=page]::after {
+    transform: rotate(-1.8deg) scaleX(1);
+    opacity: 1;
+}
+.site-nav__item.is-active > a,
+.site-nav .current-menu-item > a,
+.site-nav .current-menu-ancestor > a,
+.site-nav .current_page_item > a,
+.site-nav .current-menu-parent > a {
+    font-weight: 700;
+}
+.site-nav__item.is-active > a::after,
+.site-nav .current-menu-item > a::after,
+.site-nav .current-menu-ancestor > a::after,
+.site-nav .current_page_item > a::after,
+.site-nav .current-menu-parent > a::after {
+    transform: rotate(-1.8deg) scaleX(1);
+    opacity: 1;
+}
+.site-nav__list > li:nth-child(3n+1) > a::after {
+    border-radius: 240px 18px 200px 25px/50% 70% 40% 80%;
+    transform: rotate(-2.4deg) scaleX(0);
+    height: 0.5rem;
+    bottom: 0;
+}
+.site-nav__list > li:nth-child(3n+1) > a:hover::after, .site-nav__list > li:nth-child(3n+1).is-active > a::after, .site-nav__list > li:nth-child(3n+1).current-menu-item > a::after, .site-nav__list > li:nth-child(3n+1).current-menu-ancestor > a::after {
+    transform: rotate(-2.4deg) scaleX(1);
+}
+.site-nav__list > li:nth-child(3n+2) > a::after {
+    border-radius: 180px 30px 255px 10px/60% 40% 70% 35%;
+    transform: rotate(1.2deg) scaleX(0);
+    height: 0.6rem;
+    bottom: 0.1rem;
+}
+.site-nav__list > li:nth-child(3n+2) > a:hover::after, .site-nav__list > li:nth-child(3n+2).is-active > a::after, .site-nav__list > li:nth-child(3n+2).current-menu-item > a::after, .site-nav__list > li:nth-child(3n+2).current-menu-ancestor > a::after {
+    transform: rotate(1.2deg) scaleX(1);
+}
+.site-nav__list > li:nth-child(3n+3) > a::after {
+    border-radius: 220px 8px 240px 22px/35% 85% 45% 65%;
+    transform: rotate(-0.6deg) scaleX(0);
+    height: 0.48rem;
+    bottom: 0.08rem;
+}
+.site-nav__list > li:nth-child(3n+3) > a:hover::after, .site-nav__list > li:nth-child(3n+3).is-active > a::after, .site-nav__list > li:nth-child(3n+3).current-menu-item > a::after, .site-nav__list > li:nth-child(3n+3).current-menu-ancestor > a::after {
+    transform: rotate(-0.6deg) scaleX(1);
 }
 .site-nav__submenu {
     display: none;
@@ -908,20 +1242,44 @@ img {
 }
 
 @media (min-width: 992px) {
+    .site-header__inner {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        gap: 2rem;
+    }
+
     .site-header__toggle {
         display: none;
     }
 
+    .site-logo {
+        justify-self: start;
+    }
+
+    .site-nav {
+        display: contents;
+    }
+
     .site-nav__list {
         display: flex;
+        grid-column: 2;
+        justify-self: center;
+    }
+
+    .site-nav__cta {
+        grid-column: 3;
+        justify-self: end;
     }
 }
 @media (max-width: 991px) {
     .site-nav {
         position: fixed;
         inset: 7.2rem 0 auto 0;
+        display: flex;
         flex-direction: column;
         align-items: stretch;
+        gap: 2.4rem;
         padding: 2rem var(--grid-offset);
         background: var(--color-white);
         border-bottom: 1px solid var(--color-border);
@@ -940,6 +1298,9 @@ img {
         flex-direction: column;
         align-items: flex-start;
         gap: 1.6rem;
+    }
+    .site-nav__cta {
+        align-self: flex-start;
     }
 }
 .site-footer {
@@ -1156,7 +1517,6 @@ img {
     width: 4.8rem;
     height: 4.8rem;
     margin-bottom: 1.6rem;
-    border-radius: 50%;
     background: var(--color-yellow);
     font-weight: 700;
 }
@@ -1293,7 +1653,6 @@ img {
     width: 3.6rem;
     height: 3.6rem;
     margin-bottom: 1.2rem;
-    border-radius: 50%;
     background: var(--color-yellow);
     font-weight: 700;
 }
@@ -1828,7 +2187,6 @@ img {
     place-items: center;
     width: 4.4rem;
     height: 4.4rem;
-    border-radius: 50%;
     background: var(--color-yellow);
     font-weight: 700;
 }
@@ -1989,7 +2347,6 @@ img {
     width: 4rem;
     height: 4rem;
     margin-bottom: 1.2rem;
-    border-radius: 50%;
     background: var(--color-yellow);
     font-weight: 700;
 }
@@ -2126,7 +2483,6 @@ img {
     width: 3.6rem;
     height: 3.6rem;
     margin-bottom: 1.2rem;
-    border-radius: 50%;
     background: var(--color-yellow);
     font-weight: 700;
 }
@@ -2370,7 +2726,6 @@ img {
     width: 3.6rem;
     height: 3.6rem;
     margin-bottom: 0.4rem;
-    border-radius: 50%;
     background: var(--color-yellow);
     font-weight: 700;
 }
@@ -2404,8 +2759,6 @@ img {
     width: 4rem;
     height: 4rem;
     margin-bottom: 1.2rem;
-    border: 1px solid var(--color-border);
-    border-radius: 50%;
     font-weight: 700;
 }
 
@@ -2448,7 +2801,6 @@ img {
     place-items: center;
     width: 3.6rem;
     height: 3.6rem;
-    border-radius: 50%;
     background: var(--color-yellow);
     font-weight: 700;
 }
@@ -2607,7 +2959,6 @@ img {
     place-items: center;
     width: 4.4rem;
     height: 4.4rem;
-    border-radius: 50%;
     background: var(--color-surface);
     font-weight: 700;
 }
@@ -3283,7 +3634,6 @@ img {
     place-items: center;
     width: 4rem;
     height: 4rem;
-    border-radius: 50%;
     background: var(--color-yellow);
     font-size: 1.4rem;
     font-weight: 700;
@@ -3319,7 +3669,6 @@ img {
     display: grid;
     gap: 1.6rem;
     padding: 3.2rem;
-    border-radius: var(--radius-lg);
     background: var(--color-yellow);
     color: var(--color-black);
     text-align: center;
@@ -3471,7 +3820,6 @@ img {
     place-items: center;
     width: 4rem;
     height: 4rem;
-    border-radius: 50%;
     background: var(--color-yellow);
     font-size: 1.4rem;
     font-weight: 700;
@@ -3507,7 +3855,6 @@ img {
     display: grid;
     gap: 1.6rem;
     padding: 3.2rem;
-    border-radius: var(--radius-lg);
     background: var(--color-yellow);
     color: var(--color-black);
     text-align: center;
