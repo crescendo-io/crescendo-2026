@@ -139,18 +139,50 @@
             "layout": "block",
             "button_label": "Ajouter",
             "sub_fields": [
-                { "key": "field_679a4proj004", "label": "Image", "name": "image", "type": "image", "return_format": "array", "preview_size": "medium" },
-                { "key": "field_679a4proj005", "label": "Titre", "name": "title", "type": "text" },
-                { "key": "field_679a4proj006", "label": "Tags", "name": "tags", "type": "text" },
-                { "key": "field_679a4proj007", "label": "Texte", "name": "text", "type": "textarea", "rows": 3 },
-                { "key": "field_679a4proj008", "label": "URL", "name": "url", "type": "url" }
+                {
+                    "key": "field_679a4proj009",
+                    "label": "Fiche projet",
+                    "name": "project",
+                    "type": "post_object",
+                    "instructions": "Titre, image, tags et lien sont récupérés automatiquement depuis la fiche projet.",
+                    "post_type": ["page"],
+                    "return_format": "id",
+                    "ui": 1,
+                    "allow_null": 1,
+                    "multiple": 0
+                },
+                {
+                    "key": "field_679a4proj007",
+                    "label": "Texte (optionnel)",
+                    "name": "text",
+                    "type": "textarea",
+                    "rows": 3,
+                    "instructions": "Laisser vide pour utiliser l'intro de la fiche projet."
+                },
+                {
+                    "key": "field_679a4proj008",
+                    "label": "URL (secours)",
+                    "name": "url",
+                    "type": "url",
+                    "instructions": "Optionnel. Utilisé uniquement si aucune fiche projet n'est sélectionnée."
+                }
             ]
         },
 
         { "key": "field_679a4tabcase01", "label": "Étude de cas", "name": "", "type": "tab", "placement": "top" },
         { "key": "field_679a4case001", "label": "Titre section", "name": "local-case-title", "type": "text" },
-        { "key": "field_679a4case002", "label": "Nom projet", "name": "local-case-project-title", "type": "text" },
-        { "key": "field_679a4case003", "label": "Tags", "name": "local-case-project-tags", "type": "text" },
+        {
+            "key": "field_679a4case008",
+            "label": "Fiche projet",
+            "name": "local-case-project",
+            "type": "post_object",
+            "instructions": "Titre, image, tags et lien sont récupérés automatiquement depuis la fiche projet.",
+            "post_type": ["page"],
+            "return_format": "id",
+            "ui": 1,
+            "allow_null": 1,
+            "multiple": 0
+        },
         {
             "key": "field_679a4case004",
             "label": "Points clés",
@@ -158,12 +190,12 @@
             "type": "repeater",
             "layout": "table",
             "button_label": "Ajouter",
+            "instructions": "Points spécifiques à ce contexte local (optionnel).",
             "sub_fields": [
                 { "key": "field_679a4case005", "label": "Texte", "name": "text", "type": "text" }
             ]
         },
-        { "key": "field_679a4case006", "label": "URL projet", "name": "local-case-project-url", "type": "url" },
-        { "key": "field_679a4case007", "label": "Image", "name": "local-case-project-image", "type": "image", "return_format": "array", "preview_size": "medium" },
+        { "key": "field_679a4case006", "label": "URL (secours)", "name": "local-case-project-url", "type": "url", "instructions": "Optionnel. Utilisé uniquement si aucune fiche projet n'est sélectionnée." },
 
         { "key": "field_679a4tabprice1", "label": "Tarifs", "name": "", "type": "tab", "placement": "top" },
         { "key": "field_679a4price001", "label": "Titre H2", "name": "local-pricing-title", "type": "text" },

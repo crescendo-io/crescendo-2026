@@ -1,7 +1,7 @@
 <?php
 $eyebrow = crescendo_local('local-projects-eyebrow');
 $title = crescendo_local('local-projects-title');
-$projects = crescendo_local('local-projects');
+$projects = crescendo_resolve_project_cards(crescendo_local('local-projects'));
 if (!$title && empty($projects)) {
     return;
 }

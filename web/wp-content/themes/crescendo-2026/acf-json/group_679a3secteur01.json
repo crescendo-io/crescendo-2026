@@ -84,8 +84,18 @@
 
         { "key": "field_679a3tabcase01", "label": "Étude de cas", "name": "", "type": "tab", "placement": "top" },
         { "key": "field_679a3case001", "label": "Titre section", "name": "secteur-case-title", "type": "text" },
-        { "key": "field_679a3case002", "label": "Nom projet", "name": "secteur-case-project-title", "type": "text" },
-        { "key": "field_679a3case003", "label": "Tags", "name": "secteur-case-project-tags", "type": "text" },
+        {
+            "key": "field_679a3case008",
+            "label": "Fiche projet",
+            "name": "secteur-case-project",
+            "type": "post_object",
+            "instructions": "Titre, image, tags et lien sont récupérés automatiquement depuis la fiche projet.",
+            "post_type": ["page"],
+            "return_format": "id",
+            "ui": 1,
+            "allow_null": 1,
+            "multiple": 0
+        },
         {
             "key": "field_679a3case004",
             "label": "Points clés",
@@ -93,12 +103,12 @@
             "type": "repeater",
             "layout": "table",
             "button_label": "Ajouter",
+            "instructions": "Points spécifiques à ce contexte secteur (optionnel).",
             "sub_fields": [
                 { "key": "field_679a3case005", "label": "Texte", "name": "text", "type": "text" }
             ]
         },
-        { "key": "field_679a3case006", "label": "URL projet", "name": "secteur-case-project-url", "type": "url" },
-        { "key": "field_679a3case007", "label": "Image", "name": "secteur-case-project-image", "type": "image", "return_format": "array", "preview_size": "medium" },
+        { "key": "field_679a3case006", "label": "URL (secours)", "name": "secteur-case-project-url", "type": "url", "instructions": "Optionnel. Utilisé uniquement si aucune fiche projet n'est sélectionnée." },
 
         { "key": "field_679a3tabprice1", "label": "Tarifs", "name": "", "type": "tab", "placement": "top" },
         { "key": "field_679a3price001", "label": "Titre H2", "name": "secteur-pricing-title", "type": "text" },

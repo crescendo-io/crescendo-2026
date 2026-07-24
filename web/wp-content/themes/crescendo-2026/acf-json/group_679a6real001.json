@@ -42,13 +42,33 @@
             "layout": "block",
             "button_label": "Ajouter",
             "sub_fields": [
-                { "key": "field_679a6proj004", "label": "Image", "name": "image", "type": "image", "return_format": "array", "preview_size": "medium" },
-                { "key": "field_679a6proj005", "label": "Titre", "name": "title", "type": "text" },
-                { "key": "field_679a6proj006", "label": "Catégorie", "name": "category", "type": "text" },
-                { "key": "field_679a6proj007", "label": "Tags", "name": "tags", "type": "text" },
-                { "key": "field_679a6proj008", "label": "Texte", "name": "text", "type": "textarea", "rows": 3 },
-                { "key": "field_679a6proj009", "label": "URL", "name": "url", "type": "url" },
-                { "key": "field_679a6proj010", "label": "CRM intégré", "name": "has_crm", "type": "true_false", "ui": 1 }
+                {
+                    "key": "field_679a6proj011",
+                    "label": "Fiche projet",
+                    "name": "project",
+                    "type": "post_object",
+                    "instructions": "Titre, image, secteur, tags, CRM et lien sont récupérés automatiquement depuis la fiche projet.",
+                    "post_type": ["page"],
+                    "return_format": "id",
+                    "ui": 1,
+                    "allow_null": 1,
+                    "multiple": 0
+                },
+                {
+                    "key": "field_679a6proj008",
+                    "label": "Texte (optionnel)",
+                    "name": "text",
+                    "type": "textarea",
+                    "rows": 3,
+                    "instructions": "Laisser vide pour utiliser l'intro de la fiche projet."
+                },
+                {
+                    "key": "field_679a6proj009",
+                    "label": "URL (secours)",
+                    "name": "url",
+                    "type": "url",
+                    "instructions": "Optionnel. Utilisé uniquement si aucune fiche projet n'est sélectionnée."
+                }
             ]
         },
 

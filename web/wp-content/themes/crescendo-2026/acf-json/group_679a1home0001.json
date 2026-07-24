@@ -199,37 +199,23 @@
             "button_label": "Ajouter une réalisation",
             "sub_fields": [
                 {
-                    "key": "field_679a1why0005",
-                    "label": "Image",
-                    "name": "image",
-                    "type": "image",
-                    "return_format": "array",
-                    "preview_size": "medium"
-                },
-                {
-                    "key": "field_679a1why0006",
-                    "label": "Titre",
-                    "name": "title",
-                    "type": "text"
-                },
-                {
-                    "key": "field_679a1why0007",
-                    "label": "Catégorie",
-                    "name": "category",
-                    "type": "text"
+                    "key": "field_679a1why0010",
+                    "label": "Fiche projet",
+                    "name": "project",
+                    "type": "post_object",
+                    "instructions": "Titre, image, secteur, badge CRM et lien sont récupérés automatiquement depuis la fiche projet.",
+                    "post_type": ["page"],
+                    "return_format": "id",
+                    "ui": 1,
+                    "allow_null": 1,
+                    "multiple": 0
                 },
                 {
                     "key": "field_679a1why0008",
-                    "label": "URL",
+                    "label": "URL (secours)",
                     "name": "url",
-                    "type": "url"
-                },
-                {
-                    "key": "field_679a1why0009",
-                    "label": "Badge CRM",
-                    "name": "has_crm",
-                    "type": "true_false",
-                    "ui": 1
+                    "type": "url",
+                    "instructions": "Optionnel. Utilisé uniquement si aucune fiche projet n'est sélectionnée."
                 }
             ]
         },

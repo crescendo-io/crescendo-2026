@@ -1,19 +1,8 @@
 <?php
 $title = crescendo_home('home-why-eyebrow');
 $items = crescendo_home('home-why-items');
-$projects = crescendo_home('home-why-projects');
+$projects = crescendo_resolve_project_cards(crescendo_home('home-why-projects'));
 $realisationsUrl = crescendo_nav_url('realisations');
-
-$projectUrlMap = array(
-    'Ludovic Géhéniaux' => 'realisations/ludovic-geheniaux',
-    'Maison Jaden' => 'realisations/maison-jaden',
-    'Be Focus' => 'realisations/be-focus',
-    'Atelier Gambetta' => 'realisations/atelier-gambetta',
-    'Ta Kifé' => 'realisations/ta-kife',
-    'CM&A Associés' => 'realisations/cma-associes',
-    'Padam Immo' => 'realisations/padam-immo',
-    'Car Design' => 'realisations/car-design',
-);
 ?>
 <section class="home-why">
     <div class="container home-why__inner">
@@ -38,13 +27,7 @@ $projectUrlMap = array(
                 <?php foreach ($projects as $project) : ?>
                     <?php
                     $projectTitle = $project['title'] ?? '';
-                    $url = !empty($project['url']) ? $project['url'] : '';
-                    if (!$url && $projectTitle && isset($projectUrlMap[$projectTitle])) {
-                        $url = crescendo_nav_url($projectUrlMap[$projectTitle]);
-                    }
-                    if (!$url) {
-                        $url = $realisationsUrl;
-                    }
+                    $url = !empty($project['url']) ? $project['url'] : $realisationsUrl;
                     ?>
                     <a class="home-project-card" href="<?php echo esc_url($url); ?>">
                         <?php if (!empty($project['image']['url']) || !empty($project['image']['ID']) || !empty($project['image']['id'])) : ?>

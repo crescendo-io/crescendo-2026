@@ -1,7 +1,7 @@
 <?php
 $eyebrow = crescendo_service('service-projects-eyebrow');
 $title = crescendo_service('service-projects-title');
-$projects = crescendo_service('service-projects');
+$projects = crescendo_resolve_project_cards(crescendo_service('service-projects'), array());
 
 if (!$title && empty($projects)) {
     return;

@@ -39,6 +39,7 @@ require_once (__DIR__ . '/inc/legal-seo.php');
 require_once (__DIR__ . '/inc/sitemap-seo.php');
 require_once (__DIR__ . '/inc/socle-import.php');
 require_once (__DIR__ . '/inc/project-seo.php');
+require_once (__DIR__ . '/inc/project-helpers.php');
 require_once (__DIR__ . '/inc/project-import.php');
 require_once (__DIR__ . '/inc/ajax-methods.php');
 

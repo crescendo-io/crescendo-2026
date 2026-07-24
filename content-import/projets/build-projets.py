@@ -296,12 +296,7 @@ def build_listing():
     projects = []
     for p in PROJECTS:
         projects.append({
-            "title": p["title"],
-            "category": p["sector"],
-            "tags": p["listing_tags"],
-            "text": p["listing_text"],
             "url": f"/realisations/{p['slug']}/",
-            "has_crm": p["has_crm"],
         })
     return projects
 

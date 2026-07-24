@@ -1,10 +1,11 @@
 <?php
 $title = crescendo_secteur('secteur-case-title');
-$projectTitle = crescendo_secteur('secteur-case-project-title');
-$projectTags = crescendo_secteur('secteur-case-project-tags');
-$projectPoints = crescendo_secteur('secteur-case-project-points');
-$projectUrl = crescendo_secteur('secteur-case-project-url');
-$projectImage = crescendo_secteur('secteur-case-project-image');
+$caseProject = crescendo_resolve_case_study_project('secteur-case', 'crescendo_secteur');
+$projectTitle = $caseProject['title'] ?? '';
+$projectTags = $caseProject['tags'] ?? '';
+$projectPoints = $caseProject['points'] ?? array();
+$projectUrl = $caseProject['url'] ?? '';
+$projectImage = $caseProject['image'] ?? null;
 if (!$title && !$projectTitle) {
     return;
 }
