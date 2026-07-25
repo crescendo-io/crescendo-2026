@@ -12,7 +12,7 @@ $items = crescendo_home('home-testimonials-items');
             <div class="home-testimonials__grid">
                 <?php foreach ($items as $item) : ?>
                     <blockquote class="home-testimonial">
-                        <div class="home-testimonial__stars" aria-label="<?php echo esc_attr(($item['rating'] ?? 5) . ' sur 5'); ?>">
+                        <div class="home-testimonial__stars" role="img" aria-label="<?php echo esc_attr(($item['rating'] ?? 5) . ' sur 5'); ?>">
                             <?php for ($i = 0; $i < (int) ($item['rating'] ?? 5); $i++) : ?>
                                 <span aria-hidden="true">★</span>
                             <?php endfor; ?>
