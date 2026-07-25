@@ -283,13 +283,18 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
  *
  */
 var Rgpd = function Rgpd(onexec) {
+  var modal = document.getElementById('rgpd-modal');
+  var manage = document.getElementById('rgpd-manage'); // Legacy manager disabled when the new cookie-consent banner is present.
+
+  if (!modal || !manage || document.querySelector('[data-cookie-consent]')) {
+    return;
+  }
+
   var cookieName = 'rgpd';
   var root = document.documentElement || window;
   var clicktouch = 'ontouchstart' in root ? 'touchstart' : 'click';
-  var modal = document.getElementById('rgpd-modal');
   var btn_accept = modal.querySelector('.btn-accept');
   var btn_refuse = modal.querySelector('.btn-refuse');
-  var manage = document.getElementById('rgpd-manage');
   var manage_box = manage.querySelector('.box');
   var btn_save = manage.querySelector('.btn-save');
   var checkboxes = manage.querySelectorAll('input[type="checkbox"]');
@@ -298,6 +303,10 @@ var Rgpd = function Rgpd(onexec) {
   var manage_links = document.querySelectorAll('a[href="#rgpd-manage"]');
   var scrollTop;
   var cats = {};
+
+  if (!btn_accept || !btn_refuse || !manage_box || !btn_save || !btn_close) {
+    return;
+  }
 
   var eraseUnusedCookies = function eraseUnusedCookies() {
     var _iterator = _createForOfIteratorHelper(checkboxes),

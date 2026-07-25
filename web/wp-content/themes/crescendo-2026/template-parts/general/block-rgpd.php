@@ -1,70 +1,117 @@
 <?php
-$cookiesFields = get_fields('options');
+/**
+ * Cookie consent banner — RGAA / CNIL oriented.
+ * GA4 loads only after analytics consent.
+ */
+$privacyUrl = function_exists('crescendo_nav_url')
+    ? crescendo_nav_url('politique-de-confidentialite')
+    : home_url('/politique-de-confidentialite/');
 ?>
+<div
+    id="cookie-consent"
+    class="cookie-consent"
+    hidden
+    data-cookie-consent
+>
+    <div class="cookie-consent__backdrop" data-cookie-backdrop aria-hidden="true"></div>
 
-<div id="rgpd-manage" role="dialog" aria-modal="true" aria-labelledby="rgpd-title" describedby="rgpd-desc" data-nonce="<?= wp_create_nonce("securite_nonce_rgpd"); ?>" data-action="rgpd">
-    <div class="box">
-        <button type="button" class="btn-close btn-picto" aria-label="<?= __('Fermer la fenêtre de paramètres des cookies', 'lsd_lang'); ?>">X</button>
-        <?php if (!empty($cookiesFields['params-cookies-title'])) : ?>
-            <h1 id="rgpd-title"><?= $cookiesFields['params-cookies-title'] ?></h1>
-        <?php endif; ?>
-        <?php if (!empty($cookiesFields['params-cookies-intro'])) : ?>
-            <div id="rgpd-desc" class="rte">
-                <p><?= $cookiesFields['params-cookies-intro'] ?></p>
+    <div
+        class="cookie-consent__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="cookie-consent-title"
+        aria-describedby="cookie-consent-desc"
+        tabindex="-1"
+        data-cookie-dialog
+    >
+        <div class="cookie-consent__panel" data-cookie-panel="banner">
+            <h2 id="cookie-consent-title" class="cookie-consent__title">Gestion des cookies</h2>
+            <p id="cookie-consent-desc" class="cookie-consent__text">
+                Nous utilisons des cookies nécessaires au fonctionnement du site et, avec votre accord,
+                des cookies de mesure d’audience (Google Analytics) pour améliorer nos services.
+                Vous pouvez accepter, refuser ou personnaliser votre choix.
+                Plus d’informations dans notre
+                <a href="<?php echo esc_url($privacyUrl); ?>">politique de confidentialité</a>.
+            </p>
+
+            <div class="cookie-consent__actions">
+                <button type="button" class="btn btn--outline cookie-consent__btn" data-cookie-action="refuse">
+                    Tout refuser
+                </button>
+                <button type="button" class="btn btn--outline cookie-consent__btn" data-cookie-action="customize">
+                    Personnaliser
+                </button>
+                <button type="button" class="btn cookie-consent__btn cookie-consent__btn--accept" data-cookie-action="accept">
+                    Tout accepter
+                </button>
             </div>
-        <?php endif; ?>
+        </div>
 
-        <?php if (!empty($cookiesFields['params-cookies-groups'])) : ?>
-            <?php foreach ($cookiesFields['params-cookies-groups'] as $cookieGroup) : ?>
-                <?php
-                $dataCookies = array();
-                if (!empty($cookieGroup['cookies'])) {
-                    foreach ($cookieGroup['cookies'] as $index => $cookie) {
-                        array_push($dataCookies, $cookie['name']);
-                    }
-                }
-                ?>
-                <section>
-                    <h2><?= $cookieGroup['title']; ?></h2>
-                    <?php if ($cookieGroup['activation'] === true) : ?>
-                        <input type="checkbox" id="pref-<?= $cookieGroup['id']; ?>" name="pref-<?= $cookieGroup['id']; ?>" value="<?= $cookieGroup['id']; ?>" aria-label="<?= __('Gestion des cookies', 'lsd_lang'); ?> <?= $cookieGroup['title']; ?>" data-cookies="<?= implode(",", $dataCookies); ?>" data-accept="<?= __('Activé', 'lsd_lang'); ?>" data-denied="<?= __('Désactivé', 'lsd_lang'); ?>">
-                    <?php endif; ?>
-                    <p><?= $cookieGroup['text']; ?></p>
-                    <?php if (!empty($cookieGroup['cookies'])) : ?>
-                        <details>
-                            <summary>Afficher les details</summary>
-                            <ul>
-                                <?php foreach ($cookieGroup['cookies'] as $index => $cookie) : ?>
-                                    <li>
-                                        <strong><?php echo $cookie['name']; ?></strong>
-                                        <?php if ($cookie['domain']) : ?>
-                                            <small>(<?php echo $cookie['domain']; ?>)</small>
-                                        <?php endif; ?>
-                                        <?php if (!empty($cookie['description'])) : ?>
-                                            <br>
-                                            <?= $cookie['description']; ?>
-                                        <?php endif; ?>
-                                    <li>
-                                    <?php endforeach; ?>
-                            </ul>
-                        </details>
-                    <?php endif; ?>
-                </section>
-            <?php endforeach; ?>
-        <?php endif; ?>
+        <div class="cookie-consent__panel" data-cookie-panel="prefs" hidden>
+            <div class="cookie-consent__prefs-head">
+                <h2 id="cookie-prefs-title" class="cookie-consent__title">Personnaliser les cookies</h2>
+                <button
+                    type="button"
+                    class="cookie-consent__close"
+                    data-cookie-action="back"
+                    aria-label="Retour à la bannière cookies"
+                >
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
 
-        <button type="button" class="btn-save btn1"><?= __('Sauvegarder', 'lsd_lang'); ?></button>
+            <p class="cookie-consent__text">
+                Activez uniquement les catégories souhaitées. Les cookies nécessaires ne peuvent pas être désactivés.
+            </p>
+
+            <ul class="cookie-consent__categories">
+                <li class="cookie-consent__category">
+                    <div class="cookie-consent__category-main">
+                        <div>
+                            <h3 class="cookie-consent__category-title">Cookies nécessaires</h3>
+                            <p class="cookie-consent__category-text">
+                                Indispensables au fonctionnement du site (sécurité, préférences de consentement).
+                            </p>
+                        </div>
+                        <span class="cookie-consent__status" aria-hidden="true">Toujours actif</span>
+                        <input
+                            type="checkbox"
+                            id="cookie-cat-necessary"
+                            checked
+                            disabled
+                            aria-label="Cookies nécessaires, toujours activés"
+                        >
+                    </div>
+                </li>
+                <li class="cookie-consent__category">
+                    <div class="cookie-consent__category-main">
+                        <div>
+                            <label class="cookie-consent__category-title" for="cookie-cat-analytics">
+                                Mesure d’audience
+                            </label>
+                            <p class="cookie-consent__category-text" id="cookie-cat-analytics-desc">
+                                Google Analytics (GA4) pour comprendre l’usage du site. Déposé uniquement si vous acceptez.
+                            </p>
+                        </div>
+                        <input
+                            type="checkbox"
+                            id="cookie-cat-analytics"
+                            class="cookie-consent__switch"
+                            data-cookie-category="analytics"
+                            aria-describedby="cookie-cat-analytics-desc"
+                        >
+                    </div>
+                </li>
+            </ul>
+
+            <div class="cookie-consent__actions">
+                <button type="button" class="btn btn--outline cookie-consent__btn" data-cookie-action="refuse">
+                    Tout refuser
+                </button>
+                <button type="button" class="btn cookie-consent__btn cookie-consent__btn--accept" data-cookie-action="save">
+                    Enregistrer mes choix
+                </button>
+            </div>
+        </div>
     </div>
-</div>
-
-<div id="rgpd-modal" aria-hidden="true">
-    <button type="reset" class="btn-refuse"><?= __('Continuer sans accepter', 'lsd_lang'); ?> →</button>
-    <?php if (!empty($cookiesFields['params-cookies-title'])) : ?>
-        <h2><?= $cookiesFields['params-cookies-title'] ?></h2>
-    <?php endif;
-    if (!empty($cookiesFields['params-cookies-intro'])) : ?>
-        <p><?= $cookiesFields['params-cookies-intro'] ?></p>
-    <?php endif; ?>
-    <button type="button" class="rgpd-manage-link link-1"><?= __('Paramétrer mes cookies', 'lsd_lang'); ?></button>
-    <button type="button" class="btn-accept btn-picto"><?= __('Accepter', 'lsd_lang'); ?></button>
 </div>

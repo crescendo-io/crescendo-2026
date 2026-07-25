@@ -12,14 +12,20 @@
  *
  */
 
- const Rgpd = onexec => {
+const Rgpd = onexec => {
+    const modal = document.getElementById('rgpd-modal');
+    const manage = document.getElementById('rgpd-manage');
+
+    // Legacy manager disabled when the new cookie-consent banner is present.
+    if (!modal || !manage || document.querySelector('[data-cookie-consent]')) {
+        return;
+    }
+
     const cookieName = 'rgpd';
     const root = document.documentElement || window;
     const clicktouch = ('ontouchstart' in root) ? 'touchstart' : 'click';
-    const modal = document.getElementById('rgpd-modal');
     const btn_accept = modal.querySelector('.btn-accept');
     const btn_refuse = modal.querySelector('.btn-refuse');
-    const manage = document.getElementById('rgpd-manage');
     const manage_box = manage.querySelector('.box');
     const btn_save = manage.querySelector('.btn-save');
     const checkboxes = manage.querySelectorAll('input[type="checkbox"]');
@@ -28,6 +34,10 @@
     const manage_links = document.querySelectorAll('a[href="#rgpd-manage"]');
     let scrollTop;
     let cats = {};
+
+    if (!btn_accept || !btn_refuse || !manage_box || !btn_save || !btn_close) {
+        return;
+    }
 
     const eraseUnusedCookies = () => {
         for (const checkbox of checkboxes) {

@@ -51,6 +51,7 @@ $footerColumns = crescendo_get_footer_nav_columns();
             <ul class="site-footer__legal">
                 <li><a href="<?php echo esc_url(crescendo_nav_url('mentions-legales')); ?>">Mentions légales</a></li>
                 <li><a href="<?php echo esc_url(crescendo_nav_url('politique-de-confidentialite')); ?>">Politique de confidentialité</a></li>
+                <li><a href="#cookie-consent" data-cookie-open>Gérer les cookies</a></li>
                 <li><a href="<?php echo esc_url(crescendo_nav_url('plan-du-site')); ?>">Plan du site</a></li>
             </ul>
         </div>

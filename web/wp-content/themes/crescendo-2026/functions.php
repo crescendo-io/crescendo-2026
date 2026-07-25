@@ -95,6 +95,25 @@ function scripts_site(){
             filemtime(get_template_directory() . '/assets/js/media-loader.js'),
             true
         );
+        $cookieConsentJs = get_template_directory() . '/assets/js/cookie-consent.js';
+        if (file_exists($cookieConsentJs)) {
+            wp_enqueue_script(
+                'crescendo-cookie-consent',
+                get_template_directory_uri() . '/assets/js/cookie-consent.js',
+                array(),
+                filemtime($cookieConsentJs),
+                true
+            );
+
+            $privacyUrl = function_exists('crescendo_nav_url')
+                ? crescendo_nav_url('politique-de-confidentialite')
+                : home_url('/politique-de-confidentialite/');
+
+            wp_localize_script('crescendo-cookie-consent', 'CrescendoCookieConsent', array(
+                'gaId' => 'G-QBP5D66YEE',
+                'privacyUrl' => $privacyUrl,
+            ));
+        }
 
         // Script à injecter exemple :
         // if (is_front_page()) {
