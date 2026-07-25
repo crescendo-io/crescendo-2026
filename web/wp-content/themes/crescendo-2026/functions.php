@@ -10,6 +10,7 @@ define('AJAX_URL', admin_url('admin-ajax.php'));
 require_once (__DIR__ . '/inc/datatypes.php');
 require_once (__DIR__ . '/inc/configuration.php');
 require_once (__DIR__ . '/inc/configuration_security.php');
+require_once (__DIR__ . '/inc/performance.php');
 require_once (__DIR__ . '/inc/methods.php');
 require_once (__DIR__ . '/inc/site-nav-data.php');
 
@@ -64,7 +65,12 @@ function scripts_site(){
             array(),
             null
         );
-        wp_enqueue_style('style_principal', get_template_directory_uri() . '/assets/css/app.css', array('google-fonts-poppins'), filemtime(get_template_directory() . '/assets/css/app.css'));
+        wp_enqueue_style(
+            'style_principal',
+            get_template_directory_uri() . '/assets/css/app.css',
+            array(),
+            filemtime(get_template_directory() . '/assets/css/app.css')
+        );
 
         // Script
         wp_enqueue_script('script-js', get_template_directory_uri() . '/assets/js/app.js', array(), filemtime(get_template_directory() . '/assets/js/app.js'), true);
@@ -74,12 +80,6 @@ function scripts_site(){
             array(),
             filemtime(get_template_directory() . '/assets/js/site-header.js'),
             true
-        );
-        wp_enqueue_style(
-            'crescendo-contact-form',
-            get_template_directory_uri() . '/assets/css/contact-form.css',
-            array('style_principal'),
-            filemtime(get_template_directory() . '/assets/css/contact-form.css')
         );
         wp_enqueue_script(
             'crescendo-contact-form',
