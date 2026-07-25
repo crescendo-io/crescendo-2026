@@ -59,9 +59,6 @@ function crescendo_contact_breadcrumb($post_id = null) {
 function crescendo_output_contact_schema($post_id = null) {
     $post_id = $post_id ?: get_the_ID();
     $seo = crescendo_get_contact_seo($post_id);
-    $phone = crescendo_public_phone(
-        crescendo_contact('contact-info-phone', $post_id) ?: get_field('params-footer-phone', 'option')
-    );
     $email = crescendo_contact('contact-info-email', $post_id) ?: get_field('params-footer-email', 'option');
     $faqItems = crescendo_contact('contact-faq-items', $post_id) ?: array();
 
@@ -77,9 +74,6 @@ function crescendo_output_contact_schema($post_id = null) {
             'addressCountry' => 'FR',
         ),
     );
-    if ($phone) {
-        $business['telephone'] = $phone;
-    }
 
     $schemas = array(
         array(

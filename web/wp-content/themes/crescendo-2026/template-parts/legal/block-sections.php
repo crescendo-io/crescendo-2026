@@ -6,7 +6,7 @@ if (empty($sections)) {
 }
 ?>
 <section class="legal-sections">
-    <div class="container legal-sections__inner">
+    <div class="container">
         <?php foreach ($sections as $section) : ?>
             <article class="legal-sections__block">
                 <?php if (!empty($section['title'])) : ?>

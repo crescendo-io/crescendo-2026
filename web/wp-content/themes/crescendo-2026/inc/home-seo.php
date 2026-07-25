@@ -28,8 +28,7 @@ function crescendo_output_home_schema() {
     $orgId = untrailingslashit($homeUrl) . '#organization';
     $businessId = untrailingslashit($homeUrl) . '#localbusiness';
     $websiteId = untrailingslashit($homeUrl) . '#website';
-    $phone = crescendo_public_phone();
-    $email = get_field('params-footer-email', 'option') ?: 'contact@crescendo-studio.io';
+    $email = get_field('params-footer-email', 'option') ?: 'b.vidal@crescendo-studio.io';
     $address = array(
         '@type' => 'PostalAddress',
         'addressLocality' => 'Nantes',
@@ -53,10 +52,6 @@ function crescendo_output_home_schema() {
         ),
     );
 
-    if ($phone) {
-        $organization['telephone'] = $phone;
-    }
-
     $sameAs = crescendo_get_organization_same_as();
     if (!empty($sameAs)) {
         $organization['sameAs'] = $sameAs;
@@ -78,10 +73,6 @@ function crescendo_output_home_schema() {
             'name' => 'Nantes',
         ),
     );
-
-    if ($phone) {
-        $localBusiness['telephone'] = $phone;
-    }
 
     $website = array(
         '@type' => 'WebSite',

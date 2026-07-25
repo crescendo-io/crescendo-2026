@@ -176,15 +176,7 @@ function crescendo_is_placeholder_phone($phone) {
 }
 
 function crescendo_public_phone($phone = null) {
-    if ($phone === null) {
-        $phone = get_field('params-footer-phone', 'option');
-    }
-
-    if (crescendo_is_placeholder_phone($phone)) {
-        return null;
-    }
-
-    return $phone;
+    return null;
 }
 
 function crescendo_print_json_ld($schema) {
@@ -217,8 +209,14 @@ function crescendo_get_organization_knows_about() {
  *
  * @return string[]
  */
+function crescendo_instagram_url() {
+    return 'https://www.instagram.com/crescendo.io/';
+}
+
 function crescendo_get_organization_same_as() {
-    $urls = apply_filters('crescendo_organization_same_as', array());
+    $urls = apply_filters('crescendo_organization_same_as', array(
+        crescendo_instagram_url(),
+    ));
 
     return array_values(array_filter(array_map('esc_url_raw', (array) $urls)));
 }
@@ -482,14 +480,10 @@ function crescendo_maybe_fix_seo_structure() {
 
     $contact = get_page_by_path('contact', OBJECT, 'page');
     if ($contact && function_exists('update_field')) {
-        $phone = get_field('contact-info-phone', $contact->ID);
-        if (function_exists('crescendo_is_placeholder_phone') && crescendo_is_placeholder_phone($phone)) {
-            update_field('contact-info-phone', '', $contact->ID);
-        }
+        update_field('contact-info-phone', '', $contact->ID);
     }
 
-    $optionPhone = get_field('params-footer-phone', 'option');
-    if (function_exists('crescendo_is_placeholder_phone') && crescendo_is_placeholder_phone($optionPhone)) {
+    if (function_exists('update_field')) {
         update_field('params-footer-phone', '', 'option');
     }
 

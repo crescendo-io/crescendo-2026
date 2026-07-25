@@ -1,6 +1,5 @@
 <?php
 $description = get_field('params-footer-description', 'option') ?: 'Agence web à Nantes spécialisée WordPress sur mesure, CRM et location de site dès 350€/mois.';
-$phone = get_field('params-footer-phone', 'option');
 $email = get_field('params-footer-email', 'option');
 $address = get_field('params-footer-address', 'option') ?: 'Nantes, Loire-Atlantique (44)';
 $footerColumns = crescendo_get_footer_nav_columns();
@@ -31,8 +30,8 @@ $footerColumns = crescendo_get_footer_nav_columns();
         <div class="site-footer__col">
             <h3>Contact</h3>
             <ul class="site-footer__contact">
-                <?php if ($phone) : ?><li><a href="tel:<?php echo esc_attr(preg_replace('/\s+/', '', $phone)); ?>"><?php echo esc_html($phone); ?></a></li><?php endif; ?>
                 <?php if ($email) : ?><li><a href="mailto:<?php echo esc_attr($email); ?>"><?php echo esc_html($email); ?></a></li><?php endif; ?>
+                <li><a href="<?php echo esc_url(crescendo_instagram_url()); ?>" target="_blank" rel="noopener noreferrer">Instagram — @crescendo.io</a></li>
                 <li><?php echo esc_html($address); ?></li>
                 <li><a href="<?php echo esc_url(crescendo_nav_url('contact')); ?>">Nous contacter →</a></li>
             </ul>

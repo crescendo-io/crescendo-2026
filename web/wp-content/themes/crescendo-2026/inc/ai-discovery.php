@@ -46,8 +46,7 @@ function crescendo_render_llms_txt() {
     $seo = function_exists('crescendo_get_home_seo') ? crescendo_get_home_seo() : array();
     $summary = $seo['meta_description'] ?? 'Agence web à Nantes : WordPress sur mesure, CRM et location dès 350€/mois.';
     $heroText = function_exists('crescendo_home') ? (string) crescendo_home('home-hero-text') : '';
-    $email = get_field('params-footer-email', 'option') ?: 'contact@crescendo-studio.io';
-    $phone = crescendo_public_phone();
+    $email = get_field('params-footer-email', 'option') ?: 'b.vidal@crescendo-studio.io';
     $address = get_field('params-footer-address', 'option') ?: 'Nantes, Loire-Atlantique (44), France';
 
     $lines = array();
@@ -64,9 +63,6 @@ function crescendo_render_llms_txt() {
     $lines[] = '**Entité** : ' . $brand . ' — agence web à Nantes (Loire-Atlantique, France).';
     $lines[] = '**Site** : ' . home_url('/');
     $lines[] = '**Email** : ' . $email;
-    if ($phone) {
-        $lines[] = '**Téléphone** : ' . $phone;
-    }
     $lines[] = '**Adresse** : ' . $address;
     $lines[] = '**Langue** : fr-FR';
     $lines[] = '';

@@ -4,14 +4,15 @@
         font-size: 1.4rem;
         color: var(--color-muted);
     }
+
+    &__title,
+    &__intro {
+        max-width: none;
+    }
 }
 
 .legal-sections {
     padding: 0 0 8rem;
-
-    &__inner {
-        max-width: 80rem;
-    }
 
     &__block {
         padding: 2.4rem 0;

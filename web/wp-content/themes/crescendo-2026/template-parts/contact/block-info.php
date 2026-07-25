@@ -1,30 +1,21 @@
 <?php
-$phone = crescendo_contact('contact-info-phone');
 $email = crescendo_contact('contact-info-email');
 $address = crescendo_contact('contact-info-address');
 $hours = crescendo_contact('contact-info-hours');
 $zone = crescendo_contact('contact-info-zone');
 
-if (!$phone && !$email && !$address) {
-    $phone = get_field('params-footer-phone', 'option');
+if (!$email && !$address) {
     $email = get_field('params-footer-email', 'option');
     $address = get_field('params-footer-address', 'option');
 }
 
-if (!$phone && !$email && !$address && !$hours && !$zone) {
+if (!$email && !$address && !$hours && !$zone) {
     return;
 }
 ?>
 <section class="contact-info">
     <div class="container">
         <div class="contact-info__grid">
-            <?php if ($phone) : ?>
-                <div class="contact-info__item">
-                    <p class="contact-info__label">Téléphone</p>
-                    <a href="tel:<?php echo esc_attr(preg_replace('/\s+/', '', $phone)); ?>" class="contact-info__value"><?php echo esc_html($phone); ?></a>
-                </div>
-            <?php endif; ?>
-
             <?php if ($email) : ?>
                 <div class="contact-info__item">
                     <p class="contact-info__label">Email</p>

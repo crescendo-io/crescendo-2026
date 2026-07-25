@@ -17,12 +17,6 @@
             "default_value": "Agence web à Nantes spécialisée WordPress sur mesure, CRM et location de site dès 350€/mois."
         },
         {
-            "key": "field_679a1opt00003",
-            "label": "Téléphone",
-            "name": "params-footer-phone",
-            "type": "text"
-        },
-        {
             "key": "field_679a1opt00004",
             "label": "Email",
             "name": "params-footer-email",

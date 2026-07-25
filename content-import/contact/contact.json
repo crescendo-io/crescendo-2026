@@ -19,7 +19,6 @@
     "contact-hero-title": "Contactez Crescendo Studio",
     "contact-hero-intro": "Vous avez un projet de site internet, une refonte WordPress ou un CRM sur mesure ? Décrivez-nous votre besoin : nous revenons vers vous sous 24h ouvrées avec une première orientation et, si le projet correspond, une maquette gratuite sous 48h.",
     "contact-hero-note": "Maquette gratuite en 48h · Sans engagement · Réponse sous 24h",
-    "contact-info-phone": "",
     "contact-info-email": "b.vidal@crescendo-studio.io",
     "contact-info-address": "Nantes, Loire-Atlantique (44)",
     "contact-info-hours": "Lundi – vendredi, 9h30 – 18h30",
@@ -27,7 +26,7 @@
     "contact-faq-items": [
       {
         "question": "Comment se déroule le premier échange ?",
-        "answer": "Vous remplissez le formulaire ou nous appelez. Nous planifions un échange de 20 à 30 minutes pour comprendre vos objectifs, votre cible et votre budget. Ensuite, nous vous proposons une orientation claire : location, achat, refonte ou CRM."
+        "answer": "Vous remplissez le formulaire ou nous écrivez par email. Nous planifions un échange de 20 à 30 minutes pour comprendre vos objectifs, votre cible et votre budget. Ensuite, nous vous proposons une orientation claire : location, achat, refonte ou CRM."
       },
       {
         "question": "La maquette gratuite engage-t-elle à quelque chose ?",

@@ -16,7 +16,6 @@
         { "key": "field_679a5hero004", "label": "Note sous intro", "name": "contact-hero-note", "type": "text" },
 
         { "key": "field_679a5tabinfo01", "label": "Coordonnées", "name": "", "type": "tab", "placement": "top" },
-        { "key": "field_679a5info001", "label": "Téléphone", "name": "contact-info-phone", "type": "text" },
         { "key": "field_679a5info002", "label": "Email", "name": "contact-info-email", "type": "email" },
         { "key": "field_679a5info003", "label": "Adresse", "name": "contact-info-address", "type": "text" },
         { "key": "field_679a5info004", "label": "Disponibilité", "name": "contact-info-hours", "type": "text" },

@@ -23,11 +23,11 @@
     "legal-sections": [
       {
         "title": "1. Responsable du traitement",
-        "content": "<p><strong>Crescendo Studio</strong><br>Nantes, Loire-Atlantique (44), France<br>Email : contact@crescendo-studio.io<br>Téléphone : nous contacter par email</p><p>Pour toute question relative à vos données personnelles, vous pouvez nous contacter à l'adresse ci-dessus.</p>"
+        "content": "<p><strong>Crescendo Studio</strong><br>Nantes, Loire-Atlantique (44), France<br>Email : b.vidal@crescendo-studio.io</p><p>Pour toute question relative à vos données personnelles, vous pouvez nous contacter à l'adresse ci-dessus.</p>"
       },
       {
         "title": "2. Données collectées",
-        "content": "<p>Nous pouvons collecter les catégories de données suivantes :</p><ul><li><strong>Données d'identification :</strong> nom, prénom, raison sociale</li><li><strong>Coordonnées :</strong> adresse email, numéro de téléphone</li><li><strong>Données de projet :</strong> type de projet, message, budget estimé</li><li><strong>Données de navigation :</strong> adresse IP, pages consultées, durée de visite (via cookies analytiques)</li><li><strong>Données techniques :</strong> type de navigateur, système d'exploitation, terminal utilisé</li></ul>"
+        "content": "<p>Nous pouvons collecter les catégories de données suivantes :</p><ul><li><strong>Données d'identification :</strong> nom, prénom, raison sociale</li><li><strong>Coordonnées :</strong> adresse email, numéro de téléphone (facultatif)</li><li><strong>Données de projet :</strong> type de projet, message, budget estimé</li><li><strong>Données de navigation :</strong> adresse IP, pages consultées, durée de visite (via cookies analytiques)</li><li><strong>Données techniques :</strong> type de navigateur, système d'exploitation, terminal utilisé</li></ul>"
       },
       {
         "title": "3. Finalités et bases légales",
@@ -43,7 +43,7 @@
       },
       {
         "title": "6. Vos droits",
-        "content": "<p>Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez des droits suivants :</p><ul><li>Droit d'accès à vos données</li><li>Droit de rectification</li><li>Droit à l'effacement (« droit à l'oubli »)</li><li>Droit à la limitation du traitement</li><li>Droit à la portabilité</li><li>Droit d'opposition</li><li>Droit de retirer votre consentement à tout moment</li></ul><p>Pour exercer vos droits, contactez-nous à contact@crescendo-studio.io en précisant l'objet de votre demande et en joignant une copie de votre pièce d'identité si nécessaire.</p><p>Vous pouvez également introduire une réclamation auprès de la CNIL : <a href=\"https://www.cnil.fr\" target=\"_blank\" rel=\"noopener noreferrer\">www.cnil.fr</a></p>"
+        "content": "<p>Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez des droits suivants :</p><ul><li>Droit d'accès à vos données</li><li>Droit de rectification</li><li>Droit à l'effacement (« droit à l'oubli »)</li><li>Droit à la limitation du traitement</li><li>Droit à la portabilité</li><li>Droit d'opposition</li><li>Droit de retirer votre consentement à tout moment</li></ul><p>Pour exercer vos droits, contactez-nous à b.vidal@crescendo-studio.io en précisant l'objet de votre demande et en joignant une copie de votre pièce d'identité si nécessaire.</p><p>Vous pouvez également introduire une réclamation auprès de la CNIL : <a href=\"https://www.cnil.fr\" target=\"_blank\" rel=\"noopener noreferrer\">www.cnil.fr</a></p>"
       },
       {
         "title": "7. Cookies et traceurs",
