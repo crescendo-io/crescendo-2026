@@ -4,3 +4,12 @@ Require all denied
 <Files ~ ".(xml|css|css.map|jpe?g|png|gif|js|pdf|eot|svg|ttf|woff|woff2|svg|ico|mp4|ogv|ogg|mp3|mov|webm|webp|json|twig|webmanifest|map)$">
     Require all granted
 </Files>
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|js|mjs|map)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+    <FilesMatch "\.(jpe?g|png|gif|webp|svg|ico|woff2?|ttf|eot|pdf|mp4|webm|ogv|ogg|mp3|mov|json|webmanifest)$">
+        Header set Cache-Control "public, max-age=31536000"
+    </FilesMatch>
+</IfModule>
