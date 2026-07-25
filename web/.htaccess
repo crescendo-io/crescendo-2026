@@ -4,6 +4,14 @@
     deny from all
 </Files>
 
+# BEGIN Crescendo canonical host
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^crescendo-studio\.io$ [NC]
+RewriteRule ^ https://www.crescendo-studio.io%{REQUEST_URI} [L,R=301]
+</IfModule>
+# END Crescendo canonical host
+
 # BEGIN Crescendo static cache
 <IfModule mod_headers.c>
     <FilesMatch "\.(css|js|mjs|map)$">

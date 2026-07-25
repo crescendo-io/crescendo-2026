@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SECTEURS_DIR = ROOT / "content-import" / "secteurs"
-BASE = "https://crescendo-studio.io"
+BASE = "https://www.crescendo-studio.io"
 
 SECTOR_SLUGS = [
     "creation-site-artisan-nantes",

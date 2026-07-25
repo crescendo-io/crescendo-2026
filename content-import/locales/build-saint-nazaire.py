@@ -8,7 +8,7 @@ from pathlib import Path
 
 OUT_DIR = Path(__file__).resolve().parent
 OUTPUT = OUT_DIR / "agence-web-saint-nazaire.json"
-BASE = "https://crescendo-studio.io"
+BASE = "https://www.crescendo-studio.io"
 
 # ─── Sections éditoriales (280–450 mots chacune, HTML avec h3) ───────────────
 

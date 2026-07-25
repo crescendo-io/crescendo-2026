@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent
-BASE = "https://crescendo-studio.io"
+BASE = "https://www.crescendo-studio.io"
 
 PRICING_TABLE = [
     {"label": "Investissement initial", "col1": "0€", "col2": "3 000 – 8 000€"},

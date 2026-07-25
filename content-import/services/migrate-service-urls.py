@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SERVICES_DIR = ROOT / "content-import" / "services"
-BASE = "https://crescendo-studio.io"
+BASE = "https://www.crescendo-studio.io"
 
 SERVICE_SLUGS = [
     "agence-web-nantes",

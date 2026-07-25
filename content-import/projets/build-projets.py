@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 OUT = Path(__file__).parent
-BASE = "https://crescendo-studio.io/realisations"
+BASE = "https://www.crescendo-studio.io/realisations"
 GALLERY_SLOTS = 4
 GALLERY_ALT_LABELS = (
     "page d'accueil",

@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 OUT = Path(__file__).resolve().parent
-BASE = "https://crescendo-studio.io"
+BASE = "https://www.crescendo-studio.io"
 
 CITIES = {
     "saint-herblain": {

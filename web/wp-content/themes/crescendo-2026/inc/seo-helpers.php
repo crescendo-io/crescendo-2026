@@ -361,7 +361,7 @@ function crescendo_maybe_fix_seo_structure() {
             $canonical = get_field('service-seo-canonical', $page_id);
             if (is_string($canonical) && (strpos($canonical, '/services/services/') !== false || !preg_match('#/services/[^/]+/?$#', $canonical))) {
                 $slug = get_post_field('post_name', $page_id);
-                update_field('service-seo-canonical', 'https://crescendo-studio.io/services/' . $slug . '/', $page_id);
+                update_field('service-seo-canonical', crescendo_get_canonical_url($page_id), $page_id);
             }
         }
     }
@@ -387,7 +387,7 @@ function crescendo_maybe_fix_seo_structure() {
             $canonical = get_field('secteur-seo-canonical', $page_id);
             if (is_string($canonical) && (strpos($canonical, '/secteurs/secteurs/') !== false || !preg_match('#/secteurs/[^/]+/?$#', $canonical))) {
                 $slug = get_post_field('post_name', $page_id);
-                update_field('secteur-seo-canonical', 'https://crescendo-studio.io/secteurs/' . $slug . '/', $page_id);
+                update_field('secteur-seo-canonical', crescendo_get_canonical_url($page_id), $page_id);
             }
         }
     }
@@ -510,6 +510,20 @@ function crescendo_maybe_fix_seo_duplicates() {
     update_option('crescendo_seo_structure_fixed_v4', 1, false);
 }
 add_action('init', 'crescendo_maybe_fix_seo_duplicates', 31);
+
+function crescendo_maybe_migrate_canonical_www() {
+    if (get_option('crescendo_canonical_www_v1')) {
+        return;
+    }
+
+    if (!did_action('init') || !function_exists('crescendo_is_crescendo_production_site') || !crescendo_is_crescendo_production_site()) {
+        return;
+    }
+
+    crescendo_sync_stored_canonical_urls();
+    update_option('crescendo_canonical_www_v1', 1, false);
+}
+add_action('init', 'crescendo_maybe_migrate_canonical_www', 32);
 
 /**
  * Fallback meta description for templates without a dedicated SEO handler.
