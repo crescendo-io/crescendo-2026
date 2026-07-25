@@ -11,6 +11,7 @@ require_once (__DIR__ . '/inc/datatypes.php');
 require_once (__DIR__ . '/inc/configuration.php');
 require_once (__DIR__ . '/inc/configuration_security.php');
 require_once (__DIR__ . '/inc/performance.php');
+require_once (__DIR__ . '/inc/image-webp.php');
 require_once (__DIR__ . '/inc/methods.php');
 require_once (__DIR__ . '/inc/site-nav-data.php');
 

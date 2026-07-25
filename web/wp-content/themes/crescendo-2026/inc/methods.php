@@ -128,6 +128,7 @@ function crescendo_image($image, $size = 'large', $attr = array()) {
 
         $html = wp_get_attachment_image($id, $size, false, $attr);
         if ($html) {
+            $html = crescendo_wrap_attachment_in_picture($html, $id, $size, $attr);
             return crescendo_wrap_media_loader($html);
         }
     }

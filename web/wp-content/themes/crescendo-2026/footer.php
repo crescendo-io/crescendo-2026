@@ -9,13 +9,7 @@ $footerColumns = crescendo_get_footer_nav_columns();
     <div class="container site-footer__top">
         <div class="site-footer__brand">
             <a href="<?php echo esc_url(home_url('/')); ?>" class="site-logo site-logo--footer" aria-label="<?php bloginfo('name'); ?> — Accueil">
-                <img
-                    src="<?php echo esc_url(THEME_URL . 'assets/images/logo-white.png'); ?>"
-                    alt="<?php echo esc_attr(get_bloginfo('name')); ?>"
-                    width="186"
-                    height="27"
-                    decoding="async"
-                >
+                <?php echo crescendo_theme_logo('white', array('alt' => get_bloginfo('name'), 'loading' => 'lazy')); ?>
             </a>
             <p><?php echo esc_html($description); ?></p>
         </div>

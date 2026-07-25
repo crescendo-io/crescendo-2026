@@ -40,9 +40,9 @@ $image = crescendo_home('home-hero-image');
         <div class="home-hero__visual">
             <?php if (!empty($image['url']) || !empty($image['ID']) || !empty($image['id'])) : ?>
                 <?php
-                echo crescendo_image($image, 'crescendo-hero', array(
-                    'alt' => $image['alt'] ?: $title,
-                    'sizes' => '(min-width: 768px) 50vw, 100vw',
+                echo crescendo_image($image, 'crescendo-home-hero', array(
+                    'alt' => crescendo_attachment_alt($image, $title),
+                    'sizes' => '(min-width: 1280px) 620px, (min-width: 768px) 50vw, 100vw',
                     'loading' => 'eager',
                     'fetchpriority' => 'high',
                 ));

@@ -23,6 +23,7 @@ function theme_setup() {
     show_admin_bar(false);
 
     add_image_size('crescendo-hero', 1400, 0, false);
+    add_image_size('crescendo-home-hero', 800, 0, false);
     add_image_size('crescendo-content', 960, 0, false);
     add_image_size('crescendo-card', 640, 0, false);
     add_image_size('crescendo-avatar', 96, 96, true);
