@@ -168,6 +168,75 @@ function crescendo_acf_project_page_query($args) {
     return $args;
 }
 
+function crescendo_resolve_attachment_id($image) {
+    if (is_numeric($image)) {
+        return (int) $image;
+    }
+
+    if (is_array($image)) {
+        return (int) ($image['ID'] ?? $image['id'] ?? 0);
+    }
+
+    return 0;
+}
+
+function crescendo_attachment_alt($image, $fallback = '') {
+    if (is_array($image) && !empty($image['alt'])) {
+        return trim((string) $image['alt']);
+    }
+
+    $attachment_id = crescendo_resolve_attachment_id($image);
+    if ($attachment_id > 0) {
+        $alt = trim((string) get_post_meta($attachment_id, '_wp_attachment_image_alt', true));
+        if ($alt !== '') {
+            return $alt;
+        }
+    }
+
+    return trim((string) $fallback);
+}
+
+function crescendo_project_stored_gallery_alts($post_id = null) {
+    $post_id = $post_id ?: get_the_ID();
+    $stored = get_post_meta($post_id, '_crescendo_project_gallery_alts', true);
+
+    return is_array($stored) ? $stored : array();
+}
+
+function crescendo_project_stored_hero_image_alt($post_id = null) {
+    $post_id = $post_id ?: get_the_ID();
+
+    return trim((string) get_post_meta($post_id, '_crescendo_project_hero_image_alt', true));
+}
+
+function crescendo_project_gallery_item_alt($index, $image, $post_id = null) {
+    $post_id = $post_id ?: get_the_ID();
+    $stored_alts = crescendo_project_stored_gallery_alts($post_id);
+    $preferred = '';
+
+    if (isset($stored_alts[$index]) && trim((string) $stored_alts[$index]) !== '') {
+        $preferred = trim((string) $stored_alts[$index]);
+    }
+
+    $title = crescendo_project('project-hero-title', $post_id) ?: get_the_title($post_id);
+    $generated = $title !== '' ? sprintf('%s — capture %d', $title, $index + 1) : '';
+
+    if ($preferred !== '') {
+        return crescendo_attachment_alt($image, $preferred);
+    }
+
+    return crescendo_attachment_alt($image, $generated);
+}
+
+function crescendo_project_hero_image_alt($image, $post_id = null) {
+    $post_id = $post_id ?: get_the_ID();
+    $title = crescendo_project('project-hero-title', $post_id) ?: get_the_title($post_id);
+    $stored = crescendo_project_stored_hero_image_alt($post_id);
+    $fallback = $stored !== '' ? $stored : $title;
+
+    return crescendo_attachment_alt($image, $fallback);
+}
+
 add_filter('acf/fields/post_object/query/name=project', 'crescendo_acf_project_page_query');
 add_filter('acf/fields/post_object/query/name=secteur-case-project', 'crescendo_acf_project_page_query');
 add_filter('acf/fields/post_object/query/name=local-case-project', 'crescendo_acf_project_page_query');

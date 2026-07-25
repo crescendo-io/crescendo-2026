@@ -72,12 +72,17 @@ $hasVisual = !empty($image['url']) || !empty($visualTags);
             <figure class="project-hero__visual">
                 <?php if (!empty($image['url']) || !empty($image['ID']) || !empty($image['id'])) : ?>
                     <?php
-                    echo crescendo_image($image, 'crescendo-hero', array(
-                        'alt' => $image['alt'] ?: $title,
+                    $heroAlt = crescendo_project_hero_image_alt($image);
+                    $heroAttr = array(
                         'sizes' => '(min-width: 1240px) 1240px, 100vw',
                         'loading' => 'eager',
                         'fetchpriority' => 'high',
-                    ));
+                    );
+                    if ($heroAlt !== '') {
+                        $heroAttr['alt'] = $heroAlt;
+                    }
+
+                    echo crescendo_image($image, 'crescendo-hero', $heroAttr);
                     ?>
                 <?php else : ?>
                     <div class="project-hero__visual-placeholder" aria-hidden="true"></div>

@@ -20,6 +20,10 @@ function crescendo_import_should_preserve_project_field($field_name, $post_id, $
 }
 
 function crescendo_import_resolve_attachment_id($image) {
+    if (function_exists('crescendo_resolve_attachment_id')) {
+        return crescendo_resolve_attachment_id($image);
+    }
+
     if (is_numeric($image)) {
         return (int) $image;
     }
@@ -52,22 +56,30 @@ function crescendo_import_apply_project_image_alts($post_id, array $fields) {
     $updated = 0;
 
     if (!empty($fields['project-hero-image-alt'])) {
+        $hero_alt = sanitize_text_field($fields['project-hero-image-alt']);
+        update_post_meta($post_id, '_crescendo_project_hero_image_alt', $hero_alt);
+
         $hero = get_field('project-hero-image', $post_id);
         $attachment_id = crescendo_import_resolve_attachment_id($hero);
-        if ($attachment_id && crescendo_import_update_attachment_alt($attachment_id, $fields['project-hero-image-alt'])) {
+        if ($attachment_id && crescendo_import_update_attachment_alt($attachment_id, $hero_alt)) {
             $updated++;
         }
     }
 
     if (!empty($fields['project-gallery-alts']) && is_array($fields['project-gallery-alts'])) {
+        $gallery_alts = array();
+        foreach ($fields['project-gallery-alts'] as $alt_value) {
+            $gallery_alts[] = sanitize_text_field(is_array($alt_value) ? ($alt_value['alt'] ?? '') : $alt_value);
+        }
+        update_post_meta($post_id, '_crescendo_project_gallery_alts', $gallery_alts);
+
         $gallery = get_field('project-gallery', $post_id);
         if (is_array($gallery)) {
-            foreach ($fields['project-gallery-alts'] as $index => $alt_value) {
-                if (!isset($gallery[$index]) || !is_array($gallery[$index])) {
+            foreach ($gallery_alts as $index => $alt) {
+                if ($alt === '' || !isset($gallery[$index]) || !is_array($gallery[$index])) {
                     continue;
                 }
 
-                $alt = is_array($alt_value) ? ($alt_value['alt'] ?? '') : $alt_value;
                 $attachment_id = crescendo_import_resolve_attachment_id($gallery[$index]['image'] ?? null);
                 if ($attachment_id && crescendo_import_update_attachment_alt($attachment_id, $alt)) {
                     $updated++;

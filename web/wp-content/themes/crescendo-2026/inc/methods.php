@@ -114,6 +114,14 @@ function crescendo_image($image, $size = 'large', $attr = array()) {
     $attr['class'] = trim(($attr['class'] ?? '') . ' media-loader__img');
 
     if ($id > 0) {
+        if (array_key_exists('alt', $attr) && trim((string) $attr['alt']) === '') {
+            unset($attr['alt']);
+        }
+
+        if (!isset($attr['alt']) && $fallbackAlt === '') {
+            $fallbackAlt = trim((string) get_post_meta($id, '_wp_attachment_image_alt', true));
+        }
+
         if (!isset($attr['alt']) && $fallbackAlt !== '') {
             $attr['alt'] = $fallbackAlt;
         }

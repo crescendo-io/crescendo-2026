@@ -19,15 +19,20 @@ if (empty($gallery) && $slots <= 0) {
 
         <div class="project-gallery__grid">
             <?php if (!empty($gallery)) : ?>
-                <?php foreach ($gallery as $item) : ?>
+                <?php foreach ($gallery as $index => $item) : ?>
                     <figure class="project-gallery__item">
                         <?php if (!empty($item['image']['url']) || !empty($item['image']['ID']) || !empty($item['image']['id'])) : ?>
                             <?php
-                            echo crescendo_image($item['image'], 'crescendo-content', array(
-                                'alt' => $item['caption'] ?? ($item['image']['alt'] ?? ''),
+                            $imageAlt = crescendo_project_gallery_item_alt($index, $item['image'] ?? null);
+                            $imageAttr = array(
                                 'sizes' => '(min-width: 768px) 50vw, 100vw',
                                 'loading' => 'lazy',
-                            ));
+                            );
+                            if ($imageAlt !== '') {
+                                $imageAttr['alt'] = $imageAlt;
+                            }
+
+                            echo crescendo_image($item['image'], 'crescendo-content', $imageAttr);
                             ?>
                         <?php else : ?>
                             <div class="project-gallery__placeholder" aria-hidden="true"></div>
