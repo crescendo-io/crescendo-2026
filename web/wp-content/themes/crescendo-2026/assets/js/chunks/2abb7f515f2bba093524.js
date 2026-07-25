@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwordpress_starter_kit=self.webpackChunkwordpress_starter_kit||[]).push([[820],{820:function(e,t,s){s.r(t),t.default=()=>{const e=document.querySelector("[data-nav-toggle]"),t=document.getElementById("site-nav");e&&t&&e.addEventListener("click",()=>{const s=t.classList.toggle("is-open");e.setAttribute("aria-expanded",s?"true":"false")})},s.dn(t.default)}}]);
+//# sourceMappingURL=2abb7f515f2bba093524.js.map

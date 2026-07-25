@@ -1,10 +1,4 @@
-import '@babel/polyfill';
-import '@babel/plugin-syntax-dynamic-import';
 import * as conditioner from 'conditioner-core/conditioner-core.min';
-
-import './polyfill/arrayFrom';
-import './polyfill/arrayFind';
-import './polyfill/dataset';
 
 import Rgpd from './modules/rgpd';
 
@@ -34,7 +28,7 @@ conditioner.addPlugin({
             // current match state
             matches: false,
 
-            // called by conditioner to start listening for changes
+            // Called by conditioner to start listening for changes
             addListener(change) {
                 new IntersectionObserver((entries) => {
                     // update the matches state

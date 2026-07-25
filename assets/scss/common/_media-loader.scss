@@ -5,6 +5,11 @@
     max-width: 100%;
     background: #141414;
 
+    picture {
+        display: block;
+        max-width: 100%;
+    }
+
     &__img {
         position: relative;
         z-index: 1;
@@ -16,8 +21,6 @@
     }
 
     &.is-loaded {
-        background: transparent;
-
         .media-loader__img {
             opacity: 1;
         }
@@ -31,5 +34,12 @@
 }
 
 .home-testimonial__author .media-loader {
+    flex-shrink: 0;
+    width: 4.8rem;
+    height: 4.8rem;
     border-radius: 50%;
+}
+
+.home-trust__logo .media-loader {
+    min-height: 2.8rem;
 }

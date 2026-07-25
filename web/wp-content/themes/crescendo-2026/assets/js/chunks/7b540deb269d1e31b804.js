@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwordpress_starter_kit=self.webpackChunkwordpress_starter_kit||[]).push([[53],{53:function(e,s,t){t.r(s),s.default=e=>{console.log("footer",e)},t.dn(s.default)}}]);
+//# sourceMappingURL=7b540deb269d1e31b804.js.map

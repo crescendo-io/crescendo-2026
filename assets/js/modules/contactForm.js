@@ -1,3 +1,5 @@
+/* global ParamsData */
+
 export default (root) => {
     const step1Form = root.querySelector('.crescendo-contact-form__step1');
     if (!step1Form || typeof ParamsData === 'undefined') {

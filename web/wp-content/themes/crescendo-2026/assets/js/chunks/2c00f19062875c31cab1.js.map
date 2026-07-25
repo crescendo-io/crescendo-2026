@@ -1,0 +1,1 @@
+{"version":3,"file":"./js/chunks/200b6901b3b7b6f3576a.js","mappings":"yIAAAA,EAAA,aAAuB,EAAAC,EAAAC,GAAAF,EAAA","sources":["webpack://wordpress_starter_kit/./assets/js/modules/localPage.js"],"sourcesContent":["export default () => {};\n"],"names":["__webpack_exports__","__webpack_require__","dn"],"sourceRoot":""}

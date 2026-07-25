@@ -8,10 +8,17 @@ function crescendo_performance_resource_hints() {
         return;
     }
 
-    echo '<link rel="preconnect" href="https://fonts.googleapis.com">' . "\n";
-    echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' . "\n";
+    $theme_uri = get_template_directory_uri();
+    $fonts = array(
+        'poppins-latin-400.woff2',
+        'poppins-latin-700.woff2',
+    );
 
-    $app_css = get_template_directory_uri() . '/assets/css/app.css';
+    foreach ($fonts as $font) {
+        echo '<link rel="preload" href="' . esc_url($theme_uri . '/assets/fonts/poppins/' . $font) . '" as="font" type="font/woff2" crossorigin>' . "\n";
+    }
+
+    $app_css = $theme_uri . '/assets/css/app.css';
     $app_ver = filemtime(get_template_directory() . '/assets/css/app.css');
     echo '<link rel="preload" href="' . esc_url($app_css . '?ver=' . $app_ver) . '" as="style">' . "\n";
 }
@@ -39,22 +46,3 @@ function crescendo_performance_disable_global_styles() {
     remove_action('wp_body_open', 'wp_global_styles_render_svg_filters');
 }
 add_action('init', 'crescendo_performance_disable_global_styles', 20);
-
-function crescendo_performance_async_stylesheet_tag($html, $handle, $href, $media) {
-    $async_handles = array('google-fonts-poppins');
-
-    if (!in_array($handle, $async_handles, true)) {
-        return $html;
-    }
-
-    $noscript = $html;
-
-    if (strpos($html, "media='all'") !== false) {
-        $html = str_replace("media='all'", "media='print' onload=\"this.media='all'\"", $html);
-    } elseif (strpos($html, 'media="all"') !== false) {
-        $html = str_replace('media="all"', 'media="print" onload="this.media=\'all\'"', $html);
-    }
-
-    return $html . '<noscript>' . $noscript . '</noscript>';
-}
-add_filter('style_loader_tag', 'crescendo_performance_async_stylesheet_tag', 10, 4);

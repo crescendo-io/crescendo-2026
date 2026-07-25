@@ -61,12 +61,6 @@ function scripts_site(){
 
          // Style
         wp_enqueue_style(
-            'google-fonts-poppins',
-            'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap',
-            array(),
-            null
-        );
-        wp_enqueue_style(
             'style_principal',
             get_template_directory_uri() . '/assets/css/app.css',
             array(),
