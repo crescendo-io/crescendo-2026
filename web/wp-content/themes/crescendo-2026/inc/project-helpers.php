@@ -237,6 +237,25 @@ function crescendo_project_hero_image_alt($image, $post_id = null) {
     return crescendo_attachment_alt($image, $fallback);
 }
 
+function crescendo_project_gallery_has_images($gallery) {
+    if (empty($gallery) || !is_array($gallery)) {
+        return false;
+    }
+
+    foreach ($gallery as $item) {
+        if (!is_array($item)) {
+            continue;
+        }
+
+        $image = $item['image'] ?? null;
+        if (is_array($image) && (!empty($image['url']) || !empty($image['ID']) || !empty($image['id']))) {
+            return true;
+        }
+    }
+
+    return false;
+}
+
 add_filter('acf/fields/post_object/query/name=project', 'crescendo_acf_project_page_query');
 add_filter('acf/fields/post_object/query/name=secteur-case-project', 'crescendo_acf_project_page_query');
 add_filter('acf/fields/post_object/query/name=local-case-project', 'crescendo_acf_project_page_query');

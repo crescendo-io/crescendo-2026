@@ -18,13 +18,16 @@
  * @package WordPress
  */
 
+$http_host = isset($_SERVER['HTTP_HOST']) ? (string) $_SERVER['HTTP_HOST'] : '';
 
-define('ENV_LOCAL', ( false !== strrpos( $_SERVER[ 'HTTP_HOST' ], '.code' ) ) );
-define('ENV_PREPROD_LONSDALE', ( false !== strrpos( $_SERVER[ 'HTTP_HOST' ], '.preprod.lonsdale.io' ) ) );
-define('ENV_PROD', ( !ENV_LOCAL && !ENV_PREPROD_LONSDALE ) );
+define('ENV_LOCAL', ( false !== strrpos($http_host, '.code') ) );
+define('ENV_PREPROD_LONSDALE', ( false !== strrpos($http_host, '.preprod.lonsdale.io') ) );
+define('ENV_PREPROD_CRESCENDO', ( false !== strrpos($http_host, 'preprod.2026.crescendo-studio.io') ) );
+define('ENV_CRESCENDO_PROD', in_array($http_host, array('crescendo-studio.io', 'www.crescendo-studio.io'), true) );
+define('ENV_PROD', !ENV_LOCAL && !ENV_PREPROD_LONSDALE && !ENV_PREPROD_CRESCENDO );
 
 
-if (ENV_PROD) {
+if (ENV_CRESCENDO_PROD) {
     /** Enable W3 Total Cache */
     define('WP_CACHE', true);
 }
@@ -62,14 +65,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '');
-define('SECURE_AUTH_KEY',  '');
-define('LOGGED_IN_KEY',    '');
-define('NONCE_KEY',        '');
-define('AUTH_SALT',        '');
-define('SECURE_AUTH_SALT', '');
-define('LOGGED_IN_SALT',   '');
-define('NONCE_SALT',       '');
+define('AUTH_KEY',         'W/Q@gwEMu9zFFX/-YLsAoG+ndFY}50r[aZ2W]WK[/Z{@aLp4cdrW7C5VHw/k%e-T');
+define('SECURE_AUTH_KEY',  'VL)[Y$ZSPJ-i{,1$x(]3{iM/T0inft@vQM5TFvBtow*=aV#/}sC<!hEuKQip1-6E');
+define('LOGGED_IN_KEY',    'fOZnVXyC:tnX`@o?~#6*L|T<U0wx:Luc||vC8+4G(FL&b!j@]}YH=RxXgl$-P)/l');
+define('NONCE_KEY',        '+Vf/`;^;Znh&y?Rkva[2-!:|w-jQ8^}R]!kC_?Gvs!j=FSgrjZ$@y;8EJzNEC Y/');
+define('AUTH_SALT',        'VU!?-X,@q@OU,~OT=5GfM0ZYcDyk+sf]6vy6ULKD0gv$m&T^o${.aXsAE>=k&y+F');
+define('SECURE_AUTH_SALT', '[KDJI}oo1BY{*TdIixIW@%yZil>5~+:ex$|PXC0YOaq:5vnMD{Dg<DpmU!NdjiiO');
+define('LOGGED_IN_SALT',   'X?e3h3_!;g(/ni1+f+8@*afWC+9Xsz M9gt+|E6W !]xrPtyCmKw7,`+&=/A*q;g');
+define('NONCE_SALT',       'so^TAx;amf-,([Am]4kXQx`,8R5z&?&vU<#+{8E HWUs.<-8NnK*jHG5_R]Qs|2R');
 /**#@-*/
 
 /**
@@ -96,9 +99,9 @@ $table_prefix  = 'lsd_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 
-define('WP_DEBUG', true);
+define('WP_DEBUG', ENV_LOCAL);
 define('WP_DEBUG_DISPLAY', ENV_LOCAL);
-define('WP_DEBUG_LOG', !ENV_LOCAL);
+define('WP_DEBUG_LOG', ENV_LOCAL);
 
 if (ENV_LOCAL) {
     ini_set('xdebug.var_display_max_depth', '100');
@@ -106,7 +109,7 @@ if (ENV_LOCAL) {
     ini_set('xdebug.var_display_max_data', '2048');
 }
 
-define('DISALLOW_FILE_EDIT', false);
+define('DISALLOW_FILE_EDIT', !ENV_LOCAL);
 
 define( 'AUTOMATIC_UPDATER_DISABLED', false );
 
@@ -116,7 +119,7 @@ define('MAILJET_API_SECRET', getenv('MAILJET_API_SECRET') ?: '6e18ab8a5a34801fe3
 define('MAILJET_SENDER_EMAIL', getenv('MAILJET_SENDER_EMAIL') ?: 'b.vidal@crescendo-studio.io');
 define('MAILJET_SENDER_NAME', getenv('MAILJET_SENDER_NAME') ?: 'Crescendo Studio');
 
-if (ENV_PROD || ENV_PREPROD_LONSDALE) {
+if (ENV_PROD || ENV_PREPROD_LONSDALE || ENV_PREPROD_CRESCENDO) {
     define('DISALLOW_FILE_MODS', true);
 }
 

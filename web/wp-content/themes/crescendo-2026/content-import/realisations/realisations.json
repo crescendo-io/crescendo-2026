@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Réalisations",
+    "slug": "realisations",
+    "status": "publish",
+    "menu_order": 80,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Réalisations web Nantes — WordPress sur mesure | Crescendo",
+    "meta_description": "Découvrez nos réalisations : sites WordPress sur mesure, CRM intégrés et refontes pour artisans, PME, avocats et e-commerce à Nantes et en Loire-Atlantique.",
+    "focus_keyword": "réalisations agence web nantes",
+    "canonical": "https://crescendo-studio.io/realisations/",
+    "noindex": false
+  },
+  "fields": {
+    "realisations-hero-eyebrow": "Portfolio",
+    "realisations-hero-title": "Nos réalisations web à Nantes",
+    "realisations-hero-intro": "Sites vitrine, e-commerce, refontes WordPress et CRM sur mesure : découvrez une sélection de projets livrés pour des TPE, PME et professions libérales en Loire-Atlantique. Chaque site est conçu pour convertir, ranker et évoluer avec l'activité de nos clients.",
+    "realisations-hero-cta-primary": {
+      "title": "Lancer mon projet",
+      "url": "/contact/",
+      "target": ""
+    },
+    "realisations-intro-text": "Chez Crescendo Studio, nous ne livrons pas de templates génériques. Chaque projet part d'une stratégie claire : objectifs business, parcours utilisateur, SEO local et performance. Voici quelques références représentatives de notre savoir-faire WordPress à Nantes.",
+    "realisations-intro-stats": [
+      {
+        "value": "80+",
+        "label": "Projets livrés"
+      },
+      {
+        "value": "48h",
+        "label": "Maquette gratuite"
+      },
+      {
+        "value": "350€/mois",
+        "label": "Location tout inclus"
+      },
+      {
+        "value": "100%",
+        "label": "WordPress sur mesure"
+      }
+    ],
+    "realisations-projects-eyebrow": "Portfolio",
+    "realisations-projects-title": "Sites web & CRM livrés pour nos clients",
+    "realisations-projects": [
+      {
+        "url": "/realisations/atelier-gambetta/"
+      },
+      {
+        "url": "/realisations/be-focus/"
+      },
+      {
+        "url": "/realisations/bag-x-pro/"
+      },
+      {
+        "url": "/realisations/maison-jaden/"
+      },
+      {
+        "url": "/realisations/ludovic-geheniaux/"
+      },
+      {
+        "url": "/realisations/vanetty-music/"
+      },
+      {
+        "url": "/realisations/cma-associes/"
+      },
+      {
+        "url": "/realisations/car-design/"
+      },
+      {
+        "url": "/realisations/padam-immo/"
+      },
+      {
+        "url": "/realisations/ta-kife/"
+      }
+    ],
+    "realisations-cta-title": "Un projet similaire au vôtre ?",
+    "realisations-cta-text": "Parlons de vos objectifs. Nous vous proposons une maquette gratuite en 48h pour valider la direction avant de démarrer.",
+    "realisations-cta-button": {
+      "title": "Demander ma maquette gratuite",
+      "url": "/contact/",
+      "target": ""
+    }
+  }
+}

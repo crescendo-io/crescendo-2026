@@ -208,7 +208,6 @@ function crescendo_get_lead_upload_mimes() {
         'image/png',
         'image/gif',
         'image/webp',
-        'image/svg+xml',
         'application/pdf',
         'application/msword',
         'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
@@ -474,11 +473,41 @@ function crescendo_save_lead_meta($lead_id, array $data) {
     }
 }
 
+function crescendo_contact_form_is_rate_limited() {
+    $ip = crescendo_get_lead_client_ip();
+    if ($ip === '') {
+        return false;
+    }
+
+    $key = 'crescendo_lead_rate_' . md5($ip);
+    $attempts = (int) get_transient($key);
+
+    return $attempts >= 8;
+}
+
+function crescendo_contact_form_register_attempt() {
+    $ip = crescendo_get_lead_client_ip();
+    if ($ip === '') {
+        return;
+    }
+
+    $key = 'crescendo_lead_rate_' . md5($ip);
+    $attempts = (int) get_transient($key);
+    set_transient($key, $attempts + 1, 15 * MINUTE_IN_SECONDS);
+}
+
 function crescendo_contact_form_step1_callback() {
     check_ajax_referer('crescendo_contact_form', 'nonce');
 
     if (crescendo_contact_form_is_honeypot_triggered()) {
         wp_send_json(array('status' => 200, 'message' => 'OK'));
+    }
+
+    if (crescendo_contact_form_is_rate_limited()) {
+        wp_send_json(array(
+            'status' => 429,
+            'message' => 'Trop de demandes envoyées récemment. Merci de réessayer dans quelques minutes ou de nous écrire par email.',
+        ));
     }
 
     $prenom = sanitize_text_field(wp_unslash($_POST['prenom'] ?? ''));
@@ -558,6 +587,7 @@ function crescendo_contact_form_step1_callback() {
     ));
 
     crescendo_send_lead_notification($lead_id, 'Nouvelle demande', 'Nouvelle demande de contact reçue.');
+    crescendo_contact_form_register_attempt();
 
     wp_send_json(array(
         'status' => 200,
@@ -574,6 +604,13 @@ function crescendo_contact_form_step2_callback() {
 
     if (crescendo_contact_form_is_honeypot_triggered()) {
         wp_send_json(array('status' => 200, 'message' => 'OK'));
+    }
+
+    if (crescendo_contact_form_is_rate_limited()) {
+        wp_send_json(array(
+            'status' => 429,
+            'message' => 'Trop de demandes envoyées récemment. Merci de réessayer dans quelques minutes ou de nous écrire par email.',
+        ));
     }
 
     $lead_id = (int) ($_POST['lead_id'] ?? 0);
@@ -626,6 +663,7 @@ function crescendo_contact_form_step2_callback() {
     $upload_errors = crescendo_process_lead_uploads($lead_id);
 
     crescendo_send_lead_notification($lead_id, 'Projet précisé', 'Le prospect a complété les informations sur son projet.');
+    crescendo_contact_form_register_attempt();
 
     $message = 'Merci ! Votre projet est bien enregistré. Nous revenons vers vous rapidement.';
     if (!empty($upload_errors)) {

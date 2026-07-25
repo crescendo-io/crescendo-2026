@@ -16,6 +16,7 @@ require_once (__DIR__ . '/inc/methods.php');
 require_once (__DIR__ . '/inc/site-nav-data.php');
 
 require_once (__DIR__ . '/inc/seo-helpers.php');
+require_once (__DIR__ . '/inc/production-ready.php');
 require_once (__DIR__ . '/inc/legacy-redirects.php');
 require_once (__DIR__ . '/inc/sitemap-noise.php');
 require_once (__DIR__ . '/inc/ai-discovery.php');

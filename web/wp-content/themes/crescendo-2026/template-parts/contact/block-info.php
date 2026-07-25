@@ -4,9 +4,12 @@ $address = crescendo_contact('contact-info-address');
 $hours = crescendo_contact('contact-info-hours');
 $zone = crescendo_contact('contact-info-zone');
 
-if (!$email && !$address) {
-    $email = get_field('params-footer-email', 'option');
-    $address = get_field('params-footer-address', 'option');
+if (!$email) {
+    $email = get_field('params-footer-email', 'option') ?: crescendo_default_footer_email();
+}
+
+if (!$address) {
+    $address = get_field('params-footer-address', 'option') ?: crescendo_default_footer_address();
 }
 
 if (!$email && !$address && !$hours && !$zone) {

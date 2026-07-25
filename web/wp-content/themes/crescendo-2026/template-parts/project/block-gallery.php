@@ -2,10 +2,13 @@
 $title = crescendo_project('project-gallery-title') ?: 'Aperçu du site';
 $intro = crescendo_project('project-gallery-intro');
 $gallery = crescendo_project('project-gallery');
-$slots = (int) (crescendo_project('project-gallery-slots') ?: 0);
 
-if (empty($gallery) && $slots <= 0) {
+if (!crescendo_project_gallery_has_images($gallery)) {
     return;
+}
+
+if ($intro && stripos($intro, 'Ajoutez vos captures') !== false) {
+    $intro = '';
 }
 ?>
 <section class="project-gallery" id="galerie">
@@ -18,44 +21,29 @@ if (empty($gallery) && $slots <= 0) {
         </div>
 
         <div class="project-gallery__grid">
-            <?php if (!empty($gallery)) : ?>
-                <?php foreach ($gallery as $index => $item) : ?>
-                    <figure class="project-gallery__item">
-                        <?php if (!empty($item['image']['url']) || !empty($item['image']['ID']) || !empty($item['image']['id'])) : ?>
-                            <?php
-                            $imageAlt = crescendo_project_gallery_item_alt($index, $item['image'] ?? null);
-                            $imageAttr = array(
-                                'sizes' => '(min-width: 768px) 50vw, 100vw',
-                                'loading' => 'lazy',
-                            );
-                            if ($imageAlt !== '') {
-                                $imageAttr['alt'] = $imageAlt;
-                            }
+            <?php foreach ($gallery as $index => $item) : ?>
+                <?php if (empty($item['image']['url']) && empty($item['image']['ID']) && empty($item['image']['id'])) : ?>
+                    <?php continue; ?>
+                <?php endif; ?>
+                <figure class="project-gallery__item">
+                    <?php
+                    $imageAlt = crescendo_project_gallery_item_alt($index, $item['image'] ?? null);
+                    $imageAttr = array(
+                        'sizes' => '(min-width: 768px) 50vw, 100vw',
+                        'loading' => 'lazy',
+                    );
+                    if ($imageAlt !== '') {
+                        $imageAttr['alt'] = $imageAlt;
+                    }
 
-                            echo crescendo_image($item['image'], 'crescendo-content', $imageAttr);
-                            ?>
-                        <?php else : ?>
-                            <div class="project-gallery__placeholder" aria-hidden="true"></div>
-                        <?php endif; ?>
+                    echo crescendo_image($item['image'], 'crescendo-content', $imageAttr);
+                    ?>
 
-                        <?php if (!empty($item['caption'])) : ?>
-                            <figcaption><?php echo esc_html($item['caption']); ?></figcaption>
-                        <?php endif; ?>
-                    </figure>
-                <?php endforeach; ?>
-            <?php endif; ?>
-
-            <?php
-            $filled = is_array($gallery) ? count($gallery) : 0;
-            $emptySlots = max($slots - $filled, 0);
-            for ($i = 0; $i < $emptySlots; $i++) :
-                ?>
-                <figure class="project-gallery__item project-gallery__item--empty">
-                    <div class="project-gallery__placeholder" aria-hidden="true">
-                        <span>Capture 16:9</span>
-                    </div>
+                    <?php if (!empty($item['caption'])) : ?>
+                        <figcaption><?php echo esc_html($item['caption']); ?></figcaption>
+                    <?php endif; ?>
                 </figure>
-            <?php endfor; ?>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>

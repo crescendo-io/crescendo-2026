@@ -1,7 +1,7 @@
 <?php
 $description = get_field('params-footer-description', 'option') ?: 'Agence web à Nantes spécialisée WordPress sur mesure, CRM et location de site dès 350€/mois.';
-$email = get_field('params-footer-email', 'option');
-$address = get_field('params-footer-address', 'option') ?: 'Nantes, Loire-Atlantique (44)';
+$email = get_field('params-footer-email', 'option') ?: crescendo_default_footer_email();
+$address = get_field('params-footer-address', 'option') ?: crescendo_default_footer_address();
 $footerColumns = crescendo_get_footer_nav_columns();
 ?>
 <footer class="site-footer" role="contentinfo" data-module="footer" data-context="@visible true">
