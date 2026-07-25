@@ -10,7 +10,7 @@
   },
   "seo": {
     "meta_title": "Refonte Vanetty Music · Étude de cas | Crescendo Studio",
-    "meta_description": "Refonte Vanetty Music : vitrine artistique, prestations DJ/musique et parcours de contact optimisé pour les événements.",
+    "meta_description": "Refonte du site Vanetty Music : vitrine artistique, mise en avant des prestations DJ/musique et parcours de contact optimisé pour les demandes.",
     "focus_keyword": "refonte site vanetty music",
     "canonical": "https://crescendo-studio.io/realisations/vanetty-music/",
     "noindex": false
@@ -30,6 +30,13 @@
     "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
     "project-gallery-slots": 4,
     "project-gallery": [],
+    "project-hero-image-alt": "Capture du site Vanetty Music refondu par Crescendo Studio",
+    "project-gallery-alts": [
+      "Site Vanetty Music — page d'accueil",
+      "Site Vanetty Music — page intérieure",
+      "Site Vanetty Music — parcours de conversion",
+      "Site Vanetty Music — version mobile"
+    ],
     "project-challenge-title": "Le contexte",
     "project-challenge-text": "<p>Vanetty Music avait besoin d'un site immersif capable de présenter son univers musical, ses prestations événementielles et de faciliter les demandes de booking.</p>",
     "project-solution-title": "Notre approche",

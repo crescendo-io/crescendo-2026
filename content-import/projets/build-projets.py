@@ -7,6 +7,20 @@ from pathlib import Path
 OUT = Path(__file__).parent
 BASE = "https://crescendo-studio.io/realisations"
 GALLERY_SLOTS = 4
+GALLERY_ALT_LABELS = (
+    "page d'accueil",
+    "page intérieure",
+    "parcours de conversion",
+    "version mobile",
+)
+
+
+def project_image_alts(title):
+    hero_alt = f"Capture du site {title} refondu par Crescendo Studio"
+    gallery_alts = [
+        f"Site {title} — {label}" for label in GALLERY_ALT_LABELS
+    ]
+    return hero_alt, gallery_alts
 
 PROJECTS = [
     {
@@ -243,6 +257,7 @@ PROJECTS = [
 
 
 def build_project(p, order):
+    hero_alt, gallery_alts = project_image_alts(p["title"])
     return {
         "version": "1.0",
         "page": {
@@ -275,6 +290,8 @@ def build_project(p, order):
             "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
             "project-gallery-slots": GALLERY_SLOTS,
             "project-gallery": [],
+            "project-hero-image-alt": hero_alt,
+            "project-gallery-alts": gallery_alts,
             "project-challenge-title": "Le contexte",
             "project-challenge-text": p["challenge"],
             "project-solution-title": "Notre approche",

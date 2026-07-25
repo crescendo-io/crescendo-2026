@@ -10,7 +10,7 @@
   },
   "seo": {
     "meta_title": "Refonte Maison Jaden · Étude de cas | Crescendo Studio",
-    "meta_description": "Refonte Maison Jaden : génération de leads pour un constructeur, tunnel de devis et CRM connecté au suivi commercial.",
+    "meta_description": "Refonte du site Maison Jaden : génération de leads pour un constructeur de maisons individuelles, avec tunnel de devis et CRM connecté pour le suivi.",
     "focus_keyword": "refonte site maison jaden",
     "canonical": "https://crescendo-studio.io/realisations/maison-jaden/",
     "noindex": false
@@ -30,6 +30,13 @@
     "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
     "project-gallery-slots": 4,
     "project-gallery": [],
+    "project-hero-image-alt": "Capture du site Maison Jaden refondu par Crescendo Studio",
+    "project-gallery-alts": [
+      "Site Maison Jaden — page d'accueil",
+      "Site Maison Jaden — page intérieure",
+      "Site Maison Jaden — parcours de conversion",
+      "Site Maison Jaden — version mobile"
+    ],
     "project-challenge-title": "Le contexte",
     "project-challenge-text": "<p>Maison Jaden voulait un site capable de générer des demandes de devis qualifiées sur la métropole nantaise, tout en centralisant le suivi des prospects dans un CRM dédié.</p>",
     "project-solution-title": "Notre approche",

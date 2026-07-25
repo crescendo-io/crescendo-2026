@@ -1,5 +1,84 @@
 <?php
 
+/**
+ * Champs média des fiches projet : jamais écrasés lors d'une réimportation.
+ */
+function crescendo_import_project_protected_image_fields() {
+    return array('project-hero-image', 'project-gallery');
+}
+
+function crescendo_import_project_alt_only_fields() {
+    return array('project-hero-image-alt', 'project-gallery-alts');
+}
+
+function crescendo_import_should_preserve_project_field($field_name, $post_id, $is_update) {
+    if (!$is_update) {
+        return false;
+    }
+
+    return in_array($field_name, crescendo_import_project_protected_image_fields(), true);
+}
+
+function crescendo_import_resolve_attachment_id($image) {
+    if (is_numeric($image)) {
+        return (int) $image;
+    }
+
+    if (is_array($image)) {
+        return (int) ($image['ID'] ?? $image['id'] ?? 0);
+    }
+
+    return 0;
+}
+
+function crescendo_import_update_attachment_alt($attachment_id, $alt) {
+    $attachment_id = (int) $attachment_id;
+    if ($attachment_id <= 0 || !wp_attachment_is_image($attachment_id)) {
+        return false;
+    }
+
+    $alt = sanitize_text_field($alt);
+    if ($alt === '') {
+        return false;
+    }
+
+    return update_post_meta($attachment_id, '_wp_attachment_image_alt', $alt);
+}
+
+/**
+ * Met à jour uniquement les textes alt WordPress des visuels déjà présents sur la fiche.
+ */
+function crescendo_import_apply_project_image_alts($post_id, array $fields) {
+    $updated = 0;
+
+    if (!empty($fields['project-hero-image-alt'])) {
+        $hero = get_field('project-hero-image', $post_id);
+        $attachment_id = crescendo_import_resolve_attachment_id($hero);
+        if ($attachment_id && crescendo_import_update_attachment_alt($attachment_id, $fields['project-hero-image-alt'])) {
+            $updated++;
+        }
+    }
+
+    if (!empty($fields['project-gallery-alts']) && is_array($fields['project-gallery-alts'])) {
+        $gallery = get_field('project-gallery', $post_id);
+        if (is_array($gallery)) {
+            foreach ($fields['project-gallery-alts'] as $index => $alt_value) {
+                if (!isset($gallery[$index]) || !is_array($gallery[$index])) {
+                    continue;
+                }
+
+                $alt = is_array($alt_value) ? ($alt_value['alt'] ?? '') : $alt_value;
+                $attachment_id = crescendo_import_resolve_attachment_id($gallery[$index]['image'] ?? null);
+                if ($attachment_id && crescendo_import_update_attachment_alt($attachment_id, $alt)) {
+                    $updated++;
+                }
+            }
+        }
+    }
+
+    return $updated;
+}
+
 function crescendo_import_project_from_array(array $data) {
     if (empty($data['page']['title']) || empty($data['page']['slug'])) {
         return new WP_Error('missing_page', 'Le JSON doit contenir page.title et page.slug.');
@@ -36,6 +115,8 @@ function crescendo_import_project_from_array(array $data) {
         return $post_id;
     }
 
+    $is_update = (bool) $existing;
+
     if (!empty($data['seo']) && is_array($data['seo'])) {
         foreach ($data['seo'] as $key => $value) {
             $field = 'project-seo-' . str_replace('_', '-', sanitize_key($key));
@@ -48,15 +129,27 @@ function crescendo_import_project_from_array(array $data) {
             if (strpos($field, 'project-') !== 0) {
                 continue;
             }
+            if (in_array($field, crescendo_import_project_alt_only_fields(), true)) {
+                continue;
+            }
+            if (crescendo_import_should_preserve_project_field($field, $post_id, $is_update)) {
+                continue;
+            }
             update_field($field, $value, $post_id);
         }
+
+        $alt_updates = crescendo_import_apply_project_image_alts($post_id, $data['fields']);
+    } else {
+        $alt_updates = 0;
     }
 
     return array(
         'post_id' => $post_id,
         'edit_url' => get_edit_post_link($post_id, 'raw'),
         'view_url' => get_permalink($post_id),
-        'updated' => (bool) $existing,
+        'updated' => $is_update,
+        'preserved_image_fields' => $is_update,
+        'alt_updates' => $alt_updates,
     );
 }
 
@@ -177,6 +270,7 @@ function crescendo_render_project_import_page() {
         <h1>Import fiches Projet (JSON)</h1>
         <p>Importez les fiches projet sous <code>/realisations/{slug}/</code>. Dossier : <code><?php echo esc_html(crescendo_get_project_import_dir()); ?></code></p>
         <p><strong>Prérequis :</strong> la page parente <code>realisations</code> doit exister avant l'import.</p>
+        <p><strong>Images :</strong> lors d'une mise à jour, les champs <code>project-hero-image</code> et <code>project-gallery</code> ne sont jamais écrasés (captures uploadées à la main conservées). Les champs <code>project-hero-image-alt</code> et <code>project-gallery-alts</code> mettent à jour uniquement le texte alternatif des visuels existants.</p>
 
         <?php foreach ($messages as $message) : ?>
             <div class="notice notice-<?php echo esc_attr($message['type']); ?> is-dismissible"><p><?php echo wp_kses_post($message['text']); ?></p></div>

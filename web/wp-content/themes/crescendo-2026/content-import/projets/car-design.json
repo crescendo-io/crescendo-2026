@@ -30,6 +30,13 @@
     "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
     "project-gallery-slots": 4,
     "project-gallery": [],
+    "project-hero-image-alt": "Capture du site Car Design France refondu par Crescendo Studio",
+    "project-gallery-alts": [
+      "Site Car Design France — page d'accueil",
+      "Site Car Design France — page intérieure",
+      "Site Car Design France — parcours de conversion",
+      "Site Car Design France — version mobile"
+    ],
     "project-challenge-title": "Le contexte",
     "project-challenge-text": "<p>Car Design France avait besoin d'un site capable de valoriser ses réalisations dans l'univers automobile, avec une navigation visuelle forte et une présentation claire des services.</p>",
     "project-solution-title": "Notre approche",

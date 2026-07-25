@@ -10,7 +10,7 @@
   },
   "seo": {
     "meta_title": "Refonte Bag X Pro · Étude de cas | Crescendo Studio",
-    "meta_description": "Refonte Bag X Pro : catalogue technique, devis qualifiés et structure SEO pour les requêtes métier B2B en Loire-Atlantique.",
+    "meta_description": "Refonte du site Bag X Pro : catalogue produits technique, demandes de devis qualifiées et structure SEO pour capter les requêtes métier B2B en.",
     "focus_keyword": "refonte site bag x pro",
     "canonical": "https://crescendo-studio.io/realisations/bag-x-pro/",
     "noindex": false
@@ -30,6 +30,13 @@
     "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
     "project-gallery-slots": 4,
     "project-gallery": [],
+    "project-hero-image-alt": "Capture du site Bag X Pro refondu par Crescendo Studio",
+    "project-gallery-alts": [
+      "Site Bag X Pro — page d'accueil",
+      "Site Bag X Pro — page intérieure",
+      "Site Bag X Pro — parcours de conversion",
+      "Site Bag X Pro — version mobile"
+    ],
     "project-challenge-title": "Le contexte",
     "project-challenge-text": "<p>Bag X Pro, acteur industriel B2B, avait un site peu adapté à son catalogue technique. Les visiteurs ne trouvaient pas les références produits et les demandes de devis restaient non qualifiées.</p>",
     "project-solution-title": "Notre approche",

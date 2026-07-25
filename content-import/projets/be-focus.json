@@ -10,7 +10,7 @@
   },
   "seo": {
     "meta_title": "Refonte Be Focus · Étude de cas | Crescendo Studio",
-    "meta_description": "Refonte Be Focus : catalogue de formations, inscription simplifiée et prise de rendez-vous pour convertir les visiteurs.",
+    "meta_description": "Refonte du site Be Focus : catalogue de formations, parcours d'inscription simplifié et prise de rendez-vous intégrée pour convertir les visiteurs en.",
     "focus_keyword": "refonte site be focus formation",
     "canonical": "https://crescendo-studio.io/realisations/be-focus/",
     "noindex": false
@@ -30,6 +30,13 @@
     "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
     "project-gallery-slots": 4,
     "project-gallery": [],
+    "project-hero-image-alt": "Capture du site Be Focus refondu par Crescendo Studio",
+    "project-gallery-alts": [
+      "Site Be Focus — page d'accueil",
+      "Site Be Focus — page intérieure",
+      "Site Be Focus — parcours de conversion",
+      "Site Be Focus — version mobile"
+    ],
     "project-challenge-title": "Le contexte",
     "project-challenge-text": "<p>Be Focus proposait des formations professionnelles via un site vieillissant, peu lisible sur mobile et sans tunnel d'inscription optimisé. Les prospects abandonnaient avant de s'inscrire.</p>",
     "project-solution-title": "Notre approche",

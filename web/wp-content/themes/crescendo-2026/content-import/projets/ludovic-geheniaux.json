@@ -10,7 +10,7 @@
   },
   "seo": {
     "meta_title": "Refonte Ludovic Géhéniaux · Étude de cas | Crescendo Studio",
-    "meta_description": "Refonte Ludovic Géhéniaux, coloriste à Nantes : vitrine premium, galerie et prise de rendez-vous pour développer la clientèle.",
+    "meta_description": "Refonte du site de Ludovic Géhéniaux, coloriste à Nantes : vitrine premium, galerie de réalisations et prise de rendez-vous en ligne pour développer la.",
     "focus_keyword": "refonte site ludovic geheniaux",
     "canonical": "https://crescendo-studio.io/realisations/ludovic-geheniaux/",
     "noindex": false
@@ -30,6 +30,13 @@
     "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
     "project-gallery-slots": 4,
     "project-gallery": [],
+    "project-hero-image-alt": "Capture du site Ludovic Géhéniaux refondu par Crescendo Studio",
+    "project-gallery-alts": [
+      "Site Ludovic Géhéniaux — page d'accueil",
+      "Site Ludovic Géhéniaux — page intérieure",
+      "Site Ludovic Géhéniaux — parcours de conversion",
+      "Site Ludovic Géhéniaux — version mobile"
+    ],
     "project-challenge-title": "Le contexte",
     "project-challenge-text": "<p>Artisan coloriste reconnu, Ludovic Géhéniaux avait besoin d'un site vitrine élégant reflétant son savoir-faire, avec une galerie de colorations et un système de réservation simple.</p>",
     "project-solution-title": "Notre approche",

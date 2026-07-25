@@ -30,6 +30,13 @@
     "project-gallery-intro": "Ajoutez vos captures d'écran au format 16:9 (1920×1080 recommandé). Chaque image remplace automatiquement un emplacement vide.",
     "project-gallery-slots": 4,
     "project-gallery": [],
+    "project-hero-image-alt": "Capture du site Padam Immo refondu par Crescendo Studio",
+    "project-gallery-alts": [
+      "Site Padam Immo — page d'accueil",
+      "Site Padam Immo — page intérieure",
+      "Site Padam Immo — parcours de conversion",
+      "Site Padam Immo — version mobile"
+    ],
     "project-challenge-title": "Le contexte",
     "project-challenge-text": "<p>Padam Immo voulait un site à l'image de son positionnement haut de gamme, capable de mettre en valeur les biens, de ranker sur les requêtes locales et de générer des contacts qualifiés.</p>",
     "project-solution-title": "Notre approche",
