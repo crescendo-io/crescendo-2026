@@ -45,6 +45,10 @@ function crescendo_import_local_from_array(array $data) {
         }
     }
 
+    if (function_exists('crescendo_get_canonical_url')) {
+        update_field('local-seo-canonical', crescendo_get_canonical_url($post_id), $post_id);
+    }
+
     return array(
         'post_id' => $post_id,
         'edit_url' => get_edit_post_link($post_id, 'raw'),

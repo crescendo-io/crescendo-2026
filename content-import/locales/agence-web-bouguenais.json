@@ -8,7 +8,7 @@
   },
   "seo": {
     "meta_title": "Agence web Bouguenais — Site sur mesure dès 350€/mois | Crescendo",
-    "meta_description": "Agence web à Bouguenais : création de site WordPress sur mesure, SEO local, maintenance incluse. Maquette gratuite en 48h. Location dès 350€/mois.",
+    "meta_description": "Site web à Bouguenais pour PME logistiques et B2B : WordPress sur mesure, devis en ligne, SEO local 44340. Maquette 48 h. Location 350€/mois.",
     "focus_keyword": "agence web bouguenais",
     "canonical": "https://crescendo-studio.io/agence-web-bouguenais/",
     "noindex": false
@@ -17,7 +17,7 @@
     "local-city-name": "Bouguenais",
     "local-hero-eyebrow": "Agence web · Bouguenais",
     "local-hero-title": "Agence web à Bouguenais",
-    "local-hero-intro": "Vous cherchez une agence web à Bouguenais ? Crescendo Studio crée des sites WordPress sur mesure pour les TPE, PME et indépendants de la métropole nantaise — location dès 350€/mois sans frais de création.",
+    "local-hero-intro": "Entre l'aéroport Nantes Atlantique, la zone Activités Grand Ouest et les Maisons Rouges, Bouguenais concentre des acteurs logistiques, hôteliers et industriels qui ont besoin d'un site crédible pour convaincre donneurs d'ordre et clients B2B. Crescendo Studio conçoit des sites WordPress orientés conversion — devis qualifiés, catalogues techniques, SEO local — en location dès 350 €/mois.",
     "local-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -31,34 +31,34 @@
     "local-hero-note": "Maquette gratuite en 48h",
     "local-benefits": [
       {
-        "title": "Agence nantaise",
-        "text": "Basés à Nantes, nous intervenons régulièrement à Bouguenais."
+        "title": "Connaissance zone aéroportuaire",
+        "text": "Sites adaptés aux PME logistiques, transport et services aux entreprises du 44340."
       },
       {
-        "title": "SEO local",
-        "text": "Visible sur « agence web Bouguenais » et requêtes associées."
+        "title": "Leads B2B qualifiés",
+        "text": "Formulaires intelligents et pages métier pour filtrer les demandes sérieuses."
       },
       {
-        "title": "Site dès 350€/mois",
-        "text": "Location tout inclus, zéro frais de création."
+        "title": "Location sans investissement",
+        "text": "350 €/mois tout inclus : création, hébergement, maintenance et SEO de base."
       },
       {
-        "title": "WordPress sur mesure",
-        "text": "Design premium, rapide et évolutif."
+        "title": "Intervention rapide",
+        "text": "Agence à Nantes, rendez-vous sur site à Bouguenais en moins de 20 minutes."
       }
     ],
     "local-sections": [
       {
-        "title": "Agence web pour les entreprises de Bouguenais",
-        "text": "<p>Bouguenais, 20 000 habitants au sud-est de Nantes, doit sa visibilité à l'aéroport Nantes Atlantique.</p>"
+        "title": "Un tissu économique lié à l'aéroport et à la logistique",
+        "text": "<p>Bouguenais n'est pas une simple banlieue de Nantes : l'aéroport Nantes Atlantique, les entrepôts le long de la RD823 et les hôtels d'affaires génèrent un flux constant de professionnels en déplacement. Les entreprises locales — transport routier, messagerie, maintenance aéronautique, restauration d'entreprise — sont jugées en ligne avant la prise de contact.</p><p>Nous construisons des sites qui rassurent : références clients, certifications, zones d'intervention claires et parcours de devis structuré.</p>"
       },
       {
-        "title": "Logistique, services aéroportuaires et commerces",
-        "text": "<p>Transport, hôtellerie, restauration, artisans : des profils distincts liés à la zone aéroportuaire.</p>"
+        "title": "Sites web pour transporteurs, artisans et commerces de Bouguenais",
+        "text": "<p>Un transporteur a besoin de pages par typologie de marchandise ; un hôtel proche des terminaux doit capter « hôtel aéroport Nantes » ; un plombier de Maisons Rouges vise « dépannage Bouguenais ». Chaque arborescence est pensée pour votre funnel commercial, pas pour un template générique.</p>"
       },
       {
-        "title": "SEO local Bouguenais : l'aéroport comme repère",
-        "text": "<p>Requêtes « près aéroport Nantes », « 44340 » et visibilité métropolitaine élargie.</p>"
+        "title": "Référencement local autour du 44340 et de la métropole sud",
+        "text": "<p>Nous travaillons « agence web Bouguenais » et les expressions de proximité (Rezé, Saint-Sébastien, zone aéroport) sans cannibaliser vos autres pages. Schema.org LocalBusiness, Google Business Profile et contenus géolocalisés dès la conception.</p>"
       }
     ],
     "local-facts-title": "Bouguenais en bref",
@@ -76,85 +76,83 @@
         "text": "Accès rapide périphérique sud"
       }
     ],
-    "local-pain-title": "Pourquoi les entreprises de Bouguenais perdent des clients en ligne",
+    "local-pain-title": "Ce qui freine les entreprises bouguenaises sur le web",
     "local-pain-items": [
       {
-        "title": "Invisible sur Google",
-        "text": "Vos concurrents nantais apparaissent avant vous sur « agence web Bouguenais » et les requêtes locales."
+        "title": "Crédibilité B2B insuffisante",
+        "text": "Vos prospects comparent trois devis en ligne : sans site structuré (références, certifications, chiffres clés), vous êtes éliminé avant l'appel — même si votre offre est compétitive."
       },
       {
-        "title": "Site obsolète ou absent",
-        "text": "Une fiche Facebook ou un site daté ne convertit pas les prospects qui comparent en ligne."
+        "title": "Demandes non qualifiées",
+        "text": "Un formulaire générique rempli de spams ou de particuliers hors zone vous fait perdre du temps. Il manque un parcours qui oriente vers le bon interlocuteur."
       },
       {
-        "title": "Pas de SEO local",
-        "text": "Sans pages géolocalisées et fiche Google optimisée, vous n'existez pas pour les habitants de Bouguenais."
+        "title": "Concurrence des acteurs nantais",
+        "text": "Les prestataires basés à Nantes centre captent les requêtes « près aéroport » si votre SEO local n'est pas travaillé sur Bouguenais et le 44340."
       },
       {
-        "title": "Budget bloqué",
-        "text": "3 000 à 8 000€ d'investissement initial : difficile à justifier pour une TPE locale."
+        "title": "Trésorerie mobilisée ailleurs",
+        "text": "Investir 6 000 € d'un coup dans un site vitrine est rarement prioritaire quand véhicules, stocks ou locaux passent avant. La location lisse le budget."
       }
     ],
-    "local-solution-title": "Un site web professionnel pour votre entreprise à Bouguenais",
-    "local-solution-text": "Crescendo Studio conçoit des sites WordPress sur mesure pour les entreprises de Bouguenais et de la métropole nantaise. Design premium, SEO local intégré, maintenance incluse en location.",
+    "local-solution-title": "Votre site professionnel à Bouguenais, pensé pour générer des contacts utiles",
+    "local-solution-text": "Nous auditons votre parcours commercial (appel d'offres, devis, prise de RDV) avant de designer une interface WordPress sur mesure. Performance mobile, temps de chargement court et administration simple — sans page builder lourd.",
     "local-solution-price": "350€/mois",
     "local-solution-price-label": "Location tout inclus · zéro frais de création",
     "local-solution-usps": [
       {
-        "title": "Maquette 48h",
-        "text": "Direction créative gratuite avant engagement."
+        "title": "Maquette directionnelle 48 h",
+        "text": "Validation du design avant signature du contrat."
       },
       {
-        "title": "SEO local",
-        "text": "Pages et balisage optimisés pour Bouguenais et environs."
+        "title": "Pages métier sur mesure",
+        "text": "Catalogue, devis, secteurs d'activité : structure adaptée à votre offre."
       },
       {
-        "title": "Accompagnement de proximité",
-        "text": "Agence nantaise réactive, rendez-vous sur place ou visio."
+        "title": "Suivi SEO local",
+        "text": "Balisage, contenus et recommandations Google Business Profile."
       }
     ],
-    "local-features-title": "Ce que votre site professionnel doit inclure",
+    "local-features-title": "Fonctionnalités utiles aux entreprises de Bouguenais",
     "local-features-items": [
       {
-        "title": "Design sur mesure",
-        "text": "Image premium adaptée à votre secteur et votre clientèle locale."
+        "title": "Formulaire de devis intelligent",
+        "text": "Champs conditionnels pour qualifier volume, délai et zone d'intervention."
       },
       {
-        "title": "SEO local intégré",
-        "text": "Structure, contenu et schema.org pour Bouguenais."
+        "title": "Catalogue ou prestations filtrables",
+        "text": "Idéal pour logistique, maintenance ou services aux entreprises."
       },
       {
-        "title": "Formulaire de contact",
-        "text": "Capture des demandes avec notification email."
+        "title": "Pages SEO par activité",
+        "text": "Transport, hôtellerie, artisanat : une entrée Google par spécialité."
       },
       {
-        "title": "Mobile first",
-        "text": "80 % des recherches locales se font sur smartphone."
+        "title": "Performance mobile",
+        "text": "Chargement rapide pour les recherches depuis l'aéroport ou la route."
       },
       {
-        "title": "Performance & sécurité",
-        "text": "Site rapide, HTTPS, sauvegardes incluses en location."
+        "title": "Espace actualités / recrutement",
+        "text": "Publiez offres d'emploi et actualités sans refaire le site."
       },
       {
-        "title": "Évolutions incluses",
-        "text": "Maintenance et mises à jour dans l'abonnement mensuel."
+        "title": "Connexion CRM ou email",
+        "text": "Chaque lead arrive structuré dans votre outil métier."
       }
     ],
-    "local-case-title": "Exemple de réalisation en Loire-Atlantique",
-    "local-case-project-title": "Maison Jaden",
-    "local-case-project-tags": "WordPress · Devis · SEO local",
+    "local-case-title": "Réalisation : refonte industrielle B2B",
     "local-case-project-points": [
       {
-        "text": "Site vitrine pour constructeur de maisons à Nantes"
+        "text": "Catalogue technique filtrable pour une PME industrielle B2B"
       },
       {
-        "text": "Formulaire de devis connecté au CRM"
+        "text": "Formulaire de devis orientant le prospect vers le bon service"
       },
       {
-        "text": "Référencement local sur 12 communes"
+        "text": "Structure SEO pour les requêtes métier en Loire-Atlantique"
       }
     ],
-    "local-case-project-url": "/realisations/maison-jaden/",
+    "local-case-project-url": "/realisations/bag-x-pro/",
     "local-pricing-title": "Combien coûte un site web à Bouguenais ?",
     "local-pricing-price": "350€",
     "local-pricing-price-suffix": "/mois",

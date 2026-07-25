@@ -51,7 +51,7 @@ function crescendo_local_breadcrumb($post_id = null) {
     $post_id = $post_id ?: get_the_ID();
     $items = array(
         array('label' => 'Accueil', 'url' => home_url('/')),
-        array('label' => 'Nantes & métropole', 'url' => home_url('/creation-site-web-nantes/')),
+        array('label' => 'Nantes & métropole', 'url' => crescendo_nav_service_url('creation-site-web-nantes')),
         array('label' => get_the_title($post_id), 'url' => get_permalink($post_id)),
     );
 

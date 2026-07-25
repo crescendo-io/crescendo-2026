@@ -8,7 +8,7 @@
   },
   "seo": {
     "meta_title": "Agence web Orvault — Site sur mesure dès 350€/mois | Crescendo",
-    "meta_description": "Agence web à Orvault : création de site WordPress sur mesure, SEO local, maintenance incluse. Maquette gratuite en 48h. Location dès 350€/mois.",
+    "meta_description": "Agence web Orvault : sites pour commerces route de Rennes, professions libérales et artisans du nord nantais. WordPress sur mesure, SEO local. 350€/mois.",
     "focus_keyword": "agence web orvault",
     "canonical": "https://crescendo-studio.io/agence-web-orvault/",
     "noindex": false
@@ -17,7 +17,7 @@
     "local-city-name": "Orvault",
     "local-hero-eyebrow": "Agence web · Orvault",
     "local-hero-title": "Agence web à Orvault",
-    "local-hero-intro": "Vous cherchez une agence web à Orvault ? Crescendo Studio crée des sites WordPress sur mesure pour les TPE, PME et indépendants de la métropole nantaise — location dès 350€/mois sans frais de création.",
+    "local-hero-intro": "Orvault, entre centre-bourg et artères commerciales de la route de Rennes, concentre cabinets médicaux, commerces de proximité et artisans qui vivent du bouche-à-oreille — mais aussi des recherches Google avant le premier rendez-vous. Crescendo Studio conçoit des sites WordPress élégants et rapides pour capter cette clientèle locale, en location dès 350 €/mois.",
     "local-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -30,36 +30,15 @@
     },
     "local-hero-note": "Maquette gratuite en 48h",
     "local-benefits": [
-      {
-        "title": "Agence nantaise",
-        "text": "Basés à Nantes, nous intervenons régulièrement à Orvault."
-      },
-      {
-        "title": "SEO local",
-        "text": "Visible sur « agence web Orvault » et requêtes associées."
-      },
-      {
-        "title": "Site dès 350€/mois",
-        "text": "Location tout inclus, zéro frais de création."
-      },
-      {
-        "title": "WordPress sur mesure",
-        "text": "Design premium, rapide et évolutif."
-      }
+      {"title": "Sites pour clientèle de proximité", "text": "Prise de RDV, horaires, avis et pages quartier pour les commerces orvillais."},
+      {"title": "Route de Rennes & nord métropole", "text": "SEO sur Orvault, Sillon-de-Bretagne et zones commerciales adjacentes."},
+      {"title": "350 €/mois tout inclus", "text": "Idéal pour un cabinet ou une boutique sans trésorerie à immobiliser."},
+      {"title": "Rendez-vous sur place", "text": "Busway ligne 4 : nous venons à Orvault ou vous recevons à Nantes."}
     ],
     "local-sections": [
-      {
-        "title": "Agence web pour les entreprises d'Orvault",
-        "text": "<p>Orvault, 27 000 habitants au nord de Nantes, combine centre-bourg animé et zones commerciales de la route de Rennes.</p>"
-      },
-      {
-        "title": "Commerces, professions libérales et PME",
-        "text": "<p>Médecins, commerces, artisans, services aux particuliers : le site web est souvent le premier contact avant le bouche-à-oreille.</p>"
-      },
-      {
-        "title": "Visibilité locale et connexion avec la métropole",
-        "text": "<p>Busway ligne 4, route de Rennes : nous optimisons Orvault et les quartiers nord de Nantes.</p>"
-      }
+      {"title": "Orvault : une ville résidentielle avec un tissu de services", "text": "<p>Environ 27 000 habitants, maisons individuelles et commerces de centre-bourg : vos clients cherchent « ostéopathe Orvault », « coiffeur route de Rennes » ou « menuiserie Orvault » avant de vous appeler. Un site clair avec avis, photos récentes et formulaire de contact rassure plus qu'une page Facebook laissée à l'abandon.</p>"},
+      {"title": "Professions libérales, commerces et artisans", "text": "<p>Un cabinet médical a besoin de pages par spécialité et d'un module de prise de rendez-vous ; une boutique mise en avant ses collections saisonnières ; un artisan affiche ses réalisations par type de chantier. Nous adaptons l'arborescence à votre parcours client, pas l'inverse.</p>"},
+      {"title": "Visibilité Orvault + connexion avec le nord nantais", "text": "<p>Nous optimisons « agence web Orvault » tout en ciblant les requêtes métier qui vous apportent des clients — sans copier-coller le contenu des autres communes de la métropole.</p>"}
     ],
     "local-facts-title": "Orvault en bref",
     "local-facts": [
@@ -76,85 +55,38 @@
         "text": "Ville résidentielle avec nombreuses maisons individuelles"
       }
     ],
-    "local-pain-title": "Pourquoi les entreprises de Orvault perdent des clients en ligne",
+    "local-pain-title": "Pourquoi les indépendants orvillais perdent des rendez-vous en ligne",
     "local-pain-items": [
-      {
-        "title": "Invisible sur Google",
-        "text": "Vos concurrents nantais apparaissent avant vous sur « agence web Orvault » et les requêtes locales."
-      },
-      {
-        "title": "Site obsolète ou absent",
-        "text": "Une fiche Facebook ou un site daté ne convertit pas les prospects qui comparent en ligne."
-      },
-      {
-        "title": "Pas de SEO local",
-        "text": "Sans pages géolocalisées et fiche Google optimisée, vous n'existez pas pour les habitants de Orvault."
-      },
-      {
-        "title": "Budget bloqué",
-        "text": "3 000 à 8 000€ d'investissement initial : difficile à justifier pour une TPE locale."
-      }
+      {"title": "Doctolib sans vitrine propre", "text": "Vous dépendez d'une plateforme tierce : impossible de raconter votre approche, vos tarifs ou vos spécialités sur votre propre site."},
+      {"title": "Photos et horaires obsolètes", "text": "Un site daté avec des horaires d'hiver affichés en été décourage les familles qui comparent trois prestataires en dix minutes."},
+      {"title": "Invisible sur les requêtes quartier", "text": "Sans pages « route de Rennes Orvault » ou « centre Orvault », vous laissez la place aux concurrents nantais mieux référencés."},
+      {"title": "Pas de suivi des demandes", "text": "Les messages du formulaire se perdent : nous structurons des parcours de contact traçables."}
     ],
-    "local-solution-title": "Un site web professionnel pour votre entreprise à Orvault",
-    "local-solution-text": "Crescendo Studio conçoit des sites WordPress sur mesure pour les entreprises de Orvault et de la métropole nantaise. Design premium, SEO local intégré, maintenance incluse en location.",
+    "local-solution-title": "Un site qui convertit la clientèle orvillaise",
+    "local-solution-text": "Atelier de positionnement, maquette sous 48 h, intégration WordPress premium et rédaction SEO locale. Vous gardez la main sur vos contenus ; nous assurons performance, sécurité et évolutions en location.",
     "local-solution-price": "350€/mois",
     "local-solution-price-label": "Location tout inclus · zéro frais de création",
     "local-solution-usps": [
-      {
-        "title": "Maquette 48h",
-        "text": "Direction créative gratuite avant engagement."
-      },
-      {
-        "title": "SEO local",
-        "text": "Pages et balisage optimisés pour Orvault et environs."
-      },
-      {
-        "title": "Accompagnement de proximité",
-        "text": "Agence nantaise réactive, rendez-vous sur place ou visio."
-      }
+      {"title": "Design orienté confiance", "text": "Typographie soignée, photos pro et preuves sociales pour rassurer une clientèle exigeante."},
+      {"title": "Pages métier + local", "text": "Contenus qui répondent à vos prestations ET à votre ancrage orvillais."},
+      {"title": "Formation admin incluse", "text": "Mettez à jour vos horaires ou actualités sans ticket support."}
     ],
-    "local-features-title": "Ce que votre site professionnel doit inclure",
+    "local-features-title": "Fonctionnalités adaptées aux activités d'Orvault",
     "local-features-items": [
-      {
-        "title": "Design sur mesure",
-        "text": "Image premium adaptée à votre secteur et votre clientèle locale."
-      },
-      {
-        "title": "SEO local intégré",
-        "text": "Structure, contenu et schema.org pour Orvault."
-      },
-      {
-        "title": "Formulaire de contact",
-        "text": "Capture des demandes avec notification email."
-      },
-      {
-        "title": "Mobile first",
-        "text": "80 % des recherches locales se font sur smartphone."
-      },
-      {
-        "title": "Performance & sécurité",
-        "text": "Site rapide, HTTPS, sauvegardes incluses en location."
-      },
-      {
-        "title": "Évolutions incluses",
-        "text": "Maintenance et mises à jour dans l'abonnement mensuel."
-      }
+      {"title": "Prise de rendez-vous", "text": "Intégration calendrier ou lien vers votre outil existant."},
+      {"title": "Galerie avant/après", "text": "Idéal artisans, coiffeurs, décorateurs du nord métropole."},
+      {"title": "Pages tarifs & FAQ", "text": "Réduisez les appels non qualifiés avec des réponses claires."},
+      {"title": "Avis Google intégrés", "text": "Renforcez la preuve sociale sur votre site."},
+      {"title": "Blog ou actualités", "text": "Publiez vos promotions saisonnières ou nouveautés."},
+      {"title": "Fiche Google alignée", "text": "Cohérence NAP entre site et Google Business Profile."}
     ],
-    "local-case-title": "Exemple de réalisation en Loire-Atlantique",
-    "local-case-project-title": "Maison Jaden",
-    "local-case-project-tags": "WordPress · Devis · SEO local",
+    "local-case-title": "Réalisation : studio branding route de Rennes",
     "local-case-project-points": [
-      {
-        "text": "Site vitrine pour constructeur de maisons à Nantes"
-      },
-      {
-        "text": "Formulaire de devis connecté au CRM"
-      },
-      {
-        "text": "Référencement local sur 12 communes"
-      }
+      {"text": "Portfolio visuel premium pour un studio de design"},
+      {"text": "Formulaire de devis connecté au CRM"},
+      {"text": "Refonte orientée conversion pour des clients B2B"}
     ],
-    "local-case-project-url": "/realisations/maison-jaden/",
+    "local-case-project-url": "/realisations/atelier-gambetta/",
     "local-pricing-title": "Combien coûte un site web à Orvault ?",
     "local-pricing-price": "350€",
     "local-pricing-price-suffix": "/mois",
@@ -166,21 +98,11 @@
     "local-pricing-col1-label": "Location 350€/mois",
     "local-pricing-col2-label": "Achat classique",
     "local-pricing-features": [
-      {
-        "text": "Création sur mesure incluse"
-      },
-      {
-        "text": "Hébergement premium"
-      },
-      {
-        "text": "Maintenance & mises à jour"
-      },
-      {
-        "text": "SEO local de base"
-      },
-      {
-        "text": "Support réactif"
-      }
+      {"text": "Maquette direction créative 48 h"},
+      {"text": "Pages services + SEO Orvault"},
+      {"text": "Formulaire ou prise de RDV"},
+      {"text": "Hébergement & maintenance"},
+      {"text": "Formation à l'admin WordPress"}
     ],
     "local-pricing-table": [
       {
@@ -290,18 +212,12 @@
         "url": "/services/creation-site-web-nantes/"
       }
     ],
-    "local-final-cta-title": "Prêt à lancer votre projet web à Orvault ?",
-    "local-final-cta-text": "Recevez une maquette gratuite sous 48h. Sans engagement.",
+    "local-final-cta-title": "Un site professionnel pour votre activité à Orvault ?",
+    "local-final-cta-text": "Maquette personnalisée sous 48 h — commerces, cabinets, artisans du nord nantais.",
     "local-final-cta-points": [
-      {
-        "text": "Maquette personnalisée sous 48h"
-      },
-      {
-        "text": "Formule location sans investissement initial"
-      },
-      {
-        "text": "Accompagnement local à Orvault"
-      }
+      {"text": "Contenus pensés pour votre clientèle locale"},
+      {"text": "350 €/mois sans frais de création"},
+      {"text": "Rendez-vous à Orvault ou visio"}
     ],
     "local-final-form-job-label": "Votre activité",
     "local-final-reassurance": [

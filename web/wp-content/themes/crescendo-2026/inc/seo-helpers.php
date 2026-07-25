@@ -91,7 +91,76 @@ function crescendo_absolute_url($url) {
 function crescendo_normalize_canonical($url) {
     $url = crescendo_absolute_url($url);
     $url = preg_replace('#/(services|secteurs)/(?:services|secteurs)/#', '/$1/', $url);
-    return $url;
+
+    $path = wp_parse_url($url, PHP_URL_PATH);
+    if (!is_string($path) || $path === '') {
+        $path = '/';
+    }
+
+    return user_trailingslashit(home_url($path));
+}
+
+function crescendo_get_canonical_url($post_id = null) {
+    $post_id = $post_id ?: get_queried_object_id();
+    if (!$post_id) {
+        return crescendo_normalize_canonical(home_url('/'));
+    }
+
+    if ((int) get_option('page_on_front') === (int) $post_id) {
+        return crescendo_normalize_canonical(home_url('/'));
+    }
+
+    return crescendo_normalize_canonical(get_permalink($post_id));
+}
+
+function crescendo_trash_flat_hub_duplicate_pages() {
+    if (!function_exists('crescendo_legacy_redirect_map')) {
+        return;
+    }
+
+    foreach (crescendo_legacy_redirect_map() as $from => $to) {
+        $flat_slug = trim($from, '/');
+        if ($flat_slug === '' || strpos($flat_slug, '/') !== false) {
+            continue;
+        }
+
+        $flat_page = get_page_by_path($flat_slug, OBJECT, 'page');
+        $nested_page = get_page_by_path(ltrim($to, '/'), OBJECT, 'page');
+
+        if (!$flat_page || !$nested_page || (int) $flat_page->ID === (int) $nested_page->ID) {
+            continue;
+        }
+
+        wp_trash_post((int) $flat_page->ID);
+    }
+}
+
+function crescendo_sync_stored_canonical_urls() {
+    if (!function_exists('update_field')) {
+        return;
+    }
+
+    $groups = array(
+        array('template' => 'template-service.php', 'field' => 'service-seo-canonical'),
+        array('template' => 'template-secteur.php', 'field' => 'secteur-seo-canonical'),
+        array('template' => 'template-local.php', 'field' => 'local-seo-canonical'),
+        array('template' => 'template-project.php', 'field' => 'project-seo-canonical'),
+    );
+
+    foreach ($groups as $group) {
+        $page_ids = get_posts(array(
+            'post_type' => 'page',
+            'post_status' => array('publish', 'draft', 'pending', 'private'),
+            'posts_per_page' => -1,
+            'meta_key' => '_wp_page_template',
+            'meta_value' => $group['template'],
+            'fields' => 'ids',
+        ));
+
+        foreach ($page_ids as $page_id) {
+            update_field($group['field'], crescendo_get_canonical_url($page_id), $page_id);
+        }
+    }
 }
 
 function crescendo_is_placeholder_phone($phone) {
@@ -211,7 +280,11 @@ function crescendo_get_home_faq_items() {
  * @param int|null $post_id
  */
 function crescendo_print_seo_head_meta(array $seo, $og_type = 'website', $post_id = null) {
-    $canonical = crescendo_normalize_canonical($seo['canonical'] ?? get_permalink());
+    if ($post_id) {
+        $canonical = crescendo_get_canonical_url($post_id);
+    } else {
+        $canonical = crescendo_normalize_canonical($seo['canonical'] ?? home_url('/'));
+    }
     $title = $seo['meta_title'] ?? wp_get_document_title();
     $description = $seo['meta_description'] ?? '';
     $ogImage = crescendo_get_og_image($post_id);
@@ -426,6 +499,23 @@ function crescendo_maybe_fix_seo_structure() {
     delete_option('crescendo_seo_structure_fixed_v1');
 }
 add_action('init', 'crescendo_maybe_fix_seo_structure', 30);
+
+function crescendo_maybe_fix_seo_duplicates() {
+    if (get_option('crescendo_seo_structure_fixed_v4')) {
+        return;
+    }
+
+    if (!did_action('init') || !function_exists('get_page_by_path')) {
+        return;
+    }
+
+    crescendo_trash_flat_hub_duplicate_pages();
+    crescendo_sync_stored_canonical_urls();
+    flush_rewrite_rules(false);
+
+    update_option('crescendo_seo_structure_fixed_v4', 1, false);
+}
+add_action('init', 'crescendo_maybe_fix_seo_duplicates', 31);
 
 /**
  * Fallback meta description for templates without a dedicated SEO handler.

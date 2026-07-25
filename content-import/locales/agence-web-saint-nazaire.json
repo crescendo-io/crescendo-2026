@@ -208,24 +208,14 @@
         "url": "/realisations/padam-immo/"
       }
     ],
-    "local-case-title": "Étude de cas : Maison Jaden",
-    "local-case-project-title": "Maison Jaden",
-    "local-case-project-tags": "WordPress · Devis en ligne · SEO multi-villes",
+    "local-case-title": "Étude de cas : design automobile nazairien",
     "local-case-project-points": [
-      {
-        "text": "Site vitrine sur mesure pour un constructeur de maisons en Loire-Atlantique"
-      },
-      {
-        "text": "Formulaire de devis connecté au CRM avec notification instantanée"
-      },
-      {
-        "text": "Référencement local structuré sur 12 communes de la métropole nantaise"
-      },
-      {
-        "text": "Temps de chargement inférieur à 2 secondes sur mobile"
-      }
+      {"text": "Vitrine premium pour un acteur du design automobile"},
+      {"text": "Portfolio visuel haute qualité et pages services dédiées"},
+      {"text": "SEO ciblant les requêtes design automobile en France"},
+      {"text": "Navigation sombre et immersive orientée conversion"}
     ],
-    "local-case-project-url": "/realisations/maison-jaden/",
+    "local-case-project-url": "/realisations/car-design/",
     "local-pricing-title": "Combien coûte un site web à Saint-Nazaire ?",
     "local-pricing-price": "350€",
     "local-pricing-price-suffix": "/mois",

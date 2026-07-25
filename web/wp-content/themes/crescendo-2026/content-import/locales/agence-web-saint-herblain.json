@@ -8,7 +8,7 @@
   },
   "seo": {
     "meta_title": "Agence web Saint-Herblain — WordPress | Crescendo",
-    "meta_description": "Agence web à Saint-Herblain : création de site WordPress sur mesure, SEO local, maintenance incluse. Maquette gratuite en 48h. Location dès 350€/mois.",
+    "meta_description": "Agence web Saint-Herblain : sites WordPress pour commerces Atlantis, PME route de Vannes et tertiaire nord-ouest. SEO local. Maquette 48 h. 350€/mois.",
     "focus_keyword": "agence web saint-herblain",
     "canonical": "https://crescendo-studio.io/agence-web-saint-herblain/",
     "noindex": false
@@ -17,7 +17,7 @@
     "local-city-name": "Saint-Herblain",
     "local-hero-eyebrow": "Agence web · Saint-Herblain",
     "local-hero-title": "Agence web à Saint-Herblain",
-    "local-hero-intro": "Vous cherchez une agence web à Saint-Herblain ? Crescendo Studio crée des sites WordPress sur mesure pour les TPE, PME et indépendants de la métropole nantaise — location dès 350€/mois sans frais de création.",
+    "local-hero-intro": "Saint-Herblain, 2e ville de Loire-Atlantique, concentre Atlantis, Exponantes et des milliers de postes tertiaires le long de la route de Vannes. Commerces, agences immobilières et PME du nord-ouest nantais ont besoin d'un site à la hauteur de cette dynamique — Crescendo Studio propose des WordPress sur mesure en location dès 350 €/mois.",
     "local-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -30,36 +30,15 @@
     },
     "local-hero-note": "Maquette gratuite en 48h",
     "local-benefits": [
-      {
-        "title": "Agence nantaise",
-        "text": "Basés à Nantes, nous intervenons régulièrement à Saint-Herblain."
-      },
-      {
-        "title": "SEO local",
-        "text": "Visible sur « agence web Saint-Herblain » et requêtes associées."
-      },
-      {
-        "title": "Site dès 350€/mois",
-        "text": "Location tout inclus, zéro frais de création."
-      },
-      {
-        "title": "WordPress sur mesure",
-        "text": "Design premium, rapide et évolutif."
-      }
+      {"title": "Atlantis & route de Vannes", "text": "Sites pour commerces, franchises et enseignes du nord-ouest métropolitain."},
+      {"title": "Immobilier & services", "text": "Fiches biens, pages quartier et SEO local pour agences herblinoises."},
+      {"title": "350 €/mois tout inclus", "text": "Création, hébergement, maintenance : zéro investissement initial."},
+      {"title": "Tramway ligne 3", "text": "15 minutes de Nantes — ateliers sur place à Saint-Herblain."}
     ],
     "local-sections": [
-      {
-        "title": "Une agence web au cœur de la 2e ville de Loire-Atlantique",
-        "text": "<p>Saint-Herblain, avec plus de 47 000 habitants, est la deuxième commune de Loire-Atlantique. Entre Atlantis, Exponantes et les zones tertiaires de la route de Vannes, le tissu économique herblinois mêle grandes enseignes, PME et commerces de proximité.</p><p>Crescendo Studio accompagne ces acteurs avec des sites WordPress sur mesure, optimisés pour « agence web Saint-Herblain » et les requêtes associées.</p>"
-      },
-      {
-        "title": "Sites web pour les entreprises du nord-ouest nantais",
-        "text": "<p>Commerces d'Atlantis, PME industrielles, professions libérales, artisans : chaque profil exige une approche différente. Notre location à <strong>350€/mois</strong> sans frais de création convient aux TPE herblinoises.</p>"
-      },
-      {
-        "title": "SEO local Saint-Herblain : être visible dans la métropole",
-        "text": "<p>Nous structurons votre site avec des pages géolocalisées, schema.org LocalBusiness et une fiche Google Business Profile optimisée pour capter la demande locale.</p>"
-      }
+      {"title": "Le nord-ouest nantais : volume et exigence", "text": "<p>Avec plus de 47 000 habitants, Saint-Herblain attire une clientèle exigeante : familles d'Atlantis, salariés des zones tertiaires, acquéreurs sur la route de Vannes. Votre site doit rassurer en quelques secondes — offre claire, preuves, contact immédiat.</p>"},
+      {"title": "Commerces, immobilier et PME tertiaires", "text": "<p>Une agence immo met en avant ses biens et ses quartiers ; une franchise synchronise promotions nationales et ancrage local ; une PME RH présente ses références clients. Nous construisons l'architecture qui sert votre funnel, pas un template générique.</p>"},
+      {"title": "SEO Saint-Herblain sans cannibaliser Nantes", "text": "<p>Pages dédiées « agence web Saint-Herblain », mentions Atlantis et route de Vannes, schema.org LocalBusiness : une stratégie locale distincte du centre nantais.</p>"}
     ],
     "local-facts-title": "Saint-Herblain en bref",
     "local-facts": [
@@ -76,85 +55,38 @@
         "text": "Zones tertiaires le long de la route de Vannes"
       }
     ],
-    "local-pain-title": "Pourquoi les entreprises de Saint-Herblain perdent des clients en ligne",
+    "local-pain-title": "Les freins digitaux des entreprises herblinoises",
     "local-pain-items": [
-      {
-        "title": "Invisible sur Google",
-        "text": "Vos concurrents nantais apparaissent avant vous sur « agence web Saint-Herblain » et les requêtes locales."
-      },
-      {
-        "title": "Site obsolète ou absent",
-        "text": "Une fiche Facebook ou un site daté ne convertit pas les prospects qui comparent en ligne."
-      },
-      {
-        "title": "Pas de SEO local",
-        "text": "Sans pages géolocalisées et fiche Google optimisée, vous n'existez pas pour les habitants de Saint-Herblain."
-      },
-      {
-        "title": "Budget bloqué",
-        "text": "3 000 à 8 000€ d'investissement initial : difficile à justifier pour une TPE locale."
-      }
+      {"title": "Site catalogue sans conversion", "text": "Beaucoup de pages produits, peu de parcours vers devis ou rendez-vous : nous restructurons le funnel."},
+      {"title": "Concurrence Atlantis", "text": "À deux pas des grandes enseignes, un indépendant doit se différencier par le contenu et l'UX."},
+      {"title": "Pages quartier absentes", "text": "Sans SEO « route de Vannes » ou « Atlantis », vous manquez des recherches à forte intention."},
+      {"title": "Refonte repoussée par le budget", "text": "La location 350 €/mois lève le blocage financier sans sacrifier la qualité."}
     ],
-    "local-solution-title": "Un site web professionnel pour votre entreprise à Saint-Herblain",
-    "local-solution-text": "Crescendo Studio conçoit des sites WordPress sur mesure pour les entreprises de Saint-Herblain et de la métropole nantaise. Design premium, SEO local intégré, maintenance incluse en location.",
+    "local-solution-title": "Sites WordPress pour le nord-ouest métropolitain",
+    "local-solution-text": "Audit concurrentiel local, wireframes orientés conversion, intégration WordPress premium et rédaction SEO herblinoise. Maintenance, sécurité et évolutions incluses en location.",
     "local-solution-price": "350€/mois",
     "local-solution-price-label": "Location tout inclus · zéro frais de création",
     "local-solution-usps": [
-      {
-        "title": "Maquette 48h",
-        "text": "Direction créative gratuite avant engagement."
-      },
-      {
-        "title": "SEO local",
-        "text": "Pages et balisage optimisés pour Saint-Herblain et environs."
-      },
-      {
-        "title": "Accompagnement de proximité",
-        "text": "Agence nantaise réactive, rendez-vous sur place ou visio."
-      }
+      {"title": "Pages biens & quartiers", "text": "Idéal agences immo et services de proximité."},
+      {"title": "Design premium", "text": "Image cohérente avec une clientèle nord-ouest exigeante."},
+      {"title": "Analytics & objectifs", "text": "Suivi des formulaires et appels dès le lancement."}
     ],
-    "local-features-title": "Ce que votre site professionnel doit inclure",
+    "local-features-title": "Fonctionnalités pour les acteurs de Saint-Herblain",
     "local-features-items": [
-      {
-        "title": "Design sur mesure",
-        "text": "Image premium adaptée à votre secteur et votre clientèle locale."
-      },
-      {
-        "title": "SEO local intégré",
-        "text": "Structure, contenu et schema.org pour Saint-Herblain."
-      },
-      {
-        "title": "Formulaire de contact",
-        "text": "Capture des demandes avec notification email."
-      },
-      {
-        "title": "Mobile first",
-        "text": "80 % des recherches locales se font sur smartphone."
-      },
-      {
-        "title": "Performance & sécurité",
-        "text": "Site rapide, HTTPS, sauvegardes incluses en location."
-      },
-      {
-        "title": "Évolutions incluses",
-        "text": "Maintenance et mises à jour dans l'abonnement mensuel."
-      }
+      {"title": "Vitrine immobilière", "text": "Fiches biens, filtres et pages quartier SEO."},
+      {"title": "Landing promotions", "text": "Campagnes saisonnières pour commerces Atlantis."},
+      {"title": "Espace recrutement", "text": "Pages offres pour PME en croissance sur la route de Vannes."},
+      {"title": "Multilingue", "text": "Version EN pour filiales ou clientèle internationale."},
+      {"title": "Performance Core Web Vitals", "text": "Site rapide sur mobile et desktop."},
+      {"title": "CRM ou webhook", "text": "Leads routés vers votre outil commercial."}
     ],
-    "local-case-title": "Exemple de réalisation en Loire-Atlantique",
-    "local-case-project-title": "Maison Jaden",
-    "local-case-project-tags": "WordPress · Devis · SEO local",
+    "local-case-title": "Réalisation : agence immobilière premium",
     "local-case-project-points": [
-      {
-        "text": "Site vitrine pour constructeur de maisons à Nantes"
-      },
-      {
-        "text": "Formulaire de devis connecté au CRM"
-      },
-      {
-        "text": "Référencement local sur 12 communes"
-      }
+      {"text": "Vitrine immobilière avec fiches biens optimisées"},
+      {"text": "Pages quartier SEO pour l'acquisition locale"},
+      {"text": "Design premium renforçant la crédibilité de l'agence"}
     ],
-    "local-case-project-url": "/realisations/maison-jaden/",
+    "local-case-project-url": "/realisations/padam-immo/",
     "local-pricing-title": "Combien coûte un site web à Saint-Herblain ?",
     "local-pricing-price": "350€",
     "local-pricing-price-suffix": "/mois",
@@ -166,21 +98,11 @@
     "local-pricing-col1-label": "Location 350€/mois",
     "local-pricing-col2-label": "Achat classique",
     "local-pricing-features": [
-      {
-        "text": "Création sur mesure incluse"
-      },
-      {
-        "text": "Hébergement premium"
-      },
-      {
-        "text": "Maintenance & mises à jour"
-      },
-      {
-        "text": "SEO local de base"
-      },
-      {
-        "text": "Support réactif"
-      }
+      {"text": "Maquette & design premium 48 h"},
+      {"text": "Pages Atlantis / route de Vannes"},
+      {"text": "SEO local Saint-Herblain"},
+      {"text": "Formulaires & intégrations CRM"},
+      {"text": "Maintenance incluse"}
     ],
     "local-pricing-table": [
       {
@@ -290,18 +212,12 @@
         "url": "/services/creation-site-web-nantes/"
       }
     ],
-    "local-final-cta-title": "Prêt à lancer votre projet web à Saint-Herblain ?",
-    "local-final-cta-text": "Recevez une maquette gratuite sous 48h. Sans engagement.",
+    "local-final-cta-title": "Projet web à Saint-Herblain ou Atlantis ?",
+    "local-final-cta-text": "Maquette gratuite sous 48 h pour commerces, immobilier et PME du nord-ouest nantais.",
     "local-final-cta-points": [
-      {
-        "text": "Maquette personnalisée sous 48h"
-      },
-      {
-        "text": "Formule location sans investissement initial"
-      },
-      {
-        "text": "Accompagnement local à Saint-Herblain"
-      }
+      {"text": "Contenus uniques herblinois"},
+      {"text": "350 €/mois sans frais de création"},
+      {"text": "Atelier sur place possible"}
     ],
     "local-final-form-job-label": "Votre activité",
     "local-final-reassurance": [

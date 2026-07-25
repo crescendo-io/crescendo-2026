@@ -8,7 +8,7 @@
   },
   "seo": {
     "meta_title": "Agence web Saint-Sébastien — Sur mesure | Crescendo",
-    "meta_description": "Agence web à Saint-Sébastien-sur-Loire : site WordPress sur mesure, SEO local et accompagnement. Maquette gratuite 48h. Location dès 350€/mois.",
+    "meta_description": "Agence web Saint-Sébastien-sur-Loire : sites pour commerces Beaulieu, artisans rive sud et services de proximité. WordPress sur mesure. 350€/mois.",
     "focus_keyword": "agence web saint-sébastien",
     "canonical": "https://crescendo-studio.io/agence-web-saint-sebastien-sur-loire/",
     "noindex": false
@@ -17,7 +17,7 @@
     "local-city-name": "Saint-Sébastien-sur-Loire",
     "local-hero-eyebrow": "Agence web · Saint-Sébastien-sur-Loire",
     "local-hero-title": "Agence web à Saint-Sébastien-sur-Loire",
-    "local-hero-intro": "Vous cherchez une agence web à Saint-Sébastien-sur-Loire ? Crescendo Studio crée des sites WordPress sur mesure pour les TPE, PME et indépendants de la métropole nantaise — location dès 350€/mois sans frais de création.",
+    "local-hero-intro": "Saint-Sébastien-sur-Loire, 26 000 habitants en rive sud, vit au rythme de Beaulieu, du tramway vers Nantes et des quartiers Chézine et Monière. Commerces, artisans et professions libérales sébastiennolises ont besoin d'un site qui parle aux habitants locaux comme aux Nantais — Crescendo Studio livre des WordPress sur mesure en location dès 350 €/mois.",
     "local-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -30,36 +30,15 @@
     },
     "local-hero-note": "Maquette gratuite en 48h",
     "local-benefits": [
-      {
-        "title": "Agence nantaise",
-        "text": "Basés à Nantes, nous intervenons régulièrement à Saint-Sébastien-sur-Loire."
-      },
-      {
-        "title": "SEO local",
-        "text": "Visible sur « agence web Saint-Sébastien-sur-Loire » et requêtes associées."
-      },
-      {
-        "title": "Site dès 350€/mois",
-        "text": "Location tout inclus, zéro frais de création."
-      },
-      {
-        "title": "WordPress sur mesure",
-        "text": "Design premium, rapide et évolutif."
-      }
+      {"title": "Rive sud & Beaulieu", "text": "Sites pour enseignes, commerces et indépendants du pole Beaulieu."},
+      {"title": "Double audience", "text": "SEO Sébastiennolais + visibilité auprès des Nantais de l'autre rive."},
+      {"title": "350 €/mois tout inclus", "text": "Création et maintenance sans investissement initial."},
+      {"title": "Ponts & tramway", "text": "Accès direct Nantes — rendez-vous sur place ou visio."}
     ],
     "local-sections": [
-      {
-        "title": "Création de sites web à Saint-Sébastien-sur-Loire",
-        "text": "<p>26 000 habitants en rive sud, centre commercial Beaulieu et accès direct au centre nantais via tramway.</p>"
-      },
-      {
-        "title": "Commerces, professions libérales et services",
-        "text": "<p>Enseignes de Beaulieu, restaurants, cabinets, artisans : une diversité d'activités en rive sud.</p>"
-      },
-      {
-        "title": "SEO rive sud : être trouvé par les habitants et les Nantais",
-        "text": "<p>Double audience Sébastiennolais et Nantais : pack local Google optimisé.</p>"
-      }
+      {"title": "Beaulieu et la rive sud : un marché local exigeant", "text": "<p>Le centre commercial Beaulieu attire une clientèle métropolitaine ; le centre-ville et Chézine conservent un tissu de proximité. Vos prospects comparent en ligne avant de traverser la Loire ou de se garer au centre commercial : un site soigné fait la différence.</p>"},
+      {"title": "Artisans, commerces et services aux particuliers", "text": "<p>Coiffeur, ostéopathe, restaurant, menuisier : chaque métier a un parcours client différent. Nous concevons réservation en ligne, galerie de réalisations ou pages tarifs selon votre activité — pas un modèle unique copié sur les autres communes.</p>"},
+      {"title": "SEO rive sud sans duplicate content", "text": "<p>Contenus rédigés pour Saint-Sébastien-sur-Loire : mentions Beaulieu, Chézine, tramway ligne 3 et requêtes métier locales, avec une rédaction propre à cette commune.</p>"}
     ],
     "local-facts-title": "Saint-Sébastien-sur-Loire en bref",
     "local-facts": [
@@ -76,85 +55,38 @@
         "text": "Quartiers Chézine, Monière et centre-ville"
       }
     ],
-    "local-pain-title": "Pourquoi les entreprises de Saint-Sébastien-sur-Loire perdent des clients en ligne",
+    "local-pain-title": "Pourquoi les indépendants sébastiennolais restent invisibles",
     "local-pain-items": [
-      {
-        "title": "Invisible sur Google",
-        "text": "Vos concurrents nantais apparaissent avant vous sur « agence web Saint-Sébastien-sur-Loire » et les requêtes locales."
-      },
-      {
-        "title": "Site obsolète ou absent",
-        "text": "Une fiche Facebook ou un site daté ne convertit pas les prospects qui comparent en ligne."
-      },
-      {
-        "title": "Pas de SEO local",
-        "text": "Sans pages géolocalisées et fiche Google optimisée, vous n'existez pas pour les habitants de Saint-Sébastien-sur-Loire."
-      },
-      {
-        "title": "Budget bloqué",
-        "text": "3 000 à 8 000€ d'investissement initial : difficile à justifier pour une TPE locale."
-      }
+      {"title": "Éclipsés par Beaulieu", "text": "Les grandes enseignes dominent l'attention : un site premium vous différencie en recherche locale."},
+      {"title": "Pas de prise de RDV en ligne", "text": "Les appels manqués le samedi matin : un module de réservation capture les créneaux libres."},
+      {"title": "Galerie absente ou datée", "text": "Artisans et esthéticiennes : vos réalisations doivent être visibles et récentes."},
+      {"title": "Contenu identique aux autres villes", "text": "Un texte boilerplate pénalise votre SEO : nous rédigeons du contenu unique rive sud."}
     ],
-    "local-solution-title": "Un site web professionnel pour votre entreprise à Saint-Sébastien-sur-Loire",
-    "local-solution-text": "Crescendo Studio conçoit des sites WordPress sur mesure pour les entreprises de Saint-Sébastien-sur-Loire et de la métropole nantaise. Design premium, SEO local intégré, maintenance incluse en location.",
+    "local-solution-title": "Un site WordPress pour la rive sud de la Loire",
+    "local-solution-text": "Atelier de cadrage, maquette 48 h, intégration WordPress et rédaction SEO Saint-Sébastien. Vous administrez vos contenus ; nous garantissons performance, sécurité et mises à jour.",
     "local-solution-price": "350€/mois",
     "local-solution-price-label": "Location tout inclus · zéro frais de création",
     "local-solution-usps": [
-      {
-        "title": "Maquette 48h",
-        "text": "Direction créative gratuite avant engagement."
-      },
-      {
-        "title": "SEO local",
-        "text": "Pages et balisage optimisés pour Saint-Sébastien-sur-Loire et environs."
-      },
-      {
-        "title": "Accompagnement de proximité",
-        "text": "Agence nantaise réactive, rendez-vous sur place ou visio."
-      }
+      {"title": "Réservation & contact", "text": "Parcours adapté aux professions de services."},
+      {"title": "Galerie premium", "text": "Mettez en valeur votre savoir-faire artisanal ou esthétique."},
+      {"title": "SEO Beaulieu & rive sud", "text": "Pages locales uniques, pas de duplicate métropole."}
     ],
-    "local-features-title": "Ce que votre site professionnel doit inclure",
+    "local-features-title": "Ce que nous déployons à Saint-Sébastien-sur-Loire",
     "local-features-items": [
-      {
-        "title": "Design sur mesure",
-        "text": "Image premium adaptée à votre secteur et votre clientèle locale."
-      },
-      {
-        "title": "SEO local intégré",
-        "text": "Structure, contenu et schema.org pour Saint-Sébastien-sur-Loire."
-      },
-      {
-        "title": "Formulaire de contact",
-        "text": "Capture des demandes avec notification email."
-      },
-      {
-        "title": "Mobile first",
-        "text": "80 % des recherches locales se font sur smartphone."
-      },
-      {
-        "title": "Performance & sécurité",
-        "text": "Site rapide, HTTPS, sauvegardes incluses en location."
-      },
-      {
-        "title": "Évolutions incluses",
-        "text": "Maintenance et mises à jour dans l'abonnement mensuel."
-      }
+      {"title": "Booking en ligne", "text": "Calendrier ou intégration outil existant."},
+      {"title": "Galerie avant/après", "text": "Coloriste, coiffeur, artisan du bâtiment."},
+      {"title": "Pages tarifs transparents", "text": "Réduisez les demandes non qualifiées."},
+      {"title": "Avis & témoignages", "text": "Preuve sociale intégrée au site."},
+      {"title": "Mobile first", "text": "Optimisé pour les recherches depuis Beaulieu ou le tram."},
+      {"title": "Maintenance incluse", "text": "Mises à jour WordPress et sauvegardes en location."}
     ],
-    "local-case-title": "Exemple de réalisation en Loire-Atlantique",
-    "local-case-project-title": "Maison Jaden",
-    "local-case-project-tags": "WordPress · Devis · SEO local",
+    "local-case-title": "Réalisation : coloriste premium Nantes sud",
     "local-case-project-points": [
-      {
-        "text": "Site vitrine pour constructeur de maisons à Nantes"
-      },
-      {
-        "text": "Formulaire de devis connecté au CRM"
-      },
-      {
-        "text": "Référencement local sur 12 communes"
-      }
+      {"text": "Vitrine élégante pour un artisan coloriste reconnu"},
+      {"text": "Galerie de réalisations et prise de rendez-vous en ligne"},
+      {"text": "Référencement local sur la métropole sud Loire"}
     ],
-    "local-case-project-url": "/realisations/maison-jaden/",
+    "local-case-project-url": "/realisations/ludovic-geheniaux/",
     "local-pricing-title": "Combien coûte un site web à Saint-Sébastien-sur-Loire ?",
     "local-pricing-price": "350€",
     "local-pricing-price-suffix": "/mois",
@@ -166,21 +98,11 @@
     "local-pricing-col1-label": "Location 350€/mois",
     "local-pricing-col2-label": "Achat classique",
     "local-pricing-features": [
-      {
-        "text": "Création sur mesure incluse"
-      },
-      {
-        "text": "Hébergement premium"
-      },
-      {
-        "text": "Maintenance & mises à jour"
-      },
-      {
-        "text": "SEO local de base"
-      },
-      {
-        "text": "Support réactif"
-      }
+      {"text": "Contenus rive sud uniques"},
+      {"text": "Design + maquette 48 h"},
+      {"text": "Réservation ou formulaire contact"},
+      {"text": "SEO Beaulieu & Saint-Sébastien"},
+      {"text": "Hébergement & maintenance"}
     ],
     "local-pricing-table": [
       {
@@ -290,18 +212,12 @@
         "url": "/services/creation-site-web-nantes/"
       }
     ],
-    "local-final-cta-title": "Prêt à lancer votre projet web à Saint-Sébastien-sur-Loire ?",
-    "local-final-cta-text": "Recevez une maquette gratuite sous 48h. Sans engagement.",
+    "local-final-cta-title": "Site web à Saint-Sébastien ou Beaulieu ?",
+    "local-final-cta-text": "Maquette gratuite sous 48 h pour commerces, artisans et cabinets de la rive sud.",
     "local-final-cta-points": [
-      {
-        "text": "Maquette personnalisée sous 48h"
-      },
-      {
-        "text": "Formule location sans investissement initial"
-      },
-      {
-        "text": "Accompagnement local à Saint-Sébastien-sur-Loire"
-      }
+      {"text": "Rédaction unique, zéro duplicate"},
+      {"text": "350 €/mois location tout inclus"},
+      {"text": "Atelier sur place en rive sud"}
     ],
     "local-final-form-job-label": "Votre activité",
     "local-final-reassurance": [

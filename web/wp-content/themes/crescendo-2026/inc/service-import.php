@@ -89,6 +89,17 @@ function crescendo_import_service_from_array(array $data) {
         }
     }
 
+    if ($parent_slug) {
+        $flat_page = get_page_by_path($slug, OBJECT, 'page');
+        if ($flat_page && (int) $flat_page->ID !== (int) $post_id) {
+            wp_trash_post((int) $flat_page->ID);
+        }
+    }
+
+    if (function_exists('crescendo_get_canonical_url')) {
+        update_field('service-seo-canonical', crescendo_get_canonical_url($post_id), $post_id);
+    }
+
     return array(
         'post_id' => $post_id,
         'edit_url' => get_edit_post_link($post_id, 'raw'),
