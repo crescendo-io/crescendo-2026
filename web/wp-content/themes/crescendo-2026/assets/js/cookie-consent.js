@@ -88,6 +88,75 @@
         }
     }
 
+    function hasAnalyticsConsent() {
+        var consent = readConsent();
+        return !!(consent && consent.analytics);
+    }
+
+    function trackEvent(name, params, done) {
+        if (!hasAnalyticsConsent()) {
+            if (typeof done === 'function') {
+                done();
+            }
+            return;
+        }
+
+        loadGoogleAnalytics();
+
+        if (typeof window.gtag !== 'function') {
+            if (typeof done === 'function') {
+                done();
+            }
+            return;
+        }
+
+        var eventParams = params ? Object.assign({}, params) : {};
+
+        if (typeof done === 'function') {
+            var finished = false;
+            var finish = function () {
+                if (finished) {
+                    return;
+                }
+                finished = true;
+                done();
+            };
+
+            eventParams.event_callback = finish;
+            eventParams.event_timeout = 2000;
+            window.setTimeout(finish, 2100);
+        }
+
+        window.gtag('event', name, eventParams);
+    }
+
+    var generateLeadStorageKey = 'crescendo_generate_lead_sent_v1';
+
+    function trackGenerateLead(done) {
+        try {
+            if (sessionStorage.getItem(generateLeadStorageKey)) {
+                if (typeof done === 'function') {
+                    done();
+                }
+                return;
+            }
+        } catch (e) {
+            // Ignore storage failures.
+        }
+
+        trackEvent('generate_lead', null, function () {
+            try {
+                sessionStorage.setItem(generateLeadStorageKey, '1');
+            } catch (e) {
+                // Ignore storage failures.
+            }
+
+            if (typeof done === 'function') {
+                done();
+            }
+        });
+    }
+
     function getFocusable() {
         return Array.prototype.slice.call(dialog.querySelectorAll(focusableSelector)).filter(function (el) {
             return el.offsetParent !== null || el === document.activeElement;
@@ -241,6 +310,8 @@
             openConsent('prefs');
         },
         getConsent: readConsent,
+        trackEvent: trackEvent,
+        trackGenerateLead: trackGenerateLead,
         privacyUrl: privacyUrl
     };
 })();

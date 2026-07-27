@@ -42,6 +42,17 @@
         window.location.assign(getThankYouUrl(data));
     }
 
+    function trackGenerateLead(done) {
+        if (window.CrescendoCookieConsentApi && typeof window.CrescendoCookieConsentApi.trackGenerateLead === 'function') {
+            window.CrescendoCookieConsentApi.trackGenerateLead(done);
+            return;
+        }
+
+        if (typeof done === 'function') {
+            done();
+        }
+    }
+
     function postForm(form, onSuccess) {
         if (window.CrescendoLeadAttribution) {
             window.CrescendoLeadAttribution.applyToForm(form);
@@ -123,6 +134,7 @@
             setLoading(submitStep1, true);
 
             postForm(step1Form, function (data) {
+                trackGenerateLead();
                 setFeedback(feedbackStep1, data.message, false);
                 step1Form.reset();
                 if (window.CrescendoLeadAttribution) {
@@ -156,7 +168,10 @@
     }
 
     document.addEventListener('DOMContentLoaded', function () {
-        if (typeof ParamsData === 'undefined') return;
+        if (typeof ParamsData === 'undefined') {
+            return;
+        }
+
         document.querySelectorAll('.crescendo-contact-form').forEach(initContactForm);
     });
 }());

@@ -89,7 +89,7 @@ function scripts_site(){
         wp_enqueue_script(
             'crescendo-contact-form',
             get_template_directory_uri() . '/assets/js/contact-form.js',
-            array('script-js', 'crescendo-lead-attribution'),
+            array('script-js', 'crescendo-lead-attribution', 'crescendo-cookie-consent'),
             filemtime(get_template_directory() . '/assets/js/contact-form.js'),
             true
         );
