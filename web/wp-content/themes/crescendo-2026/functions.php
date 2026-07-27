@@ -32,6 +32,7 @@ require_once (__DIR__ . '/inc/local-import.php');
 require_once (__DIR__ . '/inc/contact-seo.php');
 require_once (__DIR__ . '/inc/contact-import.php');
 require_once (__DIR__ . '/inc/mailjet.php');
+require_once (__DIR__ . '/inc/lead-attribution.php');
 require_once (__DIR__ . '/inc/contact-form.php');
 require_once (__DIR__ . '/inc/realisations-seo.php');
 require_once (__DIR__ . '/inc/realisations-import.php');
@@ -40,6 +41,7 @@ require_once (__DIR__ . '/inc/services-hub-import.php');
 require_once (__DIR__ . '/inc/about-seo.php');
 require_once (__DIR__ . '/inc/legal-seo.php');
 require_once (__DIR__ . '/inc/sitemap-seo.php');
+require_once (__DIR__ . '/inc/thank-you-seo.php');
 require_once (__DIR__ . '/inc/socle-import.php');
 require_once (__DIR__ . '/inc/project-seo.php');
 require_once (__DIR__ . '/inc/project-helpers.php');
@@ -78,9 +80,16 @@ function scripts_site(){
             true
         );
         wp_enqueue_script(
+            'crescendo-lead-attribution',
+            get_template_directory_uri() . '/assets/js/lead-attribution.js',
+            array(),
+            filemtime(get_template_directory() . '/assets/js/lead-attribution.js'),
+            true
+        );
+        wp_enqueue_script(
             'crescendo-contact-form',
             get_template_directory_uri() . '/assets/js/contact-form.js',
-            array('script-js'),
+            array('script-js', 'crescendo-lead-attribution'),
             filemtime(get_template_directory() . '/assets/js/contact-form.js'),
             true
         );
@@ -122,6 +131,7 @@ function scripts_site(){
             'wp_home_url' => HOME_URL,
             'exampleNonce' => wp_create_nonce('exampleNonce'),
             'contactFormNonce' => wp_create_nonce('crescendo_contact_form'),
+            'contactThankYouUrl' => crescendo_get_contact_thank_you_url(),
             // 'bug_report_id' =>  get_field('params-bugreport-id', 'options')
         );
         wp_localize_script('script-js', 'ParamsData', $dataToBePassed);

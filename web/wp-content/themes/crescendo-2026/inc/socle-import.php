@@ -15,6 +15,10 @@ function crescendo_socle_get_template(array $data) {
         return 'template-sitemap.php';
     }
 
+    if ($template === 'thank-you') {
+        return 'template-thank-you.php';
+    }
+
     $slug = sanitize_title($data['page']['slug'] ?? '');
     if ($slug === 'a-propos') {
         return 'template-about.php';
@@ -22,6 +26,10 @@ function crescendo_socle_get_template(array $data) {
 
     if ($slug === 'plan-du-site') {
         return 'template-sitemap.php';
+    }
+
+    if ($slug === 'merci') {
+        return 'template-thank-you.php';
     }
 
     return 'template-legal.php';
@@ -36,6 +44,10 @@ function crescendo_socle_get_field_prefix(array $data) {
 
     if ($template === 'template-sitemap.php') {
         return 'sitemap-';
+    }
+
+    if ($template === 'template-thank-you.php') {
+        return 'thank-you-';
     }
 
     return 'legal-';

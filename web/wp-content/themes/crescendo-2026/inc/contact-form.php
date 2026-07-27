@@ -2,6 +2,37 @@
 
 define('CRESCENDO_LEAD_NOTIFY_EMAIL', 'b.vidal@crescendo-studio.io');
 
+function crescendo_get_contact_thank_you_url() {
+    static $url = null;
+
+    if ($url !== null) {
+        return $url;
+    }
+
+    $page = get_page_by_path('merci', OBJECT, 'page');
+    $url = $page ? get_permalink($page) : home_url('/merci/');
+
+    return apply_filters('crescendo_contact_thank_you_url', $url);
+}
+
+function crescendo_ensure_thank_you_page() {
+    if (get_option('crescendo_thank_you_page_v1')) {
+        return;
+    }
+
+    if (!did_action('init') || !function_exists('crescendo_import_socle_from_json_file') || !function_exists('crescendo_find_content_import_file')) {
+        return;
+    }
+
+    $file = crescendo_find_content_import_file('socle', 'merci.json');
+    if ($file) {
+        crescendo_import_socle_from_json_file($file);
+    }
+
+    update_option('crescendo_thank_you_page_v1', 1, false);
+}
+add_action('init', 'crescendo_ensure_thank_you_page', 5);
+
 function crescendo_register_lead_post_type() {
     register_post_type('crescendo_lead', array(
         'labels' => array(
@@ -28,7 +59,7 @@ function crescendo_register_lead_post_type() {
 add_action('init', 'crescendo_register_lead_post_type');
 
 function crescendo_lead_meta_keys() {
-    return array(
+    return array_merge(array(
         'lead_prenom',
         'lead_nom',
         'lead_email',
@@ -58,7 +89,7 @@ function crescendo_lead_meta_keys() {
         'lead_rgpd_consent',
         'lead_rgpd_consent_date',
         'lead_rgpd_consent_version',
-    );
+    ), crescendo_lead_attribution_meta_keys());
 }
 
 function crescendo_get_contact_projet_options() {
@@ -400,6 +431,13 @@ function crescendo_format_lead_summary($lead_id) {
         }
     }
 
+    $attribution = crescendo_format_lead_attribution_summary($lead_id);
+    if ($attribution !== '') {
+        $lines[] = '';
+        $lines[] = '--- Acquisition ---';
+        $lines[] = $attribution;
+    }
+
     return implode("\n", $lines);
 }
 
@@ -413,7 +451,6 @@ function crescendo_format_lead_step2_summary($lead_id) {
         'lead_objectifs' => 'Objectifs principaux',
         'lead_pages' => 'Pages / sections prévues',
         'lead_fonctionnalites' => 'Fonctionnalités souhaitées',
-        'lead_prestations' => 'Prestations souhaitées',
         'lead_contenu_pret' => 'Contenu prêt',
         'lead_budget' => 'Budget',
         'lead_delai' => 'Délai souhaité',
@@ -436,7 +473,12 @@ function crescendo_send_lead_notification($lead_id, $subject_prefix, $body_intro
     $to = apply_filters('crescendo_lead_notify_email', CRESCENDO_LEAD_NOTIFY_EMAIL);
     $full_name = crescendo_get_lead_full_name($lead_id);
     $entreprise = get_post_meta($lead_id, 'lead_entreprise', true);
-    $subject = sprintf('[%s] %s — %s', crescendo_brand_name(), $subject_prefix, $entreprise ?: $full_name);
+    $channel = get_post_meta($lead_id, 'lead_channel', true);
+    if ($channel !== '') {
+        $subject = sprintf('[%s] [%s] %s — %s', crescendo_brand_name(), $channel, $subject_prefix, $entreprise ?: $full_name);
+    } else {
+        $subject = sprintf('[%s] %s — %s', crescendo_brand_name(), $subject_prefix, $entreprise ?: $full_name);
+    }
     $body = $body_intro . "\n\n";
     $body .= crescendo_format_lead_summary($lead_id);
 
@@ -568,7 +610,7 @@ function crescendo_contact_form_step1_callback() {
         ));
     }
 
-    crescendo_save_lead_meta($lead_id, array(
+    crescendo_save_lead_meta($lead_id, array_merge(array(
         'lead_prenom' => $prenom,
         'lead_nom' => $nom,
         'lead_email' => $email,
@@ -584,7 +626,7 @@ function crescendo_contact_form_step1_callback() {
         'lead_rgpd_consent' => '1',
         'lead_rgpd_consent_date' => current_time('mysql'),
         'lead_rgpd_consent_version' => $rgpd_consent_version,
-    ));
+    ), crescendo_get_lead_attribution_from_post()));
 
     crescendo_send_lead_notification($lead_id, 'Nouvelle demande', 'Nouvelle demande de contact reçue.');
     crescendo_contact_form_register_attempt();
@@ -635,8 +677,6 @@ function crescendo_contact_form_step2_callback() {
     $budget = sanitize_text_field(wp_unslash($_POST['budget'] ?? ''));
     $delai = sanitize_text_field(wp_unslash($_POST['delai'] ?? ''));
 
-    $prestations = crescendo_sanitize_lead_prestations($_POST['prestations'] ?? array());
-
     $meta = array(
         'lead_secteur_activite' => sanitize_text_field(wp_unslash($_POST['secteur_activite'] ?? '')),
         'lead_site_existant' => crescendo_sanitize_lead_url($_POST['site_existant'] ?? ''),
@@ -654,10 +694,6 @@ function crescendo_contact_form_step2_callback() {
         'lead_step2_completed' => '1',
     );
 
-    if (!empty($prestations)) {
-        $meta['lead_prestations'] = implode(', ', $prestations);
-    }
-
     crescendo_save_lead_meta($lead_id, $meta);
 
     $upload_errors = crescendo_process_lead_uploads($lead_id);
@@ -673,6 +709,7 @@ function crescendo_contact_form_step2_callback() {
     wp_send_json(array(
         'status' => 200,
         'message' => $message,
+        'redirect_url' => crescendo_get_contact_thank_you_url(),
     ));
 }
 add_action('wp_ajax_crescendo_contact_step2', 'crescendo_contact_form_step2_callback');
@@ -773,6 +810,7 @@ function crescendo_lead_admin_columns($columns) {
         $new[$key] = $label;
         if ($key === 'title') {
             $new['lead_email'] = 'Email';
+            $new['lead_channel'] = 'Canal';
             $new['lead_projet'] = 'Projet';
             $new['lead_step2'] = 'Détails';
         }
@@ -786,6 +824,10 @@ function crescendo_lead_admin_column_content($column, $post_id) {
     switch ($column) {
         case 'lead_email':
             echo esc_html(get_post_meta($post_id, 'lead_email', true));
+            break;
+        case 'lead_channel':
+            $channel = get_post_meta($post_id, 'lead_channel', true);
+            echo esc_html($channel ? crescendo_get_lead_channel_label($channel) : '—');
             break;
         case 'lead_projet':
             $prestations = get_post_meta($post_id, 'lead_prestations', true);
@@ -823,6 +865,20 @@ function crescendo_render_lead_admin_meta_box($post) {
             'lead_besoin' => 'Besoin',
             'lead_source' => 'Source',
             'lead_source_url' => 'URL source',
+        ),
+        'Acquisition' => array(
+            'lead_channel' => 'Canal',
+            'lead_utm_source' => 'UTM source',
+            'lead_utm_medium' => 'UTM medium',
+            'lead_utm_campaign' => 'UTM campaign',
+            'lead_utm_term' => 'UTM term',
+            'lead_utm_content' => 'UTM content',
+            'lead_gclid' => 'GCLID',
+            'lead_msclkid' => 'MSCLKID',
+            'lead_landing_page' => 'Landing page',
+            'lead_referrer' => 'Referrer',
+        ),
+        'Conformité' => array(
             'lead_rgpd_consent' => 'Consentement RGPD',
             'lead_rgpd_consent_date' => 'Date consentement RGPD',
             'lead_rgpd_consent_version' => 'Version consentement RGPD',
@@ -852,6 +908,9 @@ function crescendo_render_lead_admin_meta_box($post) {
             $value = get_post_meta($post->ID, $key, true);
             if ($key === 'lead_projet') {
                 $value = crescendo_get_lead_projet_label($value);
+            }
+            if ($key === 'lead_channel') {
+                $value = crescendo_get_lead_channel_label($value);
             }
             if ($key === 'lead_rgpd_consent') {
                 $value = $value ? 'Oui' : '';

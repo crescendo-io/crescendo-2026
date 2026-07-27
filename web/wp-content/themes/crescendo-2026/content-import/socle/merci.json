@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Merci",
+    "slug": "merci",
+    "template": "thank-you",
+    "status": "publish",
+    "menu_order": 98,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Merci pour votre demande | Crescendo Studio",
+    "meta_description": "Votre demande de devis a bien été envoyée à Crescendo Studio. Nous revenons vers vous rapidement avec une proposition adaptée à votre projet web.",
+    "focus_keyword": "",
+    "canonical": "https://www.crescendo-studio.io/merci/",
+    "noindex": true
+  },
+  "fields": {
+    "thank-you-hero-title": "Merci pour votre demande !",
+    "thank-you-hero-intro": "Votre projet est bien enregistré. Nous l'étudions et revenons vers vous rapidement — en général sous 24 à 48 h ouvrées.",
+    "thank-you-next-steps": "<p><strong>Et ensuite ?</strong></p><ul><li>Nous analysons votre besoin et vos prestations sélectionnées.</li><li>Nous vous proposons un premier échange ou une maquette gratuite sous 48 h si votre projet le permet.</li><li>Vous gardez la main : aucun engagement tant que la direction ne vous convient pas.</li></ul>"
+  }
+}

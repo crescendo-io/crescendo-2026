@@ -33,16 +33,6 @@ $delaiOptions = crescendo_get_contact_delai_options();
                 <input type="text" name="website" value="" tabindex="-1" autocomplete="off" class="crescendo-contact-form__honeypot" aria-hidden="true">
 
                 <div class="home-form__full crescendo-contact-modal__section">
-                    <h3 class="crescendo-contact-modal__section-title">Prestations souhaitées</h3>
-                </div>
-
-                <?php crescendo_render_prestation_tags(array(
-                    'legend' => '',
-                    'hint' => '',
-                    'required' => false,
-                )); ?>
-
-                <div class="home-form__full crescendo-contact-modal__section">
                     <h3 class="crescendo-contact-modal__section-title">Entreprise & site actuel</h3>
                 </div>
 

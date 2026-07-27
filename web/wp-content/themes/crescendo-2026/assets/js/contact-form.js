@@ -26,20 +26,27 @@
         return consent && consent.checked;
     }
 
-    function syncPrestations(fromForm, toForm) {
-        var checked = fromForm.querySelectorAll('input[name="prestations[]"]:checked');
-        toForm.querySelectorAll('input[name="prestations[]"]').forEach(function (input) {
-            input.checked = false;
-        });
-        checked.forEach(function (input) {
-            var match = toForm.querySelector('input[name="prestations[]"][value="' + input.value + '"]');
-            if (match) {
-                match.checked = true;
-            }
-        });
+    function getThankYouUrl(data) {
+        if (data && data.redirect_url) {
+            return data.redirect_url;
+        }
+
+        if (typeof ParamsData !== 'undefined' && ParamsData.contactThankYouUrl) {
+            return ParamsData.contactThankYouUrl;
+        }
+
+        return '/merci/';
+    }
+
+    function redirectToThankYou(data) {
+        window.location.assign(getThankYouUrl(data));
     }
 
     function postForm(form, onSuccess) {
+        if (window.CrescendoLeadAttribution) {
+            window.CrescendoLeadAttribution.applyToForm(form);
+        }
+
         var formData = new window.FormData(form);
         formData.append('nonce', ParamsData.contactFormNonce);
 
@@ -78,7 +85,6 @@
             step2Form.querySelector('[name="lead_id"]').value = leadId;
             step2Form.querySelector('[name="lead_key"]').value = leadKey;
             setFeedback(feedbackStep2, '', false);
-            syncPrestations(step1Form, step2Form);
             lastFocus = document.activeElement;
             modal.setAttribute('aria-hidden', 'false');
             document.body.classList.add('no-scroll');
@@ -119,6 +125,9 @@
             postForm(step1Form, function (data) {
                 setFeedback(feedbackStep1, data.message, false);
                 step1Form.reset();
+                if (window.CrescendoLeadAttribution) {
+                    window.CrescendoLeadAttribution.applyToForm(step1Form);
+                }
                 openModal(data.lead_id, data.lead_key);
             })
                 .catch(function (error) {
@@ -135,9 +144,7 @@
             setLoading(submitStep2, true);
 
             postForm(step2Form, function (data) {
-                setFeedback(feedbackStep2, data.message, false);
-                step2Form.reset();
-                window.setTimeout(closeModal, 1800);
+                redirectToThankYou(data);
             })
                 .catch(function (error) {
                     setFeedback(feedbackStep2, error.message, true);

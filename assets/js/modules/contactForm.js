@@ -58,6 +58,22 @@ export default (root) => {
         }
     };
 
+    const getThankYouUrl = (data) => {
+        if (data && data.redirect_url) {
+            return data.redirect_url;
+        }
+
+        if (ParamsData.contactThankYouUrl) {
+            return ParamsData.contactThankYouUrl;
+        }
+
+        return '/merci/';
+    };
+
+    const redirectToThankYou = (data) => {
+        window.location.assign(getThankYouUrl(data));
+    };
+
     const postForm = (form, onSuccess) => {
         const formData = new window.FormData(form);
         formData.append('nonce', ParamsData.contactFormNonce);
@@ -111,8 +127,7 @@ export default (root) => {
         setLoading(submitStep2, true);
 
         postForm(step2Form, (data) => {
-            setFeedback(feedbackStep2, data.message, false);
-            window.setTimeout(closeModal, 1800);
+            redirectToThankYou(data);
         })
             .catch((error) => {
                 setFeedback(feedbackStep2, error.message, true);
