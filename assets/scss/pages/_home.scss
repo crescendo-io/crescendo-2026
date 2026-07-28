@@ -69,6 +69,8 @@
         position: relative;
         aspect-ratio: 5 / 4;
         min-height: 32rem;
+        max-height: 100vh;
+        overflow: hidden;
 
         > .media-loader {
             position: absolute;
