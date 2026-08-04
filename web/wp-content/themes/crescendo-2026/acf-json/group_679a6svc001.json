@@ -31,6 +31,40 @@
             ]
         },
 
+        { "key": "field_679a6svctaboffers", "label": "Offres", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a6svcoff001", "label": "Sur-titre", "name": "services-offers-eyebrow", "type": "text" },
+        { "key": "field_679a6svcoff002", "label": "Titre H2", "name": "services-offers-title", "type": "text" },
+        { "key": "field_679a6svcoff003", "label": "Intro", "name": "services-offers-intro", "type": "textarea", "rows": 3 },
+        {
+            "key": "field_679a6svcoff004",
+            "label": "Cartes offres",
+            "name": "services-offers",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter une offre",
+            "sub_fields": [
+                { "key": "field_679a6svcoff005", "label": "Sur-titre", "name": "eyebrow", "type": "text" },
+                { "key": "field_679a6svcoff006", "label": "Titre", "name": "title", "type": "text", "required": 1 },
+                { "key": "field_679a6svcoff007", "label": "Description", "name": "text", "type": "textarea", "rows": 3 },
+                { "key": "field_679a6svcoff008", "label": "Prix", "name": "price", "type": "text" },
+                { "key": "field_679a6svcoff009", "label": "Suffixe prix", "name": "price_suffix", "type": "text", "instructions": "Ex. /mois HT, HT, audit gratuit" },
+                {
+                    "key": "field_679a6svcoff010",
+                    "label": "Points clés",
+                    "name": "features",
+                    "type": "repeater",
+                    "layout": "table",
+                    "button_label": "Ajouter",
+                    "sub_fields": [
+                        { "key": "field_679a6svcoff011", "label": "Texte", "name": "text", "type": "text" }
+                    ]
+                },
+                { "key": "field_679a6svcoff012", "label": "URL", "name": "url", "type": "url" },
+                { "key": "field_679a6svcoff013", "label": "Libellé du lien", "name": "cta_title", "type": "text" },
+                { "key": "field_679a6svcoff014", "label": "Mettre en avant", "name": "featured", "type": "true_false", "ui": 1 }
+            ]
+        },
+
         { "key": "field_679a6svctablist", "label": "Liste", "name": "", "type": "tab", "placement": "top" },
         { "key": "field_679a6svclist001", "label": "Sur-titre", "name": "services-list-eyebrow", "type": "text" },
         { "key": "field_679a6svclist002", "label": "Titre H2", "name": "services-list-title", "type": "text" },

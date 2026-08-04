@@ -67,6 +67,92 @@ function crescendo_get_services_hub_children($post_id = null) {
     ));
 }
 
+function crescendo_get_services_hub_offers($post_id = null) {
+    $post_id = $post_id ?: get_the_ID();
+    $offers = crescendo_services_hub('services-offers', $post_id);
+
+    if (!empty($offers)) {
+        return array_values(array_filter(array_map(function ($offer) {
+            if (empty($offer['title'])) {
+                return null;
+            }
+
+            $features = array();
+            if (!empty($offer['features']) && is_array($offer['features'])) {
+                foreach ($offer['features'] as $feature) {
+                    $text = is_array($feature) ? ($feature['text'] ?? '') : $feature;
+                    if ($text !== '') {
+                        $features[] = array('text' => $text);
+                    }
+                }
+            }
+
+            return array(
+                'eyebrow' => $offer['eyebrow'] ?? '',
+                'title' => $offer['title'],
+                'text' => $offer['text'] ?? '',
+                'price' => $offer['price'] ?? '',
+                'price_suffix' => $offer['price_suffix'] ?? '',
+                'features' => $features,
+                'url' => $offer['url'] ?? '',
+                'cta_title' => $offer['cta_title'] ?? 'Découvrir l\'offre →',
+                'featured' => !empty($offer['featured']),
+            );
+        }, $offers)));
+    }
+
+    return array(
+        array(
+            'eyebrow' => 'Achat · Propriété du site',
+            'title' => 'Achat de votre site internet',
+            'text' => 'Site WordPress sur mesure, design premium et SEO intégré. Vous êtes propriétaire du site et de son contenu.',
+            'price' => 'Dès 3 000 €',
+            'price_suffix' => 'HT',
+            'features' => array(
+                array('text' => 'Design UX/UI personnalisé'),
+                array('text' => 'WordPress 100 % sur mesure'),
+                array('text' => 'SEO technique et éditorial'),
+                array('text' => 'Formation à l\'administration'),
+            ),
+            'url' => home_url('/services/creation-site-web-nantes/'),
+            'cta_title' => 'Voir la création de site →',
+            'featured' => false,
+        ),
+        array(
+            'eyebrow' => 'Location · Tout inclus',
+            'title' => 'Location de votre site internet',
+            'text' => 'Formule clé en main sans frais de création : hébergement, maintenance, mises à jour et SEO de base inclus.',
+            'price' => '350 €',
+            'price_suffix' => '/mois HT',
+            'features' => array(
+                array('text' => 'Zéro investissement initial'),
+                array('text' => 'Création et refonte incluses'),
+                array('text' => 'Hébergement premium et sauvegardes'),
+                array('text' => 'Support réactif à Nantes'),
+            ),
+            'url' => home_url('/services/location-site-internet/'),
+            'cta_title' => 'Voir la location →',
+            'featured' => true,
+        ),
+        array(
+            'eyebrow' => 'CRM · Connecté au site',
+            'title' => 'Création de CRM sur mesure',
+            'text' => 'CRM connecté à votre site WordPress pour capturer, qualifier et suivre vos leads — sans Excel ni double saisie.',
+            'price' => 'Sur devis',
+            'price_suffix' => 'audit gratuit',
+            'features' => array(
+                array('text' => 'Connexion native site ↔ CRM'),
+                array('text' => 'HubSpot, Pipedrive ou custom'),
+                array('text' => 'Workflows et relances automatisés'),
+                array('text' => 'Formation de vos équipes'),
+            ),
+            'url' => home_url('/services/crm-sur-mesure-nantes/'),
+            'cta_title' => 'Voir le CRM sur mesure →',
+            'featured' => false,
+        ),
+    );
+}
+
 function crescendo_get_services_hub_cards($post_id = null) {
     $post_id = $post_id ?: get_the_ID();
     $cards = crescendo_services_hub('services-cards', $post_id);

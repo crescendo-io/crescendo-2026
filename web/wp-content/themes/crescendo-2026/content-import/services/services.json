@@ -42,6 +42,59 @@
         "label": "Services disponibles"
       }
     ],
+    "services-offers-eyebrow": "Nos formules",
+    "services-offers-title": "Trois façons de lancer votre projet web",
+    "services-offers-intro": "Que vous souhaitiez acheter, louer ou connecter votre site à un CRM, chaque offre inclut un accompagnement de proximité à Nantes et une approche SEO dès la conception.",
+    "services-offers": [
+      {
+        "eyebrow": "Achat · Propriété du site",
+        "title": "Achat de votre site internet",
+        "text": "Site WordPress sur mesure, design premium et SEO intégré. Vous êtes propriétaire du site et de son contenu.",
+        "price": "Dès 3 000 €",
+        "price_suffix": "HT",
+        "features": [
+          { "text": "Design UX/UI personnalisé" },
+          { "text": "WordPress 100 % sur mesure" },
+          { "text": "SEO technique et éditorial" },
+          { "text": "Formation à l'administration" }
+        ],
+        "url": "/services/creation-site-web-nantes/",
+        "cta_title": "Voir la création de site →",
+        "featured": false
+      },
+      {
+        "eyebrow": "Location · Tout inclus",
+        "title": "Location de votre site internet",
+        "text": "Formule clé en main sans frais de création : hébergement, maintenance, mises à jour et SEO de base inclus.",
+        "price": "350 €",
+        "price_suffix": "/mois HT",
+        "features": [
+          { "text": "Zéro investissement initial" },
+          { "text": "Création et refonte incluses" },
+          { "text": "Hébergement premium et sauvegardes" },
+          { "text": "Support réactif à Nantes" }
+        ],
+        "url": "/services/location-site-internet/",
+        "cta_title": "Voir la location →",
+        "featured": true
+      },
+      {
+        "eyebrow": "CRM · Connecté au site",
+        "title": "Création de CRM sur mesure",
+        "text": "CRM connecté à votre site WordPress pour capturer, qualifier et suivre vos leads — sans Excel ni double saisie.",
+        "price": "Sur devis",
+        "price_suffix": "audit gratuit",
+        "features": [
+          { "text": "Connexion native site ↔ CRM" },
+          { "text": "HubSpot, Pipedrive ou custom" },
+          { "text": "Workflows et relances automatisés" },
+          { "text": "Formation de vos équipes" }
+        ],
+        "url": "/services/crm-sur-mesure-nantes/",
+        "cta_title": "Voir le CRM sur mesure →",
+        "featured": false
+      }
+    ],
     "services-list-eyebrow": "Nos expertises",
     "services-list-title": "Tous nos services web pour votre entreprise",
     "services-cards": [

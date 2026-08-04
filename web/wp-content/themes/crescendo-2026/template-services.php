@@ -14,7 +14,7 @@ while (have_posts()) :
     ?>
     <main id="main" class="main services-page" data-module="servicesPage">
         <?php lsdGetTemplatePart('services', 'block', 'hero'); ?>
-        <?php lsdGetTemplatePart('services', 'block', 'intro'); ?>
+        <?php lsdGetTemplatePart('services', 'block', 'offers'); ?>
         <?php lsdGetTemplatePart('services', 'block', 'list'); ?>
         <?php lsdGetTemplatePart('services', 'block', 'cta'); ?>
     </main>
