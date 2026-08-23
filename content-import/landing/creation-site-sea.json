@@ -1,0 +1,252 @@
+{
+  "version": "1.0",
+  "page": {
+    "title": "Création site internet sur mesure",
+    "slug": "creation-site-internet",
+    "status": "publish",
+    "menu_order": 0,
+    "content": ""
+  },
+  "seo": {
+    "meta_title": "Création site internet sur mesure dès 2 999 € HT | Crescendo Studio",
+    "meta_description": "Site WordPress sur mesure à partir de 2 999 € HT. Design premium, SEO intégré, accompagnement dédié. Estimation gratuite · Agence web Nantes & France.",
+    "focus_keyword": "création site internet",
+    "noindex": true
+  },
+  "fields": {
+    "landing-header-cta-primary": {
+      "title": "Recevoir une estimation gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "landing-hero-rating": 5,
+    "landing-hero-rating-label": "5 étoiles sur 5 sur Google",
+    "landing-hero-rating-url": "",
+    "landing-hero-form-title": "Recevez votre estimation gratuite",
+    "landing-hero-title": "Votre site internet sur mesure",
+    "landing-hero-intro": "Un site professionnel conçu sur mesure pour votre entreprise, pensé pour votre image, votre visibilité et vos objectifs commerciaux.",
+    "landing-hero-price": "2 999 € HT",
+    "landing-hero-price-label": "À partir de",
+    "landing-hero-cta-primary": {
+      "title": "Recevoir une estimation gratuite",
+      "url": "#contact",
+      "target": ""
+    },
+    "landing-hero-cta-secondary": {
+      "title": "Voir des exemples",
+      "url": "#maquettes",
+      "target": ""
+    },
+    "landing-hero-note": "Premier échange gratuit · Réponse sous 24h · Sans engagement",
+    "landing-hero-reassurance": [
+      { "text": "Design sur mesure" },
+      { "text": "WordPress" },
+      { "text": "Optimisé SEO" },
+      { "text": "Responsive" },
+      { "text": "Accompagnement dédié" }
+    ],
+    "landing-projects-title": "Quelques réalisations récentes",
+    "landing-projects": [
+      {
+        "title": "Maison Jaden",
+        "category": "Artisanat & décoration",
+        "tags": "WordPress · Sur mesure",
+        "url": "/realisations/maison-jaden/"
+      },
+      {
+        "title": "Be Focus",
+        "category": "Formation",
+        "tags": "WordPress · Booking",
+        "url": "/realisations/be-focus/"
+      },
+      {
+        "title": "Ludovic Géhéniaux",
+        "category": "Artisan",
+        "tags": "WordPress · SEO local",
+        "url": "/realisations/ludovic-geheniaux/"
+      },
+      {
+        "title": "Atelier Gambetta",
+        "category": "Architecture",
+        "tags": "WordPress · Portfolio",
+        "url": "/realisations/atelier-gambetta/"
+      },
+      {
+        "title": "Bag X Pro",
+        "category": "Industrie B2B",
+        "tags": "WordPress · Catalogue",
+        "url": "/realisations/bag-x-pro/"
+      }
+    ],
+    "landing-included-title": "Ce qui est compris à partir de 2 999 €",
+    "landing-included-items": [
+      {
+        "title": "Design sur mesure",
+        "text": "Une interface conçue spécifiquement pour votre entreprise et votre identité."
+      },
+      {
+        "title": "Développement WordPress",
+        "text": "Un site performant et administrable, développé proprement sans page builder."
+      },
+      {
+        "title": "Responsive",
+        "text": "Une expérience optimisée ordinateur, tablette et mobile."
+      },
+      {
+        "title": "Fondations SEO",
+        "text": "Structure technique, balises et performances pensées pour le référencement naturel."
+      },
+      {
+        "title": "Accompagnement",
+        "text": "Un interlocuteur unique pendant toute la réalisation."
+      },
+      {
+        "title": "Mise en ligne",
+        "text": "Configuration et accompagnement jusqu'à la mise en production."
+      }
+    ],
+    "landing-why-title": "Pourquoi confier votre site à Crescendo ?",
+    "landing-why-items": [
+      { "text": "Plus de 10 ans d'expérience web (agence fondée en 2016)" },
+      { "text": "Conception réellement sur mesure — pas de template générique" },
+      { "text": "Interlocuteur unique du cadrage à la mise en ligne" },
+      { "text": "Expertise technique WordPress et performance" },
+      { "text": "Accompagnement humain et réactif" },
+      { "text": "Approche orientée visibilité et objectifs commerciaux" },
+      { "text": "Basés à Nantes — projets partout en France" }
+    ],
+    "landing-pricing-title": "Deux façons de créer votre site",
+    "landing-pricing-alt-intro": "Vous préférez éviter l'investissement initial ?",
+    "landing-pricing-buy": {
+      "label": "Achat",
+      "price": "À partir de 2 999 € HT",
+      "text": "Pour les entreprises qui souhaitent financer directement leur création de site et en rester propriétaires.",
+      "cta": {
+        "title": "Demander une estimation",
+        "url": "#contact",
+        "target": ""
+      }
+    },
+    "landing-pricing-rent": {
+      "label": "Formule tout compris",
+      "price": "À partir de 350 € HT/mois",
+      "badge": "0 € de frais de création",
+      "text": "Création, hébergement, maintenance et accompagnement selon les conditions de l'offre location.",
+      "cta": {
+        "title": "Demander une estimation",
+        "url": "#contact",
+        "target": ""
+      }
+    },
+    "landing-process-title": "Un processus simple et rassurant",
+    "landing-process-steps": [
+      {
+        "title": "Échange",
+        "text": "Nous discutons de votre activité, de vos objectifs et de votre projet."
+      },
+      {
+        "title": "Proposition",
+        "text": "Vous recevez une recommandation et un budget adaptés à votre besoin."
+      },
+      {
+        "title": "Conception",
+        "text": "Création de la direction graphique et des interfaces sur mesure."
+      },
+      {
+        "title": "Développement",
+        "text": "Développement WordPress, intégration responsive et fondations SEO."
+      },
+      {
+        "title": "Mise en ligne",
+        "text": "Recette, optimisation et lancement de votre site."
+      }
+    ],
+    "landing-proof-stats": [
+      { "value": "2016", "label": "Agence fondée" },
+      { "value": "80+", "label": "Projets livrés" },
+      { "value": "48h", "label": "Maquette gratuite" },
+      { "value": "100%", "label": "WordPress sur mesure" }
+    ],
+    "landing-testimonials-title": "Ce que disent nos clients",
+    "landing-testimonials-items": [
+      {
+        "quote": "Crescendo a transformé notre présence en ligne. Le site génère des leads qualifiés chaque semaine.",
+        "name": "Julien M.",
+        "company": "Maison Jaden",
+        "rating": 5
+      },
+      {
+        "quote": "Professionnels, réactifs et transparents sur les tarifs. La location à 350€/mois était parfaite pour nous.",
+        "name": "Sophie L.",
+        "company": "Be Focus",
+        "rating": 5
+      },
+      {
+        "quote": "Le CRM connecté à notre site a changé notre façon de gérer les prospects. Un vrai gain de temps.",
+        "name": "Thomas R.",
+        "company": "Atelier Gambetta",
+        "rating": 5
+      },
+      {
+        "quote": "Une équipe à l'écoute, des délais tenus et un site qui reflète enfin l'identité de notre agence.",
+        "name": "Camille P.",
+        "company": "Padam Immo",
+        "rating": 5
+      },
+      {
+        "quote": "Refonte soignée, meilleure visibilité locale et un accompagnement clair du début à la mise en ligne.",
+        "name": "Ludovic G.",
+        "company": "Ludovic Géhéniaux",
+        "rating": 5
+      },
+      {
+        "quote": "Site livré clé en main avec une prise en main simple. Nous sommes autonomes au quotidien.",
+        "name": "Marc B.",
+        "company": "Bag X Pro",
+        "rating": 5
+      }
+    ],
+    "landing-faq-title": "Questions fréquentes",
+    "landing-faq-items": [
+      {
+        "question": "Combien coûte la création d'un site internet ?",
+        "answer": "Nos sites sur mesure démarrent à 2 999 € HT selon le périmètre (nombre de pages, fonctionnalités, contenu). Nous établissons un devis précis après un premier échange gratuit."
+      },
+      {
+        "question": "Que comprend le tarif à partir de 2 999 € ?",
+        "answer": "Design sur mesure, développement WordPress, responsive, fondations SEO, accompagnement et mise en ligne. Les options spécifiques (e-commerce, multilingue, CRM) font l'objet d'un chiffrage dédié."
+      },
+      {
+        "question": "Combien de temps faut-il pour créer un site ?",
+        "answer": "Comptez en général 4 à 8 semaines pour un site vitrine sur mesure, selon la complexité et la rapidité de validation des contenus."
+      },
+      {
+        "question": "Le site m'appartient-il ?",
+        "answer": "En formule achat, oui : vous êtes propriétaire du site et de son contenu. En formule location, le site est mis à disposition tant que l'abonnement est actif."
+      },
+      {
+        "question": "Puis-je modifier mon site moi-même ?",
+        "answer": "Oui. WordPress est administrable : nous vous formons à la gestion des contenus essentiels après la mise en ligne."
+      },
+      {
+        "question": "Travaillez-vous uniquement à Nantes et Saint-Nazaire ?",
+        "answer": "Nous sommes basés en Loire-Atlantique (Nantes, Saint-Nazaire) et accompagnons des entreprises partout en France, en présentiel ou à distance."
+      },
+      {
+        "question": "Quelle différence entre l'achat et la formule à 350 €/mois ?",
+        "answer": "L'achat implique un investissement initial (dès 2 999 € HT) et vous rend propriétaire du site. La formule à 350 €/mois inclut la création sans frais initiaux, plus hébergement, maintenance et accompagnement."
+      }
+    ],
+    "landing-form-title": "Parlons de votre projet",
+    "landing-form-intro": "Décrivez votre projet en quelques lignes : nous vous recontactons sous 24 h ouvrées avec une première estimation et des recommandations adaptées à votre activité.",
+    "landing-form-reassurance": [
+      { "text": "Premier échange gratuit et sans engagement" },
+      { "text": "Réponse personnalisée sous 24 h ouvrées" },
+      { "text": "Devis clair : achat ou formule tout compris" },
+      { "text": "Interlocuteur unique du cadrage à la mise en ligne" },
+      { "text": "Agence basée à Nantes — projets partout en France" }
+    ],
+    "landing-sticky-cta-label": "Recevoir une estimation gratuite",
+    "landing-sticky-cta-url": "#contact"
+  }
+}

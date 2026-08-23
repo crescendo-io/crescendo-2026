@@ -11,6 +11,9 @@ function crescendo_performance_resource_hints() {
     $theme_uri = get_template_directory_uri();
     $fonts = array(
         'poppins-latin-400.woff2',
+        'poppins-latin-ext-400.woff2',
+        'poppins-latin-500.woff2',
+        'poppins-latin-600.woff2',
         'poppins-latin-700.woff2',
     );
 

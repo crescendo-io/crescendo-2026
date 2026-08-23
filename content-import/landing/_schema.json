@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "description": "Import landing page Google Ads SEA",
+  "page": {
+    "title": "string (required)",
+    "slug": "string (required)",
+    "status": "publish|draft",
+    "menu_order": "number",
+    "content": "string"
+  },
+  "seo": {
+    "meta_title": "string",
+    "meta_description": "string",
+    "focus_keyword": "string",
+    "canonical": "url",
+    "noindex": "boolean (recommended true for paid-only URLs)"
+  },
+  "fields": {
+    "landing-*": "Champs ACF préfixés landing- — voir group_679a12landing1.json"
+  }
+}

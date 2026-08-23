@@ -111,6 +111,7 @@ body.no-scroll {
 .home-form:has(.crescendo-contact-form-shell),
 .contact-hero__form:has(.crescendo-contact-form-shell),
 .secteur-final-cta__form-wrap:has(.crescendo-contact-form-shell),
+.landing-form__form-wrap:has(.crescendo-contact-form-shell),
 .local-final-cta__form-wrap:has(.crescendo-contact-form-shell),
 .service-contact__form:has(.crescendo-contact-form-shell) {
     padding: 0;
@@ -320,9 +321,16 @@ body.no-scroll {
         }
     }
 
-    &--compact {
+    &--compact,
+    &--landing {
         .home-form__fields {
             grid-template-columns: 1fr;
+        }
+    }
+
+    &--landing {
+        .crescendo-contact-form__submit {
+            width: 100%;
         }
     }
 

@@ -544,6 +544,7 @@ function crescendo_fallback_head_meta() {
         || (function_exists('crescendo_is_legal_page') && is_page() && crescendo_is_legal_page())
         || (function_exists('crescendo_is_sitemap_page') && is_page() && crescendo_is_sitemap_page())
         || (function_exists('crescendo_is_thank_you_page') && is_page() && crescendo_is_thank_you_page())
+        || (function_exists('crescendo_is_landing_page') && is_page() && crescendo_is_landing_page())
         || (function_exists('crescendo_is_realisations_page') && is_page() && crescendo_is_realisations_page())
         || (function_exists('crescendo_is_project_page') && is_page() && crescendo_is_project_page())
     );

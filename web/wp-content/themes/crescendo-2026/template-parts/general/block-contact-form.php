@@ -11,8 +11,13 @@ $args = wp_parse_args($args, array(
     'wrapper_class' => '',
 ));
 
-$variant = $args['variant'] === 'compact' ? 'compact' : 'default';
+$variant = in_array($args['variant'], array('compact', 'landing'), true) ? $args['variant'] : 'default';
 $defaultPrestations = $args['projet_default'] ? array($args['projet_default']) : array();
+$hidePrestations = !empty($args['hide_prestations']) || $variant === 'landing';
+$showBesoin = array_key_exists('show_besoin', $args)
+    ? (bool) $args['show_besoin']
+    : ($variant === 'default');
+$prestationDefaults = $defaultPrestations ?: array('site');
 $wrapperClasses = array('crescendo-contact-form', 'crescendo-contact-form--' . $variant);
 if ($args['wrapper_class']) {
     $wrapperClasses[] = $args['wrapper_class'];
@@ -60,19 +65,30 @@ if ($args['wrapper_class']) {
             <input type="tel" name="telephone" autocomplete="tel">
         </label>
 
-        <?php
-        crescendo_render_prestation_tags(array(
-            'legend' => 'Prestations souhaitées',
-            'hint' => 'Plusieurs choix possibles',
-            'required' => true,
-            'default_values' => $defaultPrestations,
-        ));
-        ?>
+        <?php if ($hidePrestations) : ?>
+            <?php foreach ($prestationDefaults as $prestationSlug) : ?>
+                <input type="hidden" name="prestations[]" value="<?php echo esc_attr($prestationSlug); ?>">
+            <?php endforeach; ?>
+        <?php else : ?>
+            <?php
+            crescendo_render_prestation_tags(array(
+                'legend' => 'Prestations souhaitées',
+                'hint' => 'Plusieurs choix possibles',
+                'required' => true,
+                'default_values' => $defaultPrestations,
+            ));
+            ?>
+        <?php endif; ?>
 
-        <?php if ($variant === 'default') : ?>
+        <?php if ($showBesoin) : ?>
             <label class="home-form__full">
-                <span>Votre besoin en quelques mots *</span>
-                <textarea name="besoin" rows="4" required placeholder="Ex. : refonte de notre site vitrine, génération de leads, connexion CRM…"></textarea>
+                <span>Votre besoin en quelques mots<?php echo $variant === 'default' ? ' *' : ''; ?></span>
+                <textarea
+                    name="besoin"
+                    rows="<?php echo $variant === 'compact' ? 3 : 4; ?>"
+                    <?php echo $variant === 'default' ? 'required' : ''; ?>
+                    placeholder="Ex. : refonte de notre site vitrine, génération de leads, connexion CRM…"
+                ></textarea>
             </label>
         <?php endif; ?>
 

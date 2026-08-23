@@ -1,0 +1,228 @@
+{
+    "key": "group_679a12landing1",
+    "title": "Landing SEA — Contenu",
+    "fields": [
+        { "key": "field_679a12tabseo", "label": "SEO", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a12seotitle", "label": "Meta title", "name": "landing-seo-meta-title", "type": "text" },
+        { "key": "field_679a12seodesc", "label": "Meta description", "name": "landing-seo-meta-description", "type": "textarea", "rows": 3 },
+        { "key": "field_679a12seokey", "label": "Mot-clé principal", "name": "landing-seo-focus-keyword", "type": "text" },
+        { "key": "field_679a12seocan", "label": "URL canonique", "name": "landing-seo-canonical", "type": "url" },
+        { "key": "field_679a12seonoix", "label": "Noindex", "name": "landing-seo-noindex", "type": "true_false", "ui": 1, "instructions": "Recommandé pour les URLs Google Ads dédiées." },
+
+        { "key": "field_679a12tabhdr", "label": "Header", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a12hdrcta", "label": "CTA header", "name": "landing-header-cta-primary", "type": "link" },
+
+        { "key": "field_679a12tabhero", "label": "Hero", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a12herorating", "label": "Note hero (/5)", "name": "landing-hero-rating", "type": "number", "min": 0, "max": 5, "step": 1, "default_value": 5, "instructions": "0 pour masquer." },
+        { "key": "field_679a12heroratinglbl", "label": "Label note hero", "name": "landing-hero-rating-label", "type": "text", "default_value": "5 étoiles sur 5 sur Google" },
+        { "key": "field_679a12heroratingurl", "label": "Lien avis Google", "name": "landing-hero-rating-url", "type": "url" },
+        { "key": "field_679a12heroformtitle", "label": "Titre formulaire hero", "name": "landing-hero-form-title", "type": "text", "default_value": "Recevez votre estimation gratuite" },
+        { "key": "field_679a12herotitle", "label": "Titre H1", "name": "landing-hero-title", "type": "text" },
+        { "key": "field_679a12herointro", "label": "Intro", "name": "landing-hero-intro", "type": "textarea", "rows": 3 },
+        { "key": "field_679a12heroprice", "label": "Prix affiché", "name": "landing-hero-price", "type": "text" },
+        { "key": "field_679a12heropricelbl", "label": "Label prix", "name": "landing-hero-price-label", "type": "text" },
+        { "key": "field_679a12herocta1", "label": "CTA principal", "name": "landing-hero-cta-primary", "type": "link" },
+        { "key": "field_679a12herocta2", "label": "CTA secondaire", "name": "landing-hero-cta-secondary", "type": "link" },
+        { "key": "field_679a12heronote", "label": "Note sous CTA", "name": "landing-hero-note", "type": "text" },
+        {
+            "key": "field_679a12heroreass",
+            "label": "Réassurance hero",
+            "name": "landing-hero-reassurance",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a12heroreass1", "label": "Texte", "name": "text", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a12tabmock", "label": "Maquettes", "name": "", "type": "tab", "placement": "top" },
+        {
+            "key": "field_679a12mockups",
+            "label": "Carrousel maquettes",
+            "name": "landing-mockups",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter une maquette",
+            "instructions": "Laisser vide pour réutiliser automatiquement les visuels des réalisations.",
+            "sub_fields": [
+                { "key": "field_679a12mockproj", "label": "Fiche projet", "name": "project", "type": "post_object", "post_type": ["page"], "return_format": "id", "ui": 1, "allow_null": 1 },
+                { "key": "field_679a12mockimg", "label": "Image (override)", "name": "image", "type": "image", "return_format": "array", "preview_size": "medium", "library": "all" },
+                { "key": "field_679a12mockalt", "label": "Texte alternatif", "name": "alt", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a12tabproj", "label": "Réalisations", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a12projtitle", "label": "Titre H2", "name": "landing-projects-title", "type": "text" },
+        {
+            "key": "field_679a12projects",
+            "label": "Projets",
+            "name": "landing-projects",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter un projet",
+            "sub_fields": [
+                { "key": "field_679a12projref", "label": "Fiche projet", "name": "project", "type": "post_object", "post_type": ["page"], "return_format": "id", "ui": 1, "allow_null": 1 },
+                { "key": "field_679a12projtitle2", "label": "Titre (override)", "name": "title", "type": "text" },
+                { "key": "field_679a12projcat", "label": "Secteur", "name": "category", "type": "text" },
+                { "key": "field_679a12projtags", "label": "Tags", "name": "tags", "type": "text" },
+                { "key": "field_679a12projurl", "label": "URL", "name": "url", "type": "url" }
+            ]
+        },
+
+        { "key": "field_679a12tabinc", "label": "Inclus", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a12inctitle", "label": "Titre H2", "name": "landing-included-title", "type": "text" },
+        {
+            "key": "field_679a12incitems",
+            "label": "Items inclus",
+            "name": "landing-included-items",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a12incitem1", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a12incitem2", "label": "Texte", "name": "text", "type": "textarea", "rows": 2 }
+            ]
+        },
+
+        { "key": "field_679a12tabwhy", "label": "Pourquoi", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a12whytitle", "label": "Titre H2", "name": "landing-why-title", "type": "text" },
+        {
+            "key": "field_679a12whyitems",
+            "label": "Arguments",
+            "name": "landing-why-items",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a12whyitem1", "label": "Texte", "name": "text", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a12tabprice", "label": "Formules", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a12pricetitle", "label": "Titre H2", "name": "landing-pricing-title", "type": "text" },
+        { "key": "field_679a12pricealt", "label": "Intro formule location", "name": "landing-pricing-alt-intro", "type": "text" },
+        {
+            "key": "field_679a12pricebuy",
+            "label": "Carte achat",
+            "name": "landing-pricing-buy",
+            "type": "group",
+            "layout": "block",
+            "sub_fields": [
+                { "key": "field_679a12pricebuylbl", "label": "Label", "name": "label", "type": "text" },
+                { "key": "field_679a12pricebuyprice", "label": "Prix", "name": "price", "type": "text" },
+                { "key": "field_679a12pricebuytext", "label": "Texte", "name": "text", "type": "textarea", "rows": 2 },
+                { "key": "field_679a12pricebuycta", "label": "CTA", "name": "cta", "type": "link" }
+            ]
+        },
+        {
+            "key": "field_679a12pricerent",
+            "label": "Carte location",
+            "name": "landing-pricing-rent",
+            "type": "group",
+            "layout": "block",
+            "sub_fields": [
+                { "key": "field_679a12pricerentlbl", "label": "Label", "name": "label", "type": "text" },
+                { "key": "field_679a12pricerentprice", "label": "Prix", "name": "price", "type": "text" },
+                { "key": "field_679a12pricerentbadge", "label": "Badge", "name": "badge", "type": "text" },
+                { "key": "field_679a12pricerenttext", "label": "Texte", "name": "text", "type": "textarea", "rows": 2 },
+                { "key": "field_679a12pricerentcta", "label": "CTA", "name": "cta", "type": "link" }
+            ]
+        },
+
+        { "key": "field_679a12tabproc", "label": "Process", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a12proctitle", "label": "Titre H2", "name": "landing-process-title", "type": "text" },
+        {
+            "key": "field_679a12procsteps",
+            "label": "Étapes",
+            "name": "landing-process-steps",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter une étape",
+            "sub_fields": [
+                { "key": "field_679a12procstep1", "label": "Titre", "name": "title", "type": "text" },
+                { "key": "field_679a12procstep2", "label": "Texte", "name": "text", "type": "textarea", "rows": 2 }
+            ]
+        },
+
+        { "key": "field_679a12tabproof", "label": "Preuves", "name": "", "type": "tab", "placement": "top" },
+        {
+            "key": "field_679a12stats",
+            "label": "Chiffres clés",
+            "name": "landing-proof-stats",
+            "type": "repeater",
+            "layout": "table",
+            "max": 4,
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a12statval", "label": "Valeur", "name": "value", "type": "text" },
+                { "key": "field_679a12statlbl", "label": "Label", "name": "label", "type": "text" }
+            ]
+        },
+        { "key": "field_679a12testtitle", "label": "Titre témoignages", "name": "landing-testimonials-title", "type": "text" },
+        {
+            "key": "field_679a12testitems",
+            "label": "Témoignages",
+            "name": "landing-testimonials-items",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a12testquote", "label": "Citation", "name": "quote", "type": "textarea", "rows": 3 },
+                { "key": "field_679a12testname", "label": "Nom", "name": "name", "type": "text" },
+                { "key": "field_679a12testco", "label": "Entreprise", "name": "company", "type": "text" },
+                { "key": "field_679a12testrating", "label": "Note /5", "name": "rating", "type": "number", "min": 1, "max": 5, "step": 1 }
+            ]
+        },
+
+        { "key": "field_679a12tabfaq", "label": "FAQ", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a12faqtitle", "label": "Titre H2", "name": "landing-faq-title", "type": "text" },
+        {
+            "key": "field_679a12faqitems",
+            "label": "Questions",
+            "name": "landing-faq-items",
+            "type": "repeater",
+            "layout": "block",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a12faq1", "label": "Question", "name": "question", "type": "text" },
+                { "key": "field_679a12faq2", "label": "Réponse", "name": "answer", "type": "textarea", "rows": 3 }
+            ]
+        },
+
+        { "key": "field_679a12tabform", "label": "Formulaire", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a12formtitle", "label": "Titre H2", "name": "landing-form-title", "type": "text" },
+        { "key": "field_679a12formintro", "label": "Intro", "name": "landing-form-intro", "type": "textarea", "rows": 2 },
+        {
+            "key": "field_679a12formreass",
+            "label": "Réassurance formulaire",
+            "name": "landing-form-reassurance",
+            "type": "repeater",
+            "layout": "table",
+            "button_label": "Ajouter",
+            "sub_fields": [
+                { "key": "field_679a12formreass1", "label": "Texte", "name": "text", "type": "text" }
+            ]
+        },
+
+        { "key": "field_679a12tabsticky", "label": "Sticky mobile", "name": "", "type": "tab", "placement": "top" },
+        { "key": "field_679a12stickylabel", "label": "Label CTA sticky", "name": "landing-sticky-cta-label", "type": "text" },
+        { "key": "field_679a12stickyurl", "label": "URL CTA sticky", "name": "landing-sticky-cta-url", "type": "url" }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-landing.php"
+            }
+        ]
+    ],
+    "menu_order": 8,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "modified": 1784750400
+}
