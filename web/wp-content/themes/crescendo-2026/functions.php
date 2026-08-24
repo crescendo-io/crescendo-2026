@@ -32,6 +32,7 @@ require_once (__DIR__ . '/inc/local-import.php');
 require_once (__DIR__ . '/inc/contact-seo.php');
 require_once (__DIR__ . '/inc/contact-import.php');
 require_once (__DIR__ . '/inc/mailjet.php');
+require_once (__DIR__ . '/inc/hubspot.php');
 require_once (__DIR__ . '/inc/lead-attribution.php');
 require_once (__DIR__ . '/inc/contact-form.php');
 require_once (__DIR__ . '/inc/realisations-seo.php');

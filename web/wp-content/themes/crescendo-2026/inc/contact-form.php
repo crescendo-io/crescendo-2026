@@ -89,6 +89,11 @@ function crescendo_lead_meta_keys() {
         'lead_rgpd_consent',
         'lead_rgpd_consent_date',
         'lead_rgpd_consent_version',
+        'lead_hubspot_contact_id',
+        'lead_hubspot_synced_at',
+        'lead_hubspot_last_error',
+        'lead_hubspot_note_step1',
+        'lead_hubspot_note_step2',
     ), crescendo_lead_attribution_meta_keys());
 }
 
@@ -629,6 +634,7 @@ function crescendo_contact_form_step1_callback() {
     ), crescendo_get_lead_attribution_from_post()));
 
     crescendo_send_lead_notification($lead_id, 'Nouvelle demande', 'Nouvelle demande de contact reçue.');
+    crescendo_hubspot_after_lead_created($lead_id, 'step1');
     crescendo_contact_form_register_attempt();
 
     wp_send_json(array(
@@ -699,6 +705,7 @@ function crescendo_contact_form_step2_callback() {
     $upload_errors = crescendo_process_lead_uploads($lead_id);
 
     crescendo_send_lead_notification($lead_id, 'Projet précisé', 'Le prospect a complété les informations sur son projet.');
+    crescendo_hubspot_after_lead_created($lead_id, 'step2');
     crescendo_contact_form_register_attempt();
 
     $message = 'Merci ! Votre projet est bien enregistré. Nous revenons vers vous rapidement.';
@@ -877,6 +884,11 @@ function crescendo_render_lead_admin_meta_box($post) {
             'lead_msclkid' => 'MSCLKID',
             'lead_landing_page' => 'Landing page',
             'lead_referrer' => 'Referrer',
+        ),
+        'HubSpot' => array(
+            'lead_hubspot_contact_id' => 'Contact ID',
+            'lead_hubspot_synced_at' => 'Dernière sync',
+            'lead_hubspot_last_error' => 'Dernière erreur',
         ),
         'Conformité' => array(
             'lead_rgpd_consent' => 'Consentement RGPD',
