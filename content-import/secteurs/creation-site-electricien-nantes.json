@@ -9,15 +9,15 @@
   },
   "seo": {
     "meta_title": "Site web électricien Nantes — Devis & dépannage | Crescendo",
-    "meta_description": "Création de site internet électricien à Nantes : dépannage, rénovation électrique, domotique. Devis en ligne, SEO local, click-to-call. Maquette 48h.",
+    "meta_description": "Création de site internet électricien: dépannage, rénovation électrique, domotique. Devis en ligne, SEO, click-to-call. Maquette 48h.",
     "focus_keyword": "site web électricien nantes",
     "canonical": "https://www.crescendo-studio.io/secteurs/creation-site-electricien-nantes/",
     "noindex": false
   },
   "fields": {
-    "secteur-hero-eyebrow": "Électricien · Dépannage · Nantes",
-    "secteur-hero-title": "Site web pour électricien à Nantes",
-    "secteur-hero-intro": "Électricien, artisan électricien ou entreprise de dépannage électrique à Nantes ? Votre site doit convertir les urgences et les projets de rénovation : numéro visible, devis en ligne, certifications et référencement local sur « électricien Nantes ».",
+    "secteur-hero-eyebrow": "Électricien · Dépannage",
+    "secteur-hero-title": "Site web pour électricien",
+    "secteur-hero-intro": "Électricien, artisan électricien ou entreprise de dépannage électrique? Votre site doit convertir les urgences et les projets de rénovation: numéro visible, devis en ligne, certifications et référencement sur « électricien Nantes ».",
     "secteur-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -39,7 +39,7 @@
         "text": "Type d'intervention, surface, délai souhaité."
       },
       {
-        "title": "SEO local",
+        "title": "SEO",
         "text": "Visible sur électricien + toutes les communes métropole."
       },
       {
@@ -67,7 +67,7 @@
       }
     ],
     "secteur-solution-title": "Un site électricien pensé pour l'urgence et le devis",
-    "secteur-solution-text": "Nous créons des sites WordPress pour électriciens nantais : pages dépannage, rénovation, domotique, mise aux normes, zone d'intervention et formulaire devis avec qualification automatique.",
+    "secteur-solution-text": "Nous créons des sites WordPress pour électriciens nantais: pages dépannage, rénovation, domotique, mise aux normes, marché et formulaire devis avec qualification automatique.",
     "secteur-solution-price": "350€/mois",
     "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
     "secteur-solution-usps": [
@@ -80,7 +80,7 @@
         "text": "Design premium adapté à votre secteur."
       },
       {
-        "title": "SEO local intégré",
+        "title": "SEO intégré",
         "text": "Visible sur Google dès la mise en ligne."
       }
     ],
@@ -108,12 +108,12 @@
       },
       {
         "title": "Zone d'intervention",
-        "text": "SEO local Nantes, Rezé, Orvault, etc."
+        "text": "SEO Nantes, Rezé, Orvault, etc."
       }
     ],
     "secteur-case-title": "Exemple de réalisation artisan / services",
     "secteur-case-project-title": "Ludovic Géhéniaux",
-    "secteur-case-project-tags": "WordPress · Réservation · SEO local",
+    "secteur-case-project-tags": "WordPress · Réservation · SEO",
     "secteur-case-project-points": [
       {
         "text": "Site artisan avec prise de contact optimisée mobile"
@@ -126,7 +126,7 @@
       }
     ],
     "secteur-case-project-url": "/realisations/ludovic-geheniaux/",
-    "secteur-pricing-title": "Combien coûte un site web électricien à Nantes ?",
+    "secteur-pricing-title": "Combien coûte un site web électricien?",
     "secteur-pricing-price": "350€",
     "secteur-pricing-price-suffix": "/mois",
     "secteur-pricing-cta": {
@@ -147,7 +147,7 @@
         "text": "Maintenance & mises à jour"
       },
       {
-        "text": "SEO local de base"
+        "text": "SEO de base"
       },
       {
         "text": "Formulaire de contact"
@@ -188,64 +188,31 @@
         "col2": "~25 000€+"
       }
     ],
-    "secteur-area-title": "Site web électricien à Nantes et métropole",
-    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
-    "secteur-area-cities": [
-      {
-        "name": "Nantes",
-        "url": "/"
-      },
-      {
-        "name": "Saint-Herblain",
-        "url": "/agence-web-saint-herblain/"
-      },
-      {
-        "name": "Rezé",
-        "url": "/agence-web-reze/"
-      },
-      {
-        "name": "Orvault",
-        "url": "/agence-web-orvault/"
-      },
-      {
-        "name": "Carquefou",
-        "url": "/agence-web-carquefou/"
-      },
-      {
-        "name": "Saint-Nazaire",
-        "url": "/agence-web-saint-nazaire/"
-      }
-    ],
-    "secteur-area-see-all": {
-      "title": "Voir toutes nos zones",
-      "url": "/",
-      "target": ""
-    },
     "secteur-faq-eyebrow": "Questions fréquentes",
     "secteur-faq-title": "FAQ site web électricien",
     "secteur-faq-items": [
       {
-        "question": "Combien coûte un site électricien à Nantes ?",
+        "question": "Combien coûte un site électricien?",
         "answer": "350 €/mois en location tout inclus, ou 3 000 à 5 000 € en achat selon pages et fonctionnalités."
       },
       {
-        "question": "Le click-to-call est-il inclus ?",
+        "question": "Le click-to-call est-il inclus?",
         "answer": "Oui. Bouton appel sticky optimisé mobile pour les dépannages."
       },
       {
-        "question": "Serai-je visible sur « électricien Nantes » ?",
-        "answer": "Oui. SEO local + pages par commune et par type d'intervention."
+        "question": "Serai-je visible sur « électricien Nantes »?",
+        "answer": "Oui. SEO + pages par commune et par type d'intervention."
       },
       {
-        "question": "Puis-je mettre en avant la recharge IRVE ?",
+        "question": "Puis-je mettre en avant la recharge IRVE?",
         "answer": "Oui. Page dédiée bornes véhicules électriques avec devis en ligne."
       },
       {
-        "question": "Quel délai de livraison ?",
+        "question": "Quel délai de livraison?",
         "answer": "4 à 6 semaines. Maquette gratuite sous 48 h."
       },
       {
-        "question": "La location convient-elle aux artisans solo ?",
+        "question": "La location convient-elle aux artisans solo?",
         "answer": "Oui. Zéro investissement initial — idéal pour démarrer ou moderniser."
       }
     ],
@@ -286,7 +253,7 @@
         "text": "Formule location sans investissement initial"
       },
       {
-        "text": "Accompagnement local à Nantes"
+        "text": "Accompagnement dédié"
       }
     ],
     "secteur-final-form-job-label": "Votre activité électricien",
@@ -298,7 +265,7 @@
         "text": "Réponse sous 24h"
       },
       {
-        "text": "Agence nantaise"
+        "text": "Équipe Crescendo"
       }
     ]
   }

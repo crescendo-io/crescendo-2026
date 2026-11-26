@@ -36,29 +36,38 @@ if ($hasCrm) {
 
 $hasHeroImage = crescendo_project_image_has_source($image);
 ?>
-<section class="studio-project-hero" aria-labelledby="studio-project-hero-title">
-    <div class="shell studio-project-hero__inner">
+<section class="studio-project-hero studio-page-hero--dark studio-project-hero--dark" aria-labelledby="studio-project-hero-title">
+    <div class="shell studio-project-hero__inner studio-page-hero__inner">
         <p class="studio-project-hero__back" data-studio-text-reveal>
             <a class="studio-text-link" href="<?php echo esc_url($backUrl); ?>"><?php esc_html_e('← Réalisations', 'crescendo-2026'); ?></a>
         </p>
 
-        <?php if ($eyebrow) : ?>
-            <p class="studio-eyebrow" data-studio-text-reveal><?php echo esc_html($eyebrow); ?></p>
-        <?php endif; ?>
+        <div class="studio-page-hero__layout" data-studio-text-reveal>
+            <div class="studio-page-hero__main">
+                <?php if ($eyebrow) : ?>
+                    <p class="studio-eyebrow">
+                        <span class="studio-signal" aria-hidden="true"></span>
+                        <?php echo esc_html($eyebrow); ?>
+                    </p>
+                <?php endif; ?>
 
-        <h1 id="studio-project-hero-title" data-studio-text-reveal><?php echo esc_html($title); ?><span class="studio-red">.</span></h1>
+                <h1 id="studio-project-hero-title"><?php echo esc_html($title); ?><span class="studio-red">.</span></h1>
 
-        <?php if ($intro) : ?>
-            <p class="studio-project-hero__intro" data-studio-text-reveal><?php echo esc_html($intro); ?></p>
-        <?php endif; ?>
+                <?php if ($clientUrl) : ?>
+                    <p class="studio-project-hero__actions studio-page-hero__actions">
+                        <a class="studio-text-link" href="<?php echo esc_url($clientUrl); ?>" target="_blank" rel="noopener noreferrer">
+                            <?php esc_html_e('Visiter le site', 'crescendo-2026'); ?>
+                        </a>
+                    </p>
+                <?php endif; ?>
+            </div>
 
-        <?php if ($clientUrl) : ?>
-            <p class="studio-project-hero__actions" data-studio-text-reveal>
-                <a class="studio-text-link" href="<?php echo esc_url($clientUrl); ?>" target="_blank" rel="noopener noreferrer">
-                    <?php esc_html_e('Visiter le site', 'crescendo-2026'); ?>
-                </a>
-            </p>
-        <?php endif; ?>
+            <?php if ($intro) : ?>
+                <div class="studio-page-hero__aside">
+                    <p class="studio-project-hero__intro"><?php echo esc_html($intro); ?></p>
+                </div>
+            <?php endif; ?>
+        </div>
 
         <?php if (!empty($metaRows)) : ?>
             <dl class="studio-project-hero__meta" data-studio-text-reveal>

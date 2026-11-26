@@ -67,23 +67,23 @@ function crescendo_get_site_nav_sections() {
     );
 
     $secteurs = array(
-        array('label' => 'Site web artisan Nantes', 'url' => crescendo_nav_secteur_url('creation-site-artisan-nantes')),
-        array('label' => 'Site web coiffeur Nantes', 'url' => crescendo_nav_secteur_url('creation-site-coiffeur-nantes')),
-        array('label' => 'Site web avocat Nantes', 'url' => crescendo_nav_secteur_url('creation-site-avocat-nantes')),
-        array('label' => 'Site web immobilier Nantes', 'url' => crescendo_nav_secteur_url('creation-site-immobilier-nantes')),
-        array('label' => 'Site web restaurant Nantes', 'url' => crescendo_nav_secteur_url('creation-site-restaurant-nantes')),
-        array('label' => 'Site web startup Nantes', 'url' => crescendo_nav_secteur_url('creation-site-startup-nantes')),
-        array('label' => 'Site web B2B Nantes', 'url' => crescendo_nav_secteur_url('creation-site-b2b-nantes')),
-        array('label' => 'Site web coach Nantes', 'url' => crescendo_nav_secteur_url('creation-site-coach-nantes')),
-        array('label' => 'Site web architecte Nantes', 'url' => crescendo_nav_secteur_url('creation-site-architecte-nantes')),
-        array('label' => 'Site web thérapeute Nantes', 'url' => crescendo_nav_secteur_url('creation-site-therapeute-nantes')),
-        array('label' => 'Site web association Nantes', 'url' => crescendo_nav_secteur_url('creation-site-association-nantes')),
-        array('label' => 'Site web BTP Nantes', 'url' => crescendo_nav_secteur_url('creation-site-btp-nantes')),
-        array('label' => 'Site web paysagiste Nantes', 'url' => crescendo_nav_secteur_url('creation-site-paysagiste-nantes')),
-        array('label' => 'Site web électricien Nantes', 'url' => crescendo_nav_secteur_url('creation-site-electricien-nantes')),
-        array('label' => 'Site web plombier Nantes', 'url' => crescendo_nav_secteur_url('creation-site-plombier-nantes')),
-        array('label' => 'Site web industrie Nantes', 'url' => crescendo_nav_secteur_url('creation-site-industrie-nantes')),
-        array('label' => 'Site web cabinet RH Nantes', 'url' => crescendo_nav_secteur_url('creation-site-cabinet-rh-nantes')),
+        array('label' => 'Site web artisan', 'url' => crescendo_nav_secteur_url('creation-site-artisan-nantes')),
+        array('label' => 'Site web coiffeur', 'url' => crescendo_nav_secteur_url('creation-site-coiffeur-nantes')),
+        array('label' => 'Site web avocat', 'url' => crescendo_nav_secteur_url('creation-site-avocat-nantes')),
+        array('label' => 'Site web immobilier', 'url' => crescendo_nav_secteur_url('creation-site-immobilier-nantes')),
+        array('label' => 'Site web restaurant', 'url' => crescendo_nav_secteur_url('creation-site-restaurant-nantes')),
+        array('label' => 'Site web startup', 'url' => crescendo_nav_secteur_url('creation-site-startup-nantes')),
+        array('label' => 'Site web B2B', 'url' => crescendo_nav_secteur_url('creation-site-b2b-nantes')),
+        array('label' => 'Site web coach', 'url' => crescendo_nav_secteur_url('creation-site-coach-nantes')),
+        array('label' => 'Site web architecte', 'url' => crescendo_nav_secteur_url('creation-site-architecte-nantes')),
+        array('label' => 'Site web thérapeute', 'url' => crescendo_nav_secteur_url('creation-site-therapeute-nantes')),
+        array('label' => 'Site web association', 'url' => crescendo_nav_secteur_url('creation-site-association-nantes')),
+        array('label' => 'Site web BTP', 'url' => crescendo_nav_secteur_url('creation-site-btp-nantes')),
+        array('label' => 'Site web paysagiste', 'url' => crescendo_nav_secteur_url('creation-site-paysagiste-nantes')),
+        array('label' => 'Site web électricien', 'url' => crescendo_nav_secteur_url('creation-site-electricien-nantes')),
+        array('label' => 'Site web plombier', 'url' => crescendo_nav_secteur_url('creation-site-plombier-nantes')),
+        array('label' => 'Site web industrie', 'url' => crescendo_nav_secteur_url('creation-site-industrie-nantes')),
+        array('label' => 'Site web cabinet RH', 'url' => crescendo_nav_secteur_url('creation-site-cabinet-rh-nantes')),
     );
 
     $locales = array(
@@ -162,19 +162,29 @@ function crescendo_get_site_nav_sections() {
     ));
 }
 
+function crescendo_studio_header_nav_ids_without_submenu() {
+    return array('secteurs', 'realisations');
+}
+
 function crescendo_get_header_nav_links() {
     $sections = crescendo_get_site_nav_sections();
     $links = array();
+    $flatSections = crescendo_studio_header_nav_ids_without_submenu();
 
     foreach ($sections as $section) {
         if (in_array($section['id'], array('legal', 'agency', 'locales'), true)) {
             continue;
         }
 
+        $children = $section['items'];
+        if (in_array($section['id'], $flatSections, true)) {
+            $children = array();
+        }
+
         $links[] = array(
             'label' => $section['label'],
             'url' => $section['url'],
-            'children' => $section['items'],
+            'children' => $children,
         );
     }
 

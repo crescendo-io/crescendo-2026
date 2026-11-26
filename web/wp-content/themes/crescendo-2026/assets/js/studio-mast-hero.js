@@ -1,38 +1,66 @@
 (function () {
+    function getDarkHeroRegion() {
+        var secteurHeader = document.querySelector('header.studio-secteur-hero');
+        if (secteurHeader) {
+            return secteurHeader;
+        }
+
+        return (
+            document.querySelector('.studio-page-hero__dark-band') ||
+            document.querySelector('section.studio-page-hero--dark') ||
+            document.querySelector('.studio-services-hub-hero') ||
+            document.querySelector('.studio-secteurs-hub-hero') ||
+            document.querySelector('.studio-realisations-hero') ||
+            document.querySelector('.studio-project-hero.studio-page-hero--dark')
+        );
+    }
+
     function initStudioMastHero() {
         var mast = document.querySelector('.studio-mast');
-        var hero = document.querySelector('.studio-hero--immersive');
-        var sentinel = document.getElementById('projets');
+        var immersiveHero = document.querySelector('.studio-hero--immersive');
+        var darkHero = getDarkHeroRegion();
+        var hero = immersiveHero || darkHero;
+        var hasImmersive = document.body.classList.contains('has-immersive-hero');
+        var hasDarkPageHero = document.body.classList.contains('has-studio-dark-hero');
 
-        if (!mast || !hero || !document.body.classList.contains('has-immersive-hero')) {
+        if (!mast || !hero || (!hasImmersive && !hasDarkPageHero)) {
             return;
         }
 
         var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         var headerLine = 92;
-        var heroMedia = hero.querySelector('.studio-hero__media');
-        var heroGlows = hero.querySelector('.studio-hero__glows');
+        var sentinel = document.getElementById('projets') || document.getElementById('inclus');
+        var heroMedia = immersiveHero ? immersiveHero.querySelector('.studio-hero__media') : null;
+        var heroGlows = immersiveHero ? immersiveHero.querySelector('.studio-hero__glows') : null;
         var ticking = false;
 
         function heroScrollProgress() {
-            var rect = hero.getBoundingClientRect();
-            var heroHeight = Math.max(hero.offsetHeight, 1);
+            if (!immersiveHero) {
+                return 0;
+            }
+
+            var rect = immersiveHero.getBoundingClientRect();
+            var heroHeight = Math.max(immersiveHero.offsetHeight, 1);
             var scrolled = Math.max(0, -rect.top);
             var range = heroHeight * 0.92;
             return Math.min(scrolled / range, 1);
         }
 
         function updateMastTheme() {
-            var pastHero = sentinel
-                ? sentinel.getBoundingClientRect().top <= headerLine
-                : hero.getBoundingClientRect().bottom <= headerLine;
+            var pastHero;
+
+            if (immersiveHero && sentinel) {
+                pastHero = sentinel.getBoundingClientRect().top <= headerLine;
+            } else {
+                pastHero = hero.getBoundingClientRect().bottom <= headerLine;
+            }
 
             document.body.classList.toggle('studio-hero-scrolled', pastHero);
             mast.classList.toggle('is-past-hero', pastHero);
         }
 
         function updateHeroScrollFx() {
-            if (reducedMotion) {
+            if (reducedMotion || !immersiveHero) {
                 return;
             }
 

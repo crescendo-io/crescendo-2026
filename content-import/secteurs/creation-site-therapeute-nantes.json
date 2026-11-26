@@ -9,15 +9,15 @@
   },
   "seo": {
     "meta_title": "Site web thérapeute Nantes — RDV en ligne | Crescendo",
-    "meta_description": "Création de site internet pour thérapeute à Nantes : psychologue, ostéopathe, sophrologue. RDV en ligne, confidentialité, SEO local. Maquette 48h.",
+    "meta_description": "Création de site internet pour thérapeute: psychologue, ostéopathe, sophrologue. RDV en ligne, confidentialité, SEO. Maquette 48h.",
     "focus_keyword": "site web thérapeute nantes",
     "canonical": "https://www.crescendo-studio.io/secteurs/creation-site-therapeute-nantes/",
     "noindex": false
   },
   "fields": {
-    "secteur-hero-eyebrow": "Thérapeute · Santé · Bien-être · Nantes",
-    "secteur-hero-title": "Site web pour thérapeute et praticien à Nantes",
-    "secteur-hero-intro": "Psychologue, ostéopathe, sophrologue, naturopathe ou praticien bien-être à Nantes ? Votre site doit inspirer confiance, respecter la confidentialité et faciliter la prise de rendez-vous — sans jargon technique ni image clinique froide.",
+    "secteur-hero-eyebrow": "Thérapeute · Santé · Bien-être",
+    "secteur-hero-title": "Site web pour thérapeute et praticien",
+    "secteur-hero-intro": "Psychologue, ostéopathe, sophrologue, naturopathe ou praticien bien-être? Votre site doit inspirer confiance, respecter la confidentialité et faciliter la prise de rendez-vous — sans jargon technique ni image clinique froide.",
     "secteur-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -39,7 +39,7 @@
         "text": "Réduction des appels manqués et des créneaux vides."
       },
       {
-        "title": "SEO local",
+        "title": "SEO",
         "text": "Visible sur « ostéopathe Nantes », « psychologue Rezé »."
       },
       {
@@ -67,7 +67,7 @@
       }
     ],
     "secteur-solution-title": "Un site thérapeute rassurant et professionnel",
-    "secteur-solution-text": "Nous créons des sites WordPress pour praticiens nantais : présentation de votre approche, tarifs, prise de RDV, FAQ patient et pages SEO par spécialité et quartier.",
+    "secteur-solution-text": "Nous créons des sites WordPress pour praticiens nantais: présentation de votre approche, tarifs, prise de RDV, FAQ patient et pages SEO par spécialité et quartier.",
     "secteur-solution-price": "350€/mois",
     "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
     "secteur-solution-usps": [
@@ -80,7 +80,7 @@
         "text": "Design premium adapté à votre secteur."
       },
       {
-        "title": "SEO local intégré",
+        "title": "SEO intégré",
         "text": "Visible sur Google dès la mise en ligne."
       }
     ],
@@ -126,7 +126,7 @@
       }
     ],
     "secteur-case-project-url": "/realisations/ludovic-geheniaux/",
-    "secteur-pricing-title": "Combien coûte un site web pour thérapeute à Nantes ?",
+    "secteur-pricing-title": "Combien coûte un site web pour thérapeute?",
     "secteur-pricing-price": "350€",
     "secteur-pricing-price-suffix": "/mois",
     "secteur-pricing-cta": {
@@ -147,7 +147,7 @@
         "text": "Maintenance & mises à jour"
       },
       {
-        "text": "SEO local de base"
+        "text": "SEO de base"
       },
       {
         "text": "Formulaire de contact"
@@ -188,64 +188,31 @@
         "col2": "~25 000€+"
       }
     ],
-    "secteur-area-title": "Site web thérapeute à Nantes et métropole",
-    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
-    "secteur-area-cities": [
-      {
-        "name": "Nantes",
-        "url": "/"
-      },
-      {
-        "name": "Saint-Herblain",
-        "url": "/agence-web-saint-herblain/"
-      },
-      {
-        "name": "Rezé",
-        "url": "/agence-web-reze/"
-      },
-      {
-        "name": "Orvault",
-        "url": "/agence-web-orvault/"
-      },
-      {
-        "name": "Carquefou",
-        "url": "/agence-web-carquefou/"
-      },
-      {
-        "name": "Saint-Nazaire",
-        "url": "/agence-web-saint-nazaire/"
-      }
-    ],
-    "secteur-area-see-all": {
-      "title": "Voir toutes nos zones",
-      "url": "/",
-      "target": ""
-    },
     "secteur-faq-eyebrow": "Questions fréquentes",
     "secteur-faq-title": "FAQ site web thérapeute",
     "secteur-faq-items": [
       {
-        "question": "Combien coûte un site thérapeute à Nantes ?",
+        "question": "Combien coûte un site thérapeute?",
         "answer": "350 €/mois en location, ou 3 000 à 5 000 € en achat selon RDV en ligne et nombre de pages spécialité."
       },
       {
-        "question": "Puis-je garder Doctolib ?",
+        "question": "Puis-je garder Doctolib?",
         "answer": "Oui. Nous intégrons Doctolib sur votre site tout en développant votre SEO propre."
       },
       {
-        "question": "Le site est-il conforme RGPD ?",
+        "question": "Le site est-il conforme RGPD?",
         "answer": "Oui. HTTPS, politique de confidentialité, gestion cookies et formulaires sécurisés."
       },
       {
-        "question": "Mon site sera-t-il visible sur Google ?",
-        "answer": "Oui. SEO local + pages par spécialité et zone géographique."
+        "question": "Mon site sera-t-il visible sur Google?",
+        "answer": "Oui. SEO + pages par spécialité et marché."
       },
       {
-        "question": "Puis-je rédiger mes contenus moi-même ?",
+        "question": "Puis-je rédiger mes contenus moi-même?",
         "answer": "Oui. Formation incluse. Nous pouvons aussi rédiger des textes optimisés SEO."
       },
       {
-        "question": "Quel délai de livraison ?",
+        "question": "Quel délai de livraison?",
         "answer": "4 à 6 semaines. Maquette gratuite sous 48 h."
       }
     ],
@@ -286,7 +253,7 @@
         "text": "Formule location sans investissement initial"
       },
       {
-        "text": "Accompagnement local à Nantes"
+        "text": "Accompagnement dédié"
       }
     ],
     "secteur-final-form-job-label": "Votre spécialité",
@@ -298,7 +265,7 @@
         "text": "Réponse sous 24h"
       },
       {
-        "text": "Agence nantaise"
+        "text": "Équipe Crescendo"
       }
     ]
   }

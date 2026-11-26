@@ -8,9 +8,9 @@ if (empty($benefits)) {
     <div class="shell">
     <div class="studio-section-head" data-studio-text-reveal>
         <h2 id="studio-service-benefits-title">
-            <?php esc_html_e('Pourquoi ce', 'crescendo-2026'); ?>
+            <?php esc_html_e('Ce que vous', 'crescendo-2026'); ?>
             <br>
-            <?php esc_html_e('projet fonctionne', 'crescendo-2026'); ?><span class="studio-red">.</span>
+            <?php esc_html_e('y gagnez', 'crescendo-2026'); ?><span class="studio-red">.</span>
         </h2>
     </div>
     <ul class="studio-service-benefits__grid">

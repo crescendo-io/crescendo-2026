@@ -8,16 +8,16 @@
     "parent": "secteurs"
   },
   "seo": {
-    "meta_title": "Création de site web pour avocat à Nantes | Crescendo",
-    "meta_description": "Site internet pour avocat à Nantes : design sur mesure, expertises, SEO local et prise de RDV. WordPress premium. Maquette gratuite 48h.",
+    "meta_title": "Création de site web pour avocat | Crescendo",
+    "meta_description": "Site internet pour avocat: design sur mesure, expertises, SEO et prise de RDV. WordPress premium. Maquette gratuite 48h.",
     "focus_keyword": "site web avocat nantes",
     "canonical": "https://www.crescendo-studio.io/secteurs/creation-site-avocat-nantes/",
     "noindex": false
   },
   "fields": {
-    "secteur-hero-eyebrow": "Avocat · Cabinet juridique · Nantes",
-    "secteur-hero-title": "Création de site web pour avocat à Nantes",
-    "secteur-hero-intro": "Vous êtes avocat indépendant, associé ou responsable d'un cabinet à Nantes ? Nous concevons des sites WordPress sur mesure qui valorisent vos domaines d'intervention, renforcent la confiance de vos futurs clients et améliorent votre visibilité sur Google. Une présence digitale sobre, crédible et conforme à l'image de votre cabinet, dès 350€/mois.",
+    "secteur-hero-eyebrow": "Avocat · Cabinet juridique",
+    "secteur-hero-title": "Création de site web pour avocat",
+    "secteur-hero-intro": "Vous êtes avocat indépendant, associé ou responsable d'un cabinet? Nous concevons des sites WordPress sur mesure qui valorisent vos domaines d'intervention, renforcent la confiance de vos futurs clients et améliorent votre visibilité sur Google. Une présence digitale sobre, crédible et conforme à l'image de votre cabinet, dès 350€/mois.",
     "secteur-hero-cta-primary": {
       "title": "Recevoir ma maquette gratuite",
       "url": "#contact",
@@ -88,7 +88,7 @@
     "secteur-features-items": [
       {
         "title": "Pages par domaine d'intervention",
-        "text": "Droit du travail, droit des affaires, droit de la famille, droit immobilier ou droit pénal : chaque expertise bénéficie d'une page dédiée."
+        "text": "Droit du travail, droit des affaires, droit de la famille, droit immobilier ou droit pénal: chaque expertise bénéficie d'une page dédiée."
       },
       {
         "title": "Présentation des avocats",
@@ -145,7 +145,7 @@
       }
     ],
     "secteur-case-project-url": "/realisations/cma-associes/",
-    "secteur-pricing-title": "Combien coûte un site internet pour avocat à Nantes ?",
+    "secteur-pricing-title": "Combien coûte un site internet pour avocat?",
     "secteur-pricing-price": "350€",
     "secteur-pricing-price-suffix": "/mois",
     "secteur-pricing-cta": {
@@ -207,72 +207,39 @@
         "col2": "~25 000 à 35 000€"
       }
     ],
-    "secteur-area-title": "Création de site pour avocat à Nantes et en Loire-Atlantique",
-    "secteur-area-text": "Crescendo Studio accompagne les avocats indépendants et cabinets implantés à Nantes et dans sa métropole. Votre site peut cibler votre zone géographique ainsi que les recherches liées à chaque domaine juridique traité.",
-    "secteur-area-cities": [
-      {
-        "name": "Nantes",
-        "url": "/services/creation-site-web-nantes/"
-      },
-      {
-        "name": "Saint-Herblain",
-        "url": "/agence-web-saint-herblain/"
-      },
-      {
-        "name": "Rezé",
-        "url": "/agence-web-reze/"
-      },
-      {
-        "name": "Orvault",
-        "url": "/agence-web-orvault/"
-      },
-      {
-        "name": "Saint-Nazaire",
-        "url": "/agence-web-saint-nazaire/"
-      },
-      {
-        "name": "Carquefou",
-        "url": "/agence-web-carquefou/"
-      }
-    ],
-    "secteur-area-see-all": {
-      "title": "Découvrir nos zones d'intervention",
-      "url": "/services/creation-site-web-nantes/",
-      "target": ""
-    },
     "secteur-faq-eyebrow": "Questions fréquentes",
     "secteur-faq-title": "Tout savoir avant de créer le site de votre cabinet",
     "secteur-faq-items": [
       {
-        "question": "Combien coûte la création d'un site pour avocat à Nantes ?",
+        "question": "Combien coûte la création d'un site pour avocat?",
         "answer": "Notre formule en location démarre à 350€/mois, sans frais de création. Elle inclut le design sur mesure, le développement WordPress, l'hébergement, la maintenance et l'accompagnement. En achat classique, un site de cabinet d'avocats représente généralement un investissement initial de 4 000 à 12 000€ selon le nombre d'expertises, de langues et de fonctionnalités."
       },
       {
-        "question": "Comment rendre le site de mon cabinet visible sur Google ?",
-        "answer": "Le référencement repose sur une architecture précise : une page par domaine d'intervention, des contenus répondant aux questions des justiciables, un balisage technique optimisé et une stratégie locale autour de Nantes. Une page générique listant toutes vos expertises est rarement suffisante."
+        "question": "Comment rendre le site de mon cabinet visible sur Google?",
+        "answer": "Le référencement repose sur une architecture précise: une page par domaine d'intervention, des contenus répondant aux questions des justiciables, un balisage technique optimisé et une stratégie locale autour. Une page générique listant toutes vos expertises est rarement suffisante."
       },
       {
-        "question": "Peut-on créer une page pour chaque spécialité juridique ?",
+        "question": "Peut-on créer une page pour chaque spécialité juridique?",
         "answer": "Oui. C'est même recommandé. Nous pouvons créer des pages dédiées au droit du travail, au droit des sociétés, au droit de la famille, au droit immobilier, au droit pénal ou à toute autre expertise réellement exercée par votre cabinet."
       },
       {
-        "question": "Le site peut-il présenter plusieurs avocats et associés ?",
+        "question": "Le site peut-il présenter plusieurs avocats et associés?",
         "answer": "Oui. Chaque membre du cabinet peut disposer d'une fiche avec sa photographie, son parcours, ses domaines d'intervention, ses langues de travail, ses publications et ses coordonnées professionnelles."
       },
       {
-        "question": "Peut-on intégrer une prise de rendez-vous en ligne ?",
+        "question": "Peut-on intégrer une prise de rendez-vous en ligne?",
         "answer": "Oui. Nous pouvons connecter votre site à un agenda existant ou intégrer un module de prise de rendez-vous pour les consultations physiques, téléphoniques ou en visioconférence."
       },
       {
-        "question": "Puis-je publier des articles et actualités juridiques ?",
+        "question": "Puis-je publier des articles et actualités juridiques?",
         "answer": "Oui. WordPress vous permet de publier facilement des analyses, des actualités législatives, des commentaires de jurisprudence ou des réponses aux questions fréquentes de vos clients. Ces contenus peuvent également renforcer votre référencement naturel."
       },
       {
-        "question": "Un cabinet d'avocats peut-il communiquer librement sur son site ?",
+        "question": "Un cabinet d'avocats peut-il communiquer librement sur son site?",
         "answer": "Le contenu doit rester conforme aux règles déontologiques applicables à la profession, notamment en matière de dignité, de délicatesse, de modération et de loyauté. Nous privilégions une communication informative, factuelle et centrée sur les compétences réelles du cabinet."
       },
       {
-        "question": "Combien de temps faut-il pour mettre le site en ligne ?",
+        "question": "Combien de temps faut-il pour mettre le site en ligne?",
         "answer": "La création complète prend généralement entre 4 et 8 semaines selon le nombre de pages, d'avocats, d'expertises et de langues. Une première maquette personnalisée est présentée gratuitement sous 48h afin de valider la direction graphique."
       }
     ],
@@ -325,7 +292,7 @@
         "text": "Échange confidentiel"
       },
       {
-        "text": "Agence basée près de Nantes"
+        "text": "Agence basée près"
       }
     ]
   }

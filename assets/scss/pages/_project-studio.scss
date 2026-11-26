@@ -9,7 +9,6 @@ body.site-studio .project-page--studio {
     .studio-project-hero {
         padding-top: 0;
         padding-bottom: 0;
-        border-bottom: 1px solid rgb(29 30 27 / 12%);
     }
 
     .studio-project-hero__back {
@@ -254,27 +253,7 @@ body.site-studio .project-page--studio {
     }
 
     .studio-project-cta__button {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
         flex: 0 0 auto;
-        min-height: 48px;
-        padding: 0.95rem 1.2rem;
-        border: 1px solid var(--studio-red);
-        background: var(--studio-red);
-        color: #fff;
-        font-family: inherit;
-        font-size: var(--studio-text-ui);
-        font-weight: 650;
-        line-height: 1.25;
-        text-decoration: none;
-        transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
-
-        &:hover {
-            background: var(--studio-ink);
-            border-color: var(--studio-ink);
-            color: var(--studio-paper);
-        }
     }
 
     @media (max-width: 1024px) {

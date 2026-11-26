@@ -106,11 +106,6 @@ body.site-studio {
         color: var(--studio-ink);
     }
 
-    .studio-contact-button {
-        font-size: var(--studio-text-nav);
-        font-weight: 580;
-    }
-
     .studio-footer nav a {
         padding-block: 8px;
         text-decoration: none;
@@ -120,23 +115,6 @@ body.site-studio {
     .studio-footer nav a:hover {
         text-decoration: underline;
         text-underline-offset: 5px;
-    }
-
-    .studio-contact-button {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        color: var(--studio-paper);
-        background: var(--studio-ink);
-        min-height: 44px;
-        padding: 10px 20px;
-        text-decoration: none;
-        transition: background 0.2s, color 0.2s;
-    }
-
-    .studio-contact-button:hover {
-        color: var(--studio-ink);
-        background: var(--studio-red);
     }
 
     .studio-eyebrow,
@@ -179,7 +157,10 @@ body.site-studio {
     &.has-immersive-hero {
         --studio-margin: clamp(18px, 2.6vw, 52px);
         --studio-shell-max: 1960px;
+    }
 
+    &.has-immersive-hero,
+    &.has-studio-dark-hero {
         .studio-mast {
             position: fixed;
             inset: 0 0 auto;
@@ -188,7 +169,8 @@ body.site-studio {
         }
     }
 
-    &.has-immersive-hero .studio-mast:not(.is-past-hero) {
+    &.has-immersive-hero .studio-mast:not(.is-past-hero),
+    &.has-studio-dark-hero .studio-mast:not(.is-past-hero) {
         border-bottom: 1px solid rgba(255, 255, 255, 0.2);
         background: linear-gradient(
             180deg,
@@ -207,22 +189,10 @@ body.site-studio {
         .studio-mast-nav__link:hover {
             color: rgb(255 255 255 / 92%);
         }
-
-        .studio-contact-button {
-            color: #fff;
-            background: rgb(255 255 255 / 12%);
-            border: 1px solid rgb(255 255 255 / 22%);
-            backdrop-filter: blur(8px);
-        }
-
-        .studio-contact-button:hover {
-            color: var(--studio-ink);
-            background: #fff;
-            border-color: #fff;
-        }
     }
 
-    &.has-immersive-hero .studio-mast.is-past-hero {
+    &.has-immersive-hero .studio-mast.is-past-hero,
+    &.has-studio-dark-hero .studio-mast.is-past-hero {
         border-bottom: 1px solid rgb(29 30 27 / 14%);
         background: rgb(250 248 243 / 96%);
         backdrop-filter: blur(10px);
@@ -234,19 +204,6 @@ body.site-studio {
         .studio-mast-nav__link,
         .studio-mast-nav__link:hover {
             color: var(--studio-ink);
-        }
-
-        .studio-contact-button {
-            color: var(--studio-paper);
-            background: var(--studio-ink);
-            border-color: var(--studio-ink);
-            backdrop-filter: none;
-        }
-
-        .studio-contact-button:hover {
-            color: var(--studio-ink);
-            background: var(--studio-red);
-            border-color: var(--studio-red);
         }
     }
 
@@ -316,17 +273,6 @@ body.site-studio {
             text-shadow: 0 1px 16px rgb(0 0 0 / 40%);
         }
 
-        .studio-hero-offer {
-            color: #fff;
-            background: var(--studio-red);
-            box-shadow: 0 18px 48px rgb(237 72 46 / 32%);
-        }
-
-        .studio-hero-offer:hover {
-            color: var(--studio-red);
-            background: #fff;
-            box-shadow: 0 12px 32px rgb(0 0 0 / 24%);
-        }
     }
 
     .studio-hero__scene {
@@ -832,21 +778,6 @@ body.site-studio {
         align-items: center;
         gap: 0.65rem 1.4rem;
         margin-top: 1.45rem;
-    }
-
-    .studio-hero-offer {
-        background: var(--studio-red);
-        color: var(--studio-ink);
-        font-size: var(--studio-text-ui);
-        font-weight: 650;
-        padding: 0.95rem 1.1rem;
-        text-decoration: none;
-        transition: background 0.15s, color 0.15s;
-    }
-
-    .studio-hero-offer:hover {
-        background: var(--studio-ink);
-        color: var(--studio-paper);
     }
 
     .studio-projects {
@@ -1720,12 +1651,6 @@ body.site-studio {
         .studio-mast .studio-brand .studio-brand__logo,
         .studio-mast .studio-brand svg {
             width: 146px;
-        }
-
-        .studio-contact-button {
-            min-height: 40px;
-            font-size: 1.55rem;
-            padding: 9px 13px;
         }
 
         &.has-immersive-hero .studio-mast {

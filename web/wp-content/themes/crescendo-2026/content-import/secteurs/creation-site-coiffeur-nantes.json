@@ -9,15 +9,15 @@
   },
   "seo": {
     "meta_title": "Site web coiffeur Nantes — Salon dès 350€/mois | Crescendo",
-    "meta_description": "Site pour coiffeur à Nantes : réservation en ligne, galerie, SEO local et avis Google. WordPress premium dès 350€/mois. Maquette gratuite 48h.",
+    "meta_description": "Site pour coiffeur: réservation en ligne, galerie, SEO et avis Google. WordPress premium dès 350€/mois. Maquette gratuite 48h.",
     "focus_keyword": "site web coiffeur nantes",
     "canonical": "https://www.crescendo-studio.io/secteurs/creation-site-coiffeur-nantes/",
     "noindex": false
   },
   "fields": {
-    "secteur-hero-eyebrow": "Salon de coiffure · Nantes",
-    "secteur-hero-title": "Création de site web pour coiffeur à Nantes",
-    "secteur-hero-intro": "Vous êtes coiffeur indépendant, barbier ou gérant d'un salon de coiffure à Nantes ? Nous concevons des sites WordPress premium qui augmentent votre visibilité sur Google, mettent en valeur votre savoir-faire et remplissent votre agenda grâce à la réservation en ligne. Le tout sans investissement initial grâce à notre formule de location à partir de 350€/mois.",
+    "secteur-hero-eyebrow": "Salon de coiffure",
+    "secteur-hero-title": "Création de site web pour coiffeur",
+    "secteur-hero-intro": "Vous êtes coiffeur indépendant, barbier ou gérant d'un salon de coiffure? Nous concevons des sites WordPress premium qui augmentent votre visibilité sur Google, mettent en valeur votre savoir-faire et remplissent votre agenda grâce à la réservation en ligne. Le tout sans investissement initial grâce à notre formule de location à partir de 350€/mois.",
     "secteur-hero-cta-primary": {
       "title": "Recevoir ma maquette gratuite",
       "url": "#contact",
@@ -77,7 +77,7 @@
       },
       {
         "title": "Référencement local",
-        "text": "Optimisé pour attirer les clients situés à Nantes et dans les communes voisines."
+        "text": "Optimisé pour attirer les clients situés et dans les communes voisines."
       },
       {
         "title": "Évolutif",
@@ -119,8 +119,8 @@
         "text": "Plus de 80 % des recherches d'un salon se font depuis un smartphone."
       },
       {
-        "title": "SEO local",
-        "text": "Pages optimisées pour les recherches liées à Nantes, Saint-Herblain, Rezé, Vertou et les alentours."
+        "title": "SEO",
+        "text": "Pages optimisées pour les recherches liées, Saint-Herblain, Rezé, Vertou et les alentours."
       },
       {
         "title": "Performances",
@@ -141,13 +141,13 @@
         "text": "Performances Google PageSpeed élevées pour favoriser le référencement."
       },
       {
-        "text": "Architecture SEO locale pensée dès la conception du projet."
+        "text": "Architecture SEOe pensée dès la conception du projet."
       }
     ],
     "secteur-case-project-url": "/realisations/maison-jaden/",
     "secteur-pricing-eyebrow": "Tarifs transparents",
-    "secteur-pricing-title": "Combien coûte un site pour salon de coiffure ?",
-    "secteur-pricing-text": "Deux formules adaptées aux coiffeurs indépendants et aux salons établis à Nantes.",
+    "secteur-pricing-title": "Combien coûte un site pour salon de coiffure?",
+    "secteur-pricing-text": "Deux formules adaptées aux coiffeurs indépendants et aux salons établis.",
     "secteur-pricing-col1-label": "Location 350€/mois",
     "secteur-pricing-col2-label": "Achat sur mesure",
     "secteur-pricing-features": [
@@ -161,7 +161,7 @@
         "text": "Maintenance & mises à jour"
       },
       {
-        "text": "SEO local de base"
+        "text": "SEO de base"
       },
       {
         "text": "Réservation en ligne"
@@ -202,69 +202,36 @@
         "col2": "~22 000€+"
       }
     ],
-    "secteur-area-title": "Site web coiffeur à Nantes et en Loire-Atlantique",
-    "secteur-area-text": "Nous accompagnons les salons de coiffure, barbiers et coiffeurs à domicile de Nantes et des communes voisines. Chaque site est optimisé pour le référencement local de votre zone.",
-    "secteur-area-cities": [
-      {
-        "name": "Nantes",
-        "url": "/services/creation-site-web-nantes/"
-      },
-      {
-        "name": "Saint-Herblain",
-        "url": "/agence-web-saint-herblain/"
-      },
-      {
-        "name": "Rezé",
-        "url": "/agence-web-reze/"
-      },
-      {
-        "name": "Orvault",
-        "url": "/agence-web-orvault/"
-      },
-      {
-        "name": "Vertou",
-        "url": "/"
-      },
-      {
-        "name": "Carquefou",
-        "url": "/agence-web-carquefou/"
-      }
-    ],
-    "secteur-area-see-all": {
-      "title": "Voir toutes nos zones",
-      "url": "/",
-      "target": ""
-    },
     "secteur-faq-eyebrow": "Questions fréquentes",
-    "secteur-faq-title": "FAQ — site web pour coiffeur à Nantes",
+    "secteur-faq-title": "FAQ — site web pour coiffeur",
     "secteur-faq-items": [
       {
-        "question": "Combien coûte un site web pour coiffeur à Nantes ?",
+        "question": "Combien coûte un site web pour coiffeur?",
         "answer": "En location, comptez 350€/mois tout inclus sans frais de création. En achat, budget de 3 000 à 6 000€ selon les fonctionnalités (réservation, galerie, multilingue), plus maintenance annuelle."
       },
       {
-        "question": "Puis-je connecter Planity, Kiute ou Booksy à mon site ?",
+        "question": "Puis-je connecter Planity, Kiute ou Booksy à mon site?",
         "answer": "Oui. Nous intégrons votre outil de réservation en ligne pour que vos clients prennent rendez-vous 24h/24, directement depuis votre site ou via un bouton visible sur mobile."
       },
       {
-        "question": "Mon salon sera-t-il visible sur Google à Nantes ?",
-        "answer": "Oui. Nous optimisons votre site pour les recherches locales : « coiffeur Nantes », « balayage Nantes », « barbier Rezé ». SEO technique, contenu et fiche Google Business Profile pris en charge."
+        "question": "Mon salon sera-t-il visible sur Google?",
+        "answer": "Oui. Nous optimisons votre site pour les recherches locales: « coiffeur Nantes », « balayage Nantes », « barbier Rezé ». SEO technique, contenu et fiche Google Business Profile pris en charge."
       },
       {
-        "question": "Combien de temps pour mettre mon site en ligne ?",
+        "question": "Combien de temps pour mettre mon site en ligne?",
         "answer": "4 à 6 semaines en moyenne. Nous commençons par une maquette gratuite sous 48h pour valider la direction avant le développement."
       },
       {
-        "question": "Puis-je afficher mes avis Google sur le site ?",
+        "question": "Puis-je afficher mes avis Google sur le site?",
         "answer": "Absolument. Nous synchronisons vos avis Google pour renforcer la confiance dès la première visite — un levier clé pour convertir les recherches locales en rendez-vous."
       },
       {
-        "question": "La location inclut-elle la maintenance ?",
+        "question": "La location inclut-elle la maintenance?",
         "answer": "Oui. Hébergement premium, mises à jour WordPress, sauvegardes, sécurité et petites évolutions sont inclus dans la mensualité de 350€."
       },
       {
-        "question": "Travaillez-vous avec les coiffeurs à domicile ?",
-        "answer": "Oui. Nous adaptons le site aux coiffeurs indépendants et à domicile : zone d'intervention, prestations, réservation et présentation mobile-first."
+        "question": "Travaillez-vous avec les coiffeurs à domicile?",
+        "answer": "Oui. Nous adaptons le site aux coiffeurs indépendants et à domicile: marché, prestations, réservation et présentation mobile-first."
       }
     ],
     "secteur-related-title": "Autres secteurs que nous accompagnons",
@@ -294,7 +261,7 @@
         "url": "/"
       }
     ],
-    "secteur-final-cta-title": "Prêt à remplir votre agenda avec un site premium ?",
+    "secteur-final-cta-title": "Prêt à remplir votre agenda avec un site premium?",
     "secteur-final-cta-text": "Recevez une maquette gratuite sous 48h, adaptée à votre salon de coiffure. Sans engagement.",
     "secteur-final-cta-points": [
       {
@@ -304,7 +271,7 @@
         "text": "Formule location sans investissement initial"
       },
       {
-        "text": "Accompagnement local à Nantes"
+        "text": "Accompagnement dédié"
       }
     ],
     "secteur-final-form-job-label": "Votre salon",
@@ -316,7 +283,7 @@
         "text": "Réponse sous 24h"
       },
       {
-        "text": "Agence nantaise"
+        "text": "Équipe Crescendo"
       }
     ]
   }

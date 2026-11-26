@@ -125,30 +125,7 @@ body.site-studio .crescendo-contact-form-shell--studio {
     }
 
     .crescendo-contact-form__submit.btn--primary {
-        width: 100%;
-        min-height: 48px;
         margin-top: 0.25rem;
-        padding: 0.95rem 1.1rem;
-        border: 1px solid var(--studio-red);
-        border-radius: 0;
-        background: var(--studio-red);
-        color: #fff;
-        font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
-        font-size: var(--studio-text-ui);
-        font-weight: 650;
-        letter-spacing: 0;
-        text-transform: none;
-        box-shadow: none;
-
-        &::after {
-            content: none;
-        }
-
-        &:hover {
-            background: var(--studio-ink);
-            border-color: var(--studio-ink);
-            color: var(--studio-paper);
-        }
     }
 }
 
@@ -168,20 +145,5 @@ body.site-studio .crescendo-contact-modal {
             font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
         }
 
-        .crescendo-contact-form__submit.btn--primary {
-            border-radius: 0;
-            background: var(--studio-red);
-            border-color: var(--studio-red);
-            box-shadow: none;
-
-            &::after {
-                content: none;
-            }
-
-            &:hover {
-                background: var(--studio-ink);
-                border-color: var(--studio-ink);
-            }
-        }
     }
 }

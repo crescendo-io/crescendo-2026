@@ -8,22 +8,22 @@
     "content": ""
   },
   "seo": {
-    "meta_title": "Secteurs d'activité · Sites web Nantes | Crescendo Studio",
-    "meta_description": "Création de sites web par secteur à Nantes : artisan, avocat, immobilier, restaurant, BTP, industrie, coach… WordPress sur mesure dès 350€/mois.",
-    "focus_keyword": "site web par secteur nantes",
+    "meta_title": "Secteurs d'activité · Sites web par métier | Crescendo Studio",
+    "meta_description": "Création de sites web par secteur: artisan, avocat, immobilier, restaurant, BTP, industrie, coach… WordPress sur mesure dès 350€/mois.",
+    "focus_keyword": "site web par secteur",
     "canonical": "https://www.crescendo-studio.io/secteurs/",
     "noindex": false
   },
   "fields": {
-    "secteurs-hero-eyebrow": "Secteurs d'activité · Nantes",
-    "secteurs-hero-title": "Sites web par secteur à Nantes",
-    "secteurs-hero-intro": "Artisan, avocat, immobilier, restaurant, startup, BTP, industrie… Nous créons des sites WordPress sur mesure adaptés à votre métier et à votre zone de prospection en Loire-Atlantique.",
+    "secteurs-hero-eyebrow": "Secteurs d'activité",
+    "secteurs-hero-title": "Sites web par secteur",
+    "secteurs-hero-intro": "Artisan, avocat, immobilier, restaurant, startup, BTP, industrie… Nous créons des sites WordPress sur mesure adaptés à votre métier et à votre marché.",
     "secteurs-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "/contact/",
       "target": ""
     },
-    "secteurs-intro-text": "Chaque secteur a ses codes, ses contraintes légales et ses parcours de conversion. Nos pages métier sont pensées pour répondre aux attentes de vos prospects : crédibilité, SEO local, formulaire de devis ou prise de RDV.",
+    "secteurs-intro-text": "Chaque secteur a ses codes, ses contraintes légales et ses parcours de conversion. Nos pages métier sont pensées pour répondre aux attentes de vos prospects: crédibilité, SEO, formulaire de devis ou prise de RDV.",
     "secteurs-intro-stats": [
       {
         "value": "17",
@@ -46,110 +46,110 @@
     "secteurs-list-title": "Tous les secteurs que nous accompagnons",
     "secteurs-cards": [
       {
-        "eyebrow": "Architecte · BET · Nantes",
-        "title": "Site web pour architecte à Nantes",
-        "text": "Création de site internet pour architecte à Nantes : portfolio projets, présentation du cabinet, SEO local. WordPress premium. Maquette gratuite 48h.",
+        "eyebrow": "Architecte · BET",
+        "title": "Site web pour architecte",
+        "text": "Création de site internet pour architecte: portfolio projets, présentation du cabinet, SEO. WordPress premium. Maquette gratuite 48h.",
         "url": "/secteurs/creation-site-architecte-nantes/"
       },
       {
-        "eyebrow": "Artisan · Nantes",
-        "title": "Site web pour artisan à Nantes",
-        "text": "Site web professionnel pour artisans à Nantes : plombier, électricien, menuisier. WordPress, SEO local, devis. Maquette gratuite 48h.",
+        "eyebrow": "Artisan",
+        "title": "Site web pour artisan",
+        "text": "Site web professionnel pour artisans: plombier, électricien, menuisier. WordPress, SEO, devis. Maquette gratuite 48h.",
         "url": "/secteurs/creation-site-artisan-nantes/"
       },
       {
-        "eyebrow": "Association · ONG · Nantes",
-        "title": "Site web pour association à Nantes",
-        "text": "Création de site internet pour association à Nantes : adhésions en ligne, événements, appel aux dons, bénévolat. WordPress accessible. Maquette 48h.",
+        "eyebrow": "Association · ONG",
+        "title": "Site web pour association",
+        "text": "Création de site internet pour association: adhésions en ligne, événements, appel aux dons, bénévolat. WordPress accessible. Maquette 48h.",
         "url": "/secteurs/creation-site-association-nantes/"
       },
       {
-        "eyebrow": "Avocat · Cabinet juridique · Nantes",
-        "title": "Création de site web pour avocat à Nantes",
-        "text": "Site internet pour avocat à Nantes : design sur mesure, expertises, SEO local et prise de RDV. WordPress premium. Maquette gratuite 48h.",
+        "eyebrow": "Avocat · Cabinet juridique",
+        "title": "Création de site web pour avocat",
+        "text": "Site internet pour avocat: design sur mesure, expertises, SEO et prise de RDV. WordPress premium. Maquette gratuite 48h.",
         "url": "/secteurs/creation-site-avocat-nantes/"
       },
       {
-        "eyebrow": "B2B · PME · Industrie · Nantes",
-        "title": "Site web B2B et PME à Nantes",
-        "text": "Site internet B2B à Nantes pour PME et industrie : catalogue, devis, CRM, SEO local. WordPress sur mesure. Maquette 48h. Dès 350€/mois.",
+        "eyebrow": "B2B · PME · Industrie",
+        "title": "Site web B2B et PME",
+        "text": "Site internet B2B pour PME et industrie: catalogue, devis, CRM, SEO. WordPress sur mesure. Maquette 48h. Dès 350€/mois.",
         "url": "/secteurs/creation-site-b2b-nantes/"
       },
       {
-        "eyebrow": "BTP · Gros œuvre · Second œuvre · Nantes",
-        "title": "Site web pour entreprise BTP à Nantes",
-        "text": "Site internet BTP à Nantes : gros œuvre, rénovation, TP. Devis en ligne, galerie chantiers, SEO local. Maquette 48h. Dès 350€/mois.",
+        "eyebrow": "BTP · Gros œuvre · Second œuvre",
+        "title": "Site web pour entreprise BTP",
+        "text": "Site internet BTP: gros œuvre, rénovation, TP. Devis en ligne, galerie chantiers, SEO. Maquette 48h. Dès 350€/mois.",
         "url": "/secteurs/creation-site-btp-nantes/"
       },
       {
-        "eyebrow": "RH · Recrutement · Conseil · Nantes",
-        "title": "Site web pour cabinet RH et recrutement à Nantes",
-        "text": "Création de site internet cabinet RH à Nantes : recrutement, coaching, audit social. Vitrine premium, offres d'emploi, SEO local. Maquette 48h.",
+        "eyebrow": "RH · Recrutement · Conseil",
+        "title": "Site web pour cabinet RH et recrutement",
+        "text": "Création de site internet cabinet RH: recrutement, coaching, audit social. Vitrine premium, offres d'emploi, SEO. Maquette 48h.",
         "url": "/secteurs/creation-site-cabinet-rh-nantes/"
       },
       {
-        "eyebrow": "Coach · Consultant · Nantes",
-        "title": "Site web pour coach et consultant à Nantes",
-        "text": "Création de site internet pour coach et consultant à Nantes : prise de RDV, blog, témoignages, SEO local. WordPress sur mesure. Maquette gratuite 48h.",
+        "eyebrow": "Coach · Consultant",
+        "title": "Site web pour coach et consultant",
+        "text": "Création de site internet pour coach et consultant: prise de RDV, blog, témoignages, SEO. WordPress sur mesure. Maquette gratuite 48h.",
         "url": "/secteurs/creation-site-coach-nantes/"
       },
       {
-        "eyebrow": "Salon de coiffure · Nantes",
-        "title": "Création de site web pour coiffeur à Nantes",
-        "text": "Site pour coiffeur à Nantes : réservation en ligne, galerie, SEO local et avis Google. WordPress premium dès 350€/mois. Maquette gratuite 48h.",
+        "eyebrow": "Salon de coiffure",
+        "title": "Création de site web pour coiffeur",
+        "text": "Site pour coiffeur: réservation en ligne, galerie, SEO et avis Google. WordPress premium dès 350€/mois. Maquette gratuite 48h.",
         "url": "/secteurs/creation-site-coiffeur-nantes/"
       },
       {
-        "eyebrow": "Électricien · Dépannage · Nantes",
-        "title": "Site web pour électricien à Nantes",
-        "text": "Création de site internet électricien à Nantes : dépannage, rénovation électrique, domotique. Devis en ligne, SEO local, click-to-call. Maquette 48h.",
+        "eyebrow": "Électricien · Dépannage",
+        "title": "Site web pour électricien",
+        "text": "Création de site internet électricien: dépannage, rénovation électrique, domotique. Devis en ligne, SEO, click-to-call. Maquette 48h.",
         "url": "/secteurs/creation-site-electricien-nantes/"
       },
       {
-        "eyebrow": "Immobilier · Nantes",
-        "title": "Création de site web immobilier à Nantes",
-        "text": "Site web pour agence immobilière à Nantes : annonces synchronisées, SEO local, prise de contact. WordPress sur mesure. Maquette gratuite 48h.",
+        "eyebrow": "Immobilier",
+        "title": "Création de site web immobilier",
+        "text": "Site web pour agence immobilière: annonces synchronisées, SEO, prise de contact. WordPress sur mesure. Maquette gratuite 48h.",
         "url": "/secteurs/creation-site-immobilier-nantes/"
       },
       {
-        "eyebrow": "Industrie · Manufacturing · Nantes",
-        "title": "Site web pour entreprise industrielle à Nantes",
-        "text": "Création de site internet pour industrie à Nantes : catalogue produits, devis B2B, certifications ISO. WordPress sur mesure. Maquette 48h. Location 350€/mois.",
+        "eyebrow": "Industrie · Manufacturing",
+        "title": "Site web pour entreprise industrielle",
+        "text": "Création de site internet pour industrie: catalogue produits, devis B2B, certifications ISO. WordPress sur mesure. Maquette 48h. Location 350€/mois.",
         "url": "/secteurs/creation-site-industrie-nantes/"
       },
       {
-        "eyebrow": "Paysagiste · Jardin · Espaces verts · Nantes",
-        "title": "Site web pour paysagiste à Nantes",
-        "text": "Création de site internet paysagiste à Nantes : création jardin, entretien, arrosage. Galerie, devis en ligne, SEO local. Maquette 48h. Location 350€/mois.",
+        "eyebrow": "Paysagiste · Jardin · Espaces verts",
+        "title": "Site web pour paysagiste",
+        "text": "Création de site internet paysagiste: création jardin, entretien, arrosage. Galerie, devis en ligne, SEO. Maquette 48h. Location 350€/mois.",
         "url": "/secteurs/creation-site-paysagiste-nantes/"
       },
       {
-        "eyebrow": "Plombier · Chauffagiste · Nantes",
-        "title": "Site web pour plombier à Nantes",
-        "text": "Création de site internet plombier à Nantes : dépannage, chauffage, salle de bain. Devis en ligne, SEO local, click-to-call. Maquette 48h. Location 350€/mois.",
+        "eyebrow": "Plombier · Chauffagiste",
+        "title": "Site web pour plombier",
+        "text": "Création de site internet plombier: dépannage, chauffage, salle de bain. Devis en ligne, SEO, click-to-call. Maquette 48h. Location 350€/mois.",
         "url": "/secteurs/creation-site-plombier-nantes/"
       },
       {
-        "eyebrow": "Restaurant · Nantes",
-        "title": "Création de site web pour restaurant à Nantes",
-        "text": "Création de site internet pour restaurant à Nantes : menu en ligne, réservation, SEO local, avis clients et design sur mesure. Maquette gratuite en 48h.",
+        "eyebrow": "Restaurant",
+        "title": "Création de site web pour restaurant",
+        "text": "Création de site internet pour restaurant: menu en ligne, réservation, SEO, avis clients et design sur mesure. Maquette gratuite en 48h.",
         "url": "/secteurs/creation-site-restaurant-nantes/"
       },
       {
-        "eyebrow": "Startup · Scale-up · Nantes",
-        "title": "Site web pour startup à Nantes",
-        "text": "Site internet startup à Nantes : landing page, pitch investisseurs, recrutement et SEO. WordPress évolutif. Maquette gratuite 48h.",
+        "eyebrow": "Startup · Scale-up",
+        "title": "Site web pour startup",
+        "text": "Site internet startup: landing page, pitch investisseurs, recrutement et SEO. WordPress évolutif. Maquette gratuite 48h.",
         "url": "/secteurs/creation-site-startup-nantes/"
       },
       {
-        "eyebrow": "Thérapeute · Santé · Bien-être · Nantes",
-        "title": "Site web pour thérapeute et praticien à Nantes",
-        "text": "Création de site internet pour thérapeute à Nantes : psychologue, ostéopathe, sophrologue. RDV en ligne, confidentialité, SEO local. Maquette 48h.",
+        "eyebrow": "Thérapeute · Santé · Bien-être",
+        "title": "Site web pour thérapeute et praticien",
+        "text": "Création de site internet pour thérapeute: psychologue, ostéopathe, sophrologue. RDV en ligne, confidentialité, SEO. Maquette 48h.",
         "url": "/secteurs/creation-site-therapeute-nantes/"
       }
     ],
-    "secteurs-cta-title": "Votre secteur n'est pas listé ?",
-    "secteurs-cta-text": "Nous adaptons nos sites à toute activité B2B ou B2C. Décrivez-nous votre métier : réponse sous 24 h, devis personnalisé et maquette gratuite en 48 h.",
+    "secteurs-cta-title": "Votre secteur n'est pas listé?",
+    "secteurs-cta-text": "Nous adaptons nos sites à toute activité B2B ou B2C. Décrivez-nous votre métier: réponse sous 24 h, devis personnalisé et maquette gratuite en 48 h.",
     "secteurs-cta-eyebrow": "Votre activité · sur mesure",
     "secteurs-cta-button": {
       "title": "Parler de mon projet",

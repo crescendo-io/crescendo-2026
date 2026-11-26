@@ -9,15 +9,15 @@
   },
   "seo": {
     "meta_title": "Site artisan Nantes — Sur mesure dès 350€/mois | Crescendo",
-    "meta_description": "Site web professionnel pour artisans à Nantes : plombier, électricien, menuisier. WordPress, SEO local, devis. Maquette gratuite 48h.",
+    "meta_description": "Site web professionnel pour artisans: plombier, électricien, menuisier. WordPress, SEO, devis. Maquette gratuite 48h.",
     "focus_keyword": "site web artisan nantes",
     "canonical": "https://www.crescendo-studio.io/secteurs/creation-site-artisan-nantes/",
     "noindex": false
   },
   "fields": {
-    "secteur-hero-eyebrow": "Artisan · Nantes",
-    "secteur-hero-title": "Site web pour artisan à Nantes",
-    "secteur-hero-intro": "Vous êtes plombier, électricien, menuisier ou artisan du bâtiment à Nantes ? Nous créons des sites WordPress sur mesure qui génèrent des demandes de devis locales — sans investissement initial grâce à la location dès 350€/mois.",
+    "secteur-hero-eyebrow": "Artisan",
+    "secteur-hero-title": "Site web pour artisan",
+    "secteur-hero-intro": "Vous êtes plombier, électricien, menuisier ou artisan du bâtiment? Nous créons des sites WordPress sur mesure qui génèrent des demandes de devis locales — sans investissement initial grâce à la location dès 350€/mois.",
     "secteur-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -35,7 +35,7 @@
         "text": "Formulaire optimisé pour convertir vos visiteurs en prospects."
       },
       {
-        "title": "SEO local",
+        "title": "SEO",
         "text": "Visible sur « plombier Nantes », « électricien Nantes » et variantes."
       },
       {
@@ -59,15 +59,15 @@
       },
       {
         "title": "Invisible localement",
-        "text": "Sans SEO local et fiche Google optimisée, vous n'existez pas sur les recherches « artisan + ville »."
+        "text": "Sans SEO et fiche Google optimisée, vous n'existez pas sur les recherches « artisan + ville »."
       },
       {
         "title": "Budget bloqué",
-        "text": "3 000 à 8 000€ d'investissement initial : difficile à justifier quand vous êtes sur le terrain."
+        "text": "3 000 à 8 000€ d'investissement initial: difficile à justifier quand vous êtes sur le terrain."
       }
     ],
     "secteur-solution-title": "Un site web pensé pour votre métier d'artisan",
-    "secteur-solution-text": "Chez Crescendo Studio, nous ne faisons pas de templates génériques. Chaque site artisan intègre les fonctionnalités essentielles à votre activité : présentation de vos services, zone d'intervention, avis clients et formulaire de devis optimisé pour le mobile.",
+    "secteur-solution-text": "Chez Crescendo Studio, nous ne faisons pas de templates génériques. Chaque site artisan intègre les fonctionnalités essentielles à votre activité: présentation de vos services, marché, avis clients et formulaire de devis optimisé pour le mobile.",
     "secteur-solution-price": "350€/mois",
     "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
     "secteur-solution-usps": [
@@ -80,7 +80,7 @@
         "text": "Design premium, rapide et évolutif selon vos besoins."
       },
       {
-        "title": "SEO local intégré",
+        "title": "SEO intégré",
         "text": "Structure, contenu et balisage pensés pour Google dès le départ."
       }
     ],
@@ -88,7 +88,7 @@
     "secteur-features-items": [
       {
         "title": "Formulaire de devis",
-        "text": "Capture les demandes avec les infos utiles : type de travaux, urgence, localisation."
+        "text": "Capture les demandes avec les infos utiles: type de travaux, urgence, localisation."
       },
       {
         "title": "Galerie réalisations",
@@ -96,7 +96,7 @@
       },
       {
         "title": "Zone d'intervention",
-        "text": "Pages et balises géolocalisées pour Nantes et la métropole."
+        "text": "Pages et balises géolocalisées pour Nantes."
       },
       {
         "title": "Avis Google intégrés",
@@ -113,10 +113,10 @@
     ],
     "secteur-case-title": "Exemple de réalisation dans votre secteur",
     "secteur-case-project-title": "Maison Jaden",
-    "secteur-case-project-tags": "WordPress · Devis · SEO local",
+    "secteur-case-project-tags": "WordPress · Devis · SEO",
     "secteur-case-project-points": [
       {
-        "text": "Site vitrine pour constructeur de maisons individuelles à Nantes"
+        "text": "Site vitrine pour constructeur de maisons individuelles"
       },
       {
         "text": "Formulaire de demande de devis connecté au CRM"
@@ -129,7 +129,7 @@
       }
     ],
     "secteur-case-project-url": "/realisations/maison-jaden/",
-    "secteur-pricing-title": "Combien coûte un site web pour artisan à Nantes ?",
+    "secteur-pricing-title": "Combien coûte un site web pour artisan?",
     "secteur-pricing-price": "350€",
     "secteur-pricing-price-suffix": "/mois",
     "secteur-pricing-cta": {
@@ -150,7 +150,7 @@
         "text": "Maintenance & mises à jour"
       },
       {
-        "text": "SEO local de base"
+        "text": "SEO de base"
       },
       {
         "text": "Formulaire de devis"
@@ -191,65 +191,32 @@
         "col2": "~25 000€+"
       }
     ],
-    "secteur-area-title": "Site web artisan à Nantes et en Loire-Atlantique",
-    "secteur-area-text": "Nous accompagnons les artisans de Nantes et des communes voisines. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
-    "secteur-area-cities": [
-      {
-        "name": "Nantes",
-        "url": "/services/creation-site-web-nantes/"
-      },
-      {
-        "name": "Saint-Herblain",
-        "url": "/agence-web-saint-herblain/"
-      },
-      {
-        "name": "Rezé",
-        "url": "/agence-web-reze/"
-      },
-      {
-        "name": "Orvault",
-        "url": "/agence-web-orvault/"
-      },
-      {
-        "name": "Vertou",
-        "url": "/"
-      },
-      {
-        "name": "Carquefou",
-        "url": "/agence-web-carquefou/"
-      }
-    ],
-    "secteur-area-see-all": {
-      "title": "Voir toutes nos zones",
-      "url": "/services/creation-site-web-nantes/",
-      "target": ""
-    },
     "secteur-faq-eyebrow": "Questions fréquentes",
     "secteur-faq-title": "Tout savoir sur la création de site pour artisan",
     "secteur-faq-items": [
       {
-        "question": "Combien coûte un site web pour artisan à Nantes ?",
+        "question": "Combien coûte un site web pour artisan?",
         "answer": "En location, comptez 350€/mois tout inclus sans frais de création. En achat classique, budget de 3 000 à 8 000€ selon les fonctionnalités, plus maintenance annuelle."
       },
       {
-        "question": "Mon site sera-t-il visible sur Google pour mon métier ?",
-        "answer": "Oui. Nous optimisons votre site pour les recherches locales : « plombier Nantes », « électricien Saint-Herblain », etc. SEO technique, contenu et fiche Google Business inclus."
+        "question": "Mon site sera-t-il visible sur Google pour mon métier?",
+        "answer": "Oui. Nous optimisons votre site pour les recherches locales: « plombier Nantes », « électricien Saint-Herblain », etc. SEO technique, contenu et fiche Google Business inclus."
       },
       {
-        "question": "Puis-je recevoir des demandes de devis en ligne ?",
+        "question": "Puis-je recevoir des demandes de devis en ligne?",
         "answer": "Absolument. Nous intégrons un formulaire de devis optimisé mobile, avec notification email et possibilité de connexion CRM pour ne perdre aucun prospect."
       },
       {
-        "question": "Combien de temps pour mettre mon site en ligne ?",
+        "question": "Combien de temps pour mettre mon site en ligne?",
         "answer": "4 à 6 semaines en moyenne. Nous commençons par une maquette gratuite sous 48h pour valider la direction avant le développement."
       },
       {
-        "question": "Quelle est la différence entre location et achat ?",
+        "question": "Quelle est la différence entre location et achat?",
         "answer": "La location (350€/mois) inclut création, hébergement, maintenance et évolutions sans investissement initial. L'achat demande un budget upfront mais vous êtes propriétaire du site."
       },
       {
-        "question": "Travaillez-vous avec tous les corps de métier ?",
-        "answer": "Oui : plombiers, électriciens, menuisiers, peintres, couvreurs, chauffagistes, paysagistes… Nous adaptons le contenu et les fonctionnalités à votre métier."
+        "question": "Travaillez-vous avec tous les corps de métier?",
+        "answer": "Oui: plombiers, électriciens, menuisiers, peintres, couvreurs, chauffagistes, paysagistes… Nous adaptons le contenu et les fonctionnalités à votre métier."
       }
     ],
     "secteur-related-title": "Autres secteurs que nous accompagnons",
@@ -279,7 +246,7 @@
         "url": "/services/creation-site-ecommerce-nantes/"
       }
     ],
-    "secteur-final-cta-title": "Prêt à générer plus de chantiers avec votre site ?",
+    "secteur-final-cta-title": "Prêt à générer plus de chantiers avec votre site?",
     "secteur-final-cta-text": "Recevez une maquette gratuite sous 48h, adaptée à votre métier d'artisan. Sans engagement.",
     "secteur-final-cta-points": [
       {
@@ -289,7 +256,7 @@
         "text": "Formule location sans investissement initial"
       },
       {
-        "text": "Accompagnement local à Nantes"
+        "text": "Accompagnement dédié"
       }
     ],
     "secteur-final-form-job-label": "Votre métier",
@@ -301,7 +268,7 @@
         "text": "Réponse sous 24h"
       },
       {
-        "text": "Agence nantaise"
+        "text": "Équipe Crescendo"
       }
     ]
   }

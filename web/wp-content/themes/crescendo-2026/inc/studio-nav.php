@@ -98,3 +98,54 @@ function crescendo_render_studio_primary_nav() {
 
     crescendo_render_studio_primary_nav_fallback();
 }
+
+/**
+ * Header Studio : Secteurs et Réalisations = liens simples, sans sous-menu.
+ *
+ * @param WP_Post[] $items
+ * @return WP_Post[]
+ */
+function crescendo_studio_filter_header_nav_menu_objects($items, $args) {
+    if (!is_object($args) || empty($args->theme_location) || $args->theme_location !== 'menu-header') {
+        return $items;
+    }
+    if (!function_exists('crescendo_uses_studio_design') || !crescendo_uses_studio_design()) {
+        return $items;
+    }
+
+    $flatPaths = array(
+        crescendo_nav_normalize_path(crescendo_nav_url('secteurs')),
+        crescendo_nav_normalize_path(crescendo_nav_url('realisations')),
+    );
+    $parentIds = array();
+
+    foreach ($items as $item) {
+        if ((string) $item->menu_item_parent !== '0') {
+            continue;
+        }
+        $path = crescendo_nav_normalize_path($item->url);
+        if (in_array($path, $flatPaths, true)) {
+            $parentIds[(int) $item->ID] = true;
+        }
+    }
+
+    if ($parentIds === array()) {
+        return $items;
+    }
+
+    $filtered = array();
+    foreach ($items as $item) {
+        $parentId = (int) $item->menu_item_parent;
+        if ($parentId !== 0 && isset($parentIds[$parentId])) {
+            continue;
+        }
+        if (isset($parentIds[(int) $item->ID])) {
+            $item->classes = array_values(array_diff((array) $item->classes, array('menu-item-has-children')));
+        }
+        $filtered[] = $item;
+    }
+
+    return $filtered;
+}
+
+add_filter('wp_nav_menu_objects', 'crescendo_studio_filter_header_nav_menu_objects', 20, 2);

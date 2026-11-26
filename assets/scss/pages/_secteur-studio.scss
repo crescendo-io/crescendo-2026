@@ -5,28 +5,48 @@ body.site-studio .secteur-page--studio {
         margin-bottom: 0;
     }
 
-    .studio-hero--secteur-page .studio-secteur-hero__intro {
-        margin: clamp(14px, 2vw, 22px) auto 0;
-        max-width: 50ch;
-        font-size: var(--studio-text-lead);
-        line-height: 1.52;
-        color: rgb(255 255 255 / 84%);
-        text-shadow: 0 1px 20px rgb(0 0 0 / 45%);
+    .studio-secteur-page-hero {
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: 0;
     }
 
-    .studio-hero--secteur-page .studio-hero__copy {
-        max-width: min(58rem, 100%);
-    }
-
-    .studio-secteur-hero .studio-hero--secteur-page .studio-hero__overlay {
-        padding-bottom: clamp(28px, 4vh, 48px);
+    .studio-secteur-page-hero h1 {
+        margin: 0;
+        max-width: 14ch;
+        font-size: clamp(2.9rem, 5.8vw, 6.4rem);
+        font-weight: 575;
+        letter-spacing: -0.065em;
+        line-height: 0.98;
     }
 
     .studio-secteur-hero__benefits-wrap {
         width: 100%;
         padding-top: var(--studio-space-section-tight);
         padding-bottom: clamp(8px, 1vw, 16px);
-        border-bottom: 1px solid rgb(29 30 27 / 12%);
+        border-bottom: 1px solid rgb(250 248 243 / 10%);
+        background: #20211f;
+        color: var(--studio-paper);
+
+        .studio-secteur-hero__benefit-title {
+            color: var(--studio-paper);
+        }
+
+        p {
+            color: rgb(250 248 243 / 72%);
+        }
+
+        .studio-service-benefits__index {
+            color: rgb(250 248 243 / 48%);
+        }
+
+        .studio-service-benefits__grid {
+            border-top-color: rgb(250 248 243 / 22%);
+
+            > li {
+                border-right-color: rgb(250 248 243 / 14%);
+            }
+        }
     }
 
     .studio-secteur-hero__benefits {

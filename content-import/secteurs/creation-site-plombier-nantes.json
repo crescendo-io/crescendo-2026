@@ -9,15 +9,15 @@
   },
   "seo": {
     "meta_title": "Site web plombier Nantes — Dépannage & devis | Crescendo",
-    "meta_description": "Création de site internet plombier à Nantes : dépannage, chauffage, salle de bain. Devis en ligne, SEO local, click-to-call. Maquette 48h. Location 350€/mois.",
+    "meta_description": "Création de site internet plombier: dépannage, chauffage, salle de bain. Devis en ligne, SEO, click-to-call. Maquette 48h. Location 350€/mois.",
     "focus_keyword": "site web plombier nantes",
     "canonical": "https://www.crescendo-studio.io/secteurs/creation-site-plombier-nantes/",
     "noindex": false
   },
   "fields": {
-    "secteur-hero-eyebrow": "Plombier · Chauffagiste · Nantes",
-    "secteur-hero-title": "Site web pour plombier à Nantes",
-    "secteur-hero-intro": "Plombier, chauffagiste ou artisan sanitaire à Nantes ? Votre site doit capter les fuites urgentes et les projets de rénovation salle de bain : visible sur Google, joignable en un clic et crédible grâce à vos avis et certifications.",
+    "secteur-hero-eyebrow": "Plombier · Chauffagiste",
+    "secteur-hero-title": "Site web pour plombier",
+    "secteur-hero-intro": "Plombier, chauffagiste ou artisan sanitaire? Votre site doit capter les fuites urgentes et les projets de rénovation salle de bain: visible sur Google, joignable en un clic et crédible grâce à vos avis et certifications.",
     "secteur-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -67,7 +67,7 @@
       }
     ],
     "secteur-solution-title": "Un site plombier qui convertit urgence et rénovation",
-    "secteur-solution-text": "Sites WordPress pour plombiers nantais : dépannage, chauffage, salle de bain, adoucisseur, entretien chaudière — avec devis en ligne, avis clients et SEO local multi-villes.",
+    "secteur-solution-text": "Sites WordPress pour plombiers nantais: dépannage, chauffage, salle de bain, adoucisseur, entretien chaudière — avec devis en ligne, avis clients et SEO multi-villes.",
     "secteur-solution-price": "350€/mois",
     "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
     "secteur-solution-usps": [
@@ -80,7 +80,7 @@
         "text": "Design premium adapté à votre secteur."
       },
       {
-        "title": "SEO local intégré",
+        "title": "SEO intégré",
         "text": "Visible sur Google dès la mise en ligne."
       }
     ],
@@ -113,20 +113,20 @@
     ],
     "secteur-case-title": "Exemple de réalisation artisan local",
     "secteur-case-project-title": "Ludovic Géhéniaux",
-    "secteur-case-project-tags": "WordPress · SEO local · Contact",
+    "secteur-case-project-tags": "WordPress · SEO · Contact",
     "secteur-case-project-points": [
       {
         "text": "Site vitrine artisan avec conversion mobile optimisée"
       },
       {
-        "text": "Référencement local sur Nantes et la métropole"
+        "text": "Référencement local sur Nantes"
       },
       {
         "text": "Design professionnel orienté prise de contact"
       }
     ],
     "secteur-case-project-url": "/realisations/ludovic-geheniaux/",
-    "secteur-pricing-title": "Combien coûte un site web plombier à Nantes ?",
+    "secteur-pricing-title": "Combien coûte un site web plombier?",
     "secteur-pricing-price": "350€",
     "secteur-pricing-price-suffix": "/mois",
     "secteur-pricing-cta": {
@@ -147,7 +147,7 @@
         "text": "Maintenance & mises à jour"
       },
       {
-        "text": "SEO local de base"
+        "text": "SEO de base"
       },
       {
         "text": "Formulaire de contact"
@@ -188,64 +188,31 @@
         "col2": "~25 000€+"
       }
     ],
-    "secteur-area-title": "Site web plombier à Nantes et métropole",
-    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
-    "secteur-area-cities": [
-      {
-        "name": "Nantes",
-        "url": "/"
-      },
-      {
-        "name": "Saint-Herblain",
-        "url": "/agence-web-saint-herblain/"
-      },
-      {
-        "name": "Rezé",
-        "url": "/agence-web-reze/"
-      },
-      {
-        "name": "Orvault",
-        "url": "/agence-web-orvault/"
-      },
-      {
-        "name": "Carquefou",
-        "url": "/agence-web-carquefou/"
-      },
-      {
-        "name": "Saint-Nazaire",
-        "url": "/agence-web-saint-nazaire/"
-      }
-    ],
-    "secteur-area-see-all": {
-      "title": "Voir toutes nos zones",
-      "url": "/",
-      "target": ""
-    },
     "secteur-faq-eyebrow": "Questions fréquentes",
     "secteur-faq-title": "FAQ site web plombier",
     "secteur-faq-items": [
       {
-        "question": "Combien coûte un site plombier à Nantes ?",
+        "question": "Combien coûte un site plombier?",
         "answer": "350 €/mois en location, ou 3 000 à 5 500 € en achat selon pages et fonctionnalités devis."
       },
       {
-        "question": "Le site aide-t-il pour les dépannages ?",
+        "question": "Le site aide-t-il pour les dépannages?",
         "answer": "Oui. Click-to-call sticky et page urgence optimisée pour mobile."
       },
       {
-        "question": "Puis-je cibler « plombier Rezé » ou « chauffagiste Orvault » ?",
+        "question": "Puis-je cibler « plombier Rezé » ou « chauffagiste Orvault »?",
         "answer": "Oui. Pages SEO par commune incluse dans notre approche locale."
       },
       {
-        "question": "Affichage label RGE possible ?",
+        "question": "Affichage label RGE possible?",
         "answer": "Oui. Section certifications avec logos et numéros."
       },
       {
-        "question": "Quel délai ?",
+        "question": "Quel délai?",
         "answer": "4 à 6 semaines. Maquette gratuite sous 48 h."
       },
       {
-        "question": "Maintenance incluse en location ?",
+        "question": "Maintenance incluse en location?",
         "answer": "Oui. Mises à jour, sauvegardes, sécurité et support réactif."
       }
     ],
@@ -286,7 +253,7 @@
         "text": "Formule location sans investissement initial"
       },
       {
-        "text": "Accompagnement local à Nantes"
+        "text": "Accompagnement dédié"
       }
     ],
     "secteur-final-form-job-label": "Votre activité plombier",
@@ -298,7 +265,7 @@
         "text": "Réponse sous 24h"
       },
       {
-        "text": "Agence nantaise"
+        "text": "Équipe Crescendo"
       }
     ]
   }

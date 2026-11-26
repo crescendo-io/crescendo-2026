@@ -12,24 +12,34 @@ if ($storyText) {
 }
 ?>
 <header class="studio-about-hero" aria-labelledby="studio-about-hero-title">
-    <div class="shell">
-        <div class="studio-about-hero__copy">
-            <div class="studio-about-hero__copy-inner">
+    <div class="studio-page-hero__dark-band studio-page-hero--dark">
+    <div class="shell studio-page-hero__inner">
+        <div class="studio-page-hero__layout" data-studio-text-reveal>
+            <div class="studio-page-hero__main">
                 <?php if ($eyebrow) : ?>
-                    <p class="studio-eyebrow studio-about-hero__eyebrow" data-studio-text-reveal>
+                    <p class="studio-eyebrow studio-about-hero__eyebrow">
                         <span class="studio-signal" aria-hidden="true"></span>
                         <?php echo esc_html($eyebrow); ?>
                     </p>
                 <?php endif; ?>
 
-                <h1 id="studio-about-hero-title" data-studio-text-reveal>
+                <h1 id="studio-about-hero-title">
                     <?php echo esc_html($title); ?><span class="studio-red">.</span>
                 </h1>
 
-                <?php if ($intro) : ?>
-                    <p class="studio-about-hero__intro" data-studio-text-reveal><?php echo esc_html($intro); ?></p>
-                <?php endif; ?>
+                <p class="studio-about-hero__actions studio-page-hero__actions">
+                    <a class="studio-about-hero__button" href="<?php echo esc_url($contactUrl); ?>">
+                        <?php esc_html_e('Demander ma maquette gratuite', 'crescendo-2026'); ?>
+                    </a>
+                    <a class="studio-text-link" href="#histoire"><?php esc_html_e('Notre histoire', 'crescendo-2026'); ?></a>
+                </p>
             </div>
+
+            <?php if ($intro) : ?>
+                <div class="studio-page-hero__aside">
+                    <p class="studio-about-hero__intro"><?php echo esc_html($intro); ?></p>
+                </div>
+            <?php endif; ?>
         </div>
 
         <?php if (!empty($stats)) : ?>
@@ -47,13 +57,7 @@ if ($storyText) {
                 <?php endforeach; ?>
             </ul>
         <?php endif; ?>
-
-        <p class="studio-about-hero__actions" data-studio-text-reveal>
-            <a class="studio-about-hero__button" href="<?php echo esc_url($contactUrl); ?>">
-                <?php esc_html_e('Demander ma maquette gratuite', 'crescendo-2026'); ?>
-            </a>
-            <a class="studio-text-link" href="#histoire"><?php esc_html_e('Notre histoire', 'crescendo-2026'); ?></a>
-        </p>
+    </div>
     </div>
 
     <?php if ($manifesto !== '') : ?>

@@ -9,23 +9,38 @@ $contactUrl = function_exists('crescendo_nav_url') ? crescendo_nav_url('contact'
 $ctaUrl = !empty($ctaPrimary['url']) ? $ctaPrimary['url'] : $contactUrl;
 $ctaLabel = !empty($ctaPrimary['title']) ? $ctaPrimary['title'] : __('Lancer mon projet', 'crescendo-2026');
 ?>
-<section class="studio-realisations-hero" aria-labelledby="studio-realisations-hero-title">
+<section class="studio-realisations-hero studio-page-hero--dark" aria-labelledby="studio-realisations-hero-title">
     <div class="shell studio-page-hero__inner">
-        <?php if ($eyebrow) : ?>
-            <p class="studio-eyebrow" data-studio-text-reveal><?php echo esc_html($eyebrow); ?></p>
-        <?php endif; ?>
+        <div class="studio-page-hero__layout" data-studio-text-reveal>
+            <div class="studio-page-hero__main">
+                <?php if ($eyebrow) : ?>
+                    <p class="studio-eyebrow">
+                        <span class="studio-signal" aria-hidden="true"></span>
+                        <?php echo esc_html($eyebrow); ?>
+                    </p>
+                <?php endif; ?>
 
-        <h1 id="studio-realisations-hero-title" data-studio-text-reveal>
-            <?php echo esc_html($title); ?><span class="studio-red">.</span>
-        </h1>
+                <h1 id="studio-realisations-hero-title">
+                    <?php echo esc_html($title); ?><span class="studio-red">.</span>
+                </h1>
 
-        <?php if ($intro) : ?>
-            <p class="studio-realisations-hero__intro" data-studio-text-reveal><?php echo esc_html($intro); ?></p>
-        <?php endif; ?>
+                <p class="studio-realisations-hero__actions studio-page-hero__actions">
+                    <a class="studio-realisations-hero__button" href="<?php echo esc_url($ctaUrl); ?>"><?php echo esc_html($ctaLabel); ?></a>
+                    <a class="studio-text-link" href="#projets"><?php esc_html_e('Voir les projets', 'crescendo-2026'); ?></a>
+                </p>
+            </div>
 
-        <?php if ($panelText) : ?>
-            <p class="studio-realisations-hero__lede" data-studio-text-reveal><?php echo esc_html($panelText); ?></p>
-        <?php endif; ?>
+            <?php if ($intro || $panelText) : ?>
+                <div class="studio-page-hero__aside">
+                    <?php if ($intro) : ?>
+                        <p class="studio-realisations-hero__intro"><?php echo esc_html($intro); ?></p>
+                    <?php endif; ?>
+                    <?php if ($panelText) : ?>
+                        <p class="studio-realisations-hero__lede"><?php echo esc_html($panelText); ?></p>
+                    <?php endif; ?>
+                </div>
+            <?php endif; ?>
+        </div>
 
         <?php if (!empty($stats)) : ?>
             <ul class="studio-realisations-hero__stats" data-studio-text-reveal>
@@ -42,10 +57,5 @@ $ctaLabel = !empty($ctaPrimary['title']) ? $ctaPrimary['title'] : __('Lancer mon
                 <?php endforeach; ?>
             </ul>
         <?php endif; ?>
-
-        <p class="studio-realisations-hero__actions" data-studio-text-reveal>
-            <a class="studio-realisations-hero__button" href="<?php echo esc_url($ctaUrl); ?>"><?php echo esc_html($ctaLabel); ?></a>
-            <a class="studio-text-link" href="#projets"><?php esc_html_e('Voir les projets', 'crescendo-2026'); ?></a>
-        </p>
     </div>
 </section>

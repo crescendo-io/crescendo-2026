@@ -1,7 +1,7 @@
 <?php
-$theme = THEME_URL . 'assets/images/studio/';
 $eyebrow = crescendo_service('service-hero-eyebrow');
 $title = crescendo_service('service-hero-title') ?: get_the_title();
+$intro = crescendo_service('service-hero-intro');
 $ctaPrimary = crescendo_service('service-hero-cta-primary');
 $ctaSecondary = crescendo_service('service-hero-cta-secondary');
 $note = crescendo_service('service-hero-note');
@@ -19,81 +19,54 @@ if (preg_match('/^(.+?)\s+à\s+(.+)$/u', $title, $titleParts)) {
     $titleAccent = $titleParts[2];
 }
 ?>
-<section class="studio-hero studio-hero--immersive studio-hero--service-page" aria-labelledby="studio-service-hero-title">
-    <div class="studio-hero__scene studio-hero__scene--static" aria-hidden="true">
-        <div class="studio-hero__media-wrap">
-            <div class="studio-hero__media-zoom">
-                <img
-                    class="studio-hero__media"
-                    src="<?php echo esc_url($theme . 'hero.jpg'); ?>"
-                    width="1024"
-                    height="682"
-                    alt=""
-                    decoding="async"
-                    loading="eager"
-                >
-            </div>
-        </div>
-        <div class="studio-hero__glows">
-            <div class="studio-hero__glows-track">
-                <span class="studio-hero__glow studio-hero__glow--warm"></span>
-                <span class="studio-hero__glow studio-hero__glow--cool"></span>
-                <span class="studio-hero__glow studio-hero__glow--rose" aria-hidden="true"></span>
-            </div>
-        </div>
-        <div class="studio-hero__mesh"></div>
-        <div class="studio-hero__grain"></div>
-        <div class="studio-hero__veil"></div>
-    </div>
+<section class="studio-page-hero studio-page-hero--dark studio-service-page-hero" aria-labelledby="studio-service-hero-title">
+    <div class="shell studio-page-hero__inner">
+        <div class="studio-page-hero__layout" data-studio-text-reveal>
+            <div class="studio-page-hero__main">
+                <?php if ($eyebrow) : ?>
+                    <p class="studio-eyebrow">
+                        <span class="studio-signal" aria-hidden="true"></span>
+                        <?php
+                        $eyebrowParts = preg_split('/\s*\/\s*|\s*·\s*/u', $eyebrow, 2);
+                        if (count($eyebrowParts) > 1) {
+                            echo esc_html($eyebrowParts[0]);
+                            echo '<span class="studio-divider">/</span>';
+                            echo esc_html($eyebrowParts[1]);
+                        } else {
+                            echo esc_html($eyebrow);
+                        }
+                        ?>
+                    </p>
+                <?php endif; ?>
 
-    <div class="shell studio-hero__overlay">
-        <div class="studio-hero__layout">
-            <div class="studio-hero__copy">
-                <div class="studio-hero__copy-inner">
-                    <?php if ($eyebrow) : ?>
-                        <p class="studio-eyebrow">
-                            <span class="studio-signal" aria-hidden="true"></span>
-                            <?php
-                            $eyebrowParts = preg_split('/\s*\/\s*|\s*·\s*/u', $eyebrow, 2);
-                            if (count($eyebrowParts) > 1) {
-                                echo esc_html($eyebrowParts[0]);
-                                echo '<span class="studio-divider">/</span>';
-                                echo esc_html($eyebrowParts[1]);
-                            } else {
-                                echo esc_html($eyebrow);
-                            }
-                            ?>
-                        </p>
+                <h1 id="studio-service-hero-title">
+                    <?php if ($titleAccent !== '') : ?>
+                        <span><?php echo esc_html($titleLead); ?></span>
+                        <strong><?php echo esc_html($titleAccent); ?></strong>
+                    <?php else : ?>
+                        <?php echo esc_html($title); ?><span class="studio-red">.</span>
                     <?php endif; ?>
+                </h1>
 
-                    <h1 id="studio-service-hero-title">
-                        <?php if ($titleAccent !== '') : ?>
-                            <span><?php echo esc_html($titleLead); ?></span>
-                            <strong><?php echo esc_html($titleAccent); ?></strong>
-                        <?php else : ?>
-                            <?php echo esc_html($title); ?>
-                        <?php endif; ?>
-                    </h1>
-
-                    <div class="studio-hero__actions">
-                        <a class="studio-hero-offer" href="<?php echo esc_url($primaryUrl); ?>"><?php echo esc_html($primaryTitle); ?></a>
-                        <?php if ($secondaryTitle && $secondaryUrl) : ?>
-                            <a class="studio-text-link" href="<?php echo esc_url(crescendo_resolve_link_url($secondaryUrl)); ?>"><?php echo esc_html($secondaryTitle); ?></a>
-                        <?php else : ?>
-                            <a class="studio-text-link" href="#inclus"><?php esc_html_e('Voir le périmètre', 'crescendo-2026'); ?></a>
-                        <?php endif; ?>
-                    </div>
-
-                    <?php if ($note) : ?>
-                        <p class="studio-service-hero__note"><?php echo esc_html($note); ?></p>
+                <div class="studio-page-hero__actions studio-hero__actions">
+                    <a class="studio-hero-offer" href="<?php echo esc_url($primaryUrl); ?>"><?php echo esc_html($primaryTitle); ?></a>
+                    <?php if ($secondaryTitle && $secondaryUrl) : ?>
+                        <a class="studio-text-link" href="<?php echo esc_url(crescendo_resolve_link_url($secondaryUrl)); ?>"><?php echo esc_html($secondaryTitle); ?></a>
+                    <?php else : ?>
+                        <a class="studio-text-link" href="#inclus"><?php esc_html_e('Voir le périmètre', 'crescendo-2026'); ?></a>
                     <?php endif; ?>
                 </div>
-            </div>
-        </div>
 
-        <a class="studio-hero__scroll" href="#inclus">
-            <span class="studio-hero__scroll-line" aria-hidden="true"></span>
-            <span class="visually-hidden"><?php esc_html_e('Descendre', 'crescendo-2026'); ?></span>
-        </a>
+                <?php if ($note) : ?>
+                    <p class="studio-service-hero__note"><?php echo esc_html($note); ?></p>
+                <?php endif; ?>
+            </div>
+
+            <?php if ($intro) : ?>
+                <div class="studio-page-hero__aside">
+                    <p class="studio-intro studio-service-page-hero__intro"><?php echo esc_html($intro); ?></p>
+                </div>
+            <?php endif; ?>
+        </div>
     </div>
 </section>

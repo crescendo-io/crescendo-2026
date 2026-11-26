@@ -1,0 +1,76 @@
+// Boutons primaires Studio — même charte que le CTA header (mono 14px, uppercase, orange).
+body.site-studio {
+    .studio-contact-button,
+    .studio-hero-offer,
+    .studio-project-cta__button,
+    .studio-services-hub-hero__button,
+    .studio-realisations-hero__button,
+    .studio-about-hero__button,
+    .studio-services-hub-offers__cta,
+    .studio-services-hub-offers__cta.studio-text-link,
+    .crescendo-contact-form__submit.btn--primary,
+    .btn.btn--primary,
+    .btn.btn--dark {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 10px 20px;
+        border: 1px solid var(--studio-red);
+        border-radius: 0;
+        background: var(--studio-red);
+        color: #fff;
+        font-family: var(--studio-mono);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        text-decoration: none;
+        box-shadow: none;
+        backdrop-filter: none;
+        transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+
+        &::after {
+            content: none;
+        }
+
+        &:hover {
+            color: var(--studio-paper);
+            background: var(--studio-ink);
+            border-color: var(--studio-ink);
+            transform: none;
+        }
+    }
+
+    .crescendo-contact-form__submit.btn--primary {
+        width: 100%;
+    }
+
+    .studio-hero-offer--inline {
+        width: auto;
+    }
+
+    .studio-hero--immersive .studio-hero-offer {
+        box-shadow: 0 18px 48px rgb(237 72 46 / 32%);
+
+        &:hover {
+            box-shadow: 0 12px 32px rgb(0 0 0 / 24%);
+        }
+    }
+
+    @media (max-width: 700px) {
+        .studio-contact-button,
+        .studio-hero-offer,
+        .studio-project-cta__button,
+        .studio-services-hub-hero__button,
+        .studio-realisations-hero__button,
+        .studio-about-hero__button,
+        .crescendo-contact-form__submit.btn--primary,
+        .btn.btn--primary,
+        .btn.btn--dark {
+            font-size: 14px;
+            min-height: 44px;
+        }
+    }
+}

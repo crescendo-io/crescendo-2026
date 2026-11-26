@@ -26,6 +26,7 @@ require_once (__DIR__ . '/inc/home-seo.php');
 require_once (__DIR__ . '/inc/service-seo.php');
 require_once (__DIR__ . '/inc/service-import.php');
 require_once (__DIR__ . '/inc/secteur-seo.php');
+require_once (__DIR__ . '/inc/secteur-studio-copy.php');
 require_once (__DIR__ . '/inc/secteur-import.php');
 require_once (__DIR__ . '/inc/secteurs-hub-seo.php');
 require_once (__DIR__ . '/inc/secteurs-hub-import.php');

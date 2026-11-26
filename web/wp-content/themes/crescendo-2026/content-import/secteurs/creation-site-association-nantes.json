@@ -9,15 +9,15 @@
   },
   "seo": {
     "meta_title": "Site association Nantes — Adhésions & événements | Crescendo",
-    "meta_description": "Création de site internet pour association à Nantes : adhésions en ligne, événements, appel aux dons, bénévolat. WordPress accessible. Maquette 48h.",
+    "meta_description": "Création de site internet pour association: adhésions en ligne, événements, appel aux dons, bénévolat. WordPress accessible. Maquette 48h.",
     "focus_keyword": "site web association nantes",
     "canonical": "https://www.crescendo-studio.io/secteurs/creation-site-association-nantes/",
     "noindex": false
   },
   "fields": {
-    "secteur-hero-eyebrow": "Association · ONG · Nantes",
-    "secteur-hero-title": "Site web pour association à Nantes",
-    "secteur-hero-intro": "Association culturelle, sportive, humanitaire ou ONG à Nantes ? Votre site mobilise adhérents, bénévoles et donateurs : actualités, agenda, adhésion en ligne et transparence sur vos actions.",
+    "secteur-hero-eyebrow": "Association · ONG",
+    "secteur-hero-title": "Site web pour association",
+    "secteur-hero-intro": "Association culturelle, sportive, humanitaire ou ONG? Votre site mobilise adhérents, bénévoles et donateurs: actualités, agenda, adhésion en ligne et transparence sur vos actions.",
     "secteur-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -67,7 +67,7 @@
       }
     ],
     "secteur-solution-title": "Un site association vivant et mobilisateur",
-    "secteur-solution-text": "Nous créons des sites WordPress pour associations nantaises : gestion d'événements, adhésions, appels aux dons, galerie photos et espace bénévoles — administrables par des non-techniciens.",
+    "secteur-solution-text": "Nous créons des sites WordPress pour associations nantaises: gestion d'événements, adhésions, appels aux dons, galerie photos et espace bénévoles — administrables par des non-techniciens.",
     "secteur-solution-price": "350€/mois",
     "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
     "secteur-solution-usps": [
@@ -80,7 +80,7 @@
         "text": "Design premium adapté à votre secteur."
       },
       {
-        "title": "SEO local intégré",
+        "title": "SEO intégré",
         "text": "Visible sur Google dès la mise en ligne."
       }
     ],
@@ -126,7 +126,7 @@
       }
     ],
     "secteur-case-project-url": "/realisations/cma-associes/",
-    "secteur-pricing-title": "Combien coûte un site web pour association à Nantes ?",
+    "secteur-pricing-title": "Combien coûte un site web pour association?",
     "secteur-pricing-price": "350€",
     "secteur-pricing-price-suffix": "/mois",
     "secteur-pricing-cta": {
@@ -147,7 +147,7 @@
         "text": "Maintenance & mises à jour"
       },
       {
-        "text": "SEO local de base"
+        "text": "SEO de base"
       },
       {
         "text": "Formulaire de contact"
@@ -188,64 +188,31 @@
         "col2": "~25 000€+"
       }
     ],
-    "secteur-area-title": "Site web association à Nantes et métropole",
-    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
-    "secteur-area-cities": [
-      {
-        "name": "Nantes",
-        "url": "/"
-      },
-      {
-        "name": "Saint-Herblain",
-        "url": "/agence-web-saint-herblain/"
-      },
-      {
-        "name": "Rezé",
-        "url": "/agence-web-reze/"
-      },
-      {
-        "name": "Orvault",
-        "url": "/agence-web-orvault/"
-      },
-      {
-        "name": "Carquefou",
-        "url": "/agence-web-carquefou/"
-      },
-      {
-        "name": "Saint-Nazaire",
-        "url": "/agence-web-saint-nazaire/"
-      }
-    ],
-    "secteur-area-see-all": {
-      "title": "Voir toutes nos zones",
-      "url": "/",
-      "target": ""
-    },
     "secteur-faq-eyebrow": "Questions fréquentes",
     "secteur-faq-title": "FAQ site web association",
     "secteur-faq-items": [
       {
-        "question": "Combien coûte un site association à Nantes ?",
-        "answer": "350 €/mois en location — idéal pour les budgets associatifs. Achat : 3 000 à 6 000 € selon fonctionnalités."
+        "question": "Combien coûte un site association?",
+        "answer": "350 €/mois en location — idéal pour les budgets associatifs. Achat: 3 000 à 6 000 € selon fonctionnalités."
       },
       {
-        "question": "Proposez-vous des tarifs associatifs ?",
+        "question": "Proposez-vous des tarifs associatifs?",
         "answer": "La location à 350 €/mois sans frais de création est déjà adaptée aux budgets associatifs."
       },
       {
-        "question": "Peut-on gérer le site sans compétence technique ?",
+        "question": "Peut-on gérer le site sans compétence technique?",
         "answer": "Oui. Formation incluse — vos bénévoles publient actualités et événements facilement."
       },
       {
-        "question": "Intégrez-vous HelloAsso ou Stripe ?",
+        "question": "Intégrez-vous HelloAsso ou Stripe?",
         "answer": "Oui. Adhésions, dons et événements payants selon vos outils existants."
       },
       {
-        "question": "Le site est-il accessible (handicap) ?",
+        "question": "Le site est-il accessible (handicap)?",
         "answer": "Oui. Nous appliquons les bonnes pratiques d'accessibilité web (contraste, navigation clavier)."
       },
       {
-        "question": "Quel délai ?",
+        "question": "Quel délai?",
         "answer": "4 à 8 semaines selon le volume de contenus à migrer."
       }
     ],
@@ -276,7 +243,7 @@
         "url": "/secteurs/creation-site-restaurant-nantes/"
       }
     ],
-    "secteur-final-cta-title": "Donnez de la visibilité à votre association à Nantes",
+    "secteur-final-cta-title": "Donnez de la visibilité à votre association",
     "secteur-final-cta-text": "Maquette gratuite sous 48 h pour structurer votre présence en ligne.",
     "secteur-final-cta-points": [
       {
@@ -286,7 +253,7 @@
         "text": "Formule location sans investissement initial"
       },
       {
-        "text": "Accompagnement local à Nantes"
+        "text": "Accompagnement dédié"
       }
     ],
     "secteur-final-form-job-label": "Votre association",
@@ -298,7 +265,7 @@
         "text": "Réponse sous 24h"
       },
       {
-        "text": "Agence nantaise"
+        "text": "Équipe Crescendo"
       }
     ]
   }

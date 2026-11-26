@@ -24,6 +24,10 @@ function crescendo_secteurs_hub($field, $post_id = null) {
     }
 
     if ($value !== null && $value !== false && $value !== '') {
+        if (function_exists('crescendo_secteur_sanitize_field_value')) {
+            return crescendo_secteur_sanitize_field_value($field, $value, $post_id);
+        }
+
         return $value;
     }
 
@@ -87,12 +91,20 @@ function crescendo_get_secteurs_hub_cards($post_id = null) {
                 return null;
             }
 
-            return array(
+            $card = array(
                 'eyebrow' => $card['eyebrow'] ?? '',
                 'title' => $card['title'],
                 'text' => $card['text'] ?? '',
                 'url' => $card['url'],
             );
+
+            if (function_exists('crescendo_secteur_strip_localization_text')) {
+                $card['eyebrow'] = crescendo_secteur_strip_localization_text($card['eyebrow']);
+                $card['title'] = crescendo_secteur_strip_localization_text($card['title']);
+                $card['text'] = crescendo_secteur_strip_localization_text($card['text']);
+            }
+
+            return $card;
         }, $cards)));
     }
 
@@ -102,10 +114,19 @@ function crescendo_get_secteurs_hub_cards($post_id = null) {
 
         foreach ($children as $child) {
             $intro = get_field('secteur-hero-intro', $child->ID);
+            $eyebrow = get_field('secteur-hero-eyebrow', $child->ID) ?: '';
+            $title = get_the_title($child);
+            $text = $intro ? wp_trim_words($intro, 28, '…') : '';
+            if (function_exists('crescendo_secteur_strip_localization_text')) {
+                $eyebrow = crescendo_secteur_strip_localization_text($eyebrow);
+                $title = crescendo_secteur_strip_localization_text($title);
+                $text = crescendo_secteur_strip_localization_text($text);
+            }
+
             $cards[] = array(
-                'eyebrow' => get_field('secteur-hero-eyebrow', $child->ID) ?: '',
-                'title' => get_the_title($child),
-                'text' => $intro ? wp_trim_words($intro, 28, '…') : '',
+                'eyebrow' => $eyebrow,
+                'title' => $title,
+                'text' => $text,
                 'url' => get_permalink($child),
             );
         }

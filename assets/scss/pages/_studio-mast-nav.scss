@@ -1,7 +1,7 @@
 body.site-studio {
     --studio-mast-nav-breakpoint: 1025px;
 
-    &:not(.has-immersive-hero) .studio-mast {
+    &:not(.has-immersive-hero):not(.has-studio-dark-hero) .studio-mast {
         position: sticky;
         top: 0;
         z-index: 220;
@@ -94,7 +94,7 @@ body.site-studio {
         display: inline-block;
         padding-block: 8px;
         font-size: var(--studio-text-nav);
-        font-weight: 580;
+        font-weight: 200;
         color: var(--studio-ink);
         text-decoration: none;
         transition: color 0.2s ease;
@@ -437,7 +437,8 @@ body.site-studio {
         }
     }
 
-    &.has-immersive-hero .studio-mast:not(.is-past-hero) {
+    &.has-immersive-hero .studio-mast:not(.is-past-hero),
+    &.has-studio-dark-hero .studio-mast:not(.is-past-hero) {
         .studio-mast-nav__link,
         .studio-mast-nav__subtoggle {
             color: rgb(255 255 255 / 92%);

@@ -1,0 +1,240 @@
+// Hero éditorial Studio — toutes les pages sauf accueil (h1, intro en colonnes, stats en bandeau)
+body.site-studio {
+    section.studio-page-hero--dark,
+  .studio-page-hero__dark-band.studio-page-hero--dark,
+    section.studio-services-hub-hero,
+    section.studio-secteurs-hub-hero,
+    section.studio-realisations-hero,
+    section.studio-project-hero {
+        background: #20211f;
+        color: var(--studio-paper);
+        border-bottom: 1px solid rgb(250 248 243 / 10%);
+    }
+
+    .studio-page-hero--dark {
+        .studio-red {
+            color: var(--studio-red);
+        }
+
+        .studio-eyebrow {
+            color: var(--studio-paper);
+        }
+
+        h1 {
+            color: var(--studio-paper);
+        }
+
+        .studio-divider {
+            color: rgb(250 248 243 / 45%);
+        }
+
+        .studio-text-link {
+            color: var(--studio-paper);
+        }
+
+        .studio-page-hero__aside .studio-intro,
+        .studio-page-hero__aside [class*='__intro'],
+        .studio-page-hero__aside [class*='__lede'],
+        [class*='__intro'],
+        [class*='__lede'] {
+            color: rgb(250 248 243 / 80%);
+        }
+
+        [class*='__stats'] {
+            border-top-color: rgb(250 248 243 / 22%);
+
+            li {
+                border-right-color: rgb(250 248 243 / 14%);
+            }
+
+            strong {
+                color: var(--studio-paper);
+            }
+
+            span:not([class*='__stat-index']) {
+                color: rgb(250 248 243 / 62%);
+            }
+        }
+
+        [class*='__stat-index'] {
+            color: rgb(250 248 243 / 48%);
+        }
+
+        .studio-service-breadcrumb--hero {
+            ol {
+                color: rgb(250 248 243 / 52%);
+            }
+
+            li + li::before {
+                color: rgb(250 248 243 / 32%);
+            }
+
+            a:hover {
+                color: var(--studio-paper);
+            }
+
+            [aria-current='page'] {
+                color: rgb(250 248 243 / 88%);
+            }
+        }
+
+        .studio-service-hero__note {
+            color: rgb(250 248 243 / 52%);
+        }
+
+        &.studio-project-hero .studio-project-hero__meta {
+            border-top-color: rgb(250 248 243 / 22%);
+
+            dt {
+                color: rgb(250 248 243 / 48%);
+            }
+
+            dd {
+                color: var(--studio-paper);
+            }
+        }
+    }
+
+    .studio-page-hero__dark-band {
+        width: 100%;
+        max-width: none;
+    }
+
+    .studio-page-hero,
+    .studio-services-hub-hero,
+    .studio-secteurs-hub-hero,
+    .studio-realisations-hero,
+    .studio-about-hero,
+    .studio-project-hero,
+    .studio-contact-page-hero {
+        text-align: left;
+    }
+
+    .studio-page-hero__layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+        gap: clamp(28px, 5vw, 80px);
+        align-items: end;
+    }
+
+    .studio-page-hero__main,
+    .studio-page-hero__aside {
+        min-width: 0;
+    }
+
+    .studio-page-hero__aside {
+        padding-bottom: 0.2rem;
+    }
+
+    .studio-page-hero__aside .studio-intro,
+    .studio-page-hero__aside [class*='__intro'],
+    .studio-page-hero__aside [class*='__lede'] {
+        margin: 0;
+        max-width: 42ch;
+        margin-left: auto;
+        font-size: var(--studio-text-lead);
+        line-height: 1.48;
+        letter-spacing: -0.012em;
+        color: #4a4b45;
+    }
+
+    .studio-page-hero__aside [class*='__lede'] {
+        margin-top: clamp(14px, 1.8vw, 20px);
+        font-size: var(--studio-text-body);
+        line-height: 1.55;
+    }
+
+    .studio-page-hero .studio-eyebrow,
+    .studio-services-hub-hero .studio-eyebrow,
+    .studio-secteurs-hub-hero .studio-eyebrow,
+    .studio-realisations-hero .studio-eyebrow,
+    .studio-about-hero .studio-eyebrow,
+    .studio-project-hero .studio-eyebrow,
+    .studio-contact-page-hero .studio-eyebrow {
+        justify-content: flex-start;
+    }
+
+    .studio-page-hero h1,
+    .studio-services-hub-hero h1,
+    .studio-secteurs-hub-hero h1,
+    .studio-realisations-hero h1,
+    .studio-about-hero h1,
+    .studio-project-hero h1,
+    .studio-contact-page-hero h1 {
+        margin-inline: 0;
+    }
+
+    .studio-page-hero__actions,
+    [class*='-hero__actions']:not(.studio-contact-line__actions) {
+        justify-content: flex-start;
+    }
+
+    [class*='-hero__stats'] {
+        text-align: left;
+
+        li {
+            text-align: left;
+        }
+    }
+
+    .studio-service-breadcrumb--hero {
+        margin: 0 0 clamp(20px, 2.5vw, 32px);
+        font-size: 12px;
+        font-family: var(--studio-mono);
+
+        ol {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.55rem 0.8rem;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            color: #6d6e68;
+        }
+
+        li + li::before {
+            content: '/';
+            margin-right: 0.8rem;
+            color: #a2a39b;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+
+            &:hover {
+                color: var(--studio-ink);
+                border-bottom-color: currentcolor;
+            }
+        }
+
+        [aria-current='page'] {
+            color: var(--studio-ink);
+        }
+    }
+
+    .studio-page-hero .studio-service-hero__note {
+        margin: clamp(14px, 1.8vw, 20px) 0 0;
+        font-size: 12px;
+        font-family: var(--studio-mono);
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #6d6e68;
+    }
+
+    @media (max-width: 900px) {
+        .studio-page-hero__layout {
+            grid-template-columns: 1fr;
+            gap: clamp(20px, 4vw, 28px);
+            align-items: start;
+        }
+
+        .studio-page-hero__aside .studio-intro,
+        .studio-page-hero__aside [class*='__intro'],
+        .studio-page-hero__aside [class*='__lede'] {
+            margin-left: 0;
+            max-width: none;
+        }
+    }
+}

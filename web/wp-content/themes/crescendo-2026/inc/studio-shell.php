@@ -47,7 +47,7 @@ function crescendo_studio_body_class($classes) {
         && crescendo_uses_studio_service_layout()
     ) {
         $classes[] = 'has-studio-service-layout';
-        $classes[] = 'has-immersive-hero';
+        $classes[] = 'has-studio-dark-hero';
     }
 
     if (
@@ -55,10 +55,39 @@ function crescendo_studio_body_class($classes) {
         && crescendo_uses_studio_secteur_layout()
     ) {
         $classes[] = 'has-studio-secteur-layout';
-        $classes[] = 'has-immersive-hero';
+        $classes[] = 'has-studio-dark-hero';
+    }
+
+    if (crescendo_studio_page_has_dark_hero_band($classes)) {
+        $classes[] = 'has-studio-dark-hero';
     }
 
     return $classes;
+}
+
+/**
+ * Pages Studio avec bandeau hero sombre (scroll mast).
+ */
+function crescendo_studio_page_has_dark_hero_band($classes) {
+    if (in_array('has-studio-dark-hero', $classes, true) || in_array('has-immersive-hero', $classes, true)) {
+        return false;
+    }
+
+    $layoutChecks = array(
+        'crescendo_uses_studio_services_hub_layout',
+        'crescendo_uses_studio_secteurs_hub_layout',
+        'crescendo_uses_studio_realisations_layout',
+        'crescendo_uses_studio_about_layout',
+        'crescendo_uses_studio_project_layout',
+    );
+
+    foreach ($layoutChecks as $callback) {
+        if (function_exists($callback) && $callback()) {
+            return true;
+        }
+    }
+
+    return false;
 }
 
 add_filter('body_class', 'crescendo_studio_body_class', 20);

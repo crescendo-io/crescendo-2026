@@ -46,15 +46,7 @@ body.site-studio {
 
     .btn {
         --felt-border: 0;
-        min-height: 44px;
-        padding: 10px 22px;
-        border: 1px solid var(--studio-ink);
         border-radius: 0;
-        font-family: var(--font-fontName);
-        font-size: 1.6rem;
-        font-weight: 600;
-        text-transform: none;
-        letter-spacing: 0;
         box-shadow: none;
 
         &::after {
@@ -71,19 +63,6 @@ body.site-studio {
         }
     }
 
-    .btn--primary,
-    .btn--dark {
-        background: var(--studio-ink);
-        color: var(--studio-paper);
-        border-color: var(--studio-ink);
-
-        &:hover {
-            background: var(--studio-red);
-            border-color: var(--studio-red);
-            color: var(--studio-paper);
-        }
-    }
-
     .btn--outline,
     .btn--outline-dark {
         background: transparent;
@@ -94,12 +73,6 @@ body.site-studio {
             background: var(--studio-ink);
             color: var(--studio-paper);
         }
-    }
-
-    .btn--sm {
-        min-height: 40px;
-        padding: 8px 16px;
-        font-size: 1.5rem;
     }
 
     .service-eyebrow,
@@ -154,9 +127,6 @@ body.site-studio {
     .cookie-consent {
         font-family: var(--font-fontName);
 
-        &__actions .btn--primary {
-            background: var(--studio-ink);
-        }
     }
 
     .site-footer {

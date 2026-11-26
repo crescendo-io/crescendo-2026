@@ -21,18 +21,9 @@ PRICING_FEATURES = [
     {"text": "Création sur mesure incluse"},
     {"text": "Hébergement premium"},
     {"text": "Maintenance & mises à jour"},
-    {"text": "SEO local de base"},
+    {"text": "SEO de base"},
     {"text": "Formulaire de contact"},
     {"text": "Support réactif"},
-]
-
-AREA_CITIES = [
-    {"name": "Nantes", "url": "/"},
-    {"name": "Saint-Herblain", "url": "/agence-web-saint-herblain/"},
-    {"name": "Rezé", "url": "/agence-web-reze/"},
-    {"name": "Orvault", "url": "/agence-web-orvault/"},
-    {"name": "Carquefou", "url": "/agence-web-carquefou/"},
-    {"name": "Saint-Nazaire", "url": "/agence-web-saint-nazaire/"},
 ]
 
 ALL_SECTORS_LINKS = [
@@ -802,7 +793,7 @@ def build_sector(s: dict) -> dict:
             "secteur-solution-usps": [
                 {"title": "Maquette 48h", "text": "Direction créative gratuite avant engagement."},
                 {"title": "WordPress sur mesure", "text": "Design premium adapté à votre secteur."},
-                {"title": "SEO local intégré", "text": "Visible sur Google dès la mise en ligne."},
+                {"title": "SEO intégré", "text": "Visible sur Google dès la mise en ligne."},
             ],
             "secteur-features-title": s["features_title"],
             "secteur-features-items": s["features"],
@@ -819,10 +810,6 @@ def build_sector(s: dict) -> dict:
             "secteur-pricing-col2-label": "Achat classique",
             "secteur-pricing-features": PRICING_FEATURES,
             "secteur-pricing-table": PRICING_TABLE,
-            "secteur-area-title": s["area_title"],
-            "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
-            "secteur-area-cities": AREA_CITIES,
-            "secteur-area-see-all": {"title": "Voir toutes nos zones", "url": "/", "target": ""},
             "secteur-faq-eyebrow": "Questions fréquentes",
             "secteur-faq-title": s["faq_title"],
             "secteur-faq-items": s["faqs"],
@@ -833,13 +820,13 @@ def build_sector(s: dict) -> dict:
             "secteur-final-cta-points": [
                 {"text": "Maquette personnalisée sous 48h"},
                 {"text": "Formule location sans investissement initial"},
-                {"text": "Accompagnement local à Nantes"},
+                {"text": "Accompagnement dédié"},
             ],
             "secteur-final-form-job-label": s["form_label"],
             "secteur-final-reassurance": [
                 {"text": "Sans engagement"},
                 {"text": "Réponse sous 24h"},
-                {"text": "Agence nantaise"},
+                {"text": "Équipe Crescendo"},
             ],
         },
     }

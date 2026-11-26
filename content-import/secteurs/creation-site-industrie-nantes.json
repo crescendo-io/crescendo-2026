@@ -9,15 +9,15 @@
   },
   "seo": {
     "meta_title": "Site web industrie Nantes — Catalogue B2B & SEO | Crescendo",
-    "meta_description": "Création de site internet pour industrie à Nantes : catalogue produits, devis B2B, certifications ISO. WordPress sur mesure. Maquette 48h. Location 350€/mois.",
+    "meta_description": "Création de site internet pour industrie: catalogue produits, devis B2B, certifications ISO. WordPress sur mesure. Maquette 48h. Location 350€/mois.",
     "focus_keyword": "site web industrie nantes",
     "canonical": "https://www.crescendo-studio.io/secteurs/creation-site-industrie-nantes/",
     "noindex": false
   },
   "fields": {
-    "secteur-hero-eyebrow": "Industrie · Manufacturing · Nantes",
-    "secteur-hero-title": "Site web pour entreprise industrielle à Nantes",
-    "secteur-hero-intro": "PME industrielle, sous-traitant ou fabricant en Loire-Atlantique ? Votre site doit générer des demandes de devis qualifiées, présenter vos capacités de production et rassurer vos clients B2B avec certifications, références et fiches techniques.",
+    "secteur-hero-eyebrow": "Industrie · Manufacturing",
+    "secteur-hero-title": "Site web pour entreprise industrielle",
+    "secteur-hero-intro": "PME industrielle, sous-traitant ou fabricant? Votre site doit générer des demandes de devis qualifiées, présenter vos capacités de production et rassurer vos clients B2B avec certifications, références et fiches techniques.",
     "secteur-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -67,7 +67,7 @@
       }
     ],
     "secteur-solution-title": "Un site industrie orienté acquisition B2B",
-    "secteur-solution-text": "Nous développons des sites WordPress pour l'industrie nantaise : catalogue produits, pages capacités (usinage, injection, assemblage), certifications, études de cas et connexion CRM pour le suivi commercial.",
+    "secteur-solution-text": "Nous développons des sites WordPress pour l'industrie nantaise: catalogue produits, pages capacités (usinage, injection, assemblage), certifications, études de cas et connexion CRM pour le suivi commercial.",
     "secteur-solution-price": "350€/mois",
     "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
     "secteur-solution-usps": [
@@ -80,7 +80,7 @@
         "text": "Design premium adapté à votre secteur."
       },
       {
-        "title": "SEO local intégré",
+        "title": "SEO intégré",
         "text": "Visible sur Google dès la mise en ligne."
       }
     ],
@@ -126,7 +126,7 @@
       }
     ],
     "secteur-case-project-url": "/realisations/bag-x-pro/",
-    "secteur-pricing-title": "Combien coûte un site web industriel à Nantes ?",
+    "secteur-pricing-title": "Combien coûte un site web industriel?",
     "secteur-pricing-price": "350€",
     "secteur-pricing-price-suffix": "/mois",
     "secteur-pricing-cta": {
@@ -147,7 +147,7 @@
         "text": "Maintenance & mises à jour"
       },
       {
-        "text": "SEO local de base"
+        "text": "SEO de base"
       },
       {
         "text": "Formulaire de contact"
@@ -188,64 +188,31 @@
         "col2": "~25 000€+"
       }
     ],
-    "secteur-area-title": "Site web industrie à Nantes et Loire-Atlantique",
-    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
-    "secteur-area-cities": [
-      {
-        "name": "Nantes",
-        "url": "/"
-      },
-      {
-        "name": "Saint-Herblain",
-        "url": "/agence-web-saint-herblain/"
-      },
-      {
-        "name": "Rezé",
-        "url": "/agence-web-reze/"
-      },
-      {
-        "name": "Orvault",
-        "url": "/agence-web-orvault/"
-      },
-      {
-        "name": "Carquefou",
-        "url": "/agence-web-carquefou/"
-      },
-      {
-        "name": "Saint-Nazaire",
-        "url": "/agence-web-saint-nazaire/"
-      }
-    ],
-    "secteur-area-see-all": {
-      "title": "Voir toutes nos zones",
-      "url": "/",
-      "target": ""
-    },
     "secteur-faq-eyebrow": "Questions fréquentes",
     "secteur-faq-title": "FAQ site web industrie",
     "secteur-faq-items": [
       {
-        "question": "Combien coûte un site industrie à Nantes ?",
+        "question": "Combien coûte un site industrie?",
         "answer": "350 €/mois en location, ou 5 000 à 12 000 € en achat selon catalogue, langues et intégrations."
       },
       {
-        "question": "Peut-on connecter le site au CRM ?",
+        "question": "Peut-on connecter le site au CRM?",
         "answer": "Oui. HubSpot, Pipedrive ou CRM sur mesure — voir notre offre dédiée."
       },
       {
-        "question": "Gérez-vous les fiches produits ?",
+        "question": "Gérez-vous les fiches produits?",
         "answer": "Oui. Import CSV, filtres, recherche et PDF téléchargeables."
       },
       {
-        "question": "Le site sera-t-il multilingue ?",
+        "question": "Le site sera-t-il multilingue?",
         "answer": "Oui. FR/EN natif pour l'export industriel."
       },
       {
-        "question": "Quel délai pour un catalogue complet ?",
+        "question": "Quel délai pour un catalogue complet?",
         "answer": "8 à 12 semaines selon le volume de fiches produits."
       },
       {
-        "question": "Proposez-vous des pages SEO par secteur ?",
+        "question": "Proposez-vous des pages SEO par secteur?",
         "answer": "Oui. Automotive, aéronautique, agroalimentaire, naval — selon votre cible."
       }
     ],
@@ -286,7 +253,7 @@
         "text": "Formule location sans investissement initial"
       },
       {
-        "text": "Accompagnement local à Nantes"
+        "text": "Accompagnement dédié"
       }
     ],
     "secteur-final-form-job-label": "Votre secteur industriel",
@@ -298,7 +265,7 @@
         "text": "Réponse sous 24h"
       },
       {
-        "text": "Agence nantaise"
+        "text": "Équipe Crescendo"
       }
     ]
   }

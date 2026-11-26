@@ -9,15 +9,15 @@
   },
   "seo": {
     "meta_title": "Site web startup Nantes — WordPress sur mesure | Crescendo",
-    "meta_description": "Site internet startup à Nantes : landing page, pitch investisseurs, recrutement et SEO. WordPress évolutif. Maquette gratuite 48h.",
+    "meta_description": "Site internet startup: landing page, pitch investisseurs, recrutement et SEO. WordPress évolutif. Maquette gratuite 48h.",
     "focus_keyword": "site web startup nantes",
     "canonical": "https://www.crescendo-studio.io/secteurs/creation-site-startup-nantes/",
     "noindex": false
   },
   "fields": {
-    "secteur-hero-eyebrow": "Startup · Scale-up · Nantes",
-    "secteur-hero-title": "Site web pour startup à Nantes",
-    "secteur-hero-intro": "Vous lancez ou scalez une startup à Nantes — Île de Nantes, Atlanpole, French Tech ? Nous créons des sites WordPress sur mesure qui crédibilisent votre produit, convainquent investisseurs et candidats, sans brûler votre trésorerie : location dès 350 €/mois.",
+    "secteur-hero-eyebrow": "Startup · Scale-up",
+    "secteur-hero-title": "Site web pour startup",
+    "secteur-hero-intro": "Vous lancez ou scalez une startup — Île, Atlanpole, French Tech? Nous créons des sites WordPress sur mesure qui crédibilisent votre produit, convainquent investisseurs et candidats, sans brûler votre trésorerie: location dès 350 €/mois.",
     "secteur-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -67,7 +67,7 @@
       }
     ],
     "secteur-solution-title": "Un site startup pensé pour convaincre et évoluer",
-    "secteur-solution-text": "Nous concevons des sites WordPress modulaires pour les startups nantaises : homepage pitch, pages produit, social proof, espace recrutement et connexion CRM — le tout administrable par votre équipe marketing.",
+    "secteur-solution-text": "Nous concevons des sites WordPress modulaires pour les startups nantaises: homepage pitch, pages produit, social proof, espace recrutement et connexion CRM — le tout administrable par votre équipe marketing.",
     "secteur-solution-price": "350€/mois",
     "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
     "secteur-solution-usps": [
@@ -80,7 +80,7 @@
         "text": "Design premium adapté à votre secteur."
       },
       {
-        "title": "SEO local intégré",
+        "title": "SEO intégré",
         "text": "Visible sur Google dès la mise en ligne."
       }
     ],
@@ -126,7 +126,7 @@
       }
     ],
     "secteur-case-project-url": "/realisations/be-focus/",
-    "secteur-pricing-title": "Combien coûte un site web pour startup à Nantes ?",
+    "secteur-pricing-title": "Combien coûte un site web pour startup?",
     "secteur-pricing-price": "350€",
     "secteur-pricing-price-suffix": "/mois",
     "secteur-pricing-cta": {
@@ -147,7 +147,7 @@
         "text": "Maintenance & mises à jour"
       },
       {
-        "text": "SEO local de base"
+        "text": "SEO de base"
       },
       {
         "text": "Formulaire de contact"
@@ -188,64 +188,31 @@
         "col2": "~25 000€+"
       }
     ],
-    "secteur-area-title": "Site web startup à Nantes et métropole",
-    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
-    "secteur-area-cities": [
-      {
-        "name": "Nantes",
-        "url": "/"
-      },
-      {
-        "name": "Saint-Herblain",
-        "url": "/agence-web-saint-herblain/"
-      },
-      {
-        "name": "Rezé",
-        "url": "/agence-web-reze/"
-      },
-      {
-        "name": "Orvault",
-        "url": "/agence-web-orvault/"
-      },
-      {
-        "name": "Carquefou",
-        "url": "/agence-web-carquefou/"
-      },
-      {
-        "name": "Saint-Nazaire",
-        "url": "/agence-web-saint-nazaire/"
-      }
-    ],
-    "secteur-area-see-all": {
-      "title": "Voir toutes nos zones",
-      "url": "/",
-      "target": ""
-    },
     "secteur-faq-eyebrow": "Questions fréquentes",
     "secteur-faq-title": "Tout savoir sur la création de site pour startup",
     "secteur-faq-items": [
       {
-        "question": "Combien coûte un site startup à Nantes ?",
+        "question": "Combien coûte un site startup?",
         "answer": "350 €/mois en location tout inclus, ou 4 000 à 10 000 € en achat selon le nombre de pages et intégrations (CRM, multilingue, espace client)."
       },
       {
-        "question": "Quel délai pour un site MVP ?",
+        "question": "Quel délai pour un site MVP?",
         "answer": "3 à 4 semaines pour une landing + pages produit. Maquette gratuite sous 48 h."
       },
       {
-        "question": "Peut-on connecter HubSpot ou Pipedrive ?",
+        "question": "Peut-on connecter HubSpot ou Pipedrive?",
         "answer": "Oui. Nous intégrons votre stack existante ou développons une connexion sur mesure."
       },
       {
-        "question": "La location convient-elle aux startups ?",
+        "question": "La location convient-elle aux startups?",
         "answer": "Oui. Zéro investissement initial, évolutions incluses — idéal avant une levée de fonds."
       },
       {
-        "question": "Travaillez-vous avec les incubateurs nantais ?",
+        "question": "Travaillez-vous avec les incubateurs nantais?",
         "answer": "Oui. Atlanpole, French Tech Nantes, Station B — nous connaissons les contraintes time-to-market des jeunes entreprises."
       },
       {
-        "question": "Le site sera-t-il multilingue ?",
+        "question": "Le site sera-t-il multilingue?",
         "answer": "Oui si nécessaire. WordPress gère FR/EN nativement pour les startups visant l'export."
       }
     ],
@@ -276,7 +243,7 @@
         "url": "/secteurs/creation-site-restaurant-nantes/"
       }
     ],
-    "secteur-final-cta-title": "Lancez votre présence web startup à Nantes",
+    "secteur-final-cta-title": "Lancez votre présence web startup",
     "secteur-final-cta-text": "Maquette gratuite sous 48 h pour valider la direction avant développement.",
     "secteur-final-cta-points": [
       {
@@ -286,7 +253,7 @@
         "text": "Formule location sans investissement initial"
       },
       {
-        "text": "Accompagnement local à Nantes"
+        "text": "Accompagnement dédié"
       }
     ],
     "secteur-final-form-job-label": "Votre startup",
@@ -298,7 +265,7 @@
         "text": "Réponse sous 24h"
       },
       {
-        "text": "Agence nantaise"
+        "text": "Équipe Crescendo"
       }
     ]
   }

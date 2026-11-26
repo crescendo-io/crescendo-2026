@@ -9,15 +9,15 @@
   },
   "seo": {
     "meta_title": "Site immobilier Nantes — Agence dès 350€/mois | Crescendo",
-    "meta_description": "Site web pour agence immobilière à Nantes : annonces synchronisées, SEO local, prise de contact. WordPress sur mesure. Maquette gratuite 48h.",
+    "meta_description": "Site web pour agence immobilière: annonces synchronisées, SEO, prise de contact. WordPress sur mesure. Maquette gratuite 48h.",
     "focus_keyword": "site web immobilier nantes",
     "canonical": "https://www.crescendo-studio.io/secteurs/creation-site-immobilier-nantes/",
     "noindex": false
   },
   "fields": {
-    "secteur-hero-eyebrow": "Immobilier · Nantes",
-    "secteur-hero-title": "Création de site web immobilier à Nantes",
-    "secteur-hero-intro": "Vous dirigez une agence immobilière, un réseau de mandataires ou un cabinet de gestion locative à Nantes ? Nous créons des sites WordPress sur mesure qui valorisent vos biens, génèrent des demandes d'estimation et vous aident à obtenir davantage de mandats vendeurs. Une solution complète dès 350€/mois, sans investissement initial.",
+    "secteur-hero-eyebrow": "Immobilier",
+    "secteur-hero-title": "Création de site web immobilier",
+    "secteur-hero-intro": "Vous dirigez une agence immobilière, un réseau de mandataires ou un cabinet de gestion locative? Nous créons des sites WordPress sur mesure qui valorisent vos biens, génèrent des demandes d'estimation et vous aident à obtenir davantage de mandats vendeurs. Une solution complète dès 350€/mois, sans investissement initial.",
     "secteur-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -40,7 +40,7 @@
       },
       {
         "title": "SEO immobilier local",
-        "text": "Positionnez votre agence sur les recherches immobilières à Nantes et dans sa métropole."
+        "text": "Positionnez votre agence sur les recherches immobilières et dans sa métropole."
       },
       {
         "title": "Sans investissement initial",
@@ -67,7 +67,7 @@
       }
     ],
     "secteur-solution-title": "Un site immobilier conçu pour attirer vendeurs et acquéreurs",
-    "secteur-solution-text": "Chez Crescendo Studio, nous concevons votre site comme un véritable outil de prospection immobilière. Il ne se contente pas d'afficher vos annonces : il valorise votre expertise locale, rassure les propriétaires, simplifie la recherche des acquéreurs et multiplie les occasions de prise de contact.",
+    "secteur-solution-text": "Chez Crescendo Studio, nous concevons votre site comme un véritable outil de prospection immobilière. Il ne se contente pas d'afficher vos annonces: il valorise votre expertise locale, rassure les propriétaires, simplifie la recherche des acquéreurs et multiplie les occasions de prise de contact.",
     "secteur-solution-price": "350€/mois",
     "secteur-solution-price-label": "Création, hébergement, maintenance et accompagnement inclus",
     "secteur-solution-usps": [
@@ -113,10 +113,10 @@
     ],
     "secteur-case-title": "Exemple de réalisation dans le secteur immobilier",
     "secteur-case-project-title": "Maison Jaden",
-    "secteur-case-project-tags": "WordPress · Immobilier neuf · SEO local",
+    "secteur-case-project-tags": "WordPress · Immobilier neuf · SEO",
     "secteur-case-project-points": [
       {
-        "text": "Site premium pour un constructeur de maisons individuelles à Nantes"
+        "text": "Site premium pour un constructeur de maisons individuelles"
       },
       {
         "text": "Présentation détaillée des modèles, projets et zones de construction"
@@ -125,11 +125,11 @@
         "text": "Formulaires de demande de devis et de prise de contact connectés au CRM"
       },
       {
-        "text": "Stratégie de référencement local déployée sur plusieurs communes"
+        "text": "Stratégie de référencement déployée sur plusieurs communes"
       }
     ],
     "secteur-case-project-url": "/realisations/maison-jaden/",
-    "secteur-pricing-title": "Combien coûte un site internet immobilier à Nantes ?",
+    "secteur-pricing-title": "Combien coûte un site internet immobilier?",
     "secteur-pricing-price": "350€",
     "secteur-pricing-price-suffix": "/mois",
     "secteur-pricing-cta": {
@@ -191,64 +191,31 @@
         "col2": "~25 000 à 40 000€"
       }
     ],
-    "secteur-area-title": "Création de site immobilier à Nantes et en Loire-Atlantique",
-    "secteur-area-text": "Nous accompagnons les agences immobilières, mandataires, promoteurs et professionnels de la transaction à Nantes et dans les communes voisines. Chaque site peut être optimisé pour vos secteurs de prospection, vos quartiers et vos typologies de biens.",
-    "secteur-area-cities": [
-      {
-        "name": "Nantes",
-        "url": "/services/creation-site-web-nantes/"
-      },
-      {
-        "name": "Saint-Herblain",
-        "url": "/agence-web-saint-herblain/"
-      },
-      {
-        "name": "Rezé",
-        "url": "/agence-web-reze/"
-      },
-      {
-        "name": "Orvault",
-        "url": "/agence-web-orvault/"
-      },
-      {
-        "name": "Vertou",
-        "url": "/"
-      },
-      {
-        "name": "Carquefou",
-        "url": "/agence-web-carquefou/"
-      }
-    ],
-    "secteur-area-see-all": {
-      "title": "Voir toutes nos zones",
-      "url": "/services/creation-site-web-nantes/",
-      "target": ""
-    },
     "secteur-faq-eyebrow": "Questions fréquentes",
     "secteur-faq-title": "Tout savoir sur la création d'un site immobilier",
     "secteur-faq-items": [
       {
-        "question": "Combien coûte un site internet pour une agence immobilière à Nantes ?",
+        "question": "Combien coûte un site internet pour une agence immobilière?",
         "answer": "Notre formule de location démarre à 350€/mois sans frais de création. Elle inclut le design sur mesure, le développement WordPress, l'hébergement, la maintenance et l'accompagnement. En achat classique, un site immobilier complet coûte généralement entre 5 000 et 15 000€ selon les fonctionnalités et les connexions métier."
       },
       {
-        "question": "Peut-on synchroniser les annonces avec notre logiciel immobilier ?",
+        "question": "Peut-on synchroniser les annonces avec notre logiciel immobilier?",
         "answer": "Oui. Nous pouvons connecter votre site à de nombreux logiciels immobiliers comme Apimo, Hektor, Netty ou Adapt Immo. Les biens publiés dans votre outil métier peuvent ainsi être automatiquement importés et mis à jour sur votre site."
       },
       {
-        "question": "Le site peut-il générer des demandes d'estimation ?",
+        "question": "Le site peut-il générer des demandes d'estimation?",
         "answer": "Oui. Nous créons un parcours spécifique pour les propriétaires vendeurs avec formulaire d'estimation, éléments de réassurance, présentation de votre méthode et appels à l'action adaptés."
       },
       {
-        "question": "Comment apparaître sur Google pour une recherche immobilière locale ?",
+        "question": "Comment apparaître sur Google pour une recherche immobilière locale?",
         "answer": "Nous travaillons votre référencement autour de requêtes précises comme « agence immobilière Nantes », « estimation appartement Nantes » ou « maison à vendre Vertou ». Cela passe par des pages locales, des contenus dédiés, une structure technique optimisée et un bon maillage interne."
       },
       {
-        "question": "Peut-on créer une page pour chaque ville ou quartier ?",
-        "answer": "Oui. Nous pouvons créer des pages dédiées à Nantes Centre, l'île de Nantes, Doulon, Chantenay, Saint-Herblain, Rezé, Vertou ou tout autre secteur réellement couvert par votre agence."
+        "question": "Peut-on créer une page pour chaque ville ou quartier?",
+        "answer": "Oui. Nous pouvons créer des pages dédiées Centre, l'île, Doulon, Chantenay, Saint-Herblain, Rezé, Vertou ou tout autre secteur réellement couvert par votre agence."
       },
       {
-        "question": "Les visiteurs peuvent-ils créer une alerte immobilière ?",
+        "question": "Les visiteurs peuvent-ils créer une alerte immobilière?",
         "answer": "Oui. Une fonctionnalité d'alerte permet aux acquéreurs d'enregistrer leurs critères et d'être informés lorsqu'un nouveau bien correspondant est publié."
       }
     ],
@@ -279,7 +246,7 @@
         "url": "/secteurs/creation-site-immobilier-nantes/"
       }
     ],
-    "secteur-final-cta-title": "Prêt à obtenir plus de mandats grâce à votre site ?",
+    "secteur-final-cta-title": "Prêt à obtenir plus de mandats grâce à votre site?",
     "secteur-final-cta-text": "Recevez une maquette gratuite sous 48h, conçue pour valoriser vos biens, attirer des vendeurs et développer la visibilité locale de votre agence immobilière.",
     "secteur-final-cta-points": [
       {
@@ -289,7 +256,7 @@
         "text": "Synchronisation possible avec votre logiciel métier"
       },
       {
-        "text": "Accompagnement local par une agence nantaise"
+        "text": "Accompagnement dédié par une Équipe Crescendo"
       }
     ],
     "secteur-final-form-job-label": "Votre activité immobilière",
@@ -301,7 +268,7 @@
         "text": "Réponse sous 24h"
       },
       {
-        "text": "Agence nantaise"
+        "text": "Équipe Crescendo"
       }
     ]
   }

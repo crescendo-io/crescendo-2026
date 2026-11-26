@@ -9,15 +9,15 @@
   },
   "seo": {
     "meta_title": "Site web coach Nantes — RDV en ligne & SEO | Crescendo",
-    "meta_description": "Création de site internet pour coach et consultant à Nantes : prise de RDV, blog, témoignages, SEO local. WordPress sur mesure. Maquette gratuite 48h.",
+    "meta_description": "Création de site internet pour coach et consultant: prise de RDV, blog, témoignages, SEO. WordPress sur mesure. Maquette gratuite 48h.",
     "focus_keyword": "site web coach nantes",
     "canonical": "https://www.crescendo-studio.io/secteurs/creation-site-coach-nantes/",
     "noindex": false
   },
   "fields": {
-    "secteur-hero-eyebrow": "Coach · Consultant · Nantes",
-    "secteur-hero-title": "Site web pour coach et consultant à Nantes",
-    "secteur-hero-intro": "Coach sportif, coach de vie, consultant RH ou formateur indépendant à Nantes ? Votre site doit convertir les visiteurs en clients : prise de RDV en ligne, témoignages, contenu expert et référencement local intégré.",
+    "secteur-hero-eyebrow": "Coach · Consultant",
+    "secteur-hero-title": "Site web pour coach et consultant",
+    "secteur-hero-intro": "Coach sportif, coach de vie, consultant RH ou formateur indépendant? Votre site doit convertir les visiteurs en clients: prise de RDV en ligne, témoignages, contenu expert et référencement intégré.",
     "secteur-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -55,7 +55,7 @@
       },
       {
         "title": "Pas de prise de RDV",
-        "text": "Friction maximale : le prospect repart avant de vous contacter."
+        "text": "Friction maximale: le prospect repart avant de vous contacter."
       },
       {
         "title": "Contenu faible",
@@ -67,7 +67,7 @@
       }
     ],
     "secteur-solution-title": "Un site coach orienté conversion et crédibilité",
-    "secteur-solution-text": "Nous créons des sites WordPress pour coachs et consultants nantais : parcours clair, offres packagées, booking intégré, blog SEO et pages témoignages.",
+    "secteur-solution-text": "Nous créons des sites WordPress pour coachs et consultants nantais: parcours clair, offres packagées, booking intégré, blog SEO et pages témoignages.",
     "secteur-solution-price": "350€/mois",
     "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
     "secteur-solution-usps": [
@@ -80,7 +80,7 @@
         "text": "Design premium adapté à votre secteur."
       },
       {
-        "title": "SEO local intégré",
+        "title": "SEO intégré",
         "text": "Visible sur Google dès la mise en ligne."
       }
     ],
@@ -126,7 +126,7 @@
       }
     ],
     "secteur-case-project-url": "/realisations/be-focus/",
-    "secteur-pricing-title": "Combien coûte un site web pour coach à Nantes ?",
+    "secteur-pricing-title": "Combien coûte un site web pour coach?",
     "secteur-pricing-price": "350€",
     "secteur-pricing-price-suffix": "/mois",
     "secteur-pricing-cta": {
@@ -147,7 +147,7 @@
         "text": "Maintenance & mises à jour"
       },
       {
-        "text": "SEO local de base"
+        "text": "SEO de base"
       },
       {
         "text": "Formulaire de contact"
@@ -188,64 +188,31 @@
         "col2": "~25 000€+"
       }
     ],
-    "secteur-area-title": "Site web coach à Nantes et métropole",
-    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
-    "secteur-area-cities": [
-      {
-        "name": "Nantes",
-        "url": "/"
-      },
-      {
-        "name": "Saint-Herblain",
-        "url": "/agence-web-saint-herblain/"
-      },
-      {
-        "name": "Rezé",
-        "url": "/agence-web-reze/"
-      },
-      {
-        "name": "Orvault",
-        "url": "/agence-web-orvault/"
-      },
-      {
-        "name": "Carquefou",
-        "url": "/agence-web-carquefou/"
-      },
-      {
-        "name": "Saint-Nazaire",
-        "url": "/agence-web-saint-nazaire/"
-      }
-    ],
-    "secteur-area-see-all": {
-      "title": "Voir toutes nos zones",
-      "url": "/",
-      "target": ""
-    },
     "secteur-faq-eyebrow": "Questions fréquentes",
     "secteur-faq-title": "FAQ site web coach et consultant",
     "secteur-faq-items": [
       {
-        "question": "Combien coûte un site coach à Nantes ?",
+        "question": "Combien coûte un site coach?",
         "answer": "350 €/mois en location tout inclus, ou 3 000 à 6 000 € en achat selon booking, blog et nombre de pages."
       },
       {
-        "question": "Puis-je prendre des RDV en ligne ?",
+        "question": "Puis-je prendre des RDV en ligne?",
         "answer": "Oui. Intégration Calendly, Cal.com ou système natif avec paiement si besoin."
       },
       {
-        "question": "Le blog est-il inclus ?",
+        "question": "Le blog est-il inclus?",
         "answer": "Oui. Structure blog SEO prête à publier, formation à la rédaction incluse."
       },
       {
-        "question": "Mon site sera-t-il visible sur « coach Nantes » ?",
-        "answer": "Oui. SEO local + contenu expert sur vos thématiques."
+        "question": "Mon site sera-t-il visible sur « coach Nantes »?",
+        "answer": "Oui. SEO + contenu expert sur vos thématiques."
       },
       {
-        "question": "Puis-je vendre des formations en ligne ?",
+        "question": "Puis-je vendre des formations en ligne?",
         "answer": "Oui. Pages vente, paiement Stripe et espace membre selon votre modèle."
       },
       {
-        "question": "Quel délai de livraison ?",
+        "question": "Quel délai de livraison?",
         "answer": "4 à 6 semaines. Maquette gratuite sous 48 h."
       }
     ],
@@ -276,7 +243,7 @@
         "url": "/secteurs/creation-site-restaurant-nantes/"
       }
     ],
-    "secteur-final-cta-title": "Développez votre clientèle de coaching à Nantes",
+    "secteur-final-cta-title": "Développez votre clientèle de coaching",
     "secteur-final-cta-text": "Maquette gratuite sous 48 h pour visualiser votre future vitrine pro.",
     "secteur-final-cta-points": [
       {
@@ -286,7 +253,7 @@
         "text": "Formule location sans investissement initial"
       },
       {
-        "text": "Accompagnement local à Nantes"
+        "text": "Accompagnement dédié"
       }
     ],
     "secteur-final-form-job-label": "Votre spécialité",
@@ -298,7 +265,7 @@
         "text": "Réponse sous 24h"
       },
       {
-        "text": "Agence nantaise"
+        "text": "Équipe Crescendo"
       }
     ]
   }

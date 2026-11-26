@@ -8,16 +8,10 @@ body.site-studio .about-page--studio {
     .studio-about-hero {
         padding-top: 0;
         padding-bottom: 0;
-        border-bottom: 1px solid rgb(29 30 27 / 12%);
     }
 
     .studio-about-hero__copy {
         max-width: min(56rem, 100%);
-    }
-
-    .studio-about-hero__copy-inner {
-        border-left: 2px solid var(--studio-red);
-        padding-left: clamp(18px, 2.2vw, 30px);
     }
 
     .studio-about-hero__eyebrow {
@@ -97,28 +91,7 @@ body.site-studio .about-page--studio {
         flex-wrap: wrap;
         align-items: center;
         gap: clamp(16px, 2vw, 24px) clamp(28px, 3.5vw, 44px);
-        margin: clamp(36px, 4vw, 56px) 0 0;
-    }
-
-    .studio-about-hero__button {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 48px;
-        padding: 0.95rem 1.25rem;
-        border: 1px solid var(--studio-red);
-        background: var(--studio-red);
-        color: #fff;
-        font-size: var(--studio-text-ui);
-        font-weight: 650;
-        text-decoration: none;
-        transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
-
-        &:hover {
-            background: var(--studio-ink);
-            border-color: var(--studio-ink);
-            color: var(--studio-paper);
-        }
+        margin: clamp(24px, 3vw, 36px) 0 0;
     }
 
     .studio-about-manifesto {
@@ -395,27 +368,7 @@ body.site-studio .about-page--studio {
     }
 
     .studio-project-cta__button {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
         flex: 0 0 auto;
-        min-height: 48px;
-        padding: 0.95rem 1.2rem;
-        border: 1px solid var(--studio-red);
-        background: var(--studio-red);
-        color: #fff;
-        font-family: inherit;
-        font-size: var(--studio-text-ui);
-        font-weight: 650;
-        line-height: 1.25;
-        text-decoration: none;
-        transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
-
-        &:hover {
-            background: var(--studio-ink);
-            border-color: var(--studio-ink);
-            color: var(--studio-paper);
-        }
     }
 
     @media (max-width: 1024px) {

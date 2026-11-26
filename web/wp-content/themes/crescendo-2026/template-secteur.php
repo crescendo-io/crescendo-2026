@@ -20,7 +20,6 @@ while (have_posts()) :
         <?php lsdGetTemplatePart('secteur', 'block', 'solution'); ?>
         <?php lsdGetTemplatePart('secteur', 'block', 'features'); ?>
         <?php lsdGetTemplatePart('secteur', 'block', 'case-study'); ?>
-        <?php lsdGetTemplatePart('secteur', 'block', 'area'); ?>
         <?php lsdGetTemplatePart('secteur', 'block', 'faq'); ?>
         <?php lsdGetTemplatePart('secteur', 'block', 'related'); ?>
         <?php lsdGetTemplatePart('secteur', 'block', 'final-cta'); ?>

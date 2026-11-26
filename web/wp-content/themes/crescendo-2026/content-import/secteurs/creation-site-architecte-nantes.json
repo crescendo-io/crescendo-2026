@@ -9,15 +9,15 @@
   },
   "seo": {
     "meta_title": "Site architecte Nantes — Portfolio sur mesure | Crescendo",
-    "meta_description": "Création de site internet pour architecte à Nantes : portfolio projets, présentation du cabinet, SEO local. WordPress premium. Maquette gratuite 48h.",
+    "meta_description": "Création de site internet pour architecte: portfolio projets, présentation du cabinet, SEO. WordPress premium. Maquette gratuite 48h.",
     "focus_keyword": "site web architecte nantes",
     "canonical": "https://www.crescendo-studio.io/secteurs/creation-site-architecte-nantes/",
     "noindex": false
   },
   "fields": {
-    "secteur-hero-eyebrow": "Architecte · BET · Nantes",
-    "secteur-hero-title": "Site web pour architecte à Nantes",
-    "secteur-hero-intro": "Architecte DPLG, bureau d'études ou paysagiste à Nantes ? Votre site est votre portfolio permanent : projets réalisés, démarche créative, équipe et formulaire de contact — design à la hauteur de vos réalisations.",
+    "secteur-hero-eyebrow": "Architecte · BET",
+    "secteur-hero-title": "Site web pour architecte",
+    "secteur-hero-intro": "Architecte DPLG, bureau d'études ou paysagiste? Votre site est votre portfolio permanent: projets réalisés, démarche créative, équipe et formulaire de contact — design à la hauteur de vos réalisations.",
     "secteur-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
@@ -39,7 +39,7 @@
         "text": "Design épuré qui reflète votre exigence architecturale."
       },
       {
-        "title": "SEO local",
+        "title": "SEO",
         "text": "Visible sur « architecte Nantes », « extension maison Nantes »."
       },
       {
@@ -67,7 +67,7 @@
       }
     ],
     "secteur-solution-title": "Un site architecte à la hauteur de vos projets",
-    "secteur-solution-text": "Nous concevons des sites WordPress pour architectes nantais : galeries full-width, fiches projet détaillées (surface, matériaux, awards), page équipe et contact orienté appels d'offres privés.",
+    "secteur-solution-text": "Nous concevons des sites WordPress pour architectes nantais: galeries full-width, fiches projet détaillées (surface, matériaux, awards), page équipe et contact orienté appels d'offres privés.",
     "secteur-solution-price": "350€/mois",
     "secteur-solution-price-label": "Location tout inclus · zéro frais de création",
     "secteur-solution-usps": [
@@ -80,7 +80,7 @@
         "text": "Design premium adapté à votre secteur."
       },
       {
-        "title": "SEO local intégré",
+        "title": "SEO intégré",
         "text": "Visible sur Google dès la mise en ligne."
       }
     ],
@@ -88,7 +88,7 @@
     "secteur-features-items": [
       {
         "title": "Portfolio filtrable",
-        "text": "Par type : neuf, réhabilitation, tertiaire, paysage."
+        "text": "Par type: neuf, réhabilitation, tertiaire, paysage."
       },
       {
         "title": "Fiches projet",
@@ -113,10 +113,10 @@
     ],
     "secteur-case-title": "Exemple de réalisation construction / architecture",
     "secteur-case-project-title": "Maison Jaden",
-    "secteur-case-project-tags": "WordPress · Portfolio · SEO local",
+    "secteur-case-project-tags": "WordPress · Portfolio · SEO",
     "secteur-case-project-points": [
       {
-        "text": "Site vitrine constructeur maisons individuelles à Nantes"
+        "text": "Site vitrine constructeur maisons individuelles"
       },
       {
         "text": "Galerie projets et formulaire devis connecté CRM"
@@ -126,7 +126,7 @@
       }
     ],
     "secteur-case-project-url": "/realisations/maison-jaden/",
-    "secteur-pricing-title": "Combien coûte un site web pour architecte à Nantes ?",
+    "secteur-pricing-title": "Combien coûte un site web pour architecte?",
     "secteur-pricing-price": "350€",
     "secteur-pricing-price-suffix": "/mois",
     "secteur-pricing-cta": {
@@ -147,7 +147,7 @@
         "text": "Maintenance & mises à jour"
       },
       {
-        "text": "SEO local de base"
+        "text": "SEO de base"
       },
       {
         "text": "Formulaire de contact"
@@ -188,64 +188,31 @@
         "col2": "~25 000€+"
       }
     ],
-    "secteur-area-title": "Site web architecte à Nantes et métropole",
-    "secteur-area-text": "Nous accompagnons les professionnels de Nantes et de la métropole. Chaque site est optimisé pour le référencement local de votre zone d'intervention.",
-    "secteur-area-cities": [
-      {
-        "name": "Nantes",
-        "url": "/"
-      },
-      {
-        "name": "Saint-Herblain",
-        "url": "/agence-web-saint-herblain/"
-      },
-      {
-        "name": "Rezé",
-        "url": "/agence-web-reze/"
-      },
-      {
-        "name": "Orvault",
-        "url": "/agence-web-orvault/"
-      },
-      {
-        "name": "Carquefou",
-        "url": "/agence-web-carquefou/"
-      },
-      {
-        "name": "Saint-Nazaire",
-        "url": "/agence-web-saint-nazaire/"
-      }
-    ],
-    "secteur-area-see-all": {
-      "title": "Voir toutes nos zones",
-      "url": "/",
-      "target": ""
-    },
     "secteur-faq-eyebrow": "Questions fréquentes",
     "secteur-faq-title": "FAQ site web architecte",
     "secteur-faq-items": [
       {
-        "question": "Combien coûte un site architecte à Nantes ?",
+        "question": "Combien coûte un site architecte?",
         "answer": "350 €/mois en location, ou 4 000 à 8 000 € en achat selon volume de projets et niveau de design."
       },
       {
-        "question": "Puis-je ajouter mes projets moi-même ?",
-        "answer": "Oui. Interface simplifiée : photos, titre, description, catégorie."
+        "question": "Puis-je ajouter mes projets moi-même?",
+        "answer": "Oui. Interface simplifiée: photos, titre, description, catégorie."
       },
       {
-        "question": "Les images seront-elles optimisées ?",
+        "question": "Les images seront-elles optimisées?",
         "answer": "Oui. Compression WebP, lazy loading — site rapide malgré des galeries riches."
       },
       {
-        "question": "Le site respecte-t-il l'image du métier ?",
+        "question": "Le site respecte-t-il l'image du métier?",
         "answer": "Oui. Design épuré, typographie soignée, espaces blancs — pas de template générique."
       },
       {
-        "question": "Proposez-vous le multilingue ?",
+        "question": "Proposez-vous le multilingue?",
         "answer": "Oui. FR/EN pour cabinets avec clientèle internationale."
       },
       {
-        "question": "Quel délai ?",
+        "question": "Quel délai?",
         "answer": "6 à 8 semaines selon le nombre de projets à intégrer."
       }
     ],
@@ -286,7 +253,7 @@
         "text": "Formule location sans investissement initial"
       },
       {
-        "text": "Accompagnement local à Nantes"
+        "text": "Accompagnement dédié"
       }
     ],
     "secteur-final-form-job-label": "Votre cabinet",
@@ -298,7 +265,7 @@
         "text": "Réponse sous 24h"
       },
       {
-        "text": "Agence nantaise"
+        "text": "Équipe Crescendo"
       }
     ]
   }

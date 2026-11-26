@@ -32,6 +32,10 @@ function crescendo_secteur($field, $post_id = null) {
     }
 
     if ($value !== null && $value !== false && $value !== '') {
+        if (function_exists('crescendo_secteur_sanitize_field_value')) {
+            return crescendo_secteur_sanitize_field_value($field, $value, $post_id);
+        }
+
         return $value;
     }
 
@@ -55,6 +59,16 @@ function crescendo_get_secteur_seo($post_id = null) {
     }
 
     $canonical = get_permalink($post_id);
+
+    if (function_exists('crescendo_uses_studio_secteur_layout') && crescendo_uses_studio_secteur_layout($post_id)) {
+        if (function_exists('crescendo_secteur_strip_localization_text')) {
+            $metaTitle = crescendo_secteur_strip_localization_text($metaTitle);
+            $metaDescription = crescendo_secteur_strip_localization_text($metaDescription);
+            if (is_string($focusKeyword)) {
+                $focusKeyword = crescendo_secteur_strip_localization_text($focusKeyword);
+            }
+        }
+    }
 
     return array(
         'meta_title' => $metaTitle,
