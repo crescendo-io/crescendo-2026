@@ -101,7 +101,6 @@ function crescendo_get_contact_projet_options() {
     return array(
         'site' => 'Création de site',
         'crm' => 'CRM sur mesure',
-        'location' => 'Location 350€/mois',
         'refonte' => 'Refonte de site',
         'ecommerce' => 'E-commerce',
         'seo' => 'SEO / visibilité',
@@ -774,6 +773,17 @@ function crescendo_render_contact_form(array $args = array()) {
     }
     if ($args['source_url'] === '') {
         $args['source_url'] = is_singular() ? get_permalink() : home_url(add_query_arg(array()));
+    }
+
+    if (
+        function_exists('crescendo_uses_studio_design')
+        && crescendo_uses_studio_design()
+        && $args['variant'] !== 'landing'
+    ) {
+        $studioShellClass = 'crescendo-contact-form-shell--studio';
+        if ($args['wrapper_class'] === '' || $args['wrapper_class'] === 'crescendo-contact-form-shell--hero') {
+            $args['wrapper_class'] = $studioShellClass;
+        }
     }
 
     if (!empty($args['form_shortcode'])) {

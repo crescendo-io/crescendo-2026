@@ -37,16 +37,13 @@ $contactUrl = function_exists('crescendo_nav_url') ? crescendo_nav_url('contact'
                         <span class="studio-signal" aria-hidden="true"></span>
                         <?php esc_html_e('Sites web & CRM', 'crescendo-2026'); ?>
                         <span class="studio-divider">/</span>
-                        <?php esc_html_e('Nantes — Saint-Nazaire', 'crescendo-2026'); ?>
+                        <?php esc_html_e('Sur mesure', 'crescendo-2026'); ?>
                     </p>
                     <h1 id="studio-hero-title">
                         <span><?php esc_html_e('Votre site doit', 'crescendo-2026'); ?></span>
                         <span><?php esc_html_e('vous rapporter', 'crescendo-2026'); ?></span>
                         <strong><?php esc_html_e('des clients.', 'crescendo-2026'); ?></strong>
                     </h1>
-                    <p class="studio-intro">
-                        <?php esc_html_e('Nous créons votre site pour générer des demandes de devis. Votre CRM sur mesure les centralise et indique à votre équipe qui relancer.', 'crescendo-2026'); ?>
-                    </p>
                     <div class="studio-hero__actions">
                         <a class="studio-hero-offer" href="<?php echo esc_url($contactUrl); ?>"><?php esc_html_e('Demander ma maquette gratuite', 'crescendo-2026'); ?></a>
                         <a class="studio-text-link studio-hero__projects" href="#projets"><?php esc_html_e('Voir les projets', 'crescendo-2026'); ?></a>

@@ -11,10 +11,14 @@ get_header('nav');
 
 while (have_posts()) :
     the_post();
+    $studioRealisationsLayout = function_exists('crescendo_uses_studio_realisations_layout') && crescendo_uses_studio_realisations_layout();
+    $mainClass = 'main realisations-page' . ($studioRealisationsLayout ? ' realisations-page--studio' : '');
     ?>
-    <main id="main" class="main realisations-page" data-module="realisationsPage">
+    <main id="main" class="<?php echo esc_attr($mainClass); ?>" data-module="realisationsPage">
         <?php lsdGetTemplatePart('realisations', 'block', 'hero'); ?>
-        <?php lsdGetTemplatePart('realisations', 'block', 'intro'); ?>
+        <?php if (!$studioRealisationsLayout) : ?>
+            <?php lsdGetTemplatePart('realisations', 'block', 'intro'); ?>
+        <?php endif; ?>
         <?php lsdGetTemplatePart('realisations', 'block', 'projects'); ?>
         <?php lsdGetTemplatePart('realisations', 'block', 'cta'); ?>
     </main>

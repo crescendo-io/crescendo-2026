@@ -9,6 +9,7 @@
 
 @import 'modules/rgpd';
 @import 'modules/contact-form';
+@import 'modules/contact-form-studio';
 
 @import 'common/layout';
 @import 'common/header';
@@ -18,16 +19,24 @@
 @import 'pages/home';
 @import 'pages/home-studio';
 @import 'pages/site-studio-pages';
+@import 'pages/site-studio-internals';
+@import 'pages/studio-rhythm';
 @import 'pages/service';
+@import 'pages/service-studio';
 @import 'pages/secteur';
+@import 'pages/secteur-studio';
 @import 'pages/local';
 @import 'pages/contact';
 @import 'pages/realisations';
+@import 'pages/realisations-studio';
 @import 'pages/services-hub';
+@import 'pages/services-studio';
 @import 'pages/secteurs-hub';
 @import 'pages/about';
+@import 'pages/about-studio';
 @import 'pages/legal';
 @import 'pages/sitemap';
 @import 'pages/thank-you';
 @import 'pages/project';
+@import 'pages/project-studio';
 @import 'pages/landing';

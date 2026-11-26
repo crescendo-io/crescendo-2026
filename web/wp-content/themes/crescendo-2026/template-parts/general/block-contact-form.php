@@ -60,7 +60,7 @@ if ($args['wrapper_class']) {
             <input type="text" name="entreprise" required autocomplete="organization">
         </label>
 
-        <label>
+        <label class="home-form__full">
             <span>Téléphone</span>
             <input type="tel" name="telephone" autocomplete="tel">
         </label>

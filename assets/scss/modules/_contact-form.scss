@@ -532,11 +532,9 @@ body.no-scroll {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .crescendo-contact-form__tags {
-        grid-column: 1 / -1;
-    }
-
-    .crescendo-contact-form__rgpd {
+    .crescendo-contact-form__tags,
+    .crescendo-contact-form__rgpd,
+    .home-form__full {
         grid-column: 1 / -1;
     }
 }

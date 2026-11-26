@@ -177,6 +177,64 @@ function crescendo_get_studio_featured_projects($limit = 2) {
     return $projects;
 }
 
+/**
+ * Cartes projet pour grilles Studio (hub réalisations, etc.).
+ *
+ * @param array<int, mixed> $items
+ * @return array<int, array<string, mixed>>
+ */
+function crescendo_map_studio_portfolio_projects(array $items) {
+    $cards = crescendo_resolve_project_cards($items, array('excerpt', 'text'));
+    $coverClasses = array('studio-cover-house', 'studio-cover-atelier');
+    $projects = array();
+
+    foreach ($cards as $index => $card) {
+        if (!is_array($card)) {
+            continue;
+        }
+
+        $title = trim((string) ($card['title'] ?? ''));
+        $url = (string) ($card['url'] ?? '');
+        if ($title === '' && $url === '') {
+            continue;
+        }
+
+        $project_id = (int) ($card['project_id'] ?? 0);
+
+        $excerpt = trim((string) ($card['excerpt'] ?? ''));
+        if ($excerpt === '') {
+            $tags = $card['tags'] ?? ($project_id ? crescendo_project('project-tags', $project_id) : '');
+            if (is_array($tags)) {
+                $excerpt = implode(' · ', array_filter(array_map('trim', $tags)));
+            } elseif (is_string($tags) && trim($tags) !== '') {
+                $excerpt = trim($tags);
+            } elseif (!empty($card['text'])) {
+                $excerpt = wp_trim_words(wp_strip_all_tags((string) $card['text']), 14, '…');
+            }
+        }
+
+        $image = $card['image'] ?? null;
+        $image_url = crescendo_project_card_image_url($image, 'crescendo-card');
+        if ($image_url === '' && is_array($image) && !empty($image['url'])) {
+            $image_url = (string) $image['url'];
+        }
+
+        $projects[] = array(
+            'title' => $title,
+            'excerpt' => $excerpt,
+            'url' => $url,
+            'cover_class' => $coverClasses[$index % count($coverClasses)],
+            'image' => $image,
+            'image_url' => $image_url,
+            'alt' => $project_id
+                ? crescendo_project_hero_image_alt($image, $project_id)
+                : crescendo_attachment_alt($image, $title),
+        );
+    }
+
+    return $projects;
+}
+
 function crescendo_project_card_image_url($image, $size = 'crescendo-card') {
     if (!$image) {
         return '';

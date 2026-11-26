@@ -1,0 +1,131 @@
+// Pages internes (contact, hub, à propos, etc.) — alignement charte Studio
+body.site-studio {
+    .container {
+        width: min(calc(100% - var(--studio-margin) * 2), var(--studio-shell-max));
+    }
+
+    .service-breadcrumb {
+        margin-bottom: clamp(18px, 2.4vw, 28px);
+        font-family: var(--studio-mono, ui-monospace, monospace);
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #6d6e68;
+    }
+
+    .contact-hero__title,
+    .about-hero__title,
+    .services-hero__title,
+    .realisations-hero__title,
+    .hub-hero__title,
+    .project-hero__title,
+    .legal-hero__title,
+    .thank-you-hero__title,
+  .sitemap-hero__title {
+        font-weight: 575;
+        letter-spacing: -0.055em;
+        line-height: 1.02;
+    }
+
+    .crescendo-contact-form-shell.crescendo-contact-form-shell--studio {
+        padding: 0;
+        border: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .crescendo-contact-form-shell__title {
+        font-weight: 575;
+        letter-spacing: -0.04em;
+    }
+
+    .crescendo-contact-form-shell__intro {
+        font-size: var(--studio-text-body, 1.6rem);
+        line-height: 1.55;
+        color: #4a4b45;
+        border-bottom-color: var(--studio-rule);
+    }
+
+    .contact-hero__reassurance li {
+        border-radius: 0;
+        border-color: var(--studio-rule);
+        background: #fff;
+        backdrop-filter: none;
+        font-size: var(--studio-text-small, 1.38rem);
+    }
+
+    .about-hero__stats,
+    .services-hero__panel,
+    .services-offers__card,
+    .services-list__card,
+    .realisations-projects__card,
+    .realisations-hero__panel,
+    .about-values__card,
+    .about-expertise__list li,
+    .contact-info__item,
+    .contact-faq details,
+    .legal-section__body,
+    .secteur-panel,
+    .local-panel,
+    .project-section__panel {
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .about-hero__stats,
+    .services-hero__panel,
+    .services-offers__card,
+    .services-list__card {
+        border-color: var(--studio-ink);
+    }
+
+    .realisations-filter__pill,
+    .project-tag,
+    .thank-you-hero__badge {
+        border-radius: 0;
+    }
+
+    .realisations-hero__shape,
+    .project-hero__shape {
+        display: none;
+    }
+
+    .crescendo-contact-modal__dialog {
+        border-radius: 0;
+        border: 1px solid var(--studio-ink);
+        box-shadow: none;
+    }
+
+    .crescendo-contact-modal__eyebrow {
+        font-family: var(--studio-mono, ui-monospace, monospace);
+        font-size: 12px;
+        letter-spacing: 0.045em;
+        text-transform: uppercase;
+    }
+
+    .crescendo-contact-modal__title {
+        font-weight: 575;
+        letter-spacing: -0.04em;
+    }
+
+    .service-page--studio .service-breadcrumb {
+        display: none;
+    }
+
+    .service-page--studio {
+        overflow: visible;
+
+        .service-section,
+        .service-final-cta,
+        .service-cta {
+            border-radius: 0;
+            box-shadow: none;
+        }
+
+        .service-section__title {
+            font-weight: 575;
+            letter-spacing: -0.055em;
+        }
+    }
+}

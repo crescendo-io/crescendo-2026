@@ -1,0 +1,62 @@
+// Rythme vertical commun — pages Studio (service, secteur, about, projet, hubs)
+body.site-studio {
+    --studio-space-page: clamp(72px, 9vw, 128px);
+    --studio-space-section: clamp(64px, 8vw, 112px);
+    --studio-space-section-tight: clamp(48px, 6vw, 88px);
+    --studio-space-head: clamp(28px, 3.5vw, 48px);
+    --studio-space-hero-top: clamp(32px, 4vw, 56px);
+    --studio-space-hero-bottom: clamp(28px, 3.5vw, 48px);
+    --studio-space-inset: clamp(24px, 3vw, 40px);
+}
+
+body.site-studio .about-page--studio,
+body.site-studio .service-page--studio,
+body.site-studio .secteur-page--studio,
+body.site-studio .project-page--studio,
+body.site-studio .realisations-page--studio,
+body.site-studio .services-page--studio,
+body.site-studio .secteurs-page--studio {
+    padding-bottom: var(--studio-space-page);
+
+    // Bandeaux pleine largeur : le fond vit sur <section>, le contenu sur .shell
+    & > section,
+    & > header > section {
+        width: 100%;
+        max-width: none;
+        box-sizing: border-box;
+    }
+
+    section.studio-hero,
+    section.studio-project-hero,
+    section.studio-realisations-hero,
+    section.studio-services-hub-hero,
+    section.studio-secteurs-hub-hero {
+        padding-block: 0;
+        margin-bottom: 0;
+    }
+
+    section.studio-hero .studio-hero__overlay {
+        padding-bottom: var(--studio-space-section-tight);
+    }
+
+    section[class^='studio-about-'],
+    section[class^='studio-service-']:not(.studio-hero),
+    section[class^='studio-secteur-'],
+    section[class^='studio-project-']:not(.studio-project-hero),
+    section[class^='studio-realisations-']:not(.studio-realisations-hero),
+    section[class^='studio-services-hub-']:not(.studio-services-hub-hero),
+    section[class^='studio-secteurs-hub-']:not(.studio-secteurs-hub-hero),
+    section.studio-contact,
+    section.studio-projects {
+        padding-block: var(--studio-space-section);
+    }
+
+    .studio-section-head {
+        margin-bottom: var(--studio-space-head);
+    }
+
+    .studio-section-head--stacked,
+    .studio-section-head--center {
+        margin-bottom: var(--studio-space-head);
+    }
+}

@@ -11,8 +11,10 @@ get_header('nav');
 
 while (have_posts()) :
     the_post();
+    $studioProjectLayout = function_exists('crescendo_uses_studio_project_layout') && crescendo_uses_studio_project_layout();
+    $mainClass = 'main project-page' . ($studioProjectLayout ? ' project-page--studio' : '');
     ?>
-    <main id="main" class="main project-page" data-module="projectPage">
+    <main id="main" class="<?php echo esc_attr($mainClass); ?>" data-module="projectPage">
         <?php lsdGetTemplatePart('project', 'block', 'hero'); ?>
         <?php lsdGetTemplatePart('project', 'block', 'meta'); ?>
         <?php lsdGetTemplatePart('project', 'block', 'gallery'); ?>

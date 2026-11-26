@@ -25,7 +25,7 @@ $sliderId = 'studio-testimonials-slider';
     <div class="studio-about-grid">
         <div class="studio-about-copy" data-studio-text-reveal>
             <p>
-                <?php esc_html_e('Entre Nantes et Saint-Nazaire, Crescendo réunit design et développement. Notre point de départ, c’est votre journée de travail. Comment un client vous trouve-t-il ? Que devient sa demande une fois le formulaire envoyé ?', 'crescendo-2026'); ?>
+                <?php esc_html_e('Crescendo réunit design et développement. Notre point de départ, c’est votre journée de travail. Comment un client vous trouve-t-il ? Que devient sa demande une fois le formulaire envoyé ?', 'crescendo-2026'); ?>
             </p>
             <p>
                 <?php esc_html_e('Nous dessinons ce parcours avec vous. Vous validez les écrans avant le développement. À la livraison, nous vous montrons comment publier une page ou retrouver un dossier client.', 'crescendo-2026'); ?>

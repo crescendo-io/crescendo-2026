@@ -5,6 +5,24 @@ function crescendo_is_secteur_page($post_id = null) {
     return get_page_template_slug($post_id) === 'template-secteur.php';
 }
 
+function crescendo_studio_secteur_slugs_excluded() {
+    return apply_filters('crescendo_studio_secteur_slugs_excluded', array());
+}
+
+function crescendo_uses_studio_secteur_layout($post_id = null) {
+    if (!function_exists('crescendo_uses_studio_design') || !crescendo_uses_studio_design()) {
+        return false;
+    }
+
+    $post_id = $post_id ?: get_queried_object_id();
+    if (!$post_id || !crescendo_is_secteur_page($post_id)) {
+        return false;
+    }
+
+    $slug = get_post_field('post_name', $post_id);
+    return !in_array($slug, crescendo_studio_secteur_slugs_excluded(), true);
+}
+
 function crescendo_secteur($field, $post_id = null) {
     $post_id = $post_id ?: get_the_ID();
     $value = get_field($field, $post_id);

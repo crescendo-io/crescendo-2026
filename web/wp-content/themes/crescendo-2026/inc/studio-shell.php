@@ -42,13 +42,33 @@ function crescendo_studio_body_class($classes) {
         $classes[] = 'has-immersive-hero';
     }
 
+    if (
+        function_exists('crescendo_uses_studio_service_layout')
+        && crescendo_uses_studio_service_layout()
+    ) {
+        $classes[] = 'has-studio-service-layout';
+        $classes[] = 'has-immersive-hero';
+    }
+
+    if (
+        function_exists('crescendo_uses_studio_secteur_layout')
+        && crescendo_uses_studio_secteur_layout()
+    ) {
+        $classes[] = 'has-studio-secteur-layout';
+        $classes[] = 'has-immersive-hero';
+    }
+
     return $classes;
 }
 
 add_filter('body_class', 'crescendo_studio_body_class', 20);
 
+function crescendo_page_uses_studio_interactions() {
+    return function_exists('crescendo_uses_studio_design') && crescendo_uses_studio_design();
+}
+
 function crescendo_enqueue_studio_front_scripts() {
-    if (is_admin() || !is_front_page() || !crescendo_uses_studio_design()) {
+    if (is_admin() || !crescendo_uses_studio_design() || !crescendo_page_uses_studio_interactions()) {
         return;
     }
 
@@ -56,9 +76,15 @@ function crescendo_enqueue_studio_front_scripts() {
     $themeUri = get_template_directory_uri();
     $files = array(
         'crescendo-studio-mast-hero' => 'studio-mast-hero.js',
-        'crescendo-studio-testimonials-slider' => 'studio-testimonials-slider.js',
         'crescendo-studio-cover-reveal' => 'studio-cover-reveal.js',
     );
+
+    if (
+        is_front_page()
+        || (function_exists('crescendo_uses_studio_about_layout') && crescendo_uses_studio_about_layout())
+    ) {
+        $files['crescendo-studio-testimonials-slider'] = 'studio-testimonials-slider.js';
+    }
 
     foreach ($files as $handle => $relativePath) {
         $path = $themeDir . '/assets/js/' . $relativePath;

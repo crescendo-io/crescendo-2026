@@ -10,7 +10,7 @@ $logoMarkup = function_exists('crescendo_studio_logo_markup') ? crescendo_studio
         }
         ?>
     </a>
-    <span><?php esc_html_e('Nantes — Saint-Nazaire', 'crescendo-2026'); ?></span>
+    <span><?php esc_html_e('Sites web & CRM', 'crescendo-2026'); ?></span>
     <nav aria-label="<?php esc_attr_e('Liens complémentaires', 'crescendo-2026'); ?>">
         <a href="<?php echo esc_url(crescendo_instagram_url()); ?>" target="_blank" rel="noopener noreferrer">Instagram</a>
         <a href="<?php echo esc_url(crescendo_nav_url('mentions-legales')); ?>"><?php esc_html_e('Mentions légales', 'crescendo-2026'); ?></a>

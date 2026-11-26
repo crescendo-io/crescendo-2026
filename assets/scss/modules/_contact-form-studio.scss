@@ -1,0 +1,187 @@
+// Formulaire contact — variante Studio (page service, etc.)
+body.site-studio .crescendo-contact-form-shell--studio {
+    .home-form__fields {
+        gap: clamp(14px, 1.6vw, 20px);
+    }
+
+    label:not(.crescendo-contact-form__tag):not(.crescendo-contact-form__rgpd-label) {
+        gap: 0.5rem;
+        font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
+        font-size: 1.4rem;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+        text-transform: none;
+        color: var(--studio-ink);
+    }
+
+    .crescendo-contact-form input:not([type='hidden']):not([type='checkbox']):not([type='file']),
+    .crescendo-contact-form select,
+    .crescendo-contact-form textarea {
+        padding: 0.95rem 1rem;
+        border-radius: 0;
+        border: 1px solid var(--studio-rule);
+        background: #fff;
+        font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
+        font-size: 1.55rem;
+        line-height: 1.45;
+        color: var(--studio-ink);
+        box-shadow: none;
+
+        &::placeholder {
+            color: #9a9b94;
+        }
+
+        &:focus {
+            outline: none;
+            border-color: var(--studio-ink);
+            box-shadow: 0 0 0 2px rgb(29 30 27 / 10%);
+            background: #fff;
+        }
+    }
+
+    .crescendo-contact-form__tags-legend {
+        font-family: var(--studio-mono, ui-monospace, monospace);
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.045em;
+        text-transform: uppercase;
+        color: var(--studio-ink);
+    }
+
+    .crescendo-contact-form__tags-hint {
+        font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
+        font-size: 1.35rem;
+        letter-spacing: 0;
+        text-transform: none;
+        color: #6d6e68;
+    }
+
+    .crescendo-contact-form__tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.55rem;
+    }
+
+    .crescendo-contact-form__tag {
+        display: inline-flex;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .crescendo-contact-form__tag span {
+        display: inline-block;
+        padding: 0.65rem 0.95rem;
+        border-radius: 0;
+        border: 1px solid var(--studio-ink);
+        background: #fff;
+        font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
+        font-size: 1.45rem;
+        font-weight: 500;
+        line-height: 1.35;
+        color: var(--studio-ink);
+    }
+
+    .crescendo-contact-form__tag:hover span {
+        border-color: var(--studio-red);
+        background: rgb(237 72 46 / 6%);
+    }
+
+    .crescendo-contact-form__tag input:checked + span {
+        border-color: var(--studio-red);
+        background: var(--studio-red);
+        color: #fff;
+    }
+
+    .crescendo-contact-form__tag input:focus-visible + span {
+        box-shadow: 0 0 0 2px rgb(29 30 27 / 15%);
+    }
+
+    .crescendo-contact-form__rgpd-label {
+        padding: 1rem 1.1rem;
+        border: 1px solid rgb(29 30 27 / 10%);
+        border-radius: 0;
+        background: var(--studio-paper);
+        font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
+        font-size: 1.35rem;
+        line-height: 1.5;
+        color: #5c5d57;
+    }
+
+    .crescendo-contact-form__feedback {
+        border-radius: 0;
+        border: 1px solid var(--studio-ink);
+        box-shadow: none;
+        font-size: 1.45rem;
+
+        &::before {
+            border-radius: 0;
+            box-shadow: none;
+        }
+
+        &.is-success {
+            background: rgb(237 72 46 / 10%);
+            border-color: var(--studio-red);
+        }
+    }
+
+    .crescendo-contact-form__submit.btn--primary {
+        width: 100%;
+        min-height: 48px;
+        margin-top: 0.25rem;
+        padding: 0.95rem 1.1rem;
+        border: 1px solid var(--studio-red);
+        border-radius: 0;
+        background: var(--studio-red);
+        color: #fff;
+        font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
+        font-size: var(--studio-text-ui);
+        font-weight: 650;
+        letter-spacing: 0;
+        text-transform: none;
+        box-shadow: none;
+
+        &::after {
+            content: none;
+        }
+
+        &:hover {
+            background: var(--studio-ink);
+            border-color: var(--studio-ink);
+            color: var(--studio-paper);
+        }
+    }
+}
+
+body.site-studio .crescendo-contact-modal {
+    .crescendo-contact-modal__form {
+        label:not(.crescendo-contact-form__tag):not(.crescendo-contact-form__rgpd-label) {
+            font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+
+        input:not([type='hidden']):not([type='checkbox']):not([type='file']),
+        select,
+        textarea {
+            border-radius: 0;
+            border-color: var(--studio-rule);
+            font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        .crescendo-contact-form__submit.btn--primary {
+            border-radius: 0;
+            background: var(--studio-red);
+            border-color: var(--studio-red);
+            box-shadow: none;
+
+            &::after {
+                content: none;
+            }
+
+            &:hover {
+                background: var(--studio-ink);
+                border-color: var(--studio-ink);
+            }
+        }
+    }
+}

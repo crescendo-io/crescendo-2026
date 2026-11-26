@@ -1,57 +1,55 @@
 {
   "version": "1.0",
   "page": {
-    "title": "Création de site internet à Nantes",
+    "title": "Création de site internet sur mesure",
     "slug": "creation-site-web-nantes",
     "menu_order": 6,
     "status": "publish",
     "parent": "services"
   },
   "seo": {
-    "meta_title": "Création site internet Nantes — Sur mesure | Crescendo",
-    "meta_description": "Création de site internet à Nantes pour TPE et PME : WordPress sur mesure, SEO local, design premium. Maquette gratuite 48h. Location dès 350€/mois.",
-    "focus_keyword": "création site internet nantes",
+    "meta_title": "Création site internet — Sur mesure | Crescendo",
+    "meta_description": "Site WordPress sur mesure : cadrage, design et développement pour générer des demandes. Maquette gratuite sous 48 h.",
+    "focus_keyword": "création site internet",
     "canonical": "https://www.crescendo-studio.io/services/creation-site-web-nantes/",
     "noindex": false
   },
   "fields": {
-    "service-hero-eyebrow": "Création site web · Nantes",
-    "service-hero-title": "Création de site internet à Nantes",
-    "service-hero-intro": "Vous lancez une activité ou refondez un site existant à Nantes ? Nous créons des sites internet WordPress sur mesure : cadrage stratégique, design premium, SEO local intégré — en location dès 350 €/mois ou en achat clé en main.",
+    "service-hero-eyebrow": "Sites web",
+    "service-hero-title": "Création de site internet sur mesure",
+    "service-hero-intro": "Un site qui clarifie votre offre et amène des demandes concrètes. On cadre le parcours, on valide les écrans avec vous, puis on développe en WordPress sur mesure.",
     "service-hero-cta-primary": {
       "title": "Demander ma maquette gratuite",
       "url": "#contact",
       "target": ""
     },
     "service-hero-cta-secondary": {
-      "title": "Comparer location et achat",
-      "url": "/services/location-site-internet/",
+      "title": "Voir les réalisations",
+      "url": "#realisations",
       "target": ""
     },
-    "service-hero-note": "Site vitrine livré en 4 à 6 semaines",
+    "service-hero-note": "Première maquette sous 48 h · livraison vitrine 4 à 6 semaines",
     "service-benefits": [
       {
-        "title": "Site orienté business",
-        "text": "Chaque page sert un objectif : crédibilité, leads, prise de RDV ou vente."
+        "title": "Objectif clair",
+        "text": "Chaque page répond à une intention : crédibilité, prise de contact, devis ou RDV."
       },
       {
-        "title": "Mobile first",
-        "text": "70 % des recherches locales se font sur smartphone — votre site en est optimisé."
+        "title": "Pensé mobile",
+        "text": "La majorité des visites passent par le téléphone — la lecture et les formulaires suivent."
       },
       {
-        "title": "SEO local Nantes",
-        "text": "Structure et contenu pensés pour « votre métier + Nantes »."
+        "title": "Trouvable en ligne",
+        "text": "Structure et contenus pensés pour le référencement naturel et la clarté du message."
       },
       {
-        "title": "Budget maîtrisé",
-        "text": "Location sans frais de création ou achat chiffré au forfait."
+        "title": "Budget lisible",
+        "text": "Devis au forfait, périmètre et jalons définis avant le développement."
       }
     ],
-    "service-included-eyebrow": "Création clé en main",
-    "service-included-title": "Ce qui est inclus dans votre site internet",
-    "service-included-text": "Un site professionnel complet : stratégie, design UX/UI, développement WordPress, rédaction SEO, hébergement et formation.",
-    "service-included-price": "350€",
-    "service-included-price-suffix": "/mois (location)",
+    "service-included-eyebrow": "Livré clé en main",
+    "service-included-title": "Ce qui part avec votre site",
+    "service-included-text": "Du cadrage à la formation : un site complet, sans surprise sur le périmètre.",
     "service-included-cta": {
       "title": "Obtenir ma maquette gratuite",
       "url": "#contact",
@@ -59,7 +57,7 @@
     },
     "service-included-features": [
       {
-        "text": "Cadrage et arborescence SEO"
+        "text": "Cadrage et arborescence"
       },
       {
         "text": "Design UX/UI personnalisé"
@@ -68,95 +66,56 @@
         "text": "Développement WordPress sur mesure"
       },
       {
-        "text": "Pages services et zone géographique"
+        "text": "Pages services et offres"
       },
       {
-        "text": "Formulaire de contact ou devis"
+        "text": "Formulaire contact ou devis"
       },
       {
-        "text": "Optimisation Core Web Vitals"
+        "text": "Performance et accessibilité"
       },
       {
-        "text": "Google Analytics & Search Console"
+        "text": "Suivi Analytics & Search Console"
       },
       {
-        "text": "Formation à la gestion du contenu"
+        "text": "Formation à la mise à jour"
       }
     ],
-    "service-compare-eyebrow": "Location vs achat",
-    "service-compare-title": "Comment financer la création de votre site à Nantes ?",
-    "service-compare-text": "La location lisse votre trésorerie. L'achat convient si vous disposez d'un budget initial et d'une équipe marketing interne.",
-    "service-compare-cta": {
-      "title": "Choisir la location 350€/mois",
-      "url": "/services/location-site-internet/",
-      "target": ""
-    },
-    "service-compare-col1-label": "Location 350€/mois",
-    "service-compare-col2-label": "Achat sur mesure",
-    "service-compare-table": [
-      {
-        "label": "Investissement initial",
-        "col1": "0€",
-        "col2": "3 000 – 8 000€"
-      },
-      {
-        "label": "Création incluse",
-        "col1": "✓",
-        "col2": "✓"
-      },
-      {
-        "label": "Maintenance",
-        "col1": "Incluse",
-        "col2": "150–250€/mois"
-      },
-      {
-        "label": "Évolutions",
-        "col1": "Incluses (mineures)",
-        "col2": "Sur devis"
-      },
-      {
-        "label": "Propriété du site",
-        "col1": "Location",
-        "col2": "Vous"
-      },
-      {
-        "label": "Idéal pour",
-        "col1": "TPE, lancement",
-        "col2": "PME établies"
-      }
-    ],
-    "service-compare-note": "Les deux formules incluent WordPress sur mesure — pas de template générique",
-    "service-audience-eyebrow": "Types de projets",
-    "service-audience-title": "Quel site internet créer pour votre activité à Nantes ?",
+    "service-compare-eyebrow": "",
+    "service-compare-title": "",
+    "service-compare-text": "",
+    "service-compare-table": [],
+    "service-audience-eyebrow": "Formats",
+    "service-audience-title": "Quel site correspond à votre activité",
     "service-audience-cards": [
       {
         "title": "Site vitrine",
-        "text": "Présentation services, réalisations, équipe.",
+        "text": "Présenter votre métier, vos réalisations et ouvrir le contact.",
         "url": "/services/creation-site-vitrine-nantes/"
       },
       {
-        "title": "Site WordPress",
-        "text": "Plateforme évolutive, blog, multilingue.",
+        "title": "WordPress évolutif",
+        "text": "Blog, plusieurs langues, contenus que vous gérez au quotidien.",
         "url": "/services/creation-site-wordpress/"
       },
       {
-        "title": "Site e-commerce",
-        "text": "Vente en ligne WooCommerce sur mesure.",
+        "title": "E-commerce",
+        "text": "Vente en ligne avec WooCommerce adapté à votre catalogue.",
         "url": "/services/creation-site-ecommerce-nantes/"
       },
       {
         "title": "Refonte",
-        "text": "Moderniser un site existant sans perdre le SEO.",
+        "text": "Moderniser sans casser votre référencement existant.",
         "url": "/services/refonte-site-wordpress/"
       }
     ],
-    "service-projects-eyebrow": "Exemples de créations",
-    "service-projects-title": "Des sites internet livrés à Nantes et en Loire-Atlantique.",
+    "service-projects-eyebrow": "Réalisations",
+    "service-projects-title": "Quelques sites livrés avec Crescendo",
     "service-projects": [
       {
         "title": "Be Focus",
         "category": "Formation",
-        "tags": "WordPress · Booking",
+        "tags": "WordPress · Réservation",
         "url": "/realisations/be-focus/"
       },
       {
@@ -168,109 +127,97 @@
       {
         "title": "Ludovic Géhéniaux",
         "category": "Artisan",
-        "tags": "WordPress · Réservation",
+        "tags": "WordPress · Prise de RDV",
         "url": "/realisations/ludovic-geheniaux/"
       }
     ],
-    "service-method-eyebrow": "Notre process",
-    "service-method-title": "De l'idée au site en ligne en 5 étapes.",
+    "service-method-eyebrow": "Méthode",
+    "service-method-title": "Cinq étapes jusqu'à la mise en ligne",
     "service-method-steps": [
       {
-        "title": "Brief & stratégie",
-        "text": "Objectifs, cibles, mots-clés et arborescence validés ensemble."
+        "title": "Brief & priorités",
+        "text": "Objectifs, cibles et messages validés avant toute maquette."
       },
       {
-        "title": "Maquette 48h",
-        "text": "Prototype visuel gratuit pour valider la direction."
+        "title": "Maquette 48 h",
+        "text": "Prototype visuel pour trancher la direction sans engagement."
       },
       {
-        "title": "Contenus & design",
-        "text": "Rédaction SEO, visuels et ajustements collaboratifs."
+        "title": "Contenus",
+        "text": "Textes et visuels ajustés avec vous, pensés pour le web."
       },
       {
         "title": "Développement",
-        "text": "Intégration WordPress, formulaires, tracking."
+        "text": "WordPress, formulaires, suivi analytics et SEO technique."
       },
       {
         "title": "Lancement",
-        "text": "Mise en ligne, indexation, formation et suivi."
+        "text": "Mise en ligne, formation et plan de suivi."
       }
     ],
     "service-faq-eyebrow": "FAQ",
-    "service-faq-title": "Questions sur la création de site internet à Nantes.",
+    "service-faq-title": "Questions fréquentes",
     "service-faq-items": [
       {
-        "question": "Combien coûte la création d'un site internet à Nantes ?",
-        "answer": "En location : 350 €/mois sans frais de création. En achat : entre 3 000 et 8 000 € selon le nombre de pages et fonctionnalités."
+        "question": "Quel budget prévoir ?",
+        "answer": "Entre 3 000 et 8 000 € selon le nombre de pages et les fonctionnalités — chiffrage fixe après cadrage."
       },
       {
         "question": "Quelle technologie utilisez-vous ?",
-        "answer": "WordPress sur mesure — le CMS le plus répandu au monde, flexible, sécurisé et facile à administrer."
+        "answer": "WordPress développé sur mesure : flexible, maintenable, avec une interface adaptée à votre quotidien."
       },
       {
-        "question": "Mon site sera-t-il visible sur Google à Nantes ?",
-        "answer": "Oui. SEO technique, contenu géolocalisé, schema.org et fiche Google Business Profile font partie de notre méthode."
+        "question": "Le site sera-t-il trouvable sur Google ?",
+        "answer": "Oui : structure propre, contenus utiles, données structurées et suivi Search Console."
       },
       {
-        "question": "Puis-je modifier mon site moi-même ?",
-        "answer": "Oui. L'interface d'administration est adaptée à vos contenus : textes, images, actualités, sans toucher au code."
+        "question": "Puis-je modifier les pages moi-même ?",
+        "answer": "Oui. Vous mettez à jour textes et visuels sans toucher au code, après une formation à la livraison."
       },
       {
-        "question": "Quelle différence entre site vitrine et site e-commerce ?",
-        "answer": "Le vitrine génère des contacts. L'e-commerce intègre un catalogue, un panier et un paiement en ligne via WooCommerce."
+        "question": "Vitrine ou e-commerce ?",
+        "answer": "La vitrine génère des contacts. L'e-commerce ajoute catalogue, panier et paiement WooCommerce."
       },
       {
-        "question": "Proposez-vous la rédaction des contenus ?",
-        "answer": "Oui, en option ou inclus selon la formule. Nous rédigeons des textes optimisés SEO orientés conversion."
+        "question": "Proposez-vous la rédaction ?",
+        "answer": "Oui, en option ou incluse selon la formule — contenus courts, utiles pour le lecteur et le référencement."
       },
       {
-        "question": "Combien de temps pour créer mon site ?",
-        "answer": "4 à 6 semaines pour un vitrine standard. E-commerce ou multilingue : 8 à 12 semaines."
+        "question": "Quel délai ?",
+        "answer": "4 à 6 semaines pour un vitrine. E-commerce ou multilingue : 8 à 12 semaines."
       },
       {
-        "question": "Que se passe-t-il après la mise en ligne ?",
-        "answer": "Maintenance, mises à jour de sécurité, sauvegardes et évolutions — incluses en location ou via contrat dédié."
+        "question": "Après la mise en ligne ?",
+        "answer": "Maintenance, sauvegardes et évolutions possibles via un contrat de suivi dédié."
       }
     ],
-    "service-final-cta-title": "Lancez la création de votre site internet à Nantes",
-    "service-final-reassurance": [
-      {
-        "text": "Maquette gratuite en 48h"
-      },
-      {
-        "text": "Location dès 350€/mois"
-      },
-      {
-        "text": "SEO local intégré"
-      }
-    ],
-    "service-related-title": "Pages complémentaires",
+    "service-related-title": "Voir aussi",
     "service-related-links": [
       {
         "link": {
-          "title": "Notre agence web à Nantes",
+          "title": "Accueil Crescendo",
           "url": "/",
           "target": ""
         }
       },
       {
         "link": {
-          "title": "Site vitrine pour TPE et artisans",
+          "title": "Site vitrine TPE & artisans",
           "url": "/services/creation-site-vitrine-nantes/",
           "target": ""
         }
       },
       {
         "link": {
-          "title": "Développement WordPress technique",
+          "title": "WordPress technique",
           "url": "/services/creation-site-wordpress/",
           "target": ""
         }
       },
       {
         "link": {
-          "title": "Location site internet 350€/mois",
-          "url": "/services/location-site-internet/",
+          "title": "Refonte WordPress",
+          "url": "/services/refonte-site-wordpress/",
           "target": ""
         }
       }

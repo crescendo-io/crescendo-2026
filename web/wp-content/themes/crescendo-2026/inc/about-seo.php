@@ -5,6 +5,35 @@ function crescendo_is_about_page($post_id = null) {
     return get_page_template_slug($post_id) === 'template-about.php';
 }
 
+function crescendo_uses_studio_about_layout($post_id = null) {
+    if (!function_exists('crescendo_uses_studio_design') || !crescendo_uses_studio_design()) {
+        return false;
+    }
+
+    $post_id = $post_id ?: get_queried_object_id();
+
+    return $post_id && crescendo_is_about_page($post_id);
+}
+
+/**
+ * @return array<int, array<string, mixed>>
+ */
+function crescendo_get_studio_testimonials() {
+    $testimonials = function_exists('crescendo_home') ? crescendo_home('home-testimonials-items') : null;
+    if (is_array($testimonials)) {
+        $testimonials = array_values(array_filter($testimonials, static function ($item) {
+            return is_array($item) && trim((string) ($item['quote'] ?? '')) !== '';
+        }));
+    }
+    if (!empty($testimonials)) {
+        return $testimonials;
+    }
+
+    $homeDefaults = require get_template_directory() . '/inc/home-defaults.php';
+
+    return $homeDefaults['home-testimonials-items'] ?? array();
+}
+
 function crescendo_about($field, $post_id = null) {
     $post_id = $post_id ?: get_the_ID();
     $value = get_field($field, $post_id);

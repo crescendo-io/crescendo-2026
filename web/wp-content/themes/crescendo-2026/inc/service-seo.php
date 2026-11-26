@@ -5,6 +5,39 @@ function crescendo_is_service_page($post_id = null) {
     return get_page_template_slug($post_id) === 'template-service.php';
 }
 
+/**
+ * Slugs explicitement exclus du layout service Studio (liste vide = toutes les pages service).
+ */
+function crescendo_studio_service_slugs_excluded() {
+    return apply_filters('crescendo_studio_service_slugs_excluded', array());
+}
+
+/**
+ * @deprecated Utiliser crescendo_uses_studio_service_layout(). Conservé pour les filtres existants.
+ */
+function crescendo_studio_service_slugs() {
+    return apply_filters('crescendo_studio_service_slugs', array());
+}
+
+function crescendo_uses_studio_service_layout($post_id = null) {
+    if (!function_exists('crescendo_uses_studio_design') || !crescendo_uses_studio_design()) {
+        return false;
+    }
+
+    $post_id = $post_id ?: get_queried_object_id();
+    if (!$post_id || !crescendo_is_service_page($post_id)) {
+        return false;
+    }
+
+    $slug = get_post_field('post_name', $post_id);
+    $legacyAllowList = crescendo_studio_service_slugs();
+    if ($legacyAllowList !== array()) {
+        return in_array($slug, $legacyAllowList, true);
+    }
+
+    return !in_array($slug, crescendo_studio_service_slugs_excluded(), true);
+}
+
 function crescendo_service($field, $post_id = null) {
     $post_id = $post_id ?: get_the_ID();
     $value = get_field($field, $post_id);

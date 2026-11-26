@@ -287,7 +287,79 @@ function lsdGetTemplatePart($folder = '', $slug, $name, $args = '') {
         }
     }
 
-    get_template_part('template-parts/'. $folder . '/' .  $slug .'', $name, $args);
+    $partFolder = $folder;
+    if (
+        $folder === 'service'
+        && function_exists('crescendo_uses_studio_service_layout')
+        && crescendo_uses_studio_service_layout()
+    ) {
+        $studioRelative = 'template-parts/service-studio/' . $slug . '-' . $name . '.php';
+        if (locate_template($studioRelative)) {
+            $partFolder = 'service-studio';
+        }
+    }
+    if (
+        $folder === 'project'
+        && function_exists('crescendo_uses_studio_project_layout')
+        && crescendo_uses_studio_project_layout()
+    ) {
+        $studioRelative = 'template-parts/project-studio/' . $slug . '-' . $name . '.php';
+        if (locate_template($studioRelative)) {
+            $partFolder = 'project-studio';
+        }
+    }
+    if (
+        $folder === 'realisations'
+        && function_exists('crescendo_uses_studio_realisations_layout')
+        && crescendo_uses_studio_realisations_layout()
+    ) {
+        $studioRelative = 'template-parts/realisations-studio/' . $slug . '-' . $name . '.php';
+        if (locate_template($studioRelative)) {
+            $partFolder = 'realisations-studio';
+        }
+    }
+    if (
+        $folder === 'services'
+        && function_exists('crescendo_uses_studio_services_hub_layout')
+        && crescendo_uses_studio_services_hub_layout()
+    ) {
+        $studioRelative = 'template-parts/services-studio/' . $slug . '-' . $name . '.php';
+        if (locate_template($studioRelative)) {
+            $partFolder = 'services-studio';
+        }
+    }
+    if (
+        $folder === 'about'
+        && function_exists('crescendo_uses_studio_about_layout')
+        && crescendo_uses_studio_about_layout()
+    ) {
+        $studioRelative = 'template-parts/about-studio/' . $slug . '-' . $name . '.php';
+        if (locate_template($studioRelative)) {
+            $partFolder = 'about-studio';
+        }
+    }
+    if (
+        $folder === 'secteur'
+        && function_exists('crescendo_uses_studio_secteur_layout')
+        && crescendo_uses_studio_secteur_layout()
+    ) {
+        $studioRelative = 'template-parts/secteur-studio/' . $slug . '-' . $name . '.php';
+        if (locate_template($studioRelative)) {
+            $partFolder = 'secteur-studio';
+        }
+    }
+    if (
+        $folder === 'secteurs'
+        && function_exists('crescendo_uses_studio_secteurs_hub_layout')
+        && crescendo_uses_studio_secteurs_hub_layout()
+    ) {
+        $studioRelative = 'template-parts/secteurs-studio/' . $slug . '-' . $name . '.php';
+        if (locate_template($studioRelative)) {
+            $partFolder = 'secteurs-studio';
+        }
+    }
+
+    get_template_part('template-parts/' . $partFolder . '/' . $slug, $name, $args);
 
     if (isset($lsdDebugBloc)) {
         echo '</div>';

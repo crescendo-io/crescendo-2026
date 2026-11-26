@@ -2,14 +2,13 @@
     function initStudioMastHero() {
         var mast = document.querySelector('.studio-mast');
         var hero = document.querySelector('.studio-hero--immersive');
-        var sentinel = document.getElementById('projets');
-
         if (!mast || !hero || !document.body.classList.contains('has-immersive-hero')) {
             return;
         }
 
         var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         var headerLine = 92;
+        var sentinel = document.getElementById('projets') || document.getElementById('inclus');
         var heroMedia = hero.querySelector('.studio-hero__media');
         var heroGlows = hero.querySelector('.studio-hero__glows');
         var ticking = false;
