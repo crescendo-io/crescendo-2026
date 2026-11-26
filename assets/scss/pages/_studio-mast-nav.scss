@@ -458,4 +458,14 @@ body.site-studio {
             }
         }
     }
+
+    &.studio-mast-nav-open {
+        .studio-mast {
+            z-index: 240;
+        }
+
+        .studio-mast-nav__backdrop {
+            z-index: 230;
+        }
+    }
 }

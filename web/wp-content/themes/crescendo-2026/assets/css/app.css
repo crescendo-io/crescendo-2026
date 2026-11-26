@@ -4844,6 +4844,12 @@ body.site-studio.has-studio-dark-hero .studio-mast:not(.is-past-hero) .studio-ma
 body.site-studio.has-studio-dark-hero .studio-mast:not(.is-past-hero) .studio-mast-nav.is-open .studio-mast-nav__subrow-link {
   color: var(--studio-ink);
 }
+body.site-studio.studio-mast-nav-open .studio-mast {
+  z-index: 240;
+}
+body.site-studio.studio-mast-nav-open .studio-mast-nav__backdrop {
+  z-index: 230;
+}
 
 body.site-studio {
   --color-text: var(--studio-ink, #1d1e1b);
