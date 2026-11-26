@@ -1,0 +1,165 @@
+// Pages internes : tokens et composants hérités alignés sur la maquette Studio.
+body.site-studio {
+    --color-text: var(--studio-ink, #1d1e1b);
+    --color-muted: #5c5d57;
+    --color-border: var(--studio-rule, #bbbbb2);
+    --color-surface: var(--studio-paper, #faf8f3);
+    --color-yellow: var(--studio-red, #ed482e);
+    --color-yellow-dark: #d63e28;
+    --font-fontName: Inter, 'Helvetica Neue', Arial, sans-serif;
+    --grid-offset: clamp(22px, 4.3vw, 86px);
+    --container-max: 1640px;
+
+    .service-section,
+    .contact-section,
+    .about-section,
+    .legal-section,
+    .sitemap-section,
+    .project-section,
+    .realisations-section,
+    .hub-section {
+        background: transparent;
+    }
+
+    .service-hero,
+    .contact-hero,
+    .about-hero,
+    .legal-hero,
+    .sitemap-hero,
+    .project-hero,
+    .realisations-hero,
+    .hub-hero,
+    .thank-you-hero,
+    .local-hero,
+    .secteur-hero {
+        background: var(--studio-paper);
+    }
+
+    .service-section--alt,
+    .service-compare,
+    .service-included,
+    .hub-card-panel,
+    .local-panel,
+    .secteur-panel--muted {
+        background: rgb(29 30 27 / 4%);
+    }
+
+    .btn {
+        --felt-border: 0;
+        min-height: 44px;
+        padding: 10px 22px;
+        border: 1px solid var(--studio-ink);
+        border-radius: 0;
+        font-family: var(--font-fontName);
+        font-size: 1.6rem;
+        font-weight: 600;
+        text-transform: none;
+        letter-spacing: 0;
+        box-shadow: none;
+
+        &::after {
+            content: none;
+        }
+
+        &:hover {
+            transform: none;
+            box-shadow: none;
+        }
+
+        &:active {
+            transform: none;
+        }
+    }
+
+    .btn--primary,
+    .btn--dark {
+        background: var(--studio-ink);
+        color: var(--studio-paper);
+        border-color: var(--studio-ink);
+
+        &:hover {
+            background: var(--studio-red);
+            border-color: var(--studio-red);
+            color: var(--studio-paper);
+        }
+    }
+
+    .btn--outline,
+    .btn--outline-dark {
+        background: transparent;
+        color: var(--studio-ink);
+        border-color: var(--studio-ink);
+
+        &:hover {
+            background: var(--studio-ink);
+            color: var(--studio-paper);
+        }
+    }
+
+    .btn--sm {
+        min-height: 40px;
+        padding: 8px 16px;
+        font-size: 1.5rem;
+    }
+
+    .service-eyebrow,
+    .hub-eyebrow,
+    .contact-eyebrow,
+    .about-eyebrow {
+        font-family: var(--studio-mono, ui-monospace, monospace);
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--studio-ink);
+    }
+
+    .service-section__title,
+    .hub-section__title,
+    .contact-section__title,
+    .about-section__title,
+    .project-section__title {
+        font-weight: 650;
+        letter-spacing: -0.03em;
+    }
+
+    .crescendo-contact-form-shell {
+        border-radius: 0;
+        border: 1px solid var(--studio-ink);
+        box-shadow: none;
+        background: #fff;
+
+        .btn--primary {
+            &::after {
+                content: none;
+            }
+        }
+    }
+
+  .crescendo-form-control,
+  .crescendo-contact-form input[type='text'],
+  .crescendo-contact-form input[type='email'],
+  .crescendo-contact-form input[type='tel'],
+  .crescendo-contact-form textarea,
+  .crescendo-contact-form select {
+        border-radius: 0;
+        border-color: var(--studio-rule);
+
+        &:focus {
+            border-color: var(--studio-ink);
+            box-shadow: 0 0 0 2px rgb(29 30 27 / 12%);
+        }
+    }
+
+    .cookie-consent {
+        font-family: var(--font-fontName);
+
+        &__actions .btn--primary {
+            background: var(--studio-ink);
+        }
+    }
+
+    .site-footer {
+        display: none;
+    }
+}

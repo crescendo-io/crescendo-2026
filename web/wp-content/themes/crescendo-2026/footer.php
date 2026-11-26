@@ -1,4 +1,12 @@
 <?php
+if (function_exists('crescendo_uses_studio_design') && crescendo_uses_studio_design()) {
+    get_template_part('template-parts/general/studio', 'footer');
+    crescendo_render_contact_form_modal();
+    wp_footer();
+    echo '</div></body></html>';
+    return;
+}
+
 $description = get_field('params-footer-description', 'option') ?: 'Agence web à Nantes spécialisée WordPress sur mesure, CRM et location de site dès 350€/mois.';
 $email = get_field('params-footer-email', 'option') ?: crescendo_default_footer_email();
 $address = get_field('params-footer-address', 'option') ?: crescendo_default_footer_address();

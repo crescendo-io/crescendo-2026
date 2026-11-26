@@ -1,18 +1,19 @@
 <?php
+/**
+ * Accueil — maquette éditoriale Crescendo Studio.
+ *
+ * @package crescendo-2026
+ */
+
 get_header();
 get_header('nav');
 ?>
-<main id="main" class="main home-page" data-module="homePage" data-context="@visible true">
-    <?php lsdGetTemplatePart('home', 'block', 'hero'); ?>
-    <?php lsdGetTemplatePart('home', 'block', 'trust'); ?>
-    <?php lsdGetTemplatePart('home', 'block', 'services'); ?>
-    <?php lsdGetTemplatePart('home', 'block', 'why'); ?>
-    <?php lsdGetTemplatePart('home', 'block', 'method'); ?>
-    <?php lsdGetTemplatePart('home', 'block', 'pricing'); ?>
-    <?php lsdGetTemplatePart('home', 'block', 'crm'); ?>
-    <?php lsdGetTemplatePart('home', 'block', 'testimonials'); ?>
-    <?php lsdGetTemplatePart('home', 'block', 'cta'); ?>
-    <?php lsdGetTemplatePart('home', 'block', 'faq-contact'); ?>
+<main id="contenu" class="main home-studio">
+    <?php get_template_part('template-parts/home-studio/block', 'hero'); ?>
+    <?php get_template_part('template-parts/home-studio/block', 'projects'); ?>
+    <?php get_template_part('template-parts/home-studio/block', 'expertises'); ?>
+    <?php get_template_part('template-parts/home-studio/block', 'studio'); ?>
+    <?php get_template_part('template-parts/home-studio/block', 'contact'); ?>
 </main>
 <?php
 get_template_part('template-parts/general/block', 'rgpd');

@@ -112,6 +112,89 @@ function crescendo_resolve_project_card($item, $override_keys = array('text')) {
     return $card;
 }
 
+/**
+ * Projets mis en avant sur l’accueil Studio (fiches projet ACF).
+ *
+ * @return array<int, array<string, mixed>>
+ */
+function crescendo_get_studio_featured_projects($limit = 2) {
+    $items = crescendo_home('home-studio-projects');
+    if (!is_array($items) || $items === array()) {
+        $items = crescendo_home('home-why-projects');
+    }
+
+    $items = array_slice($items ?: array(), 0, max(1, (int) $limit));
+    $cards = crescendo_resolve_project_cards($items, array('excerpt', 'text'));
+
+    $coverClasses = array('studio-cover-house', 'studio-cover-atelier');
+    $projects = array();
+
+    foreach ($cards as $index => $card) {
+        if (!is_array($card)) {
+            continue;
+        }
+
+        $title = trim((string) ($card['title'] ?? ''));
+        $url = (string) ($card['url'] ?? '');
+        if ($title === '' && $url === '') {
+            continue;
+        }
+
+        $project_id = (int) ($card['project_id'] ?? 0);
+
+        $excerpt = trim((string) ($card['excerpt'] ?? ''));
+        if ($excerpt === '') {
+            $tags = $card['tags'] ?? ($project_id ? crescendo_project('project-tags', $project_id) : '');
+            if (is_array($tags)) {
+                $excerpt = implode(' · ', array_filter(array_map('trim', $tags)));
+            } elseif (is_string($tags) && trim($tags) !== '') {
+                $excerpt = trim($tags);
+            } elseif (!empty($card['text'])) {
+                $excerpt = wp_trim_words(wp_strip_all_tags((string) $card['text']), 14, '…');
+            }
+        }
+
+        $image = $card['image'] ?? null;
+        $image_url = crescendo_project_card_image_url($image, 'crescendo-card');
+        if ($image_url === '' && is_array($image) && !empty($image['url'])) {
+            $image_url = (string) $image['url'];
+        }
+
+        $projects[] = array(
+            'title' => $title,
+            'excerpt' => $excerpt,
+            'url' => $url,
+            'cover_class' => $coverClasses[$index % count($coverClasses)],
+            'image' => $image,
+            'image_url' => $image_url,
+            'alt' => $project_id
+                ? crescendo_project_hero_image_alt($image, $project_id)
+                : crescendo_attachment_alt($image, $title),
+            'secondary' => $index === 1,
+        );
+    }
+
+    return $projects;
+}
+
+function crescendo_project_card_image_url($image, $size = 'crescendo-card') {
+    if (!$image) {
+        return '';
+    }
+
+    $attachment_id = crescendo_resolve_attachment_id($image);
+    if ($attachment_id > 0) {
+        $url = wp_get_attachment_image_url($attachment_id, $size);
+        if ($url) {
+            return $url;
+        }
+
+        return (string) (wp_get_attachment_image_url($attachment_id, 'large') ?: '');
+    }
+
+    return is_array($image) ? (string) ($image['url'] ?? '') : '';
+}
+
 function crescendo_resolve_project_cards($items, $override_keys = array('text')) {
     if (!is_array($items) || empty($items)) {
         return $items ?: array();

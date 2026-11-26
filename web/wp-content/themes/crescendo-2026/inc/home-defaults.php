@@ -78,6 +78,10 @@ return array(
         array('url' => '/realisations/padam-immo/'),
         array('url' => '/realisations/car-design/'),
     ),
+    'home-studio-projects' => array(
+        array('url' => '/realisations/maison-jaden/'),
+        array('url' => '/realisations/atelier-gambetta/'),
+    ),
     'home-method-eyebrow' => 'Notre méthode',
     'home-method-title' => 'Un accompagnement en 5 étapes',
     'home-method-steps' => array(
@@ -128,21 +132,33 @@ return array(
     'home-testimonials-eyebrow' => 'Nos clients parlent de nous',
     'home-testimonials-items' => array(
         array(
-            'quote' => 'Crescendo a transformé notre présence en ligne. Le site génère des leads qualifiés chaque semaine.',
-            'name' => 'Julien M.',
-            'company' => 'Maison Jaden',
+            'quote' => 'Je suis très satisfaite du travail réalisé par Bryan pour la création de mon site internet. Après plusieurs mésaventures avec d’autres prestataires j’ai été ravie de l’accompagnement de bout en bout, il a réalisé les maquettes afin que je puisse me projeter, développé le site et m’a même aidé sur les contenus. Je le recommande vivement',
+            'name' => 'Sophia Q.',
+            'company' => '',
             'rating' => 5,
         ),
         array(
-            'quote' => 'Professionnels, réactifs et transparents sur les tarifs. La location à 350€/mois était parfaite pour nous.',
-            'name' => 'Sophie L.',
-            'company' => 'Be Focus',
-            'rating' => 5,
-        ),
-        array(
-            'quote' => 'Le CRM connecté à notre site a changé notre façon de gérer les prospects. Un vrai gain de temps.',
-            'name' => 'Thomas R.',
+            'quote' => 'Bientôt 10 ans que Bryan nous accompagne pour nos projets : site vitrine, connexions API entre nos outils SaaS, design, infogérance, … il a su suivre l’évolution de notre entreprise et garder la même énergie au fil des années. Nous vous recommandons ses services 👍',
+            'name' => 'Jocelyn G.',
             'company' => 'Atelier Gambetta',
+            'rating' => 5,
+        ),
+        array(
+            'quote' => 'Très contente de la collaboration avec Bryan, il a pris le temps de cerner nos besoins et nos objectifs, et a réalisé un site sur mesure',
+            'name' => 'Alexe T.',
+            'company' => 'The Fox Agency',
+            'rating' => 5,
+        ),
+        array(
+            'quote' => 'Je suis vraiment très satisfait du travail réalisé pour mon site web. L’équipe a été rapide, efficace et surtout très professionnelle du début à la fin. Ils ont parfaitement compris mes attentes et le résultat est largement à la hauteur. Je recommande vivement leurs services à toute personne qui cherche un accompagnement sérieux et de qualité.',
+            'name' => 'Jérôme V.',
+            'company' => '',
+            'rating' => 5,
+        ),
+        array(
+            'quote' => 'Plus qu’un prestataire, Bryan est un vrai partenaire ! Il prend le temps de comprendre, d’échanger, d’ajuster… Pour assurer un accompagnement et un livrable aligné aux objectifs. Et en plus, il est trop sympa ! Conclusion : Je recommande à 100 % !!',
+            'name' => 'Léa H.',
+            'company' => '',
             'rating' => 5,
         ),
     ),

@@ -12,11 +12,12 @@
     <link rel="shortcut icon" href="<?php echo esc_url($favicon_uri . '/favicon.ico'); ?>">
     <link rel="mask-icon" href="<?php echo esc_url($favicon_uri . '/safari-pinned-tab.svg'); ?>" color="#f5e642">
     <link rel="manifest" href="<?php echo esc_url($favicon_uri . '/site.webmanifest'); ?>">
-    <meta name="theme-color" content="#f5e642">
+    <meta name="theme-color" content="<?php echo (function_exists('crescendo_uses_studio_design') && crescendo_uses_studio_design()) ? '#f6f4ed' : '#f5e642'; ?>">
     <meta name="msapplication-TileColor" content="#f5e642">
     <meta name="msapplication-config" content="<?php echo esc_url($favicon_uri . '/browserconfig.xml'); ?>">
 
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> data-module="bugReport">
+<?php wp_body_open(); ?>
 <div class="site">

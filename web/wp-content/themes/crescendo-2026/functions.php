@@ -9,6 +9,7 @@ define('AJAX_URL', admin_url('admin-ajax.php'));
 
 require_once (__DIR__ . '/inc/datatypes.php');
 require_once (__DIR__ . '/inc/configuration.php');
+require_once (__DIR__ . '/inc/studio-shell.php');
 require_once (__DIR__ . '/inc/configuration_security.php');
 require_once (__DIR__ . '/inc/performance.php');
 require_once (__DIR__ . '/inc/image-webp.php');
@@ -63,7 +64,7 @@ function scripts_site(){
 
     if (!is_admin() && !is_login_page()) wp_deregister_script('jquery');
 
-    if (!is_admin() || !is_user_logged_in()) {
+    if (!is_admin()) {
 
          // Style
         wp_enqueue_style(
@@ -75,13 +76,15 @@ function scripts_site(){
 
         // Script
         wp_enqueue_script('script-js', get_template_directory_uri() . '/assets/js/app.js', array(), filemtime(get_template_directory() . '/assets/js/app.js'), true);
-        wp_enqueue_script(
-            'crescendo-site-header',
-            get_template_directory_uri() . '/assets/js/site-header.js',
-            array(),
-            filemtime(get_template_directory() . '/assets/js/site-header.js'),
-            true
-        );
+        if (!(function_exists('crescendo_uses_studio_design') && crescendo_uses_studio_design())) {
+            wp_enqueue_script(
+                'crescendo-site-header',
+                get_template_directory_uri() . '/assets/js/site-header.js',
+                array(),
+                filemtime(get_template_directory() . '/assets/js/site-header.js'),
+                true
+            );
+        }
         wp_enqueue_script(
             'crescendo-lead-attribution',
             get_template_directory_uri() . '/assets/js/lead-attribution.js',
@@ -122,11 +125,6 @@ function scripts_site(){
                 'privacyUrl' => $privacyUrl,
             ));
         }
-
-        // Script à injecter exemple :
-        // if (is_front_page()) {
-        //     wp_enqueue_script('home-js', get_template_directory_uri() . '/js/home.js', array('jquery'), '1.1.0', true);
-        // }
 
        $dataToBePassed = array(
             'wp_ajax_url' => AJAX_URL,

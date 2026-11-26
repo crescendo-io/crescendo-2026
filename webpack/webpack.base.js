@@ -107,6 +107,7 @@ const webpackBase = {
                 { from: './assets/video', to: 'video' },
                 { from: './assets/favicon', to: 'favicon' },
                 { from: './assets/img', to: 'img' },
+                { from: './assets/js/studio-*.js', to: 'js/[name][ext]' },
             ],
         }),
         new RemoveFilesPlugin({

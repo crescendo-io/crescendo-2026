@@ -1,4 +1,9 @@
 <?php
+if (function_exists('crescendo_uses_studio_design') && crescendo_uses_studio_design()) {
+    get_template_part('template-parts/general/studio', 'mast');
+    return;
+}
+
 $headerCta = get_field('params-header-cta', 'option');
 if (empty($headerCta) || empty($headerCta['url'])) {
     $headerCta = array(

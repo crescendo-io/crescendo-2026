@@ -399,6 +399,52 @@
             "preview_size": "medium"
         },
         {
+            "key": "field_679a1tab00007b",
+            "label": "Studio — Projets",
+            "name": "",
+            "type": "tab",
+            "placement": "top"
+        },
+        {
+            "key": "field_679a1stu0001",
+            "label": "Projets mis en avant",
+            "name": "home-studio-projects",
+            "type": "repeater",
+            "layout": "block",
+            "min": 0,
+            "max": 2,
+            "button_label": "Ajouter un projet",
+            "instructions": "Deux fiches projet maximum. Titre, visuel, prestations, intro et lien sont récupérés depuis chaque étude de cas.",
+            "sub_fields": [
+                {
+                    "key": "field_679a1stu0002",
+                    "label": "Fiche projet",
+                    "name": "project",
+                    "type": "post_object",
+                    "instructions": "Page au template « Étude de cas ».",
+                    "post_type": ["page"],
+                    "return_format": "id",
+                    "ui": 1,
+                    "allow_null": 1,
+                    "multiple": 0
+                },
+                {
+                    "key": "field_679a1stu0003",
+                    "label": "Accroche (optionnel)",
+                    "name": "excerpt",
+                    "type": "text",
+                    "instructions": "Sinon : champ Prestations du projet, ou intro courte."
+                },
+                {
+                    "key": "field_679a1stu0004",
+                    "label": "URL (secours)",
+                    "name": "url",
+                    "type": "url",
+                    "instructions": "Utilisé si aucune fiche projet n'est sélectionnée."
+                }
+            ]
+        },
+        {
             "key": "field_679a1tab00008",
             "label": "Témoignages",
             "name": "",
@@ -534,5 +580,5 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "active": true,
-    "modified": 1784736000
+    "modified": 1764141600
 }
