@@ -11,11 +11,6 @@ body.site-studio .contact-page--studio {
         border-bottom: 1px solid rgb(29 30 27 / 12%);
     }
 
-    .studio-contact-page-hero__inner {
-        padding-top: clamp(56px, 7.5vw, 104px);
-        padding-bottom: clamp(56px, 7vw, 96px);
-    }
-
     .studio-contact-page-hero__layout {
         display: grid;
         grid-template-columns: minmax(0, 0.46fr) minmax(0, 0.54fr);

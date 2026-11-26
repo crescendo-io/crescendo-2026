@@ -15,6 +15,7 @@ require_once (__DIR__ . '/inc/performance.php');
 require_once (__DIR__ . '/inc/image-webp.php');
 require_once (__DIR__ . '/inc/methods.php');
 require_once (__DIR__ . '/inc/site-nav-data.php');
+require_once (__DIR__ . '/inc/studio-nav.php');
 
 require_once (__DIR__ . '/inc/seo-helpers.php');
 require_once (__DIR__ . '/inc/production-ready.php');

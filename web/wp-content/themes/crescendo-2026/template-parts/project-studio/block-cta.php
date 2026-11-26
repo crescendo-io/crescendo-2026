@@ -2,6 +2,7 @@
 $title = crescendo_project('project-cta-title');
 $text = crescendo_project('project-cta-text');
 $button = crescendo_project('project-cta-button');
+$eyebrow = crescendo_project('project-cta-eyebrow');
 $contactUrl = function_exists('crescendo_nav_url') ? crescendo_nav_url('contact') : home_url('/contact/');
 
 if (!$title && empty($button['url'])) {
@@ -10,20 +11,17 @@ if (!$title && empty($button['url'])) {
 
 $ctaUrl = !empty($button['url']) ? $button['url'] : $contactUrl;
 $ctaLabel = !empty($button['title']) ? $button['title'] : __('Demander ma maquette gratuite', 'crescendo-2026');
-?>
-<section class="studio-project-cta" aria-labelledby="studio-project-cta-title">
-    <div class="shell">
-        <?php if ($title) : ?>
-            <h2 id="studio-project-cta-title" data-studio-text-reveal>
-                <?php echo esc_html($title); ?><span class="studio-red">.</span>
-            </h2>
-        <?php endif; ?>
 
-        <div class="studio-project-cta__line" data-studio-text-reveal>
-            <?php if ($text) : ?>
-                <p class="studio-project-cta__text"><?php echo esc_html($text); ?></p>
-            <?php endif; ?>
-            <a class="studio-project-cta__button" href="<?php echo esc_url($ctaUrl); ?>"><?php echo esc_html($ctaLabel); ?></a>
-        </div>
-    </div>
-</section>
+if (!$text) {
+    $text = __('Parlons de votre site. Nous vous proposons une maquette gratuite en 48 h pour valider la direction avant de démarrer.', 'crescendo-2026');
+}
+
+get_template_part('template-parts/general/studio', 'hub-cta', array(
+    'eyebrow' => $eyebrow ?: __('Un projet avec Crescendo', 'crescendo-2026'),
+    'title' => $title,
+    'text' => $text,
+    'title_id' => 'studio-project-cta-title',
+    'section_class' => 'studio-contact studio-contact--hub studio-project-hub-cta',
+    'cta_url' => $ctaUrl,
+    'cta_label' => $ctaLabel,
+));

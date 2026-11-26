@@ -10,7 +10,7 @@ $ctaUrl = !empty($ctaPrimary['url']) ? $ctaPrimary['url'] : $contactUrl;
 $ctaLabel = !empty($ctaPrimary['title']) ? $ctaPrimary['title'] : __('Lancer mon projet', 'crescendo-2026');
 ?>
 <section class="studio-realisations-hero" aria-labelledby="studio-realisations-hero-title">
-    <div class="shell">
+    <div class="shell studio-page-hero__inner">
         <?php if ($eyebrow) : ?>
             <p class="studio-eyebrow" data-studio-text-reveal><?php echo esc_html($eyebrow); ?></p>
         <?php endif; ?>

@@ -149,7 +149,8 @@
       }
     ],
     "secteurs-cta-title": "Votre secteur n'est pas listé ?",
-    "secteurs-cta-text": "Nous adaptons nos sites à toute activité B2B ou B2C. Contactez-nous pour un devis personnalisé et une maquette gratuite en 48h.",
+    "secteurs-cta-text": "Nous adaptons nos sites à toute activité B2B ou B2C. Décrivez-nous votre métier : réponse sous 24 h, devis personnalisé et maquette gratuite en 48 h.",
+    "secteurs-cta-eyebrow": "Votre activité · sur mesure",
     "secteurs-cta-button": {
       "title": "Parler de mon projet",
       "url": "/contact/",

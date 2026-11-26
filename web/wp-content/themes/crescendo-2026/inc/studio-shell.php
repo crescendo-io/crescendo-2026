@@ -76,6 +76,7 @@ function crescendo_enqueue_studio_front_scripts() {
     $themeUri = get_template_directory_uri();
     $files = array(
         'crescendo-studio-mast-hero' => 'studio-mast-hero.js',
+        'crescendo-studio-mast-nav' => 'studio-mast-nav.js',
         'crescendo-studio-cover-reveal' => 'studio-cover-reveal.js',
     );
 

@@ -13,8 +13,8 @@ if ($count === 0) {
 $sliderId = 'studio-about-testimonials-slider';
 ?>
 <section class="studio-about-voices" id="temoignages" aria-labelledby="studio-about-voices-title">
-    <div class="shell">
-        <div class="studio-about-voices__head" data-studio-text-reveal>
+    <div class="shell studio-about-voices__layout">
+        <div class="studio-about-voices__intro" data-studio-text-reveal>
             <?php if ($eyebrow) : ?>
                 <p class="studio-eyebrow"><?php echo esc_html($eyebrow); ?></p>
             <?php endif; ?>
@@ -23,6 +23,9 @@ $sliderId = 'studio-about-testimonials-slider';
                 <br>
                 <?php esc_html_e('équipes qu’on accompagne', 'crescendo-2026'); ?><span class="studio-red">.</span>
             </h2>
+            <p class="studio-about-voices__lede">
+                <?php esc_html_e('Retours de dirigeants et équipes marketing accompagnés à Nantes : site livré, relation de proximité, résultats concrets.', 'crescendo-2026'); ?>
+            </p>
         </div>
 
         <div

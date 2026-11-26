@@ -1,0 +1,121 @@
+// CTA hubs + fiches projet — même charte que .studio-contact accueil
+body.site-studio .services-page--studio,
+body.site-studio .secteurs-page--studio,
+body.site-studio .realisations-page--studio,
+body.site-studio .about-page--studio,
+body.site-studio .project-page--studio {
+    section.studio-contact.studio-contact--hub {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        background: var(--studio-red);
+        color: var(--studio-ink);
+        border-top: 0;
+        padding-block: clamp(62px, 6.5vw, 120px);
+
+        .studio-eyebrow {
+            margin: 0 0 clamp(20px, 2.6vw, 36px);
+            color: var(--studio-ink);
+        }
+
+        h2 {
+            margin: 0 0 0 -0.045em;
+            max-width: 14ch;
+            font-size: clamp(3.4rem, 7.8vw, 10.5rem);
+            font-weight: 575;
+            letter-spacing: -0.075em;
+            line-height: 0.98;
+            color: var(--studio-ink);
+        }
+
+        .studio-contact__period {
+            color: var(--studio-ink);
+        }
+
+        .studio-contact-line {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: clamp(24px, 3vw, 48px);
+            margin-top: clamp(36px, 4.5vw, 78px);
+            padding-top: clamp(20px, 2.4vw, 28px);
+            border-top: 1px solid #922d1e;
+        }
+
+        .studio-contact-line__text {
+            margin: 0;
+            max-width: 38ch;
+            font-size: var(--studio-text-body);
+            line-height: 1.58;
+            color: var(--studio-ink);
+        }
+
+        .studio-contact-line__actions {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: clamp(10px, 1.2vw, 16px);
+            flex-shrink: 0;
+            text-align: right;
+        }
+
+        .studio-mail {
+            color: var(--studio-ink);
+            text-decoration: underline;
+            text-underline-offset: 0.22em;
+        }
+
+        .studio-mail--cta {
+            font-size: clamp(1.35rem, 2.6vw, 3.25rem);
+            font-weight: 575;
+            letter-spacing: -0.05em;
+            line-height: 1.08;
+            text-decoration: none;
+            padding-bottom: 0.08em;
+            border-bottom: 1px solid var(--studio-ink);
+        }
+
+        .studio-mail--cta:hover {
+            border-bottom-color: rgb(29 30 27 / 45%);
+        }
+
+        .studio-mail--email {
+            font-size: clamp(0.78rem, 1.05vw, 0.92rem);
+            font-family: var(--studio-mono);
+            letter-spacing: 0.02em;
+            opacity: 0.88;
+        }
+
+        .studio-mail--email:hover {
+            opacity: 1;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    body.site-studio .services-page--studio section.studio-contact.studio-contact--hub,
+    body.site-studio .secteurs-page--studio section.studio-contact.studio-contact--hub,
+    body.site-studio .realisations-page--studio section.studio-contact.studio-contact--hub,
+    body.site-studio .about-page--studio section.studio-contact.studio-contact--hub,
+    body.site-studio .project-page--studio section.studio-contact.studio-contact--hub {
+        h2 {
+            max-width: none;
+            font-size: clamp(3rem, 10.5vw, 5.5rem);
+        }
+
+        .studio-contact-line {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .studio-contact-line__actions {
+            align-items: flex-start;
+            text-align: left;
+            width: 100%;
+        }
+
+        .studio-mail--cta {
+            font-size: clamp(1.5rem, 6vw, 2.35rem);
+        }
+    }
+}

@@ -8,8 +8,8 @@ body.site-studio .secteurs-page--studio {
 
     .studio-services-hub-hero,
     .studio-secteurs-hub-hero {
-        padding-top: var(--studio-space-hero-top);
-        padding-bottom: var(--studio-space-hero-bottom);
+        padding-top: 0;
+        padding-bottom: 0;
         border-bottom: 1px solid rgb(29 30 27 / 12%);
     }
 
@@ -29,15 +29,6 @@ body.site-studio .secteurs-page--studio {
     }
 
     // Hub secteurs : hero puis liste directe (pas de bandeau « offres » entre les deux)
-    .studio-secteurs-hub-hero {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-
-    .studio-secteurs-hub-hero__inner {
-        padding-top: clamp(56px, 7.5vw, 104px);
-        padding-bottom: clamp(56px, 7vw, 96px);
-    }
 
     .studio-secteurs-hub-hero .studio-services-hub-hero__actions {
         margin-top: clamp(36px, 4.5vw, 56px);
@@ -51,17 +42,6 @@ body.site-studio .secteurs-page--studio {
 
     section.studio-secteurs-hub-list .studio-section-head {
         margin-bottom: clamp(24px, 3vw, 40px);
-    }
-
-    section.studio-secteurs-hub-cta.studio-project-cta {
-        padding-top: var(--studio-space-section);
-        padding-bottom: var(--studio-space-section-tight);
-    }
-
-    section.studio-secteurs-hub-cta .studio-project-cta__line {
-        margin-top: clamp(32px, 4vw, 52px);
-        padding-top: clamp(32px, 4vw, 52px);
-        padding-bottom: clamp(8px, 1.2vw, 16px);
     }
 
     .studio-services-hub-hero__intro {
@@ -166,13 +146,23 @@ body.site-studio .secteurs-page--studio {
         h2 {
             max-width: 20ch;
         }
+
+        // Ne pas hériter du > p { text-align: right } de l’accueil (projets)
+        > .studio-eyebrow,
+        > p {
+            text-align: left;
+            padding-bottom: 0;
+            white-space: normal;
+        }
     }
 
     .studio-services-hub-offers__intro {
-        margin: clamp(14px, 1.8vw, 22px) 0 0;
-        max-width: 52ch;
-        font-size: var(--studio-text-body);
-        line-height: 1.55;
+        margin: clamp(20px, 2.4vw, 32px) 0 0;
+        margin-left: -0.045em;
+        max-width: 56ch;
+        font-size: var(--studio-text-lead);
+        line-height: 1.48;
+        letter-spacing: -0.012em;
         color: #4a4b45;
     }
 

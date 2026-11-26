@@ -6,6 +6,8 @@ body.site-studio {
     --studio-space-head: clamp(28px, 3.5vw, 48px);
     --studio-space-hero-top: clamp(32px, 4vw, 56px);
     --studio-space-hero-bottom: clamp(28px, 3.5vw, 48px);
+    --studio-space-hero-inner-top: clamp(56px, 7.5vw, 104px);
+    --studio-space-hero-inner-bottom: clamp(48px, 6vw, 88px);
     --studio-space-inset: clamp(24px, 3vw, 40px);
 }
 
@@ -32,9 +34,72 @@ body.site-studio .contact-page--studio {
     section.studio-realisations-hero,
     section.studio-services-hub-hero,
     section.studio-secteurs-hub-hero,
-    section.studio-contact-page-hero {
+    section.studio-contact-page-hero,
+    header.studio-about-hero {
         padding-block: 0;
         margin-bottom: 0;
+    }
+
+    // padding-block: 0 sur la section ci-dessus : le rythme vit sur le shell interne
+    .studio-page-hero__inner,
+    section.studio-realisations-hero > .shell,
+    section.studio-project-hero > .shell,
+    section.studio-project-hero .studio-project-hero__inner,
+    section.studio-services-hub-hero .studio-services-hub-hero__inner,
+    section.studio-secteurs-hub-hero .studio-secteurs-hub-hero__inner,
+    section.studio-contact-page-hero .studio-contact-page-hero__inner,
+    header.studio-about-hero > .shell {
+        padding-top: var(--studio-space-hero-inner-top);
+        padding-bottom: var(--studio-space-hero-inner-bottom);
+    }
+
+    // Hubs institutionnels (services, secteurs, réalisations, à propos) : bloc titre centré
+    .studio-page-hero__inner,
+    section.studio-realisations-hero > .shell,
+    section.studio-services-hub-hero .studio-services-hub-hero__inner,
+    section.studio-secteurs-hub-hero .studio-secteurs-hub-hero__inner,
+    header.studio-about-hero > .shell {
+        text-align: center;
+
+        .studio-eyebrow {
+            justify-content: center;
+        }
+
+        h1 {
+            margin-inline: auto;
+        }
+
+        [class*='-hero__intro'],
+        [class*='-hero__lede'],
+        .studio-about-hero__intro {
+            margin-inline: auto;
+        }
+
+        [class*='-hero__actions'],
+        .studio-about-hero__actions {
+            justify-content: center;
+        }
+
+        [class*='-hero__stats'] {
+            text-align: initial;
+
+            li {
+                text-align: center;
+            }
+
+            li > span:not([class*='__stat-index']) {
+                margin-inline: auto;
+            }
+        }
+
+        .studio-about-hero__copy {
+            margin-inline: auto;
+        }
+
+        .studio-about-hero__copy-inner {
+            border-left: 0;
+            padding-left: 0;
+        }
     }
 
     section.studio-hero .studio-hero__overlay {
