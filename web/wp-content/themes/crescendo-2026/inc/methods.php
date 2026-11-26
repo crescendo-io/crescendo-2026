@@ -358,6 +358,16 @@ function lsdGetTemplatePart($folder = '', $slug, $name, $args = '') {
             $partFolder = 'secteurs-studio';
         }
     }
+    if (
+        $folder === 'contact'
+        && function_exists('crescendo_uses_studio_contact_layout')
+        && crescendo_uses_studio_contact_layout()
+    ) {
+        $studioRelative = 'template-parts/contact-studio/' . $slug . '-' . $name . '.php';
+        if (locate_template($studioRelative)) {
+            $partFolder = 'contact-studio';
+        }
+    }
 
     get_template_part('template-parts/' . $partFolder . '/' . $slug, $name, $args);
 

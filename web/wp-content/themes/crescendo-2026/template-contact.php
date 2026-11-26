@@ -11,8 +11,10 @@ get_header('nav');
 
 while (have_posts()) :
     the_post();
+    $studioContactLayout = function_exists('crescendo_uses_studio_contact_layout') && crescendo_uses_studio_contact_layout();
+    $mainClass = 'main contact-page' . ($studioContactLayout ? ' contact-page--studio' : '');
     ?>
-    <main id="main" class="main contact-page" data-module="contactPage">
+    <main id="contenu" class="<?php echo esc_attr($mainClass); ?>" data-module="contactPage">
         <?php lsdGetTemplatePart('contact', 'block', 'hero'); ?>
         <?php lsdGetTemplatePart('contact', 'block', 'info'); ?>
         <?php lsdGetTemplatePart('contact', 'block', 'faq-form'); ?>
